@@ -3,27 +3,33 @@ let allMonsters = [];
 fetch("monsters.json")
   .then(res => res.json())
   .then(monsters => {
-    allMonsters = monsters;
+    // Sort alphabetically by name
+    allMonsters = monsters.sort((a, b) =>
+      a.name.localeCompare(b.name)
+    );
 
-    buildMonsterList(monsters);
+    buildMonsterList(allMonsters);     // optional: your list menu
+    buildMonsterDropdown(allMonsters); // ✅ dropdown
 
-    if (monsters.length > 0) {
-      renderMonster(monsters[0]);
+    if (allMonsters.length > 0) {
+      renderMonster(allMonsters[0]);
+      document.getElementById("monsterSelect").value = 0;
     }
 
-    // Attach search AFTER data + DOM exist
+    // Search filter (still works)
     const searchInput = document.getElementById("monsterSearch");
-    searchInput.addEventListener("input", e => {
-      const query = e.target.value.toLowerCase();
-
-      const filtered = allMonsters.filter(m =>
-        m.name.toLowerCase().includes(query)
-      );
-
-      buildMonsterList(filtered);
-    });
+    if (searchInput) {
+      searchInput.addEventListener("input", e => {
+        const query = e.target.value.toLowerCase();
+        const filtered = allMonsters.filter(m =>
+          m.name.toLowerCase().includes(query)
+        );
+        buildMonsterList(filtered);
+      });
+    }
   })
   .catch(err => console.error("Failed to load monsters:", err));
+
 
 function buildMonsterList(monsters) {
   const list = document.getElementById("monsterList");
