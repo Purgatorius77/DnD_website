@@ -63,7 +63,6 @@ function renderSection(title, items) {
 
 function renderMonster(m) {
   const el = document.getElementById("statblock");
-
   el.innerHTML = `
     <div class="stat-block">
       <header>
@@ -71,11 +70,11 @@ function renderMonster(m) {
         <p class="subtitle">${m.size} ${m.type}, ${m.alignment}</p>
       </header>
 
-      <div class="divider"></div>
-
-      <p><strong>Armor Class</strong> ${m.ac}</p>
-      <p><strong>Hit Points</strong> ${m.hp.average} (${m.hp.roll})</p>
-      <p><strong>Speed</strong> ${m.speed}</p>
+      <div class="top-stats">
+        <p><strong>Armor Class</strong> ${m.ac}</p>
+        <p><strong>Hit Points</strong> ${m.hp.average} (${m.hp.roll})</p>
+        <p><strong>Speed</strong> ${m.speed}</p>
+      </div>
 
       <div class="abilities">
         <p><strong>STR</strong> ${formatAbility(m.abilities.str)}</p>
@@ -100,3 +99,4 @@ function renderMonster(m) {
     </div>
   `;
 }
+
