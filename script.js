@@ -1,7 +1,15 @@
 fetch("monsters.json")
   .then(res => res.json())
   .then(monsters => {
+    // Show Goblin by default
     renderMonster(monsters[0]);
+
+    // Add button handlers (make sure buttons exist in HTML)
+    const goblinBtn = document.getElementById("showGoblin");
+    const skeletonBtn = document.getElementById("showSkeleton");
+
+    goblinBtn.onclick = () => renderMonster(monsters[0]);
+    skeletonBtn.onclick = () => renderMonster(monsters[1]);
   })
   .catch(err => console.error(err));
 
@@ -30,16 +38,6 @@ function renderSection(title, items) {
   `;
 }
 
-
-function abilityMod(score) {
-  return Math.floor((score - 10) / 2);
-}
-
-function formatAbility(score) {
-  const mod = abilityMod(score);
-  return `${score} (${mod >= 0 ? "+" : ""}${mod})`;
-}
-
 function renderMonster(m) {
   const el = document.getElementById("statblock");
 
@@ -53,38 +51,4 @@ function renderMonster(m) {
       <div class="divider"></div>
 
       <p><strong>Armor Class</strong> ${m.ac}</p>
-      <p><strong>Hit Points</strong> ${m.hp.average} (${m.hp.formula})</p>
-      <p><strong>Speed</strong> ${m.speed}</p>
-
-      <div class="divider"></div>
-
-<table class="abilities">
-  <tr>
-    ${Object.keys(m.abilities).map(a => `<th>${a.toUpperCase()}</th>`).join("")}
-  </tr>
-  <tr>
-    ${Object.values(m.abilities)
-      .map(v => `<td>${formatAbility(v)}</td>`)
-      .join("")}
-  </tr>
-</table>
-
-
-      <div class="divider"></div>
-
-      ${renderList("Skills", m.skills)}
-      ${renderList("Senses", m.senses)}
-      ${renderList("Languages", m.languages)}
-      <p><strong>Challenge</strong> ${m.cr}</p>
-
-      <div class="divider"></div>
-
-      ${renderSection("Traits", m.traits)}
-      ${renderSection("Actions", m.actions)}
-      ${renderSection("Reactions", m.reactions)}
-      ${renderSection("Legendary Actions", m.legendaryActions)}
-    </div>
-  `;
-}
-
-
+      <p><strong>Hit Points</strong> ${m.hp.average
