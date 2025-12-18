@@ -1,0 +1,53 @@
+[
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "type": "Humanoid",
+    "size": "Small",
+    "alignment": "Neutral Evil",
+    "cr": 0.25,
+    "xp": 50,
+
+    "ac": 15,
+    "hp": {
+      "average": 7,
+      "formula": "2d6"
+    },
+    "speed": {
+      "walk": 30
+    },
+
+    "abilities": {
+      "str": 8,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 8,
+      "cha": 8
+    },
+
+    "skills": ["Stealth +6"],
+    "senses": ["Darkvision 60 ft."],
+    "languages": ["Common", "Goblin"],
+    "traits": [
+      {
+        "name": "Nimble Escape",
+        "description": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+      }
+    ],
+
+    "actions": [
+      {
+        "name": "Scimitar",
+        "attack": "+4 to hit",
+        "damage": "1d6+2 slashing"
+      },
+      {
+        "name": "Shortbow",
+        "attack": "+4 to hit",
+        "damage": "1d6+2 piercing",
+        "range": "80/320 ft."
+      }
+    ]
+  }
+]
