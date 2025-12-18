@@ -1,7 +1,16 @@
-fetch("monsters.json")
-  .then(res => res.json())
-  .then(monsters => {
-    monsters.forEach(m => {
-      console.log(m.name, m.cr);
-    });
-  });
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D&D Monster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Monster Viewer</h1>
+
+  <div id="monster"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
