@@ -30,6 +30,16 @@ function renderSection(title, items) {
   `;
 }
 
+
+function abilityMod(score) {
+  return Math.floor((score - 10) / 2);
+}
+
+function formatAbility(score) {
+  const mod = abilityMod(score);
+  return `${score} (${mod >= 0 ? "+" : ""}${mod})`;
+}
+
 function renderMonster(m) {
   const el = document.getElementById("statblock");
 
@@ -48,14 +58,17 @@ function renderMonster(m) {
 
       <div class="divider"></div>
 
-      <table class="abilities">
-        <tr>
-          ${Object.keys(m.abilities).map(a => `<th>${a.toUpperCase()}</th>`).join("")}
-        </tr>
-        <tr>
-          ${Object.values(m.abilities).map(v => `<td>${formatAbility(v)}</td>`).join("")}
-        </tr>
-      </table>
+<table class="abilities">
+  <tr>
+    ${Object.keys(m.abilities).map(a => `<th>${a.toUpperCase()}</th>`).join("")}
+  </tr>
+  <tr>
+    ${Object.values(m.abilities)
+      .map(v => `<td>${formatAbility(v)}</td>`)
+      .join("")}
+  </tr>
+</table>
+
 
       <div class="divider"></div>
 
@@ -75,11 +88,3 @@ function renderMonster(m) {
 }
 
 
-function abilityMod(score) {
-  return Math.floor((score - 10) / 2);
-}
-
-function formatAbility(score) {
-  const mod = abilityMod(score);
-  return `${score} (${mod >= 0 ? "+" : ""}${mod})`;
-}
