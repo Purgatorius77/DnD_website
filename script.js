@@ -73,3 +73,13 @@ function renderMonster(m) {
     </div>
   `;
 }
+
+
+function abilityMod(score) {
+  return Math.floor((score - 10) / 2);
+}
+
+function formatAbility(score) {
+  const mod = abilityMod(score);
+  return `${score} (${mod >= 0 ? "+" : ""}${mod})`;
+}
