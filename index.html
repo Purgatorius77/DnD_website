@@ -7,11 +7,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <button id="showGoblin">Goblin</button>
-<button id="showSkeleton">Skeleton</button>
-  <div id="statblock"></div>
+  <div class="layout">
+    <aside class="sidebar">
+      <input
+        type="text"
+        id="monsterSearch"
+        placeholder="Search monsters..."
+      />
+      <ul id="monsterList"></ul>
+    </aside>
+
+    <main id="statblock"></main>
+  </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
 
