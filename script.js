@@ -8,7 +8,7 @@ fetch("monsters.json")
     container.innerHTML = `
       <h2>${monster.name}</h2>
       <p><strong>AC:</strong> ${monster.ac}</p>
-      <p><strong>HP:</strong> ${monster.hp}</p>
+      <p><strong>HP:</strong> ${monster.hp.average} (${monster.hp.formula})</p>
       <p><strong>CR:</strong> ${monster.cr}</p>
 
       <h3>Abilities</h3>
