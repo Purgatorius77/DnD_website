@@ -1,42 +1,68 @@
+body {
+  background: #d6cfbf;
+  padding: 40px;
+}
+
+/* Stat block container */
 .stat-block {
-  max-width: 600px;
+  max-width: 640px;
+  margin: auto;
   background: #fdf1dc;
-  border: 2px solid #7a2e2e;
-  padding: 20px;
-  font-family: serif;
+  padding: 24px;
+  border: 1px solid #7a2e2e;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  font-family: "Georgia", serif;
+  color: #111;
 }
 
+/* Header */
 .stat-block h1 {
+  margin: 0;
+  font-size: 32px;
   color: #7a2e2e;
-  margin-bottom: 0;
 }
 
-.meta {
+.subtitle {
+  margin-top: 4px;
   font-style: italic;
 }
 
-hr {
-  border: none;
-  border-top: 2px solid #7a2e2e;
-  margin: 10px 0;
+/* Divider */
+.divider {
+  height: 2px;
+  background: #7a2e2e;
+  margin: 12px 0;
 }
 
+/* Paragraph spacing */
+.stat-block p {
+  margin: 4px 0;
+}
+
+/* Ability table */
 .abilities {
   width: 100%;
-  text-align: center;
   border-collapse: collapse;
+  text-align: center;
+  margin: 8px 0;
 }
 
 .abilities th {
-  font-weight: bold;
   color: #7a2e2e;
+  font-size: 14px;
 }
 
 .abilities td {
-  padding: 5px;
+  padding: 6px 0;
+  font-size: 16px;
 }
 
+/* Section headers */
 h2 {
+  margin: 14px 0 6px;
+  font-size: 18px;
   color: #7a2e2e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   border-bottom: 1px solid #7a2e2e;
 }
