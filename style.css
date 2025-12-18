@@ -1,0 +1,11 @@
+#monster {
+  border: 2px solid #7a2e2e;
+  padding: 16px;
+  max-width: 400px;
+  background: #fff;
+}
+
+body {
+  background: #f5f0e6;
+  font-family: serif;
+}
