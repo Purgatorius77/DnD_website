@@ -4,14 +4,13 @@ fetch("monsters.json")
     // Show Goblin by default
     renderMonster(monsters[0]);
 
-    // Add button handlers (make sure buttons exist in HTML)
     const goblinBtn = document.getElementById("showGoblin");
     const skeletonBtn = document.getElementById("showSkeleton");
 
-    goblinBtn.onclick = () => renderMonster(monsters[0]);
-    skeletonBtn.onclick = () => renderMonster(monsters[1]);
+    goblinBtn.addEventListener("click", () => renderMonster(monsters[0]));
+    skeletonBtn.addEventListener("click", () => renderMonster(monsters[1]));
   })
-  .catch(err => console.error(err));
+  .catch(err => console.error("Failed to load monsters:", err));
 
 function abilityMod(score) {
   return Math.floor((score - 10) / 2);
@@ -32,9 +31,11 @@ function renderSection(title, items) {
 
   return `
     <h2>${title}</h2>
-    ${items.map(i => `
-      <p><strong>${i.name}.</strong> ${i.text}</p>
-    `).join("")}
+    ${items
+      .map(
+        i => `<p><strong>${i.name}.</strong> ${i.text}</p>`
+      )
+      .join("")}
   `;
 }
 
@@ -51,4 +52,29 @@ function renderMonster(m) {
       <div class="divider"></div>
 
       <p><strong>Armor Class</strong> ${m.ac}</p>
-      <p><strong>Hit Points</strong> ${m.hp.average
+      <p><strong>Hit Points</strong> ${m.hp.average} (${m.hp.roll})</p>
+      <p><strong>Speed</strong> ${m.speed}</p>
+
+      <div class="abilities">
+        <p><strong>STR</strong> ${formatAbility(m.abilities.str)}</p>
+        <p><strong>DEX</strong> ${formatAbility(m.abilities.dex)}</p>
+        <p><strong>CON</strong> ${formatAbility(m.abilities.con)}</p>
+        <p><strong>INT</strong> ${formatAbility(m.abilities.int)}</p>
+        <p><strong>WIS</strong> ${formatAbility(m.abilities.wis)}</p>
+        <p><strong>CHA</strong> ${formatAbility(m.abilities.cha)}</p>
+      </div>
+
+      ${renderList("Skills", m.skills)}
+      ${renderList("Damage Vulnerabilities", m.vulnerabilities)}
+      ${renderList("Damage Resistances", m.resistances)}
+      ${renderList("Damage Immunities", m.immunities)}
+      ${renderList("Senses", m.senses)}
+      ${renderList("Languages", m.languages)}
+
+      <p><strong>Challenge</strong> ${m.challenge}</p>
+
+      ${renderSection("Actions", m.actions)}
+      ${renderSection("Special Traits", m.traits)}
+    </div>
+  `;
+}
