@@ -16,15 +16,7 @@ fetch("monsters.json")
       document.getElementById("monsterSelect").value = 0;
     }
 
-    const searchInput = document.getElementById("monsterSearch");
-    if (searchInput) {
-      searchInput.addEventListener("input", e => {
-        const query = e.target.value.toLowerCase();
-        const filtered = allMonsters.filter(m =>
-          m.name.toLowerCase().includes(query)
-        );
-        buildMonsterList(filtered);
-      });
+    
     }
   })
   .catch(err => console.error("Failed to load monsters:", err));
