@@ -1,11 +1,42 @@
-#monster {
+.stat-block {
+  max-width: 600px;
+  background: #fdf1dc;
   border: 2px solid #7a2e2e;
-  padding: 16px;
-  max-width: 400px;
-  background: #fff;
+  padding: 20px;
+  font-family: serif;
 }
 
-body {
-  background: #f5f0e6;
-  font-family: serif;
+.stat-block h1 {
+  color: #7a2e2e;
+  margin-bottom: 0;
+}
+
+.meta {
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #7a2e2e;
+  margin: 10px 0;
+}
+
+.abilities {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.abilities th {
+  font-weight: bold;
+  color: #7a2e2e;
+}
+
+.abilities td {
+  padding: 5px;
+}
+
+h2 {
+  color: #7a2e2e;
+  border-bottom: 1px solid #7a2e2e;
 }
