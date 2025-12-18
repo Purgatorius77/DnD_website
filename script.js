@@ -1,15 +1,41 @@
+let allMonsters = [];
+
 fetch("monsters.json")
   .then(res => res.json())
   .then(monsters => {
-    // Show Goblin by default
+    allMonsters = monsters;
+
+    buildMonsterList(monsters);
     renderMonster(monsters[0]);
-
-    const goblinBtn = document.getElementById("showGoblin");
-    const skeletonBtn = document.getElementById("showSkeleton");
-
-    goblinBtn.addEventListener("click", () => renderMonster(monsters[0]));
-    skeletonBtn.addEventListener("click", () => renderMonster(monsters[1]));
   })
+  .catch(err => console.error("Failed to load monsters:", err));
+
+function buildMonsterList(monsters) {
+  const list = document.getElementById("monsterList");
+  list.innerHTML = "";
+
+  monsters.forEach(monster => {
+    const li = document.createElement("li");
+    li.textContent = monster.name;
+
+    li.addEventListener("click", () => {
+      renderMonster(monster);
+    });
+
+    list.appendChild(li);
+  });
+}
+
+// 🔍 Search filter
+document.getElementById("monsterSearch").addEventListener("input", e => {
+  const query = e.target.value.toLowerCase();
+
+  const filtered = allMonsters.filter(m =>
+    m.name.toLowerCase().includes(query)
+  );
+
+  buildMonsterList(filtered);
+});
   .catch(err => console.error("Failed to load monsters:", err));
 
 function abilityMod(score) {
