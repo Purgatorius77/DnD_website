@@ -6,41 +6,127 @@
     "type": "Humanoid (goblinoid)",
     "alignment": "Neutral Evil",
     "ac": 15,
-    "hp": {
-      "average": 7,
-      "formula": "2d6"
-    },
+    "hp": { "average": 7, "roll": "2d6" },
     "speed": "30 ft.",
-    "abilities": {
-      "str": 8,
-      "dex": 14,
-      "con": 10,
-      "int": 10,
-      "wis": 8,
-      "cha": 8
-    },
+    "abilities": { "str": 8, "dex": 14, "con": 10, "int": 10, "wis": 8, "cha": 8 },
     "skills": ["Stealth +6"],
     "senses": ["Darkvision 60 ft.", "Passive Perception 9"],
     "languages": ["Common", "Goblin"],
-    "cr": "1/4 (50 XP)",
+    "challenge": "1/4",
     "traits": [
-      {
-        "name": "Nimble Escape",
-        "text": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
-      }
+      { "name": "Nimble Escape", "text": "The goblin can Disengage or Hide as a bonus action." }
     ],
     "actions": [
-      {
-        "name": "Scimitar",
-        "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
-      },
-      {
-        "name": "Shortbow",
-        "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-      }
+      { "name": "Scimitar", "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing." },
+      { "name": "Shortbow", "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft. Hit: 5 (1d6+2) piercing." }
+    ]
+  },
+  {
+    "id": "goblin-warrior",
+    "name": "Goblin Warrior",
+    "size": "Small",
+    "type": "Humanoid (goblinoid)",
+    "alignment": "Neutral Evil",
+    "ac": 15,
+    "hp": { "average": 10, "roll": "3d6" },
+    "speed": "30 ft.",
+    "abilities": { "str": 9, "dex": 14, "con": 11, "int": 10, "wis": 8, "cha": 8 },
+    "skills": ["Stealth +6"],
+    "senses": ["Darkvision 60 ft.", "Passive Perception 9"],
+    "languages": ["Common", "Goblin"],
+    "challenge": "1/4",
+    "traits": [
+      { "name": "Tactical Cunning", "text": "Can evade opportunity attacks and aid allies." }
     ],
-    "reactions": [],
-    "legendaryActions": []
+    "actions": [
+      { "name": "Scimitar", "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing." },
+      { "name": "Shortbow", "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft. Hit: 5 (1d6+2) piercing." }
+    ]
+  },
+  {
+    "id": "goblin-boss",
+    "name": "Goblin Boss",
+    "size": "Small",
+    "type": "Humanoid (goblinoid)",
+    "alignment": "Neutral Evil",
+    "ac": 17,
+    "hp": { "average": 21, "roll": "6d6" },
+    "speed": "30 ft.",
+    "abilities": { "str": 10, "dex": 14, "con": 12, "int": 10, "wis": 8, "cha": 12 },
+    "skills": ["Stealth +6"],
+    "senses": ["Darkvision 60 ft.", "Passive Perception 9"],
+    "languages": ["Common", "Goblin"],
+    "challenge": "1",
+    "traits": [
+      { "name": "Nimble Escape", "text": "The goblin can Disengage or Hide as a bonus action." }
+    ],
+    "actions": [
+      { "name": "Scimitar", "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing." },
+      { "name": "Javelin", "text": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft. Hit: 5 (1d6+2) piercing." }
+    ]
+  },
+  {
+    "id": "orc",
+    "name": "Orc",
+    "size": "Medium",
+    "type": "Humanoid (orc)",
+    "alignment": "Chaotic Evil",
+    "ac": 13,
+    "hp": { "average": 15, "roll": "2d8 + 6" },
+    "speed": "30 ft.",
+    "abilities": { "str": 16, "dex": 12, "con": 16, "int": 7, "wis": 11, "cha": 10 },
+    "skills": [],
+    "senses": ["Darkvision 60 ft.", "Passive Perception 10"],
+    "languages": ["Common", "Orc"],
+    "challenge": "1/2",
+    "traits": [],
+    "actions": [
+      { "name": "Greataxe", "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12+3) slashing." },
+      { "name": "Javelin", "text": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft. Hit: 6 (1d6+3) piercing." }
+    ]
+  },
+  {
+    "id": "troll",
+    "name": "Troll",
+    "size": "Large",
+    "type": "Giant",
+    "alignment": "Chaotic Evil",
+    "ac": 15,
+    "hp": { "average": 84, "roll": "8d10+40" },
+    "speed": "30 ft.",
+    "abilities": { "str": 18, "dex": 13, "con": 20, "int": 7, "wis": 9, "cha": 7 },
+    "skills": [],
+    "senses": ["Darkvision 60 ft.", "Passive Perception 9"],
+    "languages": ["Giant"],
+    "challenge": "5",
+    "traits": [
+      { "name": "Regeneration", "text": "Regains 10 HP at the start of its turn unless it takes acid or fire damage." }
+    ],
+    "actions": [
+      { "name": "Multiattack", "text": "The troll makes three attacks: one with its bite and two with its claws." },
+      { "name": "Bite", "text": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing." },
+      { "name": "Claw", "text": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing." }
+    ]
+  },
+  {
+    "id": "ogre",
+    "name": "Ogre",
+    "size": "Large",
+    "type": "Giant",
+    "alignment": "Chaotic Evil",
+    "ac": 11,
+    "hp": { "average": 59, "roll": "7d10+21" },
+    "speed": "40 ft.",
+    "abilities": { "str": 19, "dex": 8, "con": 16, "int": 5, "wis": 7, "cha": 7 },
+    "skills": [],
+    "senses": ["Darkvision 60 ft.", "Passive Perception 8"],
+    "languages": ["Giant"],
+    "challenge": "2",
+    "traits": [],
+    "actions": [
+      { "name": "Greatclub", "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) bludgeoning." },
+      { "name": "Javelin", "text": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft. Hit: 11 (2d6+4) piercing." }
+    ]
   },
   {
     "id": "skeleton",
@@ -49,40 +135,100 @@
     "type": "Undead",
     "alignment": "Lawful Evil",
     "ac": 13,
-    "hp": {
-      "average": 13,
-      "formula": "2d8 + 4"
-    },
+    "hp": { "average": 13, "roll": "2d8+4" },
     "speed": "30 ft.",
-    "abilities": {
-      "str": 10,
-      "dex": 14,
-      "con": 15,
-      "int": 6,
-      "wis": 8,
-      "cha": 5
-    },
+    "abilities": { "str": 10, "dex": 14, "con": 15, "int": 6, "wis": 8, "cha": 5 },
     "skills": [],
     "senses": ["Darkvision 60 ft.", "Passive Perception 9"],
     "languages": ["—"],
-    "cr": "1/4 (50 XP)",
+    "challenge": "1/4",
     "traits": [
-      {
-        "name": "Undead Nature",
-        "text": "A skeleton is immune to poison damage and the poisoned condition."
-      }
+      { "name": "Undead Nature", "text": "Immune to poison damage and the poisoned condition." }
     ],
     "actions": [
-      {
-        "name": "Shortsword",
-        "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-      },
-      {
-        "name": "Shortbow",
-        "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-      }
+      { "name": "Shortsword", "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing." },
+      { "name": "Shortbow", "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., Hit: 5 (1d6+2) piercing." }
+    ]
+  },
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "size": "Medium",
+    "type": "Undead",
+    "alignment": "Neutral Evil",
+    "ac": 8,
+    "hp": { "average": 22, "roll": "3d8+9" },
+    "speed": "20 ft.",
+    "abilities": { "str": 13, "dex": 6, "con": 16, "int": 3, "wis": 6, "cha": 5 },
+    "skills": [],
+    "senses": ["Darkvision 60 ft.", "Passive Perception 8"],
+    "languages": ["—"],
+    "challenge": "1/4",
+    "traits": [
+      { "name": "Undead Fortitude", "text": "If damage reduces it to 0 HP, must succeed on a Con save or remain at 1 HP." }
     ],
-    "reactions": [],
-    "legendaryActions": []
+    "actions": [
+      { "name": "Slam", "text": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning." }
+    ]
+  },
+  {
+    "id": "bandit",
+    "name": "Bandit",
+    "size": "Medium",
+    "type": "Humanoid (any race)",
+    "alignment": "Any Evil",
+    "ac": 12,
+    "hp": { "average": 11, "roll": "2d8+2" },
+    "speed": "30 ft.",
+    "abilities": { "str": 11, "dex": 12, "con": 12, "int": 10, "wis": 10, "cha": 10 },
+    "skills": [],
+    "senses": ["Passive Perception 10"],
+    "languages": ["Common"],
+    "challenge": "1/8",
+    "traits": [],
+    "actions": [
+      { "name": "Scimitar", "text": "Melee Weapon Attack: +3 to hit, reach 5 ft., Hit: 4 (1d6+1) slashing." },
+      { "name": "Light Crossbow", "text": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., Hit: 5 (1d8) piercing." }
+    ]
+  },
+  {
+    "id": "wolf",
+    "name": "Wolf",
+    "size": "Medium",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "ac": 13,
+    "hp": { "average": 11, "roll": "2d8+2" },
+    "speed": "40 ft.",
+    "abilities": { "str": 12, "dex": 15, "con": 12, "int": 3, "wis": 12, "cha": 6 },
+    "skills": ["Perception +3", "Stealth +4"],
+    "senses": ["Passive Perception 13"],
+    "languages": ["—"],
+    "challenge": "1/4",
+    "traits": [
+      { "name": "Keen Hearing and Smell", "text": "Advantage on Wisdom (Perception) checks that rely on hearing or smell." }
+    ],
+    "actions": [
+      { "name": "Bite", "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) piercing. If target is a creature, it must succeed on DC 11 Strength save or be knocked prone." }
+    ]
+  },
+  {
+    "id": "boar",
+    "name": "Boar",
+    "size": "Medium",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "ac": 11,
+    "hp": { "average": 11, "roll": "2d8+2" },
+    "speed": "40 ft.",
+    "abilities": { "str": 13, "dex": 11, "con": 12, "int": 2, "wis": 9, "cha": 5 },
+    "skills": [],
+    "senses": ["Passive Perception 9"],
+    "languages": ["—"],
+    "challenge": "1/4",
+    "traits": [],
+    "actions": [
+      { "name": "Tusk", "text": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing." }
+    ]
   }
 ]
