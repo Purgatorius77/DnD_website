@@ -21,21 +21,7 @@ fetch("monsters.json")
   })
   .catch(err => console.error("Failed to load monsters:", err));
 
-function buildMonsterList(monsters) {
-  const list = document.getElementById("monsterList");
-  list.innerHTML = "";
 
-  monsters.forEach(monster => {
-    const li = document.createElement("li");
-    li.textContent = monster.name;
-
-    li.addEventListener("click", () => {
-      renderMonster(monster);
-    });
-
-    list.appendChild(li);
-  });
-}
 
 function buildMonsterDropdown(monsters) {
   const select = document.getElementById("monsterSelect");
