@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>D&D Monster Compendium</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>D&D Monster Compendium</h1>
-
-  <div class="monster">
-    <h2>Goblin</h2>
-    <p><strong>AC:</strong> 15</p>
-    <p><strong>HP:</strong> 7</p>
-    <p><strong>CR:</strong> 1/4</p>
-
-    <h3>Abilities</h3>
-    <ul>
-      <li>STR 8</li>
-      <li>DEX 14</li>
-      <li>CON 10</li>
-      <li>INT 10</li>
-      <li>WIS 8</li>
-      <li>CHA 8</li>
-    </ul>
-  </div>
-</body>
-</html>
+fetch("monsters.json")
+  .then(res => res.json())
+  .then(monsters => {
+    monsters.forEach(m => {
+      console.log(m.name, m.cr);
+    });
+  });
