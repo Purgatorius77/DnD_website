@@ -1,52 +1,17 @@
 fetch("monsters.json")
   .then(res => res.json())
   .then(monsters => {
-    const monster = monsters[0];
-    renderMonster(monster);
-  });
+    renderMonster(monsters[0]);
+  })
+  .catch(err => console.error(err));
 
-function renderMonster(m) {
-  const block = document.getElementById("statblock");
+function abilityMod(score) {
+  return Math.floor((score - 10) / 2);
+}
 
-  block.innerHTML = `
-    <div class="stat-block">
-      <h1>${m.name}</h1>
-      <p class="meta">${m.size} ${m.type}, ${m.alignment}</p>
-
-      <hr>
-
-      <p><strong>Armor Class</strong> ${m.ac}</p>
-      <p><strong>Hit Points</strong> ${m.hp.average} (${m.hp.formula})</p>
-      <p><strong>Speed</strong> ${m.speed}</p>
-
-      <hr>
-
-      <table class="abilities">
-        <tr>
-          ${Object.entries(m.abilities).map(([key, val]) =>
-            `<th>${key.toUpperCase()}</th>`
-          ).join("")}
-        </tr>
-        <tr>
-          ${Object.values(m.abilities).map(val =>
-            `<td>${val}</td>`
-          ).join("")}
-        </tr>
-      </table>
-
-      ${renderList("Skills", m.skills)}
-      ${renderList("Senses", m.senses)}
-      ${renderList("Languages", m.languages)}
-      <p><strong>Challenge</strong> ${m.cr}</p>
-
-      <hr>
-
-      ${renderSection("Traits", m.traits)}
-      ${renderSection("Actions", m.actions)}
-      ${renderSection("Reactions", m.reactions)}
-      ${renderSection("Legendary Actions", m.legendaryActions)}
-    </div>
-  `;
+function formatAbility(score) {
+  const mod = abilityMod(score);
+  return `${score} (${mod >= 0 ? "+" : ""}${mod})`;
 }
 
 function renderList(title, list) {
@@ -59,8 +24,52 @@ function renderSection(title, items) {
 
   return `
     <h2>${title}</h2>
-    ${items.map(item => `
-      <p><strong>${item.name}.</strong> ${item.text}</p>
+    ${items.map(i => `
+      <p><strong>${i.name}.</strong> ${i.text}</p>
     `).join("")}
+  `;
+}
+
+function renderMonster(m) {
+  const el = document.getElementById("statblock");
+
+  el.innerHTML = `
+    <div class="stat-block">
+      <header>
+        <h1>${m.name}</h1>
+        <p class="subtitle">${m.size} ${m.type}, ${m.alignment}</p>
+      </header>
+
+      <div class="divider"></div>
+
+      <p><strong>Armor Class</strong> ${m.ac}</p>
+      <p><strong>Hit Points</strong> ${m.hp.average} (${m.hp.formula})</p>
+      <p><strong>Speed</strong> ${m.speed}</p>
+
+      <div class="divider"></div>
+
+      <table class="abilities">
+        <tr>
+          ${Object.keys(m.abilities).map(a => `<th>${a.toUpperCase()}</th>`).join("")}
+        </tr>
+        <tr>
+          ${Object.values(m.abilities).map(v => `<td>${formatAbility(v)}</td>`).join("")}
+        </tr>
+      </table>
+
+      <div class="divider"></div>
+
+      ${renderList("Skills", m.skills)}
+      ${renderList("Senses", m.senses)}
+      ${renderList("Languages", m.languages)}
+      <p><strong>Challenge</strong> ${m.cr}</p>
+
+      <div class="divider"></div>
+
+      ${renderSection("Traits", m.traits)}
+      ${renderSection("Actions", m.actions)}
+      ${renderSection("Reactions", m.reactions)}
+      ${renderSection("Legendary Actions", m.legendaryActions)}
+    </div>
   `;
 }
