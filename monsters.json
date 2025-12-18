@@ -5,14 +5,12 @@
     "size": "Small",
     "type": "Humanoid (goblinoid)",
     "alignment": "Neutral Evil",
-
     "ac": 15,
     "hp": {
       "average": 7,
       "formula": "2d6"
     },
     "speed": "30 ft.",
-
     "abilities": {
       "str": 8,
       "dex": 14,
@@ -21,19 +19,16 @@
       "wis": 8,
       "cha": 8
     },
-
     "skills": ["Stealth +6"],
     "senses": ["Darkvision 60 ft.", "Passive Perception 9"],
     "languages": ["Common", "Goblin"],
     "cr": "1/4 (50 XP)",
-
     "traits": [
       {
         "name": "Nimble Escape",
         "text": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
       }
     ],
-
     "actions": [
       {
         "name": "Scimitar",
@@ -44,7 +39,49 @@
         "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
       }
     ],
-
+    "reactions": [],
+    "legendaryActions": []
+  },
+  {
+    "id": "skeleton",
+    "name": "Skeleton",
+    "size": "Medium",
+    "type": "Undead",
+    "alignment": "Lawful Evil",
+    "ac": 13,
+    "hp": {
+      "average": 13,
+      "formula": "2d8 + 4"
+    },
+    "speed": "30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 14,
+      "con": 15,
+      "int": 6,
+      "wis": 8,
+      "cha": 5
+    },
+    "skills": [],
+    "senses": ["Darkvision 60 ft.", "Passive Perception 9"],
+    "languages": ["—"],
+    "cr": "1/4 (50 XP)",
+    "traits": [
+      {
+        "name": "Undead Nature",
+        "text": "A skeleton is immune to poison damage and the poisoned condition."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Shortsword",
+        "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      },
+      {
+        "name": "Shortbow",
+        "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      }
+    ],
     "reactions": [],
     "legendaryActions": []
   }
