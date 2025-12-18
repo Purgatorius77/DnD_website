@@ -4,24 +4,18 @@ fetch("monsters.json")
   .then(res => res.json())
   .then(monsters => {
     // Sort alphabetically
-    allMonsters = monsters.sort((a, b) =>
-      a.name.localeCompare(b.name)
-    );
+    allMonsters = monsters.sort((a, b) => a.name.localeCompare(b.name));
 
-    buildMonsterList(allMonsters);
+    // Build dropdown
     buildMonsterDropdown(allMonsters);
 
+    // Render first monster
     if (allMonsters.length > 0) {
       renderMonster(allMonsters[0]);
       document.getElementById("monsterSelect").value = 0;
     }
-
-    
-    }
   })
   .catch(err => console.error("Failed to load monsters:", err));
-
-
 
 function buildMonsterDropdown(monsters) {
   const select = document.getElementById("monsterSelect");
@@ -53,7 +47,7 @@ function formatAbility(score) {
 
 function renderList(title, list) {
   if (!list || list.length === 0) return "";
-  return `<p><strong>${title}</strong> ${list.join(", ")}</p>`;
+  return `<p><strong>${title}:</strong> ${list.join(", ")}</p>`;
 }
 
 function renderSection(title, items) {
