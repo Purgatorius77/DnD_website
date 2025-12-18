@@ -2,20 +2,16 @@
   {
     "id": "goblin",
     "name": "Goblin",
-    "type": "Humanoid",
     "size": "Small",
+    "type": "Humanoid (goblinoid)",
     "alignment": "Neutral Evil",
-    "cr": 0.25,
-    "xp": 50,
 
     "ac": 15,
     "hp": {
       "average": 7,
       "formula": "2d6"
     },
-    "speed": {
-      "walk": 30
-    },
+    "speed": "30 ft.",
 
     "abilities": {
       "str": 8,
@@ -27,27 +23,29 @@
     },
 
     "skills": ["Stealth +6"],
-    "senses": ["Darkvision 60 ft."],
+    "senses": ["Darkvision 60 ft.", "Passive Perception 9"],
     "languages": ["Common", "Goblin"],
+    "cr": "1/4 (50 XP)",
+
     "traits": [
       {
         "name": "Nimble Escape",
-        "description": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+        "text": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
       }
     ],
 
     "actions": [
       {
         "name": "Scimitar",
-        "attack": "+4 to hit",
-        "damage": "1d6+2 slashing"
+        "text": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
       },
       {
         "name": "Shortbow",
-        "attack": "+4 to hit",
-        "damage": "1d6+2 piercing",
-        "range": "80/320 ft."
+        "text": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
       }
-    ]
+    ],
+
+    "reactions": [],
+    "legendaryActions": []
   }
 ]
