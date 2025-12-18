@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="UTF-8">
   <title>D&D 5e Stat Block</title>
   <link rel="stylesheet" href="style.css">
@@ -9,16 +8,18 @@
 <body>
   <div class="layout">
     <aside class="sidebar">
+
+      <label for="monsterSearch">Search</label>
       <input
         type="text"
         id="monsterSearch"
         placeholder="Search monsters..."
       />
+
+      <label for="monsterSelect">Select Monster</label>
+      <select id="monsterSelect"></select>
+
       <ul id="monsterList"></ul>
-      <label for="monsterSelect">Select Monster:</label>
-<select id="monsterSelect">
-  <option value="">-- Choose a monster --</option>
-</select>
 
     </aside>
 
@@ -27,6 +28,6 @@
 
   <script src="script.js"></script>
 </body>
-
 </html>
+
 
