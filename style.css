@@ -123,3 +123,105 @@ body {
 .stat-block p strong {
   font-weight: bold;
 }
+
+/* =========================
+   COMBAT TRACKER
+========================= */
+
+.combat-tracker {
+  width: 320px;
+  background-color: #e9e3d3;
+  padding: 20px;
+  border-left: 3px solid #000;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.combat-tracker h2 {
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+  padding-bottom: 6px;
+}
+
+.combat-tracker button {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 2px solid #000;
+  background-color: #cbbd9c;
+  cursor: pointer;
+}
+
+.combat-tracker button:hover {
+  background-color: #b5a983;
+}
+
+/* === Monster Group === */
+.group {
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 12px;
+  background-color: #fff;
+}
+
+.group-header {
+  margin: 0 0 6px 0;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 1px solid #000;
+  padding-bottom: 4px;
+}
+
+.group-header:hover {
+  background-color: #f0ead8;
+}
+
+.group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.group select,
+.group input[type="number"] {
+  width: 100%;
+  padding: 4px 6px;
+  margin-top: 2px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+/* === HP Tracking === */
+.hp-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  gap: 4px;
+}
+
+.hp-list input {
+  width: 60px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #000;
+  background-color: #f9f7f1;
+}
+
+/* === Dead Monster Visual === */
+.hp-list input[value="0"] {
+  background-color: #b00000;
+  color: #fff;
+}
+
+/* === Initiative Order Emphasis === */
+.group:first-child {
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
