@@ -6,17 +6,26 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="layout">
-    <aside class="sidebar">
-      <label for="monsterSelect">Select Monster</label>
-      <select id="monsterSelect">
-        <option value="">-- Choose a monster --</option>
-      </select>
-    </aside>
+<div class="layout">
+  <aside class="sidebar">
+    <label for="monsterSelect">Select Monster</label>
+    <select id="monsterSelect"></select>
+  </aside>
 
-    <main id="statblock"></main>
-  </div>
+  <main id="statblock"></main>
+
+  <aside class="combat-tracker">
+    <h2>Combat Tracker</h2>
+
+    <button id="addGroup">+ Add Monster Group</button>
+    <button id="resetCombat">Reset Combat</button>
+
+    <div id="groups"></div>
+  </aside>
+</div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
+
