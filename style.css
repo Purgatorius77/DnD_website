@@ -1,7 +1,130 @@
 /* =========================
+   BODY & LAYOUT
+========================= */
+body {
+  font-family: "Garamond", "Georgia", serif;
+  background-color: #f4f4f4;
+  color: #000;
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+.sidebar {
+  width: 220px;
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.sidebar select {
+  width: 100%;
+  padding: 6px 8px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+}
+
+/* =========================
+   STAT BLOCK
+========================= */
+#statblock {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.stat-block {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 6px;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Header */
+.stat-block header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.stat-block h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.stat-block .subtitle {
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: 4px;
+}
+
+/* Top Stats */
+.stat-block .top-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.stat-block .top-stats p {
+  flex: 1;
+  text-align: center;
+  margin: 0 5px;
+  padding: 6px 0;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Abilities */
+.abilities {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.abilities p {
+  width: 14%;
+  background-color: #eee;
+  border: 1px solid #000;
+  border-radius: 4px;
+  text-align: center;
+  padding: 6px 0;
+  font-weight: bold;
+}
+
+/* Lists */
+.stat-block p {
+  margin: 6px 0;
+}
+
+.stat-block h2 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+/* =========================
    COMBAT TRACKER
 ========================= */
-
 .combat-tracker {
   width: 320px;
   background-color: #e9e3d3;
@@ -34,7 +157,9 @@
   background-color: #b5a983;
 }
 
-/* === Monster Group === */
+/* =========================
+   MONSTER GROUP
+========================= */
 .group {
   border: 2px solid #000;
   border-radius: 4px;
@@ -56,7 +181,13 @@
   background-color: #f0ead8;
 }
 
-/* === Monster Select === */
+.group label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+/* Monster select stays full width */
 .group select {
   width: 100%;
   padding: 4px;
@@ -65,7 +196,9 @@
   font-family: inherit;
 }
 
-/* === Round / Count Row === */
+/* =========================
+   ROUND / COUNT
+========================= */
 .group-row {
   display: flex;
   gap: 6px;
@@ -77,32 +210,22 @@
   flex-direction: column;
 }
 
-.group-row label {
-  font-size: 0.7rem;
-  font-weight: bold;
-}
-
-/* IMPORTANT: remove 100% width */
-.group-row input {
-  width: auto;
-  padding: 2px 4px;
-  border: 1px solid #000;
-  border-radius: 4px;
-}
-
-/* Narrow inputs */
 .groupRound {
-  width: 44px;
+  width: 48px;
+  padding: 2px 4px;
   text-align: center;
   font-weight: bold;
 }
 
 .groupCount {
-  width: 52px;
+  width: 56px;
+  padding: 2px 4px;
   text-align: center;
 }
 
-/* === HP Tracking (Vertical + Numbered) === */
+/* =========================
+   HP LIST (VERTICAL)
+========================= */
 .hp-list {
   display: flex;
   flex-direction: column;
@@ -124,7 +247,7 @@
 }
 
 .hp-row input {
-  width: 44px;
+  width: 46px;
   padding: 2px;
   font-size: 0.8rem;
   text-align: center;
@@ -133,7 +256,9 @@
   background-color: #f9f7f1;
 }
 
-/* === Delete Single Monster === */
+/* =========================
+   DELETE BUTTONS
+========================= */
 .hp-row button {
   width: 22px;
   height: 22px;
@@ -150,7 +275,6 @@
   background-color: #a00000;
 }
 
-/* === Delete Group Button === */
 .group-delete {
   width: 100%;
   margin-top: 6px;
@@ -166,13 +290,14 @@
   background-color: #730000;
 }
 
-/* === Dead Monster Visual === */
+/* =========================
+   VISUAL STATES
+========================= */
 .hp-row input[value="0"] {
   background-color: #b00000;
   color: #fff;
 }
 
-/* === First in Round Highlight === */
 .group:first-child {
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
