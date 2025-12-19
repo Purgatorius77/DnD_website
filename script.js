@@ -120,7 +120,7 @@ document.getElementById("addGroup").addEventListener("click", () => {
     id: Date.now(),
     monsterIndex: 0,
     count: 1,
-    initiative: 10,
+    roundOrder: 1,
     hp: []
   });
   renderCombatTracker();
@@ -136,11 +136,11 @@ function renderCombatTracker() {
   container.innerHTML = "";
 
   combatGroups
-    .sort((a, b) => b.initiative - a.initiative)
+    .sort((a, b) => a.roundOrder - b.roundOrder)
     .forEach((group, groupIndex) => {
       const monster = allMonsters[group.monsterIndex];
 
-      // Initialize HP
+      // Ensure HP array matches count
       if (group.hp.length !== group.count) {
         group.hp = Array(group.count).fill(monster.hp.average);
       }
@@ -160,8 +160,17 @@ function renderCombatTracker() {
           ).join("")}
         </select>
 
-        <label>Initiative</label>
-        <input type="number" class="groupInit" value="${group.initiative}">
+        <div class="group-row">
+          <div>
+            <label>Round</label>
+            <input type="number" class="groupRound" value="${group.roundOrder}">
+          </div>
+
+          <div>
+            <label>Count</label>
+            <input type="number" min="1" class="groupCount" value="${group.count}">
+          </div>
+        </div>
 
         <div class="hp-list">
           ${group.hp.map((hp, i) => `
@@ -176,9 +185,9 @@ function renderCombatTracker() {
         <button class="group-delete">Remove Group</button>
       `;
 
-      /* --- EVENTS --- */
+      /* ---- EVENTS ---- */
 
-      // Click header → show statblock
+      // Show statblock
       div.querySelector(".group-header").addEventListener("click", () => {
         renderMonster(monster);
       });
@@ -190,9 +199,15 @@ function renderCombatTracker() {
         renderCombatTracker();
       });
 
-      // Initiative
-      div.querySelector(".groupInit").addEventListener("change", e => {
-        group.initiative = Number(e.target.value);
+      // Round order
+      div.querySelector(".groupRound").addEventListener("change", e => {
+        group.roundOrder = Number(e.target.value);
+        renderCombatTracker();
+      });
+
+      // Count change
+      div.querySelector(".groupCount").addEventListener("change", e => {
+        group.count = Number(e.target.value);
         renderCombatTracker();
       });
 
@@ -203,7 +218,7 @@ function renderCombatTracker() {
         });
       });
 
-      // Delete single monster
+      // Delete individual monster
       div.querySelectorAll(".hp-row button").forEach(btn => {
         btn.addEventListener("click", e => {
           const index = Number(e.target.dataset.index);
@@ -222,3 +237,4 @@ function renderCombatTracker() {
       container.appendChild(div);
     });
 }
+
