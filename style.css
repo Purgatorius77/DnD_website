@@ -199,21 +199,62 @@ body {
   font-family: inherit;
 }
 
-/* === HP Tracking === */
+/* === HP Tracking (Vertical + Numbered) === */
 .hp-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin-top: 8px;
-  gap: 4px;
+  gap: 6px;
 }
 
-.hp-list input {
+.hp-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hp-row span {
+  width: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.hp-row input {
   width: 60px;
   text-align: center;
   font-weight: bold;
   border: 2px solid #000;
   background-color: #f9f7f1;
 }
+
+.hp-row button {
+  background-color: #8b0000;
+  color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+}
+
+.hp-row button:hover {
+  background-color: #a00000;
+}
+
+/* === Delete Group Button === */
+.group-delete {
+  margin-top: 6px;
+  width: 100%;
+  background-color: #5a0000;
+  color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.group-delete:hover {
+  background-color: #730000;
+}
+
 
 /* === Dead Monster Visual === */
 .hp-list input[value="0"] {
