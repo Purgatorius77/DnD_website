@@ -137,10 +137,10 @@ function renderCombatTracker() {
 
   combatGroups
     .sort((a, b) => b.initiative - a.initiative)
-    .forEach(group => {
+    .forEach((group, groupIndex) => {
       const monster = allMonsters[group.monsterIndex];
 
-      // Initialize HP per monster
+      // Initialize HP
       if (group.hp.length !== group.count) {
         group.hp = Array(group.count).fill(monster.hp.average);
       }
@@ -160,48 +160,63 @@ function renderCombatTracker() {
           ).join("")}
         </select>
 
-        <label>Count</label>
-        <input type="number" min="1" class="groupCount" value="${group.count}">
-
         <label>Initiative</label>
         <input type="number" class="groupInit" value="${group.initiative}">
 
         <div class="hp-list">
-          ${group.hp.map((hp, i) =>
-            `<input type="number" class="hp" data-index="${i}" value="${hp}">`
-          ).join("")}
+          ${group.hp.map((hp, i) => `
+            <div class="hp-row">
+              <span>${i + 1}.</span>
+              <input type="number" value="${hp}" data-index="${i}">
+              <button data-index="${i}">✖</button>
+            </div>
+          `).join("")}
         </div>
+
+        <button class="group-delete">Remove Group</button>
       `;
 
-      // Click group → show statblock
+      /* --- EVENTS --- */
+
+      // Click header → show statblock
       div.querySelector(".group-header").addEventListener("click", () => {
         renderMonster(monster);
       });
 
-      // Monster select
+      // Change monster type
       div.querySelector(".groupMonster").addEventListener("change", e => {
         group.monsterIndex = Number(e.target.value);
         group.hp = [];
         renderCombatTracker();
       });
 
-      // Count change
-      div.querySelector(".groupCount").addEventListener("change", e => {
-        group.count = Number(e.target.value);
-        renderCombatTracker();
-      });
-
-      // Initiative change
+      // Initiative
       div.querySelector(".groupInit").addEventListener("change", e => {
         group.initiative = Number(e.target.value);
         renderCombatTracker();
       });
 
       // HP change
-      div.querySelectorAll(".hp").forEach(input => {
+      div.querySelectorAll(".hp-row input").forEach(input => {
         input.addEventListener("change", e => {
           group.hp[e.target.dataset.index] = Number(e.target.value);
         });
+      });
+
+      // Delete single monster
+      div.querySelectorAll(".hp-row button").forEach(btn => {
+        btn.addEventListener("click", e => {
+          const index = Number(e.target.dataset.index);
+          group.hp.splice(index, 1);
+          group.count--;
+          renderCombatTracker();
+        });
+      });
+
+      // Delete entire group
+      div.querySelector(".group-delete").addEventListener("click", () => {
+        combatGroups.splice(groupIndex, 1);
+        renderCombatTracker();
       });
 
       container.appendChild(div);
