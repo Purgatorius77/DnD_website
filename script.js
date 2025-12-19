@@ -1,4 +1,8 @@
+/***********************
+ * MONSTER DATA
+ ***********************/
 let allMonsters = [];
+let combatGroups = [];
 
 fetch("monsters.json")
   .then(res => res.json())
@@ -17,6 +21,10 @@ fetch("monsters.json")
   })
   .catch(err => console.error("Failed to load monsters:", err));
 
+
+/***********************
+ * STATBLOCK DROPDOWN
+ ***********************/
 function buildMonsterDropdown(monsters) {
   const select = document.getElementById("monsterSelect");
   select.innerHTML = `<option value="">-- Choose a monster --</option>`;
@@ -36,6 +44,10 @@ function buildMonsterDropdown(monsters) {
   });
 }
 
+
+/***********************
+ * STATBLOCK RENDERING
+ ***********************/
 function abilityMod(score) {
   return Math.floor((score - 10) / 2);
 }
@@ -52,7 +64,6 @@ function renderList(title, list) {
 
 function renderSection(title, items) {
   if (!items || items.length === 0) return "";
-
   return `
     <h2>${title}</h2>
     ${items.map(i =>
@@ -100,3 +111,99 @@ function renderMonster(m) {
   `;
 }
 
+
+/***********************
+ * COMBAT TRACKER
+ ***********************/
+document.getElementById("addGroup").addEventListener("click", () => {
+  combatGroups.push({
+    id: Date.now(),
+    monsterIndex: 0,
+    count: 1,
+    initiative: 10,
+    hp: []
+  });
+  renderCombatTracker();
+});
+
+document.getElementById("resetCombat").addEventListener("click", () => {
+  combatGroups = [];
+  renderCombatTracker();
+});
+
+function renderCombatTracker() {
+  const container = document.getElementById("groups");
+  container.innerHTML = "";
+
+  combatGroups
+    .sort((a, b) => b.initiative - a.initiative)
+    .forEach(group => {
+      const monster = allMonsters[group.monsterIndex];
+
+      // Initialize HP per monster
+      if (group.hp.length !== group.count) {
+        group.hp = Array(group.count).fill(monster.hp.average);
+      }
+
+      const div = document.createElement("div");
+      div.className = "group";
+
+      div.innerHTML = `
+        <h3 class="group-header">${monster.name}</h3>
+
+        <label>Monster</label>
+        <select class="groupMonster">
+          ${allMonsters.map((m, i) =>
+            `<option value="${i}" ${i === group.monsterIndex ? "selected" : ""}>
+              ${m.name}
+            </option>`
+          ).join("")}
+        </select>
+
+        <label>Count</label>
+        <input type="number" min="1" class="groupCount" value="${group.count}">
+
+        <label>Initiative</label>
+        <input type="number" class="groupInit" value="${group.initiative}">
+
+        <div class="hp-list">
+          ${group.hp.map((hp, i) =>
+            `<input type="number" class="hp" data-index="${i}" value="${hp}">`
+          ).join("")}
+        </div>
+      `;
+
+      // Click group → show statblock
+      div.querySelector(".group-header").addEventListener("click", () => {
+        renderMonster(monster);
+      });
+
+      // Monster select
+      div.querySelector(".groupMonster").addEventListener("change", e => {
+        group.monsterIndex = Number(e.target.value);
+        group.hp = [];
+        renderCombatTracker();
+      });
+
+      // Count change
+      div.querySelector(".groupCount").addEventListener("change", e => {
+        group.count = Number(e.target.value);
+        renderCombatTracker();
+      });
+
+      // Initiative change
+      div.querySelector(".groupInit").addEventListener("change", e => {
+        group.initiative = Number(e.target.value);
+        renderCombatTracker();
+      });
+
+      // HP change
+      div.querySelectorAll(".hp").forEach(input => {
+        input.addEventListener("change", e => {
+          group.hp[e.target.dataset.index] = Number(e.target.value);
+        });
+      });
+
+      container.appendChild(div);
+    });
+}
