@@ -1245,39 +1245,49 @@ condSelect.addEventListener("change", e => {
   }
 });
 
-// Add remove & tooltip functionality for each condition
+// Tooltip element
+const tooltip = document.getElementById("tooltip");
 
 // Add remove & tooltip functionality
 condDiv.querySelectorAll(".condition").forEach(span => {
-  // Remove condition on double-tap or long-tap
-  let touchTimeout = null;
-  
-  const showTooltip = (event) => {
-    event.preventDefault(); // prevent text selection
-    const tooltip = document.getElementById("tooltip");
-    tooltip.textContent = span.dataset.description;
+  // Desktop: click removes the condition
+  span.addEventListener("click", (e) => {
+    if (!("ontouchstart" in window)) {  // skip if touch device
+      const idx = parseInt(span.dataset.idx);
+      m.conditions.splice(idx, 1);
+      renderCombatTracker();
+    }
+  });
+
+  // Touch devices: show tooltip on tap
+  span.addEventListener("touchstart", (e) => {
+    e.preventDefault(); // prevents text selection
     const rect = span.getBoundingClientRect();
+    tooltip.textContent = span.dataset.description;
     tooltip.style.top = `${rect.bottom + window.scrollY + 5}px`;
     tooltip.style.left = `${rect.left + window.scrollX}px`;
     tooltip.style.display = "block";
 
-    // Hide after 3s
+    // Hide tooltip after 3s
     clearTimeout(tooltip.hideTimeout);
     tooltip.hideTimeout = setTimeout(() => tooltip.style.display = "none", 3000);
-  };
+  });
 
-  // Touch devices: tap once to show tooltip
+  // Optional: long press to remove condition on touch devices
+  let touchTimer;
+  span.addEventListener("touchend", (e) => {
+    clearTimeout(touchTimer);
+  });
+
   span.addEventListener("touchstart", (e) => {
-    e.preventDefault();
-    showTooltip(e);
+    touchTimer = setTimeout(() => {
+      const idx = parseInt(span.dataset.idx);
+      m.conditions.splice(idx, 1);
+      renderCombatTracker();
+    }, 800); // long press duration
   });
 
-  // Desktop: click removes the condition
-  span.addEventListener("click", () => {
-    const idx = parseInt(span.dataset.idx);
-    m.conditions.splice(idx, 1);
-    renderCombatTracker();
-  });
+  span.addEventListener("touchmove", () => clearTimeout(touchTimer)); // cancel if dragged
 });
 
 // Append to HP list
