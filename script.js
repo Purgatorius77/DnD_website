@@ -367,6 +367,7 @@ currentMonster = mon;
             <p>Own: ${mon.own}</p>
             <p>Number: ${mon.number}</p>
             <p>Storage: ${mon.storage ?? "—"}</p>
+            <p>Homebrew: ${mon.homebrew ?? "—"}</p>
           </div>
 
           <!-- BACKGROUND TAB -->
@@ -888,7 +889,7 @@ function formatDuration(durationArray) {
   const selectedCRs = Array.from(crCheckboxesDiv.querySelectorAll("input:checked")).map(cb => cb.value);
   const selectedTypes = Array.from(typeCheckboxesDiv.querySelectorAll("input:checked")).map(cb => cb.value);
   const ownChecked = document.getElementById("ownCheckbox").checked;
-
+  const homebrewChecked = document.getElementById("homebrewCheckbox").checked;
   const filtered = allMonsters.filter(mon => {
     // Name filter
     if (!mon.name.toLowerCase().includes(searchText)) return false;
@@ -915,7 +916,11 @@ function formatDuration(durationArray) {
     // Own filter
     if (ownChecked && !mon.own) return false;
 
+        // Homebrew filter
+    if (homebrewChecked && !mon.homebrew) return false;
+
     return true;
+    
   });
 
   // Update main dropdown
@@ -1082,6 +1087,11 @@ resetFiltersBtn.addEventListener("click", () => {
   const ownCheckbox = document.getElementById("ownCheckbox");
   if (ownCheckbox) ownCheckbox.checked = false;
 
+  // Reset "Homebrew" checkbox
+  const homebrewCheckbox = document.getElementById("homebrewCheckbox");
+  if (homebrewCheckbox) homebrewCheckbox.checked = false;
+
+
   // Re-filter monsters
   filterMonsters();
 });
@@ -1229,7 +1239,7 @@ ${m.conditions.length ? m.conditions.map(c => `<span class="condition" title="${
 }
 
 // ===== EVENT LISTENERS =====
-[ nameFilterInput, crComparisonSelect, crCheckboxesDiv, typeCheckboxesDiv, document.getElementById("ownCheckbox") ]
+[ nameFilterInput, crComparisonSelect, crCheckboxesDiv, typeCheckboxesDiv, document.getElementById("ownCheckbox"), document.getElementById("homebrewCheckbox")  ]
 .forEach(el => {
     el.addEventListener(el.tagName === "SELECT" ? "change" : "input", filterMonsters);
 });
