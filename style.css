@@ -106,27 +106,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Monster header wrapper: image on left, text centered */
-.monster-header-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center; /* vertical center */
-  justify-content: center; /* horizontally center the content */
-  margin-bottom: 20px;
-  gap: 20px; /* space between image and text */
-}
-
-.monster-image {
-  width: 200px; /* adjust size */
-  height: auto;
-  object-fit: contain;
-  border-radius: 4px;
-}
-
-.monster-header-info {
-  text-align: center;
-  max-width: 100%;
-}
 
 /* Statblock container for left content + right tabs */
 .statblock-container {
@@ -285,10 +264,12 @@ body {
   border: none;
 }
 
-@media (max-width: 900px) {
-  .layout {
-    flex-wrap: wrap;
+@media (max-width: 1024px) {
+  .combat-tracker {
+    width: 320px;
   }
+
+
 
   .combat-tracker {
     position: relative;
@@ -458,40 +439,11 @@ body {
   background: #ddd;
   font-weight: bold;
 }
-/* =========================
-   HEADER
-========================= */
-.monster-header-wrapper {
-  display: flex;
-  align-items: center;   /* vertically center image & text */
-  gap: 20px;             /* space between image and text */
-}
-
-.monster-image {
-  width: 150px;
-  height: auto;
-  border-radius: 8px;
-  object-fit: contain;
-  flex-shrink: 0;        /* don't let image shrink */
-}
-
-.monster-header-info {
-  flex: 1;               /* take all remaining space */
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;  /* vertically center inside column */
-  align-items: center;      /* horizontally center text & tabs */
-  text-align: center;       /* center all text lines */
-}
-
-
-/* Header wrapper: image on left, text column centered */
-/* Header wrapper: 3 columns */
 
 /* ===== HEADER GRID ===== */
 .monster-header-wrapper {
   display: grid;
-  grid-template-columns: 150px 1fr 150px; /* left=image, middle=text, right=empty */
+  grid-template-columns: 150px minmax(0, 1fr) 150px;
   align-items: center;                    /* vertically center everything */
   justify-items: center;                  /* center content in each column horizontally */
   max-width: 700px;
@@ -585,4 +537,10 @@ body {
 #statblock,
 .combat-tracker {
   -webkit-overflow-scrolling: touch;
+}
+#statblock {
+  flex: 1;
+  min-width: 0;          /* ← REQUIRED for iPad Safari */
+  padding: 30px;
+  overflow-y: auto;
 }
