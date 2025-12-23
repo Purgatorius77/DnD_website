@@ -264,11 +264,23 @@ body {
 }
 
 /* iPad / tablet landscape */
+.statblock-container,
+.tab-contents-wrapper,
+.stat-block {
+  min-width: 0;
+}
+
 @media (max-width: 1024px) {
-  .combat-tracker {
-    width: 320px;
+  .stat-block {
+    max-width: 100%;
+  }
+
+  .sidebar {
+    width: 180px;
   }
 }
+
+
 
 /* iPad portrait & smaller */
 @media (max-width: 900px) {
@@ -549,4 +561,17 @@ body {
   min-width: 0;          /* ← REQUIRED for iPad Safari */
   padding: 30px;
   overflow-y: auto;
+}
+
+
+.statblock-container {
+  min-width: 0;
+}
+
+.tab-contents-wrapper {
+  min-width: 0;
+}
+
+.stat-block {
+  min-width: 0;
 }
