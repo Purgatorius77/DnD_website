@@ -285,12 +285,15 @@ body {
   border: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .combat-tracker {
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    max-height: 50vh;
+    width: 320px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #statblock {
+    padding: 20px;
   }
 }
 /* Group styling */
@@ -563,4 +566,5 @@ body {
   font-weight: bold;
   text-align: center;
 }
+
 
