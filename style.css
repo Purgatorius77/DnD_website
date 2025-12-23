@@ -270,35 +270,6 @@ body {
   min-width: 0;
 }
 
-@media (max-width: 1024px) {
-  .stat-block {
-    max-width: 100%;
-  }
-
-  .sidebar {
-    width: 180px;
-  }
-}
-
-
-
-/* iPad portrait & smaller */
-@media (max-width: 900px) {
-  .layout {
-    flex-wrap: wrap;
-  }
-
-  .combat-tracker {
-    position: relative;
-    width: 100%;
-    max-height: 50vh;
-    border-left: none;
-    border-top: 3px solid #000;
-    margin-left: 0;
-  }
-}
-
-
 
 /* Group styling */
 .group {
@@ -574,4 +545,52 @@ body {
 
 .stat-block {
   min-width: 0;
+}
+
+
+/* =========================
+   TABLET LANDSCAPE (KEY FIX)
+========================= */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 180px;
+  }
+
+  .combat-tracker {
+    width: 260px;
+  }
+
+  .stat-block {
+    max-width: none;
+    margin: 0;
+  }
+}
+
+/* =========================
+   TABLET PORTRAIT & MOBILE
+========================= */
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar,
+  .combat-tracker {
+    width: 100%;
+  }
+
+  .combat-tracker {
+    position: relative;
+    max-height: 50vh;
+    border-left: none;
+    border-top: 3px solid #000;
+  }
+
+  .monster-header-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .monster-header-wrapper::after {
+    display: none;
+  }
 }
