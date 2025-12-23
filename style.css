@@ -300,6 +300,7 @@ body {
   }
 }
 
+
 /* Group styling */
 .group {
   border: 2px solid #000;
@@ -571,5 +572,17 @@ body {
   text-align: center;
 }
 
+.condition {
+  cursor: pointer;
+}
 
-
+/* Allow tap-to-show on touch devices */
+@media (hover: none) {
+  .condition:active::after {
+    opacity: 1;
+  }
+}
+#statblock,
+.combat-tracker {
+  -webkit-overflow-scrolling: touch;
+}
