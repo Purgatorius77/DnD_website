@@ -1270,7 +1270,7 @@ condDiv.querySelectorAll(".condition").forEach(span => {
 
     // Hide tooltip after 3s
     clearTimeout(tooltip.hideTimeout);
-    tooltip.hideTimeout = setTimeout(() => tooltip.style.display = "none", 3000);
+    tooltip.hideTimeout = setTimeout(() => tooltip.style.display = "none", 5000);
   });
 
   // Optional: long press to remove condition on touch devices
@@ -1381,4 +1381,5 @@ spellsBtn.addEventListener("click", () => {
   monsterFilters.style.display = "none";
   monsterStatblock.style.display = "none";
 });
+
 
