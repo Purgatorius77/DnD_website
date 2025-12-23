@@ -38,6 +38,48 @@ body {
   border: none;
   font-size: 1rem;
 }
+.monster-filters {
+  margin-top: 20px;       /* space below dropdown */
+  display: flex;
+  flex-direction: column;
+  gap: 6px;               /* spacing between labels/inputs */
+}
+
+.monster-filters label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.monster-filters input {
+  padding: 4px 6px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  font-size: 0.9rem;
+
+  
+}
+.cr-checkboxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* three columns */
+  gap: 5px; /* spacing between checkboxes */
+}
+
+
+.filters {
+  margin-top: 16px;
+}
+
+.filter-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px 10px;
+  margin-bottom: 12px;
+}
+
+.filter-group label {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
 
 /* =========================
    STAT BLOCK
@@ -49,7 +91,7 @@ body {
 }
 
 .stat-block {
-  background-color: #fff;
+  background-color: #f3e9ce;
   border: 2px solid #000;
   border-radius: 6px;
   padding: 20px;
@@ -64,240 +106,461 @@ body {
   margin-bottom: 10px;
 }
 
-.stat-block h1 {
-  font-size: 2rem;
-  margin: 0;
+/* Monster header wrapper: image on left, text centered */
+.monster-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontally center the content */
+  margin-bottom: 20px;
+  gap: 20px; /* space between image and text */
+}
+
+.monster-image {
+  width: 200px; /* adjust size */
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.monster-header-info {
+  text-align: center;
+  max-width: 100%;
+}
+
+/* Statblock container for left content + right tabs */
+.statblock-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+/* Left content (tab contents) */
+.tab-contents-wrapper {
+  flex: 1;
+}
+
+/* Right vertical tabs */
+.tabs-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tabs-vertical .tab-button {
+  writing-mode: horizontal-tb;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* =========================
+   STAT BLOCK SECTIONS
+========================= */
+.stat-block h2 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+  padding-bottom: 4px;
 }
 
 .stat-block .subtitle {
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 4px;
 }
 
-/* Top Stats */
-.stat-block .top-stats {
+.top-stats {
   display: flex;
   justify-content: space-between;
   margin: 15px 0;
+  gap: 6px;
 }
 
-.stat-block .top-stats p {
+.top-stats .stat {
   flex: 1;
   text-align: center;
-  margin: 0 5px;
   padding: 6px 0;
-  border: 1px solid #000;
   border-radius: 4px;
   font-weight: bold;
+  color: black;
+  border: 2px solid black;
+  box-sizing: border-box;
 }
 
-/* Abilities */
+.top-stats .stat .label {
+  color: black;
+}
+
+.top-stats .stat .value {
+  color: rgb(7, 7, 7);
+  display: block;
+  font-size: 1.2rem;
+}
+
+/* Background colors */
+.top-stats .stat.ac { background-color: #a2e4a5; }         /* green */
+.top-stats .stat.hp { background-color: #f0bdb9; }         /* red */
+.top-stats .stat.speed { background-color: #accce6; }      /* blue */
+.top-stats .stat.initiative { background-color: #e2d0b4; } /* orange */
+
+/* =========================
+   ABILITIES (D&D TABLE STYLE)
+========================= */
 .abilities {
   display: flex;
   justify-content: space-between;
+  gap: 6px;
   margin: 15px 0;
 }
 
-.abilities p {
-  width: 14%;
-  background-color: #eee;
+.ability {
+  flex: 1;
   border: 1px solid #000;
   border-radius: 4px;
+  background-color: #c5d5ee;
   text-align: center;
   padding: 6px 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 2px;
+}
+
+.ability-name {
   font-weight: bold;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
 }
 
-/* Lists */
-.stat-block p {
-  margin: 6px 0;
+.ability-score {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
-.stat-block h2 {
-  border-bottom: 1px solid #000;
-  padding-bottom: 2px;
-  margin-top: 20px;
-  font-size: 1.1rem;
-  text-transform: uppercase;
+.ability-mod, .ability-save {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 /* =========================
-   COMBAT TRACKER
+   FLOATING COMBAT TRACKER
 ========================= */
 .combat-tracker {
-  width: 320px;
+  width: 420px;                /* slightly wider for buttons */
+  max-width: 100%;
   background-color: #e9e3d3;
   padding: 20px;
   border-left: 3px solid #000;
   box-sizing: border-box;
   overflow-y: auto;
+  max-height: 90vh;
+  position: sticky;
+  top: 20px;
+  float: right;
+  margin-left: 20px;
 }
-
-.combat-tracker h2 {
-  margin-top: 0;
-  text-align: center;
-  text-transform: uppercase;
-  border-bottom: 2px solid #000;
-  padding-bottom: 6px;
-}
-
-.combat-tracker button {
-  width: 100%;
+.group-header-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-bottom: 6px;
-  padding: 6px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 2px solid #000;
-  background-color: #cbbd9c;
-  cursor: pointer;
 }
 
-.combat-tracker button:hover {
-  background-color: #b5a983;
+.group-monster-image {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border: none;
 }
 
-/* =========================
-   MONSTER GROUP
-========================= */
+@media (max-width: 900px) {
+  .combat-tracker {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    max-height: 50vh;
+  }
+}
+/* Group styling */
 .group {
   border: 2px solid #000;
   border-radius: 4px;
-  padding: 8px;
-  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 12px;
   background-color: #fff;
 }
 
-.group-header {
-  margin: 0 0 6px 0;
-  text-align: center;
-  font-weight: bold;
-  cursor: pointer;
-  border-bottom: 1px solid #000;
-  padding-bottom: 4px;
-}
-
-.group-header:hover {
-  background-color: #f0ead8;
-}
-
-.group label {
-  font-size: 0.75rem;
-  font-weight: bold;
-  margin-top: 6px;
-}
-
-/* Monster select stays full width */
-.group select {
-  width: 100%;
-  padding: 4px;
-  border: 1px solid #000;
-  border-radius: 4px;
-  font-family: inherit;
-}
-
-/* =========================
-   ROUND / COUNT
-========================= */
+/* Group row (Round + Count) */
 .group-row {
   display: flex;
-  gap: 6px;
-  margin-top: 6px;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
-
-.group-row div {
-  display: flex;
-  flex-direction: column;
-}
-
 .groupRound {
-  width: 48px;
-  padding: 2px 4px;
+  width: 40px;           /* narrower than default */
   text-align: center;
   font-weight: bold;
+  padding: 3px;
+  border: 2px solid #000;
+  border-radius: 4px;
 }
 
 .groupCount {
-  width: 56px;
-  padding: 2px 4px;
+  width: 40px;           /* narrower than default */
   text-align: center;
+  font-weight: bold;
+  padding: 3px;
+  border: 2px solid #000;
+  border-radius: 4px;
 }
 
-/* =========================
-   HP LIST (VERTICAL)
-========================= */
-.hp-list {
+.round-control, .count-control {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  margin-top: 8px;
 }
 
+.round-controls {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+/* HP list */
+.hp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+/* HP row */
 .hp-row {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.hp-row span {
-  width: 16px;
-  font-size: 0.75rem;
+/* Monster number and input boxes */
+.hp-row span.monster-number {
+  width: 20px;
   text-align: right;
   font-weight: bold;
 }
 
-.hp-row input {
-  width: 46px;
-  padding: 2px;
-  font-size: 0.8rem;
+.hp-input {
+  width: 50px;
   text-align: center;
   font-weight: bold;
+  padding: 4px;
   border: 2px solid #000;
+  border-radius: 4px;
   background-color: #f9f7f1;
 }
 
-/* =========================
-   DELETE BUTTONS
-========================= */
+/* HP buttons */
 .hp-row button {
-  width: 22px;
-  height: 22px;
-  padding: 0;
-  font-size: 0.7rem;
-  line-height: 1;
+  width: 26px;
+  height: 26px;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 4px;
   background-color: #8b0000;
   color: #fff;
-  border: 1px solid #000;
   cursor: pointer;
 }
 
-.hp-row button:hover {
-  background-color: #a00000;
+/* Conditions below HP */
+.conditions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 28px;
 }
 
-.group-delete {
-  width: 100%;
-  margin-top: 6px;
+.condition-select {
+  width: 180px;
   padding: 4px;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
+  border: 2px solid #000;
+  border-radius: 4px;
+  background-color: #f9f7f1;
+}
+
+.condition-list {
+  font-size: 1rem;
+  color: #b32d2d;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+/* Group delete button */
+.group-delete {
+  margin-top: 8px;
+  width: 100%;
+  padding: 6px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 4px;
   background-color: #5a0000;
   color: #fff;
-  border: 2px solid #000;
   cursor: pointer;
 }
 
 .group-delete:hover {
   background-color: #730000;
 }
+.condition {
+  cursor: help;
+  position: relative;
+}
+.header-tabs {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
 
+.header-tabs .tab-button {
+  padding: 6px 12px;
+  border: 1px solid #aaa;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.header-tabs .tab-button.active {
+  background: #ddd;
+  font-weight: bold;
+}
 /* =========================
-   VISUAL STATES
+   HEADER
 ========================= */
-.hp-row input[value="0"] {
-  background-color: #b00000;
-  color: #fff;
+.monster-header-wrapper {
+  display: flex;
+  align-items: center;   /* vertically center image & text */
+  gap: 20px;             /* space between image and text */
 }
 
-.group:first-child {
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+.monster-image {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+  flex-shrink: 0;        /* don't let image shrink */
 }
+
+.monster-header-info {
+  flex: 1;               /* take all remaining space */
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;  /* vertically center inside column */
+  align-items: center;      /* horizontally center text & tabs */
+  text-align: center;       /* center all text lines */
+}
+
+
+/* Header wrapper: image on left, text column centered */
+/* Header wrapper: 3 columns */
+
+/* ===== HEADER GRID ===== */
+.monster-header-wrapper {
+  display: grid;
+  grid-template-columns: 150px 1fr 150px; /* left=image, middle=text, right=empty */
+  align-items: center;                    /* vertically center everything */
+  justify-items: center;                  /* center content in each column horizontally */
+  max-width: 700px;
+  margin: 0 auto 20px auto;               /* center wrapper in page */
+  gap: 20px;
+}
+
+/* Left image column */
+.monster-header-wrapper .monster-image {
+  grid-column: 1;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+/* Middle text column */
+.monster-header-info {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* horizontal center of text */
+  text-align: center;
+  justify-content: center; /* vertical center within column */
+}
+
+/* Right empty column */
+.monster-header-wrapper::after {
+  content: "";
+  grid-column: 3;
+  width: 150px;  /* same width as image column */
+}
+
+/* Optional: tighter spacing for spell paragraphs */
+.stat-block p {
+  margin: 6px 0;
+}
+
+.spell-link {
+  color: #7b1fa2;              /* arcane purple */
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.spell-link:hover {
+  color: #4a148c;
+  text-decoration-style: solid;
+}
+.back-button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.spell-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75em 0;
+}
+
+.spell-table th,
+.spell-table td {
+  border: 1px solid #666;
+  padding: 0.4em 0.6em;
+}
+
+.spell-table th {
+  background: #918b8b;
+  font-weight: bold;
+  text-align: center;
+}
+
