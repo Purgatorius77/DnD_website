@@ -134,11 +134,6 @@ body {
   cursor: pointer;
 }
 
-
-
-
-
-
 /* =========================
    STAT BLOCK SECTIONS
 ========================= */
@@ -432,16 +427,17 @@ body {
 }
 
 /* ===== HEADER GRID ===== */
+/* Default: image present */
 .monster-header-wrapper {
   display: grid;
-  grid-template-columns: 150px minmax(0, 1fr) 150px;
+  grid-template-columns: 150px 1fr;
   align-items: center;
-  justify-items: center;
   gap: 16px;
   width: 100%;
 }
 
-/* Left image column */
+
+/* Left image */
 .monster-image {
   grid-column: 1;
   width: 150px;
@@ -449,19 +445,42 @@ body {
   object-fit: contain;
 }
 
-/* Middle text column */
+
+/* Center text */
 .monster-header-info {
-  grid-column: 2;
+  grid-column: 1 / -1;   /* FULL WIDTH */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  min-width: 0;           /* prevents flex shrink issues */
 }
 
-/* Right empty column */
+
+/* Right balancing column */
 .monster-header-wrapper::after {
   content: "";
   grid-column: 3;
   width: 150px;
 }
+
+.monster-header-wrapper:has(.monster-image) .monster-header-info {
+  grid-column: 2;
+}
+
+
+/* === NO IMAGE CASE === */
+.monster-header-wrapper:not(:has(.monster-image)) {
+  grid-template-columns: 1fr;
+}
+
+.monster-header-wrapper:not(:has(.monster-image))::after {
+  display: none;
+}
+
+.monster-header-wrapper:not(:has(.monster-image)) .monster-header-info {
+  grid-column: 1;
+}
+
 
 /* Optional: tighter spacing for spell paragraphs */
 .stat-block p {
@@ -550,12 +569,12 @@ body {
 ========================= */
 @media (max-width: 1024px) {
   .sidebar {
-    width: 180px;
+    width: 110px;
     flex-shrink: 0;
   }
 
   .combat-tracker {
-    width: 260px;
+    width: 250px;
     flex-shrink: 0;
   }
 
