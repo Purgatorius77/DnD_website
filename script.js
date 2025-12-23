@@ -1246,16 +1246,14 @@ condSelect.addEventListener("change", e => {
 });
 
 // Add remove & tooltip functionality for each condition
-condDiv.querySelectorAll(".condition").forEach(span => {
-  // Remove condition on click
-  span.addEventListener("click", () => {
-    const idx = parseInt(span.dataset.idx);
-    m.conditions.splice(idx, 1);
-    renderCombatTracker();
-  });
 
-  // Show tooltip on touch devices
-  span.addEventListener("touchstart", e => {
+// Add remove & tooltip functionality
+condDiv.querySelectorAll(".condition").forEach(span => {
+  // Remove condition on double-tap or long-tap
+  let touchTimeout = null;
+  
+  const showTooltip = (event) => {
+    event.preventDefault(); // prevent text selection
     const tooltip = document.getElementById("tooltip");
     tooltip.textContent = span.dataset.description;
     const rect = span.getBoundingClientRect();
@@ -1263,14 +1261,26 @@ condDiv.querySelectorAll(".condition").forEach(span => {
     tooltip.style.left = `${rect.left + window.scrollX}px`;
     tooltip.style.display = "block";
 
-    // Hide tooltip after 3 seconds
-    setTimeout(() => tooltip.style.display = "none", 3000);
+    // Hide after 3s
+    clearTimeout(tooltip.hideTimeout);
+    tooltip.hideTimeout = setTimeout(() => tooltip.style.display = "none", 3000);
+  };
 
-    e.preventDefault(); // prevent text selection
+  // Touch devices: tap once to show tooltip
+  span.addEventListener("touchstart", (e) => {
+    e.preventDefault();
+    showTooltip(e);
+  });
+
+  // Desktop: click removes the condition
+  span.addEventListener("click", () => {
+    const idx = parseInt(span.dataset.idx);
+    m.conditions.splice(idx, 1);
+    renderCombatTracker();
   });
 });
 
-// Append to the HP list
+// Append to HP list
 hpList.appendChild(hpRow);
 hpList.appendChild(condDiv);
     });
