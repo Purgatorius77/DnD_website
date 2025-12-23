@@ -579,7 +579,7 @@ body {
   }
 
   #statblock {
-    min-width: 300px;      /* ensures it doesn't squash */
+    min-width: 360px;      /* ensures it doesn't squash */
   }
 }
 
@@ -623,4 +623,5 @@ body {
     display: none;
   }
 }
+
 
