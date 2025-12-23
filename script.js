@@ -870,7 +870,8 @@ function formatDuration(durationArray) {
     });
   }
 
-  const crValues = ["0","1/8","1/4","1/2", ...Array.from({length:30},(_,i)=>`${i+1}`)];
+const crValues = ["0","1/8","1/4","1/2", "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26", "30"]; 
+
   crValues.forEach(cr => {
     const label = document.createElement("label");
     label.style.marginRight="5px";
@@ -1381,5 +1382,6 @@ spellsBtn.addEventListener("click", () => {
   monsterFilters.style.display = "none";
   monsterStatblock.style.display = "none";
 });
+
 
 
