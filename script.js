@@ -1213,24 +1213,66 @@ function renderCombatTracker() {
       hpRow.querySelector(".hp-input").addEventListener("change", e=>{ m.hp=Number(e.target.value); });
       hpRow.querySelector(".hp-delete").addEventListener("click", ()=>{ group.hp.splice(i,1); group.count--; renderCombatTracker(); });
 
-      const condDiv = document.createElement("div");
-      condDiv.className="conditions-container";
-      condDiv.innerHTML=`
-        <select class="condition-select" data-index="${i}">
-          <option value="">Add condition...</option>
-          ${DND_CONDITIONS.map(c=>`<option value="${c}">${c}</option>`).join("")}
-        </select>
-        <div class="condition-list">
-${m.conditions.length ? m.conditions.map(c => `<span class="condition" title="${CONDITION_DESCRIPTIONS[c] || ""}">${c}</span>`).join(" ") : "None"}
-</div>
-   `;
-      condDiv.querySelector(".condition-select").addEventListener("change", e=>{
-        const val = e.target.value;
-        if(val && !m.conditions.includes(val)){ m.conditions.push(val); e.target.value=""; renderCombatTracker(); }
-      });
-      condDiv.querySelectorAll(".condition").forEach((span,idx)=>span.addEventListener("click", ()=>{ m.conditions.splice(idx,1); renderCombatTracker(); }));
-      hpList.appendChild(hpRow);
-      hpList.appendChild(condDiv);
+const condDiv = document.createElement("div");
+condDiv.className = "conditions-container";
+
+condDiv.innerHTML = `
+  <select class="condition-select" data-index="${i}">
+    <option value="">Add condition...</option>
+    ${DND_CONDITIONS.map(c => `<option value="${c}">${c}</option>`).join("")}
+  </select>
+  <div class="condition-list">
+    ${m.conditions.length ? m.conditions.map((c, idx) => `
+      <span class="condition" 
+            data-description="${CONDITION_DESCRIPTIONS[c] || ''}" 
+            data-idx="${idx}" 
+            title="${CONDITION_DESCRIPTIONS[c] || ''}">
+        ${c}
+      </span>
+    `).join(" ") : "None"}
+  </div>
+`;
+
+const condSelect = condDiv.querySelector(".condition-select");
+
+// Add new condition
+condSelect.addEventListener("change", e => {
+  const val = e.target.value;
+  if (val && !m.conditions.includes(val)) {
+    m.conditions.push(val);
+    e.target.value = "";
+    renderCombatTracker();
+  }
+});
+
+// Add remove & tooltip functionality for each condition
+condDiv.querySelectorAll(".condition").forEach(span => {
+  // Remove condition on click
+  span.addEventListener("click", () => {
+    const idx = parseInt(span.dataset.idx);
+    m.conditions.splice(idx, 1);
+    renderCombatTracker();
+  });
+
+  // Show tooltip on touch devices
+  span.addEventListener("touchstart", e => {
+    const tooltip = document.getElementById("tooltip");
+    tooltip.textContent = span.dataset.description;
+    const rect = span.getBoundingClientRect();
+    tooltip.style.top = `${rect.bottom + window.scrollY + 5}px`;
+    tooltip.style.left = `${rect.left + window.scrollX}px`;
+    tooltip.style.display = "block";
+
+    // Hide tooltip after 3 seconds
+    setTimeout(() => tooltip.style.display = "none", 3000);
+
+    e.preventDefault(); // prevent text selection
+  });
+});
+
+// Append to the HP list
+hpList.appendChild(hpRow);
+hpList.appendChild(condDiv);
     });
 
     // REMOVE GROUP
