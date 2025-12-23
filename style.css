@@ -247,7 +247,6 @@ body {
   max-height: 90vh;
   position: sticky;
   top: 20px;
-  float: right;
   margin-left: 20px;
 }
 .group-header-row {
@@ -264,12 +263,18 @@ body {
   border: none;
 }
 
+/* iPad / tablet landscape */
 @media (max-width: 1024px) {
   .combat-tracker {
     width: 320px;
   }
+}
 
-
+/* iPad portrait & smaller */
+@media (max-width: 900px) {
+  .layout {
+    flex-wrap: wrap;
+  }
 
   .combat-tracker {
     position: relative;
@@ -280,6 +285,7 @@ body {
     margin-left: 0;
   }
 }
+
 
 
 /* Group styling */
