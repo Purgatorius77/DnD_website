@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D&D 5e Stat Block</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Optional: tooltip default styling */
+    #tooltip {
+      position: absolute;
+      padding: 5px 10px;
+      background: white;
+      color: black;
+      border: 1px solid #333;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+      display: none;
+      max-width: 200px;
+      z-index: 1000;
+      pointer-events: none;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+<div class="layout">
+
+  <!-- SIDEBAR -->
+<aside class="sidebar">
+
+  <button id="Monsterstats">Monsters</button>
+  <button id="Spells">Spells</button>
+
+  <!-- MONSTER FILTERS -->
+  <div id="monster-filters">
+    <label for="monsterSelect">Select Monster</label>
+    <select id="monsterSelect"></select>
+
+    <input type="text" id="nameFilter" placeholder="Search by name">
+
+    <div id="crFilter">
+      <p>Filter by Challenge Rating:</p>
+      <div id="crCheckboxes" class="cr-checkboxes"></div>
+      <select id="crComparison">
+        <option value="=">=</option>
+        <option value="<">&lt;</option>
+        <option value=">">&gt;</option>
+      </select>
+    </div>
+
+    <div id="typeCheckboxes"></div>
+
+    <div id="ownCheckboxDiv">
+      <label>
+        <input type="checkbox" id="ownCheckbox">
+        Own
+      </label>
+      <button id="resetFiltersBtn">Reset Filters</button>
+    </div>
+  </div>
+
+  <!-- SPELL FILTERS (start hidden) -->
+  <div id="spell-filters" style="display:none;">
+    <label for="spellSelect">Select Spell</label>
+    <select id="spellSelect"></select>
+    <input type="text" id="spellSearch" placeholder="Search spells">
+
+    <div id="levelFilter">
+      <p>Filter by Level Rating:</p>
+      <div id="levelCheckboxes" class="level-checkboxes"></div>
+      <select id="levelComparison">
+        <option value="=">=</option>
+        <option value="<">&lt;</option>
+        <option value=">">&gt;</option>
+      </select>
+    </div>
+
+    <div id="spellSchoolCheckboxes"></div>
+
+    <button id="resetSpellFiltersBtn">Reset Filters</button>
+  </div>
+
+</aside>
+
+
+  <!-- MAIN STAT BLOCK -->
+<main id="statblock">
+
+  <!-- MONSTER STATBLOCK -->
+  <div id="monster-statblock">
+    <div id="statblock-header"></div>
+    <div id="statblock-content"></div>
+  </div>
+
+  <!-- SPELL STATBLOCK -->
+  <div id="spell-statblock" style="display:none;">
+  <div id="spell-header">
+    <button id="backToMonster" class="back-button">← Back to Monster</button>
+  </div>
+
+
+    <div id="spell-content"></div>
+  </div>
+
+</main>
+
+
+  <!-- COMBAT TRACKER -->
+  <aside class="combat-tracker">
+    <h2>Combat Tracker</h2>
+    <button id="addGroup">+ Add Monster Group</button>
+    <button id="resetCombat">Reset Combat</button>
+    <div id="groups"></div>
+  </aside>
+
+</div>
+
+<!-- Tooltip container for conditions -->
+<div id="tooltip"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
