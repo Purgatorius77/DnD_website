@@ -569,12 +569,12 @@ body {
 ========================= */
 @media (max-width: 1024px) {
   .sidebar {
-    width: 110px;
+    width: 100px;
     flex-shrink: 0;
   }
 
   .combat-tracker {
-    width: 250px;
+    width: 200px;
     flex-shrink: 0;
   }
 
@@ -623,3 +623,4 @@ body {
     display: none;
   }
 }
+
