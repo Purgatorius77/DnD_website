@@ -570,16 +570,18 @@ body {
 @media (max-width: 1024px) {
   .sidebar {
     width: 100px;
-    flex-shrink: 0;
   }
 
   .combat-tracker {
     width: 200px;
-    flex-shrink: 0;
+  }
+
+  .stat-block {
+    max-width: 100%;
   }
 
   #statblock {
-    min-width: 360px;      /* ensures it doesn't squash */
+    flex: 2 1 0;
   }
 }
 
@@ -623,6 +625,7 @@ body {
     display: none;
   }
 }
+
 
 
 
