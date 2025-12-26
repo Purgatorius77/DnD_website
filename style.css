@@ -39,11 +39,12 @@ body {
   border: none;
   font-size: 1rem;
 }
+
 .monster-filters {
-  margin-top: 20px;       /* space below dropdown */
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 6px;               /* spacing between labels/inputs */
+  gap: 6px;
 }
 
 .monster-filters label {
@@ -56,15 +57,13 @@ body {
   border: 2px solid #000;
   border-radius: 4px;
   font-size: 0.9rem;
-
-  
 }
+
 .cr-checkboxes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* three columns */
-  gap: 5px; /* spacing between checkboxes */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
 }
-
 
 .filters {
   margin-top: 16px;
@@ -86,8 +85,8 @@ body {
    STAT BLOCK
 ========================= */
 #statblock {
-  flex: 1 1 auto;         /* grow, shrink, auto-basis */
-  min-width: 360px;       /* prevents squashing on tablets */
+  flex: 1 1 auto;
+  min-width: 360px;
   padding: 30px;
   overflow-y: auto;
 }
@@ -102,26 +101,23 @@ body {
   box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
 }
 
-/* Header */
 .stat-block header {
   text-align: center;
   margin-bottom: 10px;
 }
 
-
-/* Statblock container for left content + right tabs */
 .statblock-container {
   display: flex;
   flex-direction: row;
   gap: 15px;
+  min-width: 0;
 }
 
-/* Left content (tab contents) */
 .tab-contents-wrapper {
   flex: 1;
+  min-width: 0;
 }
 
-/* Right vertical tabs */
 .tabs-vertical {
   display: flex;
   flex-direction: column;
@@ -175,16 +171,16 @@ body {
 }
 
 .top-stats .stat .value {
-  color: rgb(7, 7, 7);
   display: block;
   font-size: 1.2rem;
+  color: rgb(7,7,7);
 }
 
 /* Background colors */
-.top-stats .stat.ac { background-color: #a2e4a5; }         /* green */
-.top-stats .stat.hp { background-color: #f0bdb9; }         /* red */
-.top-stats .stat.speed { background-color: #accce6; }      /* blue */
-.top-stats .stat.initiative { background-color: #e2d0b4; } /* orange */
+.top-stats .stat.ac { background-color: #a2e4a5; }
+.top-stats .stat.hp { background-color: #f0bdb9; }
+.top-stats .stat.speed { background-color: #accce6; }
+.top-stats .stat.initiative { background-color: #e2d0b4; }
 
 /* =========================
    ABILITIES (D&D TABLE STYLE)
@@ -223,7 +219,8 @@ body {
   padding: 0;
 }
 
-.ability-mod, .ability-save {
+.ability-mod,
+.ability-save {
   font-size: 1.2rem;
   font-weight: normal;
   margin: 0;
@@ -234,7 +231,7 @@ body {
    FLOATING COMBAT TRACKER
 ========================= */
 .combat-tracker {
-  width: 420px;                /* slightly wider for buttons */
+  width: 420px;
   max-width: 100%;
   background-color: #e9e3d3;
   padding: 20px;
@@ -246,6 +243,7 @@ body {
   top: 20px;
   margin-left: 20px;
 }
+
 .group-header-row {
   display: flex;
   align-items: center;
@@ -260,15 +258,6 @@ body {
   border: none;
 }
 
-/* iPad / tablet landscape */
-.statblock-container,
-.tab-contents-wrapper,
-.stat-block {
-  min-width: 0;
-}
-
-
-/* Group styling */
 .group {
   border: 2px solid #000;
   border-radius: 4px;
@@ -277,33 +266,30 @@ body {
   background-color: #fff;
 }
 
-/* Group row (Round + Count) */
 .group-row {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-.groupRound {
-  width: 40px;           /* narrower than default */
-  text-align: center;
-  font-weight: bold;
-  padding: 3px;
-  border: 2px solid #000;
-  border-radius: 4px;
+  margin: 8px 0;
+  align-items: center;
 }
 
+.groupRound,
 .groupCount {
-  width: 40px;           /* narrower than default */
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 32px;
   text-align: center;
   font-weight: bold;
-  padding: 3px;
   border: 2px solid #000;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
-.round-control, .count-control {
+.round-control,
+.count-control {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -315,7 +301,6 @@ body {
   align-items: center;
 }
 
-/* HP list */
 .hp-list {
   display: flex;
   flex-direction: column;
@@ -324,7 +309,6 @@ body {
   width: 100%;
 }
 
-/* HP row */
 .hp-row {
   display: flex;
   align-items: center;
@@ -333,28 +317,24 @@ body {
   width: 100%;
 }
 
-/* Monster number and input boxes */
 .hp-row span.monster-number {
   width: 20px;
   text-align: right;
   font-weight: bold;
 }
 
-.hp-input {
-  width: 50px;
+.hp-input,
+.hp-row button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 32px;
   text-align: center;
-  font-weight: bold;
-  padding: 4px;
-  border: 2px solid #000;
-  border-radius: 4px;
-  background-color: #f9f7f1;
+  box-sizing: border-box;
 }
 
-/* HP buttons */
 .hp-row button {
-  width: 26px;
-  height: 26px;
-  font-weight: bold;
   border: 1px solid #000;
   border-radius: 4px;
   background-color: #8b0000;
@@ -362,7 +342,6 @@ body {
   cursor: pointer;
 }
 
-/* Conditions below HP */
 .conditions-container {
   display: flex;
   flex-direction: column;
@@ -387,7 +366,6 @@ body {
   gap: 4px;
 }
 
-/* Group delete button */
 .group-delete {
   margin-top: 8px;
   width: 100%;
@@ -404,10 +382,15 @@ body {
 .group-delete:hover {
   background-color: #730000;
 }
+
 .condition {
   cursor: help;
   position: relative;
 }
+
+/* =========================
+   HEADER TABS
+========================= */
 .header-tabs {
   margin-top: 8px;
   display: flex;
@@ -426,8 +409,9 @@ body {
   font-weight: bold;
 }
 
-/* ===== HEADER GRID ===== */
-/* Default: image present */
+/* =========================
+   MONSTER HEADER GRID
+========================= */
 .monster-header-wrapper {
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -436,8 +420,6 @@ body {
   width: 100%;
 }
 
-
-/* Left image */
 .monster-image {
   grid-column: 1;
   width: 150px;
@@ -445,18 +427,14 @@ body {
   object-fit: contain;
 }
 
-
-/* Center text */
 .monster-header-info {
-  grid-column: 1 / -1;   /* FULL WIDTH */
+  grid-column: 1 / -1;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-
-/* Right balancing column */
 .monster-header-wrapper::after {
   content: "";
   grid-column: 3;
@@ -467,8 +445,6 @@ body {
   grid-column: 2;
 }
 
-
-/* === NO IMAGE CASE === */
 .monster-header-wrapper:not(:has(.monster-image)) {
   grid-template-columns: 1fr;
 }
@@ -481,14 +457,15 @@ body {
   grid-column: 1;
 }
 
-
-/* Optional: tighter spacing for spell paragraphs */
+/* =========================
+   SPELLS & LINKS
+========================= */
 .stat-block p {
   margin: 6px 0;
 }
 
 .spell-link {
-  color: #7b1fa2;              /* arcane purple */
+  color: #7b1fa2;
   font-weight: 600;
   cursor: pointer;
   text-decoration: underline;
@@ -499,6 +476,7 @@ body {
   color: #4a148c;
   text-decoration-style: solid;
 }
+
 .back-button {
   background: none;
   border: none;
@@ -529,103 +507,298 @@ body {
   text-align: center;
 }
 
-.condition {
-  cursor: pointer;
-}
-
-/* Allow tap-to-show on touch devices */
+/* =========================
+   MEDIA QUERIES
+========================= */
 @media (hover: none) {
   .condition:active::after {
     opacity: 1;
   }
 }
-#statblock,
-.combat-tracker {
-  -webkit-overflow-scrolling: touch;
-}
-#statblock {
-  flex: 1;
-  min-width: 0;          /* ← REQUIRED for iPad Safari */
-  padding: 30px;
-  overflow-y: auto;
-}
 
-
-.statblock-container {
-  min-width: 0;
-}
-
-.tab-contents-wrapper {
-  min-width: 0;
-}
-
-.stat-block {
-  min-width: 0;
-}
-
-
-/* =========================
-   TABLET LANDSCAPE (1024px)
-========================= */
 @media (max-width: 1024px) {
-  .sidebar {
-    width: 100px;
-  }
-
-  .combat-tracker {
-    width: 200px;
-  }
-
-  .stat-block {
-    max-width: 100%;
-  }
-
-  #statblock {
-    flex: 2 1 0;
-  }
+  .sidebar { width: 100px; }
+  .combat-tracker { width: 200px; }
+  .stat-block { max-width: 100%; }
+  #statblock { flex: 2 1 0; }
 }
 
-/* =========================
-   TABLET PORTRAIT & MOBILE (<900px)
-========================= */
 @media (max-width: 900px) {
-  .layout {
-    flex-direction: column;
-  }
-
+  .layout { flex-direction: column; }
   .sidebar,
-  .combat-tracker {
-    width: 100%;
-  }
-
+  .combat-tracker { width: 100%; }
   .combat-tracker {
     position: relative;
     max-height: 50vh;
     border-left: none;
     border-top: 3px solid #000;
   }
-
   .monster-header-wrapper {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
   }
-
   .monster-header-wrapper .monster-image {
     width: 120px;
     grid-row: 1;
     justify-self: center;
   }
-
   .monster-header-info {
     grid-row: 2;
     justify-self: center;
   }
-
-  .monster-header-wrapper::after {
-    display: none;
-  }
+  .monster-header-wrapper::after { display: none; }
 }
 
+/* =========================
+   BUTTON STYLING
+========================= */
+button {
+  font-family: "Garamond", "Georgia", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: linear-gradient(#f3e2b7, #e1c58a);
+  border: 2px solid #3a2a16;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
 
+.sidebar > button,
+#rules-filters button,
+.combat-tracker > button {
+  width: 100%;
+  padding: 10px 12px;
+}
 
+/* =========================
+   SIDEBAR BUTTON UNIFICATION
+========================= */
+
+/* All sidebar buttons look the same */
+.sidebar button {
+  width: 100%;
+  padding: 10px 12px;
+  font-family: "Garamond", "Georgia", serif;
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  color: #2b1b0f;
+  background: linear-gradient(#f3e2b7, #e1c58a);
+  border: 2px solid #3a2a16;
+  border-radius: 6px;
+
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.4),
+    0 2px 0 #3a2a16,
+    0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* Hover & click effects stay consistent */
+.sidebar button:hover {
+  background: linear-gradient(#f7ebc8, #ead29b);
+}
+
+.sidebar button:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.4);
+}
+
+/* Only truly destructive actions stay red */
+.sidebar button.danger,
+#resetCombat.danger,
+.group-delete {
+  background: linear-gradient(#8b1e1e, #5a0000);
+  color: #fff;
+  border-color: #2a0000;
+}
+/* =========================
+   COMBAT TRACKER UNIFIED SIZING
+========================= */
+
+/* Round & Count inputs */
+.groupRound,
+.groupCount {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 32px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* HP input (wider than round/count) */
+.hp-input {
+  width: 50px;      /* wider than 32px */
+  height: 32px;     /* keep same height */
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 32px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* HP +/- buttons */
+.hp-row button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 32px;
+  box-sizing: border-box;
+}
+
+/* Align all elements nicely */
+.group-row,
+.hp-row {
+  align-items: center;
+}
+/* =========================
+   COMBAT TRACKER BUTTON UNIFICATION
+========================= */
+
+/* HP, Round, and Count buttons all share the same style */
+.hp-row button,
+.round-control button,
+.count-control button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 32px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #8b0000; /* same as HP buttons */
+  color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.1s ease;
+}
+
+/* Hover and active states (match HP buttons) */
+.hp-row button:hover,
+.round-control button:hover,
+.count-control button:hover {
+  background-color: #a10000;
+}
+
+.hp-row button:active,
+.round-control button:active,
+.count-control button:active {
+  transform: translateY(1px);
+}
+/* =========================
+   RULES STATBLOCK
+========================= */
+#rules-statblock {
+  display: block;               
+  background-color: #f3e9ce;    
+  border: 2px solid #000;
+  border-radius: 6px;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  font-family: "Garamond", "Georgia", serif;
+  color: #000;
+  overflow-y: auto;
+}
+
+/* Table Titles (simulate <h2>) */
+#rules-statblock .table-title {
+  font-size: 1.3em;      /* bigger than normal text */
+  font-weight: bold;
+  margin: 1em 0 0.5em 0;
+  border-bottom: 2px solid #000; /* line under title */
+  padding-bottom: 3px;
+}
+
+/* Tables in rules-statblock */
+#rules-statblock table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+}
+
+/* Table headers */
+#rules-statblock th {
+  text-align: left;
+  padding: 6px;
+  font-size: 1em;
+  border-bottom: 2px solid #000; /* line under headers */
+}
+
+/* Table cells */
+#rules-statblock td {
+  vertical-align: top;
+  padding: 6px;
+  line-height: 1.4em;
+  border-bottom: 1px solid #ccc; /* line between rows */
+  border-right: 1px solid #ccc;  /* line between columns */
+}
+
+/* Last column remove right border */
+#rules-statblock td:last-child {
+  border-right: none;
+}
+
+/* =========================
+   Character STATBLOCK
+========================= */
+#character-statblock {
+  display: block;               
+  background-color: #f3e9ce;    
+  border: 2px solid #000;
+  border-radius: 6px;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  font-family: "Garamond", "Georgia", serif;
+  color: #000;
+  overflow-y: auto;
+}
+
+/* Table Titles (simulate <h2>) */
+#character-statblock .table-title {
+  font-size: 1.3em;      /* bigger than normal text */
+  font-weight: bold;
+  margin: 1em 0 0.5em 0;
+  border-bottom: 2px solid #000; /* line under title */
+  padding-bottom: 3px;
+}
+
+/* Tables in character-statblock */
+#character-statblock table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+}
+
+/* Table headers */
+#character-statblock th {
+  text-align: left;
+  padding: 6px;
+  font-size: 1em;
+  border-bottom: 2px solid #000; /* line under headers */
+}
+
+/* Table cells */
+#character-statblock td {
+  vertical-align: top;
+  padding: 6px;
+  line-height: 1.4em;
+  border-bottom: 1px solid #ccc; /* line between rows */
+  border-right: 1px solid #ccc;  /* line between columns */
+}
+
+/* Last column remove right border */
+#character-statblock td:last-child {
+  border-right: none;
+}
 
