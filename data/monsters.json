@@ -87538,5 +87538,98 @@
         "own": true,
         "number": 20,
         "storage": "warhammer", "homebrew": true
+    },
+    {
+        "id": "Parasite Hound",
+        "name": "Parasite Hound",
+        "size": "Small",
+        "type": "Aberration (Parasite)",
+        "alignment": "Neutral Evil",
+        "habitat": "Unknown",
+        "treasure": "None",
+        "source": "Homebrew",
+        "ac": 13,
+        "hp": {
+            "average": 65,
+            "roll": "10d6 + 30"
+        },
+        "initiative": "+3 (13)",
+        "speed": "40 ft",
+        "abilities": {
+            "str": 18,
+            "str_mod": "+4",
+            "str_save": "+4",
+            "dex": 16,
+            "dex_mod": "+3",
+            "dex_save": "+3",
+            "con": 16,
+            "con_mod": "+3",
+            "con_save": "+3",
+            "int": 8,
+            "int_mod": "-1",
+            "int_save": "-1",
+            "wis": 14,
+            "wis_mod": "+2",
+            "wis_save": "+2",
+            "cha": 8,
+            "cha_mod": "-1",
+            "cha_save": "-1"
+        },
+        "skills": [
+          "Intimidation +1",
+          "Perception +4",
+          "Stealth +5"
+        ],
+        "vulnerability": [
+            "None"
+        ],
+        "resistance": [
+            "necrotic, poison"
+        ],
+        "immunity": [
+            "blinded, deafened"
+        ],
+        "condition_immunity": [
+            "None"
+        ],
+        "gear": [
+            "None"
+        ],
+        "senses": [
+            "Blindsight 30 ft.",
+            "Passive Perception 14"
+        ],
+        "languages": [
+            "understands Abyssal but can't speak"
+        ],
+        "challenge": "2 (XP 450, PB +2)",
+        "traits": [
+            {
+                "name": "None",
+                "text": "None"
+            }
+        ],
+        "actions": [
+            {
+                "name": "None",
+                "text": "None"
+            }
+        ],
+        "bonus_actions": [
+            {
+                "name": "None",
+                "text": "None"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "None",
+                "text": "None"
+            }
+        ],
+        "legendary_actions": [],
+        "own": true,
+        "number": 6,
+        "storage": "warhammer", "homebrew": true
     }
 ]
