@@ -750,6 +750,7 @@ function refreshCharacterList(){
 
 
 }
+}
 
 
 
