@@ -600,22 +600,20 @@ async function saveSheet() {
       }
     });
 
-  // Save to localStorage
+  // Save locally first
   localStorage.setItem("character_" + name, JSON.stringify(data));
   localStorage.setItem("lastCharacter", name);
-
-  // Update character list
   refreshCharacterList();
   document.getElementById("characterList").value = name;
 
-  // Optional: Save to GitHub
+  // Try saving to GitHub
   try {
     await saveCharacterToGitHub(data, name);
-  } catch(err) {
-    console.error("GitHub save failed", err);
+    alert(`Character "${name}" saved locally and to GitHub!`);
+  } catch (err) {
+    console.warn("GitHub save failed, saved locally only:", err);
+    alert(`Character "${name}" saved locally. GitHub save failed.`);
   }
-
-  alert("Character saved!");
 }
 
 async function loadSheet() {
@@ -623,29 +621,61 @@ async function loadSheet() {
   const name = list.value;
   if (!name) return alert("Select a character first");
 
+  let data = null;
+
   // Try localStorage first
   const saved = localStorage.getItem("character_" + name);
   if(saved) {
-    const data = JSON.parse(saved);
-    Object.keys(data).forEach(id => {
-      const el = document.getElementById(id);
-      if(!el) return;
-      if(el.type === "checkbox") el.checked = data[id];
-      else el.value = data[id];
-    });
-    updateCharacter();
+    data = JSON.parse(saved);
+    populateCharacterForm(data);
+    console.log(`Loaded "${name}" from localStorage`);
   }
 
-  // Optional: also load from GitHub (overwrite localStorage if exists)
+  // Then try GitHub (overwrite localStorage if successful)
   try {
     await loadCharacterFromGitHub(name);
-  } catch(err) {
-    console.warn("GitHub load failed", err);
+    console.log(`Loaded "${name}" from GitHub`);
+  } catch (err) {
+    if(!data) alert(`Failed to load character "${name}" from GitHub or localStorage`);
+    else console.warn("GitHub load failed, using localStorage version", err);
   }
 
   // Remember last character
   localStorage.setItem("lastCharacter", name);
 }
+
+// Helper to populate form from data object
+function populateCharacterForm(data) {
+  Object.keys(data).forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    if(el.type === "checkbox") el.checked = data[id];
+    else el.value = data[id];
+  });
+  updateCharacter();
+}
+
+// Refresh the character dropdown
+function refreshCharacterList(){
+  const list = document.getElementById("characterList");
+  list.innerHTML = "";
+
+  Object.keys(localStorage)
+    .filter(k => k.startsWith("character_"))
+    .sort()
+    .forEach(k => {
+      const name = k.replace("character_", "");
+      const opt = document.createElement("option");
+      opt.value = name;
+      opt.textContent = name;
+      list.appendChild(opt);
+    });
+
+  const last = localStorage.getItem("lastCharacter");
+  if(last) list.value = last;
+}
+
+
 
 
 
@@ -713,4 +743,3 @@ function refreshCharacterList(){
 
 
 }
-
