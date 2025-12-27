@@ -681,6 +681,55 @@ function refreshCharacterList(){
   if(last) list.value = last;
 }
 
+// ================== GitHub SAVE / LOAD ==================
+
+// WARNING: Putting your personal token in client JS is unsafe for production.
+// Anyone can see it. For a secure setup, use a server-side proxy.
+
+const GITHUB_REPO = "purgatorius77/DnD_website";
+const GITHUB_BRANCH = "main";
+const GITHUB_TOKEN = "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"; // Replace with your token
+
+async function saveCharacterToGitHub(data, name) {
+  const path = `data/characters/${name}.json`;
+  const content = btoa(JSON.stringify(data, null, 2)); // Base64 encode
+
+  // Check if file already exists to get SHA
+  let sha = undefined;
+  try {
+    const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}?ref=${GITHUB_BRANCH}`, {
+      headers: { Authorization: `token ${GITHUB_TOKEN}` }
+    });
+    if (res.ok) {
+      const json = await res.json();
+      sha = json.sha;
+    }
+  } catch (err) {
+    // file doesn't exist, ignore
+  }
+
+  const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
+    method: "PUT",
+    headers: { Authorization: `token ${GITHUB_TOKEN}` },
+    body: JSON.stringify({
+      message: `Save character ${name}`,
+      content: content,
+      branch: GITHUB_BRANCH,
+      sha: sha // required if updating
+    })
+  });
+
+  if (!res.ok) throw new Error(await res.text());
+}
+
+async function loadCharacterFromGitHub(name) {
+  const path = `data/characters/${name}.json`;
+  const res = await fetch(`https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}/${path}`);
+  if (!res.ok) throw new Error("Character not found on GitHub");
+  const data = await res.json();
+  populateCharacterForm(data);
+  localStorage.setItem("character_" + name, JSON.stringify(data));
+}
 
 
 
@@ -731,6 +780,7 @@ function updateSubclassOptions() {
 
 
 }
+
 
 
 
