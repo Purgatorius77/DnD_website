@@ -548,6 +548,8 @@ if (hpCurrent && hpMax) {
   // Spellcasting ability derived from class
   // -----------------------------
   const charClass = document.getElementById("charClass")?.value;
+  const cls = charClass;
+
   const spellAbilityStat = classSpellAbility[charClass] || "";
   const spellAbilityInput = document.getElementById("charSpellcastingAbility");
   if(spellAbilityInput) spellAbilityInput.value = spellAbilityStat;
@@ -744,5 +746,6 @@ function refreshCharacterList(){
 
 
 }
+
 
 
