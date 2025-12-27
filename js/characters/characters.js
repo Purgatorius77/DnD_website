@@ -728,24 +728,6 @@ function updateSubclassOptions() {
   });
 }
 
-function refreshCharacterList(){
-  const list = document.getElementById("characterList");
-  list.innerHTML = "";
-
-  Object.keys(localStorage)
-    .filter(k => k.startsWith("character_"))
-    .sort()
-    .forEach(k => {
-      const name = k.replace("character_", "");
-      const opt = document.createElement("option");
-      opt.value = name;
-      opt.textContent = name;
-      list.appendChild(opt);
-    });
-
-  const last = localStorage.getItem("lastCharacter");
-  if(last) list.value = last;
-}
 
 
 }
