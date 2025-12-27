@@ -36,6 +36,27 @@ const subclasses = {
   Wizard: ["Evocation", "Abjuration", "Conjuration", "Necromancy", "Illusion", "Divination"]
 };
 
+const classSpellAbility = {
+  "Bard": "CHA",
+  "Cleric": "WIS",
+  "Druid": "WIS",
+  "Paladin": "CHA",
+  "Ranger": "WIS",
+  "Sorcerer": "CHA",
+  "Warlock": "CHA",
+  "Wizard": "INT"
+};
+
+const spellcastingClasses = {
+  Bard: { cantrips: [2, 2, 2, 3, 3, 3, 3, 4, 4, 4], spellsKnown: [4, 5, 6, 7, 8, 9, 10, 11, 12, 14] },
+  Cleric: { cantrips: [3, 3, 3, 3, 4, 4, 4, 4, 4, 4], spellsPrepared: level => level + getMod("WIS") },
+  Druid: { cantrips: [2, 2, 2, 3, 3, 3, 3, 4, 4, 4], spellsPrepared: level => level + getMod("WIS") },
+  Sorcerer: { cantrips: [4, 4, 4, 4, 5, 5, 5, 5, 6, 6], spellsKnown: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11] },
+  Warlock: { cantrips: [2, 2, 2, 2, 2, 3, 3, 3, 3, 4], spellsKnown: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11] },
+  Wizard: { cantrips: [3, 3, 3, 4, 4, 4, 4, 4, 4, 4], spellsPrepared: level => level + getMod("INT") }
+};
+
+
 
 function showCharacterTable() {
   characterStatblock.innerHTML = `
@@ -46,83 +67,131 @@ function showCharacterTable() {
     <tr><th>Field</th><th>Value</th></tr>
     <tr><td>Name</td><td><input id="charName"></td></tr>
     <tr>
-  <td>Species</td>
-  <td>
-    <select id="charRace">
-      <option value="">— Select —</option>
-      <option>Dragonborn</option><option>Dwarf</option><option>Elf</option>
-      <option>Gnome</option><option>Half-Elf</option><option>Half-Orc</option>
-      <option>Halfling</option><option>Human</option><option>Tiefling</option>
-    </select>
-  </td>
-</tr>
-
-<tr>
-  <td>Class</td>
-  <td>
-    <select id="charClass">
-      <option value="">— Select —</option>
-      <option>Barbarian</option><option>Bard</option><option>Cleric</option>
-      <option>Druid</option><option>Fighter</option><option>Monk</option>
-      <option>Paladin</option><option>Ranger</option><option>Rogue</option>
-      <option>Sorcerer</option><option>Warlock</option><option>Wizard</option>
-    </select>
-  </td>
-</tr>
-<tr>
-  <td>Subclass</td>
-  <td>
-    <select id="charSubclass">
-      <option value="">— Select Class First —</option>
-    </select>
-  </td>
-</tr>
-
-<tr>
-  <td>Background</td>
-  <td>
-    <select id="charBackground">
-      <option value="">— Select —</option>
-      <option>Acolyte</option><option>Charlatan</option><option>Criminal</option>
-      <option>Entertainer</option><option>Folk Hero</option><option>Guild Artisan</option>
-      <option>Hermit</option><option>Noble</option><option>Outlander</option>
-      <option>Sage</option><option>Sailor</option><option>Soldier</option><option>Urchin</option>
-    </select>
-  </td>
-</tr>
-
-<tr>
-  <td>Alignment</td>
-  <td>
-    <select id="charAlignment">
-      <option value="">— Select —</option>
-      <option>Lawful Good</option><option>Neutral Good</option><option>Chaotic Good</option>
-      <option>Lawful Neutral</option><option>True Neutral</option><option>Chaotic Neutral</option>
-      <option>Lawful Evil</option><option>Neutral Evil</option><option>Chaotic Evil</option>
-    </select>
-  </td>
-</tr>
-
-    <tr><td>Level</td><td><input type="number" id="charLevel" min="1"></td></tr>
+      <td>Species</td>
+      <td>
+        <select id="charRace">
+          <option value="">— Select —</option>
+          <option>Dragonborn</option><option>Dwarf</option><option>Elf</option>
+          <option>Gnome</option><option>Half-Elf</option><option>Half-Orc</option>
+          <option>Halfling</option><option>Human</option><option>Tiefling</option>
+        </select>
+      </td>
+    </tr>
 
     <tr>
-  <td>Size</td>
-  <td>
-    <select id="charSize">
-      <option value="">— Select —</option>
-      <option>Small</option>
-      <option>Medium</option>
-    </select>
-  </td>
-</tr>
+      <td>Class</td>
+      <td>
+        <select id="charClass">
+          <option value="">— Select —</option>
+          <option>Barbarian</option><option>Bard</option><option>Cleric</option>
+          <option>Druid</option><option>Fighter</option><option>Monk</option>
+          <option>Paladin</option><option>Ranger</option><option>Rogue</option>
+          <option>Sorcerer</option><option>Warlock</option><option>Wizard</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Subclass</td>
+      <td>
+        <select id="charSubclass">
+          <option value="">— Select Class First —</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Background</td>
+      <td>
+        <select id="charBackground">
+          <option value="">— Select —</option>
+          <option>Acolyte</option><option>Charlatan</option><option>Criminal</option>
+          <option>Entertainer</option><option>Folk Hero</option><option>Guild Artisan</option>
+          <option>Hermit</option><option>Noble</option><option>Outlander</option>
+          <option>Sage</option><option>Sailor</option><option>Soldier</option><option>Urchin</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Alignment</td>
+      <td>
+        <select id="charAlignment">
+          <option value="">— Select —</option>
+          <option>Lawful Good</option><option>Neutral Good</option><option>Chaotic Good</option>
+          <option>Lawful Neutral</option><option>True Neutral</option><option>Chaotic Neutral</option>
+          <option>Lawful Evil</option><option>Neutral Evil</option><option>Chaotic Evil</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Level</td>
+      <td>
+        <div class="number-control">
+          <button class="dec">-</button>
+          <input type="number" id="charLevel" min="1" value="1">
+          <button class="inc">+</button>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Proficiency Bonus</td>
+      <td><span id="charPB">+2</span></td>
+    </tr>
+
+    <tr>
+      <td>Size</td>
+      <td>
+        <select id="charSize">
+          <option value="">— Select —</option>
+          <option>Small</option>
+          <option>Medium</option>
+        </select>
+      </td>
+    </tr>
 
     <tr><td>Passive Perception</td><td><input id="charPassivePerception" readonly></td></tr>
   </table>
 
+  
   <!-- COMBAT -->
   <table class="dc-table">
     <tr><th>Field</th><th>Value</th></tr>
-    <tr><td>HP</td><td><input id="charHP"></td></tr>
+<tr>
+  <td>HP</td>
+  <td>
+    <div class="hp-wrapper">
+      <div class="hp-block">
+        <label>Current</label>
+        <div class="number-control">
+          <button class="dec">-</button>
+          <input type="number" id="charHPcurrent" value="0">
+          <button class="inc">+</button>
+        </div>
+      </div>
+      <div class="hp-block">
+        <label>Temp</label>
+        <div class="number-control">
+          <button class="dec">-</button>
+          <input type="number" id="charHPtemp" value="0">
+          <button class="inc">+</button>
+        </div>
+      </div>
+      <div class="hp-block">
+        <label>Max</label>
+        <div class="number-control">
+          <button class="dec">-</button>
+          <input type="number" id="charHPmax" value="0">
+          <button class="inc">+</button>
+        </div>
+      </div>
+    </div>
+  </td>
+</tr>
+
+
     <tr><td>Hit Dice</td><td><input id="charHiDice"></td></tr>
     <tr><td>AC</td><td><input id="charAC"></td></tr>
     <tr><td>Initiative</td><td><input id="charInitiative" readonly></td></tr>
@@ -150,7 +219,7 @@ function showCharacterTable() {
   </table>
 
 <!-- ABILITIES / SAVES / SKILLS -->
-<div class="abilities-grid">
+<div class="abilities-wrapper">
 ${[
   ["STR", [["Athletics","STR"]]],
   ["DEX", [["Acrobatics","DEX"],["Sleight of Hand","DEX"],["Stealth","DEX"]]],
@@ -162,13 +231,21 @@ ${[
 <div class="ability-card">
   <h3>${stat}</h3>
 
-  <div>Score: <input id="char${stat}" type="number"></div>
+  <div>Score: 
+    <div class="number-control">
+      <button class="dec">-</button>
+      <input id="char${stat}" type="number" value="10">
+      <button class="inc">+</button>
+    </div>
+  </div>
+
   <div>Mod: <span id="mod${stat}">0</span></div>
 
   <div class="save-row">
-    Save:
-    <input type="checkbox" id="saveProf${stat}">
-    <span id="save${stat}">0</span>
+    <label>
+      <input type="checkbox" id="saveProf${stat}">
+      Save: <span id="save${stat}">0</span>
+    </label>
   </div>
 
   <div class="skills-list">
@@ -183,9 +260,10 @@ ${[
 `).join("")}
 </div>
 
+
 <div class="table-title">Weapons & Damage / Cantrips & Spells</div>
 <table class="dc-table">
-<tr><th>Name</th><th>Attack / Effect</th><th>Damage</th><th>Notes</th></tr>
+<tr><th>Name</th><th>Attack Bonus / DC</th><th>Damage & Type</th><th>Notes</th></tr>
 ${Array.from({length:6}).map((_,i)=>`
 <tr>
   <td><input id="atkName${i}"></td>
@@ -211,7 +289,6 @@ ${Array.from({length:6}).map((_,i)=>`
 
 <tr><td>Weapons</td><td><textarea id="profWeapons" rows="2" class="full-width-box"></textarea></td></tr>
 <tr><td>Tools</td><td><textarea id="profTools" rows="2" class="full-width-box"></textarea></td></tr>
-<tr><td>Languages</td><td><textarea id="profLanguages" rows="2" class="full-width-box"></textarea></td></tr>
 </table>
 
 
@@ -224,72 +301,157 @@ ${Array.from({length:6}).map((_,i)=>`
     <tr><td>Spell Attack Bonus</td><td><input id="charSpellAttackBonus" readonly></td></tr>
   </table>
 
-<div class="table-title">Cantrips</div>
+  <div class="table-title">Spell Slots / Known Spells</div>
 <table class="dc-table">
-<tr><th>Name</th><th>Description</th></tr>
-${Array.from({length:8}).map((_,i)=>`
-<tr>
-  <td><input id="cantripName${i}"></td>
-  <td><input id="cantripDesc${i}"></td>
-</tr>`).join("")}
-</table>
-
-<div class="table-title">Prepared Spells</div>
-<table class="dc-table">
-<tr><th>Lvl</th><th>Name</th><th>School</th><th>Cast Time</th><th>Notes</th></tr>
-${Array.from({length:12}).map((_,i)=>`
-<tr>
-  <td><input id="spellLvl${i}" style="width:40px"></td>
-  <td><input id="spellName${i}"></td>
-  <td><input id="spellSchool${i}"></td>
-  <td><input id="spellTime${i}"></td>
-  <td><input id="spellNotes${i}"></td>
-</tr>`).join("")}
-</table>
-
-  <div class="table-title">Features</div>
-  <textarea id="charFeatures" rows="4"class="full-width-box"></textarea>
-
-  <div class="table-title">Equipment</div>
-  <textarea id="charEquipment" rows="4" class="full-width-box"></textarea>
-
-  <div class="table-title">Notes</div>
-  <textarea id="charNotes" rows="4" class="full-width-box"></textarea>
-
+  <tr><th>Level</th><th>Slots</th><th>Spells Known / Prepared</th></tr>
+  ${[1,2,3,4,5,6,7,8,9].map(l => `
   <tr>
-  <td>Languages</td>
-  <td>
-    <label><input type="checkbox" id="langCommon"> Common</label>
-    <label><input type="checkbox" id="langDwarvish"> Dwarvish</label>
-    <label><input type="checkbox" id="langElvish"> Elvish</label>
-    <label><input type="checkbox" id="langGiant"> Giant</label>
-    <label><input type="checkbox" id="langGnomish"> Gnomish</label>
-    <label><input type="checkbox" id="langGoblin"> Goblin</label>
-    <label><input type="checkbox" id="langHalfling"> Halfling</label>
-    <label><input type="checkbox" id="langOrc"> Orc</label>
-    <label><input type="checkbox" id="langSylvan"> Sylvan</label>
-    <label><input type="checkbox" id="langDraconic"> Draconic</label>
-    <!-- add more if needed -->
-  </td>
-</tr>
+    <td>${l}</td>
+    <td><input id="spellSlots${l}" readonly></td>
+    <td><input id="spellsKnown${l}" readonly></td>
+  </tr>`).join("")}
+</table>
 
-<tr>
-  <td>Coins</td>
-  <td>
-    CP: <input type="number" id="coinCP" style="width:60px"> 
-    SP: <input type="number" id="coinSP" style="width:60px"> 
-    EP: <input type="number" id="coinEP" style="width:60px"> 
-    GP: <input type="number" id="coinGP" style="width:60px"> 
-    PP: <input type="number" id="coinPP" style="width:60px">
-  </td>
-</tr>
+<div class="table-title">Spells & Cantrips</div>
 
+<div class="spell-scroll">
+  <table class="dc-table spell-table">
+    <tr>
+      <th>Lvl</th>
+      <th>Name</th>
+      <th>Cast</th>
+      <th>Range</th>
+      <th>Req</th>
+      <th>Comp</th>
+      <th>School</th>
+      <th>Notes</th>
+    </tr>
+
+    ${Array.from({length:20}).map((_,i)=>`
+    <tr>
+      <td><input id="spellLvl${i}" style="width:40px"></td>
+      <td><input id="spellName${i}"></td>
+      <td><input id="spellCast${i}"></td>
+      <td><input id="spellRange${i}"></td>
+
+      <td class="req-boxes">
+        <label><input type="checkbox" id="spellC${i}"> C</label>
+        <label><input type="checkbox" id="spellR${i}"> R</label>
+        <label><input type="checkbox" id="spellMReq${i}"> M</label>
+      </td>
+
+      <td class="comp-boxes">
+        <label><input type="checkbox" id="spellV${i}"> V</label>
+        <label><input type="checkbox" id="spellS${i}"> S</label>
+        <label><input type="checkbox" id="spellMComp${i}"> M</label>
+      </td>
+
+      <td><input id="spellSchool${i}"></td>
+      <td><input id="spellNotes${i}"></td>
+    </tr>`).join("")}
+
+  </table>
+</div>
+
+
+  <div class="wide-section">
+
+  <div class="wide-block">
+    <h3>Class Features</h3>
+    <textarea id="charFeatures"></textarea>
+  </div>
+
+ <div class="wide-block">
+    <h3>Feats</h3>
+    <textarea id="charFeats"></textarea>
+  </div>
+
+  <div class="wide-block">
+    <h3>Species Traits</h3>
+    <textarea id="charSpeciesTraits"></textarea>
+  </div>
+
+  <div class="wide-block">
+    <h3>Equipment</h3>
+    <textarea id="charEquipment"></textarea>
+  </div>
+
+ <div class="wide-block">
+    <h3>Appearance</h3>
+    <textarea id="charAppearance"></textarea>
+  </div>
+
+   <div class="wide-block">
+    <h3>Backstory & Personality</h3>
+    <textarea id="charBackstory"></textarea>
+  </div>
+
+
+  <div class="wide-block">
+    <h3>Notes</h3>
+    <textarea id="charNotes"></textarea>
+  </div>
+
+  <div class="wide-row">
+    <h3>Languages</h3>
+    <div class="inline-group">
+      <label><input type="checkbox" id="langCommon"> Common</label>
+      <label><input type="checkbox" id="langDwarvish"> Dwarvish</label>
+      <label><input type="checkbox" id="langElvish"> Elvish</label>
+      <label><input type="checkbox" id="langGiant"> Giant</label>
+      <label><input type="checkbox" id="langGnomish"> Gnomish</label>
+      <label><input type="checkbox" id="langGoblin"> Goblin</label>
+      <label><input type="checkbox" id="langHalfling"> Halfling</label>
+      <label><input type="checkbox" id="langOrc"> Orc</label>
+      <label><input type="checkbox" id="langSylvan"> Sylvan</label>
+      <label><input type="checkbox" id="langDraconic"> Draconic</label>
+    </div>
+  </div>
+
+  <!-- COINS -->
+  <div class="wide-row">
+    <h3>Coins</h3>
+    <div class="inline-group">
+      CP <div class="number-control"><button class="dec">-</button><input id="coinCP" type="number" min="0"><button class="inc">+</button></div>
+      SP <div class="number-control"><button class="dec">-</button><input id="coinSP" type="number" min="0"><button class="inc">+</button></div>
+      EP <div class="number-control"><button class="dec">-</button><input id="coinEP" type="number" min="0"><button class="inc">+</button></div>
+      GP <div class="number-control"><button class="dec">-</button><input id="coinGP" type="number" min="0"><button class="inc">+</button></div>
+      PP <div class="number-control"><button class="dec">-</button><input id="coinPP" type="number" min="0"><button class="inc">+</button></div>
+    </div>
+  </div>
+
+</div>
+
+
+<div style="margin:10px 0;">
+  <label>Characters: </label>
+  <select id="characterList"></select>
+</div>
 
   <button id="saveSheet">💾 Save</button>
   <button id="loadSheet">📂 Load</button>
   `;
 
+  // Attach your original event listeners
   attachEventListeners();
+
+  // Add number control handlers for + / - buttons
+  document.querySelectorAll(".number-control").forEach(control => {
+    const input = control.querySelector("input[type=number]");
+    const incBtn = control.querySelector(".inc");
+    const decBtn = control.querySelector(".dec");
+
+    incBtn.addEventListener("click", () => {
+      input.value = Math.min((+input.value || 0) + 1, input.max || Infinity);
+      input.dispatchEvent(new Event('input'));
+    });
+
+    decBtn.addEventListener("click", () => {
+      input.value = Math.max((+input.value || 0) - 1, input.min || 0);
+      input.dispatchEvent(new Event('input'));
+    });
+  });
+
   updateCharacter();
 }
 
@@ -303,88 +465,182 @@ function getProficiencyBonus(level){
   return 2;
 }
 
-function updateCharacter(){
-  const level = +charLevel.value || 1;
+function updateCharacter() {
+  const level = +document.getElementById("charLevel")?.value || 1;
   const PB = getProficiencyBonus(level);
-  charPB.value = PB;
-  modPB.textContent = PB;
 
+  // Display PB
+  const pbEl = document.getElementById("charPB");
+  if(pbEl) pbEl.textContent = "+" + PB;
+
+  const modPBEl = document.getElementById("modPB");
+  if(modPBEl) modPBEl.textContent = PB;
+
+  // -----------------------------
+  // Ability Modifiers
+  // -----------------------------
   const mods = {};
-  ["STR","DEX","CON","INT","WIS","CHA"].forEach(stat=>{
-    const score = +document.getElementById("char"+stat).value || 10;
-    mods[stat] = Math.floor((score-10)/2);
-    document.getElementById("mod"+stat).textContent = mods[stat];
+  ["STR","DEX","CON","INT","WIS","CHA"].forEach(stat => {
+    const score = +document.getElementById("char"+stat)?.value || 10;
+    mods[stat] = Math.floor((score - 10) / 2);
+    const modEl = document.getElementById("mod"+stat);
+    if(modEl) modEl.textContent = mods[stat];
   });
 
-  charInitiative.value = mods.DEX;
+// HP
+const hpCurrent = document.getElementById("charHPcurrent");
+const hpMax = document.getElementById("charHPmax");
 
-  ["STR","DEX","CON","INT","WIS","CHA"].forEach(stat=>{
-    const prof = document.getElementById("saveProf"+stat).checked ? PB : 0;
-    document.getElementById("save"+stat).textContent = mods[stat] + prof;
-  });
+if (hpCurrent && hpMax) {
+  const cur = +hpCurrent.value || 0;
+  const max = +hpMax.value || 0;
 
-  const skills = [
-    ["Acrobatics","DEX"],["Animal Handling","WIS"],["Arcana","INT"],["Athletics","STR"],
-    ["Deception","CHA"],["History","INT"],["Insight","WIS"],["Intimidation","CHA"],
-    ["Investigation","INT"],["Medicine","WIS"],["Nature","INT"],["Perception","WIS"],
-    ["Performance","CHA"],["Persuasion","CHA"],["Religion","INT"],["Sleight of Hand","DEX"],
-    ["Stealth","DEX"],["Survival","WIS"]
-  ];
-
-  skills.forEach(([s,a])=>{
-    const prof = document.getElementById("prof"+s).checked ? PB : 0;
-    document.getElementById("mod"+s).textContent = mods[a] + prof;
-  });
-
-  const perceptionProf = document.getElementById("profPerception").checked ? PB : 0;
-  charPassivePerception.value = 10 + mods.WIS + perceptionProf;
-
-  const spellStat = charSpellcastingAbility.value.toUpperCase();
-  if (mods[spellStat] !== undefined){
-    charSpellSaveDC.value = 8 + PB + mods[spellStat];
-    charSpellAttackBonus.value = PB + mods[spellStat];
+  if (cur > max && max > 0) {
+    hpCurrent.value = max;
   }
 }
+
+
+
+
+
+  // -----------------------------
+  // Initiative
+  // -----------------------------
+  const initiativeEl = document.getElementById("charInitiative");
+  if(initiativeEl) initiativeEl.value = mods.DEX; // now shows in input
+
+  // -----------------------------
+  // Saving Throws
+  // -----------------------------
+  ["STR","DEX","CON","INT","WIS","CHA"].forEach(stat => {
+    const prof = document.getElementById("saveProf"+stat)?.checked ? PB : 0;
+    const saveEl = document.getElementById("save"+stat);
+    if(saveEl) saveEl.textContent = mods[stat] + prof;
+  });
+
+  // -----------------------------
+  // Skills
+  // -----------------------------
+  const skills = [
+    ["Acrobatics","DEX"], ["Animal Handling","WIS"], ["Arcana","INT"], ["Athletics","STR"],
+    ["Deception","CHA"], ["History","INT"], ["Insight","WIS"], ["Intimidation","CHA"],
+    ["Investigation","INT"], ["Medicine","WIS"], ["Nature","INT"], ["Perception","WIS"],
+    ["Performance","CHA"], ["Persuasion","CHA"], ["Religion","INT"], ["Sleight of Hand","DEX"],
+    ["Stealth","DEX"], ["Survival","WIS"]
+  ];
+
+  skills.forEach(([skill, stat]) => {
+    const prof = document.getElementById("prof"+skill)?.checked ? PB : 0;
+    const skillEl = document.getElementById("mod"+skill);
+    if(skillEl) skillEl.textContent = mods[stat] + prof;
+  });
+
+  // -----------------------------
+  // Passive Perception
+  // -----------------------------
+  const perceptionProf = document.getElementById("profPerception")?.checked ? PB : 0;
+  const passiveEl = document.getElementById("charPassivePerception");
+  if(passiveEl) passiveEl.value = 10 + mods.WIS + perceptionProf;
+
+  // -----------------------------
+  // Spellcasting ability derived from class
+  // -----------------------------
+  const charClass = document.getElementById("charClass")?.value;
+  const spellAbilityStat = classSpellAbility[charClass] || "";
+  const spellAbilityInput = document.getElementById("charSpellcastingAbility");
+  if(spellAbilityInput) spellAbilityInput.value = spellAbilityStat;
+
+  if(spellAbilityStat && mods[spellAbilityStat] !== undefined) {
+    const spellSaveDC = 8 + PB + mods[spellAbilityStat];
+    const spellAttack = PB + mods[spellAbilityStat];
+    const saveEl = document.getElementById("charSpellSaveDC");
+    const attackEl = document.getElementById("charSpellAttackBonus");
+    if(saveEl) saveEl.value = spellSaveDC;
+    if(attackEl) attackEl.value = spellAttack;
+  }
+// === Spellcasting calculation ===
+  if(spellcastingClasses[cls]) {
+    const spellInfo = spellcastingClasses[cls];
+
+    // Cantrips known
+    const cantripsKnown = spellInfo.cantrips[level-1] || 0;
+    for(let i=0; i<8; i++){
+      const elName = document.getElementById(`cantripName${i}`);
+      if(elName) elName.readOnly = i >= cantripsKnown;
+    }
+
+    // Spell slots and spells known/prepared
+    for(let l=1; l<=9; l++){
+      const slotsEl = document.getElementById(`spellSlots${l}`);
+      const knownEl = document.getElementById(`spellsKnown${l}`);
+      if(slotsEl) slotsEl.value = spellSlotsTable[cls]?.[level]?.[l] || 0; // optional detailed table
+      if(knownEl){
+        if(spellInfo.spellsKnown) knownEl.value = spellInfo.spellsKnown[level-1] || 0;
+        if(spellInfo.spellsPrepared) knownEl.value = spellInfo.spellsPrepared(level);
+      }
+    }
+  }
+}
+
 
 // ================== SAVE / LOAD ==================
 
 function saveSheet(){
-  const name = charName.value;
+  const name = charName.value.trim();
   if(!name) return alert("Name required");
 
   const data = {};
-  document.querySelectorAll("input, textarea").forEach(el=>{
-    data[el.id] = el.type==="checkbox" ? el.checked : el.value;
+
+  document.querySelectorAll("input, textarea, select").forEach(el=>{
+    if(!el.id) return;
+    data[el.id] = el.type === "checkbox" ? el.checked : el.value;
   });
 
-  localStorage.setItem("character_"+name, JSON.stringify(data));
+  localStorage.setItem("character_" + name, JSON.stringify(data));
   localStorage.setItem("lastCharacter", name);
+
+  refreshCharacterList();
   alert("Saved!");
 }
 
-function loadSheet(){
-  updateSubclassOptions();
 
-  const name = charName.value || localStorage.getItem("lastCharacter");
+
+function loadSheet(){
+  const list = document.getElementById("characterList");
+
+  // Decide source cleanly
+  const name = list.value || localStorage.getItem("lastCharacter");
   if(!name) return;
 
-  const data = JSON.parse(localStorage.getItem("character_"+name));
-  if(!data) return alert("Character not found");
+  const raw = localStorage.getItem("character_" + name);
+  if(!raw) return alert("Character not found");
+
+  const data = JSON.parse(raw);
 
   Object.keys(data).forEach(id=>{
     const el = document.getElementById(id);
     if(!el) return;
-    el.type==="checkbox" ? el.checked = data[id] : el.value = data[id];
+
+    if(el.type === "checkbox") el.checked = data[id];
+    else el.value = data[id];
   });
 
-  updateCharacter();
-  updateSubclassOptions();
+  // Sync name field with loaded character
+  charName.value = name;
 
+  updateSubclassOptions();
+  updateCharacter();
 }
+
+
+
 
 // ================== EVENTS ==================
 
 function attachEventListeners(){
+  document.getElementById("characterList").addEventListener("change", loadSheet);
+
   document.getElementById("saveSheet").onclick = saveSheet;
   document.getElementById("loadSheet").onclick = loadSheet;
   document.querySelectorAll("input").forEach(el=>{
@@ -397,8 +653,15 @@ function attachEventListeners(){
 
 window.addEventListener("load", ()=>{
   showCharacterTable();
-  loadSheet();
+  refreshCharacterList();
+
+  const last = localStorage.getItem("lastCharacter");
+  if(last){
+    document.getElementById("characterList").value = last;
+    loadSheet();
+  }
 });
+
 
 function updateSubclassOptions() {
   const cls = document.getElementById("charClass").value;
@@ -414,6 +677,25 @@ function updateSubclassOptions() {
     opt.textContent = sc;
     subclassSelect.appendChild(opt);
   });
+}
+
+function refreshCharacterList(){
+  const list = document.getElementById("characterList");
+  list.innerHTML = "";
+
+  Object.keys(localStorage)
+    .filter(k => k.startsWith("character_"))
+    .sort()
+    .forEach(k => {
+      const name = k.replace("character_", "");
+      const opt = document.createElement("option");
+      opt.value = name;
+      opt.textContent = name;
+      list.appendChild(opt);
+    });
+
+  const last = localStorage.getItem("lastCharacter");
+  if(last) list.value = last;
 }
 
 
