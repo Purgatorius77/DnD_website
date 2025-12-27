@@ -1,9 +1,7 @@
 // characters.js
 export function initCharacterStatblock() {
   const characterStatblock = document.getElementById("character-statblock");
-const token = "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"; // Replace with your token
-const owner = "Purgatorius77";       // Replace with your GitHub username
-const repo = "DnD-character-sheets";              // Replace with your repo name
+
 
   document.addEventListener("showCharacterTable", showCharacterTable);
   document.addEventListener("showClassesTable", showClassesTable);
@@ -746,4 +744,5 @@ function refreshCharacterList(){
 
 
 }
+
 
