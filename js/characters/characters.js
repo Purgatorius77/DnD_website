@@ -584,55 +584,68 @@ if (hpCurrent && hpMax) {
 }
 
 
-// ================== SAVE / LOAD ==================
+// ================== SAVE / LOAD SHEET ==================
 
-function saveSheet(){
-  const name = charName.value.trim();
-  if(!name) return alert("Name required");
+async function saveSheet() {
+  const name = document.getElementById("charName").value.trim();
+  if (!name) return alert("Please enter a character name");
 
+  // Gather all inputs
   const data = {};
+  document.querySelectorAll("#character-statblock input, #character-statblock select, #character-statblock textarea")
+    .forEach(el => {
+      if(el.id) {
+        if(el.type === "checkbox") data[el.id] = el.checked;
+        else data[el.id] = el.value;
+      }
+    });
 
-  document.querySelectorAll("input, textarea, select").forEach(el=>{
-    if(!el.id) return;
-    data[el.id] = el.type === "checkbox" ? el.checked : el.value;
-  });
-
+  // Save to localStorage
   localStorage.setItem("character_" + name, JSON.stringify(data));
   localStorage.setItem("lastCharacter", name);
 
+  // Update character list
   refreshCharacterList();
-  alert("Saved!");
+  document.getElementById("characterList").value = name;
+
+  // Optional: Save to GitHub
+  try {
+    await saveCharacterToGitHub(data, name);
+  } catch(err) {
+    console.error("GitHub save failed", err);
+  }
+
+  alert("Character saved!");
 }
 
-
-
-function loadSheet(){
+async function loadSheet() {
   const list = document.getElementById("characterList");
+  const name = list.value;
+  if (!name) return alert("Select a character first");
 
-  // Decide source cleanly
-  const name = list.value || localStorage.getItem("lastCharacter");
-  if(!name) return;
+  // Try localStorage first
+  const saved = localStorage.getItem("character_" + name);
+  if(saved) {
+    const data = JSON.parse(saved);
+    Object.keys(data).forEach(id => {
+      const el = document.getElementById(id);
+      if(!el) return;
+      if(el.type === "checkbox") el.checked = data[id];
+      else el.value = data[id];
+    });
+    updateCharacter();
+  }
 
-  const raw = localStorage.getItem("character_" + name);
-  if(!raw) return alert("Character not found");
+  // Optional: also load from GitHub (overwrite localStorage if exists)
+  try {
+    await loadCharacterFromGitHub(name);
+  } catch(err) {
+    console.warn("GitHub load failed", err);
+  }
 
-  const data = JSON.parse(raw);
-
-  Object.keys(data).forEach(id=>{
-    const el = document.getElementById(id);
-    if(!el) return;
-
-    if(el.type === "checkbox") el.checked = data[id];
-    else el.value = data[id];
-  });
-
-  // Sync name field with loaded character
-  charName.value = name;
-
-  updateSubclassOptions();
-  updateCharacter();
+  // Remember last character
+  localStorage.setItem("lastCharacter", name);
 }
-
 
 
 
@@ -700,3 +713,4 @@ function refreshCharacterList(){
 
 
 }
+
