@@ -16,59 +16,62 @@ export function initViewSwitcher() {
   const spellStatblock     = document.getElementById("spell-statblock");
   const rulesStatblock     = document.getElementById("rules-statblock");
   const characterStatblock = document.getElementById("character-statblock");
-  const combatTracker      = document.getElementById("combat-tracker");
+  const combatTracker = document.querySelector(".combat-tracker");
+
 
   function show(el) { if (el) el.style.display = "block"; }
   function hide(el) { if (el) el.style.display = "none"; }
 
   function showMonsters() {
-    show(monsterFilters);
-    show(monsterStatblock);
+  show(monsterFilters);
+  show(monsterStatblock);
+  show(combatTracker);
 
-    hide(spellFilters);
-    hide(spellStatblock);
-    hide(rulesFilters);
-    hide(rulesStatblock);
-    hide(characterFilters);
-    hide(characterStatblock);
-  }
+  hide(spellFilters);
+  hide(spellStatblock);
+  hide(rulesFilters);
+  hide(rulesStatblock);
+  hide(characterFilters);
+  hide(characterStatblock);
+}
 
-  function showSpells() {
-    show(spellFilters);
-    show(spellStatblock);
+function showSpells() {
+  show(spellFilters);
+  show(spellStatblock);
+  show(combatTracker);
 
-    hide(monsterFilters);
-    hide(monsterStatblock);
-    hide(rulesFilters);
-    hide(rulesStatblock);
-    hide(characterFilters);
-    hide(characterStatblock);
-  }
+  hide(monsterFilters);
+  hide(monsterStatblock);
+  hide(rulesFilters);
+  hide(rulesStatblock);
+  hide(characterFilters);
+  hide(characterStatblock);
+}
 
-  function showRules() {
-    show(rulesFilters);
-    show(rulesStatblock);
+function showRules() {
+  show(rulesFilters);
+  show(rulesStatblock);
+  show(combatTracker);
 
-    hide(monsterFilters);
-    hide(monsterStatblock);
-    hide(spellFilters);
-    hide(spellStatblock);
-    hide(characterFilters);
-    hide(characterStatblock);
-  }
+  hide(monsterFilters);
+  hide(monsterStatblock);
+  hide(spellFilters);
+  hide(spellStatblock);
+  hide(characterFilters);
+  hide(characterStatblock);
+}
+function showCharacters() {
+  show(characterFilters);
+  show(characterStatblock);
 
-  function showCharacters() {
-    show(characterFilters);
-    show(characterStatblock);
-
-    hide(monsterFilters);
-    hide(monsterStatblock);
-    hide(spellFilters);
-    hide(spellStatblock);
-    hide(rulesFilters);
-    hide(rulesStatblock);
-    hide(combatTracker);
-  }
+  hide(monsterFilters);
+  hide(monsterStatblock);
+  hide(spellFilters);
+  hide(spellStatblock);
+  hide(rulesFilters);
+  hide(rulesStatblock);
+  hide(combatTracker);
+}
 
   monsterBtn.addEventListener("click", showMonsters);
   spellsBtn.addEventListener("click", showSpells);
@@ -77,3 +80,4 @@ export function initViewSwitcher() {
 
   showMonsters();
 }
+
