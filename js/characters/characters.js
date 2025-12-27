@@ -466,7 +466,6 @@ function getProficiencyBonus(level){
   return 2;
 }
 
-function updateCharacter() {
   function updateCharacter() {
 
   const charClass = document.getElementById("charClass")?.value;
@@ -750,7 +749,7 @@ function refreshCharacterList(){
 
 
 }
-}
+
 
 
 
