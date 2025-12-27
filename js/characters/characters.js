@@ -593,7 +593,7 @@ if (hpCurrent && hpMax) {
 const GITHUB_USER = "Purgatorius77";
 const GITHUB_REPO = "DnD_website";
 const GITHUB_BRANCH = "main";
-const GITHUB_TOKEN = "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"; // Replace with your PAT
+const GITHUB_TOKEN = "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"; // Replace with your PAT
 
 async function saveCharacterToGitHub(data, name) {
   const path = `data/characters/${encodeURIComponent(name)}.json`;
@@ -798,6 +798,7 @@ function updateSubclassOptions() {
 
 
 }
+
 
 
 
