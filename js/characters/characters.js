@@ -467,6 +467,11 @@ function getProficiencyBonus(level){
 }
 
 function updateCharacter() {
+  function updateCharacter() {
+
+  const charClass = document.getElementById("charClass")?.value;
+  const cls = charClass;
+
   const level = +document.getElementById("charLevel")?.value || 1;
   const PB = getProficiencyBonus(level);
 
@@ -547,8 +552,7 @@ if (hpCurrent && hpMax) {
   // -----------------------------
   // Spellcasting ability derived from class
   // -----------------------------
-  const charClass = document.getElementById("charClass")?.value;
-  const cls = charClass;
+
 
   const spellAbilityStat = classSpellAbility[charClass] || "";
   const spellAbilityInput = document.getElementById("charSpellcastingAbility");
@@ -746,6 +750,7 @@ function refreshCharacterList(){
 
 
 }
+
 
 
 
