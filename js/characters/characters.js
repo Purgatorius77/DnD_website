@@ -590,45 +590,70 @@ if (hpCurrent && hpMax) {
 }
 
 
-  async function saveCharacterToGitHub(data, name) {
-  const path = `data/characters/${name}.json`;
+const GITHUB_USER = "purgatorius77";
+const GITHUB_REPO = "DnD_website";
+const GITHUB_BRANCH = "main";
+const GITHUB_TOKEN = "YOUR_PERSONAL_ACCESS_TOKEN_HERE"; // Replace with your PAT
+
+async function saveCharacterToGitHub(data, name) {
+  const path = `data/characters/${encodeURIComponent(name)}.json`;
+  const url = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/${path}`;
   const content = btoa(JSON.stringify(data, null, 2));
 
-  let sha = undefined;
+  // Fetch SHA if file exists
+  let sha;
   try {
-    const res = await fetch(`https://api.github.com/repos/purgatorius77/DnD_website/contents/${path}?ref=main`, {
-      headers: { Authorization: `token YOUR_PERSONAL_ACCESS_TOKEN` }
+    const res = await fetch(`${url}?ref=${GITHUB_BRANCH}`, {
+      headers: { Authorization: `token ${GITHUB_TOKEN}` }
     });
     if (res.ok) {
       const json = await res.json();
       sha = json.sha;
     }
   } catch (err) {
-    // file doesn't exist
+    console.warn("File doesn't exist yet, creating new...");
   }
 
-  const res = await fetch(`https://api.github.com/repos/purgatorius77/DnD_website/contents/${path}`, {
+  const body = {
+    message: `Save character ${name}`,
+    content: content,
+    branch: GITHUB_BRANCH
+  };
+  if (sha) body.sha = sha;
+
+  const putRes = await fetch(url, {
     method: "PUT",
-    headers: { Authorization: `token YOUR_PERSONAL_ACCESS_TOKEN` },
-    body: JSON.stringify({
-      message: `Save character ${name}`,
-      content: content,
-      branch: "main",
-      sha: sha
-    })
+    headers: {
+      Authorization: `token ${GITHUB_TOKEN}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(body)
   });
 
-  if (!res.ok) throw new Error(await res.text());
+  if (!putRes.ok) {
+    const text = await putRes.text();
+    throw new Error(`GitHub save failed: ${text}`);
+  }
+
+  console.log(`Character "${name}" saved to GitHub.`);
 }
 
 async function loadCharacterFromGitHub(name) {
-  const path = `data/characters/${name}.json`;
-  const res = await fetch(`https://raw.githubusercontent.com/purgatorius77/DnD_website/main/${path}`);
-  if (!res.ok) throw new Error("Character not found on GitHub");
-  const data = await res.json();
+  const path = `data/characters/${encodeURIComponent(name)}.json`;
+  const url = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/${path}?ref=${GITHUB_BRANCH}`;
+
+  const res = await fetch(url, {
+    headers: { Authorization: `token ${GITHUB_TOKEN}` }
+  });
+
+  if (!res.ok) throw new Error(`GitHub load failed: ${res.statusText}`);
+
+  const json = await res.json();
+  const data = JSON.parse(atob(json.content));
   populateCharacterForm(data);
   localStorage.setItem("character_" + name, JSON.stringify(data));
 }
+
 
 
 // ================== SAVE / LOAD SHEET ==================
@@ -773,6 +798,7 @@ function updateSubclassOptions() {
 
 
 }
+
 
 
 
