@@ -58,6 +58,172 @@ export function initRulesStatblock() {
 </table>
 
 
+    <div class="table-title">Ability check examples</div>
+<table class="ability-check-table">
+  <tr>
+    <th>Ability</th>
+    <th>Task</th>
+  </tr>
+  <tr>
+    <td><strong>Strength</strong></td>
+    <td>Lift, push, pull, break, run, swim</td>
+  </tr>
+  <tr>
+    <td><strong>Dexterity</strong></td>
+    <td>Stealth, acrobatics, sleight of hand, move quickly or nimbly,</td>
+  </tr>
+  <tr>
+    <td><strong>Constitution</strong></td>
+    <td>Push your body beyond its normal limits, hold your breath, or resist poison or disease</td>
+  </tr>
+  <tr>
+    <td><strong>Intelligence</strong></td>
+    <td>reason, remember, analyze, solve problems</td>
+  </tr>
+  <tr>
+    <td><strong>Wisdom</strong></td>
+    <td>perception, insight, intuition, notice things others miss</td>
+  </tr>
+  <tr>
+    <td><strong>Charisma</strong></td>
+    <td>entertain, intimidate, persuade, perform, or make a good first impression</td>
+  </tr>
+</table>
+
+    <div class="table-title">Ability saving throw examples</div>
+<table class="ability-save-table">
+  <tr>
+    <th>Ability</th>
+    <th>Task</th>
+  </tr>
+  <tr>
+    <td><strong>Strength</strong></td>
+    <td>Physically resist direct force or damage</td>
+  </tr>
+  <tr>
+    <td><strong>Dexterity</strong></td>
+    <td>Dodge attacks or avoid being hit</td>
+  </tr>
+  <tr>
+    <td><strong>Constitution</strong></td>
+    <td>Endure a toxic hazard or resist poison or disease</td>
+  </tr>
+  <tr>
+    <td><strong>Intelligence</strong></td>
+    <td>recognize an illusion as fake</td>
+  </tr>
+  <tr>
+    <td><strong>Wisdom</strong></td>
+    <td>Resist a mental assault</td>
+  </tr>
+  <tr>
+    <td><strong>Charisma</strong></td>
+    <td>Assert your identity</td>
+  </tr>
+</table>
+
+
+    <div class="table-title">Skills examples</div>
+<table class="skills-table">
+  <tr>
+    <th>Skill</th>
+    <th>Ability</th>
+    <th>Example uses</th>
+  </tr>
+  <tr>
+    <td><strong>Acrobatics</strong></td>
+    <td>Dexterity</td>
+    <td>Stay on your feet in tricky situation or perform an acrobatic stunt.Balance on a narrow ledge, perform a flip, tumble through a crowd</td>
+  </tr>
+  <tr>
+    <td><strong>Animal Handling</strong></td>
+    <td>Wisdom</td>
+    <td>Handle and train animals, read animal behavior, or calm a wild animal</td>
+  </tr>
+  <tr>
+    <td><strong>Arcana</strong></td>
+    <td>Intelligence</td>
+    <td>Recall lore about spells, magic items and the planes of existence</td>
+  </tr>
+  <tr>
+    <td><strong>Athletics</strong></td>
+    <td>Strength</td>
+    <td>Jump farther then normal, stay afloat in rough water, break something</td>
+  </tr>
+  <tr>
+    <td><strong>Deception</strong></td>
+    <td>Charisma</td>
+    <td>Tell a convincing lie, wear a disguise convincingly, hide your true intentions, or manipulate others</td>
+  </tr>
+  <tr>
+    <td><strong>History</strong></td>
+    <td>Intelligence</td>
+    <td>Recall lore about the past, its events, its cultures and its people</td>
+  </tr>
+  <tr>
+    <td><strong>Insight</strong></td>
+    <td>Wisdom</td>
+    <td>Discern the true intentions of others, or notice subtle changes in behavior</td>
+  </tr>
+    <tr>
+    <td><strong>Intimidation</strong></td>
+    <td>Charisma</td>
+    <td>Awe or threaten someone into doing what you want</td>
+  </tr>
+    <tr>
+    <td><strong>Investigation</strong></td>
+    <td>Intelligence</td>
+    <td>Find obscure information in books, or deduce how something works</td>
+  </tr>
+    <tr>
+    <td><strong>Medicine</strong></td>
+    <td>Wisdom</td>
+    <td>Diagnose an illness or determine what killed the recently slain.</td>
+  </tr>
+    <tr>
+    <td><strong>Nature</strong></td>
+    <td>Intelligence</td>
+    <td>Recall lore about the natural world, its creatures, and its environments</td>
+  </tr>
+    <tr>
+    <td><strong>Perception</strong></td>
+    <td>Wisdom</td>
+    <td>Using a combination of senses, notice something that is easy to miss</td>
+  </tr>
+    <tr>
+    <td><strong>Performance</strong></td>
+    <td>Charisma</td>
+    <td>Act, tell a story, perform music or dance</td>
+  </tr>
+    <tr>
+    <td><strong>Persuasion</strong></td>
+    <td>Charisma</td>
+    <td>Honestly and graciously convince someone to see things your way</td>
+  </tr>
+    <tr>
+    <td><strong>Religion</strong></td>
+    <td>Intelligence</td>
+    <td>Recall lore about deities, religious practices, and holy symbols</td>
+  </tr>
+    <tr>
+    <td><strong>Sleight of Hand</strong></td>
+    <td>Dexterity</td>
+    <td>Pick a pocket, conceal a handheld object or perform a trick</td>
+  </tr>
+    <tr>
+    <td><strong>Stealth</strong></td>
+    <td>Dexterity</td>
+    <td>Move silently, hide in shadows, or avoid detection</td>
+  </tr>
+      <tr>
+    <td><strong>Survival</strong></td>
+    <td>Wisdom</td>
+    <td>Track animals, identify food and water sources, and navigate the wilderness</td>
+  </tr>
+</table>
+
+
+
     `;
   }
 
