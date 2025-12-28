@@ -72,9 +72,9 @@ function showCharacterTable() {
       <td>
         <select id="charRace">
           <option value="">— Select —</option>
-          <option>Dragonborn</option><option>Dwarf</option><option>Elf</option>
-          <option>Gnome</option><option>Half-Elf</option><option>Half-Orc</option>
-          <option>Halfling</option><option>Human</option><option>Tiefling</option>
+          <option>Aasimar</option><option>Dragonborn</option><option>Dwarf</option><option>Elf</option>
+          <option>Gnome</option><option>Goliath</option><option>Halfling</option>
+          <option>Human</option><option>Orc</option><option>Tiefling</option>
         </select>
       </td>
     </tr>
@@ -798,6 +798,7 @@ function updateSubclassOptions() {
 
 
 }
+
 
 
 
