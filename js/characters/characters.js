@@ -4,23 +4,8 @@ export function initCharacterStatblock() {
 
 
   document.addEventListener("showCharacterTable", showCharacterTable);
-  document.addEventListener("showClassesTable", showClassesTable);
 
 
-  function showClassesTable() {
-    characterStatblock.innerHTML = `
-      <div class="table-title">Classes</div>
-      <table class="dc-table">
-        <tr><th>Class</th><th>Main Ability</th></tr>
-        <tr><td><strong>Barbarian</strong></td><td>Strength</td></tr>
-        <tr><td><strong>Bard</strong></td><td>Charisma</td></tr>
-        <tr><td><strong>Sorcerer</strong></td><td>Charisma</td></tr>
-        <tr><td><strong>Wizard</strong></td><td>Intelligence</td></tr>
-        <tr><td><strong>Druid</strong></td><td>Wisdom</td></tr>
-        <tr><td><strong>Rogue</strong></td><td>Dexterity</td></tr>
-      </table>
-    `;
-  }
 
 const subclasses = {
   Barbarian: ["Berserker", "Totem Warrior", "Ancestral Guardian", "Zealot"],
@@ -56,6 +41,10 @@ const spellcastingClasses = {
   Warlock: { cantrips: [2, 2, 2, 2, 2, 3, 3, 3, 3, 4], spellsKnown: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11] },
   Wizard: { cantrips: [3, 3, 3, 4, 4, 4, 4, 4, 4, 4], spellsPrepared: level => level + getMod("INT") }
 };
+
+
+
+
 
 
 
@@ -593,7 +582,7 @@ if (hpCurrent && hpMax) {
 const GITHUB_USER = "Purgatorius77";
 const GITHUB_REPO = "DnD_website";
 const GITHUB_BRANCH = "main";
-const GITHUB_TOKEN = "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"; // Replace with your PAT
+const GITHUB_TOKEN = "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"; // Replace with your PAT
 
 async function saveCharacterToGitHub(data, name) {
   const path = `data/characters/${encodeURIComponent(name)}.json`;
@@ -798,7 +787,6 @@ function updateSubclassOptions() {
 
 
 }
-
 
 
 
