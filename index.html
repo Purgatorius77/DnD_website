@@ -11,23 +11,7 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- ===== OPTIONAL INLINE TOOLTIP STYLING ===== -->
-  <style>
-    #tooltip {
-      position: absolute;
-      padding: 5px 10px;
-      background: white;
-      color: black;
-      border: 1px solid #333;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.3);
-      display: none;
-      max-width: 200px;
-      z-index: 1000;
-      pointer-events: none;
-      font-size: 0.9em;
-    }
-  </style>
-</head>
+
 
 <body>
 <div class="layout">
@@ -39,6 +23,11 @@
   <button id="Spells">Spells</button>
   <button id="Character">Character</button>
   <button id="Rules">Rules</button>
+  <button id="Items">Items</button>
+  <button id="Fluff">Background</button>
+
+  <div class="sidebar-divider"></div>
+
   <!-- MONSTER FILTERS -->
   <div id="monster-filters">
     <label for="monsterSelect">Select Monster</label>
@@ -56,9 +45,20 @@
       </select>
     </div>
 
-    <div id="typeCheckboxes"></div>
+  <div id="typeFilter">
+      <p>Filter by Type:</p>
+    <div id="typeCheckboxes">
+</div>
+    </div>
+
+<div id="sourceFilter">
+      <p>Filter by Source:</p>
+    <div id="sourceCheckboxes"></div>
+</div>
+
 
     <div id="homebrewCheckboxDiv">
+      <p>Filter by Homebrew:</p>
       <label>
         <input type="checkbox" id="homebrewCheckbox">
         Homebrew
@@ -66,6 +66,7 @@
     </div>
 
     <div id="ownCheckboxDiv">
+      <p>Filter by Ownership:</p>
       <label>
         <input type="checkbox" id="ownCheckbox">
         Own
@@ -94,12 +95,14 @@
 
     <div id="spellSchoolCheckboxes"></div>
 
+
+
     <button id="resetSpellFiltersBtn">Reset Filters</button>
   </div>
 
 
 <div id="rules-filters" style="display:none">
-  <button id="dcRatingBtn">DC Rating</button>
+  <button id="dcRatingBtn">DC & abilities</button>
   <button id="conditionsBtn">Conditions</button>
   <button id="damageBtn">Damage</button>
   <button id="hpacBtn">HP/AC</button>
@@ -109,11 +112,47 @@
 <div id="character-filters" style="display:none;">
   <button id="classesBtn">Classes</button>
   <button id="characterBtn">Charactersheet</button>
+  <button id="strainBtn">Cosmic Strain</button>
+  <button id="racesnBtn">Races</button>
+  <button id="backgroundBtn">Character Backgrounds</button>
+  <button id="featsBtn">Feats</button>
+
+  <div id="classFilters" style="display:none;">
+      <label for="classSelect">Select Class</label>
+    <select id="classSelect"></select>
+  </div>
+
 </div>
+
+<div id="items-filters" style="display:none;">
+  <button id="itemsBtn">Items</button>
+  <button id="weaponsBtn">Weapons</button>
+  <button id="armorBtn">Armour</button>
+  <button id="magicalBtn">Magical Items</button>
+</div>
+
+<div id="fluff-filters" style="display:none;">
+
 
 </aside>
 
   <!-- MAIN STAT BLOCK -->
+
+<!-- FRONT PAGE -->
+<div id="home-statblock">
+  <div class="home-text">
+    <h1>Welcome to my D&D page</h1>
+    <p>
+      Use the menu on the left to explore monsters, spells, characters, rules,
+      items, and the lore of Dungeons & Dragons.
+    </p>
+    <p>
+      Prepare your encounters, check monsters and spells, and let the story unfold.
+    </p>
+  </div>
+</div>
+
+
 <main id="statblock">
 
   <!-- MONSTER STATBLOCK -->
@@ -135,8 +174,13 @@
   </div>
 
 <div id="rules-statblock" style="display:none;"></div>
-<div id="character-statblock" style="display:none;"></div>
+<div id="character-statblock" style="display:none;">
 
+</div>
+
+<!-- ITEM STATBLOCK -->
+<div id="items-statblock" style="display:none;">
+</div>
 
 </main>
 

@@ -83,6 +83,11 @@ body {
   cursor: pointer;
 }
 
+.sidebar-divider {
+  margin: 12px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
 /* =========================
    STAT BLOCK
 ========================= */
@@ -387,10 +392,27 @@ body {
   background-color: #730000;
 }
 
-.condition {
-  cursor: help;
-  position: relative;
+
+
+#tooltip {
+  position: fixed;
+  background: #2c2c2c;
+  color: #fff;
+  padding: 8px 10px;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  border-radius: 6px;
+  max-width: 320px;
+  pointer-events: none;
+  z-index: 999999;
+  opacity: 0;
+  transition: opacity 0.12s ease;
 }
+
+#tooltip.show {
+  opacity: 1;
+}
+
 
 /* =========================
    HEADER TABS
@@ -934,4 +956,20 @@ button {
 }
 .spell-table {
   min-width: max-content;
+}
+
+
+#home-statblock {
+  padding: 40px;
+  color: #756338;
+}
+
+.home-text {
+  max-width: 520px;
+  line-height: 1.6;
+}
+
+.home-text h1 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
 }
