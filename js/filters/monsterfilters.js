@@ -4,6 +4,7 @@ export function initMonsterFilters(monsters) {
   const monsterSelect = document.getElementById("monsterSelect");
   const crCheckboxesDiv = document.getElementById("crCheckboxes");
   const typeCheckboxesDiv = document.getElementById("typeCheckboxes");
+  const sourceCheckboxesDiv = document.getElementById("sourceCheckboxes");
   const nameFilterInput = document.getElementById("nameFilter");
   const crComparisonSelect = document.getElementById("crComparison");
   const resetFiltersBtn = document.getElementById("resetFiltersBtn");
@@ -13,6 +14,12 @@ export function initMonsterFilters(monsters) {
   buildTypeCheckboxes();
   buildCRCheckboxes();
   filterMonsters();
+  buildSourceCheckboxes();
+
+function getSourceTag(sourceString = "") {
+  return sourceString.split(/\s+page\s+/i)[0].trim();
+}
+
 
   // === REACTIVE FILTERING ===
   const filterElements = [
@@ -21,7 +28,8 @@ export function initMonsterFilters(monsters) {
     crCheckboxesDiv,
     typeCheckboxesDiv,
     ownCheckbox,
-    homebrewCheckbox
+    homebrewCheckbox,
+    sourceCheckboxesDiv
   ];
 
   filterElements.forEach(el => {
@@ -39,6 +47,8 @@ export function initMonsterFilters(monsters) {
     nameFilterInput.value = "";
     crCheckboxesDiv.querySelectorAll("input").forEach(cb => cb.checked = false);
     typeCheckboxesDiv.querySelectorAll("input").forEach(cb => cb.checked = false);
+    sourceCheckboxesDiv.querySelectorAll("input").forEach(cb => cb.checked = false);
+
     if (ownCheckbox) ownCheckbox.checked = false;
     if (homebrewCheckbox) homebrewCheckbox.checked = false;
 
@@ -68,6 +78,21 @@ export function initMonsterFilters(monsters) {
     });
   }
 
+function buildSourceCheckboxes() {
+  const sources = [...new Set(monsters.map(m => getSourceTag(m.source)))].sort();
+  sourceCheckboxesDiv.innerHTML = "";
+
+  sources.forEach(src => {
+    const label = document.createElement("label");
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.value = src;
+    label.append(cb, src);
+    sourceCheckboxesDiv.appendChild(label);
+  });
+}
+
+
   function buildCRCheckboxes() {
     const crValues = ["0","1/8","1/4","1/2","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","30"];
     crCheckboxesDiv.innerHTML = "";
@@ -88,6 +113,9 @@ export function initMonsterFilters(monsters) {
     const homebrewChecked = homebrewCheckbox?.checked;
     const selectedCRs = [...crCheckboxesDiv.querySelectorAll("input:checked")].map(cb => cb.value);
     const selectedTypes = [...typeCheckboxesDiv.querySelectorAll("input:checked")].map(cb => cb.value);
+    const selectedSources = [...sourceCheckboxesDiv.querySelectorAll("input:checked")]
+  .map(cb => cb.value);
+
 
     const filtered = monsters.filter(mon => {
       if (!mon.name.toLowerCase().includes(searchText)) return false;
@@ -110,6 +138,12 @@ export function initMonsterFilters(monsters) {
         const typeClean = mon.type.replace(/\s*\(.*?\)/, "");
         if (!selectedTypes.includes(typeClean)) return false;
       }
+
+if (selectedSources.length) {
+  const monSource = getSourceTag(mon.source);
+  if (!selectedSources.includes(monSource)) return false;
+}
+
 
       return true;
     });
