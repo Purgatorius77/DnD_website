@@ -1,5 +1,4 @@
-//main.js
-
+// js/main.js
 import { initMonsterFilters } from "./filters/monsterfilters.js";
 import { initSpellFilters } from "./filters/spellfilters.js";
 import { initMonsterStatblock } from "./monsters/monsterstatblock.js";
@@ -8,20 +7,35 @@ import { initViewSwitcher } from "./ui/viewswitcher.js";
 import { loadAllData } from "./data/dataloader.js";
 import { initCombatTracker } from "./combat/combattracker.js";
 import { initRulesFilters } from "./filters/rulesfilters.js";
-import { initRulesStatblock } from "./rules/rules.js"; // <--- import added
+import { initRulesStatblock } from "./rules/rules.js";
 import { initCharacterFilters } from "./filters/characterfilter.js";
 import { initCharacterStatblock } from "./characters/characters.js";
+import { initcosmicStrain } from "./characters/cosmicStrain.js";
+import { initItemsFilters} from "./filters/itemfilters.js";
+import { initItemsStatblock} from "./items/items.js";
+import { initFluffFilters } from "./filters/flufffilter.js";
+import { initFluffStatblock} from "./fluff/fluff.js";
+import { initCharClasses} from "./characters/charclasses.js";
+import { initBackgrounds} from "./characters/backgrounds.js";
+import { initFeats} from "./characters/feats.js";
+import { initRaces} from "./characters/races.js";
+
+
+
+
 
 document.addEventListener("DOMContentLoaded", async () => {
 
   const { monsters, spells, monsterFluff } = await loadAllData();
 
-  // 🔑 single shared store
   window.appState = {
     monsters,
     spells,
     fluff: monsterFluff
   };
+
+
+
 
   initMonsterStatblock(monsters, monsterFluff, spells);
   initSpellStatblock(spells);
@@ -33,6 +47,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   initRulesStatblock();
   initCharacterFilters();
   initCharacterStatblock();
+  initcosmicStrain();
+  initItemsFilters();
+  initItemsStatblock();
+  initFluffFilters();
+  initFluffStatblock();
+  initCharClasses();
+  initFeats();
+  initRaces();
+  initBackgrounds();
+
   initViewSwitcher();
 
 });
+
+
