@@ -12,115 +12,42 @@ showItemsTable();
     }
     );     
 
+    showItemsTable();
 
 function showItemsTable() {
     itemsStatblock.innerHTML = `
 
-    <div class="table-title">DC Rating</div>
-<table class="dc-table">
-  <tr>
-    <th>Difficulty</th>
-    <th>DC</th>
-  </tr>
-  <tr>
-    <td><strong>Very Easy</strong></td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td><strong>Easy</strong></td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td><strong>Medium</strong></td>
-    <td>15</td>
-  </tr>
-  <tr>
-    <td><strong>Hard</strong></td>
-    <td>20</td>
-  </tr>
-  <tr>
-    <td><strong>Very Hard</strong></td>
-    <td>25</td>
-  </tr>
-  <tr>
-    <td><strong>Nearly Impossible</strong></td>
-    <td>30</td>
-  </tr>
-</table>
+    
+  <div class="home-text">
+    <h1>Welcome to my D&D page</h1>
+    <p>
+ Items are coming soon!
+     </p>
+  </div>
 `;
 }
 
 function showWeaponsTable() {
     itemsStatblock.innerHTML = `
 
-    <div class="table-title">DC Rating</div>
-<table class="dc-table">
-  <tr>
-    <th>Difficulty</th>
-    <th>DC</th>
-  </tr>
-  <tr>
-    <td><strong>Very Easy</strong></td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td><strong>Easy</strong></td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td><strong>Medium</strong></td>
-    <td>15</td>
-  </tr>
-  <tr>
-    <td><strong>Hard</strong></td>
-    <td>20</td>
-  </tr>
-  <tr>
-    <td><strong>Very Hard</strong></td>
-    <td>25</td>
-  </tr>
-  <tr>
-    <td><strong>Nearly Impossible</strong></td>
-    <td>30</td>
-  </tr>
-</table>
+  <div class="home-text">
+    <h1>Welcome to my D&D page</h1>
+    <p>
+ Weapons are coming soon!
+     </p>
+  </div>
 `;
 }
 
 function showArmorTable() {
     itemsStatblock.innerHTML = `
 
-    <div class="table-title">DC Rating</div>
-<table class="dc-table">
-  <tr>
-    <th>Difficulty</th>
-    <th>DC</th>
-  </tr>
-  <tr>
-    <td><strong>Very Easy</strong></td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td><strong>Easy</strong></td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td><strong>Medium</strong></td>
-    <td>15</td>
-  </tr>
-  <tr>
-    <td><strong>Hard</strong></td>
-    <td>20</td>
-  </tr>
-  <tr>
-    <td><strong>Very Hard</strong></td>
-    <td>25</td>
-  </tr>
-  <tr>
-    <td><strong>Nearly Impossible</strong></td>
-    <td>30</td>
-  </tr>
-</table>
+  <div class="home-text">
+    <h1>Welcome to my D&D page</h1>
+    <p>
+ Armour is coming soon!
+     </p>
+  </div>
 `;
 }
 }
