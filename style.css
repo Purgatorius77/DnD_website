@@ -973,3 +973,80 @@ button {
   font-size: 2.4rem;
   margin-bottom: 10px;
 }
+/* =========================
+   INTRO PAGES
+========================= */
+.intro {
+  display: none;               /* hide by default */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fdf6e3;  /* soft warm background */
+  border: 2px solid #b29665;  /* darker border for contrast */
+  border-radius: 8px;
+  padding: 30px 40px;
+  margin: 20px auto;
+  max-width: 900px;
+  box-shadow: 3px 3px 12px rgba(0,0,0,0.25);
+  font-family: "Garamond", "Georgia", serif;
+  line-height: 1.6;
+  color: #4b3c1a;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.intro.show {
+  display: flex;  /* changed from block to flex to keep your layout */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3a2a16;
+  border-bottom: 3px solid #3a2a16;
+  padding-bottom: 6px;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.intro ul {
+  margin-left: 1.2em;
+  margin-bottom: 12px;
+}
+
+.intro li {
+  margin-bottom: 6px;
+}
+
+.intro button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(#f3e2b7, #e1c58a);
+  border: 2px solid #3a2a16;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.4),
+    0 2px 0 #3a2a16,
+    0 4px 6px rgba(0,0,0,0.3);
+  transition: all 0.15s ease;
+}
+
+.intro button:hover {
+  background: linear-gradient(#f7ebc8, #ead29b);
+}
+
+.intro button:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.4);
+}
