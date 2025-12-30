@@ -3,7 +3,7 @@ export function initBackgrounds() {
 
   document.addEventListener("showBackgroundsTable", showBackgroundsTable);
 
-showBackgroundsTable();
+
 
 function showBackgroundsTable() {
   characterStatblock.innerHTML = `
@@ -70,7 +70,7 @@ function showBackgroundsTable() {
       <td>Tough</td>
       <td>Animal Handling, Nature</td>
       <td>Carpenter’s Tools</td>
-      <td>Carpenter’s Tools, Work Clothes, 12 gp</td>
+      <td>Carpenter’s Tools, Healer's kit, Iron pot, Traveler's Clothes, 30 gp</td>
     </tr>
 
     <tr>
@@ -79,7 +79,7 @@ function showBackgroundsTable() {
       <td>Alert</td>
       <td>Athletics, Perception</td>
       <td>One Gaming Set</td>
-      <td>Gaming Set, Traveler’s Clothes, 10 gp</td>
+      <td>Spear, Light crossbow, 20 bolts,Gaming Set, Hooded Lantern, Manacles, Quiver, Traveler’s Clothes, 12 gp</td>
     </tr>
 
     <tr>
@@ -88,7 +88,7 @@ function showBackgroundsTable() {
       <td>Magic Initiate (Druid)</td>
       <td>Stealth, Survival</td>
       <td>Cartographer’s Tools</td>
-      <td>Cartographer’s Tools, Traveler’s Clothes, 14 gp</td>
+      <td>Shortbow, 20 arrows, Cartographer’s Tools, Bedroll, Quiver, Tent, Traveler’s Clothes, 3 gp</td>
     </tr>
 
     <tr>
@@ -97,7 +97,7 @@ function showBackgroundsTable() {
       <td>Healer</td>
       <td>Medicine, Religion</td>
       <td>Herbalism Kit</td>
-      <td>Herbalism Kit, Common Clothes, 10 gp</td>
+      <td>Quarterstaff, Herbalism Kit, Bedroll, Book of Philosophy, Lamp, Oil (3 flasks), Traveler’s Clothes, 16 gp</td>
     </tr>
 
     <tr>
@@ -106,7 +106,7 @@ function showBackgroundsTable() {
       <td>Lucky</td>
       <td>Animal Handling, Persuasion</td>
       <td>Navigator’s Tools</td>
-      <td>Navigator’s Tools, Trade Goods, Traveler’s Clothes, 20 gp</td>
+      <td>Navigator’s Tools, 2 pouches, Traveler’s Clothes, 22 gp</td>
     </tr>
 
     <tr>
@@ -115,7 +115,7 @@ function showBackgroundsTable() {
       <td>Skilled</td>
       <td>History, Persuasion</td>
       <td>One Gaming Set</td>
-      <td>Gaming Set, Fine Clothes, Signet Ring, 25 gp</td>
+      <td>Gaming Set, Fine Clothes, Perfume, 29 gp</td>
     </tr>
 
     <tr>
@@ -124,7 +124,7 @@ function showBackgroundsTable() {
       <td>Magic Initiate (Wizard)</td>
       <td>Arcana, History</td>
       <td>Calligrapher’s Supplies</td>
-      <td>Calligrapher’s Supplies, Tome/Notes, Traveler’s Clothes, 10 gp</td>
+      <td>Quarterstaff, Calligrapher’s Supplies, Book of History, Parchment (8 sheets), Robe, 8 gp</td>
     </tr>
 
     <tr>
@@ -133,7 +133,7 @@ function showBackgroundsTable() {
       <td>Tavern Brawler</td>
       <td>Acrobatics, Perception</td>
       <td>Navigator’s Tools</td>
-      <td>Navigator’s Tools, Bedroll, 2 Pouches, Traveler’s Clothes, 12 gp</td>
+      <td>Dagger, Navigator’s Tools, Rope, Traveler’s Clothes, 20 gp</td>
     </tr>
 
     <tr>
@@ -142,7 +142,7 @@ function showBackgroundsTable() {
       <td>Skilled</td>
       <td>Investigation, Perception</td>
       <td>Calligrapher’s Supplies</td>
-      <td>Calligrapher’s Supplies, Ink & Quill, Parchment, 10 gp</td>
+      <td>Calligrapher’s Supplies, Fine clothes, Lamp oil (3 flasks), Parchment (12 sheets), 23 gp</td>
     </tr>
 
     <tr>
@@ -151,7 +151,7 @@ function showBackgroundsTable() {
       <td>Savage Attacker</td>
       <td>Athletics, Intimidation</td>
       <td>One Gaming Set</td>
-      <td>Gaming Set, Military Gear, Traveler’s Clothes, 15 gp</td>
+      <td>Spear, Shortbow, 20 arrows, Gaming Set, Healer's kit, Quiver, Traveler’s Clothes, 14 gp</td>
     </tr>
 
     <tr>
@@ -160,7 +160,7 @@ function showBackgroundsTable() {
       <td>Lucky</td>
       <td>Insight, Stealth</td>
       <td>Thieves’ Tools</td>
-      <td>2 Daggers, Thieves’ Tools, Traveler’s Clothes, 16 gp</td>
+      <td>2 Daggers, Thieves’ Tools, Gaming Set, Bedroll, 2 pouches, Traveler’s Clothes, 16 gp</td>
     </tr>
 
   </table>
