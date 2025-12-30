@@ -3,6 +3,7 @@ export function initBackgrounds() {
 
   document.addEventListener("showBackgroundsTable", showBackgroundsTable);
 
+showBackgroundsTable();
 
 function showBackgroundsTable() {
   characterStatblock.innerHTML = `
