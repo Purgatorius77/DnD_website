@@ -22,6 +22,8 @@ export function initRulesStatblock() {
     showAttackTable();
   });
 
+  showDCRatingTable();
+
   function showDCRatingTable() {
     rulesStatblock.innerHTML = `
 
