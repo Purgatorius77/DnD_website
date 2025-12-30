@@ -1,197 +1,178 @@
 export function initViewSwitcher() {
-
-  const monsterBtn = document.getElementById("Monsterstats");
-  const spellsBtn  = document.getElementById("Spells");
-  const rulesBtn   = document.getElementById("Rules");
+  /* =====================
+     BUTTONS
+  ====================== */
+  const homeBtn       = document.getElementById("homeBtn");
+  const monsterBtn    = document.getElementById("Monsterstats");
+  const spellsBtn     = document.getElementById("Spells");
+  const rulesBtn      = document.getElementById("Rules");
   const charactersBtn = document.getElementById("Character");
- const itemsBtn = document.getElementById("Items");
-const fluffBtn = document.getElementById("Fluff");
-const classesBtn = document.getElementById("classesBtn");
-const strainBtn     = document.getElementById("strainBtn");
-const racesBtn      = document.getElementById("racesnBtn");
-const backgroundBtn = document.getElementById("backgroundBtn");
-const featsBtn      = document.getElementById("featsBtn");
+  const itemsBtn      = document.getElementById("Items");
+  const fluffBtn      = document.getElementById("Fluff");
 
+  const classesBtn    = document.getElementById("classesBtn");
+  const strainBtn     = document.getElementById("strainBtn");
+  const racesBtn      = document.getElementById("racesnBtn");
+  const backgroundBtn = document.getElementById("backgroundBtn");
+  const featsBtn      = document.getElementById("featsBtn");
 
+  /* =====================
+     INTRO STATBLOCKS
+  ====================== */
+  const homeStatblock   = document.getElementById("home-statblock");
+  const monstersIntro   = document.getElementById("monsters-intro");
+  const spellsIntro     = document.getElementById("spells-intro");
+  const charactersIntro = document.getElementById("characters-intro");
+  const rulesIntro      = document.getElementById("rules-intro");
+  const itemsIntro      = document.getElementById("items-intro");
+  const fluffIntro      = document.getElementById("fluff-intro");
 
-  const monsterFilters    = document.getElementById("monster-filters");
-  const spellFilters      = document.getElementById("spell-filters");
-  const rulesFilters      = document.getElementById("rules-filters");
-  const characterFilters  = document.getElementById("character-filters");
-const itemsFilters  = document.getElementById("items-filters");
-const fluffFilters  = document.getElementById("fluff-filters");
-const classFilters = document.getElementById("classFilters");
+  /* =====================
+     FILTERS
+  ====================== */
+  const monsterFilters   = document.getElementById("monster-filters");
+  const spellFilters     = document.getElementById("spell-filters");
+  const rulesFilters     = document.getElementById("rules-filters");
+  const characterFilters = document.getElementById("character-filters");
+  const itemsFilters     = document.getElementById("items-filters");
+  const fluffFilters     = document.getElementById("fluff-filters");
+  const classFilters     = document.getElementById("classFilters");
+  const racesFilters     = document.getElementById("racesFilters");
+  const backgroundFilters= document.getElementById("backgroundFilters");
+  const featsFilters     = document.getElementById("featsFilters");
+  const strainFilters    = document.getElementById("strainFilters");
 
+  /* =====================
+     STATBLOCKS
+  ====================== */
   const monsterStatblock   = document.getElementById("monster-statblock");
   const spellStatblock     = document.getElementById("spell-statblock");
   const rulesStatblock     = document.getElementById("rules-statblock");
   const characterStatblock = document.getElementById("character-statblock");
+  const itemsStatblock     = document.getElementById("items-statblock");
+  const fluffStatblock     = document.getElementById("fluff-statblock");
+
   const combatTracker = document.querySelector(".combat-tracker");
-const itemsStatblock = document.getElementById("items-statblock");
-const fluffStatblock = document.getElementById("fluff-statblock");
-const homeStatblock = document.getElementById("home-statblock");
 
+  /* =====================
+     HELPERS
+  ====================== */
+  const show = el => el && (el.style.display = "block");
+  const hide = el => el && (el.style.display = "none");
 
-  function show(el) { if (el) el.style.display = "block"; }
-  function hide(el) { if (el) el.style.display = "none"; }
+  function hideAll() {
+    [
+      homeStatblock,
+      monstersIntro,
+      spellsIntro,
+      charactersIntro,
+      rulesIntro,
+      itemsIntro,
+      fluffIntro,
 
-function showHome() {
-  show(homeStatblock);
+      monsterFilters,
+      spellFilters,
+      rulesFilters,
+      characterFilters,
+      itemsFilters,
+      fluffFilters,
+      classFilters,
+      racesFilters,
+      backgroundFilters,
+      featsFilters,
+      strainFilters,
 
-  hide(monsterFilters);
-  hide(monsterStatblock);
-  hide(spellFilters);
-  hide(spellStatblock);
-  hide(rulesFilters);
-  hide(rulesStatblock);
-  hide(characterFilters);
-  hide(characterStatblock);
-  hide(itemsFilters);
-  hide(itemsStatblock);
-  hide(fluffFilters);
-  hide(fluffStatblock);
-  hide(combatTracker);
-}
+      monsterStatblock,
+      spellStatblock,
+      rulesStatblock,
+      characterStatblock,
+      itemsStatblock,
+      fluffStatblock,
 
+      combatTracker
+    ].forEach(hide);
+  }
 
-  function showMonsters() {
-  show(monsterFilters);
-  show(monsterStatblock);
-  show(combatTracker);
+  /* =====================
+     HOME
+  ====================== */
+  function showHome() {
+    hideAll();
+    show(homeStatblock);
+  }
 
-  hide(spellFilters);
-  hide(spellStatblock);
-  hide(rulesFilters);
-  hide(rulesStatblock);
-  hide(characterFilters);
-  hide(characterStatblock);
-  hide(itemsFilters);
-  hide(itemsStatblock);
-  hide(fluffFilters);
-  hide(fluffStatblock);
-  hide(homeStatblock);
+  /* =====================
+     LANDING (INTRO + FILTERS)
+  ====================== */
+  function showLanding(intro, filters) {
+    hideAll();
+    show(intro);
+    show(filters);
+  }
 
-}
+  /* =====================
+     ENTER SECTION
+     (called when user interacts with filters)
+  ====================== */
+  function enterSection(intro, statblock, tracker = false) {
+    hide(intro);
+    show(statblock);
+    if (tracker) show(combatTracker);
+  }
 
-function showSpells() {
-  show(spellFilters);
-  show(spellStatblock);
-  show(combatTracker);
+  /* =====================
+     CHARACTER FILTER TOGGLING
+  ====================== */
+  function toggleCharacterFilter(filterSection) {
+    hide(charactersIntro);
+    // hide all character sub-filters
+    [classFilters, racesFilters, backgroundFilters, featsFilters, strainFilters].forEach(hide);
+    // show chosen filter
+    show(filterSection);
+    show(characterStatblock);
+  }
 
-  hide(monsterFilters);
-  hide(monsterStatblock);
-  hide(rulesFilters);
-  hide(rulesStatblock);
-  hide(characterFilters);
-  hide(characterStatblock);
-  hide(itemsFilters);
-  hide(itemsStatblock);
-    hide(fluffFilters);
-  hide(fluffStatblock);
-  hide(homeStatblock);
+  /* =====================
+     AUTO-ENTER ON FILTER USE
+  ====================== */
+  monsterFilters?.addEventListener("click", () => enterSection(monstersIntro, monsterStatblock, true));
+  spellFilters?.addEventListener("click", () => enterSection(spellsIntro, spellStatblock, true));
+  characterFilters?.addEventListener("click", () => enterSection(charactersIntro, characterStatblock));
+  rulesFilters?.addEventListener("click", () => enterSection(rulesIntro, rulesStatblock, true));
+  itemsFilters?.addEventListener("click", () => enterSection(itemsIntro, itemsStatblock));
+  fluffFilters?.addEventListener("click", () => enterSection(fluffIntro, fluffStatblock));
 
-}
+  /* =====================
+     CHARACTER SUB-FILTERS
+  ====================== */
+  classesBtn?.addEventListener("click", () => toggleCharacterFilter(classFilters));
+  racesBtn?.addEventListener("click", () => toggleCharacterFilter(racesFilters));
+  backgroundBtn?.addEventListener("click", () => toggleCharacterFilter(backgroundFilters));
+  featsBtn?.addEventListener("click", () => toggleCharacterFilter(featsFilters));
+  strainBtn?.addEventListener("click", () => toggleCharacterFilter(strainFilters));
 
-function showRules() {
-  show(rulesFilters);
-  show(rulesStatblock);
-  show(combatTracker);
+  /* =====================
+     NAV BUTTONS
+  ====================== */
+  homeBtn?.addEventListener("click", showHome);
+  monsterBtn?.addEventListener("click", () => showLanding(monstersIntro, monsterFilters));
+  spellsBtn?.addEventListener("click", () => showLanding(spellsIntro, spellFilters));
+  charactersBtn?.addEventListener("click", () => showLanding(charactersIntro, characterFilters));
+  rulesBtn?.addEventListener("click", () => showLanding(rulesIntro, rulesFilters));
+  itemsBtn?.addEventListener("click", () => showLanding(itemsIntro, itemsFilters));
+  fluffBtn?.addEventListener("click", () => showLanding(fluffIntro, fluffFilters));
 
-  hide(monsterFilters);
-  hide(monsterStatblock);
-  hide(spellFilters);
-  hide(spellStatblock);
-  hide(characterFilters);
-  hide(characterStatblock);
-  hide(itemsFilters);
-  hide(itemsStatblock);
-    hide(fluffFilters);
-  hide(fluffStatblock);
-  hide(homeStatblock);
+  /* =====================
+     SPELL OPEN EVENT
+  ====================== */
+  document.addEventListener("spell:open", () => {
+    hide(spellsIntro);
+    show(spellStatblock);
+    show(combatTracker);
+  });
 
-}
-function showCharacters() {
-  show(characterFilters);
-  show(characterStatblock);
-
-  hide(monsterFilters);
-  hide(monsterStatblock);
-  hide(spellFilters);
-  hide(spellStatblock);
-  hide(rulesFilters);
-  hide(rulesStatblock);
-  hide(combatTracker);
-  hide(itemsFilters);
-  hide(itemsStatblock);
-    hide(fluffFilters);
-  hide(fluffStatblock);
-  hide(homeStatblock);
-    hide(classFilters);
-
-}
-
-function showItems() {
-  show(itemsFilters);
-  show(itemsStatblock);
-
-  hide(monsterFilters);
-  hide(monsterStatblock);
-  hide(spellFilters);
-  hide(spellStatblock);
-  hide(rulesFilters);
-  hide(rulesStatblock);
-  hide(combatTracker);
-  hide(characterFilters);
-  hide(characterStatblock);
-    hide(fluffFilters);
-  hide(fluffStatblock);
-  hide(homeStatblock);
-
-}
-
-
-function showFluff() {
-  show(fluffFilters);
-  show(fluffStatblock);
-  hide(monsterFilters);
-  hide(monsterStatblock);
-  hide(spellFilters);
-  hide(spellStatblock);
-  hide(rulesFilters);
-  hide(rulesStatblock);
-  hide(combatTracker);
-  hide(characterFilters);
-  hide(characterStatblock);
-  hide(itemsFilters);
-  hide(itemsStatblock);
-  hide(homeStatblock);
-
-}
-
-function hideClassFilters() {
-  hide(classFilters);
-}
-
-function showClassFilters() {
-  show(classFilters);
-}
-
-
-
-  monsterBtn.addEventListener("click", showMonsters);
-  spellsBtn.addEventListener("click", showSpells);
-  rulesBtn.addEventListener("click", showRules);
-  charactersBtn.addEventListener("click", showCharacters);
-  itemsBtn.addEventListener("click", showItems);
-  fluffBtn.addEventListener("click", showFluff);
-  classesBtn.addEventListener("click", showClassFilters);
-  characterBtn.addEventListener("click", hideClassFilters);
-strainBtn.addEventListener("click", hideClassFilters);
-racesBtn.addEventListener("click", hideClassFilters);
-backgroundBtn.addEventListener("click", hideClassFilters);
-featsBtn.addEventListener("click", hideClassFilters);
-
-
+  /* =====================
+     INITIAL STATE
+  ====================== */
   showHome();
 }
-
