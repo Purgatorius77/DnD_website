@@ -31,7 +31,7 @@ export function initRulesStatblock() {
 function showMonsterCreationTable() {
 
     rulesStatblock.innerHTML = `
-<div class="table-title">Monster Creation Reference Table (CR 0–30) (see this blog for more info: https://alphastream.org/index.php/2025/03/26/how-to-create-a-monster-for-revised-dd-5e-2024/)</div>
+<div class="table-title">Monster Creation Reference Table (CR 0–30)</div>
 <table class="monster-creation-table">
 <tr>
 <th>CR</th><th>XP</th><th>PB</th><th>AC</th>
@@ -759,4 +759,5 @@ function showHPACTable() {
 </table>
     `;
   }
+
 }
