@@ -24,5 +24,8 @@ const conditionsBtn = document.getElementById("conditionsBtn");
     document.dispatchEvent(new CustomEvent("showAttackTable"));
 
   });
-}
+    monsterCreationBtn.addEventListener("click", () => {
+    document.dispatchEvent(new CustomEvent("showMonsterCreationTable"));
 
+  });
+}
