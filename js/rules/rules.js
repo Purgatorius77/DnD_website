@@ -32,7 +32,6 @@ function showMonsterCreationTable() {
 
     rulesStatblock.innerHTML = `
 <div class="table-title">Monster Creation Reference Table (CR 0–30)</div>
-<table class="monster-creation-table">
 <tr>
 <th>CR</th><th>XP</th><th>PB</th><th>AC</th>
 <th>Published HP Range</th><th>Published Avg HP</th><th>FoH HP</th>
@@ -759,5 +758,4 @@ function showHPACTable() {
 </table>
     `;
   }
-
 }
