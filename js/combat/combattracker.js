@@ -185,7 +185,14 @@ div.querySelector(".group-header").addEventListener("click", () => {
         </select>
         <div class="condition-list">
           ${m.conditions.length ? m.conditions.map((c, idx) => `
-            <span class="condition" data-idx="${idx}" title="${CONDITION_DESCRIPTIONS[c] || ''}">${c}</span>
+            <span
+  class="condition"
+  data-idx="${idx}"
+  data-tooltip="${CONDITION_DESCRIPTIONS[c] || ''}"
+>
+  ${c}
+</span>
+
           `).join(" ") : "None"}
         </div>
       `;
@@ -200,13 +207,68 @@ div.querySelector(".group-header").addEventListener("click", () => {
         }
       });
 
-      condDiv.querySelectorAll(".condition").forEach(span => {
-        span.addEventListener("click", () => {
-          const idx = parseInt(span.dataset.idx);
-          m.conditions.splice(idx, 1);
-          renderCombatTracker();
-        });
-      });
+const tooltip = document.getElementById("tooltip");
+
+let tooltipTimer;
+let longPressTimer;
+
+condDiv.querySelectorAll(".condition").forEach(span => {
+
+  function showTooltip() {
+    const text = span.dataset.tooltip;
+    if (!text) return;
+
+    tooltip.textContent = text;
+    tooltip.classList.add("show");
+
+    const rect = span.getBoundingClientRect();
+    const tipRect = tooltip.getBoundingClientRect();
+
+    let left = rect.left + rect.width / 2 - tipRect.width / 2;
+    let top = rect.top - tipRect.height - 10;
+
+    left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+    if (top < 8) top = rect.bottom + 10;
+
+    tooltip.style.left = left + "px";
+    tooltip.style.top = top + "px";
+
+    clearTimeout(tooltipTimer);
+    tooltipTimer = setTimeout(() => {
+      tooltip.classList.remove("show");
+    }, 5000);
+  }
+
+  function hideTooltip() {
+    clearTimeout(tooltipTimer);
+    tooltip.classList.remove("show");
+  }
+
+  function removeCondition() {
+    const idx = Number(span.dataset.idx);
+    m.conditions.splice(idx, 1);
+    renderCombatTracker();
+  }
+
+  // 🖱 Desktop
+  span.addEventListener("mouseenter", showTooltip);
+  span.addEventListener("mouseleave", hideTooltip);
+
+  // 📱 Touch
+  span.addEventListener("touchstart", e => {
+    e.preventDefault();
+
+    longPressTimer = setTimeout(() => {
+      removeCondition();
+    }, 600);
+  });
+
+  span.addEventListener("touchend", () => {
+    clearTimeout(longPressTimer);
+    showTooltip();
+  });
+
+});
 
       hpList.appendChild(hpRow);
       hpList.appendChild(condDiv);
