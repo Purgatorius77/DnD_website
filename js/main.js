@@ -12,7 +12,7 @@ import { initCharacterFilters } from "./filters/characterfilter.js";
 import { initCharacterStatblock } from "./characters/characters.js";
 import { initcosmicStrain } from "./characters/cosmicStrain.js";
 import { initItemsFilters} from "./filters/itemfilters.js";
-import { initItemsStatblock} from "./items/items.js";
+import { initItems} from "./items/items.js";
 import { initFluffFilters } from "./filters/flufffilter.js";
 import { initFluffStatblock} from "./fluff/fluff.js";
 import { initCharClasses} from "./characters/charclasses.js";
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initCharacterStatblock();
   initcosmicStrain();
   initItemsFilters();
-  initItemsStatblock();
+  initItems();
   initFluffFilters();
   initFluffStatblock();
   initCharClasses();
