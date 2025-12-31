@@ -1050,3 +1050,67 @@ button {
   transform: translateY(1px);
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.4);
 }
+
+
+/* =========================
+   Items STATBLOCK
+========================= */
+#items-statblock {
+  display: block;               
+  background-color: #f3e9ce;    
+  border: 2px solid #000;
+  border-radius: 6px;
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  font-family: "Garamond", "Georgia", serif;
+  color: #000;
+  overflow-y: auto;
+  overflow: hidden;
+}
+
+/* Table Titles (simulate <h2>) */
+#items-statblock .table-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1em 0 0.5em 0;
+  border-bottom: 2px solid #000;
+  padding-bottom: 3px;
+}
+
+/* Tables in items-statblock */
+#items-statblock table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+}
+
+/* Table headers */
+#items-statblock th {
+  text-align: left;
+  padding: 6px;
+  font-size: 1em;
+  border-bottom: 2px solid #000;
+}
+
+/* Table cells */
+#items-statblock td {
+  vertical-align: top;
+  padding: 6px;
+  line-height: 1.4em;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* Last column remove right border */
+#items-statblock td:last-child {
+  border-right: none;
+}
+
+/* Textareas in table cells */
+#items-statblock td textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+}
