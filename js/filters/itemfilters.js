@@ -1,14 +1,19 @@
+// itemsFilters.js
 export function initItemsFilters() {
-  const weaponsBtn = document.getElementById("weaponsBtn");
-  const armorBtn = document.getElementById("armorBtn");
-  const potionsBtn = document.getElementById("itemsBtn");
-    weaponsBtn.addEventListener("click", () => {
-    document.dispatchEvent(new CustomEvent("showWeaponsTable"));
-    });
-    armorBtn.addEventListener("click", () => {
-    document.dispatchEvent(new CustomEvent("showArmorTable"));
-    });
-    potionsBtn.addEventListener("click", () => {
+  const basicItemsBtn = document.getElementById("basicItemsBtn");
+  const itemsBtn = document.getElementById("itemsBtn");
+  const filters = document.getElementById("items-filters");
+
+  if (!basicItemsBtn || !itemsBtn || !filters) return;
+
+  // Initially hide filters
+  filters.style.display = "none";
+
+  basicItemsBtn.addEventListener("click", () => {
+    document.dispatchEvent(new CustomEvent("showBasicItemsTable"));
+  });
+
+  itemsBtn.addEventListener("click", () => {
     document.dispatchEvent(new CustomEvent("showItemsTable"));
-    });     
+  });
 }
