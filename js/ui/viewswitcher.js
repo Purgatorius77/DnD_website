@@ -138,7 +138,7 @@ export function initViewSwitcher() {
   monsterFilters?.addEventListener("click", () => enterSection(monstersIntro, monsterStatblock, true));
   spellFilters?.addEventListener("click", () => enterSection(spellsIntro, spellStatblock, true));
   characterFilters?.addEventListener("click", () => enterSection(charactersIntro, characterStatblock));
-  rulesFilters?.addEventListener("click", () => enterSection(rulesIntro, rulesStatblock, true));
+  rulesFilters?.addEventListener("click", () => enterSection(rulesIntro, rulesStatblock));
   itemsFilters?.addEventListener("click", () => enterSection(itemsIntro, itemsStatblock));
   fluffFilters?.addEventListener("click", () => enterSection(fluffIntro, fluffStatblock));
 
