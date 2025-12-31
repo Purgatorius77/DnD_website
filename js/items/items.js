@@ -22,23 +22,60 @@ const SOURCE_NAMES = {
   TDCSR: "Tal'dorei campaign setting reloaded",
   SCC: "Strixhaven: curriculum of chaos",
   XDMG: "Dungeon Master's Guide 2024",
-  OotA: "Out of the Abyss"
+  OotA: "Out of the Abyss",
+  ToA: "Tomb of Annihilation",
+  CoA: "Chains of Asmodeus",
+  MOT: "Theros",
+  IDRotF: "Icewind Dale: Ryme of the Frostmaiden",
+  CM: "Candlekeep Mysteries",
+PSX: "Planeshift: Ixalan",
+TftYP: "Tales from the yawning Portal",
+EGW: "Explorer's guide to Wildemount",
+WDH: "Waterdeep: Dragon heist",
+AAG: "Astral Adventurer's guide",
+LLK: "Lost Laboratory of Kwalish",
+QftIS: "Quest from the infinate staircase",
+NF: "Netheril's fall",
+GGR:  "Ravnica",
+PotA: "Princes of the Apocalypse",
+SKT: "Storm King's Thunder",
+BGDIA: "Baldur's Gate: ascent into Avernus",
+WDMM: "Waterdeep: Dungeon of the Mad Mage",
+JttRC: "Journeys through the Radiant Citadel",
+WBtW: "Wild beyond the Witchlight",
+HotDQ: "Horde of the Dragon Queen",
+IMR: "Infernal Machine Rebuilt",
+CoS: "Curse of Strahd",
+RoTOS: "Rise of Tiamat",
+SDW: "Sleeping Dragon's Wake",
+FRAiF: "Forgotten realms: adventures in Fearun",
+HotB: "Heroes of the Borderlands",
+
+
+
 };
 
 const TYPE = {
-  A: "Ammunition",
-  INS: "Instrument",
-  "M|XPHB": "Melee Weapon",
-  M: "Melee Weapon",
-  R: "Ranged Weapon",
-  "R|XPHB": "Ranged Weapon",
-  "A|XPHB": "Ammunition",
-  "MA|XPHB": "Medium Armor",
-  MA: "Medium Armor",
-  LA: "Light Armor",
-  "LA|XPHB": "Heavy Armor",
-  HA: "Light Armor",
-  "HA|XPHB": "Heavy Armor",
+  A: "Ammunition (old)",
+  INS: "Instrument (old)",
+  "M|XPHB": "Melee Weapon (new)",
+  M: "Melee Weapon (old)",
+  R: "Ranged Weapon (old)",
+  "R|XPHB": "Ranged Weapon (new)",
+  "A|XPHB": "Ammunition (new)",
+  "MA|XPHB": "Medium Armor (new)",
+  MA: "Medium Armor (old)",
+  LA: "Light Armor (old)",
+  "LA|XPHB": "Heavy Armor (new)",
+  HA: "Light Armor (old)",
+  "HA|XPHB": "Heavy Armor (new)",
+  "INS|XPHB": "Instrument (new)",
+  SCF: "Spellcasting Focus (old)",
+  "SCF|XPHB": "Spellcasting Focus (new)",
+  S: "Shield (old)",
+  "S|XPHB": "Shield (new)",
+  "AF|XDMG": "Futuristic Ammunition (new)",
+  "AF|DMG": "Futuristic Ammunition (old)",
 };
 
 let allItems = [];
@@ -83,11 +120,13 @@ function renderItemsTable(items) {
     const source = SOURCE_NAMES[i.source] || i.source || "—";
     const type = TYPE[i.type] || i.type || "—";
     const value = i.value ? (i.value / 100) + " gp" : "—";
+    const sourceText = i.page ? `${source}: page ${i.page}` : source; // concatenate source and page
+
 
     html += `
       <tr>
         <td>${i.name}</td>
-        <td>${source}</td>
+        <td>${sourceText}</td>
         <td>${type}</td>
         <td>${i.rarity || "—"}</td>
         <td>${value}</td>
