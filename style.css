@@ -1122,3 +1122,22 @@ button {
   box-sizing: border-box;
   resize: vertical;
 }
+
+.other-details-cell {
+  max-width: 380px;
+  white-space: normal;
+  vertical-align: top;
+}
+
+.other-details-cell p {
+  margin: 0.3em 0;
+}
+
+.other-block {
+  padding: 4px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.other-block:last-child {
+  border-bottom: none;
+}
