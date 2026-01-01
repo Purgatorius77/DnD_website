@@ -31,52 +31,74 @@ export function initRulesStatblock() {
 function showMonsterCreationTable() {
 
     rulesStatblock.innerHTML = `
-<div class="table-title">Monster Creation Reference Table (CR 0–30)</div>
-<table class="Ref_table">
+
+<div class="table-title">Combined Monster Creation Reference Table (CR 0–30)</div>
+<table class="Ref_table" border="1" style="border-collapse:collapse; text-align:center;">
 <tr>
-<th>CR</th><th>XP</th><th>PB</th><th>AC</th>
-<th>Published HP Range</th><th>Published Avg HP</th><th>FoH HP</th>
-<th>Attack Bonus</th><th># Attacks</th><th>Avg Damage/Round</th>
-<th>Save DC</th><th>Initiative</th><th>Example Monster</th>
+<th>CR</th>
+<th>XP</th>
+<th>Equivalent Character Level (FoF)</th>
+<th>PB</th>
+<th>Proficient Ability Bonus (FoF)</th>
+<th>AC</th>
+<th>Save DC</th>
+<th>AC / DC (FoF)</th>
+<th>Published HP Range</th>
+<th>Published Avg HP</th>
+<th>Hit Points (FoF)</th>
+<th>Attack Bonus</th>
+<th># Attacks</th>
+<th>Number of Attacks (FoF)</th>
+<th>Avg Damage/Round</th>
+<th>Damage per Round (FoF)</th>
+<th>Damage per Attack (FoF)</th>
+<th>Initiative</th>
+<th>Example Monster</th>
+<th>Example 5e Monsters (FoF)</th>
 </tr>
 
-<tr><td>0</td><td>10</td><td>+2</td><td>11 (=<13)</td><td>1–13</td><td>4</td><td>3 (2–4)</td><td>+2</td><td>1</td><td>1.5</td><td>=<11</td><td>+1</td><td>Commoner, Frog</td></tr>
-<tr><td>1/8</td><td>25</td><td>+2</td><td>13</td><td>5–17</td><td>9</td><td>9 (7–11)</td><td>+3</td><td>1</td><td>4</td><td>11</td><td>+1</td><td>Bandit, Giant Rat</td></tr>
-<tr><td>1/4</td><td>50</td><td>+2</td><td>13</td><td>8–22</td><td>14</td><td>13 (10–16)</td><td>+4</td><td>2</td><td>6</td><td>11</td><td>+2</td><td>Goblin, Wolf</td></tr>
-<tr><td>1/2</td><td>100</td><td>+2</td><td>13</td><td>11–33</td><td>20</td><td>22 (17–28)</td><td>+4</td><td>2</td><td>8</td><td>11</td><td>+2</td><td>Black Bear, Hobgoblin</td></tr>
-<tr><td>1</td><td>200</td><td>+2</td><td>13</td><td>19–52</td><td>29</td><td>33 (25–41)</td><td>+4</td><td>2</td><td>10</td><td>12</td><td>+2</td><td>Ghoul, Bugbear</td></tr>
-<tr><td>2</td><td>450</td><td>+2</td><td>13</td><td>22–85</td><td>46</td><td>45 (34–56)</td><td>+5</td><td>2</td><td>17</td><td>12</td><td>+2</td><td>Gelatinous Cube, Ogre</td></tr>
-<tr><td>3</td><td>700</td><td>+2</td><td>14</td><td>45–90</td><td>63</td><td>65 (49–81)</td><td>+5</td><td>2</td><td>23</td><td>12</td><td>+2</td><td>Basilisk, Wight</td></tr>
-<tr><td>4</td><td>1100</td><td>+2</td><td>15</td><td>40–120</td><td>71</td><td>84 (64–106)</td><td>+6</td><td>2</td><td>28</td><td>13</td><td>+2</td><td>Ettin, Ghost</td></tr>
-<tr><td>5</td><td>1800</td><td>+3</td><td>15</td><td>60–147</td><td>99</td><td>95 (71–119)</td><td>+7</td><td>3</td><td>36</td><td>14</td><td>+3</td><td>Troll, Flesh Golem</td></tr>
-<tr><td>6</td><td>2300</td><td>+3</td><td>16</td><td>78–152</td><td>109</td><td>112 (84–140)</td><td>+7</td><td>3</td><td>47</td><td>14</td><td>+3</td><td>Chimera, Wyvern</td></tr>
-<tr><td>7</td><td>2900</td><td>+3</td><td>16</td><td>99–168</td><td>128</td><td>130 (98–162)</td><td>+8</td><td>3</td><td>50</td><td>15</td><td>+4</td><td>Mind Flayer, Stone Giant</td></tr>
-<tr><td>8</td><td>3900</td><td>+3</td><td>16</td><td>85–184</td><td>135</td><td>136 (102–170)</td><td>+8</td><td>3</td><td>57</td><td>15</td><td>+4</td><td>Frost Giant, Hydra</td></tr>
-<tr><td>9</td><td>5000</td><td>+4</td><td>17</td><td>123–200</td><td>158</td><td>145 (109–181)</td><td>+9</td><td>3</td><td>60</td><td>16</td><td>+4</td><td>Fire Giant, Treant</td></tr>
-<tr><td>10</td><td>5900</td><td>+4</td><td>17</td><td>136–229</td><td>171</td><td>155 (116–194)</td><td>+9</td><td>3</td><td>65</td><td>16</td><td>+5</td><td>Aboleth, Stone Colossus</td></tr>
-<tr><td>11</td><td>7200</td><td>+4</td><td>17</td><td>143–248</td><td>194</td><td>165 (124–206)</td><td>+10</td><td>3</td><td>80</td><td>17</td><td>+5</td><td>Behir, Remorhaz</td></tr>
-<tr><td>12</td><td>8400</td><td>+4</td><td>17</td><td>169–240</td><td>190</td><td>175 (131–219)</td><td>+10</td><td>3</td><td>89</td><td>17</td><td>+8</td><td>Archmage, Erinyes</td></tr>
-<tr><td>13</td><td>10000</td><td>+5</td><td>18</td><td>172–230</td><td>200</td><td>184 (138–230)</td><td>+10</td><td>3</td><td>96</td><td>17</td><td>+10</td><td>Beholder, Vampire</td></tr>
-<tr><td>14</td><td>11500</td><td>+5</td><td>18</td><td>184–228</td><td>201</td><td>196 (147–245)</td><td>+10</td><td>3</td><td>105</td><td>18</td><td>+11</td><td>Adult Black Dragon, Ice Devil</td></tr>
-<tr><td>15</td><td>13000</td><td>+5</td><td>18</td><td>187–256</td><td>216</td><td>210 (158–263)</td><td>+11</td><td>3</td><td>110</td><td>18</td><td>+12</td><td>Mummy Lord, Purple Worm</td></tr>
-<tr><td>16</td><td>15000</td><td>+5</td><td>19</td><td>212–264</td><td>240</td><td>229 (172–286)</td><td>+12</td><td>3</td><td>115</td><td>18</td><td>+12</td><td>Marilith, Planetar</td></tr>
-<tr><td>17</td><td>18000</td><td>+6</td><td>19</td><td>199–356</td><td>265</td><td>246 (185–308)</td><td>+12</td><td>3</td><td>120</td><td>19</td><td>+13</td><td>Death Knight, Dracolich</td></tr>
-<tr><td>18</td><td>20000</td><td>+6</td><td>20</td><td>180</td><td>180</td><td>266 (200–333)</td><td>+13</td><td>3</td><td>130</td><td>19</td><td>+14</td><td>Demilich</td></tr>
-<tr><td>19</td><td>22000</td><td>+6</td><td>20</td><td>300</td><td>300</td><td>285 (214–356)</td><td>+14</td><td>3</td><td>140</td><td>20</td><td>+14</td><td>Balor</td></tr>
-<tr><td>20</td><td>25000</td><td>+6</td><td>20</td><td>323–337</td><td>331</td><td>300 (225–375)</td><td>+14</td><td>3</td><td>146</td><td>21</td><td>+14</td><td>Pit Fiend</td></tr>
-<tr><td>21</td><td>33000</td><td>+7</td><td>21</td><td>297–367</td><td>336</td><td>325 (244–406)</td><td>+15</td><td>3</td><td>160</td><td>22</td><td>+15</td><td>Lich, Solar</td></tr>
-<tr><td>22</td><td>41000</td><td>+7</td><td>21</td><td>370–507</td><td>431</td><td>350 (263–438)</td><td>+15</td><td>3</td><td>170</td><td>23</td><td>+15</td><td>Elemental Cataclysm</td></tr>
-<tr><td>23</td><td>50000</td><td>+7</td><td>22</td><td>346–481</td><td>445</td><td>375 (281–469)</td><td>+16</td><td>3</td><td>180</td><td>23</td><td>+15</td><td>Kraken</td></tr>
-<tr><td>24</td><td>62000</td><td>+7</td><td>22</td><td>546</td><td>546</td><td>400 (300–500)</td><td>+16</td><td>3</td><td>190</td><td>24</td><td>+16</td><td>Ancient Red Dragon</td></tr>
-<tr><td>25</td><td>75000</td><td>+8</td><td>22</td><td>553</td><td>553</td><td>430 (323–538)</td><td>+17</td><td>3</td><td>205</td><td>24</td><td>+16</td><td>Colossus</td></tr>
-<tr><td>26</td><td>90000</td><td>+8</td><td>23</td><td>—</td><td>—</td><td>460 (345–575)</td><td>+18</td><td>4</td><td>240</td><td>25</td><td>+16</td><td>—</td></tr>
-<tr><td>27</td><td>105000</td><td>+8</td><td>23</td><td>—</td><td>—</td><td>490 (368–613)</td><td>+18</td><td>4</td><td>258</td><td>25</td><td>+17</td><td>—</td></tr>
-<tr><td>28</td><td>120000</td><td>+8</td><td>24</td><td>—</td><td>—</td><td>540 (405–675)</td><td>+19</td><td>4</td><td>276</td><td>26</td><td>+17</td><td>—</td></tr>
-<tr><td>29</td><td>135000</td><td>+9</td><td>24</td><td>—</td><td>—</td><td>600 (450–750)</td><td>+19</td><td>4</td><td>294</td><td>26</td><td>+18</td><td>—</td></tr>
-<tr><td>30</td><td>155000</td><td>+9</td><td>25</td><td>697</td><td>697</td><td>666 (500–833)</td><td>+19</td><td>4</td><td>312</td><td>26</td><td>+18</td><td>Tarrasque</td></tr>
+<tr><td>0</td><td>10</td><td><1</td><td>+2</td><td>+2</td><td>11 (=<13)</td><td>=<11</td><td>11</td><td>1–13</td><td>4</td><td>3 (2–4)</td><td>+2</td><td>1</td><td>1</td><td>2</td><td>1.5</td><td>2 (1d4)</td><td>+1</td><td>Commoner, Frog</td><td>Commoner, rat, spider</td></tr>
+<tr><td>1/8</td><td>25</td><td><1</td><td>+2</td><td>+3</td><td>13</td><td>11</td><td>13</td><td>5–17</td><td>9</td><td>9 (7–11)</td><td>+3</td><td>1</td><td>1</td><td>3</td><td>4</td><td>4 (1d6 + 1)</td><td>+1</td><td>Bandit, Giant Rat</td><td>Bandit, cultist, giant rat</td></tr>
+<tr><td>1/4</td><td>50</td><td>1</td><td>+2</td><td>+3</td><td>13</td><td>11</td><td>13</td><td>8–22</td><td>14</td><td>13 (10–16)</td><td>+4</td><td>2</td><td>1</td><td>5</td><td>6</td><td>5 (1d6 + 2)</td><td>+2</td><td>Goblin, Wolf</td><td>Acolyte, skeleton, wolf</td></tr>
+<tr><td>1/2</td><td>100</td><td>2</td><td>+2</td><td>+4</td><td>13</td><td>11</td><td>13</td><td>11–33</td><td>20</td><td>22 (17–28)</td><td>+4</td><td>2</td><td>2</td><td>8</td><td>8</td><td>4 (1d4 + 2)</td><td>+2</td><td>Black Bear, Hobgoblin</td><td>Black bear, scout, shadow</td></tr>
+<tr><td>1</td><td>200</td><td>3</td><td>+2</td><td>+5</td><td>13</td><td>12</td><td>13</td><td>19–52</td><td>29</td><td>33 (25–41)</td><td>+4</td><td>2</td><td>2</td><td>12</td><td>12</td><td>6 (1d8 + 2)</td><td>+2</td><td>Ghoul, Bugbear</td><td>Dire wolf, specter, spy</td></tr>
+<tr><td>2</td><td>450</td><td>5</td><td>+2</td><td>+5</td><td>13</td><td>12</td><td>13</td><td>22–85</td><td>46</td><td>45 (34–56)</td><td>+5</td><td>2</td><td>2</td><td>17</td><td>17</td><td>9 (2d6 + 2)</td><td>+2</td><td>Gelatinous Cube, Ogre</td><td>Ghast, ogre, priest</td></tr>
+<tr><td>3</td><td>700</td><td>7</td><td>+2</td><td>+5</td><td>14</td><td>12</td><td>14</td><td>45–90</td><td>63</td><td>65 (49–81)</td><td>+5</td><td>2</td><td>2</td><td>23</td><td>23</td><td>12 (2d8 + 3)</td><td>+2</td><td>Basilisk, Wight</td><td>Knight, mummy, werewolf</td></tr>
+<tr><td>4</td><td>1100</td><td>9</td><td>+2</td><td>+6</td><td>15</td><td>13</td><td>15</td><td>40–120</td><td>71</td><td>84 (64–106)</td><td>+6</td><td>2</td><td>2</td><td>28</td><td>28</td><td>14 (3d8 + 1)</td><td>+2</td><td>Ettin, Ghost</td><td>Ettin, ghost</td></tr>
+<tr><td>5</td><td>1800</td><td>10</td><td>+3</td><td>+7</td><td>15</td><td>14</td><td>15</td><td>60–147</td><td>99</td><td>95 (71–119)</td><td>+7</td><td>3</td><td>3</td><td>35</td><td>36</td><td>12 (3d6 + 2)</td><td>+3</td><td>Troll, Flesh Golem</td><td>Elemental, gladiator, vampire spawn</td></tr>
+<tr><td>6</td><td>2300</td><td>11</td><td>+3</td><td>+7</td><td>16</td><td>14</td><td>15</td><td>78–152</td><td>109</td><td>112 (84–140)</td><td>+7</td><td>3</td><td>3</td><td>41</td><td>47</td><td>14 (3d6 + 4)</td><td>+3</td><td>Chimera, Wyvern</td><td>Mage, medusa, wyvern</td></tr>
+<tr><td>7</td><td>2900</td><td>12</td><td>+3</td><td>+7</td><td>16</td><td>15</td><td>15</td><td>99–168</td><td>128</td><td>130 (98–162)</td><td>+8</td><td>3</td><td>3</td><td>47</td><td>50</td><td>16 (3d8 + 3)</td><td>+4</td><td>Mind Flayer, Stone Giant</td><td>Stone giant, young black dragon</td></tr>
+<tr><td>8</td><td>3900</td><td>13</td><td>+3</td><td>+7</td><td>16</td><td>15</td><td>15</td><td>85–184</td><td>135</td><td>136 (102–170)</td><td>+8</td><td>3</td><td>3</td><td>53</td><td>57</td><td>18 (3d10 + 2)</td><td>+4</td><td>Frost Giant, Hydra</td><td>Assassin, frost giant</td></tr>
+<tr><td>9</td><td>5000</td><td>15</td><td>+4</td><td>+8</td><td>17</td><td>16</td><td>16</td><td>123–200</td><td>158</td><td>145 (109–181)</td><td>+9</td><td>3</td><td>3</td><td>59</td><td>60</td><td>22 (3d12 + 3)</td><td>+4</td><td>Fire Giant, Treant</td><td>Bone devil, fire giant, young blue dragon</td></tr>
+<tr><td>10</td><td>5900</td><td>16</td><td>+4</td><td>+9</td><td>17</td><td>16</td><td>17</td><td>136–229</td><td>171</td><td>155 (116–194)</td><td>+9</td><td>3</td><td>4</td><td>65</td><td>65</td><td>16 (3d8 + 3)</td><td>+5</td><td>Aboleth, Stone Colossus</td><td>Stone golem, young red dragon</td></tr>
+<tr><td>11</td><td>7200</td><td>17</td><td>+4</td><td>+9</td><td>17</td><td>17</td><td>17</td><td>143–248</td><td>194</td><td>165 (124–206)</td><td>+10</td><td>3</td><td>4</td><td>71</td><td>80</td><td>18 (3d10 + 2)</td><td>+5</td><td>Behir, Remorhaz</td><td>Djinni, efreeti, horned devil</td></tr>
+<tr><td>12</td><td>8400</td><td>18</td><td>+4</td><td>+9</td><td>17</td><td>17</td><td>17</td><td>169–240</td><td>190</td><td>175 (131–219)</td><td>+10</td><td>3</td><td>4</td><td>77</td><td>89</td><td>19 (3d10 + 3)</td><td>+8</td><td>Archmage, Erinyes</td><td>Archmage, erinyes</td></tr>
+<tr><td>13</td><td>10000</td><td>19</td><td>+5</td><td>+10</td><td>18</td><td>17</td><td>18</td><td>172–230</td><td>200</td><td>184 (138–230)</td><td>+10</td><td>3</td><td>4</td><td>83</td><td>96</td><td>21 (4d8 + 3)</td><td>+10</td><td>Beholder, Vampire</td><td>Adult white dragon, storm giant, vampire</td></tr>
+<tr><td>14</td><td>11500</td><td>20</td><td>+5</td><td>+11</td><td>18</td><td>18</td><td>19</td><td>184–228</td><td>201</td><td>196 (147–245)</td><td>+10</td><td>3</td><td>4</td><td>89</td><td>105</td><td>22 (4d10)</td><td>+11</td><td>Adult Black Dragon, Ice Devil</td><td>Adult black dragon, ice devil</td></tr>
+<tr><td>15</td><td>13000</td><td>>20</td><td>+5</td><td>+11</td><td>18</td><td>18</td><td>19</td><td>187–256</td><td>216</td><td>210 (158–263)</td><td>+11</td><td>3</td><td>5</td><td>95</td><td>110</td><td>19 (3d10 + 3)</td><td>+12</td><td>Mummy Lord, Purple Worm</td><td>Adult green dragon, mummy lord, purple worm</td></tr>
+<tr><td>16</td><td>15000</td><td>>20</td><td>+5</td><td>+12</td><td>19</td><td>18</td><td>19</td><td>212–264</td><td>240</td><td>229 (172–286)</td><td>+12</td><td>3</td><td>5</td><td>101</td><td>115</td><td>21 (4d8 + 3)</td><td>+12</td><td>Marilith, Planetar</td><td>Adult blue dragon, iron golem, marilith</td></tr>
+<tr><td>17</td><td>18000</td><td>>20</td><td>+6</td><td>+12</td><td>19</td><td>19</td><td>20</td><td>199–356</td><td>265</td><td>246 (185–308)</td><td>+12</td><td>3</td><td>5</td><td>107</td><td>120</td><td>22 (3d12 + 3)</td><td>+13</td><td>Death Knight, Dracolich</td><td>Adult red dragon</td></tr>
+<tr><td>18</td><td>20000</td><td>>20</td><td>+6</td><td>+13</td><td>20</td><td>19</td><td>21</td><td>180</td><td>180</td><td>266 (200–333)</td><td>+13</td><td>3</td><td>5</td><td>113</td><td>130</td><td>23 (4d10 + 1)</td><td>+14</td><td>Demilich</td><td>Demilich</td></tr>
+<tr><td>19</td><td>22000</td><td>>20</td><td>+6</td><td>+13</td><td>20</td><td>20</td><td>21</td><td>300</td><td>300</td><td>285 (214–356)</td><td>+14</td><td>3</td><td>5</td><td>119</td><td>140</td><td>24 (4d10 + 2)</td><td>+14</td><td>Balor</td><td>Balor</td></tr>
+<tr><td>20</td><td>25000</td><td>>20</td><td>+6</td><td>+13</td><td>20</td><td>21</td><td>21</td><td>323–337</td><td>331</td><td>300 (225–375)</td><td>+14</td><td>3</td><td>5</td><td>132</td><td>146</td><td>26 (4d12)</td><td>+14</td><td>Pit Fiend</td><td>Ancient white dragon, pit fiend</td></tr>
+<tr><td>21</td><td>33000</td><td>>20</td><td>+7</td><td>+14</td><td>21</td><td>22</td><td>22</td><td>297–367</td><td>336</td><td>325 (244–406)</td><td>+15</td><td>3</td><td>5</td><td>150</td><td>160</td><td>30 (4d12 + 4)</td><td>+15</td><td>Lich, Solar</td><td>Ancient black dragon, lich, solar</td></tr>
+<tr><td>22</td><td>41000</td><td>>20</td><td>+7</td><td>+15</td><td>21</td><td>23</td><td>23</td><td>370–507</td><td>431</td><td>350 (263–438)</td><td>+15</td><td>3</td><td>5</td><td>168</td><td>170</td><td>34 (4d12 + 8)</td><td>+15</td><td>Elemental Cataclysm</td><td>Ancient green dragon</td></tr>
+<tr><td>23</td><td>50000</td><td>>20</td><td>+7</td><td>+15</td><td>22</td><td>23</td><td>23</td><td>346–481</td><td>445</td><td>375 (281–469)</td><td>+16</td><td>3</td><td>5</td><td>186</td><td>180</td><td>37 (6d10 + 4)</td><td>+15</td><td>Kraken</td><td>Ancient blue dragon, kraken</td></tr>
+<tr><td>24</td><td>62000</td><td>>20</td><td>+7</td><td>+15</td><td>22</td><td>24</td><td>24</td><td>546</td><td>546</td><td>400 (300–500)</td><td>+16</td><td>3</td><td>5</td><td>204</td><td>190</td><td>41 (6d10 + 8)</td><td>+16</td><td>Ancient Red Dragon</td><td>Ancient red dragon</td></tr>
+<tr><td>25</td><td>75000</td><td>>20</td><td>+8</td><td>+16</td><td>22</td><td>24</td><td>24</td><td>553</td><td>553</td><td>430 (323–538)</td><td>+17</td><td>3</td><td>5</td><td>222</td><td>205</td><td>44 (6d10 + 11)</td><td>+16</td><td>Colossus</td><td>Adult green dragon</td></tr>
+<tr><td>26</td><td>90000</td><td>>20</td><td>+8</td><td>+17</td><td>23</td><td>25</td><td>25</td><td>—</td><td>—</td><td>460 (345–575)</td><td>+18</td><td>4</td><td>5</td><td>240</td><td>240</td><td>48 (6d10 + 15)</td><td>+16</td><td>—</td><td>—</td></tr>
+<tr><td>27</td><td>105000</td><td>>20</td><td>+8</td><td>+17</td><td>23</td><td>25</td><td>25</td><td>—</td><td>—</td><td>490 (368–613)</td><td>+18</td><td>4</td><td>5</td><td>258</td><td>258</td><td>52 (6d10 + 19)</td><td>+17</td><td>—</td><td>—</td></tr>
+<tr><td>28</td><td>120000</td><td>>20</td><td>+8</td><td>+17</td><td>24</td><td>26</td><td>26</td><td>—</td><td>—</td><td>540 (405–675)</td><td>+19</td><td>4</td><td>5</td><td>276</td><td>276</td><td>55 (6d10 + 22)</td><td>+17</td><td>—</td><td>—</td></tr>
+<tr><td>29</td><td>135000</td><td>>20</td><td>+9</td><td>+18</td><td>24</td><td>26</td><td>26</td><td>—</td><td>—</td><td>600 (450–750)</td><td>+19</td><td>4</td><td>5</td><td>294</td><td>294</td><td>59 (6d10 + 26)</td><td>+18</td><td>—</td><td>—</td></tr>
+<tr><td>30</td><td>155000</td><td>>20</td><td>+9</td><td>+19</td><td>25</td><td>26</td><td>27</td><td>697</td><td>697</td><td>666 (500–833)</td><td>+19</td><td>4</td><td>5</td><td>312</td><td>312</td><td>62 (6d10 + 29)</td><td>+18</td><td>Tarrasque</td><td>Tarrasque</td></tr>
+
+
+
 </table>
 
     `;
+
+
 
 }
 
@@ -759,5 +781,4 @@ function showHPACTable() {
 </table>
     `;
   }
-
 }
