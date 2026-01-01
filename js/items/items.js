@@ -1,3 +1,4 @@
+// -------------------- Paths --------------------
 const BASIC_ITEMS_PATH = "data/items-base.json";
 const ITEMS_PATH = "data/items.json";
 
@@ -12,131 +13,138 @@ const SOURCE_NAMES = {
   SCAG: "Sword Coast Adventurer's Guide",
   MTF: "Mordekainen's Tome of Foes",
   XGE: "Xanathar's Guide to Everything",
-  FRHoF: "Forggotten Realms: Heroes of Feyrun",
+  FRHoF: "Forgotten Realms: Heroes of Feyrun",
   DSotDQ: "Dragonlance: Shadows of the Dragon Queen",
-  SatO: "Sigil and the outlands",
-  ABH: "Astarion's book of hungers",
-  BMT: "Book of many things",
-  LFL: "Lowryn first light",
-  BGG: "Glory of the giants",
-  FTD: "Fizban's treasury of dragons",
-  TDCSR: "Tal'dorei campaign setting reloaded",
-  SCC: "Strixhaven: curriculum of chaos",
+  SatO: "Sigil and the Outlands",
+  ABH: "Astarion's Book of Hungers",
+  BMT: "Book of Many Things",
+  LFL: "Lowryn First Light",
+  BGG: "Glory of the Giants",
+  FTD: "Fizban's Treasury of Dragons",
+  TDCSR: "Tal'dorei Campaign Setting Reloaded",
+  SCC: "Strixhaven: Curriculum of Chaos",
   XDMG: "Dungeon Master's Guide 2024",
   OotA: "Out of the Abyss",
   ToA: "Tomb of Annihilation",
   CoA: "Chains of Asmodeus",
   MOT: "Theros",
-  IDRotF: "Icewind Dale: Ryme of the Frostmaiden",
+  IDRotF: "Icewind Dale: Rime of the Frostmaiden",
   CM: "Candlekeep Mysteries",
   PSX: "Planeshift: Ixalan",
-  TftYP: "Tales from the yawning Portal",
-  EGW: "Explorer's guide to Wildemount",
-  WDH: "Waterdeep: Dragon heist",
-  AAG: "Astral Adventurer's guide",
+  TftYP: "Tales from the Yawning Portal",
+  EGW: "Explorer's Guide to Wildemount",
+  WDH: "Waterdeep: Dragon Heist",
+  AAG: "Astral Adventurer's Guide",
   LLK: "Lost Laboratory of Kwalish",
-  QftIS: "Quest from the infinate staircase",
-  NF: "Netheril's fall",
+  QftIS: "Quest from the Infinite Staircase",
+  NF: "Netheril's Fall",
   GGR: "Ravnica",
   PotA: "Princes of the Apocalypse",
   SKT: "Storm King's Thunder",
-  BGDIA: "Baldur's Gate: ascent into Avernus",
+  BGDIA: "Baldur's Gate: Ascent into Avernus",
   WDMM: "Waterdeep: Dungeon of the Mad Mage",
-  JttRC: "Journeys through the Radiant Citadel",
-  WBtW: "Wild beyond the Witchlight",
+  JttRC: "Journeys Through the Radiant Citadel",
+  WBtW: "Wild Beyond the Witchlight",
   HotDQ: "Horde of the Dragon Queen",
   IMR: "Infernal Machine Rebuilt",
   CoS: "Curse of Strahd",
   RoTOS: "Rise of Tiamat",
   SDW: "Sleeping Dragon's Wake",
-  FRAiF: "Forgotten realms: adventures in Fearun",
+  FRAiF: "Forgotten Realms: Adventures in Faerûn",
   HotB: "Heroes of the Borderlands",
 };
 
 const TYPE = {
   A: "Ammunition (old)",
+  "A|XPHB": "Ammunition (new)",
+  AF: "Ammunition (Firearm)",
+  "AF|DMG": "Futuristic Ammunition",
+  "AF|XDMG": "Futuristic Ammunition",
   INS: "Instrument (old)",
-  "M|XPHB": "Melee Weapon (new)",
+  "INS|XPHB": "Instrument (new)",
   M: "Melee Weapon (old)",
+  "M|XPHB": "Melee Weapon (new)",
   R: "Ranged Weapon (old)",
   "R|XPHB": "Ranged Weapon (new)",
-  "A|XPHB": "Ammunition (new)",
-  "MA|XPHB": "Medium Armor (new)",
   MA: "Medium Armor (old)",
+  "MA|XPHB": "Medium Armor (new)",
   LA: "Light Armor (old)",
-  "LA|XPHB": "Heavy Armor (new)",
-  HA: "Light Armor (old)",
+  "LA|XPHB": "Light Armor (new)",
+  HA: "Heavy Armor (old)",
   "HA|XPHB": "Heavy Armor (new)",
-  "INS|XPHB": "Instrument (new)",
+  S: "Shield",
+  "S|XPHB": "Shield (new)",
   SCF: "Spellcasting Focus (old)",
   "SCF|XPHB": "Spellcasting Focus (new)",
-  S: "Shield (old)",
-  "S|XPHB": "Shield (new)",
-  "AF|XDMG": "Futuristic Ammunition (new)",
-  "AF|DMG": "Futuristic Ammunition (old)",
+  RD: "Rod",
   "RD|DMG": "Rod",
-  "WD|DMG": "Wand",
   "RD|XDMG": "Rod",
+  WD: "Wand",
+  "WD|DMG": "Wand",
   "WD|XDMG": "Wand",
   G: "Adventuring Gear",
   "G|XPHB": "Adventuring Gear",
   TG: "Trade Good",
   "TG|XDMG": "Trade Good",
   OTH: "Other",
-  "RG|XDMG": "Ring",
-  "AT|XPHB": "Artisan's Tools",
-  AT: "Artisan's Tools",
-  "AIR|XPHB": "Airship",
-  "AIR|DMG": "Airship",
-  "FD|XPHB": "Food & Drink",
-  FD: "Food & Drink",
-  "$G|XDMG": "Treasure: Gemstone",
-  "$G|DMG": "Treasure: Gemstone",
-  "$A|XDMG": "Treasure: Art",
-  "$A|DMG": "Treasure: Art",
-  "MNT|XPHB": "Mount",
-  MNT: "Mount",
-  P: "Poison",
-  "P|XPHB": "Poison",
   "RG|DMG": "Ring",
+  "RG|XDMG": "Ring",
+  AT: "Artisan's Tools",
+  "AT|XPHB": "Artisan's Tools",
   TAH: "Tack and Harness",
   "TAH|XPHB": "Tack and Harness",
-  "T|XPHB": "Tool",
   T: "Tool",
-  "GS|XPHB": "Gaming Set",
+  "T|XPHB": "Tool",
   GS: "Gaming Set",
-  "EXP|XDMG": "Explosive",
+  "GS|XPHB": "Gaming Set",
+  EXP: "Explosive",
   "EXP|DMG": "Explosive",
+  "EXP|XDMG": "Explosive",
+  "$G|DMG": "Treasure: Gemstone",
+  "$G|XDMG": "Treasure: Gemstone",
+  "$A|DMG": "Treasure: Art",
+  "$A|XDMG": "Treasure: Art",
+  SPC: "Vehicle: Space",
   "SPC|AAG": "Vehicle: Space",
-  "$C": "Treasure: coinage",
+  "$C": "Treasure: Coinage",
   SHP: "Ship",
-  "VEH|XPHB": "Vehicle",
   "SHP|XPHB": "Ship",
   VEH: "Vehicle",
+  "VEH|XPHB": "Vehicle",
+  SC: "Scroll",
   "SC|DMG": "Scroll",
   "SC|XPHB": "Scroll",
+  FD: "Food & Drink",
+  "FD|XPHB": "Food & Drink",
+  AIR: "Airship",
+  "AIR|DMG": "Airship",
+  "AIR|XPHB": "Airship",
+  MNT: "Mount",
+  "MNT|XPHB": "Mount"
 };
 
 const COLUMN_TITLES = {
-    name: "Name",
-    source: "Source",
-    type: "Type",
-    rarity: "Rarity",
-    value: "Value",
-    weight: "Weight",
-    ac: "AC",
-    bonusAc: "Bonus AC",
-    weaponCategory: "Weapon Category",
-    property: "Properties",
-    dmg1: "Damage",
-    dmgType: "Damage Type",
-    armor: "Armor Type",
-    strength: "Strength Req.",
-    stealth: "Stealth"
+  name: "Name",
+  source: "Source",
+  type: "Type",
+  rarity: "Rarity",
+  value: "Value",
+  weight: "Weight",
+  ac: "AC",
+  bonusAc: "Bonus AC",
+  weaponCategory: "Weapon Category",
+  property: "Properties",
+  mastery: "Mastery",
+  dmg1: "Damage",
+  dmgType: "Damage Type",
+  armor: "Armor Type",
+  strength: "Strength Req.",
+  stealth: "Stealth"
 };
 
 const PROPERTY = {
   A: "Ammunition",
+  AF: "Ammunition (Firearm)",
   F: "Finesse",
   H: "Heavy",
   L: "Light",
@@ -146,14 +154,56 @@ const PROPERTY = {
   V: "Versatile",
   "2H": "Two-Handed",
   LD: "Loading",
-  AF: "Ammunition (Firearm)",
   BF: "Burst Fire",
   RLD: "Reload",
   BF2: "Burst Fire (2)",
-  BF3: "Burst Fire (3)"
+  BF3: "Burst Fire (3)",
+  Vst: "Vestige"
 };
 
+const DAMAGE_TYPES = {
+  B: "Bludgeoning",
+  P: "Piercing",
+  S: "Slashing",
+  F: "Fire",
+  C: "Cold",
+  L: "Lightning",
+  T: "Thunder",
+  A: "Acid",
+  N: "Necrotic",
+  R: "Radiant",
+  O: "Poison",
+  Y: "Psychic",
+  H: "Force"
+};
 
+// -------------------- Tooltips --------------------
+const PROPERTY_TOOLTIPS = {
+  A: "Ammunition: You can use a weapon with this property to make a ranged attack. Each attack consumes one piece of ammunition. Drawing ammunition from a quiver, case, or container is part of the attack.",
+  AF: "Ammunition (Firearm): Same as Ammunition but for firearms, including modern or futuristic types.",
+  F: "Finesse: You can use your Dexterity modifier instead of Strength for the attack and damage rolls.",
+  H: "Heavy: Small creatures have disadvantage on attack rolls with this weapon. Disadvantage applies on melee attacks if Strength < 13 and ranged attacks if Dexterity < 13.",
+  L: "Light: This weapon is small and easy to handle, suitable for two-weapon fighting.",
+  R: "Reach: This weapon adds 5 feet to your reach when you attack with it.",
+  S: "Special: This weapon has unusual rules or properties; see its description for details.",
+  T: "Thrown: You can throw this weapon to make a ranged attack using the same ability modifier as for melee attacks.",
+  V: "Versatile: Can be used with one or two hands. Damage listed for both modes.",
+  "2H": "Two-Handed: Requires two hands to use.",
+  LD: "Loading: Can fire only one piece of ammunition per action, regardless of extra attacks.",
+  BF: "Burst Fire: Fires multiple rounds per attack action; see description.",
+  RLD: "Reload: Must spend listed actions to reload the weapon after firing."
+};
+
+const MASTERY_TOOLTIPS = {
+  Topple: "Topple: When you hit a creature with this weapon, you can attempt to knock it prone. The target must make a Constitution saving throw (DC 8) or fall prone. Works only on Large or smaller creatures.",
+  Slow: "Slow: Weapons with this mastery reduce attack speed or frequency. Only one attack per attack action.",
+  Sap: "Sap: Deals non-lethal damage. Can knock a creature unconscious if it drops to 0 HP.",
+  Vex: "Vex: Allows special maneuvers or bonus effects; see weapon description for details.",
+  Cleave: "Cleave: When hitting a creature, may also damage another adjacent creature using same attack rules.",
+  Graze: "Graze: Deals partial damage on hit; may cause secondary effects or conditions.",
+  Nick: "Nick: Deals minor damage; may cause minor conditions like bleeding or stagger.",
+  Push: "Push: On hit, can push target a short distance. Target may make Strength saving throw if specified."
+};
 
 // -------------------- State --------------------
 let allItems = [];
@@ -196,14 +246,56 @@ function formatNested(obj) {
   return Object.entries(obj).map(([k,v])=>`<b>${k}</b>: ${formatNested(v)}`).join("<br>");
 }
 
-function formatProperty(prop) {
-  if (!prop) return "—";
-  if (Array.isArray(prop)) {
-    return prop.map(p => PROPERTY[p] || p).join(", ");
-  }
-  return PROPERTY[prop] || prop;
+function formatPropertyTooltip(props, item) {
+  if (!props) return "—";
+  if (!Array.isArray(props)) props = [props];
+
+  return props.map(p => {
+    const key = (typeof p === "string" ? p : p?.type ?? String(p)).split("|")[0];
+    let label = PROPERTY[key] || key;
+
+    // Versatile damage
+    if (key === "V" && item?.dmg2) label += ` (${item.dmg2})`;
+
+    // Ammunition
+    if ((key === "A" || key === "AF") && item) {
+      const parts = [];
+      if (item.range) parts.push(`Range ${item.range}`);
+      if (item.ammoType) parts.push(item.ammoType.split("|")[0]);
+      if (parts.length) label += ` (${parts.join(", ")})`;
+    }
+
+    // Reload
+    if (key === "RLD" && item?.reload) label += ` (${item.reload} shots)`;
+
+    const tooltip = PROPERTY_TOOLTIPS[key] ? ` title="${PROPERTY_TOOLTIPS[key]}"` : "";
+    const style = tooltip
+      ? "style='text-decoration: underline dotted; cursor: help; color: #0645AD'"
+      : "";
+
+    return `<span${tooltip} ${style}>${label}</span>`;
+  }).join(", ");
 }
 
+function formatMasteryTooltip(mastery) {
+  if (!mastery) return "—";
+  if (!Array.isArray(mastery)) mastery = [mastery];
+
+  return mastery.map(m => {
+    const key = (typeof m === "string" ? m : m?.type ?? String(m)).split("|")[0];
+    const tooltip = MASTERY_TOOLTIPS[key] ? ` title="${MASTERY_TOOLTIPS[key]}"` : "";
+    const style = tooltip
+      ? "style='text-decoration: underline dotted; cursor: help; color: #0645AD'"
+      : "";
+    return `<span${tooltip} ${style}>${key}</span>`;
+  }).join(", ");
+}
+
+function formatDamageType(type) {
+  if (!type) return "—";
+  const clean = typeof type === "string" ? type.split("|")[0] : type;
+  return DAMAGE_TYPES[clean] || clean;
+}
 
 function flattenItem(item) {
   const flat = {};
@@ -221,17 +313,43 @@ function formatSource(source, page) {
   return page ? `${text}: page ${page}` : text;
 }
 
-function formatType(typeKey) {
-  if (!typeKey) return "—";
-  typeKey = typeKey.toString();
-
-  // Try full match first
-  if (TYPE[typeKey]) return TYPE[typeKey];
-
-  // Fallback: split and map individual keys
-  return typeKey.split("|").map(t => TYPE[t] || t).join(", ");
+function formatStealth(item) {
+  return item?.stealth ? "Disadvantage" : "—";
 }
 
+function formatArmorAC(item) {
+  if (!item?.ac) return "—";
+  const type = (item.type || "").split("|")[0];
+  if (type === "S") return `+${item.ac}`;
+  if (type === "LA") return `${item.ac} + Dex`;
+  if (type === "MA") return `${item.ac} + Dex (max 2)`;
+  if (type === "HA") return String(item.ac);
+  return String(item.ac);
+}
+
+function formatType(typeKey) {
+  if (!typeKey) return "—";
+  return typeKey.toString().split("|").map(t => TYPE[t] || t).join(", ");
+}
+
+function formatEntries(entries) {
+  if (!entries) return "";
+  if (!Array.isArray(entries)) entries = [entries];
+
+  return entries.map(e => {
+    if (typeof e === "string") return `<p>${e}</p>`;
+    if (e.type === "list" && Array.isArray(e.items)) {
+      const itemsHtml = e.items.map(item => {
+        let content = item.name ? `<strong>${item.name}</strong> ` : "";
+        if (item.entries) content += formatEntries(item.entries);
+        return `<li>${content}</li>`;
+      }).join("");
+      return `<ul style="margin-left:1em">${itemsHtml}</ul>`;
+    }
+    if (e.entries) return formatEntries(e.entries);
+    return `<pre>${JSON.stringify(e)}</pre>`;
+  }).join("");
+}
 
 // -------------------- Categorize --------------------
 function categorizeItems(items) {
@@ -259,69 +377,75 @@ function getVisibleColumns(items, keyColumns) {
   );
 }
 
-
 function renderItemsTable(items) {
-    if (!items.length) return "<p>No items available.</p>";
+  if (!items.length) return "<p>No items available.</p>";
 
-const keyColumns = [
+  const keyColumns = [
     "name", "source", "type", "rarity", "value", "weight",
-    "ac", "bonusAc", "weaponCategory", "property",
+    "ac", "bonusAc", "weaponCategory", "property", "mastery",
     "dmg1", "dmgType", "armor", "strength", "stealth"
-];
+  ];
 
-const visibleColumns = getVisibleColumns(items, keyColumns);
+  const visibleColumns = getVisibleColumns(items, keyColumns);
 
-let html = `<table border="1" style="border-collapse:collapse">
-<thead><tr>`;
-
-visibleColumns.forEach(k => {
-  html += `<th>${COLUMN_TITLES[k] || k}</th>`;
-});
-
-html += `<th>Other Details</th></tr></thead><tbody>`;
-
-items.forEach(item => {
-  const { flat, special } = flattenItem(item);
-  html += "<tr>";
+  let html = `<table border="1" style="border-collapse:collapse">
+  <thead><tr>`;
 
   visibleColumns.forEach(k => {
-    let value = flat[k] ?? "—";
-
-    if (k === "source") value = formatSource(flat.source, flat.page);
-    if (k === "type") value = formatType(flat.type);
-    if (k === "value") value = flat.value ? (flat.value / 100) + " gp" : "—";
-
-    html += `<td>${formatCell(value)}</td>`;
+    html += `<th>${COLUMN_TITLES[k] || k}</th>`;
   });
 
-  html += `<td>${
-    Object.keys(special).length
-      ? `<details><summary>Show</summary>${formatNested(special)}</details>`
-      : "—"
-  }</td></tr>`;
-});
+  html += `<th>Other Details</th></tr></thead><tbody>`;
 
-html += "</tbody></table>";
-return html;
+  items.forEach(item => {
+    const { flat, special } = flattenItem(item);
+    html += "<tr>";
 
+    visibleColumns.forEach(k => {
+      let value = flat[k] ?? "—";
+
+      switch(k) {
+        case "source": value = formatSource(flat.source, flat.page); break;
+        case "type": value = formatType(flat.type); break;
+        case "value": value = flat.value ? (flat.value / 100) + " gp" : "—"; break;
+        case "property": value = formatPropertyTooltip(flat.property, item); break;
+        case "mastery": value = formatMasteryTooltip(flat.mastery); break;
+        case "ac": value = formatArmorAC(item); break;
+        case "stealth": value = formatStealth(item); break;
+        case "dmgType": value = formatDamageType(flat.dmgType); break;
+      }
+
+      html += `<td>${formatCell(value)}</td>`;
+    });
+
+    const otherDetails = [];
+    if (item.entries) otherDetails.push(formatEntries(item.entries));
+    if (Object.keys(special).length) otherDetails.push(formatNested(special));
+
+    html += `<td>${otherDetails.join("<br>") || "—"}</td>`;
+    html += "</tr>";
+  });
+
+  html += "</tbody></table>";
+  return html;
 }
 
+// -------------------- Filters & Tabs --------------------
 function applyFilters(tabId, items) {
-    const sourceFilter = document.querySelector(`.filter-source[data-tab="${tabId}"]`).value;
-    const typeFilter = document.querySelector(`.filter-type[data-tab="${tabId}"]`).value;
+  const sourceFilter = document.querySelector(`.filter-source[data-tab="${tabId}"]`).value;
+  const typeFilter = document.querySelector(`.filter-type[data-tab="${tabId}"]`).value;
 
-    let filtered = items.slice();
-    if (sourceFilter) filtered = filtered.filter(i => i.source === sourceFilter);
-    if (typeFilter) filtered = filtered.filter(i => i.type.toString().split('|').includes(typeFilter));
+  let filtered = items.slice();
+  if (sourceFilter) filtered = filtered.filter(i => i.source === sourceFilter);
+  if (typeFilter) filtered = filtered.filter(i => i.type.toString().split('|').includes(typeFilter));
 
-    document.getElementById(`table-${tabId}`).innerHTML = renderItemsTable(filtered);
+  document.getElementById(`table-${tabId}`).innerHTML = renderItemsTable(filtered);
 }
 
-
-// -------------------- Tabs --------------------
 function renderFilters(tabId) {
   const sourceOptions = Object.entries(SOURCE_NAMES).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
   const typeOptions = Object.entries(TYPE).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
+
   return `
     <div style="margin-bottom:1em;">
       <label>Source: <select class="filter-source" data-tab="${tabId}"><option value="">All</option>${sourceOptions}</select></label>
