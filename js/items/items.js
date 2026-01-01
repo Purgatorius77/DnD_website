@@ -220,18 +220,38 @@ async function fetchJson(path, key) {
 
 // -------------------- Utilities --------------------
 function parseInline(text) {
-  if (typeof text !== "string") return text;
-  return text.replace(/\{@(\w+)\s+([^|}]+)(?:\|([^}]+))?\}/g, (_, type, name, source) => {
-    switch(type.toLowerCase()) {
-      case "item": return source ? `${name} (${source})` : name;
-      case "spell": return `${name} (Spell)`;
-      case "condition": return `${name} (Condition)`;
-      case "skill": return `${name} (Skill)`;
-      case "variantrule": return `${name} (Variant Rule)`;
-      default: return `${name} (${type})`;
-    }
-  });
+  if (typeof text !== "string") return "";
+
+  return text
+
+    // Dice & DC
+    .replace(/\{@dice\s+([^}]+)\}/gi, "<strong>$1</strong>")
+    .replace(/\{@dc\s+([^}]+)\}/gi, "DC $1")
+
+    // Formatting
+    .replace(/\{@italic\s+([^}]+)\}/gi, "<em>$1</em>")
+    .replace(/\{@bold\s+([^}]+)\}/gi, "<strong>$1</strong>")
+
+    // Game concepts
+    .replace(/\{@sense\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
+    .replace(/\{@skill\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
+    .replace(/\{@condition\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
+
+    // Links to things
+    .replace(/\{@(spell|item|creature|class|feat|background)\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$2")
+
+    // Tables & books
+    .replace(/\{@table\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
+    .replace(/\{@book\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
+    .replace(/\{@variantrule\s+([^|}]+)(?:\|[^}]*)?\}/gi, "<em>$1</em>")
+
+    // Percent chance
+    .replace(/\{@chance\s+(\d+)\}/gi, "$1% chance")
+
+    // Catch-all cleanup
+    .replace(/\{@[^}]+\}/g, "");
 }
+
 
 function formatCell(value) {
   if (Array.isArray(value)) return value.join(", ");
@@ -276,6 +296,25 @@ function formatPropertyTooltip(props, item) {
     return `<span${tooltip} ${style}>${label}</span>`;
   }).join(", ");
 }
+
+function formatAttachedSpells(attached) {
+  if (!attached) return "—";
+
+  const parts = [];
+
+  if (attached.daily) {
+    for (const [level, spells] of Object.entries(attached.daily)) {
+      parts.push(`<b>Daily:</b> ${spells.join(", ")}`);
+    }
+  }
+
+  if (attached.other?.length) {
+    parts.push(`<b>Other:</b> ${attached.other.join(", ")}`);
+  }
+
+  return parts.join("<br>");
+}
+
 
 function formatMasteryTooltip(mastery) {
   if (!mastery) return "—";
@@ -337,7 +376,7 @@ function formatEntries(entries) {
   if (!Array.isArray(entries)) entries = [entries];
 
   return entries.map(e => {
-    if (typeof e === "string") return `<p>${e}</p>`;
+    if (typeof e === "string") return `<p>${parseInline(e)}</p>`;
     if (e.type === "list" && Array.isArray(e.items)) {
       const itemsHtml = e.items.map(item => {
         let content = item.name ? `<strong>${item.name}</strong> ` : "";
@@ -388,14 +427,18 @@ function renderItemsTable(items) {
 
   const visibleColumns = getVisibleColumns(items, keyColumns);
 
-  let html = `<table border="1" style="border-collapse:collapse">
+let html = `
+<div style="max-width:100%; overflow-x:auto; padding-bottom:8px">
+<table border="1" style="border-collapse:collapse; min-width:1000px">
+
   <thead><tr>`;
 
   visibleColumns.forEach(k => {
     html += `<th>${COLUMN_TITLES[k] || k}</th>`;
   });
 
-  html += `<th>Other Details</th></tr></thead><tbody>`;
+html += `<th style="width:28%; min-width:320px">Other Details</th>`;
+
 
   items.forEach(item => {
     const { flat, special } = flattenItem(item);
@@ -420,13 +463,31 @@ function renderItemsTable(items) {
 
     const otherDetails = [];
     if (item.entries) otherDetails.push(formatEntries(item.entries));
-    if (Object.keys(special).length) otherDetails.push(formatNested(special));
+if (item.attachedSpells) {
+  otherDetails.push(formatAttachedSpells(item.attachedSpells));
+  delete special.attachedSpells;
+}
 
-    html += `<td>${otherDetails.join("<br>") || "—"}</td>`;
+if (item.attachedSpells) {
+  otherDetails.push(formatAttachedSpells(item.attachedSpells));
+  delete special.attachedSpells;
+}
+
+if (Object.keys(special).length) otherDetails.push(formatNested(special));
+
+
+
+html += `<td class="other-details-cell">
+  ${otherDetails.length
+    ? otherDetails.map(d => `<div class="other-block">${d}</div>`).join("")
+    : "—"}
+</td>`;
+
     html += "</tr>";
   });
 
-  html += "</tbody></table>";
+html += "</tbody></table></div>";
+
   return html;
 }
 
