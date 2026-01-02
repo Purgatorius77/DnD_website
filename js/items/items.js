@@ -1,6 +1,7 @@
 // -------------------- Paths --------------------
 const BASIC_ITEMS_PATH = "data/items-base.json";
 const ITEMS_PATH = "data/items.json";
+const ALLOWED_MAGIC_SOURCES = new Set(["XDMG", "XPHB"]);
 
 // -------------------- Mappings --------------------
 const SOURCE_NAMES = {
@@ -206,9 +207,12 @@ const MASTERY_TOOLTIPS = {
 };
 
 // -------------------- State --------------------
-let allItems = [];
+let normalItems = [];
 let basicItems = [];
+let magicBaseItems = [];
 let currentItems = [];
+let MAGIC_VARIANTS = [];
+
 
 // -------------------- Fetch --------------------
 async function fetchJson(path, key) {
@@ -218,13 +222,45 @@ async function fetchJson(path, key) {
   return data[key] || [];
 }
 
+async function loadMagicVariants() {
+  const data = await fetch("data/magicvariants.json").then(r => r.json());
+  // Only keep non-classic variants
+  MAGIC_VARIANTS = (data.magicvariant || []).filter(v => v.edition !== "classic");
+}
+
+
 // -------------------- Utilities --------------------
-function parseInline(text) {
+function parseInline(text, item) {
   if (typeof text !== "string") return "";
 
-  return text
+  // Only replace bonus placeholders if item is provided
+  if (item) {
+    text = text.replace(/\{=bonusWeapon\}/gi, item.bonusWeapon || "");
+    text = text.replace(/\{=bonusAc\}/gi, item.bonusAc || "");
 
-    // Dice & DC
+    // Replace {#itemEntry Item Name|SOURCE} with the full magic name including suffix/prefix
+text = text.replace(/\{#itemEntry\s+([^|}]+)(?:\|([^}]+))?\}/gi, (_, entryName, entrySource) => {
+  // 1️⃣ Find the base item either by exact name or by matching baseItemName + baseItemSource
+  const baseItem = [...basicItems, ...normalItems].find(i =>
+    i.name === entryName || (i.name === entryName && (!entrySource || i.source === entrySource))
+  );
+
+  if (!baseItem) return entryName; // fallback if not found
+
+  let fullName = baseItem.name;
+
+  // If the magic variant has a 'resist' property, append it
+  if (baseItem.resist && Array.isArray(baseItem.resist) && baseItem.resist.length) {
+    const resistNames = baseItem.resist.map(r => r[0].toUpperCase() + r.slice(1)); // Capitalize
+    fullName = fullName + " of " + resistNames.join(" & ") + " Resistance";
+  }
+
+  return fullName;
+});
+  }
+
+  // Dice & DC
+  text = text
     .replace(/\{@dice\s+([^}]+)\}/gi, "<strong>$1</strong>")
     .replace(/\{@dc\s+([^}]+)\}/gi, "DC $1")
 
@@ -250,7 +286,130 @@ function parseInline(text) {
 
     // Catch-all cleanup
     .replace(/\{@[^}]+\}/g, "");
+
+  return text;
 }
+
+
+
+
+function enrichBaseItems(items) {
+  for (const item of items) {
+    const type = (item.type || "").split("|")[0];
+
+    if (["M", "R", "A", "AF"].includes(type)) item.weapon = true;
+    if (["LA", "MA", "HA"].includes(type)) item.armor = true;
+    if (type === "S") item.shield = true;
+    if (type.includes("Tool") || type.includes("Artisan") || type.includes("Mount") || type.includes("Vehicle"))
+      item.gear = true;
+
+    // Ensure the source is XPHB or XDMG so variants can apply
+    if (!ALLOWED_MAGIC_SOURCES.has(item.source)) item.source = "XPHB"; 
+  }
+}
+
+
+function excludesItem(excludes, item) {
+  if (excludes.net && item.name.toLowerCase().includes("net")) return true;
+  if (excludes.name && item.name === excludes.name) return true;
+  return false;
+}
+
+
+
+function generateMagicVariants(item) {
+  const results = [];
+
+  for (const variant of MAGIC_VARIANTS) {
+    if (!variantAppliesToItem(variant, item)) continue;
+
+    const magicItem = applyVariant(item, variant);
+
+    magicItem.baseItemName = item.name;
+    magicItem.baseItemSource = item.source;
+
+    results.push(magicItem);
+  }
+
+  return results;
+}
+
+
+
+function applyVariant(item, variant) {
+  const magicItem = structuredClone(item);
+
+  if (variant.inherits?.namePrefix)
+    magicItem.name = variant.inherits.namePrefix + magicItem.name;
+
+  if (variant.inherits?.nameSuffix)
+    magicItem.name = magicItem.name + variant.inherits.nameSuffix;
+
+  if (variant.inherits?.source) magicItem.source = variant.inherits.source;
+  if (variant.inherits?.page) magicItem.page = variant.inherits.page;
+  if (variant.inherits?.rarity) magicItem.rarity = variant.inherits.rarity;
+
+  // ✅ Copy bonusWeapon and bonusAc
+  if (variant.inherits?.bonusWeapon) magicItem.bonusWeapon = variant.inherits.bonusWeapon;
+  if (variant.inherits?.bonusAc) magicItem.bonusAc = variant.inherits.bonusAc;
+
+  if (variant.inherits?.entries) magicItem.entries = variant.inherits.entries;
+  if (variant.inherits?.reqAttune) magicItem.reqAttune = variant.inherits.reqAttune;
+  if (variant.inherits?.curse) magicItem.curse = variant.inherits.curse;
+  if (variant.inherits?.lootTables) magicItem.lootTables = variant.inherits.lootTables;
+
+  return magicItem;
+}
+
+
+function ruleMatchesItemStrict(rule, item) {
+  // Exact name + source match
+  if (rule.name) {
+    return (
+      item.name === rule.name &&
+      (!rule.source || item.source === rule.source)
+    );
+  }
+
+  // Type match
+  if (rule.type) {
+    return item.type === rule.type;
+  }
+
+  // Boolean flag match (weapon, armor, axe, etc.)
+  for (const key of Object.keys(rule)) {
+    if (key === "name" || key === "type" || key === "source") continue;
+
+    // The rule requires this flag, the item MUST explicitly have it true
+    if (rule[key] === true) {
+      return item[key] === true;
+    }
+  }
+
+  return false;
+}
+
+
+function variantAppliesToItem(variant, item) {
+  // 1️⃣ Only allow base items from 2024 core books **if source exists**
+  if (item.source && !ALLOWED_MAGIC_SOURCES.has(item.source)) return false;
+
+  // 2️⃣ Variant itself must be from 2024 core books
+  const variantSource = variant.inherits?.source;
+  if (!ALLOWED_MAGIC_SOURCES.has(variantSource)) return false;
+
+  // 3️⃣ Must have requirements
+  if (!Array.isArray(variant.requires) || !variant.requires.length) return false;
+
+  // 4️⃣ At least one requirement must match
+  return variant.requires.some(req => ruleMatchesItemStrict(req, item));
+}
+
+
+
+
+
+
 
 
 function formatCell(value) {
@@ -368,27 +527,43 @@ function formatArmorAC(item) {
 
 function formatType(typeKey) {
   if (!typeKey) return "—";
+
+  // If the full key exists in TYPE, use it
+  if (TYPE[typeKey]) return TYPE[typeKey];
+
+  // Otherwise, fallback: split by | and map individually
   return typeKey.toString().split("|").map(t => TYPE[t] || t).join(", ");
 }
 
-function formatEntries(entries) {
+function formatEntries(entries, item) {
   if (!entries) return "";
   if (!Array.isArray(entries)) entries = [entries];
 
   return entries.map(e => {
-    if (typeof e === "string") return `<p>${parseInline(e)}</p>`;
+    // Simple string entry
+    if (typeof e === "string") return `<p>${parseInline(e, item)}</p>`;
+
+    // Entry is a list
     if (e.type === "list" && Array.isArray(e.items)) {
-      const itemsHtml = e.items.map(item => {
-        let content = item.name ? `<strong>${item.name}</strong> ` : "";
-        if (item.entries) content += formatEntries(item.entries);
+      const itemsHtml = e.items.map(subItem => {
+        let content = subItem.name ? `<strong>${parseInline(subItem.name, item)}</strong> ` : "";
+        if (subItem.entries) content += formatEntries(subItem.entries, item);
         return `<li>${content}</li>`;
       }).join("");
       return `<ul style="margin-left:1em">${itemsHtml}</ul>`;
     }
-    if (e.entries) return formatEntries(e.entries);
+
+    // Nested entries (like an object with 'entries' property)
+    if (e.entries) return formatEntries(e.entries, item);
+
+    // Fallback: stringify object
     return `<pre>${JSON.stringify(e)}</pre>`;
   }).join("");
 }
+
+
+
+
 
 // -------------------- Categorize --------------------
 function categorizeItems(items) {
@@ -404,6 +579,12 @@ function categorizeItems(items) {
   });
   return categories;
 }
+
+function categorizeMagicItems(magicItems) {
+  // Same as categorizeItems
+  return categorizeItems(magicItems);
+}
+
 
 // -------------------- Table --------------------
 function getVisibleColumns(items, keyColumns) {
@@ -427,9 +608,11 @@ function renderItemsTable(items) {
 
   const visibleColumns = getVisibleColumns(items, keyColumns);
 
+
 let html = `
-<div style="max-width:100%; overflow-x:auto; padding-bottom:8px">
+<div class="items-table-wrap">
 <table border="1" style="border-collapse:collapse; min-width:1000px">
+
 
   <thead><tr>`;
 
@@ -438,6 +621,7 @@ let html = `
   });
 
 html += `<th style="width:28%; min-width:320px">Other Details</th>`;
+html += `</tr></thead><tbody>`;
 
 
   items.forEach(item => {
@@ -463,10 +647,7 @@ html += `<th style="width:28%; min-width:320px">Other Details</th>`;
 
     const otherDetails = [];
     if (item.entries) otherDetails.push(formatEntries(item.entries));
-if (item.attachedSpells) {
-  otherDetails.push(formatAttachedSpells(item.attachedSpells));
-  delete special.attachedSpells;
-}
+
 
 if (item.attachedSpells) {
   otherDetails.push(formatAttachedSpells(item.attachedSpells));
@@ -486,22 +667,119 @@ html += `<td class="other-details-cell">
     html += "</tr>";
   });
 
-html += "</tbody></table></div>";
+html += `
+</tbody>
+</table>
+</div>
+`;
+
 
   return html;
 }
 
+function renderMagicItemsTable(items) {
+  if (!items.length) return "<p>No magical items available.</p>";
+
+  const keyColumns = [
+    "name", "source", "type", "rarity", "value", "weight",
+    "baseItemName", "baseItemSource"
+  ];
+
+  let html = `
+    <div class="items-table-wrap">
+      <table border="1" style="border-collapse:collapse; min-width:1000px">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Source</th>
+            <th>Type</th>
+            <th>Rarity</th>
+            <th>Value</th>
+            <th>Weight</th>
+            <th>Base Item</th>
+            <th>Base Source</th>
+            <th style="width:28%; min-width:320px">Other Details</th>
+          </tr>
+        </thead>
+        <tbody>
+  `;
+
+  items.forEach(item => {
+    html += "<tr>";
+
+    const { flat, special } = flattenItem(item);
+
+    html += `<td>${flat.name}</td>`;
+    html += `<td>${formatSource(flat.source, flat.page)}</td>`;
+    html += `<td>${formatType(flat.type)}</td>`;
+    html += `<td>${flat.rarity || "—"}</td>`;
+    html += `<td>${flat.value ? flat.value / 100 + " gp" : "—"}</td>`;
+    html += `<td>${flat.weight || "—"}</td>`;
+    html += `<td>${item.baseItemName || "—"}</td>`;
+    html += `<td>${item.baseItemSource ? formatSource(item.baseItemSource) : "—"}</td>`;
+
+    const otherDetails = [];
+    // In renderMagicItemsTable:
+if (item.entries) otherDetails.push(formatEntries(item.entries, item));
+
+    if (item.attachedSpells) {
+      otherDetails.push(formatAttachedSpells(item.attachedSpells));
+      delete special.attachedSpells;
+    }
+    if (Object.keys(special).length) otherDetails.push(formatNested(special));
+
+    html += `<td class="other-details-cell">${otherDetails.length
+      ? otherDetails.map(d => `<div class="other-block">${d}</div>`).join("")
+      : "—"}</td>`;
+
+    html += "</tr>";
+  });
+
+  html += `
+        </tbody>
+      </table>
+    </div>
+  `;
+
+  return html;
+}
+
+
+
 // -------------------- Filters & Tabs --------------------
 function applyFilters(tabId, items) {
-  const sourceFilter = document.querySelector(`.filter-source[data-tab="${tabId}"]`).value;
-  const typeFilter = document.querySelector(`.filter-type[data-tab="${tabId}"]`).value;
+  const sourceEl = document.querySelector(`.filter-source[data-tab="${tabId}"]`);
+  const typeEl = document.querySelector(`.filter-type[data-tab="${tabId}"]`);
+  if (!sourceEl || !typeEl) return;
 
-  let filtered = items.slice();
-  if (sourceFilter) filtered = filtered.filter(i => i.source === sourceFilter);
-  if (typeFilter) filtered = filtered.filter(i => i.type.toString().split('|').includes(typeFilter));
+  const sourceFilter = sourceEl.value;
+  const typeFilter = typeEl.value;
 
-  document.getElementById(`table-${tabId}`).innerHTML = renderItemsTable(filtered);
+  // For magical items, items are already categorized by category
+  const categories = tabId === "magical" ? categorizeItems(items) : { [tabId]: items };
+
+  for (const [cat, catItems] of Object.entries(categories)) {
+    let filtered = catItems.slice();
+
+    if (sourceFilter) {
+      filtered = filtered.filter(
+        i => i.source === sourceFilter || i.baseItemSource === sourceFilter
+      );
+    }
+
+    if (typeFilter) {
+      filtered = filtered.filter(
+        i => i.type.toString().split('|').includes(typeFilter)
+      );
+    }
+
+    const tableId = `table-${cat}`;
+    const html = tabId === "magical" ? renderMagicItemsTable(filtered) : renderItemsTable(filtered);
+    const tableEl = document.getElementById(tableId);
+    if (tableEl) tableEl.innerHTML = html;
+  }
 }
+
 
 function renderFilters(tabId) {
   const sourceOptions = Object.entries(SOURCE_NAMES).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
@@ -516,9 +794,14 @@ function renderFilters(tabId) {
 }
 
 function setupFilters(tabId, items) {
-  document.querySelector(`.filter-source[data-tab="${tabId}"]`).addEventListener("change",()=>applyFilters(tabId,items));
-  document.querySelector(`.filter-type[data-tab="${tabId}"]`).addEventListener("change",()=>applyFilters(tabId,items));
+  const sourceEl = document.querySelector(`.filter-source[data-tab="${tabId}"]`);
+  const typeEl = document.querySelector(`.filter-type[data-tab="${tabId}"]`);
+  if (!sourceEl || !typeEl) return;
+
+  sourceEl.addEventListener("change", () => applyFilters(tabId, items));
+  typeEl.addEventListener("change", () => applyFilters(tabId, items));
 }
+
 
 function setupTabs() {
   const buttons = document.querySelectorAll(".tab-btn");
@@ -532,34 +815,127 @@ function setupTabs() {
 }
 
 // -------------------- Load Items --------------------
+// -------------------- Load Items (non-magical) --------------------
 async function loadItems(fetchFn, itemsArray) {
   const statblock = document.getElementById("items-statblock");
   statblock.innerHTML = "<p>Loading items...</p>";
+
   try {
+    // Fetch the items if not already loaded
     if (!itemsArray.length) itemsArray.push(...await fetchFn());
+
+    // Only base items — no magic variants
     currentItems = itemsArray.slice();
+
     const categories = categorizeItems(currentItems);
 
-    const tabHeaders = Object.keys(categories).map(cat => `<button class="tab-btn" data-tab="${cat}">${cat} (${categories[cat].length})</button>`).join("");
-    const tabContents = Object.entries(categories).map(([cat, items])=>`
-      <div class="tab-content" id="tab-${cat}" style="display:none">
-        ${renderFilters(cat)}
-        <div id="table-${cat}">${renderItemsTable(items)}</div>
-      </div>
-    `).join("");
+    // Render tabs and tables as usual
+    const tabHeaders = Object.keys(categories)
+      .map(cat => `<button class="tab-btn" data-tab="${cat}">${cat} (${categories[cat].length})</button>`)
+      .join("");
+
+    const tabContents = Object.entries(categories)
+      .map(([cat, items]) => `
+        <div class="tab-content" id="tab-${cat}" style="display:none">
+          ${renderFilters(cat)}
+          <div id="table-${cat}">${renderItemsTable(items)}</div>
+        </div>
+      `).join("");
 
     statblock.innerHTML = `<div class="tabs">${tabHeaders}</div>${tabContents}`;
     setupTabs();
-    Object.entries(categories).forEach(([cat, items])=>setupFilters(cat, items));
-    statblock.style.display="block";
+    Object.entries(categories).forEach(([cat, items]) => setupFilters(cat, items));
+
+    statblock.style.display = "block";
   } catch(err) {
     console.error(err);
     statblock.innerHTML = "<p>Error loading items.</p>";
   }
 }
 
-// -------------------- Exported --------------------
-export function initItems() {
-  document.addEventListener("showItemsTable", ()=>loadItems(()=>fetchJson(ITEMS_PATH,"item"), allItems));
-  document.addEventListener("showBasicItemsTable", ()=>loadItems(()=>fetchJson(BASIC_ITEMS_PATH,"baseitem"), basicItems));
+
+// -------------------- Load Magical Items --------------------
+async function loadMagicItemsTable() {
+  const statblock = document.getElementById("items-statblock");
+  statblock.innerHTML = "<p>Loading magical items...</p>";
+
+  try {
+    if (!magicBaseItems.length)
+      magicBaseItems.push(...await fetchJson(BASIC_ITEMS_PATH, "baseitem"));
+
+    if (!normalItems.length)
+      normalItems.push(...await fetchJson(ITEMS_PATH, "item"));
+
+    // Enrich items with flags
+    enrichBaseItems(magicBaseItems);
+    enrichBaseItems(normalItems);
+
+    if (!MAGIC_VARIANTS.length)
+      await loadMagicVariants();
+
+    const allBaseItems = [...magicBaseItems, ...normalItems];
+
+    const magicItems = [];
+
+    for (const item of allBaseItems) {
+      const variants = generateMagicVariants(item);
+      for (const v of variants) {
+        v.baseItemName = item.name;
+        v.baseItemSource = item.source;
+        magicItems.push(v);
+      }
+    }
+
+    currentItems = magicItems.slice();
+
+    const categories = categorizeMagicItems(magicItems);
+
+    const tabHeaders = Object.keys(categories)
+      .map(cat => `<button class="tab-btn" data-tab="${cat}">${cat} (${categories[cat].length})</button>`)
+      .join("");
+
+    const tabContents = Object.entries(categories)
+      .map(([cat, items]) => `
+        <div class="tab-content" id="tab-${cat}" style="display:none">
+          ${renderFilters(cat)}
+          <div id="table-${cat}">${renderMagicItemsTable(items)}</div>
+        </div>
+      `).join("");
+
+    statblock.innerHTML = `<div class="tabs">${tabHeaders}</div>${tabContents}`;
+
+    setupTabs();
+    Object.entries(categories).forEach(([cat, items]) => setupFilters(cat, items));
+
+  } catch (err) {
+    console.error(err);
+    statblock.innerHTML = "<p>Error loading magical items.</p>";
+  }
 }
+
+
+
+
+
+
+
+
+// -------------------- Exported --------------------
+export async function initItems() {
+  await loadMagicVariants();
+
+  document.addEventListener("showItemsTable", () =>
+    loadItems(() => fetchJson(ITEMS_PATH, "item"), normalItems)
+  );
+
+  document.addEventListener("showBasicItemsTable", () =>
+    loadItems(() => fetchJson(BASIC_ITEMS_PATH, "baseitem"), basicItems)
+  );
+
+  document.addEventListener("showMagicalItemsTable", () =>
+    loadMagicItemsTable()
+  );
+}
+
+
+
