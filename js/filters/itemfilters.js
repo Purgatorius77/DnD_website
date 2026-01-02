@@ -2,6 +2,7 @@
 export function initItemsFilters() {
   const basicItemsBtn = document.getElementById("basicItemsBtn");
   const itemsBtn = document.getElementById("itemsBtn");
+  const magicalitemsBtn = document.getElementById("magicalitemsBtn");
   const filters = document.getElementById("items-filters");
 
   if (!basicItemsBtn || !itemsBtn || !filters) return;
@@ -15,5 +16,9 @@ export function initItemsFilters() {
 
   itemsBtn.addEventListener("click", () => {
     document.dispatchEvent(new CustomEvent("showItemsTable"));
+  });
+
+    magicalitemsBtn.addEventListener("click", () => {
+    document.dispatchEvent(new CustomEvent("showMagicalItemsTable"));
   });
 }
