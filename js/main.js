@@ -11,6 +11,7 @@ import { initRulesStatblock } from "./rules/rules.js";
 import { initCharacterFilters } from "./filters/characterfilter.js";
 import { initCharacterStatblock } from "./characters/characters.js";
 import { initcosmicStrain } from "./characters/cosmicStrain.js";
+import { initcosmicStrain2 } from "./characters/cosmicStrain2.js";
 import { initItemsFilters} from "./filters/itemfilters.js";
 import { initItems} from "./items/items.js";
 import { initFluffFilters } from "./filters/flufffilter.js";
@@ -48,6 +49,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initCharacterFilters();
   initCharacterStatblock();
   initcosmicStrain();
+    initcosmicStrain2();
   initItemsFilters();
   initItems();
   initFluffFilters();
