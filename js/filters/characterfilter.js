@@ -2,6 +2,7 @@ export function initCharacterFilters() {
   const classesBtn = document.getElementById("classesBtn");
   const characterBtn = document.getElementById("characterBtn");
   const strainBtn = document.getElementById("strainBtn");
+  const strain2Btn = document.getElementById("strain2Btn");
   const racesBtn = document.getElementById("racesnBtn");
   const backgroundBtn = document.getElementById("backgroundBtn");
   const featsBtn = document.getElementById("featsBtn");
@@ -22,6 +23,10 @@ export function initCharacterFilters() {
 
   strainBtn.addEventListener("click", () => {
     document.dispatchEvent(new CustomEvent("showStrainTable"));
+  });
+
+  strain2Btn.addEventListener("click", () => {
+    document.dispatchEvent(new CustomEvent("showStrainTable2"));
   });
 
 racesBtn.addEventListener("click", () => {
