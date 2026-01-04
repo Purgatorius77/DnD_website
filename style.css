@@ -1162,3 +1162,90 @@ button {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.strain-widget {
+  width: 220px;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #0b0b1a;
+  color: white;
+  text-align: center;
+}
+
+/* =========================
+   Cosmic Strain (Integrated into Statblock)
+========================= */
+
+/* Headings inside statblock for strain tables and sections */
+#character-statblock h2,
+#character-statblock h3 {
+  font-weight: bold;
+  margin: 1em 0 0.5em 0;
+  border-bottom: 2px solid #000;
+  padding-bottom: 3px;
+  font-size: 1.2em;
+  word-wrap: break-word;
+}
+
+/* Tables inside character statblock */
+#character-statblock table {
+  width: 100%;              /* fill container */
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+  table-layout: auto;
+  word-wrap: break-word;
+}
+
+#character-statblock th,
+#character-statblock td {
+  text-align: left;
+  padding: 6px;
+  border-bottom: 2px solid #000;
+  border-right: 1px solid #000;
+  word-wrap: break-word;
+}
+
+#character-statblock td:last-child,
+#character-statblock th:last-child {
+  border-right: none;
+}
+
+/* Counter controls */
+.strain-controls {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.strain-controls button {
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 4px;
+  background-color: #f3e9ce;
+  cursor: pointer;
+}
+
+.strain-controls button:hover {
+  background-color: #e5d8b5;
+}
+
+/* Strain number display */
+.strain-number {
+  min-width: 40px;
+  max-width: 60px;
+  padding: 4px 6px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  border: 2px solid #000;
+  border-radius: 4px;
+  background-color: #fff8e1;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+}
