@@ -3,6 +3,10 @@ export function initcosmicStrain() {
 
   let strain = 0;
 
+  document.addEventListener("showStrainTable", showStrainTable);
+
+function showStrainTable() {
+
   // Static layout inside character statblock
   container.innerHTML = `
     <h2 class="table-title">Cosmic Strain</h2>
@@ -286,16 +290,21 @@ export function initcosmicStrain() {
 
   `;
 
-  // Counter functionality
+  // Counter functionality (must be AFTER innerHTML is set)
   const strainNumber = document.getElementById("strainNumber");
+  const increaseBtn = document.getElementById("increase");
+  const decreaseBtn = document.getElementById("decrease");
 
-  document.getElementById("increase").onclick = () => {
-    strain++;
-    strainNumber.textContent = strain;
-  };
+  if (increaseBtn && decreaseBtn && strainNumber) {
+    increaseBtn.onclick = () => {
+      strain++;
+      strainNumber.textContent = strain;
+    };
 
-  document.getElementById("decrease").onclick = () => {
-    if (strain > 0) strain--;
-    strainNumber.textContent = strain;
-  };
+    decreaseBtn.onclick = () => {
+      if (strain > 0) strain--;
+      strainNumber.textContent = strain;
+    };
+  }
+}
 }
