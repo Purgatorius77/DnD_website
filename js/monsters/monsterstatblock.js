@@ -177,28 +177,52 @@ function makeSpellsClickableInText(text, spellsList) {
 function getMonsterFluff(name) {
   if (!monsterFluff) return null;
 
-  const fluff = monsterFluff.find(f => f.name === name) ?? null;
+  const fluff = monsterFluff.find(f => f.name === name);
   if (!fluff) return null;
 
-  let baseEntries = fluff.entries ?? [];
+  let entries = [];
 
-  if (!baseEntries.length && fluff._copy) {
-    // Resolve _copy recursively
-    const copied = monsterFluff.find(f => f.name === fluff._copy.name && f.source === fluff._copy.source);
-    if (copied && copied.entries) baseEntries = [...copied.entries];
-
-    // Apply _mod entries
-    const mod = fluff._copy._mod;
-    if (mod?.entries?.items) baseEntries = [...baseEntries, ...mod.entries.items];
+  if (Array.isArray(fluff.entries)) {
+    entries = [...fluff.entries];
   }
 
-  if (!baseEntries.length) return null;
+  if (!entries.length && fluff._copy) {
+    const base = monsterFluff.find(f =>
+      f.name === fluff._copy.name &&
+      f.source === fluff._copy.source
+    );
 
-  baseEntries = cleanFluffEntries(baseEntries);
-  baseEntries = labelHabitatAndTreasure(baseEntries);
+    if (base?.entries) entries = [...base.entries];
 
-  return { name, entries: baseEntries };
+    const mod = fluff._copy._mod?.entries;
+    if (mod?.items) {
+      let modEntries = [];
+
+      if (Array.isArray(mod.items)) {
+        modEntries = mod.items;
+      } else if (Array.isArray(mod.items.entries)) {
+        modEntries = mod.items.entries;
+      }
+
+      if (modEntries.length) {
+        if (mod.mode === "prependArr") {
+          entries = [...modEntries, ...entries];
+        } else if (mod.mode === "appendArr") {
+          entries = [...entries, ...modEntries];
+        }
+      }
+    }
+  }
+
+  if (!entries.length) return null;
+
+  entries = cleanFluffEntries(entries);
+  entries = labelHabitatAndTreasure(entries);
+
+  return { name, entries };
 }
+
+
 
 function cleanFluffEntries(entries) {
   if (!Array.isArray(entries)) return entries;
