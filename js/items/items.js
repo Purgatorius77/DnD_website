@@ -237,54 +237,36 @@ function parseInline(text, item) {
   if (item) {
     text = text.replace(/\{=bonusWeapon\}/gi, item.bonusWeapon || "");
     text = text.replace(/\{=bonusAc\}/gi, item.bonusAc || "");
-
-    // Replace {#itemEntry Item Name|SOURCE} with the full magic name including suffix/prefix
-text = text.replace(/\{#itemEntry\s+([^|}]+)(?:\|([^}]+))?\}/gi, (_, entryName, entrySource) => {
-  // 1️⃣ Find the base item either by exact name or by matching baseItemName + baseItemSource
-  const baseItem = [...basicItems, ...normalItems].find(i =>
-    i.name === entryName || (i.name === entryName && (!entrySource || i.source === entrySource))
-  );
-
-  if (!baseItem) return entryName; // fallback if not found
-
-  let fullName = baseItem.name;
-
-  // If the magic variant has a 'resist' property, append it
-  if (baseItem.resist && Array.isArray(baseItem.resist) && baseItem.resist.length) {
-    const resistNames = baseItem.resist.map(r => r[0].toUpperCase() + r.slice(1)); // Capitalize
-    fullName = fullName + " of " + resistNames.join(" & ") + " Resistance";
   }
 
-  return fullName;
-});
-  }
+  // Replace {#itemEntry Item Name|SOURCE} with the full magic name including suffix/prefix
+  text = text.replace(/\{#itemEntry\s+([^|}]+)(?:\|([^}]+))?\}/gi, (_, entryName, entrySource) => {
+    const baseItem = [...basicItems, ...normalItems].find(i =>
+      i.name === entryName && (!entrySource || i.source === entrySource)
+    );
+    if (!baseItem) return entryName; // fallback if items aren't loaded yet
+    let fullName = baseItem.name;
+    if (baseItem.resist && Array.isArray(baseItem.resist) && baseItem.resist.length) {
+      const resistNames = baseItem.resist.map(r => r[0].toUpperCase() + r.slice(1));
+      fullName = fullName + " of " + resistNames.join(" & ") + " Resistance";
+    }
+    return fullName;
+  });
 
-  // Dice & DC
+  // …rest of inline parsing (dice, dc, italics, etc.)
   text = text
     .replace(/\{@dice\s+([^}]+)\}/gi, "<strong>$1</strong>")
     .replace(/\{@dc\s+([^}]+)\}/gi, "DC $1")
-
-    // Formatting
     .replace(/\{@italic\s+([^}]+)\}/gi, "<em>$1</em>")
     .replace(/\{@bold\s+([^}]+)\}/gi, "<strong>$1</strong>")
-
-    // Game concepts
     .replace(/\{@sense\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
     .replace(/\{@skill\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
     .replace(/\{@condition\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
-
-    // Links to things
     .replace(/\{@(spell|item|creature|class|feat|background)\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$2")
-
-    // Tables & books
     .replace(/\{@table\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
     .replace(/\{@book\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
     .replace(/\{@variantrule\s+([^|}]+)(?:\|[^}]*)?\}/gi, "<em>$1</em>")
-
-    // Percent chance
     .replace(/\{@chance\s+(\d+)\}/gi, "$1% chance")
-
-    // Catch-all cleanup
     .replace(/\{@[^}]+\}/g, "");
 
   return text;
@@ -608,17 +590,32 @@ function formatEntries(entries, item) {
     if (typeof e === "string") return `<p>${parseInline(e, item)}</p>`;
 
     // Entry is a list
-    if (e.type === "list" && Array.isArray(e.items)) {
-      const itemsHtml = e.items.map(subItem => {
-        let content = subItem.name ? `<strong>${parseInline(subItem.name, item)}</strong> ` : "";
-        if (subItem.entries) content += formatEntries(subItem.entries, item);
-        return `<li>${content}</li>`;
-      }).join("");
-      return `<ul style="margin-left:1em">${itemsHtml}</ul>`;
+// Entry is a list
+if (e.type === "list" && Array.isArray(e.items)) {
+  const itemsHtml = e.items.map(subItem => {
+    // Handle string list items
+    if (typeof subItem === "string") {
+      return `<li>${parseInline(subItem, item)}</li>`;
     }
 
+    // Handle object list items
+    let content = "";
+    if (subItem.name) content += `<strong>${parseInline(subItem.name, item)}</strong> `;
+    if (subItem.entries) content += formatEntries(subItem.entries, item);
+
+    return `<li>${content}</li>`;
+  }).join("");
+
+  return `<ul style="margin-left:1em">${itemsHtml}</ul>`;
+}
+
     // Nested entries (like an object with 'entries' property)
-    if (e.entries) return formatEntries(e.entries, item);
+// Entry with a heading + nested content
+if (e.entries) {
+  const title = e.name ? `<h4 style="margin:0.6em 0 0.2em 0">${parseInline(e.name, item)}</h4>` : "";
+  return title + formatEntries(e.entries, item);
+}
+
 
     // Fallback: stringify object
     return `<pre>${JSON.stringify(e)}</pre>`;
