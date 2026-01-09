@@ -37,6 +37,20 @@ async function loadClassList() {
   return results;
 }
 
+// Recursive function to get text from entries
+function getEntryText(entry) {
+  if (typeof entry === "string") return entry;
+  if (Array.isArray(entry)) return entry.map(getEntryText).join(" ");
+  if (entry.type === "entries" && entry.entries) return getEntryText(entry.entries);
+  if (entry.type === "list" && entry.items) return entry.items.map(getEntryText).join(" ");
+  if (entry.type === "item" && entry.entries) return getEntryText(entry.entries);
+  return ""; // ignore tables, options, refClassFeature, etc.
+}
+
+// Build XPHB feature descriptions
+
+
+
 async function populateClassSelect(selectEl) {
   const classes = await loadClassList();
   selectEl.innerHTML = `<option value="">Select a class</option>`;
@@ -50,8 +64,16 @@ async function populateClassSelect(selectEl) {
 
 async function loadSelectedClass(fileName) {
   const data = await fetchJSON(`${BASE_PATH}/${fileName}`);
-  return data.class.find(c => c.source === "XPHB") || data.class[0];
+
+  const selectedClass =
+    data.class.find(c => c.source === "XPHB") || data.class[0];
+
+  // Attach the full feature list to the class object
+  selectedClass.__allClassFeatures = data.classFeature || [];
+
+  return selectedClass;
 }
+
 
 export function initCharClasses() {
   const classSelect = document.getElementById("classSelect");
@@ -93,20 +115,22 @@ classSelect.addEventListener("change", async () => {
 }
 
 function renderClassStatblock(classData) {
-  const {
-    name,
-    hd,
-    primaryAbility,
-    savingThrows,
-    proficiency,
-    startingProficiencies,
-    startingEquipment,
-    classFeatures,
-    subclassTitle,
-    subclasses,
-    spellcasting,
-    classTableGroups
-  } = classData;
+const {
+  name,
+  hd,
+  primaryAbility,
+  savingThrows,
+  proficiency,
+  startingProficiencies,
+  startingEquipment,
+  subclasses,
+  subclassTitle,
+  spellcasting,
+  classTableGroups,
+  classFeatures,
+  __allClassFeatures
+} = classData;
+
 
   const abilities = primaryAbility?.map(a => Object.keys(a)[0].toUpperCase()).join(", ") || "None";
   const saves = savingThrows?.join(", ") || (proficiency?.join(", ") || "None");
@@ -116,14 +140,45 @@ function renderClassStatblock(classData) {
   const weapons = startingProficiencies?.weapons?.join(", ") || "None";
   const armor = startingProficiencies?.armor?.join(", ") || "None";
   const tools = startingProficiencies?.tools?.join(", ") || "None";
-  const featuresList = classFeatures?.map(f => typeof f === "string" ? f : f.classFeature).join(", ") || "None";
-  const subclassList = subclasses?.map(s => s.name).join(", ") || "None";
   const equipment = startingEquipment?.default?.join("; ") || "None";
+
+  // ===================== RESOLVE XPHB CLASS FEATURES =====================
+
+function resolveXPHBFeatures() {
+  if (!classFeatures || !__allClassFeatures) return [];
+
+  return classFeatures.map(f => {
+    let refString = typeof f === "string" ? f : f.classFeature;
+    if (!refString) return null;
+
+    const [name, , source] = refString.split("|");
+
+    return __allClassFeatures.find(cf =>
+      cf.name === name &&
+      cf.source === source
+    );
+  }).filter(Boolean);
+}
+
+
+  const xphbFeatures = resolveXPHBFeatures();
+
+  const featuresHtml = xphbFeatures.length
+    ? xphbFeatures
+        .sort((a, b) => a.level - b.level)
+        .map(f => `<h4>Level ${f.level} — ${f.name}</h4><p>${getEntryText(f.entries)}</p>`)
+        .join("")
+    : "<p>None</p>";
+
+  // ===================== SUBCLASSES =====================
+
+  const subclassList = subclasses?.map(s => s.name).join(", ") || "None";
   const spellInfo = spellcasting ? `Spellcasting Ability: ${spellcasting.spellcastingAbility}` : "";
 
-  // ===================== COMBINE ALL TABLE GROUPS INTO ONE TABLE =====================
+  // ===================== COMBINE CLASS TABLES =====================
+
   let allColumns = [];
-  let maxRows = 20; // fixed for levels 1-20
+  let maxRows = 20;
 
   classTableGroups?.forEach(group => {
     const cols = group.colLabels.map(c => cleanSpellText(c));
@@ -131,26 +186,27 @@ function renderClassStatblock(classData) {
     allColumns.push({ cols, rows });
   });
 
-  // Build header row with Level column first
   const headerHtml = ["<th>Level</th>"]
     .concat(allColumns.map(g => g.cols.map(c => `<th>${c}</th>`).join("")).join(""))
     .join("");
 
-  // Build rows with Level column
   const allRowsHtml = [];
   for (let i = 0; i < maxRows; i++) {
-    let rowHtml = `<td>${i + 1}</td>`; // Level column
+    let rowHtml = `<td>${i + 1}</td>`;
     allColumns.forEach(g => {
-      const row = g.rows[i] || Array(g.cols.length).fill(""); // fill missing cells
-      rowHtml += row.map(c => `<td>${c}</td>`).join("");
+      const row = g.rows[i] || Array(g.cols.length).fill("");
+      rowHtml += row.map(c => `<td>${cleanSpellText(c)}</td>`).join("");
     });
     allRowsHtml.push(`<tr>${rowHtml}</tr>`);
   }
 
   const combinedTable = `<table border="1"><tr>${headerHtml}</tr>${allRowsHtml.join("")}</table>`;
 
+  // ===================== FINAL OUTPUT =====================
+
   return `
     <h2>${name}</h2>
+
     <h3>Core Traits</h3>
     <p><strong>Primary Ability:</strong> ${abilities}</p>
     <p><strong>Hit Die:</strong> ${hd?.number}d${hd?.faces}</p>
@@ -161,14 +217,14 @@ function renderClassStatblock(classData) {
     <p><strong>Tool Proficiencies:</strong> ${tools}</p>
     <p><strong>Starting Equipment:</strong> ${equipment}</p>
 
-    <h3>Class Features</h3>
-    <p>${featuresList}</p>
+    <h3>Class Features (XPHB only)</h3>
+    ${featuresHtml}
 
     <h3>Subclasses (${subclassTitle})</h3>
     <p>${subclassList}</p>
 
     ${spellInfo ? `<h3>Spellcasting</h3><p>${spellInfo}</p>` : ""}
-    
+
     <h3>Class Table</h3>
     ${combinedTable}
   `;
