@@ -28,6 +28,7 @@ const CONDITION_DESCRIPTIONS = {
   "Unconscious": "An unconscious creature is incapacitated, can't move or speak, and drops whatever it’s holding."
 };
 
+
 export function initCombatTracker(monsters) {
   allMonsters = monsters;
 
