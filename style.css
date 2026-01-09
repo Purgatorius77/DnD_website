@@ -265,6 +265,7 @@ html, body {
   height: 100%;
   overflow-y: auto;
   max-height: none;
+    position: relative;
 }
 
 
@@ -1305,4 +1306,91 @@ button {
   box-sizing: border-box;
   overflow: hidden;
   white-space: nowrap;
+}
+/* Collapse Button */
+.tracker-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.collapse-btn {
+  all: initial;
+  box-sizing: border-box;
+
+  width: 26px;
+  height: 26px;
+
+  display: grid;
+  place-items: center;
+
+  cursor: pointer;
+  background: #d6cfbf;
+  border: 2px solid #000;
+  border-radius: 6px;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* The arrow */
+.collapse-btn::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+  transform: rotate(-45deg);
+  transition: transform 0.25s ease;
+}
+
+/* When collapsed, flip arrow */
+.layout.tracker-collapsed .collapse-btn::before {
+  transform: rotate(135deg);
+}
+
+.collapse-btn:hover {
+  background: #e6decb;
+}
+
+.collapse-btn:active {
+  transform: translateY(1px);
+}
+
+
+/* Make combat tracker animatable */
+.layout {
+  transition: grid-template-columns 0.25s ease;
+}
+
+/* Collapsed state */
+.layout.tracker-collapsed {
+  grid-template-columns: 220px 1fr 40px;
+}
+
+.layout.tracker-collapsed .combat-tracker {
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Hide everything except the header */
+.layout.tracker-collapsed .combat-tracker > :not(.tracker-header) {
+  display: none;
+}
+
+/* In collapsed mode, hide only the title — keep the button */
+.layout.tracker-collapsed .tracker-header h2 {
+  display: none;
+}
+
+/* Make the header center the button when collapsed */
+.layout.tracker-collapsed .tracker-header {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+
+.layout.tracker-collapsed .collapse-btn {
+  left: 6px;
 }
