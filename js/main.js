@@ -59,3 +59,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   initViewSwitcher();
 });
+
+
+const toggleBtn = document.getElementById("toggleCombatTracker");
+const layout = document.querySelector(".layout");
+
+toggleBtn.addEventListener("click", () => {
+  layout.classList.toggle("tracker-collapsed");
+});
