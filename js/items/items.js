@@ -206,7 +206,6 @@ const MASTERY_TOOLTIPS = {
   Push: "If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller."
 };
 
-
 // -------------------- State --------------------
 let normalItems = [];
 let basicItems = [];
@@ -676,7 +675,7 @@ function renderItemsTable(items) {
 
 let html = `
 <div class="items-table-wrap">
-<table border="1" style="border-collapse:collapse; min-width:1000px">
+<table border="1" style="border-collapse:collapse">
 
 
   <thead><tr>`;
@@ -1002,7 +1001,6 @@ export async function initItems() {
     loadMagicItemsTable()
   );
 }
-
 
 
 
