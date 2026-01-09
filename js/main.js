@@ -67,3 +67,5 @@ const layout = document.querySelector(".layout");
 toggleBtn.addEventListener("click", () => {
   layout.classList.toggle("tracker-collapsed");
 });
+
+
