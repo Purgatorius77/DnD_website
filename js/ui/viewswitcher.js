@@ -89,7 +89,6 @@ export function initViewSwitcher() {
       itemsStatblock,
       fluffStatblock,
 
-      combatTracker
     ].forEach(hide);
   }
 
@@ -110,15 +109,7 @@ export function initViewSwitcher() {
     show(filters);
   }
 
-  /* =====================
-     ENTER SECTION
-     (called when user interacts with filters)
-  ====================== */
-  function enterSection(intro, statblock, tracker = false) {
-    hide(intro);
-    show(statblock);
-    if (tracker) show(combatTracker);
-  }
+
 
   /* =====================
      CHARACTER FILTER TOGGLING
@@ -135,8 +126,19 @@ export function initViewSwitcher() {
   /* =====================
      AUTO-ENTER ON FILTER USE
   ====================== */
-  monsterFilters?.addEventListener("click", () => enterSection(monstersIntro, monsterStatblock, true));
-  spellFilters?.addEventListener("click", () => enterSection(spellsIntro, spellStatblock, true));
+
+/* =====================
+   ENTER SECTION
+====================== */
+function enterSection(intro, statblock, tracker = false) {
+  hide(intro);
+  show(statblock);
+  if (tracker) show(combatTracker);
+}
+
+
+monsterFilters?.addEventListener("click", () => enterSection(monstersIntro, monsterStatblock));
+spellFilters?.addEventListener("click", () => enterSection(spellsIntro, spellStatblock));
   characterFilters?.addEventListener("click", () => enterSection(charactersIntro, characterStatblock));
   rulesFilters?.addEventListener("click", () => enterSection(rulesIntro, rulesStatblock));
   itemsFilters?.addEventListener("click", () => enterSection(itemsIntro, itemsStatblock));
@@ -162,17 +164,12 @@ export function initViewSwitcher() {
   itemsBtn?.addEventListener("click", () => showLanding(itemsIntro, itemsFilters));
   fluffBtn?.addEventListener("click", () => showLanding(fluffIntro, fluffFilters));
 
-  /* =====================
-     SPELL OPEN EVENT
-  ====================== */
-  document.addEventListener("spell:open", () => {
-    hide(spellsIntro);
-    show(spellStatblock);
-    show(combatTracker);
-  });
+
 
   /* =====================
      INITIAL STATE
   ====================== */
   showHome();
+  combatTracker.style.display = "block";
+
 }
