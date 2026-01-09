@@ -1,10 +1,11 @@
-import { renderMonster } from "../monsters/monsterstatblock.js";
+// js/combat/combattracker.js
 import { getMonsterImagePath } from "../monsters/monsterstatblock.js";
+import { renderMonster } from "../monsters/monsterstatblock.js";
 
 let combatGroups = [];
 let allMonsters = [];
 
-// ===== CONSTANTS =====
+// D&D Conditions
 const DND_CONDITIONS = [
   "Blinded","Charmed","Deafened","Frightened","Grappled",
   "Incapacitated","Paralyzed","Petrified","Poisoned","Prone",
@@ -27,7 +28,6 @@ const CONDITION_DESCRIPTIONS = {
   "Unconscious": "An unconscious creature is incapacitated, can't move or speak, and drops whatever it’s holding."
 };
 
-// ===== COMBAT TRACKER =====
 export function initCombatTracker(monsters) {
   allMonsters = monsters;
 
@@ -38,182 +38,199 @@ export function initCombatTracker(monsters) {
 
   let selectedMonsterIndex = 0;
 
-  // Listen for filtered monster selection
-  document.addEventListener("monsterSelected", (e) => {
+  // Listen for monster selection from filters
+  document.addEventListener("monsterSelected", e => {
     const monster = e.detail;
     selectedMonsterIndex = allMonsters.indexOf(monster);
   });
 
-
-
-
-function renderCombatTracker() {
-  const groupsContainer = document.getElementById("groups");
-  groupsContainer.innerHTML = "";
-
-  combatGroups.forEach((group, gi) => {
-    const monster = allMonsters[group.monsterIndex];
+  // Listen for the new "Add Monster" header button
+  document.addEventListener("addMonsterToCombat", e => {
+    const monster = e.detail;
     if (!monster) return;
 
-    // Initialize HP array if needed
-    if (!group.hp || group.hp.length !== group.count) {
-      group.hp = Array(group.count).fill().map(() => ({ hp: monster.hp?.average || 0, conditions: [] }));
-    }
+    const index = allMonsters.indexOf(monster);
+    if (index === -1) return;
 
-    const div = document.createElement("div");
-    div.className = "group";
-
-  // Get monster token image path
-  const imgPath = getMonsterImagePath(monster);
-
-    div.innerHTML = `
-      <div class="group-header-row">
-      <img src="${imgPath}" alt="${monster.name}" class="group-monster-image" onerror="this.style.display='none'">
-     
-        <h3 class="group-header">${monster.name}</h3>
-      </div>
-
-      <label>Monster</label>
-      <select class="groupMonster">
-        ${allMonsters.map((m, i) => `<option value="${i}" ${i === group.monsterIndex ? "selected" : ""}>${m.name}</option>`).join("")}
-      </select>
-   <div class="group-row">
-        <div class="round-control">
-          <label>Round</label>
-          <div class="round-controls">
-            <button class="round-minus" data-index="${gi}">−</button>
-            <input type="number" class="groupRound" value="${group.roundOrder}" data-index="${gi}">
-            <button class="round-plus" data-index="${gi}">+</button>
-          </div>
-        </div>
-
-        <div class="count-control">
-          <label>Count</label>
-          <div class="count-controls">
-            <button class="count-minus">-</button>
-            <input type="number" class="groupCount" value="${group.count}">
-            <button class="count-plus">+</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="hp-list"></div>
-      <button class="group-delete">Remove Group</button>
-    `;
-
-    groupsContainer.appendChild(div);
-  
-
-    // Monster dropdown change
-    const monsterSelect = div.querySelector(".groupMonster");
-    monsterSelect.addEventListener("change", e => {
-      group.monsterIndex = Number(e.target.value);
-      const newMonster = allMonsters[group.monsterIndex];
-      group.hp = Array(group.count).fill().map(() => ({ hp: newMonster.hp?.average || 0, conditions: [] }));
-      renderCombatTracker();
+    combatGroups.push({
+      id: Date.now(),
+      monsterIndex: index,
+      count: 1,
+      roundOrder: 1,
+      hp: [{ hp: monster.hp?.average || 0, conditions: [] }]
     });
 
-// Inside renderCombatTracker(), after you append the group div:
-div.querySelector(".group-header").addEventListener("click", () => {
-  // Render the monster
-  renderMonster(monster);
+    renderCombatTracker();
+  });
 
-  // Update dropdown to the clicked monster
-  const monsterSelect = document.getElementById("monsterSelect");
-  if (monsterSelect) monsterSelect.value = group.monsterIndex;
+  // Add group button inside combat tracker
+  if (addGroupBtn) {
+    addGroupBtn.addEventListener("click", () => {
+      const monster = allMonsters[selectedMonsterIndex] || allMonsters[0];
+      if (!monster) return;
 
-  // Show filters and statblock
-  const monsterFilters = document.getElementById("monster-filters");
-  const monsterStatblock = document.getElementById("monster-statblock");
-  if (monsterFilters) monsterFilters.style.display = "block";
-  if (monsterStatblock) monsterStatblock.style.display = "block";
-});
-
-
-
-    
- // ROUND +/-
-    div.querySelector(".round-minus").addEventListener("click", ()=>{ if(group.roundOrder>1) { group.roundOrder--; renderCombatTracker(); } });
-    div.querySelector(".round-plus").addEventListener("click", ()=>{ group.roundOrder++; renderCombatTracker(); });
-    div.querySelector(".groupRound").addEventListener("change", e=>{ group.roundOrder=Math.max(1,Number(e.target.value)); renderCombatTracker(); });
-
-    // COUNT +/-
-    const countInput = div.querySelector(".groupCount");
-    div.querySelector(".count-minus").addEventListener("click", ()=>{
-      if(group.count>1){ group.count--; group.hp.pop(); renderCombatTracker(); }
-    });
-    div.querySelector(".count-plus").addEventListener("click", ()=>{
-      group.count++; group.hp.push({ hp: monster.hp?.average||0, conditions: [] }); renderCombatTracker();
-    });
-    countInput.addEventListener("change", e=>{
-      const newCount = Math.max(1, Number(e.target.value));
-      while(group.hp.length<newCount) group.hp.push({ hp: monster.hp?.average||0, conditions: [] });
-      group.hp = group.hp.slice(0,newCount);
-      group.count = newCount;
-      renderCombatTracker();
-    });
-
-
-
-    
-    // HP + conditions
-    const hpList = div.querySelector(".hp-list");
-    group.hp.forEach((m, i) => {
-      const hpRow = document.createElement("div");
-      hpRow.className = "hp-row";
-      hpRow.innerHTML = `
-        <span class="monster-number">${i+1}.</span>
-        <button class="hp-plus">+</button>
-        <input type="number" class="hp-input" value="${m.hp}">
-        <button class="hp-minus">-</button>
-        <button class="hp-delete">✖</button>
-      `;
-
-      // HP buttons
-      hpRow.querySelector(".hp-plus").addEventListener("click", () => { m.hp++; renderCombatTracker(); });
-      hpRow.querySelector(".hp-minus").addEventListener("click", () => { m.hp = Math.max(0, m.hp - 1); renderCombatTracker(); });
-      hpRow.querySelector(".hp-input").addEventListener("change", e => { m.hp = Number(e.target.value); });
-      hpRow.querySelector(".hp-delete").addEventListener("click", () => { group.hp.splice(i, 1); group.count--; renderCombatTracker(); });
-
-      // Conditions
-      const condDiv = document.createElement("div");
-      condDiv.className = "conditions-container";
-      condDiv.innerHTML = `
-        <select class="condition-select">
-          <option value="">Add condition...</option>
-          ${DND_CONDITIONS.map(c => `<option value="${c}">${c}</option>`).join("")}
-        </select>
-        <div class="condition-list">
-          ${m.conditions.length ? m.conditions.map((c, idx) => `
-            <span
-  class="condition"
-  data-idx="${idx}"
-  data-tooltip="${CONDITION_DESCRIPTIONS[c] || ''}"
->
-  ${c}
-</span>
-
-          `).join(" ") : "None"}
-        </div>
-      `;
-
-      const condSelect = condDiv.querySelector(".condition-select");
-      condSelect.addEventListener("change", e => {
-        const val = e.target.value;
-        if (val && !m.conditions.includes(val)) {
-          m.conditions.push(val);
-          e.target.value = "";
-          renderCombatTracker();
-        }
+      combatGroups.push({
+        id: Date.now(),
+        monsterIndex: allMonsters.indexOf(monster),
+        count: 1,
+        roundOrder: 1,
+        hp: [{ hp: monster.hp?.average || 0, conditions: [] }]
       });
 
-const tooltip = document.getElementById("tooltip");
+      renderCombatTracker();
+    });
+  }
 
+  // Reset combat button
+  if (resetBtn) {
+    resetBtn.addEventListener("click", () => {
+      combatGroups = [];
+      renderCombatTracker();
+    });
+  }
+
+  function renderCombatTracker() {
+    groupsContainer.innerHTML = "";
+
+    combatGroups.forEach((group, gi) => {
+      const monster = allMonsters[group.monsterIndex];
+      if (!monster) return;
+
+      if (!group.hp || group.hp.length !== group.count) {
+        group.hp = Array(group.count).fill().map(() => ({ hp: monster.hp?.average || 0, conditions: [] }));
+      }
+
+      const div = document.createElement("div");
+      div.className = "group";
+
+      const imgPath = getMonsterImagePath(monster);
+
+      div.innerHTML = `
+        <div class="group-header-row">
+          <img src="${imgPath}" alt="${monster.name}" class="group-monster-image" onerror="this.style.display='none'">
+          <h3 class="group-header">${monster.name}</h3>
+        </div>
+
+        <label>Monster</label>
+        <select class="groupMonster">
+          ${allMonsters.map((m, i) => `<option value="${i}" ${i === group.monsterIndex ? "selected" : ""}>${m.name}</option>`).join("")}
+        </select>
+
+        <div class="group-row">
+          <div class="round-control">
+            <label>Round</label>
+            <div class="round-controls">
+              <button class="round-minus" data-index="${gi}">−</button>
+              <input type="number" class="groupRound" value="${group.roundOrder}" data-index="${gi}">
+              <button class="round-plus" data-index="${gi}">+</button>
+            </div>
+          </div>
+
+          <div class="count-control">
+            <label>Count</label>
+            <div class="count-controls">
+              <button class="count-minus">-</button>
+              <input type="number" class="groupCount" value="${group.count}">
+              <button class="count-plus">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hp-list"></div>
+        <button class="group-delete">Remove Group</button>
+      `;
+
+      groupsContainer.appendChild(div);
+
+      // Attach all event listeners for this group
+      const monsterSelect = div.querySelector(".groupMonster");
+      monsterSelect.addEventListener("change", e => {
+        group.monsterIndex = Number(e.target.value);
+        const newMonster = allMonsters[group.monsterIndex];
+        group.hp = Array(group.count).fill().map(() => ({ hp: newMonster.hp?.average || 0, conditions: [] }));
+        renderCombatTracker();
+      });
+
+      div.querySelector(".group-header").addEventListener("click", () => {
+        renderMonster(monster);
+
+        const monsterFilters = document.getElementById("monster-filters");
+        const monsterStatblock = document.getElementById("monster-statblock");
+        if (monsterFilters) monsterFilters.style.display = "block";
+        if (monsterStatblock) monsterStatblock.style.display = "block";
+      });
+
+      // Round controls
+      div.querySelector(".round-minus").addEventListener("click", () => { if(group.roundOrder>1){ group.roundOrder--; renderCombatTracker(); } });
+      div.querySelector(".round-plus").addEventListener("click", () => { group.roundOrder++; renderCombatTracker(); });
+      div.querySelector(".groupRound").addEventListener("change", e => { group.roundOrder = Math.max(1, Number(e.target.value)); renderCombatTracker(); });
+
+      // Count controls
+      const countInput = div.querySelector(".groupCount");
+      div.querySelector(".count-minus").addEventListener("click", () => { if(group.count>1){ group.count--; group.hp.pop(); renderCombatTracker(); } });
+      div.querySelector(".count-plus").addEventListener("click", () => { group.count++; group.hp.push({ hp: monster.hp?.average||0, conditions: [] }); renderCombatTracker(); });
+      countInput.addEventListener("change", e => {
+        const newCount = Math.max(1, Number(e.target.value));
+        while(group.hp.length<newCount) group.hp.push({ hp: monster.hp?.average||0, conditions: [] });
+        group.hp = group.hp.slice(0,newCount);
+        group.count = newCount;
+        renderCombatTracker();
+      });
+
+      // HP + Conditions
+    const hpList = div.querySelector(".hp-list");
+group.hp.forEach((m, i) => {
+  const hpRow = document.createElement("div");
+  hpRow.className = "hp-row";
+  hpRow.innerHTML = `
+    <span class="monster-number">${i+1}.</span>
+    <button class="hp-plus">+</button>
+    <input type="number" class="hp-input" value="${m.hp}">
+    <button class="hp-minus">-</button>
+    <button class="hp-delete">✖</button>
+  `;
+
+  // HP buttons
+  hpRow.querySelector(".hp-plus").addEventListener("click", () => { m.hp++; renderCombatTracker(); });
+  hpRow.querySelector(".hp-minus").addEventListener("click", () => { m.hp = Math.max(0, m.hp - 1); renderCombatTracker(); });
+  hpRow.querySelector(".hp-input").addEventListener("change", e => { m.hp = Number(e.target.value); });
+  hpRow.querySelector(".hp-delete").addEventListener("click", () => { group.hp.splice(i, 1); group.count--; renderCombatTracker(); });
+
+  // Conditions
+ // Inside renderCombatTracker(), for each monster's hp row:
+
+// Conditions container
+const condDiv = document.createElement("div");
+condDiv.className = "conditions-container";
+condDiv.innerHTML = `
+  <select class="condition-select">
+    <option value="">Add condition...</option>
+    ${DND_CONDITIONS.map(c => `<option value="${c}">${c}</option>`).join("")}
+  </select>
+  <div class="condition-list">
+    ${m.conditions.length
+      ? m.conditions.map(c => `<span class="condition" data-tooltip="${CONDITION_DESCRIPTIONS[c]||''}">${c}</span>`).join(" ")
+      : "None"}
+  </div>
+`;
+
+// Add condition from dropdown
+const condSelect = condDiv.querySelector(".condition-select");
+condSelect.addEventListener("change", e => {
+  const val = e.target.value;
+  if (val && !m.conditions.includes(val)) {
+    m.conditions.push(val);
+    e.target.value = "";
+    renderCombatTracker();
+  }
+});
+
+// Tooltip + remove logic
+const tooltip = document.getElementById("tooltip");
 let tooltipTimer;
 let longPressTimer;
 
 condDiv.querySelectorAll(".condition").forEach(span => {
-
   function showTooltip() {
     const text = span.dataset.tooltip;
     if (!text) return;
@@ -244,66 +261,48 @@ condDiv.querySelectorAll(".condition").forEach(span => {
     tooltip.classList.remove("show");
   }
 
+  // ✅ Correct remove condition
   function removeCondition() {
-    const idx = Number(span.dataset.idx);
-    m.conditions.splice(idx, 1);
-    renderCombatTracker();
+    const condText = span.textContent;
+    const index = m.conditions.indexOf(condText);
+    if (index >= 0) {
+      m.conditions.splice(index, 1);
+      renderCombatTracker(); // re-render tracker
+    }
   }
 
   // 🖱 Desktop
   span.addEventListener("mouseenter", showTooltip);
   span.addEventListener("mouseleave", hideTooltip);
+  span.addEventListener("click", removeCondition);
 
-  // 📱 Touch
+  // 📱 Touch (long press)
   span.addEventListener("touchstart", e => {
     e.preventDefault();
-
     longPressTimer = setTimeout(() => {
       removeCondition();
     }, 600);
   });
-
   span.addEventListener("touchend", () => {
     clearTimeout(longPressTimer);
     showTooltip();
   });
-
 });
 
-      hpList.appendChild(hpRow);
-      hpList.appendChild(condDiv);
+hpList.appendChild(hpRow);
+hpList.appendChild(condDiv);
+});
+
+      // Delete group button
+      div.querySelector(".group-delete").addEventListener("click", () => {
+        combatGroups.splice(gi,1);
+        renderCombatTracker();
+      });
     });
-
-    // Delete group
-    div.querySelector(".group-delete").addEventListener("click", () => {
-      combatGroups.splice(gi, 1);
-      renderCombatTracker();
-    });
-  });
-}
+  }
 
 
-
-  addGroupBtn.addEventListener("click", () => {
-    const monster = allMonsters[selectedMonsterIndex];
-    if (!monster) return;
-
-    const newGroup = {
-      id: Date.now(),
-      monsterIndex: selectedMonsterIndex,
-      count: 1,
-      roundOrder: 1,
-      hp: [{ hp: monster.hp?.average || 0, conditions: [] }]
-    };
-
-    combatGroups.push(newGroup);
-    renderCombatTracker();
-  });
-
-  resetBtn.addEventListener("click", () => {
-    combatGroups = [];
-    renderCombatTracker();
-  });
-
+  
+  // Initial render
   renderCombatTracker();
 }
