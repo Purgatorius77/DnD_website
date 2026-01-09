@@ -180,31 +180,32 @@ const DAMAGE_TYPES = {
 
 // -------------------- Tooltips --------------------
 const PROPERTY_TOOLTIPS = {
-  A: "Ammunition: You can use a weapon with this property to make a ranged attack. Each attack consumes one piece of ammunition. Drawing ammunition from a quiver, case, or container is part of the attack.",
+  A: "You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost.",
   AF: "Ammunition (Firearm): Same as Ammunition but for firearms, including modern or futuristic types.",
-  F: "Finesse: You can use your Dexterity modifier instead of Strength for the attack and damage rolls.",
-  H: "Heavy: Small creatures have disadvantage on attack rolls with this weapon. Disadvantage applies on melee attacks if Strength < 13 and ranged attacks if Dexterity < 13.",
-  L: "Light: This weapon is small and easy to handle, suitable for two-weapon fighting.",
-  R: "Reach: This weapon adds 5 feet to your reach when you attack with it.",
-  S: "Special: This weapon has unusual rules or properties; see its description for details.",
-  T: "Thrown: You can throw this weapon to make a ranged attack using the same ability modifier as for melee attacks.",
-  V: "Versatile: Can be used with one or two hands. Damage listed for both modes.",
-  "2H": "Two-Handed: Requires two hands to use.",
-  LD: "Loading: Can fire only one piece of ammunition per action, regardless of extra attacks.",
+  F: "When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
+  H: "You have Disadvantage on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13.",
+  L: "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.",
+  R: "A Reach weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for Opportunity Attacks with it.",
+  S: "This weapon has unusual rules or properties; see its description for details.",
+  T: "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.",
+  V: "A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack.",
+  "2H": "A Two-Handed weapon requires two hands when you attack with it.",
+  LD: "You can fire only one piece of ammunition from a Loading weapon when you use an action, a Bonus Action, or a Reaction to fire it, regardless of the number of attacks you can normally make.",
   BF: "Burst Fire: Fires multiple rounds per attack action; see description.",
   RLD: "Reload: Must spend listed actions to reload the weapon after firing."
 };
 
 const MASTERY_TOOLTIPS = {
-  Topple: "Topple: When you hit a creature with this weapon, you can attempt to knock it prone. The target must make a Constitution saving throw (DC 8) or fall prone. Works only on Large or smaller creatures.",
-  Slow: "Slow: Weapons with this mastery reduce attack speed or frequency. Only one attack per attack action.",
-  Sap: "Sap: Deals non-lethal damage. Can knock a creature unconscious if it drops to 0 HP.",
-  Vex: "Vex: Allows special maneuvers or bonus effects; see weapon description for details.",
-  Cleave: "Cleave: When hitting a creature, may also damage another adjacent creature using same attack rules.",
-  Graze: "Graze: Deals partial damage on hit; may cause secondary effects or conditions.",
-  Nick: "Nick: Deals minor damage; may cause minor conditions like bleeding or stagger.",
-  Push: "Push: On hit, can push target a short distance. Target may make Strength saving throw if specified."
+  Topple: "If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+  Slow: "If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+  Sap: "If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.",
+  Vex: "If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.",
+  Cleave: "If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.",
+  Graze: "If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+  Nick: "When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.",
+  Push: "If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller."
 };
+
 
 // -------------------- State --------------------
 let normalItems = [];
@@ -1001,6 +1002,7 @@ export async function initItems() {
     loadMagicItemsTable()
   );
 }
+
 
 
 
