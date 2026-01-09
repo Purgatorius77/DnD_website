@@ -1,4 +1,5 @@
 // spellstatblock.js
+import { renderMonster, getCurrentMonster } from "../monsters/monsterstatblock.js";
 
 let spells = [];
 
@@ -49,11 +50,36 @@ function renderSpellHeader(spell) {
           <p class="subtitle">
             Source: ${spell.source || "Unknown"} ${spell.page ? "Page " + spell.page : ""}
           </p>
+          <button id="spell-back-btn">← Back to Monster</button>
         </div>
       </div>
     </div>
   `;
+
+  // ===== Attach the back button listener here =====
+const spellBackBtn = document.getElementById("spell-back-btn");
+if (spellBackBtn) {
+  spellBackBtn.addEventListener("click", () => {
+    const monster = getCurrentMonster();
+    if (!monster) return;
+
+    // Show monster statblock
+    const monsterStatblock = document.getElementById("monster-statblock");
+    const monsterFilters = document.getElementById("monster-filters");
+    if (monsterStatblock) monsterStatblock.style.display = "block";
+    if (monsterFilters) monsterFilters.style.display = "block";
+
+    // Hide spell statblock
+    const spellStatblock = document.getElementById("spell-statblock");
+    if (spellStatblock) spellStatblock.style.display = "none";
+
+    // Re-render monster
+    renderMonster(monster);
+  });
 }
+
+}
+
 
 // =================== CONTENT ===================
 
@@ -134,3 +160,4 @@ function formatDuration(arr) {
     return txt;
   }).join(", ");
 }
+
