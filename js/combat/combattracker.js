@@ -90,19 +90,23 @@ export function initCombatTracker(monsters) {
     });
   }
 
-  function renderCombatTracker() {
-    groupsContainer.innerHTML = "";
+function renderCombatTracker() {
+  groupsContainer.innerHTML = "";
 
-    combatGroups.forEach((group, gi) => {
-      const monster = allMonsters[group.monsterIndex];
-      if (!monster) return;
+  // Sort combatGroups by roundOrder ascending
+  const sortedGroups = [...combatGroups].sort((a, b) => a.roundOrder - b.roundOrder);
 
-      if (!group.hp || group.hp.length !== group.count) {
-        group.hp = Array(group.count).fill().map(() => ({ hp: monster.hp?.average || 0, conditions: [] }));
-      }
+  sortedGroups.forEach((group, gi) => {
+    const monster = allMonsters[group.monsterIndex];
+    if (!monster) return;
 
-      const div = document.createElement("div");
-      div.className = "group";
+    // Make sure HP array matches count
+    if (!group.hp || group.hp.length !== group.count) {
+      group.hp = Array(group.count).fill().map(() => ({ hp: monster.hp?.average || 0, conditions: [] }));
+    }
+
+    const div = document.createElement("div");
+    div.className = "group";
 
       const imgPath = getMonsterImagePath(monster);
 
@@ -119,7 +123,7 @@ export function initCombatTracker(monsters) {
 
         <div class="group-row">
           <div class="round-control">
-            <label>Round</label>
+            <label>Round order</label>
             <div class="round-controls">
               <button class="round-minus" data-index="${gi}">−</button>
               <input type="number" class="groupRound" value="${group.roundOrder}" data-index="${gi}">
@@ -162,21 +166,28 @@ export function initCombatTracker(monsters) {
       });
 
       // Round controls
-      div.querySelector(".round-minus").addEventListener("click", () => { if(group.roundOrder>1){ group.roundOrder--; renderCombatTracker(); } });
-      div.querySelector(".round-plus").addEventListener("click", () => { group.roundOrder++; renderCombatTracker(); });
-      div.querySelector(".groupRound").addEventListener("change", e => { group.roundOrder = Math.max(1, Number(e.target.value)); renderCombatTracker(); });
+// Round controls
+const roundMinusBtn = div.querySelector(".round-minus");
+const roundPlusBtn = div.querySelector(".round-plus");
+const roundInput = div.querySelector(".groupRound");
 
-      // Count controls
-      const countInput = div.querySelector(".groupCount");
-      div.querySelector(".count-minus").addEventListener("click", () => { if(group.count>1){ group.count--; group.hp.pop(); renderCombatTracker(); } });
-      div.querySelector(".count-plus").addEventListener("click", () => { group.count++; group.hp.push({ hp: monster.hp?.average||0, conditions: [] }); renderCombatTracker(); });
-      countInput.addEventListener("change", e => {
-        const newCount = Math.max(1, Number(e.target.value));
-        while(group.hp.length<newCount) group.hp.push({ hp: monster.hp?.average||0, conditions: [] });
-        group.hp = group.hp.slice(0,newCount);
-        group.count = newCount;
-        renderCombatTracker();
-      });
+roundMinusBtn.addEventListener("click", () => { 
+  if (group.roundOrder > 1) {
+    group.roundOrder--;
+    renderCombatTracker(); // re-renders and re-sorts
+  }
+});
+
+roundPlusBtn.addEventListener("click", () => { 
+  group.roundOrder++;
+  renderCombatTracker(); // re-renders and re-sorts
+});
+
+roundInput.addEventListener("change", e => { 
+  group.roundOrder = Math.max(1, Number(e.target.value));
+  renderCombatTracker(); // re-renders and re-sorts
+});
+
 
       // HP + Conditions
     const hpList = div.querySelector(".hp-list");
