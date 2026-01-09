@@ -20,6 +20,7 @@ import { initCharClasses} from "./characters/charclasses.js";
 import { initBackgrounds} from "./characters/backgrounds.js";
 import { initFeats} from "./characters/feats.js";
 import { initRaces} from "./characters/races.js";
+import { initLoot} from "./items/loot.js"
 
 document.addEventListener("DOMContentLoaded", async () => {
   // Load all your data
@@ -56,7 +57,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initFeats();
   initRaces();
   initBackgrounds();
-
+  initLoot();
   initViewSwitcher();
 });
 
