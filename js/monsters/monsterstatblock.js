@@ -111,23 +111,28 @@ function renderMonster(mon) {
 
 // ==================== HEADER ====================
 
-function renderStatblockHeader(mon) {
+
+
+export function renderStatblockHeader(mon) {
   const header = document.getElementById("statblock-header");
   const imgPath = getMonsterImagePath(mon);
   header.innerHTML = `
     <div class="stat-block">
       <div class="monster-header-wrapper">
         <img src="${imgPath}" alt="${mon.name}" class="monster-image" onerror="this.style.display='none'">
-
         <div class="monster-header-info">
           <h1>${mon.name}</h1>
           <p class="subtitle">${mon.size} ${mon.type}, ${mon.alignment}</p>
           <p class="subtitle">Habitat: ${mon.habitat || "Unknown"}</p>
           <p class="subtitle">Treasure: ${mon.treasure || "None"}</p>
           ${mon.source ? `<p class="subtitle">Source: ${mon.source}</p>` : ""}
+          
+
 
           <!-- TAB BUTTONS -->
           <div class="header-tabs">
+                    <!-- Add Monster Button -->
+          <button id="addMonsterBtn">Add to Combat</button>
             <button class="tab-button active" data-tab="stats">Statblock</button>
             <button class="tab-button" data-tab="background">Background</button>
           </div>
@@ -135,7 +140,51 @@ function renderStatblockHeader(mon) {
       </div>
     </div>
   `;
+
+  // ✅ Attach button AFTER it exists
+  const addBtn = document.getElementById("addMonsterBtn");
+  if (addBtn) {
+    addBtn.onclick = () => {
+      document.dispatchEvent(new CustomEvent("addMonsterToCombat", { detail: mon }));
+    };
+  }
+// Example snippet inside renderStatblockHeader(mon)
+const spellContainer = document.getElementById("monster-spells");
+if (spellContainer) {
+  spellContainer.innerHTML = mon.spells?.map(spell => `
+    <button class="monster-spell-btn" data-spell="${spell.name}">${spell.name}</button>
+  `).join("") || "";
+
+  // Add click listeners
+  spellContainer.querySelectorAll(".monster-spell-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const spellName = btn.dataset.spell;
+      const spell = window.spells.find(s => s.name === spellName);
+      if (spell) onMonsterSpellClick(spell, mon);
+    });
+  });
 }
+
+  
+}
+
+function onMonsterSpellClick(spell, monster) {
+  // currentMonster is already set when renderMonster(monster) was called
+  const spellStatblock = document.getElementById("spell-statblock");
+  const monsterStatblock = document.getElementById("monster-statblock");
+  const monsterFilters = document.getElementById("monster-filters");
+
+  // Hide monster
+  if (monsterStatblock) monsterStatblock.style.display = "none";
+  if (monsterFilters) monsterFilters.style.display = "none";
+
+  // Show spell
+  if (spellStatblock) spellStatblock.style.display = "block";
+
+  renderSpell(spell); // Your function that fills the spell statblock
+}
+
+
 
 // ==================== HELPERS ====================
 
@@ -324,6 +373,8 @@ function setupTabs() {
     };
   });
 }
+
+
 
 export { renderMonster };
 export { getMonsterImagePath };
