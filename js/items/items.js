@@ -456,6 +456,70 @@ function formatPropertyTooltip(props, item) {
   }).join(", ");
 }
 
+function enableItemTooltips() {
+  const tooltip = document.getElementById("tooltip");
+  let tooltipTimer;
+  let longPressTimer;
+
+  document.querySelectorAll(".items-table-wrap [title]").forEach(el => {
+    const text = el.getAttribute("title");
+    if (!text) return;
+
+    // Remove native title (so it doesn't conflict)
+    el.removeAttribute("title");
+
+    // --- Desktop hover ---
+    el.addEventListener("mouseenter", () => {
+      tooltip.textContent = text;
+      tooltip.classList.add("show");
+
+      const rect = el.getBoundingClientRect();
+      const tipRect = tooltip.getBoundingClientRect();
+
+      let left = rect.left + rect.width / 2 - tipRect.width / 2;
+      let top = rect.top - tipRect.height - 10;
+
+      left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+      if (top < 8) top = rect.bottom + 10;
+
+      tooltip.style.left = left + "px";
+      tooltip.style.top = top + "px";
+    });
+
+    el.addEventListener("mouseleave", () => {
+      clearTimeout(tooltipTimer);
+      tooltip.classList.remove("show");
+    });
+
+    // --- Touch long-press ---
+    el.addEventListener("touchstart", e => {
+      e.preventDefault(); // prevent immediate click
+      longPressTimer = setTimeout(() => {
+        tooltip.textContent = text;
+        tooltip.classList.add("show");
+
+        const rect = el.getBoundingClientRect();
+        const tipRect = tooltip.getBoundingClientRect();
+
+        let left = rect.left + rect.width / 2 - tipRect.width / 2;
+        let top = rect.top - tipRect.height - 10;
+
+        left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+        if (top < 8) top = rect.bottom + 10;
+
+        tooltip.style.left = left + "px";
+        tooltip.style.top = top + "px";
+      }, 600); // long press = 600ms
+    });
+
+    el.addEventListener("touchend", () => {
+      clearTimeout(longPressTimer);
+      tooltip.classList.remove("show");
+    });
+  });
+}
+
+
 function formatAttachedSpells(attached) {
   if (!attached) return "—";
 
@@ -777,6 +841,7 @@ function applyFilters(tabId, items) {
     const html = tabId === "magical" ? renderMagicItemsTable(filtered) : renderItemsTable(filtered);
     const tableEl = document.getElementById(tableId);
     if (tableEl) tableEl.innerHTML = html;
+     enableItemTooltips(); 
   }
 }
 
