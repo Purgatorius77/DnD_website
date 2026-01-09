@@ -1,6 +1,13 @@
 // js/characters/charclasses.js
 const BASE_PATH = "data/classes";
 
+// Clean D&D variant text like {@item ...}, {@filter ...}, {@dice ...}, etc.
+function cleanSpellText(text) {
+  if (typeof text !== "string") return text;
+  return text.replace(/\{@\w+\s+([^}|]+)(?:\|[^}]*)*\}/g, (_, c) => c);
+}
+
+
 async function fetchJSON(path) {
   const res = await fetch(path);
   if (!res.ok) throw new Error(`Failed to load ${path}`);
@@ -85,7 +92,6 @@ classSelect.addEventListener("change", async () => {
 
 }
 
-
 function renderClassStatblock(classData) {
   const {
     name,
@@ -99,50 +105,49 @@ function renderClassStatblock(classData) {
     subclassTitle,
     subclasses,
     spellcasting,
-    levelTable
+    classTableGroups
   } = classData;
 
-  // Primary ability list
   const abilities = primaryAbility?.map(a => Object.keys(a)[0].toUpperCase()).join(", ") || "None";
-
-  // Saving throws
   const saves = savingThrows?.join(", ") || (proficiency?.join(", ") || "None");
-
-  // Skills
-  let skills = "None";
-  if (startingProficiencies?.skills?.length) {
-    skills = startingProficiencies.skills
-      .map(s => s.choose ? `Choose ${s.choose.count} from ${s.choose.from.join(", ")}` : s)
-      .join("; ");
-  }
-
-  // Weapons, armor, tools
+  const skills = startingProficiencies?.skills?.length
+    ? startingProficiencies.skills.map(s => s.choose ? `Choose ${s.choose.count} from ${s.choose.from.join(", ")}` : s).join("; ")
+    : "None";
   const weapons = startingProficiencies?.weapons?.join(", ") || "None";
   const armor = startingProficiencies?.armor?.join(", ") || "None";
   const tools = startingProficiencies?.tools?.join(", ") || "None";
-
-  // Features list
   const featuresList = classFeatures?.map(f => typeof f === "string" ? f : f.classFeature).join(", ") || "None";
-
-  // Subclasses
   const subclassList = subclasses?.map(s => s.name).join(", ") || "None";
+  const equipment = startingEquipment?.default?.join("; ") || "None";
+  const spellInfo = spellcasting ? `Spellcasting Ability: ${spellcasting.spellcastingAbility}` : "";
 
-  // Starting equipment
-  let equipment = "None";
-  if (startingEquipment?.default) {
-    equipment = startingEquipment.default.join("; ");
+  // ===================== COMBINE ALL TABLE GROUPS INTO ONE TABLE =====================
+  let allColumns = [];
+  let maxRows = 20; // fixed for levels 1-20
+
+  classTableGroups?.forEach(group => {
+    const cols = group.colLabels.map(c => cleanSpellText(c));
+    const rows = group.rows || group.rowsSpellProgression || [];
+    allColumns.push({ cols, rows });
+  });
+
+  // Build header row with Level column first
+  const headerHtml = ["<th>Level</th>"]
+    .concat(allColumns.map(g => g.cols.map(c => `<th>${c}</th>`).join("")).join(""))
+    .join("");
+
+  // Build rows with Level column
+  const allRowsHtml = [];
+  for (let i = 0; i < maxRows; i++) {
+    let rowHtml = `<td>${i + 1}</td>`; // Level column
+    allColumns.forEach(g => {
+      const row = g.rows[i] || Array(g.cols.length).fill(""); // fill missing cells
+      rowHtml += row.map(c => `<td>${c}</td>`).join("");
+    });
+    allRowsHtml.push(`<tr>${rowHtml}</tr>`);
   }
 
-  // Spellcasting
-  let spellInfo = spellcasting ? `Spellcasting Ability: ${spellcasting.spellcastingAbility}` : "";
-
-  // Level table
-  let levelTableHtml = "";
-  if (levelTable?.length) {
-    levelTableHtml = `<table border="1"><tr>${Object.keys(levelTable[0]).map(k => `<th>${k}</th>`).join("")}</tr>`;
-    levelTableHtml += levelTable.map(row => `<tr>${Object.values(row).map(v => `<td>${v}</td>`).join("")}</tr>`).join("");
-    levelTableHtml += `</table>`;
-  }
+  const combinedTable = `<table border="1"><tr>${headerHtml}</tr>${allRowsHtml.join("")}</table>`;
 
   return `
     <h2>${name}</h2>
@@ -164,6 +169,7 @@ function renderClassStatblock(classData) {
 
     ${spellInfo ? `<h3>Spellcasting</h3><p>${spellInfo}</p>` : ""}
     
-    ${levelTableHtml ? `<h3>Level Table</h3>${levelTableHtml}` : ""}
+    <h3>Class Table</h3>
+    ${combinedTable}
   `;
 }
