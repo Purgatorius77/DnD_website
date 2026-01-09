@@ -1088,9 +1088,9 @@ button {
   font-family: "Garamond", "Georgia", serif;
   color: #000;
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: visible;
   box-sizing: border-box;
-  overflow: hidden;
+
 }
 
 /* Table Titles (simulate <h2>) */
@@ -1117,7 +1117,25 @@ button {
   max-width: 100%;
   overflow-x: auto;
   box-sizing: border-box;
+  padding-bottom: 6px;
 }
+
+.items-table-wrap table {
+  min-width: 1300px;    /* 👈 makes columns wider & readable */
+}
+
+.items-table-wrap th,
+.items-table-wrap td {
+  padding: 8px 12px;
+  max-width: 260px;        /* 👈 prevents infinite stretching */
+  white-space: normal;    /* 👈 allow wrapping */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.items-table-wrap td.other-details-cell {
+  max-width: 420px;
+}
+
 
 
 /* Table headers */
@@ -1173,11 +1191,6 @@ button {
 
 .other-block:last-child {
   border-bottom: none;
-}
-.items-table-wrap {
-  max-width: 100%;
-  overflow-x: auto;
-  padding-bottom: 10px;
 }
 
 .tabs {
