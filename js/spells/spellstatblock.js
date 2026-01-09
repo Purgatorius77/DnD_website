@@ -116,12 +116,39 @@ function renderEntry(entry) {
     return `<p>${cleanSpellText(entry)}</p>`;
   }
 
+  // Tables
   if (entry.type === "table") {
     return renderTable(entry);
   }
 
-  return "";
+  // Lists
+  if (entry.type === "list" && Array.isArray(entry.items)) {
+    const listItems = entry.items.map(item => {
+      // If item is a string, just render it
+      if (typeof item === "string") return `<li>${cleanSpellText(item)}</li>`;
+
+      // If item has its own entries
+      if (item.entries) {
+        const content = item.entries.map(renderEntry).join("");
+        return `<li><strong>${item.name || ""}</strong>: ${content}</li>`;
+      }
+
+      return `<li>${item.name || ""}</li>`;
+    }).join("");
+
+    return `<ul style="margin-left:1em">${listItems}</ul>`;
+  }
+
+  // Single items
+  if (entry.type === "item") {
+    const content = entry.entries ? entry.entries.map(renderEntry).join("") : "";
+    return `<div><strong>${entry.name}</strong>: ${content}</div>`;
+  }
+
+  // Fallback
+  return `<pre>${JSON.stringify(entry)}</pre>`;
 }
+
 
 function renderTable(table) {
   const head = table.colLabels.map(c => `<th>${cleanSpellText(c)}</th>`).join("");
@@ -148,9 +175,10 @@ function formatComponents(c) {
   return [
     c.v && "Verbal",
     c.s && "Somatic",
-    c.m && `Material (${c.m})`
+    c.m && `Material (${c.m.text || ""})`
   ].filter(Boolean).join(", ");
 }
+
 
 function formatDuration(arr) {
   return arr.map(d => {
