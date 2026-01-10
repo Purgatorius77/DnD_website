@@ -20,7 +20,13 @@ import { initCharClasses} from "./characters/charclasses.js";
 import { initBackgrounds} from "./characters/backgrounds.js";
 import { initFeats} from "./characters/feats.js";
 import { initRaces} from "./characters/races.js";
-import { initLoot} from "./items/loot.js"
+import { initTreasure} from "./items/treasure.js"
+import { initGems} from "./items/gems.js"
+import { initRelics} from "./items/relics.js"
+import { initArcana} from "./items/arcana.js"
+import { initArmaments} from "./items/armaments.js"
+import { initImplements} from "./items/implements.js"
+import { initArt} from "./items/art.js"
 
 document.addEventListener("DOMContentLoaded", async () => {
   // Load all your data
@@ -57,7 +63,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   initFeats();
   initRaces();
   initBackgrounds();
-  initLoot();
+  initTreasure();
+  initGems();
+  initArt();
+  initArcana();
+  initArmaments();
+  initRelics();
+  initImplements();
   initViewSwitcher();
 });
 
