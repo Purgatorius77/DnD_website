@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Two {@creature Violet Fungus|XMM|Violet Fungi} and a {@creature Vine Blight|XMM} digesting dead sheep"
+        ],
+        [
+          "2",
+          "A snarling {@creature Death Dog|XMM}, once someone's pet, now mutated by Gaunt's serum"
+        ],
+        [
+          "3",
+          "A {@variantrule Hostile [Attitude]|XPHB|Hostile} pair of scabby {@creature Tough|XMM|Toughs} who ate infected food they stole from a local farmer"
+        ],
+        [
+          "4",
+          "A young family trapped in their rickety home by their beloved uncle, who's been transformed by the fertilizer into a {@creature Myconid Spore Servant|XMM}"
+        ]
+      ],
+      "data": {
+        "tableIgnore": true
+      },
+      "name": "Finding Gaunt",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Running the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

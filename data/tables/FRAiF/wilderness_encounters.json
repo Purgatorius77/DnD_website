@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "name": "Wilderness Encounters",
+      "type": "table",
+      "source": "FRAiF",
+      "caption": "Wilderness Encounters",
+      "colLabels": [
+        "{@dice 1d10}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A pack of six {@creature Wolf|XMM|Wolves} hunts the characters."
+        ],
+        [
+          "2",
+          "The characters come across a Reghed camp."
+        ],
+        [
+          "3",
+          "Weird lights flicker at night from the ruins of a giant settlement buried in the snow."
+        ],
+        [
+          "4",
+          "An earthquake shakes the ground, and a new steam vent opens at the characters' feet."
+        ],
+        [
+          "5",
+          "A {@creature Remorhaz|XMM} begins combat with a dwarf's bones and armor stuck in its teeth."
+        ],
+        [
+          "6",
+          "An {@creature Elemental Cultist|XMM} stalks the characters, seeking to take away their light, heat, and food."
+        ],
+        [
+          "7",
+          "An {@creature Adult White Dragon|XMM} circles overhead."
+        ],
+        [
+          "8",
+          "Psychic emanations from deep under the ice trouble the character's sleep."
+        ],
+        [
+          "9",
+          "A group of {@dice 2d6} {@creature Tough|XMM|Toughs} from the {@book Reghed Glacier|FRAiF|3|Reghed Glacier} spots the characters and approaches."
+        ],
+        [
+          "10",
+          "A character falls through thin ice into a mind flayer colony that lies just below the surface."
+        ]
+      ]
+    }
+  ]
+}

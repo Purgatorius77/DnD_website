@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A dozen rioters ({@creature Commoner|XMM|Commoners}) mistake an innocent for a Shadowmaster informer and attempt vigilante justice."
+        ],
+        [
+          "2",
+          "A human populist agitator named Gehlen Kriska (Medium {@creature Performer Maestro|XMM}), rallies the mob, blaming the city council for the crisis. If the characters defend the council or try to disperse the mob, Gehlen turns the mob's anger on the party."
+        ],
+        [
+          "3",
+          "Rioters have set a building on fire. Spectators watch helplessly as {@dice 1d4} victims cry for help from within the blaze. Use the {@book Manor House map|XDMG|9|Manor} from appendix B of the {@book Dungeon Master's Guide|XDMG}, scattering victims on each floor. Use the rules for an inferno in {@hazard Inferno|XDMG| chapter 3 } of the Dungeon Master's Guide to adjudicate the fire."
+        ],
+        [
+          "4",
+          "A Shadowmaster {@creature Assassin|XMM} targets the characters, approaching stealthily and targeting spellcasters and other lightly armored characters first."
+        ]
+      ],
+      "data": {
+        "tableIgnore": true
+      },
+      "name": "Telflamm Is Burning",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Running the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Baldur's Gate Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "7",
+          "{@creature Cultist of Bhaal|FRAiF}"
+        ],
+        [
+          "8",
+          "{@creature Karas Chembryl|FRAiF}"
+        ],
+        [
+          "9",
+          "{@creature Cultist of Bane|FRAiF}"
+        ],
+        [
+          "11",
+          "{@creature Cultist of Myrkul|FRAiF}"
+        ],
+        [
+          "16",
+          "{@creature Dead Three Scion|FRAiF}"
+        ]
+      ],
+      "name": "Monsters by Region; Baldur's Gate Monsters",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 9
+        },
+        "index": 9
+      }
+    }
+  ]
+}

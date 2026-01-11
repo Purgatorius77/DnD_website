@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Name",
+        "Traits"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Dorn",
+          "Ruthless, sly trainer and patriarch (Medium {@creature Wereboar|XMM})"
+        ],
+        [
+          "Jhess",
+          "Affable, wayward trainer and son (Medium, Chaotic Neutral {@creature Wererat|XMM})"
+        ],
+        [
+          "Mirin",
+          "Calm, cruel healer and matriarch (Medium, Neutral Evil {@creature Werewolf|XMM})"
+        ],
+        [
+          "Riven",
+          "Ambitious, greedy uncle (Medium, Chaotic Evil {@creature Weretiger|XMM})"
+        ]
+      ],
+      "data": {
+        "tableIgnore": true
+      },
+      "name": "Oglyntyr Ranch",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Running the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

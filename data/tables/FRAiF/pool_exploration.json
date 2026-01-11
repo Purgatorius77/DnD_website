@@ -1,0 +1,53 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "One {@creature Hezrou|XMM}"
+        ],
+        [
+          "2",
+          "Two {@creature Oni|XMM}"
+        ],
+        [
+          "3",
+          "One {@creature Tree Blight|XMM}, four {@creature Needle Blight|XMM|Needle Blights}, and one {@creature Shambling Mound|XMM} entangling the remains of Sune priests and worshipers"
+        ],
+        [
+          "4",
+          "One {@creature Vrock|XMM} and one {@creature Swarm of Dretches|XMM}"
+        ],
+        [
+          "5",
+          "Two {@creature Barlgura|XMM|Barlguras}"
+        ],
+        [
+          "6",
+          "Three {@creature Black Pudding|XMM|Black Puddings} of Abyssal sludge"
+        ]
+      ],
+      "data": {
+        "tableIgnore": true
+      },
+      "name": "Pool Exploration",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Running the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

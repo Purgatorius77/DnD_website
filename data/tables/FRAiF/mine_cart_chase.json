@@ -1,0 +1,57 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d12",
+        "Complication"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Your cart approaches a steep turn. Make a {@dc 15} Strength or Dexterity saving throw (your choice). On a failed save, the turn counts as 15 feet of {@variantrule Difficult Terrain|XPHB} for you."
+        ],
+        [
+          "2",
+          "Your cart hurtles toward low-hanging mining equipment. Make a {@dc 15} Dexterity or Constitution saving throw (your choice). On a failed save, you take {@damage 2d6} Bludgeoning damage and gain the {@condition Prone|XPHB} condition."
+        ],
+        [
+          "3",
+          "The tracks bend and swerve into a maze. Make a {@dc 15} Dexterity or Intelligence saving throw (your choice). On a failed save, the maze counts as 20 feet of {@variantrule Difficult Terrain|XPHB} for you."
+        ],
+        [
+          "4",
+          "You pass through a cavern that's home to a {@creature Swarm of Stirges|XMM}, waking them from slumber. The swarm uses one of its actions to attack you, and the mass of flapping, confused creatures gives you the {@condition Blinded|XPHB} condition until the end of your turn."
+        ],
+        [
+          "5",
+          "You speed through a cavern that's home to {@dice 1d6} {@creature Piercer|XMM|Piercers}. One of them uses one of its actions, targeting you."
+        ],
+        [
+          "6",
+          "A {@creature Hook Horror|XMM} notices you. Make a {@dc 10} Wisdom or Charisma saving throw (your choice). On a failed save, the creature joins the chase with you as its quarry."
+        ],
+        [
+          "7–12",
+          "There is no complication."
+        ]
+      ],
+      "data": {
+        "tableIgnore": true
+      },
+      "name": "Mine Cart Chase",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Running the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Name",
+        "Traits"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Elyann",
+          "Quiet, wise herbalist; Strem's wife (Medium {@creature Commoner|XMM})"
+        ],
+        [
+          "Kalia",
+          "Witty, driven trainer and daughter (Medium, Lawful Good {@creature Scout|XMM})"
+        ],
+        [
+          "Strem",
+          "Flighty, loyal trainer and son (Medium {@creature Werewolf|XMM})"
+        ],
+        [
+          "Taero",
+          "Proud, practical father and patriarch (Medium, Lawful Neutral {@creature Noble|XMM})"
+        ],
+        [
+          "Vonda",
+          "Warm, sharp treasurer and matriarch (Medium, Neutral Good {@creature Noble|XMM})"
+        ]
+      ],
+      "data": {
+        "tableIgnore": true
+      },
+      "name": "Hemzar Ranch",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Running the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Kendrick Family Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "You are welcome in the Kendrick court. The Kendrick family and members of their court are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ],
+        [
+          "5+",
+          "You have complimentary room and board in Alaron, providing you with a Comfortable lifestyle for free."
+        ],
+        [
+          "10",
+          "The first time your Renown Score reaches 10, the Kendrick family rewards you with 750 GP worth of gemstones."
+        ],
+        [
+          "15+",
+          "You are given a minor noble title, and your room and board in Alaron improves to provide you a Wealthy lifestyle for free. In addition, the Kendrick family and court trust you, freely confiding information with you."
+        ],
+        [
+          "30+",
+          "You can call on the Kendrick family for a major favor, such as a royal pardon. Once you call for a favor, you can't do so again until your Renown Score increases."
+        ]
+      ],
+      "name": "Kendrick Family Renown",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Moonshae Isles",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

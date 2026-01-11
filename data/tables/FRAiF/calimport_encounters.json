@@ -1,0 +1,100 @@
+{
+  "table": [
+    {
+      "name": "Calimport Encounters",
+      "type": "table",
+      "source": "FRAiF",
+      "caption": "Calimport Encounters",
+      "colLabels": [
+        "{@dice 1d20}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Sultana Songal, in disguise as a simple scholar, asks the party for news from afar."
+        ],
+        [
+          "2",
+          "An {@creature Adult Gold Dragon|XMM} disguised as a charismatic aristocrat seeks its stolen hoard."
+        ],
+        [
+          "3",
+          "Four {@creature Priest Acolyte|XMM|Priest Acolytes}, led by a {@creature Priest|XMM}, carry the statue of a deity through the street."
+        ],
+        [
+          "4",
+          "A crew of {@b {@dice 2d6}} {@creature Pirate|XMM|Pirates} gets kicked out of a tavern and staggers drunkenly into the party."
+        ],
+        [
+          "5",
+          "A merchant offers exactly the magic item one of the party has been looking for."
+        ],
+        [
+          "6",
+          "Construction workers cry for help when the scaffolding around a nearby temple breaks, leaving them hanging above the ground."
+        ],
+        [
+          "7",
+          "An {@creature Archmage|XMM} accompanied by {@b {@dice 1d4}} {@creature Earth Elemental|XMM|Earth Elementals} rudely insists the party get out of the road and let them pass."
+        ],
+        [
+          "8",
+          "A {@creature Chasme|XMM} flies overhead, chased by Zeraphi on {@item Carpet of Flying|XDMG|Carpets of Flying}."
+        ],
+        [
+          "9",
+          "An {@creature Assassin|XMM} on a rooftop stalks a {@creature Noble|XMM}."
+        ],
+        [
+          "10",
+          "A portal to Sigil opens in the street, and an {@creature Empyrean|XMM} emerges."
+        ],
+        [
+          "11",
+          "A {@item Mechanical Wonder|FRAiF} (domestic) chases an escaped pet."
+        ],
+        [
+          "12",
+          "A {@creature Noble|XMM} recruits the adventurers for an urgent matter that requires great discretion."
+        ],
+        [
+          "13",
+          "A {@creature Commoner|XMM} hosts a con game in the street, challenging tourists to identify where they've hidden a (fake) jewel."
+        ],
+        [
+          "14",
+          "{@dice 2d4} Kochar ({@creature Scout|XMM|Scouts}) compete in an archery contest."
+        ],
+        [
+          "15",
+          "An angry genie emerges from a nearby shop. Everyone gives them a wide berth."
+        ],
+        [
+          "16",
+          "A {@item Mechanical Wonder|FRAiF} (flying) has lost its way and falls in the party's path."
+        ],
+        [
+          "17",
+          "A {@creature Mage|XMM} using a {@item Mechanical Wonder|FRAiF} (mobility) barters with a merchant for rare spell components."
+        ],
+        [
+          "18",
+          "A gnome engineer asks the party to field-test an experimental tunneling vehicle."
+        ],
+        [
+          "19",
+          "Deryan Kaya instructs six aspiring inventors on the latest {@item Mechanical Wonder|FRAiF|Mechanical Wonders}."
+        ],
+        [
+          "20",
+          "Sultana Songal, with guards and attendants, floats through the city in a magic litter."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "caption": "Genie Factions",
+      "colLabels": [
+        "Genie Type",
+        "Element",
+        "City",
+        "Ruler",
+        "Enemies"
+      ],
+      "colStyles": [
+        "col-3-2",
+        "col-2-2",
+        "col-2-2",
+        "col-2-2",
+        "col-2-2"
+      ],
+      "rows": [
+        [
+          "Dao",
+          "Earth",
+          "Olympus Dag",
+          "Zabargad",
+          "Djinn"
+        ],
+        [
+          "Djinn",
+          "Air",
+          "Burin Bir",
+          "Farnesslee",
+          "Dao"
+        ],
+        [
+          "Efreet",
+          "Fire",
+          "Gozva Ka",
+          "Jaham",
+          "Marid"
+        ],
+        [
+          "Marids",
+          "Water",
+          "Maran Saya",
+          "Biha Babir",
+          "Efreet"
+        ]
+      ],
+      "name": "Genie Factions",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Calimshan",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Moonshae Isles Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3",
+          "{@creature Swanmay|FRAiF}"
+        ],
+        [
+          "4",
+          "{@creature Rusted Berserker|FRAiF}"
+        ],
+        [
+          "9",
+          "{@creature Rusted Behemoth|FRAiF}"
+        ],
+        [
+          "10",
+          "{@creature Queen Forfallen|FRAiF}"
+        ],
+        [
+          "14",
+          "{@creature Rusted Wyrm|FRAiF}"
+        ]
+      ],
+      "name": "Monsters by Region; Moonshae Isles Monsters",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 9
+        },
+        "index": 9
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "caption": "Calim Desert Weather",
+      "colLabels": [
+        "1d20",
+        "Day Temperature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–5",
+          "80–100 degrees Fahrenheit"
+        ],
+        [
+          "6–15",
+          "101–120 degrees Fahrenheit"
+        ],
+        [
+          "16–20",
+          "More than 120 degrees Fahrenheit"
+        ]
+      ],
+      "name": "Calim Desert Weather",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Calimshan",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

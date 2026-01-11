@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "High Lady Ordalf Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "You are welcome in Ordalf's court. Fey in Sarifal are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ],
+        [
+          "5",
+          "The first time your Renown Score reaches 5, Ordalf gifts you a random Common magic item."
+        ],
+        [
+          "10+",
+          "Fey on Gwynneth are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ],
+        [
+          "15",
+          "The first time your Renown Score reaches 15, Ordalf gifts you either a random Rare magic item or a pet {@creature Blink Dog|XMM} (your choice)."
+        ],
+        [
+          "30+",
+          "You can use any fairy trod located in the Moonshae Isles. Fey in the Moonshaes are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ]
+      ],
+      "name": "High Lady Ordalf Renown",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Moonshae Isles",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

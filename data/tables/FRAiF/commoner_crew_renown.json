@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Commoner Crew Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "Members of commoner crews are Friendly to you. Any crew can provide you a Modest lifestyle for free in its neighborhood and hide you from the authorities."
+        ],
+        [
+          "5+",
+          "Crews don't charge you for services in their respective neighborhoods. You can purchase any tool for half cost in their neighborhoods."
+        ],
+        [
+          "10",
+          "The first time your Renown Score reaches 10, you gain proficiency with one {@item Artisan's Tools|XPHB} set of your choice."
+        ],
+        [
+          "15+",
+          "You can request up to four {@creature Tough|XMM|Toughs} to aid you in a task. Once you use this reward, you can't do so again until your Renown Score increases."
+        ],
+        [
+          "25+",
+          "You are considered a leader of the crew. You can call on the crew to perform a major favor, such as busting you out of jail or smuggling goods into the city. Once you call for a favor, you can't do so again until your Renown Score increases."
+        ]
+      ],
+      "name": "Commoner Crew Renown",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Baldur's Gate",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

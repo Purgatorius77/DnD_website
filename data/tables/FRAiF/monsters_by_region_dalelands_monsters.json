@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "caption": "Dalelands Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/4",
+          "{@creature Phaerimm Hatchling|FRAiF}"
+        ],
+        [
+          "8",
+          "{@creature Phaerimm Agent|FRAiF}"
+        ],
+        [
+          "12",
+          "{@creature Spore of Moander|FRAiF}"
+        ]
+      ],
+      "name": "Monsters by Region; Dalelands Monsters",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 9
+        },
+        "index": 9
+      }
+    }
+  ]
+}

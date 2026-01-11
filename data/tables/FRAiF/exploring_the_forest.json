@@ -1,0 +1,53 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "One {@creature Troll|XMM}"
+        ],
+        [
+          "2",
+          "Two {@creature Goblin Boss|XMM|Goblin Bosses} and one {@creature Goblin Hexer|XMM}, each riding a {@creature Worg|XMM}"
+        ],
+        [
+          "3",
+          "A {@creature Bugbear Stalker|XMM} and two {@creature Bugbear Warrior|XMM|Bugbear Warriors}"
+        ],
+        [
+          "4",
+          "Two bog {@creature Mummy|XMM|Mummies}"
+        ],
+        [
+          "5",
+          "Three {@creature Will-o'-Wisp|XMM|Will-o'-Wisps}"
+        ],
+        [
+          "6",
+          "Four swarms of midges ({@creature Swarm of Insects|XMM|Swarms of Insects}) and a swarm of giant midges ({@creature Swarm of Stirges|XMM})"
+        ]
+      ],
+      "data": {
+        "tableIgnore": true
+      },
+      "name": "Exploring the Forest",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Running the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

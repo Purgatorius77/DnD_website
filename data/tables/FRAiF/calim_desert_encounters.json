@@ -1,0 +1,100 @@
+{
+  "table": [
+    {
+      "name": "Calim Desert Encounters",
+      "type": "table",
+      "source": "FRAiF",
+      "caption": "Calim Desert Encounters",
+      "colLabels": [
+        "{@dice 1d20}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The party spots an oasis out of their way. However, the oasis is a mirage."
+        ],
+        [
+          "2",
+          "An {@creature Ankheg|XMM} lair is buried in the sand nearby."
+        ],
+        [
+          "3",
+          "Light rain falls. Overnight, the desert blooms with rare flora potentially useful in crafting magic items or working high magic."
+        ],
+        [
+          "4",
+          "{@dice 1d6} {@creature Gnoll Warrior|XMM|Gnoll Warriors} riding {@creature Giant Hyena|XMM|Giant Hyenas} seek prisoners."
+        ],
+        [
+          "5",
+          "A Calim sandstorm is coming! (See \"{@book Environmental Effects|FRAiF|4|Environmental Effects}\" earlier in this chapter.)"
+        ],
+        [
+          "6",
+          "{@dice 3d6} {@creature Bandit|XMM|Bandits}, led by a {@creature Bandit Captain|XMM}, rob any travelers they meet. They ride {@creature Camel|XMM|Camels}."
+        ],
+        [
+          "7",
+          "A {@creature Druid|XMM} leads {@b {@dice 2d6}} {@creature Scout|XMM|Scouts} on a pilgrimage."
+        ],
+        [
+          "8",
+          "The party stumbles on the corpses of {@b {@dice 1d4}} unfortunate travelers. The desiccated corpses rise as {@creature Mummy|XMM|Mummies} when night falls."
+        ],
+        [
+          "9",
+          "The party spots the crest of a {@creature Bulette|XMM} as the creature hunts for prey."
+        ],
+        [
+          "10",
+          "An oasis surrounded by detailed sculptures has a masked attendant who's a {@creature Medusa|XMM}."
+        ],
+        [
+          "11",
+          "The party spots a temple to a deity such as Chauntea, Ilmater, or Selûne. Long abandoned, it's protected by a {@creature Guardian Naga|XMM}."
+        ],
+        [
+          "12",
+          "A Cult of the Dragon expedition including a {@creature Mage|XMM}, a {@creature Death Cultist|XMM}, and {@b {@dice 2d4}} {@creature Cultist|XMM|Cultists} are traveling to a far-off {@creature Ancient Blue Dragon|XMM} who wants to become a {@creature dracolich|XMM}."
+        ],
+        [
+          "13",
+          "A caravan bound for the nearest settlement wants to hire the party for protection."
+        ],
+        [
+          "14",
+          "{@dice 2d4} Kochar ({@creature Scout|XMM|Scouts}) make temporary camp. They are peaceful and exchange news."
+        ],
+        [
+          "15",
+          "Scattered bones hint at a hidden treasure vault—it's home to a {@creature Sphinx of Secrets|XMM} that ambushes trespassers."
+        ],
+        [
+          "16",
+          "A wandering {@creature Archmage|XMM} seeks forgotten lore."
+        ],
+        [
+          "17",
+          "An {@creature Efreeti|XMM} and its attendants, an {@creature Elemental Cultist|XMM} and {@b {@dice 2d4}} {@creature Cultist|XMM|Cultists}, camp nearby."
+        ],
+        [
+          "18",
+          "The party wanders into the ruins of an ancient city swallowed by the desert. It is now the lair of an {@creature Ancient Blue Dragon|XMM}."
+        ],
+        [
+          "19",
+          "The exoskeleton of a long-dead purple worm has become a temporary shelter for {@b {@dice 2d6}} {@creature Commoner|XMM|Commoners}."
+        ],
+        [
+          "20",
+          "The city of {@book Miziltep|FRAiF|4|Miziltep} flies by in the distance."
+        ]
+      ]
+    }
+  ]
+}

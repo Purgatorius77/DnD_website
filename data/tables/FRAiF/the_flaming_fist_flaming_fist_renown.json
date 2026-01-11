@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Flaming Fist Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "The Flaming Fist provides you a Modest lifestyle for free at the Seatower of Balduran."
+        ],
+        [
+          "5+",
+          "The Flaming Fist doesn't arrest you unless you're plainly involved in a crime against the Flaming Fist or the Council of Four."
+        ],
+        [
+          "10",
+          "The first time your Renown Score reaches 10, the Flaming Fist rewards you with 500 GP worth of mundane adventuring gear (seized from criminals)."
+        ],
+        [
+          "15+",
+          "You have Advantage on any ability checks made to influence residents of the Lower City, as such residents fear the consequences if they aren't polite."
+        ],
+        [
+          "25+",
+          "You can assign a squad of up to six {@creature Warrior Infantry|XMM} to perform any task in the city that isn't overtly illegal. Once you use this reward, you can't do so again until your Renown Score increases."
+        ],
+        [
+          "30",
+          "The first time your Renown Score reaches 30, you receive a valuable piece of seized property: a random Rare magic item."
+        ],
+        [
+          "40+",
+          "The Flaming Fist won't arrest you. The faction openly shares with you any information about ongoing investigations or secrets about significant individuals in the city."
+        ]
+      ],
+      "name": "The Flaming Fist; Flaming Fist Renown",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Baldur's Gate",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

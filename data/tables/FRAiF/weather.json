@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Weather",
+      "colLabels": [
+        "1d20",
+        "Temperature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@dice 1d4 × 20} degrees Fahrenheit colder"
+        ],
+        [
+          "2–5",
+          "{@dice 1d4 × 10} degrees Fahrenheit colder"
+        ],
+        [
+          "6–16",
+          "Normal for the season"
+        ],
+        [
+          "17–20",
+          "{@dice 1d4 × 10} degrees Fahrenheit hotter"
+        ]
+      ],
+      "name": "Weather",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Icewind Dale",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

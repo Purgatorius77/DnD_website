@@ -1,0 +1,78 @@
+{
+  "table": [
+    {
+      "caption": "Icewind Dale Travel Terrain",
+      "colLabels": [
+        "Terrain",
+        "Maximum Pace",
+        "Encounter Distance",
+        "Foraging DC",
+        "Navigation DC",
+        "Search DC"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Frigid Water",
+          "Special*",
+          "{@dice 6d6 × 10} feet",
+          "10",
+          "10",
+          "15"
+        ],
+        [
+          "Hard Ice",
+          "Fast†",
+          "{@dice 6d6 × 10} feet",
+          "20",
+          "10",
+          "10"
+        ],
+        [
+          "Mud",
+          "Slow",
+          "{@dice 6d6 × 10} feet",
+          "10",
+          "10",
+          "15"
+        ],
+        [
+          "Snow",
+          "Fast†",
+          "{@dice 6d6 × 10} feet",
+          "20",
+          "10",
+          "10"
+        ],
+        [
+          "Thin Ice",
+          "Slow",
+          "{@dice 6d6 × 10} feet",
+          "20",
+          "15",
+          "10"
+        ]
+      ],
+      "footnotes": [
+        "*Characters' maximum pace while waterborne depends on the vehicle carrying them. †Appropriate equipment (such as a sled, skis, or snowshoes) is necessary to keep up a Fast pace in this terrain."
+      ],
+      "name": "Icewind Dale Terrain; Icewind Dale Travel Terrain",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Icewind Dale",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

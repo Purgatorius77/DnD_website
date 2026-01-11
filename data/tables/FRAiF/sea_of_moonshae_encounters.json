@@ -1,0 +1,100 @@
+{
+  "table": [
+    {
+      "name": "Sea of Moonshae Encounters",
+      "type": "table",
+      "source": "FRAiF",
+      "caption": "Sea of Moonshae Encounters",
+      "colLabels": [
+        "{@dice 1d20}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@dice 2d4} {@creature Bullywug Warrior|XMM|Bullywug Warriors} try to climb up the side of the ship and loot it of valuables."
+        ],
+        [
+          "2",
+          "{@dice 1d4} {@creature Hunter Shark|XMM|Hunter Sharks} begin following the ship."
+        ],
+        [
+          "3",
+          "{@dice 1d6} {@creature Merfolk Skirmisher|XMM|Merfolk Skirmishers} investigate the ship."
+        ],
+        [
+          "4",
+          "A pod of {@dice 3d10} {@creature Killer Whale|XMM|Killer Whales} races the ship."
+        ],
+        [
+          "5",
+          "One of the characters spots a bottle bobbing in the sea not far from the ship. Inside is a message and a map (see \"{@book Message in a Bottle|FRAiF|5|Message in a Bottle}\" later in this chapter)."
+        ],
+        [
+          "6",
+          "A {@creature Noble|XMM} clings to a piece of driftwood."
+        ],
+        [
+          "7",
+          "A Ffolk merchant vessel bound for the Sword Coast hails the characters and offers to trade."
+        ],
+        [
+          "8",
+          "A Norlander whaling ship approaches to ask if anyone has seen whales nearby."
+        ],
+        [
+          "9",
+          "The ship enters an area of Rusted Sea (see \"Moonshaes Terrain\")."
+        ],
+        [
+          "10",
+          "{@dice 2d4} {@creature Sahuagin Warrior|XMM|Sahuagin Warriors} riding {@creature Reef Shark|XMM|Reef Sharks} spot the ship. They follow and try to sneak aboard."
+        ],
+        [
+          "11",
+          "A pack of {@dice 1d4} {@creature Plesiosaurus|XMM|Plesiosauruses} closes on the ship and tries to sink it."
+        ],
+        [
+          "12",
+          "The characters spot the wreckage of a trading vessel that hit a hidden sandbar (see \"{@book Wreck of the Silverhand|FRAiF|5|Wreck of the Silverhand}\" later in this chapter)."
+        ],
+        [
+          "13",
+          "A {@creature Giant Shark|XMM} ambushes the ship."
+        ],
+        [
+          "14",
+          "The characters spot an {@creature Archelon|XMM}. It ignores them unless attacked."
+        ],
+        [
+          "15",
+          "The ship passes an island where {@dice 1d6} {@creature Pirate|XMM|Pirates} led by a {@creature Pirate Captain|XMM} have been left behind after a mutiny. The pirates hail the characters and pretend to be stranded travelers."
+        ],
+        [
+          "16",
+          "A Norlander longship crewed by fifty {@creature Guard|XMM|Guards} armed with battleaxes and led by a {@creature Berserker Commander|XMM} searches for a ship to capture or a coastal settlement to raid."
+        ],
+        [
+          "17",
+          "{@dice 1d6} {@creature Frost Giant|XMM|Frost Giants} living on a passing island pelt the ship with stones."
+        ],
+        [
+          "18",
+          "A {@creature Storm Giant|XMM} strides along the sea floor on its way to Maelstrom."
+        ],
+        [
+          "19",
+          "A {@creature Dragon Turtle|XMM} sleeps half submerged as the ship passes. It might be mistaken for a small island."
+        ],
+        [
+          "20",
+          "The ship sails near the lair of a {@creature Kraken|XMM}."
+        ]
+      ]
+    }
+  ]
+}

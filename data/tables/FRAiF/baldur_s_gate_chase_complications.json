@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Baldur's Gate Chase Complications",
+      "colLabels": [
+        "1d12",
+        "Complication"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A cowled stranger offers you a suspiciously compelling shortcut. Make a {@dc 10} Wisdom saving throw. On a failed save, you're tricked into going the wrong way, and your Speed is halved until the end of your turn."
+        ],
+        [
+          "2",
+          "The street was excavated in an incomplete urban-works project. Make a {@dc 10} Strength or Dexterity saving throw (your choice) to cross. On a failed save, you take {@damage 1d6} Bludgeoning damage and have the {@condition Prone|XPHB} condition."
+        ],
+        [
+          "3",
+          "Thieves lurk amid street performers, looking for easy targets. Make a {@dc 10} Intelligence or Wisdom saving throw (your choice). On a failed save, you pass the obstacle but lose 10 GP."
+        ],
+        [
+          "4",
+          "The Flaming Fist seeks suspects near a grisly murder scene. Make a {@dc 10} Dexterity or Charisma saving throw to avoid their scrutiny (your choice). On a failed save, two {@creature Warrior Veteran|XMM|Warrior Veterans} join the chase, pursuing you for rough questioning."
+        ],
+        [
+          "5",
+          "A patriar and their entourage are crossing the way. Make a {@dc 15} Charisma saving throw or spend 10 feet of movement to pass (your choice). On a failed save, your Speed is 0 until the end of your turn."
+        ],
+        [
+          "6",
+          "A spiky rune drawn under an eave pulses as you pass. Make a {@dc 12} Wisdom saving throw to resist its sinister influence. On a failed save, you take {@damage 4d4} Psychic damage."
+        ],
+        [
+          "7–12",
+          "There is no complication."
+        ]
+      ],
+      "name": "Baldur's Gate Chase Complications",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Baldur's Gate",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

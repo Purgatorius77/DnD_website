@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Icewind Dale Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Deep Dragon Wyrmling|FRAiF}"
+        ],
+        [
+          "3",
+          "{@creature Polar Serpent|FRAiF}"
+        ],
+        [
+          "5",
+          "{@creature Young Deep Dragon|FRAiF}"
+        ],
+        [
+          "11",
+          "{@creature Adult Deep Dragon|FRAiF}"
+        ],
+        [
+          "18",
+          "{@creature Ancient Deep Dragon|FRAiF}"
+        ],
+        [
+          "18",
+          "{@creature Zlan|FRAiF}"
+        ]
+      ],
+      "name": "Monsters by Region; Icewind Dale Monsters",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 9
+        },
+        "index": 9
+      }
+    }
+  ]
+}

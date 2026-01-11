@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d20",
+        "Wind",
+        "Precipitation"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1–6",
+          "Strong",
+          "Heavy snowfall or heavy rain"
+        ],
+        [
+          "7–12",
+          "Light",
+          "Light snowfall or light rain"
+        ],
+        [
+          "13–20",
+          "None",
+          "None"
+        ]
+      ],
+      "name": "Weather; 2",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Icewind Dale",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

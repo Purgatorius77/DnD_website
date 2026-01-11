@@ -1,0 +1,100 @@
+{
+  "table": [
+    {
+      "name": "Baldur's Gate Encounters",
+      "type": "table",
+      "source": "FRAiF",
+      "caption": "Baldur's Gate Encounters",
+      "colLabels": [
+        "{@dice 1d20}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature Mage Apprentice|XMM} and their {@creature Shield Guardian|XMM} seek an answer to a difficult magical puzzle."
+        ],
+        [
+          "2",
+          "{@dice 2d4} {@creature Guard|XMM|Guards} interrogate passersby."
+        ],
+        [
+          "3",
+          "A popular {@creature Gladiator|XMM} seeks challengers to publicly demonstrate the gladiator's might."
+        ],
+        [
+          "4",
+          "An {@creature Assassin|XMM} asks the characters pointed questions about a nearby establishment."
+        ],
+        [
+          "5",
+          "A {@creature Noble|XMM} suggests the characters secure an invitation to a party at Eomane House (see \"{@book Blood Night|FRAiF|6|Blood Night}\" later in this chapter)."
+        ],
+        [
+          "6",
+          "A {@creature Doppelganger|XMM} merchant is offloading stolen weapons at a suspiciously low price."
+        ],
+        [
+          "7",
+          "{@dice 2d4} {@creature Performer|XMM|Performers} hold an impromptu street show while their {@creature Spy|XMM} ally picks pockets."
+        ],
+        [
+          "8",
+          "{@dice 1d3} {@creature Priest Acolyte|XMM|Priest Acolytes} of Oghma peddle tickets to a lecture at the Unrolling Scroll."
+        ],
+        [
+          "9",
+          "An old sailor suggests that the Harborhands crew at the dock needs aid (see \"{@book Tide of Teeth|FRAiF|6|Tide of Teeth}\" later in this chapter)."
+        ],
+        [
+          "10",
+          "A disguised {@creature Lamia|XMM} bookseller and its {@dice 2d4} {@creature Jackalwere|XMM} minions promise rare tomes that guarantee entry into Candlekeep."
+        ],
+        [
+          "11",
+          "{@dice 2d4} {@creature Pirate|XMM|Pirates} on shore leave start a fight."
+        ],
+        [
+          "12",
+          "{@dice 1d4} {@creature Druid|XMM|Druids} rail against recent public works that have devastated a local park."
+        ],
+        [
+          "13",
+          "Two {@creature Cultist Fanatic|XMM|Cultist Fanatics} devoted to Myrkul hide blanket-covered corpses in an empty shed."
+        ],
+        [
+          "14",
+          "A {@creature Tough Boss|XMM} and {@dice 1d4} {@creature Tough|XMM|Toughs} shake down a shopkeeper behind on protection payments."
+        ],
+        [
+          "15",
+          "{@dice 2d6} Flaming Fist members (one is a {@creature Warrior Veteran|XMM}, the others are {@creature Warrior Infantry|XMM}) berate citizens about a recent robbery."
+        ],
+        [
+          "16",
+          "A merchant ({@creature Noble|XMM}) specializing in {@item Mechanical Wonder|FRAiF|Mechanical Wonders} sends the characters to meet the clever clock-worker Flurn Eightspoke (see \"{@book Clockwork Memories|FRAiF|6|Clockwork Memories}\" later in this chapter)."
+        ],
+        [
+          "17",
+          "A {@creature Swarm of Rats|XMM} surges from an alley where {@dice 1d6} {@creature Wererat|XMM|Wererats} wait to ambush wealthy travelers distracted by the swarm."
+        ],
+        [
+          "18",
+          "An {@creature Otyugh|XMM} lumbers from a sewer entrance, enraged at a recent civic initiative to sluice clean water through its home."
+        ],
+        [
+          "19",
+          "{@dice 2d4} {@creature Commoner|XMM|Commoners} share drinks in celebration of their crew's recent good fortune."
+        ],
+        [
+          "20",
+          "{@dice 1d4} {@creature Noble|XMM|Nobles} spill out of one of Cottle's carriages, unsure how they've suddenly arrived in such a disreputable part of town."
+        ]
+      ]
+    }
+  ]
+}

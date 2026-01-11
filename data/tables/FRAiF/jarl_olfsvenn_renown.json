@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Jarl Olfsvenn Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "You are welcome in Olfsvenn's court, and members of the court are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ],
+        [
+          "5+",
+          "You can hire hirelings from Olfsvenn's court for half cost."
+        ],
+        [
+          "10",
+          "The first time your Renown Score reaches 10, Olfsvenn rewards you with 100 GP worth of gemstones and art objects."
+        ],
+        [
+          "15+",
+          "Norlanders in the Moonshae Isles are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ],
+        [
+          "20",
+          "The first time your Renown Score reaches 20, Olfsvenn gifts you a Norlander Longship (see \"Moonshae Vehicles\" earlier in the chapter)."
+        ],
+        [
+          "30+",
+          "You can request a Norlander contingent of four {@creature Guard|XMM|Guards} to help you for one mission. Once you use this reward, you can't do so again until your Renown Score increases."
+        ]
+      ],
+      "name": "Jarl Olfsvenn Renown",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Moonshae Isles",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

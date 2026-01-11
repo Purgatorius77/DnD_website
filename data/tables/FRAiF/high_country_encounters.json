@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d8",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Kissethkashaan is on the hunt. See \"Kissethkashaan's Lair\" below."
+        ],
+        [
+          "2",
+          "A band of {@dice 2d4} {@creature Kobold Warrior|XMM|Kobold Warriors} led by a white {@creature Half-Dragon|XMM} spots the party. The group questions the characters, then retreats to warn Kissethkashaan."
+        ],
+        [
+          "3",
+          "A pack of four {@creature Winter Wolf|XMM|Winter Wolves} led by a {@creature Dire Worg|XMM} notice the party and follow, ambushing the characters when they are vulnerable."
+        ],
+        [
+          "4",
+          "Eight {@creature Wraith|XMM|Wraiths}, shades of dead Tuigan raiders, haunt the party by night."
+        ],
+        [
+          "5",
+          "A {@creature Hobgoblin Warlord|XMM} leads a small army of 100 {@creature Hobgoblin Warrior|XMM|Hobgoblin Warriors} through the High Country toward Thay, where they are to be employed as mercenaries. The warlord asks the party for news and doesn't initiate violence. If the characters fight, use the rules for mobs in {@book chapter 3|XDMG|2|Mobs} of the {@book Dungeon Master's Guide|XDMG}, dividing the hobgoblins into a number of mobs equal to the number of characters."
+        ],
+        [
+          "6",
+          "Two {@creature Frost Giant|XMM|Frost Giants} seek to capture Kissethkashaan. If the party agrees to help, the giants share the dragon's hoard."
+        ],
+        [
+          "7",
+          "Storms blow in from the west. Heavy precipitation and strong winds (see {@book chapter 3|XDMG|2|Environmental Effects} of the Dungeon Master's Guide ) last {@dice 1d4} days."
+        ],
+        [
+          "8",
+          "The party crosses paths with the Cyric cultists. See \"Cyric Cultists\" below."
+        ]
+      ],
+      "data": {
+        "tableIgnore": true
+      },
+      "name": "High Country Encounters",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Running the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

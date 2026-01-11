@@ -1,0 +1,85 @@
+{
+  "table": [
+    {
+      "caption": "Moonshae Vehicles",
+      "colLabels": [
+        "Ship",
+        "Speed",
+        "Crew",
+        "Passengers",
+        "Cargo (Tons)",
+        "AC",
+        "HP",
+        "Damage Threshold",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-1-1",
+        "col-1-1 text-center",
+        "col-1-1 text-center",
+        "col-1-1 text-center",
+        "col-1-1 text-center",
+        "col-1-1 text-center",
+        "col-1-1 text-center",
+        "col-1-1 text-center",
+        "col-1"
+      ],
+      "rows": [
+        [
+          "{@item Ffolk Sailing Ship|FRAiF}",
+          "2 mph",
+          "20",
+          "20",
+          "100",
+          "15",
+          "400",
+          "20",
+          "20,000 GP"
+        ],
+        [
+          "{@item Norlander Longship|FRAiF}",
+          "6 mph",
+          "50",
+          "100",
+          "10",
+          "17",
+          "300",
+          "15",
+          "20,000 GP"
+        ],
+        [
+          "{@item Rusted Hulk|FRAiF}",
+          "2 mph",
+          "60",
+          "90",
+          "250",
+          "18",
+          "500",
+          "25",
+          "50,000 GP"
+        ],
+        [
+          "{@item Whaleboat|FRAiF}",
+          "3 mph",
+          "6",
+          "1",
+          "–",
+          "13",
+          "100",
+          "10",
+          "500 GP"
+        ]
+      ],
+      "name": "Moonshae Vehicles",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Moonshae Isles",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

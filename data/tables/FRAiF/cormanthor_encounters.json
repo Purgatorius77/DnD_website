@@ -1,0 +1,100 @@
+{
+  "table": [
+    {
+      "name": "Cormanthor Encounters",
+      "type": "table",
+      "source": "FRAiF",
+      "caption": "Cormanthor Encounters",
+      "colLabels": [
+        "{@dice 1d20}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A healing spring lies in a grove sacred to elven gods. A creature that drinks from the spring regains {@dice 1d8} Hit Points but can benefit from the spring only once a day."
+        ],
+        [
+          "2",
+          "An abandoned animal den provides shelter."
+        ],
+        [
+          "3",
+          "A pack of {@dice 2d4} {@creature Wolf|XMM|Wolves} follows the party, ambushing the characters when they are distracted."
+        ],
+        [
+          "4",
+          "{@dice 1d6} {@creature Goblin Warrior|XMM|Goblin Warriors} riding {@creature Worg|XMM|Worgs} hunt for easy prey."
+        ],
+        [
+          "5",
+          "A {@creature Dryad|XMM} observes the party. If the characters respect the forest, the dryad approaches."
+        ],
+        [
+          "6",
+          "Two {@creature Displacer Beast|XMM|Displacer Beasts} ambush the party."
+        ],
+        [
+          "7",
+          "{@dice 2d4} {@creature Gnoll Warrior|XMM|Gnoll Warriors} prowl a dilapidated cabin with hidden treasure inside."
+        ],
+        [
+          "8",
+          "An elf {@creature Scout Captain|XMM} and {@dice 2d4} {@creature Scout|XMM|Scouts} patrol the forest and observe the party from hiding."
+        ],
+        [
+          "9",
+          "A {@creature Shambling Mound|XMM} created by {@book Moander's|FRAiF|2|Moander, God of Rot} corruption fights any living thing it sees."
+        ],
+        [
+          "10",
+          "The characters enter the territory of a {@creature Primeval Owlbear|XMM}. If left alone, it ignores them."
+        ],
+        [
+          "11",
+          "{@dice 3d6} {@creature Skeleton|XMM|Skeletons} climb from their mass grave and begin combat."
+        ],
+        [
+          "12",
+          "A {@creature Mage|XMM} with two {@creature Warrior Veteran|XMM} bodyguards search ruins for treasure. If the party looks vulnerable, they initiate combat."
+        ],
+        [
+          "13",
+          "The party has stumbled into the hunting ground of a {@creature Young Green Dragon|XMM}."
+        ],
+        [
+          "14",
+          "Ancient crypts are now home to a {@creature Ghast Gravecaller|XMM} and {@dice 2d6} {@creature Ghoul|XMM|Ghouls}."
+        ],
+        [
+          "15",
+          "The party enters a rotten grove where a {@creature Spore of Moander|FRAiF} grows."
+        ],
+        [
+          "16",
+          "A {@creature Nycaloth|XMM} leads {@dice 2d4} {@creature Mezzoloth|XMM|Mezzoloths} on a hunt."
+        ],
+        [
+          "17",
+          "A {@creature Lich|XMM} and {@dice 2d4} {@creature Death Cultist|XMM|Death Cultists} search the ruins for lost magical secrets."
+        ],
+        [
+          "18",
+          "A Zhentarim {@creature Assassin|XMM} hides from the law."
+        ],
+        [
+          "19",
+          "A tree warped by magic and corruption has become a {@creature Gulthias Blight|XMM}."
+        ],
+        [
+          "20",
+          "An elf {@creature Archmage|XMM} and {@creature Questing Knight|XMM} are trying to recover a family heirloom."
+        ]
+      ]
+    }
+  ]
+}

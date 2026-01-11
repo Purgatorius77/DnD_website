@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Moonshae Druids Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "Moonshae druids and their allies are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ],
+        [
+          "5+",
+          "You can purchase {@item Potion of Healing|XDMG|Potions of Healing} from the druids for half cost."
+        ],
+        [
+          "10+",
+          "Beasts in the Moonshaes are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ],
+        [
+          "15+",
+          "You can purchase {@item Spell Scroll|XDMG|Spell Scrolls} containing Druid spells of level 5 or lower from the druids."
+        ],
+        [
+          "20+",
+          "You are allowed to visit moonwells guarded by the druids and participate in their ceremonies. Plant creatures in the Moonshaes are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ],
+        [
+          "30",
+          "The first time your Renown Score reaches 30, the druids offer to take you to a moonwell and cast the {@spell Commune|XPHB} spell—contacting {@area the Earthmother|32a|x}—on your behalf."
+        ]
+      ],
+      "name": "Moonshae Druids Renown",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Moonshae Isles",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

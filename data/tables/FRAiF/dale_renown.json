@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Dale Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "All citizens of the dale are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you by default."
+        ],
+        [
+          "5+",
+          "Merchants in the dale give you a 10 percent discount on all nonmagical wares."
+        ],
+        [
+          "10+",
+          "Inns in the dale offer you complimentary room and board, providing you a Modest lifestyle for free."
+        ],
+        [
+          "15+",
+          "You are given a leadership role in the dale's militia. You can call on up to three {@creature Guard|XMM|Guards} to aid you on a mission. Once you use this reward, you can't do so again until your Renown Score increases."
+        ],
+        [
+          "25+",
+          "Those in the dale offering spellcasting services will cast spells up to level 3 for free (not including the cost of any Material components consumed by the spell)."
+        ],
+        [
+          "30",
+          "The first time your Renown Score reaches 30, respected members of the dale entrust you with a random Rare magic item."
+        ],
+        [
+          "40+",
+          "You have a place in the dale's leadership. Respected members of the dale openly provide you information about citizens, ongoing investigations, and local places."
+        ]
+      ],
+      "name": "Dale Renown",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "The Dalelands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

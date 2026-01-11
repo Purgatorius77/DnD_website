@@ -1,0 +1,42 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Six {@creature Goblin Warrior|XMM|Goblin Warriors} and a {@creature Goblin Boss|XMM} (all {@variantrule Friendly [Attitude]|XPHB|Friendly}) are having a tea party and invite the characters to join them."
+        ],
+        [
+          "2",
+          "A {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Hobgoblin Captain|XMM} drills three Hostile {@creature Hobgoblin Warrior|XMM|Hobgoblin Warriors} (all Hostile) on fighting techniques."
+        ],
+        [
+          "3",
+          "Four {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Bugbear Stalker|XMM|Bugbear Stalkers} stealthily patrol the halls."
+        ],
+        [
+          "4",
+          "A {@variantrule Friendly [Attitude]|XPHB|Friendly} {@creature Faerie Dragon Adult|XMM} begins to follow the characters."
+        ]
+      ],
+      "name": "Finding Braelin",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Moonshae Isles",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Adding to the Chase",
+      "colLabels": [
+        "District",
+        "New Pursuers",
+        "Initial Distance"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Upper City",
+          "{@dice 2d4} {@creature Guard|XMM|Guards} of the Watch",
+          "60 feet"
+        ],
+        [
+          "Lower City",
+          "{@dice 2d6} {@creature Warrior Veteran|XMM|Warrior Veterans} in the Flaming Fist",
+          "90 feet"
+        ],
+        [
+          "Outer City",
+          "{@dice 1d6} {@creature Tough|XMM|Toughs} from a crew",
+          "45 feet"
+        ]
+      ],
+      "name": "Lawkeepers Intervene; Adding to the Chase",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Baldur's Gate",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

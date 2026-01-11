@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "caption": "Moonshaes Travel Terrain",
+      "colLabels": [
+        "Terrain",
+        "Encounter Distance",
+        "Foraging DC",
+        "Navigation DC",
+        "Search DC"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3 text-center",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Dead Calm",
+          "{@dice 6d8 × 10} feet",
+          "15",
+          "10",
+          "10"
+        ],
+        [
+          "Entangling Kelp",
+          "{@dice 2d6 × 10} feet",
+          "15",
+          "10",
+          "15"
+        ],
+        [
+          "Reef",
+          "{@dice 4d6 × 10} feet",
+          "10",
+          "15",
+          "15"
+        ],
+        [
+          "Rusted Sea",
+          "{@dice 2d6 × 10} feet",
+          "20",
+          "10",
+          "15"
+        ]
+      ],
+      "name": "Moonshaes Terrain; Moonshaes Travel Terrain",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Moonshae Isles",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

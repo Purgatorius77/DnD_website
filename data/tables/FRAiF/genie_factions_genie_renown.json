@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Genie Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "Members of the ruler's court are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you. You are provided a Comfortable lifestyle for free at the palace."
+        ],
+        [
+          "5+",
+          "You can purchase the following kinds of adventuring gear from the ruler's contacts for half cost: {@item Fine Clothes|XPHB}, {@item Ink|XPHB}, {@item Ink Pen|XPHB|Ink Pens}, {@item Paper|XPHB}, {@item Parchment|XPHB}, {@item Perfume|XPHB}, or {@item Spyglass|XPHB}."
+        ],
+        [
+          "10",
+          "The first time your Renown Score reaches 10, the ruler grants you a random Charm (see {@book chapter 3|XDMG|2|Renown} of the {@book Dungeon Master's Guide|XDMG})."
+        ],
+        [
+          "15+",
+          "Elementals other than genies within the ruler's domain are Friendly to you by default. Your lifestyle in the palace increases to Wealthy."
+        ],
+        [
+          "30+",
+          "Genies associated with the ruler are Friendly to you by default. Your lifestyle in the palace increases to Aristocratic."
+        ],
+        [
+          "40+",
+          "You can request the aid of a {@creature Spy Master|XMM} for one mission. Once you use this benefit, you can't do so again until your Renown Score improves."
+        ],
+        [
+          "50",
+          "The first time your Renown Score reaches 50, the ruler grants you a Blessing of your choice (see chapter 3 of the {@book Dungeon Master's Guide|XDMG})."
+        ]
+      ],
+      "name": "Genie Factions; Genie Renown",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Calimshan",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

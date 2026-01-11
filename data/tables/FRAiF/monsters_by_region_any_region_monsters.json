@@ -1,0 +1,87 @@
+{
+  "table": [
+    {
+      "caption": "Any Region Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/4",
+          "{@creature Drow of Lolth|FRAiF}"
+        ],
+        [
+          "1",
+          "{@creature Zhentilar Soldier|FRAiF}"
+        ],
+        [
+          "2",
+          "{@creature Spirit Dragon Wyrmling|FRAiF}"
+        ],
+        [
+          "4",
+          "{@creature Zhentilar Paladin of Bane|FRAiF}"
+        ],
+        [
+          "5",
+          "{@creature Drow Elite Warrior of Lolth|FRAiF}"
+        ],
+        [
+          "7",
+          "{@creature Drow Mage of Lolth|FRAiF}"
+        ],
+        [
+          "8",
+          "{@creature Drow Priestess of Lolth|FRAiF}"
+        ],
+        [
+          "8",
+          "{@creature Werewyvern|FRAiF}"
+        ],
+        [
+          "8",
+          "{@creature Young Spirit Dragon|FRAiF}"
+        ],
+        [
+          "11",
+          "{@creature Beast of Malar|FRAiF}"
+        ],
+        [
+          "13",
+          "{@creature Manshoon|FRAiF}"
+        ],
+        [
+          "15",
+          "{@creature Adult Spirit Dragon|FRAiF}"
+        ],
+        [
+          "21",
+          "{@creature Valindra Shadowmantle|FRAiF}"
+        ],
+        [
+          "22",
+          "{@creature Ancient Spirit Dragon|FRAiF}"
+        ],
+        [
+          "22",
+          "{@creature Sammaster (Dracolich Form)|FRAiF|Sammaster}"
+        ]
+      ],
+      "name": "Monsters by Region; Any Region Monsters",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 9
+        },
+        "index": 9
+      }
+    }
+  ]
+}

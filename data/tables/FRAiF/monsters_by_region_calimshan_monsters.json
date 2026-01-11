@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Calimshan Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "2",
+          "{@creature Aranea|FRAiF}"
+        ],
+        [
+          "2",
+          "{@creature Nimblewright Steed|FRAiF}"
+        ],
+        [
+          "3",
+          "{@creature Nimblewright Guard|FRAiF}"
+        ],
+        [
+          "7",
+          "{@creature Nimblewright Hulk|FRAiF}"
+        ],
+        [
+          "12",
+          "{@creature Biha Babir|FRAiF}"
+        ]
+      ],
+      "name": "Monsters by Region; Calimshan Monsters",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 9
+        },
+        "index": 9
+      }
+    }
+  ]
+}

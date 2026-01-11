@@ -1,0 +1,284 @@
+{
+  "table": [
+    {
+      "caption": "Forgotten Realms Adventures",
+      "colLabels": [
+        "Adventure Name",
+        "Level",
+        "Type"
+      ],
+      "colStyles": [
+        "col-5",
+        "col-2 text-center",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "{@area The Ashen Faithful|0b3|x}",
+          "10",
+          "Deity (Bane)"
+        ],
+        [
+          "{@area The Blight on Soubar|0d6|x}",
+          "12",
+          "High Magic"
+        ],
+        [
+          "{@area Blood Night|454|x}",
+          "4",
+          "Location (Baldur's Gate; see {@book chapter 6|FRAiF|6})"
+        ],
+        [
+          "{@area Broken Mirrors|07e|x}",
+          "7",
+          "Deity (Sune)"
+        ],
+        [
+          "{@area Calim Crossing|2fb|x}",
+          "3",
+          "Location (Calimshan; see {@book chapter 4|FRAiF|4})"
+        ],
+        [
+          "{@area The Calimemnon Conspiracy|30f|x}",
+          "8",
+          "Location (Calimshan; see {@book chapter 4|FRAiF|4})"
+        ],
+        [
+          "{@area Clockwork Memories|45e|x}",
+          "7",
+          "Location (Baldur's Gate; see {@book chapter 6|FRAiF|6})"
+        ],
+        [
+          "{@area The Cost of Warmth|254|x}",
+          "3",
+          "Location (Icewind Dale; see {@book chapter 3|FRAiF|3})"
+        ],
+        [
+          "{@area The Curse on Humble Hill|01a|x}",
+          "1",
+          "Deity (Chauntea)"
+        ],
+        [
+          "{@area The Dallabad Curse|308|x}",
+          "5",
+          "Location (Calimshan; see {@book chapter 4|FRAiF|4})"
+        ],
+        [
+          "{@area Disinterred Danger|047|x}",
+          "4",
+          "Faction (Harpers)"
+        ],
+        [
+          "{@area Dougan's Hell|266|x}",
+          "6",
+          "Location (Icewind Dale; see {@book chapter 3|FRAiF|3})"
+        ],
+        [
+          "{@area Dragon Orb|0a7|x}",
+          "9",
+          "Faction (Cult of the Dragon)"
+        ],
+        [
+          "{@area Dread March of the Bone Titan|0eb|x}",
+          "13",
+          "Deity (Kelemvor)"
+        ],
+        [
+          "{@area The Drowning Forest|04f|x}",
+          "4",
+          "Region (Trackless Sea)"
+        ],
+        [
+          "{@area Echoes of the Shaking Plague|0ad|x}",
+          "9",
+          "Region (Heartlands)"
+        ],
+        [
+          "{@area The Eyes of At'ar|062|x}",
+          "5",
+          "Region (Anauroch)"
+        ],
+        [
+          "{@area The Flying Fortress|0c5|x}",
+          "11",
+          "Faction (Purple Dragon Knights)"
+        ],
+        [
+          "{@area The Foehammer Horn|0cc|x}",
+          "11",
+          "Deity (Tempus)"
+        ],
+        [
+          "{@area Fury Grove|03b|x}",
+          "3",
+          "Faction (Emerald Enclave)"
+        ],
+        [
+          "{@area Gods Long Forgotten|304|x}",
+          "4",
+          "Location (Calimshan; see {@book chapter 4|FRAiF|4})"
+        ],
+        [
+          "{@area Heart of Fire|0f4|x}",
+          "13",
+          "Deity (Torm)"
+        ],
+        [
+          "{@area Hell Ship|08e|x}",
+          "8",
+          "Region (Lands of Intrigue)"
+        ],
+        [
+          "{@area In for a Penny|088|x}",
+          "7",
+          "Region (Forgotten Lands)"
+        ],
+        [
+          "{@area The Lost Dawn|054|x}",
+          "4",
+          "Deity (Lathander)"
+        ],
+        [
+          "{@area Message in a Bottle|394|x}",
+          "4",
+          "Location (Moonshae Isles; see {@book chapter 5|FRAiF|5})"
+        ],
+        [
+          "{@area Moving Mountains|093|x}",
+          "8",
+          "High Magic"
+        ],
+        [
+          "{@area The Mystery of Myth Rodarnum|0db|x}",
+          "12",
+          "High Magic"
+        ],
+        [
+          "{@area A Restless Eternity|0e5|x}",
+          "12",
+          "Region (Arcane Empires)"
+        ],
+        [
+          "{@area Restoring Freedale|19f|x}",
+          "5",
+          "Location (The Dalelands; see {@book chapter 2|FRAiF|2})"
+        ],
+        [
+          "{@area Retaking the Terror|25d|x}",
+          "4",
+          "Location (Icewind Dale; see {@book chapter 3|FRAiF|3})"
+        ],
+        [
+          "{@area Robber Baron|01f|x}",
+          "1",
+          "Region (Sword Coast)"
+        ],
+        [
+          "{@area The Rushdown Well|38c|x}",
+          "3",
+          "Location (Moonshae Isles; see {@book chapter 5|FRAiF|5})"
+        ],
+        [
+          "{@area Safe House Standoff|067|x}",
+          "5",
+          "Faction (Zhentarim)"
+        ],
+        [
+          "{@area Shadow of the Watch|071|x}",
+          "6",
+          "Deity (Helm)"
+        ],
+        [
+          "{@area The Shadow Parliament|46b|x}",
+          "9",
+          "Location (Baldur's Gate; see {@book chapter 6|FRAiF|6})"
+        ],
+        [
+          "{@area The Siege of Shalespire Priory|029|x}",
+          "2",
+          "Faction (Order of the Gauntlet)"
+        ],
+        [
+          "{@area Silk and Suffering|0bb|x}",
+          "10",
+          "Deity (Lolth)"
+        ],
+        [
+          "{@area The Summerlight Ceremony|099|x}",
+          "8",
+          "High Magic"
+        ],
+        [
+          "{@area Tears Fall|06d|x}",
+          "5",
+          "Deity (Selûne)"
+        ],
+        [
+          "{@area The Temple of Transmutation|1a6|x}",
+          "7",
+          "Location (The Dalelands; see {@book chapter 2|FRAiF|2})"
+        ],
+        [
+          "{@area The Tenebrous Stone|041|x}",
+          "3",
+          "Deity (Ilmater)"
+        ],
+        [
+          "{@area Tide of Teeth|446|x}",
+          "3",
+          "Chapter 6 (Baldur's Gate)"
+        ],
+        [
+          "{@area The Tomb of Damara|192|x}",
+          "3",
+          "Location (The Dalelands; see {@book chapter 2|FRAiF|2})"
+        ],
+        [
+          "{@area The Treaty of Ostoria|3a6|x}",
+          "8",
+          "Location (Moonshae Isles; see {@book chapter 5|FRAiF|5})"
+        ],
+        [
+          "{@area The Vault of Velsharoon|09e|x}",
+          "8",
+          "Faction (Red Wizards)"
+        ],
+        [
+          "{@area The Weeping Goddess|032|x}",
+          "2",
+          "Deity (Shar)"
+        ],
+        [
+          "{@area Well of Lies|078|x}",
+          "6",
+          "Deity (Mystra)"
+        ],
+        [
+          "{@area What Wakes Below|26f|x}",
+          "9",
+          "Location (Icewind Dale; see {@book chapter 3|FRAiF|3})"
+        ],
+        [
+          "{@area Wolves of Amphail|05a|x}",
+          "4",
+          "Faction (Lords' Alliance)"
+        ],
+        [
+          "{@area Wreck of the Silverhand|39c|x}",
+          "6",
+          "Location (Moonshae Isles; see {@book chapter 5|FRAiF|5})"
+        ]
+      ],
+      "name": "Forgotten Realms Adventures",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Running the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

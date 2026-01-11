@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Dougan's Warren",
+      "colLabels": [
+        "1d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Elder Dubrace whispering with Gutstab Grimbutcher, guarded by {@dice 2d4} {@creature Goblin Warrior|XMM|Goblin Warriors}"
+        ],
+        [
+          "2",
+          "Ryn and {@dice 1d4} {@creature Berserker|XMM|Berserkers}"
+        ],
+        [
+          "3",
+          "Morg watching over cousin Rogar in a cage"
+        ],
+        [
+          "4",
+          "Auntie Nen caring for {@dice 2d6} {@creature Commoner|XMM|Commoners}"
+        ],
+        [
+          "5",
+          "An empty chamber reeking of blood with names of dead captives scratched into the wall"
+        ],
+        [
+          "6",
+          "{@dice 1d4} {@creature Warrior Infantry|XMM} who could be persuaded to help the characters"
+        ]
+      ],
+      "name": "Below Town; Dougan's Warren",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Icewind Dale",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

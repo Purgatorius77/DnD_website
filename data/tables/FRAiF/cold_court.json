@@ -1,0 +1,42 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A character triggers a {@trap collapsing roof|XDMG} trap (see chapter 3 of the {@book Dungeon Master's Guide|XDMG})."
+        ],
+        [
+          "2",
+          "Two {@creature Cultist Fanatic|XMM|Cultist Fanatics} lurk out of sight to ambush the characters."
+        ],
+        [
+          "3",
+          "A {@creature Spy|XMM} pretends to be the cult's captive to infiltrate the party."
+        ],
+        [
+          "4",
+          "Ice-Knife Nymetra."
+        ]
+      ],
+      "name": "Cold Court",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Icewind Dale",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

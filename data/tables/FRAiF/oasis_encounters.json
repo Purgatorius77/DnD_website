@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Oasis Encounters",
+      "colLabels": [
+        "1d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature Gnoll Fang of Yeenoghu|XMM}, a {@creature Gnoll Pack Lord|XMM}, and four {@creature Gnoll Warrior|XMM|Gnoll Warriors}"
+        ],
+        [
+          "2",
+          "A {@creature Grell|XMM} leading three {@creature Grick|XMM|Gricks}"
+        ],
+        [
+          "3",
+          "Four {@creature Mummy|XMM|Mummies}"
+        ],
+        [
+          "4",
+          "One {@creature Ghast Gravecaller|XMM} and four {@creature Ghoul|XMM|Ghouls}"
+        ],
+        [
+          "5",
+          "Ghost of Khorin Soulez (see below)"
+        ],
+        [
+          "6",
+          "Yharaskrik (see below)"
+        ]
+      ],
+      "name": "Oasis Encounters",
+      "source": "FRAiF",
+      "chapter": {
+        "name": "Calimshan",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}
