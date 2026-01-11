@@ -1,0 +1,277 @@
+{
+  "table": [
+    {
+      "name": "Underdark Encounters (Levels 11—16)",
+      "type": "table",
+      "source": "XGE",
+      "page": 106,
+      "caption": "Underdark Encounters (Levels 11—16)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-02",
+          "{@dice 3d6} {@creature carrion crawler||carrion crawlers}"
+        ],
+        [
+          "03-04",
+          "{@dice 1d6 + 1} {@creature gelatinous cube||gelatinous cubes}"
+        ],
+        [
+          "05-06",
+          "{@dice 1d8 + 2} {@creature gibbering mouther||gibbering mouthers}"
+        ],
+        [
+          "07-08",
+          "{@dice 2d8} {@creature minotaur skeleton||minotaur skeletons}"
+        ],
+        [
+          "09-10",
+          "{@dice 2d6} {@creature ochre jelly||ochre jellies}"
+        ],
+        [
+          "11-12",
+          "{@dice 2d4} {@creature doppelganger||doppelgangers}"
+        ],
+        [
+          "13-14",
+          "{@dice 1d4} {@creature quaggoth thonot||quaggoth thonots} with {@dice 1d10 + 2} quaggoths"
+        ],
+        [
+          "15-16",
+          "{@dice 1d3} {@creature roper||ropers}"
+        ],
+        [
+          "17-18",
+          "{@dice 3d6} {@creature gargoyle||gargoyles}"
+        ],
+        [
+          "19-20",
+          "{@dice 1d10} {@creature mimic||mimics}"
+        ],
+        [
+          "21-25",
+          "A 100-foot-long ravine, {@dice 4d10} feet wide and {@dice 5d20 + 200} feet deep"
+        ],
+        [
+          "26-27",
+          "1 {@creature hobgoblin captain} with {@dice 3d10} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "28-29",
+          "{@dice 2d4} {@creature spectator||spectators}"
+        ],
+        [
+          "30-31",
+          "{@dice 3d6} {@creature ghast||ghasts}"
+        ],
+        [
+          "32-33",
+          "{@dice 2d8} {@creature intellect devourer||intellect devourers}"
+        ],
+        [
+          "34-35",
+          "{@dice 1d3} {@creature orc Eye of Gruumsh||orc Eyes of Gruumsh} with {@dice 2d4} {@creature orog||orogs} and {@dice 2d10} {@creature orc||orcs}"
+        ],
+        [
+          "36-40",
+          "A large cave containing {@dice 2d10} extraordinarily detailed statues of various creatures"
+        ],
+        [
+          "41-42",
+          "{@dice 1d8 + 1} {@creature kuo-toa monitor||kuo-toa monitors}"
+        ],
+        [
+          "43-44",
+          "{@dice 2d4} {@creature water weird||water weirds}"
+        ],
+        [
+          "45-46",
+          "{@dice 2d10} {@creature grick||gricks}"
+        ],
+        [
+          "47-48",
+          "{@dice 3d6} {@creature nothic||nothics}"
+        ],
+        [
+          "49-50",
+          "{@dice 2d8 + 1} {@creature ogre||ogres}"
+        ],
+        [
+          "51-52",
+          "{@dice 1d6 + 2} {@creature chuul||chuuls}"
+        ],
+        [
+          "53-54",
+          "{@dice 1d8 + 1} {@creature ettin||ettins}"
+        ],
+        [
+          "55",
+          "{@dice 3d6} {@creature grell||grells}"
+        ],
+        [
+          "56",
+          "{@dice 2d4} {@creature flameskull||flameskulls}"
+        ],
+        [
+          "57",
+          "{@dice 2d12} dwarf soldiers ({@creature veteran||veterans}) on patrol"
+        ],
+        [
+          "58",
+          "{@dice 2d8} {@creature hell hound||hell hounds}"
+        ],
+        [
+          "59",
+          "{@dice 1d10} {@creature ghost||ghosts}"
+        ],
+        [
+          "60",
+          "{@dice 3d4} {@creature wight||wights}"
+        ],
+        [
+          "61",
+          "{@dice 3d6} {@creature phase spider||phase spiders}"
+        ],
+        [
+          "62",
+          "{@dice 1d8 + 1} {@creature bone naga (guardian)||bone nagas}"
+        ],
+        [
+          "63-65",
+          "A shrill scream followed by dark laughter"
+        ],
+        [
+          "66",
+          "{@dice 1d4} {@creature chimera||chimeras}"
+        ],
+        [
+          "67",
+          "{@dice 1d10} {@creature black pudding||black puddings}"
+        ],
+        [
+          "68",
+          "{@dice 3d6} {@creature minotaur||minotaurs}"
+        ],
+        [
+          "69",
+          "{@dice 2d4} {@creature otyugh||otyughs}"
+        ],
+        [
+          "70",
+          "{@dice 1d6 + 1} {@creature beholder zombie||beholder zombies}"
+        ],
+        [
+          "71",
+          "{@dice 4d4} {@creature hook horror||hook horrors}"
+        ],
+        [
+          "72",
+          "{@dice 1d8 + 1} {@creature umber hulk||umber hulks}"
+        ],
+        [
+          "73",
+          "{@dice 2d4} {@creature salamander||salamanders}"
+        ],
+        [
+          "74",
+          "{@dice 1d3} {@creature grick alpha||grick alphas}"
+        ],
+        [
+          "75",
+          "{@dice 1d6 + 2} {@creature xorn}"
+        ],
+        [
+          "76-80",
+          "A ruined village that once belonged to deep gnomes. A search has a 50% chance of uncovering {@dice 1d3} {@item potion of healing||potions of healing} and a 25% chance of finding a random common magic item"
+        ],
+        [
+          "81",
+          "{@dice 2d4} {@creature earth elemental||earth elementals}"
+        ],
+        [
+          "82",
+          "{@dice 1d3} {@creature spirit naga||spirit nagas}"
+        ],
+        [
+          "83",
+          "{@dice 1d8 + 1} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "84",
+          "{@dice 1d6 + 2} {@creature troll||trolls}"
+        ],
+        [
+          "85",
+          "{@dice 2d4} {@creature stone giant||stone giants}"
+        ],
+        [
+          "86",
+          "{@dice 2d4} {@creature wraith||wraiths}"
+        ],
+        [
+          "87",
+          "{@dice 1d4} {@creature fomorian||fomorians}"
+        ],
+        [
+          "88",
+          "{@dice 1d3} {@creature drow mage||drow mages} with {@dice 1d4} {@creature drow elite warrior||drow elite warriors}"
+        ],
+        [
+          "89",
+          "{@dice 1d10} {@creature vampire spawn}"
+        ],
+        [
+          "90",
+          "{@dice 1d3} {@creature cloaker||cloakers}"
+        ],
+        [
+          "91",
+          "{@dice 1d4} {@creature fire giant||fire giants}"
+        ],
+        [
+          "92",
+          "1 {@creature mind flayer arcanist} with {@dice 1d6 + 1} {@creature mind flayer||mind flayers}"
+        ],
+        [
+          "93",
+          "{@dice 1d4} {@creature dao}"
+        ],
+        [
+          "94",
+          "{@dice 1d8 + 1} {@creature drider||driders}"
+        ],
+        [
+          "95",
+          "{@dice 1d3} {@creature behir||behirs}"
+        ],
+        [
+          "96",
+          "{@dice 1d4} {@creature aboleth||aboleths}"
+        ],
+        [
+          "97",
+          "1 {@creature beholder}"
+        ],
+        [
+          "98",
+          "1 {@creature young red shadow dragon}"
+        ],
+        [
+          "99",
+          "1 {@creature death tyrant}"
+        ],
+        [
+          "00",
+          "1 {@creature purple worm}"
+        ]
+      ]
+    }
+  ]
+}

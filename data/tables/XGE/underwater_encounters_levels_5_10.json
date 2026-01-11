@@ -1,0 +1,113 @@
+{
+  "table": [
+    {
+      "name": "Underwater Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 109,
+      "caption": "Underwater Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-02",
+          "{@dice 3d6} {@creature steam mephit||steam mephits}"
+        ],
+        [
+          "03-04",
+          "{@dice 1d10} {@creature sahuagin}"
+        ],
+        [
+          "05-06",
+          "1 {@creature giant octopus}"
+        ],
+        [
+          "07-08",
+          "{@dice 3d6} {@creature constrictor snake||constrictor snakes}"
+        ],
+        [
+          "09-10",
+          "{@dice 2d10} {@creature merfolk} with {@dice 1d4} {@creature giant sea horse||giant sea horses}"
+        ],
+        [
+          "11-15",
+          "{@dice 1d4} {@creature sea hag||sea hags}"
+        ],
+        [
+          "16-20",
+          "{@dice 2d4} {@creature swarm of quippers||swarms of quippers}"
+        ],
+        [
+          "21-25",
+          "A sunken galleon with a 50% chance of a random treasure hoard inside (roll on the {@table Treasure Hoard: Challenge 5—10|DMG} table in chapter 7 of the {@italic Dungeon Master's Guide})"
+        ],
+        [
+          "26-30",
+          "{@dice 1d4} {@creature plesiosaurus||plesiosauruses}"
+        ],
+        [
+          "31-35",
+          "{@dice 3d6} {@creature reef shark||reef sharks}"
+        ],
+        [
+          "36-40",
+          "An abandoned bathysphere"
+        ],
+        [
+          "41-50",
+          "{@dice 1d4} {@creature giant constrictor snake||giant constrictor snakes}"
+        ],
+        [
+          "51-55",
+          "{@dice 2d4} {@creature hunter shark||hunter sharks}"
+        ],
+        [
+          "56-60",
+          "{@dice 1d3} {@creature sahuagin priestess||sahuagin priestesses} with {@dice 2d10} {@creature sahuagin}"
+        ],
+        [
+          "61-65",
+          "An empty castle made from coral"
+        ],
+        [
+          "66-70",
+          "{@dice 1d4} {@creature killer whale||killer whales}"
+        ],
+        [
+          "71-75",
+          "{@dice 1d10} {@creature merrow}"
+        ],
+        [
+          "76-80",
+          "An eerie statue of a squatting humanoid, with bat wings on its back and tentacles sprouting from its face"
+        ],
+        [
+          "81-85",
+          "{@dice 1d4} {@creature water elemental||water elementals}"
+        ],
+        [
+          "86-90",
+          "1 {@creature sahuagin baron} with {@dice 2d8} {@creature sahuagin}"
+        ],
+        [
+          "91-96",
+          "{@dice 1d4} {@creature giant shark||giant sharks}"
+        ],
+        [
+          "97-99",
+          "1 {@creature marid}"
+        ],
+        [
+          "00",
+          "1 {@creature storm giant}"
+        ]
+      ]
+    }
+  ]
+}

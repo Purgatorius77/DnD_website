@@ -1,0 +1,337 @@
+{
+  "table": [
+    {
+      "name": "Underdark Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 106,
+      "caption": "Underdark Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "{@dice 3d6} {@creature swarm of bats||swarms of bats}"
+        ],
+        [
+          "02",
+          "{@dice 1d4} {@creature giant spider||giant spiders} or {@dice 1d4} {@creature giant toad||giant toads}"
+        ],
+        [
+          "03",
+          "1 {@creature mimic}"
+        ],
+        [
+          "04",
+          "{@dice 2d4} {@creature gray ooze||grey oozes}"
+        ],
+        [
+          "05",
+          "{@dice 2d10} {@creature orc||orcs} or {@dice 3d6} {@creature troglodyte||troglodytes}"
+        ],
+        [
+          "06",
+          "{@dice 3d6} {@creature grimlock||grimlocks}"
+        ],
+        [
+          "07",
+          "{@dice 1d6 + 2} {@creature magma mephit||magma mephits}"
+        ],
+        [
+          "08",
+          "1 {@creature goblin boss} with {@dice 2d4} {@creature goblin||goblins}"
+        ],
+        [
+          "09",
+          "{@dice 2d4} {@creature darkmantle||darkmantles}"
+        ],
+        [
+          "10",
+          "{@dice 2d8 + 1} {@creature drow}"
+        ],
+        [
+          "11",
+          "{@dice 2d10} {@creature piercer||piercers}"
+        ],
+        [
+          "12",
+          "{@dice 1d4} {@creature minotaur skeleton||minotaur skeletons}"
+        ],
+        [
+          "13-14",
+          "{@dice 3d6} deep gnomes"
+        ],
+        [
+          "15",
+          "1 {@creature druid} with 1 {@creature polar bear} ({@creature cave bear})"
+        ],
+        [
+          "16-17",
+          "{@dice 3d6} {@creature orc||orcs}"
+        ],
+        [
+          "18",
+          "1 {@creature bone naga (guardian)||bone naga}"
+        ],
+        [
+          "19-20",
+          "{@dice 2d6} {@creature bugbear||bugbears}"
+        ],
+        [
+          "21-25",
+          "Luminescent fungi growing on the walls of a moist cave, filling it with dim light"
+        ],
+        [
+          "26",
+          "{@dice 2d4} {@creature specter||specters}"
+        ],
+        [
+          "27",
+          "{@dice 1d12 + 4} {@creature shadow||shadows}"
+        ],
+        [
+          "28",
+          "{@dice 1d3} {@creature gibbering mouther||gibbering mouthers}"
+        ],
+        [
+          "29-30",
+          "{@dice 4d4} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "31-32",
+          "{@dice 1d4} {@creature carrion crawler||carrion crawlers}"
+        ],
+        [
+          "33-34",
+          "1 {@creature black pudding}"
+        ],
+        [
+          "35",
+          "{@dice 1d4} {@creature ochre jelly||ochre jellies}"
+        ],
+        [
+          "36-40",
+          "A patch of mold that appears yellow when light is directed toward it"
+        ],
+        [
+          "41",
+          "{@dice 1d4} {@creature nothic||nothics}"
+        ],
+        [
+          "42-43",
+          "{@dice 2d8 + 1} {@creature gas spore||gas spores}"
+        ],
+        [
+          "44-45",
+          "{@dice 1d3} {@creature gelatinous cube||gelatinous cubes}"
+        ],
+        [
+          "46",
+          "1 {@creature ghost}"
+        ],
+        [
+          "47-48",
+          "1 {@creature flameskull}"
+        ],
+        [
+          "49-50",
+          "{@dice 2d8} {@creature duergar}"
+        ],
+        [
+          "51",
+          "1 {@creature wraith}"
+        ],
+        [
+          "52",
+          "1 {@creature umber hulk}"
+        ],
+        [
+          "53",
+          "1 {@creature xorn}"
+        ],
+        [
+          "54",
+          "{@dice 1d6 + 2} dwarf hunters ({@creature veteran||veterans}) searching for trolls"
+        ],
+        [
+          "55",
+          "1 {@creature hobgoblin captain} with {@dice 3d10} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "56",
+          "1 {@creature roper}"
+        ],
+        [
+          "57",
+          "1 {@creature kuo-toa monitor} with {@dice 1d4} {@creature kuo-toa whip||kuo-toa whips} and {@dice 1d8 + 1} {@creature kuo-toa}"
+        ],
+        [
+          "58",
+          "{@dice 1d3} {@creature water weird||water weirds}"
+        ],
+        [
+          "59",
+          "{@dice 1d4} {@creature ghast||ghasts} with {@dice 1d10} {@creature ghoul||ghouls}"
+        ],
+        [
+          "60",
+          "1 {@creature otyugh}"
+        ],
+        [
+          "61-62",
+          "A merchant caravan consisting of 1 {@creature drow mage}, 2 {@creature drow elite warrior||drow elite warriors}, and {@dice 2d10} {@creature quaggoth||quaggoths}"
+        ],
+        [
+          "63",
+          "{@dice 1d4} {@creature wight||wights}"
+        ],
+        [
+          "64",
+          "{@dice 1d4} {@creature doppelganger||doppelgangers}"
+        ],
+        [
+          "65",
+          "{@dice 2d8} {@creature fire snake||fire snakes}"
+        ],
+        [
+          "66",
+          "{@dice 1d4} {@creature spectator||spectators}"
+        ],
+        [
+          "67",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 1d4} {@creature orog||orogs} and {@dice 2d10 + 3} {@creature orc||orcs}"
+        ],
+        [
+          "68",
+          "{@dice 1d3} {@creature vampire spawn}"
+        ],
+        [
+          "69",
+          "{@dice 1d4} {@creature hook horror||hook horrors} or {@dice 1d4} {@creature minotaur||minotaurs}"
+        ],
+        [
+          "70",
+          "{@dice 3d6} {@creature quaggoth spore servant||quaggoth spore servants}"
+        ],
+        [
+          "71-72",
+          "{@dice 1d3} {@creature grell||grells}"
+        ],
+        [
+          "73",
+          "{@dice 1d6 + 1} {@creature intellect devourer||intellect devourers}"
+        ],
+        [
+          "74",
+          "{@dice 1d10} {@creature gargoyle||gargoyles}"
+        ],
+        [
+          "75",
+          "1 {@creature beholder zombie}"
+        ],
+        [
+          "76-77",
+          "1 {@creature quaggoth thonot} with {@dice 2d4} {@creature quaggoth||quaggoths}"
+        ],
+        [
+          "78",
+          "{@dice 1d6} {@creature ettin||ettins} or {@dice 1d4} {@creature troll||trolls}"
+        ],
+        [
+          "79",
+          "{@dice 1d8 + 1} {@creature phase spider||phase spiders}"
+        ],
+        [
+          "80",
+          "1 {@creature fomorian} or {@dice 1d3} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "81",
+          "{@dice 1d4} {@creature earth elemental||earth elementals}"
+        ],
+        [
+          "82",
+          "{@dice 3d6} {@creature ogre||ogres}"
+        ],
+        [
+          "83",
+          "{@dice 1d4 + 1} {@creature chuul||chuuls}"
+        ],
+        [
+          "84",
+          "{@dice 1d10} {@creature hell hound||hell hounds}"
+        ],
+        [
+          "85",
+          "{@dice 1d3} {@creature drow elite warrior||drow elite warriors}"
+        ],
+        [
+          "86",
+          "{@dice 1d4} {@creature chimera||chimeras}"
+        ],
+        [
+          "87",
+          "{@dice 1d4} {@creature salamander||salamanders}"
+        ],
+        [
+          "88",
+          "1 {@creature cloaker}"
+        ],
+        [
+          "89",
+          "{@dice 2d4} {@creature wight||wights}"
+        ],
+        [
+          "90",
+          "{@dice 1d4} {@creature drider||driders}"
+        ],
+        [
+          "91",
+          "1 {@creature fire giant}"
+        ],
+        [
+          "92",
+          "1 {@creature grick alpha} with {@dice 2d4} {@creature grick||gricks}"
+        ],
+        [
+          "93",
+          "1 {@creature mind flayer arcanist}"
+        ],
+        [
+          "94",
+          "{@dice 1d4} {@creature drow mage||drow mages}"
+        ],
+        [
+          "95",
+          "1 {@creature spirit naga}"
+        ],
+        [
+          "96",
+          "{@dice 1d4} {@creature mind flayer||mind flayers}"
+        ],
+        [
+          "97",
+          "1 {@creature behir}"
+        ],
+        [
+          "98",
+          "1 {@creature aboleth}"
+        ],
+        [
+          "99",
+          "1 {@creature dao} or 1 {@creature stone giant}"
+        ],
+        [
+          "00",
+          "1 {@creature beholder}"
+        ]
+      ]
+    }
+  ]
+}

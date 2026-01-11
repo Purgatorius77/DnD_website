@@ -1,0 +1,65 @@
+{
+  "table": [
+    {
+      "name": "Underwater Encounters (Levels 11—20)",
+      "type": "table",
+      "source": "XGE",
+      "page": 109,
+      "caption": "Underwater Encounters (Levels 11—20)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-10",
+          "1 {@creature sahuagin baron} with {@dice 1d4} {@creature sahuagin priestess||sahuagin priestesses} and {@dice 2d10} {@creature sahuagin}"
+        ],
+        [
+          "11-35",
+          "{@dice 1d10} {@creature killer whale||killer whales}"
+        ],
+        [
+          "36-40",
+          "A ghost ship passing overhead, containing {@dice 2d6 + 10} {@creature ghost||ghosts}"
+        ],
+        [
+          "41-60",
+          "{@dice 1d6} {@creature giant shark||giant sharks}"
+        ],
+        [
+          "61-65",
+          "A 1-mile-radius sphere of effervescent water that allows air-breathing creatures to breathe water while in the sphere"
+        ],
+        [
+          "66-75",
+          "{@dice 1d10} {@creature water elemental||water elementals}"
+        ],
+        [
+          "76-80",
+          "A shimmering, blue-green portal to the Elemental Plane of Water"
+        ],
+        [
+          "81-90",
+          "{@dice 1d4} {@creature marid||marids}"
+        ],
+        [
+          "91-96",
+          "{@dice 1d3} {@creature storm giant||storm giants}"
+        ],
+        [
+          "97-99",
+          "1 {@creature dragon turtle}"
+        ],
+        [
+          "00",
+          "1 {@creature kraken}"
+        ]
+      ]
+    }
+  ]
+}

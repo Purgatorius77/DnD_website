@@ -1,0 +1,113 @@
+{
+  "table": [
+    {
+      "name": "Underwater Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 109,
+      "caption": "Underwater Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-10",
+          "{@dice 3d6} {@creature quipper||quippers}"
+        ],
+        [
+          "11-14",
+          "{@dice 2d4} {@creature steam mephit||steam mephits}"
+        ],
+        [
+          "15-18",
+          "{@dice 1d4} {@creature sahuagin}"
+        ],
+        [
+          "19-22",
+          "{@dice 2d6} {@creature merfolk}"
+        ],
+        [
+          "23-25",
+          "{@dice 2d4} corpses of drowned sailors tangled in kelp"
+        ],
+        [
+          "26-29",
+          "{@dice 2d4} {@creature constrictor snake||constrictor snakes}"
+        ],
+        [
+          "30-33",
+          "{@dice 1d4} {@creature reef shark||reef sharks}"
+        ],
+        [
+          "34-37",
+          "1 {@creature swarm of quippers}"
+        ],
+        [
+          "38-40",
+          "A bed of enormous clams"
+        ],
+        [
+          "41-45",
+          "{@dice 1d10} {@creature merfolk} with {@dice 1d3} {@creature giant sea horse||giant sea horses}"
+        ],
+        [
+          "46-50",
+          "1 {@creature giant octopus}"
+        ],
+        [
+          "51-55",
+          "1 {@creature merrow}"
+        ],
+        [
+          "56-60",
+          "1 {@creature plesiosaurus}"
+        ],
+        [
+          "61-65",
+          "{@dice 2d10} pieces of corroded brass dinnerware littering the bottom"
+        ],
+        [
+          "66-70",
+          "1 {@creature giant constrictor snake}"
+        ],
+        [
+          "71-75",
+          "1 {@creature sea hag}"
+        ],
+        [
+          "76-80",
+          "A school of silvery fish darting through the water"
+        ],
+        [
+          "81-85",
+          "{@dice 1d4} {@creature hunter shark||hunter sharks}"
+        ],
+        [
+          "86-90",
+          "1 {@creature sahuagin priestess} with {@dice 2d4} {@creature sahuagin}"
+        ],
+        [
+          "91-96",
+          "{@dice 1d4} {@creature killer whale||killer whales}"
+        ],
+        [
+          "97-98",
+          "1 {@creature giant shark}"
+        ],
+        [
+          "99",
+          "1 {@creature water elemental}"
+        ],
+        [
+          "00",
+          "1 {@creature sahuagin baron}"
+        ]
+      ]
+    }
+  ]
+}
