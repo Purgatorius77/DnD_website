@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Cloud Giant Wealth",
+      "colLabels": [
+        "d6",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A cloud giant seeks to gain wealth by investing in an adventuring party (perhaps giving the characters magic items or other valuables) in exchange for a share of the party's rewards."
+        ],
+        [
+          "2",
+          "A cloud giant hosts an art gala in a cloud castle to display their wealth, providing an opportunity for the characters to retrieve an important magic item from the giant's collection."
+        ],
+        [
+          "3",
+          "Wishing to one-up rivals, a cloud giant seeks adventurers to hunt exotic monsters for a lavish banquet."
+        ],
+        [
+          "4",
+          "With two nations on the brink of war, the characters discover cloud giants are betting on the outcome—and at least one giant is meddling behind the scenes to increase the likelihood of one side winning."
+        ],
+        [
+          "5",
+          "A cloud giant who recently lost a large amount of money on bad bets tries to recoup those losses by plundering a royal treasury or the adventurers' stronghold."
+        ],
+        [
+          "6",
+          "A cloud giant offers to buy the adventurers' services as an extravagant (and useful) gift for another giant."
+        ]
+      ],
+      "name": "The Ordning; Cloud Giant Wealth",
+      "page": 24,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

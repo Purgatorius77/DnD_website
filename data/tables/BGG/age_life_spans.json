@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Life Spans",
+      "colLabels": [
+        "Giant Kind",
+        "Life Span"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Hill",
+          "200 years"
+        ],
+        [
+          "Frost",
+          "250 years"
+        ],
+        [
+          "Fire",
+          "350 years"
+        ],
+        [
+          "Cloud",
+          "400 years"
+        ],
+        [
+          "Storm",
+          "600 years"
+        ],
+        [
+          "Stone",
+          "800 years"
+        ]
+      ],
+      "name": "Age; Life Spans",
+      "page": 22,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

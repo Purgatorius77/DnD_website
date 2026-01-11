@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "name": "Giant Construct Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 53,
+      "caption": "Giant Construct Encounters",
+      "colLabels": [
+        "{@dice d10}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature runic colossus|BGG} (attitude: {@dice 1d6}) slowly rousing from a dormant state"
+        ],
+        [
+          "2",
+          "{@dice 2d4} {@creature Animated Armor||animated armors} (Large) and 1 {@creature rug of smothering} (attitude for all: {@dice 1d6}) keeping watch"
+        ],
+        [
+          "3",
+          "1 {@creature iron golem} (attitude: {@dice 1d6}) patrolling"
+        ],
+        [
+          "4",
+          "1 {@creature shield guardian} (attitude: {@dice 1d12}) searching for its master"
+        ],
+        [
+          "5",
+          "1 {@creature stone golem} (attitude: {@dice 1d6}) crudely carved to resemble a hill giant"
+        ],
+        [
+          "6",
+          "{@dice 1d4 + 1} {@creature Helmed Horror||helmed horrors} (attitude: {@dice 1d8}) in a partially dormant state, as if asleep"
+        ],
+        [
+          "7",
+          "2 {@creature Flesh Golem||flesh golems} (Large; attitude: {@dice 1d6}) made from ogre corpses stitched with copper wire"
+        ],
+        [
+          "8",
+          "1 {@creature clay golem} (attitude: {@dice 1d6 + 6}) awaiting the fulfillment of a verse of ancient prophecy, which the characters could fulfill"
+        ],
+        [
+          "9",
+          "1 {@creature cadaver collector|MPMM} (attitude: {@dice 1d8}) gathering bodies destined to become a {@creature flesh colossus|BGG} (described in {@book chapter 6|BGG|6|Flesh Colossus})"
+        ],
+        [
+          "10",
+          "1 {@creature retriever|MPMM} (attitude: {@dice 1d6}) searching for a thief who stole a Giant rune"
+        ]
+      ]
+    }
+  ]
+}

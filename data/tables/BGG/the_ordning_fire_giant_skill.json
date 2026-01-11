@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Fire Giant Skill",
+      "colLabels": [
+        "d6",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A fire giant demands payments from miners transporting a rare ore through a mountain pass. The miners seek adventurers to intervene."
+        ],
+        [
+          "2",
+          "The characters acquire a broken magic weapon that only a renowned fire giant smith can repair."
+        ],
+        [
+          "3",
+          "The characters find a giant-crafted sword—a magical masterpiece; when word of their find gets out, the artisan's descendants come looking for the sword."
+        ],
+        [
+          "4",
+          "When the characters' enemies take refuge in a giant-built ruin, an ambitious fire giant offers to help the characters get inside in return for a share of the treasure."
+        ],
+        [
+          "5",
+          "A fire giant captures a renowned Humanoid smith in the hope of learning a new technique, and the smith's spouse begs the adventurers to help."
+        ],
+        [
+          "6",
+          "A fire giant offers adventurers an extravagant sum for metal ore retrieved from another plane of existence."
+        ]
+      ],
+      "name": "The Ordning; Fire Giant Skill",
+      "page": 24,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

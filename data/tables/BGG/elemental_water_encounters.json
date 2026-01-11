@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "name": "Elemental Water Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 51,
+      "caption": "Elemental Water Encounters",
+      "colLabels": [
+        "{@dice d12}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature Sea Hag||coven} of 3 {@creature Sea Hag||sea hags} (attitude: {@dice 1d4 + 1}) trying to peer into the future"
+        ],
+        [
+          "2",
+          "1 {@creature cult fanatic} and {@dice 2d6} {@creature Cultist||cultists} of Evil Water (all with swimming speeds of 30 feet and the ability to breathe water), with {@dice 1d2} {@creature Chuul||chuuls} (attitude for all: {@dice 1d4 +1})"
+        ],
+        [
+          "3",
+          "1 {@creature rime hulk|BGG} (attitude: {@dice 1d6}) wailing and stalking"
+        ],
+        [
+          "4",
+          "1 {@creature storm crab|BGG} (attitude: {@dice 1d8}) traveling in a straight path with purpose"
+        ],
+        [
+          "5",
+          "1 {@creature frost giant of Evil Water|BGG} (attitude: {@dice 1d6}) considering going on a rampage"
+        ],
+        [
+          "6",
+          "1 {@creature marid} singing as it lounges with 1 {@creature water elemental} (attitude for both: {@dice 1d10})"
+        ],
+        [
+          "7",
+          "1 {@creature hydra} (attitude: {@dice 1d4 + 1}) hunting"
+        ],
+        [
+          "8",
+          "2 {@creature Water Weird||water weirds} (attitude: {@dice 1d8}) keeping watch in small pools"
+        ],
+        [
+          "9",
+          "1 {@creature dragon turtle} (attitude: {@dice 1d12}) searching for an advantage against a rival {@creature kraken}"
+        ],
+        [
+          "10",
+          "2 {@creature Water Elemental||water elementals} (attitude: {@dice 1d10}) diligently making furrows in the sand using their bodies, creating a sprawling pattern"
+        ],
+        [
+          "11",
+          "2 {@creature Water Elemental Myrmidon|MPMM|water elemental myrmidons} (attitude: {@dice 1d6 + 2}) barring a passage or portal"
+        ],
+        [
+          "12",
+          "1 {@creature leviathan|MPMM} (attitude: {@dice 1d8}) swimming through an exceptionally high tide"
+        ]
+      ]
+    }
+  ]
+}

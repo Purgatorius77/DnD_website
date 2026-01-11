@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Sovereign Assignments",
+      "colLabels": [
+        "d6",
+        "Assignment"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Steal intelligence from an enemy giant sovereign."
+        ],
+        [
+          "2",
+          "Weaken or remove a rival to the sovereign's rule—an ambitious general, fanatical priest, or jealous sibling."
+        ],
+        [
+          "3",
+          "Root out corruption or disloyalty among the giants, and eliminate their abuse of their strength to exploit the settlement's smaller inhabitants."
+        ],
+        [
+          "4",
+          "Bring gifts to a powerful dragon—and convince it not to destroy the settlement of giants."
+        ],
+        [
+          "5",
+          "Suppress (or secretly aid) an underground rebellion among the smaller folk of the settlement."
+        ],
+        [
+          "6",
+          "While pretending to entertain visiting diplomats, try to discover their secret reason for visiting."
+        ]
+      ],
+      "name": "Sovereign Assignments",
+      "page": 60,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

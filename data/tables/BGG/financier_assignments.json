@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Financier Assignments",
+      "colLabels": [
+        "d6",
+        "Assignment"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Follow a map found in an ancient tome to a long-forgotten ruin in search of treasure or lore."
+        ],
+        [
+          "2",
+          "Find a new route around or across inhospitable terrain such as a desert or ocean."
+        ],
+        [
+          "3",
+          "Delve into the Underdark in search of deposits of rare magical crystal, and map your route so miners can retrace it."
+        ],
+        [
+          "4",
+          "Sabotage the business of a rival giant."
+        ],
+        [
+          "5",
+          "Guard a wagon or caravan hauling goods to a remote settlement of giants."
+        ],
+        [
+          "6",
+          "Venture into a desolate wasteland to find the undiscovered ruined city at the center and identify the catastrophe that devastated the region."
+        ]
+      ],
+      "name": "Financier Assignments",
+      "page": 59,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

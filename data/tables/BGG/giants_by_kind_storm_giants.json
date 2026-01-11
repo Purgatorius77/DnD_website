@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Storm Giants",
+      "colLabels": [
+        "Giant",
+        "CR"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@creature Lightning hulk|BGG}*",
+          "9"
+        ],
+        [
+          "{@creature Scion of Stronmaus|BGG}*",
+          "27"
+        ],
+        [
+          "{@creature Storm giant}",
+          "13"
+        ],
+        [
+          "{@creature Storm giant quintessent|MPMM}†",
+          "16"
+        ],
+        [
+          "{@creature Storm giant tempest caller|BGG}*",
+          "20"
+        ],
+        [
+          "{@creature Storm herald|BGG}*",
+          "17"
+        ],
+        [
+          "{@creature Tempest spirit|BGG}*",
+          "15"
+        ]
+      ],
+      "name": "Giants by Kind; Storm Giants",
+      "page": 188,
+      "source": "BGG",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

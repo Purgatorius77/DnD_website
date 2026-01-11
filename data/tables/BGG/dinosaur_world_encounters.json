@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "name": "Dinosaur World Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 49,
+      "caption": "Dinosaur World Encounters",
+      "colLabels": [
+        "{@dice d10}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature regisaur|BGG} (attitude: {@dice 1d8}) hunting"
+        ],
+        [
+          "2",
+          "1 {@creature altisaur|BGG} (attitude: {@dice 1d8 + 2}) grazing"
+        ],
+        [
+          "3",
+          "{@dice 2d4} {@creature ankylosaurus} (attitude: {@dice 1d8}) digging a nest"
+        ],
+        [
+          "4",
+          "{@dice 2d4} {@creature allosaurus} (attitude: {@dice 1d6}) engaged in territorial threat displays"
+        ],
+        [
+          "5",
+          "1 {@creature aerosaur|BGG} (attitude: {@dice 1d8}) slowly circling"
+        ],
+        [
+          "6",
+          "1 {@creature ceratops|BGG} (attitude: {@dice 1d6}) rampaging"
+        ],
+        [
+          "7",
+          "{@dice 1d4 + 1} {@creature triceratops} (attitude: {@dice 1d6 + 4}) grazing"
+        ],
+        [
+          "8",
+          "1 {@creature tyrannosaurus rex} (attitude: {@dice 1d4 + 1}) pursuing prey"
+        ],
+        [
+          "9",
+          "{@dice 2d4} {@creature brontosaurus|MPMM} (attitude: {@dice 1d6 + 4}) migrating"
+        ],
+        [
+          "10",
+          "{@dice 1d4} {@creature stegosaurus|MPMM} (attitude: {@dice 1d8 + 2}) trying to help an additional one that is stuck in thick mud"
+        ]
+      ]
+    }
+  ]
+}

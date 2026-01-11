@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "name": "Fomorian Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 46,
+      "caption": "Fomorian Encounters",
+      "colLabels": [
+        "{@dice d10}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature fomorian noble|BGG} (attitude: {@dice 1d8 + 2}) studying a treatise on arcane phenomena"
+        ],
+        [
+          "2",
+          "{@dice 1d4 + 2} {@creature Hook Horror||hook horrors} (attitude: {@dice 1d6}) banging their hooks on rocks or their bodies"
+        ],
+        [
+          "3",
+          "1 {@creature fomorian} (attitude: {@dice 1d4 + 1}) with 5 {@creature commoner} captives (attitude: {@dice 1d8 + 4})"
+        ],
+        [
+          "4",
+          "1 {@creature fomorian deep crawler|BGG} (attitude: {@dice 1d4 + 1}) scuttling in search of victims"
+        ],
+        [
+          "5",
+          "1 {@creature fomorian} (attitude: {@dice 1d10}) supervising 1 {@creature umber hulk} (attitude: {@dice 1d6}) as it digs new tunnels"
+        ],
+        [
+          "6",
+          "{@dice 2d4} {@creature Flumph||flumphs} (attitude: {@dice 1d8 + 4}) trying to avoid 1 {@creature ettin ceremorph|BGG} (attitude: {@dice 1d4 + 1}) while feeding on the ettin's psionic energy"
+        ],
+        [
+          "7",
+          "2 {@creature Mind Flayer||mind flayers} (attitude: {@dice 1d4 + 1}) telepathically discussing the finer points of a brain they just shared"
+        ],
+        [
+          "8",
+          "1 {@creature fomorian} (attitude: {@dice 1d8}) contemplating a gemstone it thinks is floating but that is actually suspended inside 1 {@creature gelatinous cube} (attitude: {@dice 1d4 + 1})"
+        ],
+        [
+          "9",
+          "1 {@creature fomorian warlock of the dark|BGG} (attitude: {@dice 1d8 + 2}) seeking omens in the twisting slither of 1 {@creature neothelid|MPMM} (attitude: {@dice 1d8})"
+        ],
+        [
+          "10",
+          "1 {@creature ulitharid|MPMM} (attitude: {@dice 1d6}) bargaining with 1 {@creature fomorian} (attitude: {@dice 1d8}) to establish a new mind flayer colony in the fomorian's territory"
+        ]
+      ]
+    }
+  ]
+}

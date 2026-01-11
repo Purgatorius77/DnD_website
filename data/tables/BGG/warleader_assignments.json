@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Warleader Assignments",
+      "colLabels": [
+        "d6",
+        "Assignment"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Take out a champion or commander at the rear of a mass of enemy forces."
+        ],
+        [
+          "2",
+          "Oversee the defense of a supply depot when enemies attack."
+        ],
+        [
+          "3",
+          "Sabotage or steal a powerful magical weapon before enemies can use it against the giant's forces."
+        ],
+        [
+          "4",
+          "Gather information on enemy troop numbers, placements, composition, or supply routes."
+        ],
+        [
+          "5",
+          "Protect the giant's forces from an attacking dragon."
+        ],
+        [
+          "6",
+          "Suppress the activities of bandits and rebels within the giant's territory."
+        ]
+      ],
+      "name": "Warleader Assignments",
+      "page": 61,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

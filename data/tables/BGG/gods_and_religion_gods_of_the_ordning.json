@@ -1,0 +1,98 @@
+{
+  "table": [
+    {
+      "caption": "Gods of the Ordning",
+      "colLabels": [
+        "Name",
+        "Alignment",
+        "Suggested Cleric Domains",
+        "Symbol"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2 text-center",
+        "col-4",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "Annam",
+          "LN",
+          "{@class Cleric||Knowledge|Knowledge}",
+          "Two hands, wrists crossed, with fingers pointing downward"
+        ],
+        [
+          "Diancastra",
+          "CN",
+          "{@class Cleric||Trickery|Trickery}",
+          "Journey rune"
+        ],
+        [
+          "Grolantor",
+          "CE",
+          "{@class Cleric||War|War}",
+          "Wooden club"
+        ],
+        [
+          "Hiatea",
+          "N",
+          "{@class Cleric||Life|Life}, {@class Cleric||Nature|Nature}",
+          "Flaming spear"
+        ],
+        [
+          "Iallanis",
+          "NG",
+          "{@class Cleric||Light|Light}, {@class Cleric||Peace|Peace|TCE}*",
+          "Garland of flowers"
+        ],
+        [
+          "Karontor",
+          "NE",
+          "{@class Cleric||Death|Death|DMG}, {@class Cleric||Knowledge|Knowledge}",
+          "Broken shackles"
+        ],
+        [
+          "Memnor",
+          "N or NE",
+          "{@class Cleric||Knowledge|Knowledge}, {@class Cleric||Trickery|Trickery}",
+          "Black obelisk"
+        ],
+        [
+          "Skoraeus",
+          "N",
+          "{@class Cleric||Knowledge|Knowledge}",
+          "Stalactite"
+        ],
+        [
+          "Stronmaus",
+          "NG",
+          "{@class Cleric||Life|Life}, {@class Cleric||Tempest|Tempest}",
+          "Forked lightning bolt descending from a cloud partly obscuring the sun"
+        ],
+        [
+          "Surtur",
+          "LE",
+          "{@class Cleric||Forge|Forge|XGE},** {@class Cleric||Knowledge|Knowledge}, {@class Cleric||War|War}",
+          "Flaming sword"
+        ],
+        [
+          "Thrym",
+          "CE",
+          "{@class Cleric||War|War}",
+          "White double-bladed axe"
+        ]
+      ],
+      "name": "Gods and Religion; Gods of the Ordning",
+      "page": 27,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

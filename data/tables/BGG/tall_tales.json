@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Tall Tales",
+      "colLabels": [
+        "d6",
+        "Tall Tale Connection"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "You stumbled into a giant castle in the sky when you were younger, but no one believed your story. You aim to prove them wrong."
+        ],
+        [
+          "2",
+          "A loved one died mysteriously at sea. You swore the culprit was a sea leviathan everyone else dismissed as a myth, and you seek vindication and revenge."
+        ],
+        [
+          "3",
+          "Stories say you're descended from a legendary giant-killer, and you strive to uphold that legacy."
+        ],
+        [
+          "4",
+          "A city's legends claim the neighboring landscape is the work of some ancient giant sculptor or rampaging titanic beast—or is itself a sleeping giant. You seek to discover the truth of the land's origin."
+        ],
+        [
+          "5",
+          "A relative once returned home claiming to have found a strange island inhabited by ancient, larger-than-life creatures. Because of this, your family became the town laughingstock, and you seek to redeem your family's reputation."
+        ],
+        [
+          "6",
+          "Your sibling says giants and other enormous creatures are stories for children. You hope to slay such a creature and bring back proof of their existence out of spite."
+        ]
+      ],
+      "name": "Tall Tales",
+      "page": 17,
+      "source": "BGG",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

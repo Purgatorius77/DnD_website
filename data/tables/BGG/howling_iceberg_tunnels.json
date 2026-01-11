@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Howling Iceberg Tunnels",
+      "colLabels": [
+        "d10",
+        "Destination"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–4",
+          "A planar portal leading to the Frostfell"
+        ],
+        [
+          "5–8",
+          "A planar portal leading to Pandemonium"
+        ],
+        [
+          "9–10",
+          "The cavern where the Frostfell Shard rests"
+        ]
+      ],
+      "name": "Howling Iceberg Tunnels",
+      "page": 88,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Enclaves",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

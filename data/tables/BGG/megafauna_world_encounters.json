@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "name": "Megafauna World Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 54,
+      "caption": "Megafauna World Encounters",
+      "colLabels": [
+        "{@dice d10}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@dice 2d4} {@creature Giant Ox|BGG|giant oxen} (attitude: {@dice 1d6 + 4}) grazing on shrubs, trees, or thatched roofs"
+        ],
+        [
+          "2",
+          "{@dice 1d3} {@creature Titanothere|BGG|titanotheres} (attitude: {@dice 1d8 + 3}) roaming; one of them scratches an itch on trees, uprooting them in the process"
+        ],
+        [
+          "3",
+          "1 {@creature giant goose|BGG} (attitude: {@dice 1d8}) running with an item from a hill giant's bag (see \"{@book Giant Bags|BGG|5|Giant Bags}\" in {@book chapter 5|BGG|5}) in its mouth"
+        ],
+        [
+          "4",
+          "2 {@creature Mammoth||mammoths} (attitude: {@dice 1d6}) locking tusks in a territory dispute"
+        ],
+        [
+          "5",
+          "1 {@creature gigant|BGG} (attitude: {@dice 1d4 + 1}) rampaging"
+        ],
+        [
+          "6",
+          "{@dice 1d4} {@creature Saber-Toothed Tiger||saber-toothed tigers} (attitude: {@dice 1d10}) stalking near a herd of {@dice 2d4} {@creature giant elk} (attitude: {@dice 1d6 + 3})"
+        ],
+        [
+          "7",
+          "1 {@creature purple worm} (attitude: {@dice 1d4 + 1}) following vibrations toward food"
+        ],
+        [
+          "8",
+          "{@dice 2d6} {@creature Giant Tick|BGG|giant ticks} (attitude: {@dice 1d4 + 1}) sucking the last blood from a giant's corpse"
+        ],
+        [
+          "9",
+          "1 {@creature froghemoth|MPMM} (attitude: {@dice 1d6}) trying to hide somewhere comically inadequate for its bulk"
+        ],
+        [
+          "10",
+          "1 {@creature gray render|MPMM} (attitude: {@dice 1d6 + 3}) gnawing the scenery"
+        ]
+      ]
+    }
+  ]
+}

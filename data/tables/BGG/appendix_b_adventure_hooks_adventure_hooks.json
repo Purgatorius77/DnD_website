@@ -1,0 +1,208 @@
+{
+  "table": [
+    {
+      "caption": "Adventure Hooks",
+      "colLabels": [
+        "d100",
+        "Adventure Hook Table or Text"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–02",
+          "{@book Cloud Giant Wealth|BGG|2|Cloud Giant Wealth} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+        ],
+        [
+          "03–04",
+          "{@book Fire Giant Skill|BGG|2|Fire Giant Skill} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+        ],
+        [
+          "05–06",
+          "{@book Frost Giant Might|BGG|2|Frost Giant Might} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+        ],
+        [
+          "07–08",
+          "{@book Stone Giant Artistry|BGG|2|Stone Giant Artistry} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+        ],
+        [
+          "09–11",
+          "{@book Rejecting the Ordning|BGG|2|Rejecting the Ordning} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+        ],
+        [
+          "12–14",
+          "{@book Annam's Children Adventures|BGG|2|Annam's Children Adventures} (chapter 2, \"{@book Gods and Religion|BGG|2|Gods and Religion}\")"
+        ],
+        [
+          "15–17",
+          "{@book Interloper Gods Adventures|BGG|2|Interloper Gods Adventures} (chapter 2, \"{@book Gods and Religion|BGG|2|Gods and Religion}\")"
+        ],
+        [
+          "18–20",
+          "{@book Recluses|BGG|2|Recluses} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+        ],
+        [
+          "21–23",
+          "{@book Exiles|BGG|2|Exiles} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+        ],
+        [
+          "24–25",
+          "{@book Bands|BGG|2|Bands} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+        ],
+        [
+          "26–27",
+          "{@book Families|BGG|2|Families} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+        ],
+        [
+          "28–29",
+          "{@book Steadings|BGG|2|Steadings} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+        ],
+        [
+          "30–31",
+          "{@book Settlements|BGG|2|Settlements} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+        ],
+        [
+          "32–33",
+          "{@book Hidden Rune Adventures|BGG|2|Hidden Rune Adventures} (chapter 2, \"{@book Organizations|BGG|2|Organizations}\")"
+        ],
+        [
+          "34–35",
+          "{@book Eternal Throne Adventures|BGG|2|Eternal Throne Adventures} (chapter 2, \"{@book Organizations|BGG|2|Organizations}\")"
+        ],
+        [
+          "36–37",
+          "{@book Worldroot Circle Adventures|BGG|2|Worldroot Circle Adventures} (chapter 2, \"{@book Organizations|BGG|2|Organizations}\")"
+        ],
+        [
+          "38–40",
+          "{@book Against the Giants|BGG|3|Against the Giants} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+        ],
+        [
+          "41–43",
+          "{@book Clash of Titans|BGG|3|Clash of Titans} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+        ],
+        [
+          "44–46",
+          "{@book Delve into the Past|BGG|3|Delve into the Past} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+        ],
+        [
+          "47–49",
+          "{@book Giant-Sized Schemes|BGG|3|Giant-Sized Schemes} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+        ],
+        [
+          "50–52",
+          "{@book Into the Giant Realms|BGG|3|Into the Giant Realms} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+        ],
+        [
+          "53–54",
+          "{@book Boss Assignments|BGG|3|Boss Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+        ],
+        [
+          "55–56",
+          "{@book Financier Assignments|BGG|3|Financier Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+        ],
+        [
+          "57–58",
+          "{@book Seer Assignments|BGG|3|Seer Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+        ],
+        [
+          "59–60",
+          "{@book Sovereign Assignments|BGG|3|Sovereign Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+        ],
+        [
+          "61–62",
+          "{@book Tutor Assignments|BGG|3|Tutor Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+        ],
+        [
+          "63–64",
+          "{@book Warleader Assignments|BGG|3|Warleader Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+        ],
+        [
+          "65–66",
+          "{@book Annam's Cradle Adventures|BGG|4|Annam's Cradle Adventures} ({@book chapter 4|BGG|4|Annam's Cradle})"
+        ],
+        [
+          "67–68",
+          "{@book Ashen Grotto Adventures|BGG|4|Ashen Grotto Adventures} ({@book chapter 4|BGG|4|Ashen Grotto})"
+        ],
+        [
+          "69–70",
+          "{@book Dreamer's Reach Adventures|BGG|4|Dreamer's Reach Adventures} ({@book chapter 4|BGG|4|Dreamer's Reach})"
+        ],
+        [
+          "71–72",
+          "{@book Endless Rockslide Adventures|BGG|4|Endless Rockslide Adventures} ({@book chapter 4|BGG|4|Endless Rockslide})"
+        ],
+        [
+          "73–74",
+          "{@book Forest Crystal Adventures|BGG|4|Forest Crystal Adventures} ({@book chapter 4|BGG|4|Forest Crystal})"
+        ],
+        [
+          "75–76",
+          "{@book Forsaken Deep Adventures|BGG|4|Forsaken Deep Adventures} ({@book chapter 4|BGG|4|Forsaken Deep})"
+        ],
+        [
+          "77–78",
+          "{@book Gale's Eye Tower Adventures|BGG|4|Gale's Eye Tower Adventures} ({@book chapter 4|BGG|4|Gale's Eye Tower})"
+        ],
+        [
+          "79–80",
+          "{@book Grolantor's Larder Adventures|BGG|4|Grolantor's Larder Adventures} ({@book chapter 4|BGG|4|Grolantor's Larder})"
+        ],
+        [
+          "81–82",
+          "{@book Hiatea's Hearth Adventures|BGG|4|Hiatea's Hearth Adventures} ({@book chapter 4|BGG|4|Hiatea's Hearth})"
+        ],
+        [
+          "83–84",
+          "{@book Horizon's Edge Adventures|BGG|4|Horizon's Edge Adventures} ({@book chapter 4|BGG|4|Horizon's Edge})"
+        ],
+        [
+          "85–86",
+          "{@book Howling Iceberg Adventures|BGG|4|Howling Iceberg Adventures} ({@book chapter 4|BGG|4|Howling Iceberg})"
+        ],
+        [
+          "87–88",
+          "{@book Karontor's Hold Adventures|BGG|4|Karontor's Hold Adventures} ({@book chapter 4|BGG|4|Karontor's Hold})"
+        ],
+        [
+          "89–90",
+          "{@book Misty Vale Adventures|BGG|4|Misty Vale Adventures} ({@book chapter 4|BGG|4|Misty Vale})"
+        ],
+        [
+          "91–92",
+          "{@book Runic Circle Adventures|BGG|4|Runic Circle Adventures} ({@book chapter 4|BGG|4|Runic Circle})"
+        ],
+        [
+          "93–94",
+          "{@book Singing Sands Adventures|BGG|4|Singing Sands Adventures} ({@book chapter 4|BGG|4|Singing Sands})"
+        ],
+        [
+          "95–96",
+          "{@book Star Forge Adventures|BGG|4|Star Forge Adventures} ({@book chapter 4|BGG|4|Star Forge})"
+        ],
+        [
+          "97–98",
+          "{@book Thundering Observatory Adventures|BGG|4|Thundering Observatory Adventures} ({@book chapter 4|BGG|4|Thundering Observatory})"
+        ],
+        [
+          "99–00",
+          "{@book Worldroot Sapling Adventures|BGG|4|Worldroot Sapling Adventures} ({@book chapter 4|BGG|4|Worldroot Sapling})"
+        ]
+      ],
+      "name": "Appendix B: Adventure Hooks; Adventure Hooks",
+      "page": 192,
+      "source": "BGG",
+      "chapter": {
+        "name": "Adventure Hooks",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 8
+      }
+    }
+  ]
+}

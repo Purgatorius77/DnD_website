@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Seer Assignments",
+      "colLabels": [
+        "d6",
+        "Assignment"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Help the giant re-create an ancient ritual that should reveal an omen or revelation from Annam."
+        ],
+        [
+          "2",
+          "Steal the research notes of some ancient sage (perhaps a dragon or a yugoloth), which hold information pertinent to Annam's activities."
+        ],
+        [
+          "3",
+          "Explore the ruins of an ancient temple to Annam, looking for records of revelations or prophecies."
+        ],
+        [
+          "4",
+          "Follow a devastating storm across the countryside, carefully mapping its path and cataloging the destruction left in its wake."
+        ],
+        [
+          "5",
+          "Brave a dragon's hoard to steal a device that tracks the positions of invisible celestial bodies."
+        ],
+        [
+          "6",
+          "Search for clues pointing to the location of the {@item Adze of Annam|BGG} (described in {@book chapter 5|BGG|5|Adze of Annam}) or some other artifact related to the gods of the Ordning."
+        ]
+      ],
+      "name": "Seer Assignments",
+      "page": 60,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

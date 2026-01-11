@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Hill Giant Bag Items",
+      "colLabels": [
+        "d12",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Five wheels of cheese"
+        ],
+        [
+          "2",
+          "A giant-sized pair of old sandals"
+        ],
+        [
+          "3",
+          "The skull of a Monstrosity native to the region"
+        ],
+        [
+          "4",
+          "A haunch of smoked meat"
+        ],
+        [
+          "5",
+          "A rusty dagger the giant used as a toothpick"
+        ],
+        [
+          "6",
+          "Iron prongs and a trough of coal to create a makeshift spit-roast setup"
+        ],
+        [
+          "7",
+          "A beehive with live bees"
+        ],
+        [
+          "8",
+          "A small picture book for learning Common"
+        ],
+        [
+          "9",
+          "A hefty box containing an assortment of colorful peppercorns"
+        ],
+        [
+          "10",
+          "A clay tablet carved with stirring poetry"
+        ],
+        [
+          "11",
+          "An unopened cask of honey mead, worth 25 gp"
+        ],
+        [
+          "12",
+          "A cracked, giant-sized porcelain plate, repaired with silver lacquer, worth 50 gp"
+        ]
+      ],
+      "name": "Hill Giant Bag Contents; Hill Giant Bag Items",
+      "page": 107,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

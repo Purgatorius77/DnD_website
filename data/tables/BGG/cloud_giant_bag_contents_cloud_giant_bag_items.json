@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Cloud Giant Bag Items",
+      "colLabels": [
+        "d12",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A 4-foot-diameter gourd"
+        ],
+        [
+          "2",
+          "A massive mortar and pestle"
+        ],
+        [
+          "3",
+          "A gilded birdcage, large enough to hold a Medium creature, worth 50 gp"
+        ],
+        [
+          "4",
+          "A giant-sized silver ring set with blue crystals, worth 75 gp"
+        ],
+        [
+          "5",
+          "A large, gaudy citrine pendant carved to look like the sun, worth 90 gp"
+        ],
+        [
+          "6",
+          "A giant-sized brass spyglass worth 100 gp"
+        ],
+        [
+          "7",
+          "A life-sized malachite statue of a vulture, worth 110 gp"
+        ],
+        [
+          "8",
+          "A tall electrum goblet inlaid with jade, worth 115 gp"
+        ],
+        [
+          "9",
+          "A giant-sized silk dressing gown worth 125 gp"
+        ],
+        [
+          "10",
+          "A 3-foot-tall turquoise idol depicting Memnor, worth 150 gp"
+        ],
+        [
+          "11",
+          "Two 1-foot-tall golden eggs, each worth 100 gp"
+        ],
+        [
+          "12",
+          "A large platinum mask worth 200 gp, which can depict two expressions—one of grand joy and one of deep sorrow—depending on its orientation"
+        ]
+      ],
+      "name": "Cloud Giant Bag Contents; Cloud Giant Bag Items",
+      "page": 105,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

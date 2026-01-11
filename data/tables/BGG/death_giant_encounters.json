@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "name": "Death Giant Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 45,
+      "caption": "Death Giant Encounters",
+      "colLabels": [
+        "{@dice d10}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@dice 1d6} {@creature Skeleton||skeletons} (attitude: {@dice 1d4 + 1}) rebuilding a destroyed idol at the disinterested direction of 1 {@creature death giant reaper|BGG} (attitude: {@dice 1d10 + 2})"
+        ],
+        [
+          "2",
+          "1 {@creature death giant shrouded one|BGG} (attitude: {@dice 1d8}) wringing historical facts from a {@creature ghost} (attitude: {@dice 1d6 + 4}) that weeps over the memories"
+        ],
+        [
+          "3",
+          "{@dice 1d4} {@creature Wraith||wraiths} (attitude: {@dice 1d4 + 1}) puzzling over a trinket that reminds them of their past lives"
+        ],
+        [
+          "4",
+          "1 {@creature death giant reaper|BGG} (attitude: {@dice 1d6}) stalking a creature to offer its soul to the Raven Queen"
+        ],
+        [
+          "5",
+          "1 {@creature stone giant} (attitude: {@dice 1d12}) negotiating with 1 {@creature death giant reaper|BGG} (attitude: {@dice 1d8})"
+        ],
+        [
+          "6",
+          "1 {@creature revenant} (attitude: {@dice 1d10}) bent on revenging itself on its killer—a death giant"
+        ],
+        [
+          "7",
+          "1 {@creature death giant reaper|BGG} (attitude: {@dice 1d8 + 2}) brooding over ancient carvings"
+        ],
+        [
+          "8",
+          "1 {@creature death giant reaper|BGG} exile (attitude: {@dice 1d8 + 1}) searching for a creature it killed whose soul escaped the Raven Queen's clutches (the creature is now a {@creature revenant})"
+        ],
+        [
+          "9",
+          "1 {@creature death giant shrouded one|BGG} (attitude: {@dice 1d6}) debating 1 {@creature devourer|MPMM} (attitude: {@dice 1d4 + 1}) on the finer points of souls"
+        ],
+        [
+          "10",
+          "1 {@creature nightwalker|MPMM} (attitude: {@dice 1d4 + 1}) striding in search of a death giant's home or trappings"
+        ]
+      ]
+    }
+  ]
+}

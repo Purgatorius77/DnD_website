@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Delve into the Past",
+      "colLabels": [
+        "d6",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "During a long drought, the water level of a lake lowers, revealing huge structures at its bottom."
+        ],
+        [
+          "2",
+          "A sinkhole releases strange monsters into the surface world, and characters who investigate discover a ruined stronghold in its depths."
+        ],
+        [
+          "3",
+          "An eccentric aristocrat finances an expedition to a remote ruin to retrieve giant-made art and artifacts."
+        ],
+        [
+          "4",
+          "The characters' research suggests the last known location of the {@item Axe of the Dwarvish Lords} (or some other artifact they want to retrieve) was in an ancient giant stronghold."
+        ],
+        [
+          "5",
+          "Adventurers tracking a monster discover its lair in an ancient giants' ruin. While they hunt the monster, they can also piece together the history of the place."
+        ],
+        [
+          "6",
+          "Characters exploring a strange ruin accidentally trigger magic that causes seven flying castles—including the one the characters are in—to rise into the sky from where they had fallen."
+        ]
+      ],
+      "name": "Delve into the Past",
+      "page": 57,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

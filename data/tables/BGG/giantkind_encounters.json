@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Giantkind Encounters",
+      "colLabels": [
+        "d8",
+        "Encounter Table"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@book Cloud Giant Encounters|BGG|3|Cloud Giant Encounters}"
+        ],
+        [
+          "2",
+          "{@book Death Giant Encounters|BGG|3|Death Giant Encounters}"
+        ],
+        [
+          "3",
+          "{@book Fire Giant Encounters|BGG|3|Fire Giant Encounters}"
+        ],
+        [
+          "4",
+          "{@book Fomorian Encounters|BGG|3|Fomorian Encounters}"
+        ],
+        [
+          "5",
+          "{@book Frost Giant Encounters|BGG|3|Frost Giant Encounters}"
+        ],
+        [
+          "6",
+          "{@book Hill Giant Encounters|BGG|3|Hill Giant Encounters}"
+        ],
+        [
+          "7",
+          "{@book Stone Giant Encounters|BGG|3|Stone Giant Encounters}"
+        ],
+        [
+          "8",
+          "{@book Storm Giant Encounters|BGG|3|Storm Giant Encounters}"
+        ]
+      ],
+      "name": "Giantkind Encounters",
+      "page": 44,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

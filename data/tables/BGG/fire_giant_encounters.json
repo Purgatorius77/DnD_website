@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "name": "Fire Giant Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 46,
+      "caption": "Fire Giant Encounters",
+      "colLabels": [
+        "{@dice d12}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature fire giant of Evil Fire|BGG} overseeing the rampage of 2 {@creature Fire Elemental||fire elementals} (attitude for all: {@dice 1d4 + 1})"
+        ],
+        [
+          "2",
+          "1 {@creature fire giant forgecaller|BGG} using a {@creature xorn} (attitude for both: {@dice 1d10}) to track down mineral deposits"
+        ],
+        [
+          "3",
+          "1 {@creature fire giant} (attitude: {@dice 1d10}) feeding {@dice 1d4 + 1} {@creature Hell Hound||hell hounds} (attitude: {@dice 1d6})"
+        ],
+        [
+          "4",
+          "{@dice 2d4} {@creature Rust Monster||rust monsters} (attitude: {@dice 1d10}, automatically hostile toward anyone using metal objects) following the scent of iron"
+        ],
+        [
+          "5",
+          "1 {@creature firegaunt|BGG} (attitude: {@dice 1d6}) stalking its former fellows who betrayed it"
+        ],
+        [
+          "6",
+          "2 {@creature Troll||trolls} (attitude: {@dice 1d10 + 3}) terrified to disobey the orders of 1 {@creature fire giant} (attitude: {@dice 1d6})"
+        ],
+        [
+          "7",
+          "1 soot-caked {@creature iron golem} (attitude: {@dice 1d6})"
+        ],
+        [
+          "8",
+          "1 {@creature fire giant} smith (attitude: {@dice 1d10}) working on a breastplate sized for a Large creature"
+        ],
+        [
+          "9",
+          "{@dice 2d4} {@creature goliath giant-kin|BGG} (attitude: {@dice 1d8 + 2}) hauling a load of ore from a mine"
+        ],
+        [
+          "10",
+          "3 {@creature Fire Giant||fire giants} (attitude: {@dice 1d6 + 1}) battling an {@creature adult red dragon} (attitude: {@dice 1d6})"
+        ],
+        [
+          "11",
+          "1 {@creature fire giant} (attitude: {@dice 1d8 + 1}) leading 4 {@creature Firenewt Warrior|MPMM|firenewt warriors} (attitude: {@dice 1d8 + 1}) riding {@creature Giant Strider|MPMM|giant striders} (attitude: {@dice 1d8 + 3})"
+        ],
+        [
+          "12",
+          "1 {@creature fire giant dreadnought|MPMM} (attitude: {@dice 1d6}) on guard"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Cloud Giants",
+      "colLabels": [
+        "Giant",
+        "CR"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@creature Cloud giant}",
+          "9"
+        ],
+        [
+          "{@creature Cloud giant destiny gambler|BGG}*",
+          "19"
+        ],
+        [
+          "{@creature Cloud giant of Evil Air|BGG}*",
+          "12"
+        ],
+        [
+          "{@creature Cloud giant smiling one|MPMM}†",
+          "11"
+        ],
+        [
+          "{@creature Mist hulk|BGG}*",
+          "6"
+        ],
+        [
+          "{@creature Scion of Memnor|BGG}*",
+          "26"
+        ],
+        [
+          "{@creature Spectral cloud|BGG}*",
+          "13"
+        ]
+      ],
+      "name": "Giants by Kind; Cloud Giants",
+      "page": 188,
+      "source": "BGG",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

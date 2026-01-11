@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "name": "Cloud Giant Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 44,
+      "caption": "Cloud Giant Encounters",
+      "colLabels": [
+        "{@dice d12}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature cloud giant} seeking to learn the secrets of 1 {@creature spectral cloud|BGG} (attitude for both: {@dice 1d8})"
+        ],
+        [
+          "2",
+          "1 {@creature cloud giant} (attitude: {@dice 1d12}) trading riddles with 1 {@creature djinni} (attitude: {@dice 1d6 + 4})"
+        ],
+        [
+          "3",
+          "{@dice 1d6} {@creature Nothic||nothics} (attitude: {@dice 2d4 + 2}) coveting cloud giant arcana"
+        ],
+        [
+          "4",
+          "1 {@creature cloud giant destiny gambler|BGG} (attitude: {@dice 1d8 + 2}) conferring with 1 {@creature mage} (attitude: {@dice 1d12})"
+        ],
+        [
+          "5",
+          "{@dice 1d4} {@creature doppelganger} spies (attitude: {@dice 1d8 + 1}) posing as servants while they try to glean secrets"
+        ],
+        [
+          "6",
+          "2 {@creature Cloud Giant||cloud giants} (attitude: {@dice 1d10 + 2}; roll separately for each) engaged in a wager or battle of wits"
+        ],
+        [
+          "7",
+          "1 {@creature cloud giant} (attitude: {@dice 1d10 + 2}) training 1 {@creature spotted lion|BGG} (attitude: {@dice 1d4 + 1})"
+        ],
+        [
+          "8",
+          "1 {@creature cloud giant of Evil Air|BGG} bossing around 2 {@creature Air Elemental||air elementals} (attitude for all: {@dice 1d6})"
+        ],
+        [
+          "9",
+          "1 {@creature cloud giant} (attitude: {@dice 1d8 + 1}) hunting with 1 {@creature wyvern} (attitude: {@dice 1d6})"
+        ],
+        [
+          "10",
+          "{@dice 2d4} {@creature goliath giant-kin|BGG} (attitude: {@dice 1d6 + 4}) trying to retrieve an {@creature owlbear} (attitude: {@dice 1d6}) on a rampage after running away from its giant owner"
+        ],
+        [
+          "11",
+          "{@dice 1d4 + 1} {@creature Vampiric Mist|MPMM|vampiric mists} (attitude: {@dice 1d4 + 1}) lurking in a fog bank"
+        ],
+        [
+          "12",
+          "1 {@creature cloud giant smiling one|MPMM} (attitude: {@dice 1d10}) seeking the {@book Misty Vale|BGG|4|Misty Vale} (see {@book chapter 4|BGG|4})"
+        ]
+      ]
+    }
+  ]
+}

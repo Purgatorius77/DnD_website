@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Against the Giants",
+      "colLabels": [
+        "d8",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Adventurers find a village completely deserted, with tracks leading to a hill giant steading. Can they rescue the surviving villagers and livestock before the {@creature Hill Giant||hill giants} eat them all?"
+        ],
+        [
+          "2",
+          "A family of {@creature Stone Giant||stone giants} fell under the sway of Lolth and allied with Lolth-worshiping drow to raid the surface. Adventurers must break the alliance or eliminate the stone giants if necessary."
+        ],
+        [
+          "3",
+          "An especially harsh winter is accompanied by roving bands of {@creature Frost Giant||frost giants} and {@creature Winter Wolf||winter wolves} preying on travelers."
+        ],
+        [
+          "4",
+          "{@creature Fire Giant||Fire giants} send {@creature Hell Hound||hell hounds} into mine tunnels to chase the miners out, then send their own azer servants to plunder the mineral-rich mines. The miners seek help to reclaim their mines."
+        ],
+        [
+          "5",
+          "A clever {@creature cloud giant} plays several other powerful creatures against each other and against nearby Humanoids. Eliminating the giant will return the volatile situation to an uneasy status quo."
+        ],
+        [
+          "6",
+          "A {@creature frost giant} leads a mixed band of weaker giants in a campaign of bloodlust to honor Thrym or a demon lord."
+        ],
+        [
+          "7",
+          "After a villainous group slays a young {@creature storm giant}, the giant's parent unleashes an undiscriminating campaign of vengeance against any \"interfering little gnats\" living nearby."
+        ],
+        [
+          "8",
+          "As characters explore a steading belonging to one kind of giant (you can roll a {@dice d6} on this table to decide why the characters are there), they discover an honored guest of a more powerful giant kind who is coordinating the weaker giants' activities."
+        ]
+      ],
+      "name": "Against the Giants",
+      "page": 55,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

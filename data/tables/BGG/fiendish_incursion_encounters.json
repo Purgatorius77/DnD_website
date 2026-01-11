@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "name": "Fiendish Incursion Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 52,
+      "caption": "Fiendish Incursion Encounters",
+      "colLabels": [
+        "{@dice d10}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@dice 1d4} {@creature Barlgura||barlguras} (attitude: {@dice 1d4 + 1}) capering around a blasphemous idol"
+        ],
+        [
+          "2",
+          "1 {@creature arcanaloth} (attitude: {@dice 1d12}) searching for a tempting bit of lost lore"
+        ],
+        [
+          "3",
+          "2 {@creature Chain Devil||chain devils} (attitude: {@dice 1d6}) suspending corpses on spiked chains"
+        ],
+        [
+          "4",
+          "1 {@creature fury of Kostchtchie|BGG} performing a rite with 2 {@creature Troll||trolls} (attitude for all: {@dice 1d6})"
+        ],
+        [
+          "5",
+          "1 {@creature echo of Demogorgon|BGG} (attitude: {@dice 1d4 + 1}) building a two-headed effigy from corpses"
+        ],
+        [
+          "6",
+          "1 {@creature stalker of Baphomet|BGG} (attitude: {@dice 1d4 + 1}) and 2 {@creature minotaur} cultists (attitude: {@dice 1d4 + 1}) stalking a {@creature scout} (attitude: {@dice 1d10 + 4})"
+        ],
+        [
+          "7",
+          "1 {@creature maw of Yeenoghu|BGG} with 4 {@creature Gnoll||gnolls} and 4 {@creature Hyena||hyenas} (attitude for all: {@dice 1d4 + 1}), all stalking prey"
+        ],
+        [
+          "8",
+          "1 {@creature marilith} (attitude: {@dice 1d4 + 2}) searching for a renowned giant smith to forge six new swords"
+        ],
+        [
+          "9",
+          "1 {@creature cambion} (attitude: {@dice 1d8}) trading verbal jabs with 1 {@creature succubus} (attitude: {@dice 1d12})"
+        ],
+        [
+          "10",
+          "1 {@creature fire hellion|BGG} (attitude: {@dice 1d6}) conjuring 1 {@creature bone devil} (attitude: {@dice 1d12}) into a red-hot iron circle"
+        ]
+      ]
+    }
+  ]
+}

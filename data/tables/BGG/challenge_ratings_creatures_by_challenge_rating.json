@@ -1,0 +1,288 @@
+{
+  "table": [
+    {
+      "caption": "Creatures by Challenge Rating",
+      "colLabels": [
+        "CR",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "{@creature Giant lynx|BGG}"
+        ],
+        [
+          "1",
+          "{@creature Bag jelly|BGG}"
+        ],
+        [
+          "1",
+          "{@creature Giant ram|BGG}"
+        ],
+        [
+          "1",
+          "{@creature Grinning cat|BGG}"
+        ],
+        [
+          "2",
+          "{@creature Giant tick|BGG}"
+        ],
+        [
+          "3",
+          "{@creature Giant goose|BGG}"
+        ],
+        [
+          "3",
+          "{@creature Giant ox|BGG}"
+        ],
+        [
+          "3",
+          "{@creature Goliath giant-kin|BGG}"
+        ],
+        [
+          "3",
+          "{@creature Mud hulk|BGG}"
+        ],
+        [
+          "3",
+          "{@creature Spotted lion|BGG}"
+        ],
+        [
+          "4",
+          "{@creature Firbolg primeval warden|BGG}"
+        ],
+        [
+          "5",
+          "{@creature Dust hulk|BGG}"
+        ],
+        [
+          "5",
+          "{@creature Firbolg wanderer|BGG}"
+        ],
+        [
+          "5",
+          "{@creature Rime hulk|BGG}"
+        ],
+        [
+          "5",
+          "{@creature Titanothere|BGG}"
+        ],
+        [
+          "6",
+          "{@creature Echo of Demogorgon|BGG}"
+        ],
+        [
+          "6",
+          "{@creature Fensir skirmisher|BGG}"
+        ],
+        [
+          "6",
+          "{@creature Mist hulk|BGG}"
+        ],
+        [
+          "7",
+          "{@creature Barrowghast|BGG}"
+        ],
+        [
+          "7",
+          "{@creature Cinder hulk|BGG}"
+        ],
+        [
+          "7",
+          "{@creature Troll mutate|BGG}"
+        ],
+        [
+          "8",
+          "{@creature Ettin ceremorph|BGG}"
+        ],
+        [
+          "8",
+          "{@creature Fensir devourer|BGG}"
+        ],
+        [
+          "9",
+          "{@creature Cairnwight|BGG}"
+        ],
+        [
+          "9",
+          "{@creature Ceratops|BGG|Ceratops (dinosaur)}"
+        ],
+        [
+          "9",
+          "{@creature Lightning hulk|BGG}"
+        ],
+        [
+          "9",
+          "{@creature Stone giant of Evil Earth|BGG}"
+        ],
+        [
+          "10",
+          "{@creature Aerosaur|BGG|Aerosaur (dinosaur)}"
+        ],
+        [
+          "10",
+          "{@creature Fire giant of Evil Fire|BGG}"
+        ],
+        [
+          "10",
+          "{@creature Fomorian deep crawler|BGG}"
+        ],
+        [
+          "10",
+          "{@creature Frostmourn|BGG}"
+        ],
+        [
+          "10",
+          "{@creature Maw of Yeenoghu|BGG}"
+        ],
+        [
+          "11",
+          "{@creature Firegaunt|BGG}"
+        ],
+        [
+          "11",
+          "{@creature Fire hellion|BGG}"
+        ],
+        [
+          "11",
+          "{@creature Frost giant of Evil Water|BGG}"
+        ],
+        [
+          "11",
+          "{@creature Storm crab|BGG}"
+        ],
+        [
+          "12",
+          "{@creature Cloud giant of Evil Air|BGG}"
+        ],
+        [
+          "12",
+          "{@creature Death giant reaper|BGG}"
+        ],
+        [
+          "12",
+          "{@creature Fomorian warlock of the dark|BGG}"
+        ],
+        [
+          "12",
+          "{@creature Hill giant avalancher|BGG}"
+        ],
+        [
+          "12",
+          "{@creature Stalker of Baphomet|BGG}"
+        ],
+        [
+          "13",
+          "{@creature Altisaur|BGG|Altisaur (dinosaur)}"
+        ],
+        [
+          "13",
+          "{@creature Spectral cloud|BGG}"
+        ],
+        [
+          "14",
+          "{@creature Fury of Kostchtchie|BGG}"
+        ],
+        [
+          "14",
+          "{@creature Regisaur|BGG|Regisaur (dinosaur)}"
+        ],
+        [
+          "15",
+          "{@creature Death giant shrouded one|BGG}"
+        ],
+        [
+          "15",
+          "{@creature Fomorian noble|BGG}"
+        ],
+        [
+          "15",
+          "{@creature Tempest spirit|BGG}"
+        ],
+        [
+          "16",
+          "{@creature Stone giant rockspeaker|BGG}"
+        ],
+        [
+          "17",
+          "{@creature Frost giant ice shaper|BGG}"
+        ],
+        [
+          "17",
+          "{@creature Storm herald|BGG}"
+        ],
+        [
+          "17",
+          "{@creature Troll amalgam|BGG}"
+        ],
+        [
+          "18",
+          "{@creature Fire giant forgecaller|BGG}"
+        ],
+        [
+          "19",
+          "{@creature Cloud giant destiny gambler|BGG}"
+        ],
+        [
+          "20",
+          "{@creature Flesh colossus|BGG}"
+        ],
+        [
+          "20",
+          "{@creature Gigant|BGG}"
+        ],
+        [
+          "20",
+          "{@creature Storm giant tempest caller|BGG}"
+        ],
+        [
+          "21",
+          "{@creature Gargantua|BGG}"
+        ],
+        [
+          "21",
+          "{@creature Runic colossus|BGG}"
+        ],
+        [
+          "22",
+          "{@creature Scion of Grolantor|BGG}"
+        ],
+        [
+          "23",
+          "{@creature Scion of Skoraeus|BGG}"
+        ],
+        [
+          "24",
+          "{@creature Scion of Thrym|BGG}"
+        ],
+        [
+          "25",
+          "{@creature Scion of Surtur|BGG}"
+        ],
+        [
+          "26",
+          "{@creature Scion of Memnor|BGG}"
+        ],
+        [
+          "27",
+          "{@creature Scion of Stronmaus|BGG}"
+        ]
+      ],
+      "name": "Challenge Ratings; Creatures by Challenge Rating",
+      "page": 188,
+      "source": "BGG",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

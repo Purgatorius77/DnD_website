@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "name": "Storm Giant Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 48,
+      "caption": "Storm Giant Encounters",
+      "colLabels": [
+        "{@dice d12}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature storm giant tempest caller|BGG} (attitude: {@dice 1d8 + 2}) communing with a lightning-lit face in a thundercloud"
+        ],
+        [
+          "2",
+          "1 {@creature storm giant} riding 1 {@creature aerosaur|BGG} (attitude for both: {@dice 1d10})"
+        ],
+        [
+          "3",
+          "1 {@creature lightning hulk|BGG} (attitude: {@dice 1d6}) reveling in destruction"
+        ],
+        [
+          "4",
+          "1 {@creature storm giant} hunting or fishing with 1 {@creature griffon} or {@creature giant octopus} companion (attitude for both: {@dice 1d10 + 2})"
+        ],
+        [
+          "5",
+          "1 {@creature storm giant} (attitude: {@dice 1d12}) patiently explaining a Giant rune to {@dice 1d4} {@creature Ogre||ogres} (attitude: {@dice 1d10})"
+        ],
+        [
+          "6",
+          "2 {@creature Storm Giant||storm giants} (attitude: {@dice 1d8 + 2}) moving pieces on a massive game board according to events that haven't happened yet"
+        ],
+        [
+          "7",
+          "{@dice 1d4} {@creature Behir||behirs} (attitude: {@dice 1d8 + 1}) stalking storm giants"
+        ],
+        [
+          "8",
+          "{@dice 2d4} {@creature goliath giant-kin|BGG} (attitude: {@dice 1d8 + 3}) meditating in hopes of receiving a vision or prophetic word"
+        ],
+        [
+          "9",
+          "1 {@creature storm herald|BGG} conferring with 1 {@creature kraken} (attitude for both: {@dice 1d8 + 1})"
+        ],
+        [
+          "10",
+          "1 {@creature adult blue dragon} (attitude: {@dice 1d6}) seeking the secret refuge of a storm giant oracle who is an ancient enemy"
+        ],
+        [
+          "11",
+          "1 {@creature kraken priest|MPMM} and 3 {@creature Deep Scion|MPMM|deep scions} (attitude for all: {@dice 1d4 + 1}) studying storm giant runes"
+        ],
+        [
+          "12",
+          "1 {@creature storm giant quintessent|MPMM} (attitude: {@dice 1d12}) reading omens in the migration paths of 2 {@creature Roc||rocs} or {@creature Killer Whale||killer whales} (attitude: {@dice 1d6 + 4})"
+        ]
+      ]
+    }
+  ]
+}

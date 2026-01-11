@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "name": "Frost Giant Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 46,
+      "caption": "Frost Giant Encounters",
+      "colLabels": [
+        "{@dice d12}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature frost giant} (attitude: {@dice 1d8 + 1}) leading 1 {@creature titanothere|BGG} (attitude: {@dice 1d10}) loaded with fur and timber"
+        ],
+        [
+          "2",
+          "1 {@creature young silver dragon} (attitude: {@dice 1d10 + 3}) tracking a frost giant raiding party"
+        ],
+        [
+          "3",
+          "1 {@creature frost giant} hunting with {@dice 1d4} {@creature Winter Wolf||winter wolves} (attitude for all: {@dice 1d6})"
+        ],
+        [
+          "4",
+          "2 {@creature Frost Giant||frost giants} (attitude: {@dice 1d6 + 2}) burying a body that rises as 1 {@creature frostmourn|BGG} (attitude: {@dice 1d4 + 1}) in the process"
+        ],
+        [
+          "5",
+          "{@dice 2d4} {@creature Giant Goat||giant goats} (attitude: {@dice 1d6 + 4}) wandering about with chewed tethers"
+        ],
+        [
+          "6",
+          "1 {@creature troll} (attitude: {@dice 1d10 + 2}) anxiously searching for the lost goats it tends for a frost giant tribe"
+        ],
+        [
+          "7",
+          "1 {@creature frost giant} (attitude: {@dice 1d8 + 1}) building a wind shelter from ice blocks"
+        ],
+        [
+          "8",
+          "1 {@creature frost giant ice shaper|BGG} (attitude: {@dice 1d10}) performing a sacrifice to Thrym"
+        ],
+        [
+          "9",
+          "1 bored {@creature troll amalgam|BGG} (attitude: {@dice 1d10}) throwing its arm at a stack of boulders"
+        ],
+        [
+          "10",
+          "{@dice 2d4} {@creature goliath giant-kin|BGG} (attitude: {@dice 1d8 + 3}) on a pilgrimage"
+        ],
+        [
+          "11",
+          "1 {@creature ogre bolt launcher|MPMM} and {@dice 1d4 + 2} {@creature Ogre||ogres} (attitude for all: {@dice 1d6}) bringing spoils from a raid to their frost giant leader"
+        ],
+        [
+          "12",
+          "1 {@creature frost giant everlasting one|MPMM} (attitude: {@dice 1d4 + 1}) plotting revenge against the tribe that exiled it"
+        ]
+      ]
+    }
+  ]
+}

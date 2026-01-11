@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Loud Behaviors",
+      "colLabels": [
+        "d6",
+        "Behavior"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The giant constantly (and loudly) encourages smaller creatures to speak up."
+        ],
+        [
+          "2",
+          "The giant's thoughtful \"hmm\" causes a rumbling vibration in the ground and the pit of listeners' stomachs."
+        ],
+        [
+          "3",
+          "The giant's exclamation of surprise or anger briefly sets listeners' ears ringing."
+        ],
+        [
+          "4",
+          "The giant's sneeze, snore, or sigh rattles windows or blows leaves off trees."
+        ],
+        [
+          "5",
+          "The giant's laughter feels like a small earthquake."
+        ],
+        [
+          "6",
+          "The giant's armor or weapons clang thunderously."
+        ]
+      ],
+      "name": "Volume; Loud Behaviors",
+      "page": 22,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

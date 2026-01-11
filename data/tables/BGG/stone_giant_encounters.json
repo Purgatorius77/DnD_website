@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "name": "Stone Giant Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 48,
+      "caption": "Stone Giant Encounters",
+      "colLabels": [
+        "{@dice d12}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature stone giant} and 1 {@creature xorn} (attitude for both: {@dice 1d10}) hunting for gems, much the way surface peoples hunt for truffles"
+        ],
+        [
+          "2",
+          "1 {@creature stone giant rockspeaker|BGG} conferring with 2 {@creature Galeb Duhr||galeb duhrs} (attitude for all: {@dice 1d8 + 4})"
+        ],
+        [
+          "3",
+          "1 {@creature stone giant} (attitude: {@dice 1d12}) playing fetch with 1 {@creature carrion crawler} (attitude: {@dice 1d4 + 1})"
+        ],
+        [
+          "4",
+          "{@dice 2d4} {@creature goliath giant-kin|BGG} (attitude: {@dice 1d10}) practicing throwing rocks"
+        ],
+        [
+          "5",
+          "1 {@creature stone giant} arguing with 1 {@creature minotaur} (attitude for both: {@dice 1d12}) about the best path for a maze they're designing"
+        ],
+        [
+          "6",
+          "1 {@creature stone giant} (attitude: {@dice 1d6 + 4}) dreamily carving a slab of rock into an abstract hill giant figure"
+        ],
+        [
+          "7",
+          "1 {@creature cairnwight|BGG} (attitude: {@dice 1d8 + 2}) searching for treasure stolen from its tomb"
+        ],
+        [
+          "8",
+          "{@dice 2d4} cave bears ({@creature Polar Bear||polar bears}; attitude: {@dice 1d6 + 1}) on patrol"
+        ],
+        [
+          "9",
+          "1 {@creature stone giant of Evil Earth|BGG} (attitude: {@dice 1d6}) arguing theology with 2 {@creature Stone Giant||stone giants} (attitude: {@dice 1d12})"
+        ],
+        [
+          "10",
+          "{@dice 2d6} dwarf prospectors ({@creature Veteran||veterans}; attitude: {@dice 1d12}) delving into areas full of stone giant dream carvings"
+        ],
+        [
+          "11",
+          "2 {@creature Korred|MPMM|korreds} (attitude: {@dice 1d8}) exchanging their cut hair with 1 {@creature stone giant} (attitude: {@dice 1d10}) for stone and gem artwork"
+        ],
+        [
+          "12",
+          "1 {@creature stone giant dreamwalker|MPMM} (attitude: {@dice 1d8 + 2}) collecting objects and creatures to fuse into its body"
+        ]
+      ]
+    }
+  ]
+}

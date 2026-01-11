@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Frost Giant Might",
+      "colLabels": [
+        "d6",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Planning to claim all the credit, a frost giant seeks the help of powerful adventurers to defeat a foe the giant could never handle alone."
+        ],
+        [
+          "2",
+          "A frost giant wants help obtaining a {@item manual of gainful exercise} believed to be in a dragon's hoard."
+        ],
+        [
+          "3",
+          "A low-ranking frost giant prefers to be surrounded with weaker creatures and so leads a band of Humanoid brigands. A merchant council asks for aid against them."
+        ],
+        [
+          "4",
+          "A frost giant keeps a defeated foe's head as a trophy; the foe's family wants justice—and the head back—and asks adventurers for help."
+        ],
+        [
+          "5",
+          "Two groups of frost giants meet near a mountain pass. When their wrestling matches cause avalanches, travelers who rely on the pass ask for help."
+        ],
+        [
+          "6",
+          "A frost giant destroys works of Humanoid construction—such as bridges, barns, and walls—as a show of strength. Affected farmers beg for help."
+        ]
+      ],
+      "name": "The Ordning; Frost Giant Might",
+      "page": 24,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

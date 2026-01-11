@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "name": "Giant Necropolis Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 54,
+      "caption": "Giant Necropolis Encounters",
+      "colLabels": [
+        "{@dice d10}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature young red shadow dragon} (attitude: {@dice 1d4 + 1}) seeking treasures steeped in sorrow"
+        ],
+        [
+          "2",
+          "2 {@creature Cairnwight|BGG|cairnwights} (attitude: {@dice 1d6 + 3}) critiquing each other's artistic works in progress"
+        ],
+        [
+          "3",
+          "1 {@creature barrowghast|BGG} and 2 {@creature Zombie||zombies} (attitude for all: {@dice 1d4 + 1}) prowling for living creatures to slay"
+        ],
+        [
+          "4",
+          "1 {@creature frostmourn|BGG} (attitude: {@dice 1d8 + 1}) contemplating the many notches on its greataxe"
+        ],
+        [
+          "5",
+          "{@dice 1d4} {@creature Shadow||shadows} (attitude: {@dice 1d8}) playing out the last moments of their lives as a shadow puppet show on a wall"
+        ],
+        [
+          "6",
+          "{@dice 2d6} {@creature Zombie||zombies} (attitude: {@dice 1d4 + 1}) shuffling listlessly, following a path of Giant runes painted in dried blood"
+        ],
+        [
+          "7",
+          "1 {@creature firegaunt|BGG} (attitude: {@dice 1d4 + 1}) killing and destroying, desperately hoping someone will end its existence"
+        ],
+        [
+          "8",
+          "1 {@creature flesh colossus|BGG} (attitude: {@dice 1d6}) marked with the Giant rune of death, defending the crumbled ruins of the place it was created to protect"
+        ],
+        [
+          "9",
+          "1 {@creature tempest spirit|BGG} (attitude: {@dice 1d6}) searching for lost magical knowledge"
+        ],
+        [
+          "10",
+          "1 {@creature spectral cloud|BGG} (attitude: {@dice 1d12}) wandering with a ghostly green lantern"
+        ]
+      ]
+    }
+  ]
+}

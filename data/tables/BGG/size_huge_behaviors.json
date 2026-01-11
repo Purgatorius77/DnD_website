@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Huge Behaviors",
+      "colLabels": [
+        "d8",
+        "Behavior"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The giant has a pet (a {@creature panther}, a {@creature wolf}, or a {@creature giant weasel}) that sits on the giant's lap or shoulder."
+        ],
+        [
+          "2",
+          "The giant swats at a murmuration of starlings as if it were a cloud of gnats."
+        ],
+        [
+          "3",
+          "The giant uses a {@item dagger|PHB} as a toothpick, a {@item greatsword|PHB} as a letter opener, or a pair of {@item Javelin|PHB|javelins} as knitting needles."
+        ],
+        [
+          "4",
+          "The giant carefully lifts Humanoids (cradling their heads to avoid injury) to see and hear them better."
+        ],
+        [
+          "5",
+          "The giant exclaims with admiration at the fine detail and exquisite articulation of the characters' armor."
+        ],
+        [
+          "6",
+          "The giant fidgets with the skulls of Humanoids."
+        ],
+        [
+          "7",
+          "The giant drinks from a barrel as a human would from a waterskin."
+        ],
+        [
+          "8",
+          "The giant takes a messy bite from a large melon held in one hand."
+        ]
+      ],
+      "name": "Size; Huge Behaviors",
+      "page": 21,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

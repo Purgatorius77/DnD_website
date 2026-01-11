@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "name": "Giant Kin Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 53,
+      "caption": "Giant Kin Encounters",
+      "colLabels": [
+        "{@dice d10}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A band of {@dice 2d6} {@creature Ogre||ogres} (attitude: {@dice 1d6}) fawning over enormous Giant runes inscribed in the ground"
+        ],
+        [
+          "2",
+          "{@dice 1d4} {@creature Cyclops||cyclopes} (attitude: {@dice 1d10}) tending a herd of sheep"
+        ],
+        [
+          "3",
+          "1 {@creature troll} and {@dice 2d4} {@creature Orc||orcs} (attitude for all: {@dice 1d8}) scouting new settlement locations"
+        ],
+        [
+          "4",
+          "1 {@creature troll mutate|BGG} (attitude: {@dice 1d6}) drawing, scratching, or painting with too many claws"
+        ],
+        [
+          "5",
+          "{@dice 1d4} {@creature Firbolg Primeval Warden|BGG|firbolg primeval wardens} (attitude: {@dice 1d12}) making camp"
+        ],
+        [
+          "6",
+          "{@dice 1d4 + 1} {@creature Fensir Skirmisher|BGG|fensir skirmishers} (attitude: {@dice 1d6 + 2}) frantically gathering and hunting food to stockpile"
+        ],
+        [
+          "7",
+          "1 {@creature firbolg wanderer|BGG} (attitude: {@dice 1d8}) reluctantly bargaining with 1 {@creature green hag} (attitude: {@dice 1d8 + 3})"
+        ],
+        [
+          "8",
+          "2 {@creature Ettin||ettins} (attitude: {@dice 1d8}) playing cards, with each head as an individual player in a four-player game"
+        ],
+        [
+          "9",
+          "2 {@creature Ogre Chain Brute|MPMM|ogre chain brutes} (attitude: {@dice 1d4 + 1}) demolishing a small structure"
+        ],
+        [
+          "10",
+          "1 {@creature dire troll|MPMM} (attitude: {@dice 1d6}) eating a dead troll before it regenerates"
+        ]
+      ]
+    }
+  ]
+}

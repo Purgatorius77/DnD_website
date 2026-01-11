@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "name": "Elemental Air Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 49,
+      "caption": "Elemental Air Encounters",
+      "colLabels": [
+        "{@dice d12}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@dice 1d3} {@creature Mist Hulk|BGG|mist hulks} (attitude: {@dice 1d8}) wandering about, wallowing in regret"
+        ],
+        [
+          "2",
+          "{@dice 2d4} {@creature aarakocra} (attitude: {@dice 1d10 + 2}) flying in formation"
+        ],
+        [
+          "3",
+          "{@dice 1d4} {@creature Air Elemental||air elementals} (attitude: {@dice 1d8 + 2}) kicking up dust and debris"
+        ],
+        [
+          "4",
+          "{@dice 1d4} Evil Air cultists ({@creature Veteran||veterans}; attitude: {@dice 1d8}) riding {@creature Hippogriff||hippogriffs} (attitude: {@dice 1d8 + 2}) and accosting travelers"
+        ],
+        [
+          "5",
+          "1 {@creature invisible stalker} (attitude: {@dice 1d6}) looking for a particular magic item"
+        ],
+        [
+          "6",
+          "1 {@creature young gold dragon} (attitude: {@dice 1d8 + 4}) dancing in high wind currents"
+        ],
+        [
+          "7",
+          "1 {@creature cloud giant of Evil Air|BGG} (attitude: {@dice 1d4 + 1}) terrorizing the skies"
+        ],
+        [
+          "8",
+          "1 {@creature djinni} (attitude: {@dice 1d12 + 2}) examining shattered gargoyle remains"
+        ],
+        [
+          "9",
+          "{@dice 2d4} {@creature Griffon||griffons} (attitude: {@dice 1d10}) with blue and gray coloring soaring"
+        ],
+        [
+          "10",
+          "1 {@creature lightning hulk|BGG} (attitude: {@dice 1d8}) crackling in a jagged path"
+        ],
+        [
+          "11",
+          "{@dice 1d3} {@creature Air Elemental Myrmidon|MPMM|air elemental myrmidons} (attitude: {@dice 1d6}) on high alert"
+        ],
+        [
+          "12",
+          "1 {@creature elder tempest|MPMM} (attitude: {@dice 1d6 + 2}) reveling in a storm"
+        ]
+      ]
+    }
+  ]
+}

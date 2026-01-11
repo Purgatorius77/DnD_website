@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Hill Giants",
+      "colLabels": [
+        "Giant",
+        "CR"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@creature Barrowghast|BGG}*",
+          "7"
+        ],
+        [
+          "{@creature Hill giant}",
+          "5"
+        ],
+        [
+          "{@creature Hill giant avalancher|BGG}*",
+          "12"
+        ],
+        [
+          "{@creature Maw of Yeenoghu|BGG}*",
+          "10"
+        ],
+        [
+          "{@creature Mouth of Grolantor|MPMM}†",
+          "6"
+        ],
+        [
+          "{@creature Mud hulk|BGG}*",
+          "3"
+        ],
+        [
+          "{@creature Scion of Grolantor|BGG}*",
+          "22"
+        ]
+      ],
+      "name": "Giants by Kind; Hill Giants",
+      "page": 188,
+      "source": "BGG",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

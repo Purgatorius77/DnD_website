@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Initial Attitudes",
+      "colLabels": [
+        "Attitude Roll Total",
+        "Initial Attitude"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "4 or lower",
+          "Hostile"
+        ],
+        [
+          "5–8",
+          "Indifferent"
+        ],
+        [
+          "9 or higher",
+          "Friendly"
+        ]
+      ],
+      "name": "Initial Attitudes",
+      "page": 44,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

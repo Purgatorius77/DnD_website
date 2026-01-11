@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Stone Giant Artistry",
+      "colLabels": [
+        "d6",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A stone giant has been throwing stones near a city in the mountains. The mayor seeks help to protect the city from the destructive effects of the boulders."
+        ],
+        [
+          "2",
+          "A famous Humanoid sculptor attracts stone giants to the sculptor's town. The struggling town seeks protection from the rowdy giants, who thoughtlessly cause great damage because they believe they're in the dream world."
+        ],
+        [
+          "3",
+          "The characters' discovery of a huge, raw onyx attracts the attention of a stone giant who wants to carve the stone."
+        ],
+        [
+          "4",
+          "A stone giant traveler hones their skills by carving a relief into a city's walls. The city's rulers and masons beg for help."
+        ],
+        [
+          "5",
+          "Characters traveling underground encounter feuding stone giants who accuse each other of destroying their artwork; the characters can end the feud by finding the actual vandal (perhaps a third giant, a group of duergar, or an unwitting {@creature umber hulk})."
+        ],
+        [
+          "6",
+          "A stone giant tries to manipulate characters into killing a fierce rival."
+        ]
+      ],
+      "name": "The Ordning; Stone Giant Artistry",
+      "page": 24,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

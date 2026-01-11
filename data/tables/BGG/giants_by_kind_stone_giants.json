@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Stone Giants",
+      "colLabels": [
+        "Giant",
+        "CR"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@creature Cairnwight|BGG}*",
+          "9"
+        ],
+        [
+          "{@creature Dust hulk|BGG}*",
+          "5"
+        ],
+        [
+          "{@creature Scion of Skoraeus|BGG}*",
+          "23"
+        ],
+        [
+          "{@creature Stalker of Baphomet|BGG}*",
+          "12"
+        ],
+        [
+          "{@creature Stone giant}",
+          "7"
+        ],
+        [
+          "{@creature Stone giant dreamwalker|MPMM}†",
+          "10"
+        ],
+        [
+          "{@creature Stone giant of Evil Earth|BGG}*",
+          "9"
+        ],
+        [
+          "{@creature Stone giant rockspeaker|BGG}*",
+          "16"
+        ]
+      ],
+      "name": "Giants by Kind; Stone Giants",
+      "page": 188,
+      "source": "BGG",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

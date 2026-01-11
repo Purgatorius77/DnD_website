@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Giants and the Ordning",
+      "colLabels": [
+        "d10",
+        "Ranking",
+        "Status"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "1",
+          "High",
+          "Very protective of that high status and angling to get even higher"
+        ],
+        [
+          "2",
+          "High",
+          "Hoping to improve but not doing much to pursue an increase in status"
+        ],
+        [
+          "3",
+          "High",
+          "Unconcerned with maintaining that status"
+        ],
+        [
+          "4",
+          "Medium",
+          "On the rise"
+        ],
+        [
+          "5",
+          "Medium",
+          "Contented"
+        ],
+        [
+          "6",
+          "Medium",
+          "In a state of decline"
+        ],
+        [
+          "7",
+          "Low",
+          "Despairing after years of steady decline"
+        ],
+        [
+          "8",
+          "Low",
+          "Desperate to improve"
+        ],
+        [
+          "9",
+          "Low",
+          "Resigned to that status"
+        ],
+        [
+          "10",
+          "Outcast",
+          "Shunned by giant society"
+        ]
+      ],
+      "name": "Giants and the Ordning",
+      "page": 24,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "table": [
+    {
+      "caption": "Giants' Names",
+      "colLabels": [
+        "d10",
+        "Hill",
+        "Stone",
+        "Frost",
+        "Fire",
+        "Cloud",
+        "Storm"
+      ],
+      "colStyles": [
+        "col-1-8 text-center",
+        "col-1-7",
+        "col-1-7",
+        "col-1-7",
+        "col-1-7",
+        "col-1-7",
+        "col-1-7"
+      ],
+      "rows": [
+        [
+          "1",
+          "Adj",
+          "Brunnar",
+          "Estia",
+          "Ashvalk",
+          "Alastrah",
+          "Adana"
+        ],
+        [
+          "2",
+          "Bor",
+          "Delveni",
+          "Flakkar",
+          "Askavar",
+          "Cressaro",
+          "Bullrak"
+        ],
+        [
+          "3",
+          "Cug",
+          "Frasta",
+          "Grugnur",
+          "Brasalag",
+          "Eigeron",
+          "Eblixten"
+        ],
+        [
+          "4",
+          "Dop",
+          "Kragsten",
+          "Gurdrim",
+          "Brimskarda",
+          "Kaaltar",
+          "Mirran"
+        ],
+        [
+          "5",
+          "Gug",
+          "Maddag",
+          "Jokalla",
+          "Glodden",
+          "Lissia",
+          "Nym"
+        ],
+        [
+          "6",
+          "Kru",
+          "Olhuud",
+          "Kallen",
+          "Osaglod",
+          "Messet",
+          "Orlekto"
+        ],
+        [
+          "7",
+          "Moog",
+          "Pashka",
+          "Luskig",
+          "Snurre",
+          "Mollen",
+          "Serissa"
+        ],
+        [
+          "8",
+          "Noad",
+          "Ralden",
+          "Rimna",
+          "Svavehild",
+          "Nedimma",
+          "Shaldoor"
+        ],
+        [
+          "9",
+          "Paff",
+          "Steyras",
+          "Storvald",
+          "Tartha",
+          "Santar",
+          "Uthor"
+        ],
+        [
+          "10",
+          "Tig",
+          "Thonna",
+          "Thryggid",
+          "Zaltasker",
+          "Thullen",
+          "Vaasha"
+        ]
+      ],
+      "name": "Giants' Names",
+      "page": 23,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giants in Play",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

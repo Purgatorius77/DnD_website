@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Boss Assignments",
+      "colLabels": [
+        "d6",
+        "Assignment"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Thieves stole the giant's most precious treasure and fled into the sewers, where the giant can't follow. Hunt the thieves and retrieve the treasure."
+        ],
+        [
+          "2",
+          "A rival gang is encroaching on the giant's territory. Spy on these rivals, and identify the best place for the giant to strike to shut them down for good."
+        ],
+        [
+          "3",
+          "Somebody who works for the giant is stealing. Find out who it is, and make sure they never think about double-crossing the giant again."
+        ],
+        [
+          "4",
+          "The giant has a score to settle with a powerful foe (perhaps a dragon, a {@creature beholder}, or another monstrous crime lord). Make sure the boss survives!"
+        ],
+        [
+          "5",
+          "The boss wants a treasure that's being held in an underground refuge the giant can't enter. Plan and execute the perfect heist."
+        ],
+        [
+          "6",
+          "Another group of adventurers refuses to serve the boss anymore. Find them and convince them to return, or join forces with them to topple the giant."
+        ]
+      ],
+      "name": "Boss Assignments",
+      "page": 59,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

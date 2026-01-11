@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Giant Patrons",
+      "colLabels": [
+        "Giant Role",
+        "Group Patron Type"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-8 text-center"
+      ],
+      "rows": [
+        [
+          "{@book Boss|BGG|3|Boss}",
+          "Criminal Syndicate"
+        ],
+        [
+          "{@book Financier|BGG|3|Financier}",
+          "Aristocrat"
+        ],
+        [
+          "{@book Seer|BGG|3|Seer}",
+          "Ancient Being"
+        ],
+        [
+          "{@book Sovereign|BGG|3|Sovereign}",
+          "Sovereign"
+        ],
+        [
+          "{@book Tutor|BGG|3|Tutor}",
+          "Academy"
+        ],
+        [
+          "{@book Warleader|BGG|3|Warleader}",
+          "Military Force"
+        ]
+      ],
+      "name": "Giant Patrons",
+      "page": 59,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

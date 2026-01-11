@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "name": "Hill Giant Encounters",
+      "type": "table",
+      "source": "BGG",
+      "page": 47,
+      "caption": "Hill Giant Encounters",
+      "colLabels": [
+        "{@dice d12}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "2 {@creature Hill Giant||hill giants} charging at each other until their heads collide, while 4 {@creature Ogre||ogres} (attitude for all: {@dice 1d6 + 3}) watch and cheer"
+        ],
+        [
+          "2",
+          "1 {@creature hill giant avalancher|BGG} (attitude: {@dice 1d8 + 2}) searching exasperatedly for a {@creature giant goose|BGG} that stole from the giant's bag"
+        ],
+        [
+          "3",
+          "2 {@creature Hill Giant||hill giants} (attitude: {@dice 1d10}) trading broken weapons they've collected"
+        ],
+        [
+          "4",
+          "1 {@creature hill giant} and 3 {@creature Ogre||ogres} (attitude for all: {@dice 1d12}) taking turns bowling ettin skulls at sticks stuck in the ground"
+        ],
+        [
+          "5",
+          "1 {@creature hill giant} (attitude: {@dice 1d6 + 3}) dejectedly trying to reassemble a small stone building it accidentally demolished"
+        ],
+        [
+          "6",
+          "{@dice 1d4} {@creature Otyugh||otyughs} (attitude: {@dice 1d10}) in a waste pit where hill giants dispose of feast remnants"
+        ],
+        [
+          "7",
+          "1 {@creature hill giant} singing beautifully for {@dice 1d4} {@creature Dire Wolf||dire wolves} (attitude for all: {@dice 1d10 + 2})"
+        ],
+        [
+          "8",
+          "2 {@creature Hill Giant||hill giants} (attitude: {@dice 1d8}) roasting a bear over a burning wagon and excessively seasoning it with spices plundered from the wagon"
+        ],
+        [
+          "9",
+          "{@dice 2d4} {@creature goliath giant-kin|BGG} (attitude: {@dice 1d8 + 2}) enjoying a feast"
+        ],
+        [
+          "10",
+          "1 {@creature hill giant} (attitude: {@dice 1d6}) asking for food from a gang of {@dice 2d4} {@creature Bugbear||bugbears} (attitude: {@dice 1d6 + 2})"
+        ],
+        [
+          "11",
+          "1 {@creature flind|MPMM} (attitude: {@dice 1d4 + 1}) leading a bloodthirsty party of 5 {@creature Gnoll Hunter|MPMM|gnoll hunters} (attitude: {@dice 1d6})"
+        ],
+        [
+          "12",
+          "1 {@creature mouth of Grolantor|MPMM} (attitude: {@dice 1d6}) eating everything in reach, including the landscape"
+        ]
+      ]
+    }
+  ]
+}

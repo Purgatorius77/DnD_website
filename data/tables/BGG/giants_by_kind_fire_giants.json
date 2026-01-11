@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Fire Giants",
+      "colLabels": [
+        "Giant",
+        "CR"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@creature Cinder hulk|BGG}*",
+          "7"
+        ],
+        [
+          "{@creature Firegaunt|BGG}*",
+          "11"
+        ],
+        [
+          "{@creature Fire giant}",
+          "9"
+        ],
+        [
+          "{@creature Fire giant dreadnought|MPMM}†",
+          "14"
+        ],
+        [
+          "{@creature Fire giant forgecaller|BGG}*",
+          "18"
+        ],
+        [
+          "{@creature Fire giant of Evil Fire|BGG}*",
+          "10"
+        ],
+        [
+          "{@creature Fire hellion|BGG}*",
+          "11"
+        ],
+        [
+          "{@creature Scion of Surtur|BGG}*",
+          "25"
+        ]
+      ],
+      "name": "Giants by Kind; Fire Giants",
+      "page": 188,
+      "source": "BGG",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

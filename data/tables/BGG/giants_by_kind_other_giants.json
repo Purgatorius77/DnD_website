@@ -1,0 +1,128 @@
+{
+  "table": [
+    {
+      "caption": "Other Giants",
+      "colLabels": [
+        "Giant",
+        "CR"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@creature Cyclops}",
+          "6"
+        ],
+        [
+          "{@creature Death giant reaper|BGG}*",
+          "12"
+        ],
+        [
+          "{@creature Death giant shrouded one|BGG}*",
+          "15"
+        ],
+        [
+          "{@creature Dire troll|MPMM}†",
+          "13"
+        ],
+        [
+          "{@creature Echo of Demogorgon|BGG}*",
+          "6"
+        ],
+        [
+          "{@creature Ettin}",
+          "4"
+        ],
+        [
+          "{@creature Ettin ceremorph|BGG}*",
+          "8"
+        ],
+        [
+          "{@creature Fensir skirmisher|BGG}*",
+          "6"
+        ],
+        [
+          "{@creature Fensir devourer|BGG}*",
+          "8"
+        ],
+        [
+          "{@creature Fomorian}",
+          "8"
+        ],
+        [
+          "{@creature Fomorian deep crawler|BGG}*",
+          "10"
+        ],
+        [
+          "{@creature Fomorian noble|BGG}*",
+          "15"
+        ],
+        [
+          "{@creature Fomorian warlock of the dark|BGG}*",
+          "12"
+        ],
+        [
+          "{@creature Gargantua|BGG}*",
+          "21"
+        ],
+        [
+          "{@creature Ogre}",
+          "2"
+        ],
+        [
+          "{@creature Ogre battering ram|MPMM}†",
+          "4"
+        ],
+        [
+          "{@creature Ogre bolt launcher|MPMM}†",
+          "2"
+        ],
+        [
+          "{@creature Ogre chain brute|MPMM}†",
+          "3"
+        ],
+        [
+          "{@creature Ogre howdah|MPMM}†",
+          "2"
+        ],
+        [
+          "{@creature Rot troll|MPMM}†",
+          "9"
+        ],
+        [
+          "{@creature Spirit troll|MPMM}†",
+          "11"
+        ],
+        [
+          "{@creature Troll}",
+          "5"
+        ],
+        [
+          "{@creature Troll amalgam|BGG}*",
+          "17"
+        ],
+        [
+          "{@creature Troll mutate|BGG}*",
+          "7"
+        ],
+        [
+          "{@creature Venom troll|MPMM}†",
+          "7"
+        ]
+      ],
+      "name": "Giants by Kind; Other Giants",
+      "page": 188,
+      "source": "BGG",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

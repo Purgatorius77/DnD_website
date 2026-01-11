@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Star Forge Item Creation",
+      "colLabels": [
+        "Rarity",
+        "Material Cost",
+        "Check DC"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-5 text-right",
+        "col-3 text-right"
+      ],
+      "rows": [
+        [
+          "Common",
+          "100 gp",
+          "10"
+        ],
+        [
+          "Uncommon",
+          "500 gp",
+          "15"
+        ],
+        [
+          "Rare",
+          "5,000 gp",
+          "20"
+        ],
+        [
+          "Very Rare",
+          "50,000 gp",
+          "25"
+        ],
+        [
+          "Legendary",
+          "500,000 gp",
+          "30"
+        ]
+      ],
+      "name": "Star Forge Item Creation",
+      "page": 98,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Enclaves",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

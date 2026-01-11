@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Frost Giants",
+      "colLabels": [
+        "Giant",
+        "CR"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@creature Frost giant}",
+          "8"
+        ],
+        [
+          "{@creature Frost giant everlasting one|MPMM}†",
+          "12"
+        ],
+        [
+          "{@creature Frost giant ice shaper|BGG}*",
+          "17"
+        ],
+        [
+          "{@creature Frost giant of Evil Water|BGG}*",
+          "11"
+        ],
+        [
+          "{@creature Frostmourn|BGG}*",
+          "10"
+        ],
+        [
+          "{@creature Fury of Kostchtchie|BGG}*",
+          "14"
+        ],
+        [
+          "{@creature Rime hulk|BGG}*",
+          "5"
+        ],
+        [
+          "{@creature Scion of Thrym|BGG}*",
+          "24"
+        ]
+      ],
+      "name": "Giants by Kind; Frost Giants",
+      "page": 188,
+      "source": "BGG",
+      "chapter": {
+        "name": "Bestiary",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

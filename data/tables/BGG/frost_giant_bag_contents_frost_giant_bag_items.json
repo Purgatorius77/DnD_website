@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Frost Giant Bag Items",
+      "colLabels": [
+        "d12",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A large bronze bell with no clapper"
+        ],
+        [
+          "2",
+          "A giant-sized wineskin, half-filled with wine frozen to slush"
+        ],
+        [
+          "3",
+          "A necklace made of griffon beaks and skulls"
+        ],
+        [
+          "4",
+          "The jagged claw of a white dragon with ice still riming its tip"
+        ],
+        [
+          "5",
+          "A giant-sized fur cloak, ripped and patched in multiple places"
+        ],
+        [
+          "6",
+          "A rusty longsword used to skin animals"
+        ],
+        [
+          "7",
+          "A sack of dried meat strips, with \"Wolf Treats\" stitched in Giant on the front"
+        ],
+        [
+          "8",
+          "Six large iron caltrops"
+        ],
+        [
+          "9",
+          "Three ivory tusks, each worth 10 gp"
+        ],
+        [
+          "10",
+          "Two polar bear pelts, each worth 20 gp"
+        ],
+        [
+          "11",
+          "A massive, gold-tipped war horn worth 50 gp"
+        ],
+        [
+          "12",
+          "Five large blue quartz gems, each worth 25 gp"
+        ]
+      ],
+      "name": "Frost Giant Bag Contents; Frost Giant Bag Items",
+      "page": 106,
+      "source": "BGG",
+      "chapter": {
+        "name": "Giant Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}
