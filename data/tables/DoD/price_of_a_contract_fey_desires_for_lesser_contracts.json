@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Fey Desires for Lesser Contracts",
+      "colLabels": [
+        "d8",
+        "What the Fey Wants"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Your singing voice"
+        ],
+        [
+          "2",
+          "A trinket that carries great sentimental value"
+        ],
+        [
+          "3",
+          "Companionship (you remain in the Fey's company for an agreed-upon period of time)"
+        ],
+        [
+          "4",
+          "The color in your eyes"
+        ],
+        [
+          "5",
+          "The memory of your first kiss"
+        ],
+        [
+          "6",
+          "The spring in your step or the sparkle in your eyes"
+        ],
+        [
+          "7",
+          "A lock of your hair"
+        ],
+        [
+          "8",
+          "Your name (requiring you to choose a new one for yourself)"
+        ]
+      ],
+      "name": "Price of a Contract; Fey Desires for Lesser Contracts",
+      "page": 9,
+      "source": "DoD",
+      "chapter": {
+        "name": "Feywild Overview",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

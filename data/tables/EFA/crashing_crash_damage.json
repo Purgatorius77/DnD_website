@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Crash Damage",
+      "colLabels": [
+        "Size of Creature or Object Struck",
+        "Bludgeoning Damage"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Medium or smaller",
+          "{@dice 2d10}"
+        ],
+        [
+          "Large",
+          "{@dice 4d10}"
+        ],
+        [
+          "Huge",
+          "{@dice 8d10}"
+        ],
+        [
+          "Gargantuan",
+          "{@dice 16d10}"
+        ]
+      ],
+      "name": "Crashing; Crash Damage",
+      "source": "EFA",
+      "chapter": {
+        "name": "Elemental Airships",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 7
+      }
+    }
+  ]
+}

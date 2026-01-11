@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Domain Visitors",
+      "colLabels": [
+        "d8",
+        "Visitor"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A ranger (use the {@creature scout} stat block) searching for a missing companion, lover, or long-lost ancestor"
+        ],
+        [
+          "2",
+          "A {@creature druid} searching for herbs, mushrooms, or seeds found only in the Feywild"
+        ],
+        [
+          "3",
+          "A {@creature mage} or an {@creature archmage} who wants to serve the Summer Queen or the Queen of Air and Darkness but doesn't know how or where to find her"
+        ],
+        [
+          "4",
+          "An elf (use the {@creature noble} stat block) from the Material Plane who is researching their Fey ancestry"
+        ],
+        [
+          "5",
+          "A hunter (use the {@creature gladiator} or {@creature scout} stat block) who was lured into the Feywild by their prey"
+        ],
+        [
+          "6",
+          "A {@creature githzerai zerth} studying the chaotic energy of the Feywild and the magic of Fey creatures"
+        ],
+        [
+          "7",
+          "A would-be warlock (use the {@creature cultist} or {@creature cult fanatic} stat block) seeking an audience with the domain's archfey in the hope of gaining its patronage"
+        ],
+        [
+          "8",
+          "A friendly {@creature arcanaloth} using {@spell alter self} spells to assume Humanoid form as it searches the Feywild for one of the Books of Keeping"
+        ]
+      ],
+      "name": "Domain Visitors",
+      "page": 21,
+      "source": "DoD",
+      "chapter": {
+        "name": "Creating a Domain of Delight",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

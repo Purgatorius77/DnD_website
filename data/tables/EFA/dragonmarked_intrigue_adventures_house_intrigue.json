@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "House Intrigue",
+      "colLabels": [
+        "1d6",
+        "Adventure Goal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Dragonmarked houses vie for influence over a prominent individual (perhaps one of the characters)."
+        ],
+        [
+          "2",
+          "Dragonmarked houses compete for control of a key site."
+        ],
+        [
+          "3",
+          "Tension builds between two rival dragonmarked houses, threatening to erupt into a deadly feud."
+        ],
+        [
+          "4",
+          "Villains from two or more dragonmarked houses form a dangerous alliance."
+        ],
+        [
+          "5",
+          "A villain tries to disrupt an alliance between two or more dragonmarked houses."
+        ],
+        [
+          "6",
+          "Splinter factions from two dragonmarked houses try toform a new house."
+        ]
+      ],
+      "name": "Dragonmarked Intrigue Adventures; House Intrigue",
+      "source": "EFA",
+      "chapter": {
+        "name": "Dragonmarked Intrigue",
+        "index": 5
+      }
+    }
+  ]
+}

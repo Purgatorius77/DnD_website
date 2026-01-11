@@ -1,0 +1,59 @@
+{
+  "table": [
+    {
+      "caption": "Airship Travel Conditions",
+      "colLabels": [
+        "Conditions",
+        "Encounter Distance",
+        "Navigation DC"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Day, clear skies",
+          "1,000 ft.",
+          "10"
+        ],
+        [
+          "Day, light precipitation",
+          "500 ft.",
+          "13"
+        ],
+        [
+          "Day, heavy precipitation",
+          "250 ft.",
+          "15"
+        ],
+        [
+          "Night, clear skies",
+          "500 ft.",
+          "10"
+        ],
+        [
+          "Night, light precipitation",
+          "250 ft.",
+          "15"
+        ],
+        [
+          "Night, heavy precipitation",
+          "{@dice 6d6 × 10} ft.",
+          "20"
+        ]
+      ],
+      "name": "Encounter Distance; Airship Travel Conditions",
+      "source": "EFA",
+      "chapter": {
+        "name": "Elemental Airships",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 7
+      }
+    }
+  ]
+}

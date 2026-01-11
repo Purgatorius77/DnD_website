@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Environmental Hazards",
+      "colLabels": [
+        "1d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The airship experiences rough turbulence. Each creature aboard the ship must succeed on a {@dc 10} Constitution saving throw or have the {@condition Poisoned|XPHB} condition for {@dice 1d4} hours due to motion sickness."
+        ],
+        [
+          "2",
+          "The airship travels at extreme altitudes for {@dice 1d4} hours. During this time, the ship is in an area of extreme cold (see \"{@hazard Extreme Cold|XDMG|Environmental Effects}\" in the {@book Dungeon Master's Guide|XDMG}) and reduced gravity: creatures' and objects' weights are halved, and creatures' High Jump and Long Jump distances are doubled."
+        ],
+        [
+          "3",
+          "The airship passes through a lightning storm, which takes {@dice 1d4} hours. During this time, the area around the ship is {@variantrule Heavily Obscured|XPHB}, and any creature that starts its turn on the ship's deck must succeed on a {@dc 10} Dexterity saving throw or be struck by lightning and take 4 ({@dice 1d8}) Lightning damage."
+        ],
+        [
+          "4",
+          "The airship enters an area of strong wind (see \"{@hazard Strong Wind|XDMG|Environmental Effects}\" in the {@book Dungeon Master's Guide|XDMG}), which lasts for {@dice 1d4} hours. When the ship first enters this area, the crew member operating the ship's Helm must succeed on a {@dc 15} Constitution saving throw, or the ship inverts."
+        ]
+      ],
+      "name": "Weather Hazards; Environmental Hazards",
+      "source": "EFA",
+      "chapter": {
+        "name": "Elemental Airships",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 7
+      }
+    }
+  ]
+}

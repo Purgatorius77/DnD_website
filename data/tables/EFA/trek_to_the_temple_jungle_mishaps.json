@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Jungle Mishaps",
+      "colLabels": [
+        "1d8",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–3",
+          "Four {@creature Vulkoori Stingblade|EFA|Vulkoori Stingblades}"
+        ],
+        [
+          "4–5",
+          "One {@creature Vulkoori Venom Priest|EFA} and two Vulkoori Stingblades"
+        ],
+        [
+          "6–7",
+          "Three Vulkoori Stingblades and one {@creature Giant Scorpion|XMM}"
+        ],
+        [
+          "8",
+          "One {@creature Scout Captain|XMM}, one Vulkoori Venom Priest, and four Vulkoori Stingblades (all drow) just starting a battle against the party's rivals"
+        ]
+      ],
+      "name": "Trek to the Temple; Jungle Mishaps",
+      "source": "EFA",
+      "chapter": {
+        "name": "Morgrave Expeditions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

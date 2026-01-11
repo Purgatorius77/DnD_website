@@ -1,0 +1,49 @@
+{
+  "table": [
+    {
+      "caption": "Xen'drik Journeys",
+      "colLabels": [
+        "Transport",
+        "Cost",
+        "Time"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-3",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "Sailing Ship",
+          "150 GP/person",
+          "32 days"
+        ],
+        [
+          "Lyrandar Galleon",
+          "750 GP/person",
+          "7 days"
+        ],
+        [
+          "Lyrandar Airship",
+          "1,500 GP/person",
+          "3 days"
+        ],
+        [
+          "{@spell Teleportation Circle|XPHB}",
+          "2,500 GP",
+          "Instant"
+        ]
+      ],
+      "name": "Xen'drik Journeys",
+      "source": "EFA",
+      "chapter": {
+        "name": "Morgrave Expeditions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

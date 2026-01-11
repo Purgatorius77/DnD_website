@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Fortune Tellers",
+      "page": 13,
+      "colLabels": [
+        "d6",
+        "Fortune Teller"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "An entertainer at a street fair or civic festival, who emphasizes that this card reading is \"for entertainment purposes only\""
+        ],
+        [
+          "2",
+          "A professional fortune teller with a shop in a small town, who tries to inject the reading with elements of romance"
+        ],
+        [
+          "3",
+          "A seer in a temple, whose eyes are closed throughout the reading and who couches everything in terms of the will of a certain god"
+        ],
+        [
+          "4",
+          "A hag who cackles gleefully at every hint of danger or destruction in the reading"
+        ],
+        [
+          "5",
+          "A haunted deck of cards that lays itself out and narrates the reading in a distant, ghostly echo"
+        ],
+        [
+          "6",
+          "A member of the {@book Heralds of the Comet|BMT|11|Heralds of the Comet} (an apocalyptic cult described in The Book of Many Things), who stresses danger and destruction in the reading"
+        ]
+      ],
+      "name": "Using an Adventure Spread During Play; Fortune Tellers",
+      "source": "DMTCRG",
+      "chapter": {
+        "name": "Adventure Spreads",
+        "index": 2
+      }
+    }
+  ]
+}

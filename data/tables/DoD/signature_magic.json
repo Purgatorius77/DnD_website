@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Signature Magic",
+      "colLabels": [
+        "d8",
+        "Magic"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Arcane Antlers.} The archfey has antlers made of metal, crystal, bone, or some other substance, which allow the archfey to raise the dead. They shed their antlers and grow new ones every hundred years, prompting thieves to sneak into the domain to acquire the shed antlers."
+        ],
+        [
+          "2",
+          "{@b Compelling Voice.} The archfey has a magical voice that can charm creatures of a certain type (such as Beasts or Fey). This voice might be as soft as a whisper or loud like thunder."
+        ],
+        [
+          "3",
+          "{@b Dreamwalk.} When they sleep, the archfey projects a ghost-like version of themself that can leave their body and go anywhere in their domain."
+        ],
+        [
+          "4",
+          "{@b Hand of Knowing.} One of the archfey's hands blurs as though it were in multiple places at once. The archfey can learn the entire history of a creature or object by touching it with that hand."
+        ],
+        [
+          "5",
+          "{@b Health Aura.} The archfey's presence rids creatures and vegetation of disease. Healthy vegetation yields an overabundance of flowers and fruit."
+        ],
+        [
+          "6",
+          "{@b Scrying Eye.} This archfey has an ornately crafted, removable eye that has the power of {@sense truesight} (as described in the Monster Manual). The archfey can see through this orb at all times. If the detached eye is destroyed, it rematerializes undamaged in the archfey's empty eye socket."
+        ],
+        [
+          "7",
+          "{@b Simulacra.} The archfey can make magical copies of themself and other creatures. These simulacra are similar to those created by the {@spell simulacrum} spell."
+        ],
+        [
+          "8",
+          "{@b Time Distortion.} For each minute spent in the archfey's presence, an hour passes elsewhere."
+        ]
+      ],
+      "name": "Signature Magic",
+      "page": 14,
+      "source": "DoD",
+      "chapter": {
+        "name": "Creating an Archfey",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

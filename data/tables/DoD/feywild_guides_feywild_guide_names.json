@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Feywild Guide Names",
+      "colLabels": [
+        "d8",
+        "Name"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Fetter"
+        ],
+        [
+          "2",
+          "Fiddlebones"
+        ],
+        [
+          "3",
+          "Moonray"
+        ],
+        [
+          "4",
+          "Pip"
+        ],
+        [
+          "5",
+          "Starlight"
+        ],
+        [
+          "6",
+          "Stumpwick"
+        ],
+        [
+          "7",
+          "Thistledown"
+        ],
+        [
+          "8",
+          "Whisperwind"
+        ]
+      ],
+      "name": "Feywild Guides; Feywild Guide Names",
+      "page": 5,
+      "source": "DoD",
+      "chapter": {
+        "name": "Feywild Overview",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

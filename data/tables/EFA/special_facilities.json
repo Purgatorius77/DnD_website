@@ -1,0 +1,94 @@
+{
+  "table": [
+    {
+      "caption": "Special Facilities",
+      "colLabels": [
+        "Level",
+        "Special Facility",
+        "Prerequisite",
+        "Order"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2",
+        "col-6",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "5",
+          "{@facility Dragonmark Outpost|EFA}",
+          "Renown 10+ with {@area any dragonmarked house|1d6|x}*",
+          "Empower"
+        ],
+        [
+          "9",
+          "{@facility Kundarak Vault|EFA}",
+          "Renown 15+ with {@area House Kundarak|1ea|x}",
+          "Trade"
+        ],
+        [
+          "9",
+          "{@facility Navigator's Helm|EFA}",
+          "None",
+          "Empower"
+        ],
+        [
+          "9",
+          "{@facility Orien Helm|EFA}",
+          "Renown 15+ with {@area House Orien|1f6|x}",
+          "Empower"
+        ],
+        [
+          "13",
+          "{@facility Artificer's Forge|EFA}",
+          "Ability to use Artisan's Tools as a {@variantrule Spellcasting Focus|XPHB}",
+          "Craft"
+        ],
+        [
+          "13",
+          "{@facility Inquisitive Agency|EFA}",
+          "None",
+          "Research"
+        ],
+        [
+          "13",
+          "{@facility Lyrandar Helm|EFA}",
+          "Renown 25+ with {@area House Lyrandar|1ee|x}",
+          "Empower"
+        ],
+        [
+          "13",
+          "{@facility Manifest Zone|EFA}",
+          "Ability to use a Spellcasting Focus",
+          "Empower"
+        ],
+        [
+          "13",
+          "{@facility Museum|EFA}",
+          "None",
+          "Research"
+        ],
+        [
+          "17",
+          "{@facility Construct Forge|EFA}",
+          "Ability to use Artisan's Tools as a Spellcasting Focus",
+          "Recruit"
+        ]
+      ],
+      "footnotes": [
+        "*Certain benefits of this facility have additional prerequisites."
+      ],
+      "name": "Special Facilities",
+      "source": "EFA",
+      "chapter": {
+        "name": "Bastions in Khorvaire",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

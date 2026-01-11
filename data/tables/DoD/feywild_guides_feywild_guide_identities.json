@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Feywild Guide Identities",
+      "colLabels": [
+        "d8",
+        "Identity"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Friendly forest gnome (use the {@creature scout} stat block, but change its size to Small)"
+        ],
+        [
+          "2",
+          "Gloomy wood elf druid (use the {@creature druid} stat block)"
+        ],
+        [
+          "3",
+          "Flamboyant {@creature pixie}"
+        ],
+        [
+          "4",
+          "Happy-go-lucky {@creature satyr}"
+        ],
+        [
+          "5",
+          "Ultra-competitive {@creature sprite}"
+        ],
+        [
+          "6",
+          "Overly cautious {@creature treant sapling|WBtW} (see chapter 1 of The Wild Beyond the Witchlight for its stat block)"
+        ],
+        [
+          "7",
+          "Giggly goblin warlock (use the {@creature cult fanatic} stat block, but change its size to Small)"
+        ],
+        [
+          "8",
+          "Humorless {@creature centaur}"
+        ]
+      ],
+      "name": "Feywild Guides; Feywild Guide Identities",
+      "page": 5,
+      "source": "DoD",
+      "chapter": {
+        "name": "Feywild Overview",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}
