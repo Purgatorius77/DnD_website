@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Object Armor Class",
+      "colLabels": [
+        "AC",
+        "Substance"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "11",
+          "Cloth, paper, rope"
+        ],
+        [
+          "13",
+          "Crystal, glass, ice"
+        ],
+        [
+          "15",
+          "Wood"
+        ],
+        [
+          "17",
+          "Stone"
+        ],
+        [
+          "19",
+          "Iron, steel"
+        ],
+        [
+          "21",
+          "Mithral"
+        ],
+        [
+          "23",
+          "Adamantine"
+        ]
+      ],
+      "name": "Tables; Object Armor Class",
+      "source": "XScreen"
+    }
+  ]
+}

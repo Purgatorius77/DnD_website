@@ -1,0 +1,106 @@
+{
+  "table": [
+    {
+      "caption": "Class Overview",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Class",
+        "Likes...",
+        "Primary Ability",
+        "Complexity"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3",
+        "col-3",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "{@class Barbarian|XPHB}",
+          "Battle",
+          "Strength",
+          "Average"
+        ],
+        [
+          "{@class Bard|XPHB}",
+          "Performing",
+          "Charisma",
+          "High"
+        ],
+        [
+          "{@class Cleric|XPHB}",
+          "Gods",
+          "Wisdom",
+          "Average"
+        ],
+        [
+          "{@class Druid|XPHB}",
+          "Nature",
+          "Wisdom",
+          "High"
+        ],
+        [
+          "{@class Fighter|XPHB}",
+          "Weapons",
+          "Strength or Dexterity",
+          "Low"
+        ],
+        [
+          "{@class Monk|XPHB}",
+          "Unarmed combat",
+          "Dexterity and Wisdom",
+          "High"
+        ],
+        [
+          "{@class Paladin|XPHB}",
+          "Defense",
+          "Strength and Charisma",
+          "Average"
+        ],
+        [
+          "{@class Ranger|XPHB}",
+          "Survival",
+          "Dexterity and Wisdom",
+          "Average"
+        ],
+        [
+          "{@class Rogue|XPHB}",
+          "Stealth",
+          "Dexterity",
+          "Low"
+        ],
+        [
+          "{@class Sorcerer|XPHB}",
+          "Power",
+          "Charisma",
+          "High"
+        ],
+        [
+          "{@class Warlock|XPHB}",
+          "Occult lore",
+          "Charisma",
+          "High"
+        ],
+        [
+          "{@class Wizard|XPHB}",
+          "Spellbooks",
+          "Intelligence",
+          "Average"
+        ]
+      ],
+      "name": "Choose a Class; Class Overview",
+      "page": 33,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

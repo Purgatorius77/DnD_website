@@ -1,0 +1,67 @@
+{
+  "table": [
+    {
+      "caption": "Spellcasting Services",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Spell Level",
+        "Availability",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-6",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@filter Cantrip|spells|level=0}",
+          "Village, town, or city",
+          "30 GP"
+        ],
+        [
+          "{@filter 1|spells|level=1}",
+          "Village, town, or city",
+          "50 GP"
+        ],
+        [
+          "{@filter 2|spells|level=2}",
+          "Village, town, or city",
+          "200 GP"
+        ],
+        [
+          "{@filter 3|spells|level=3}",
+          "Town or city only",
+          "300 GP"
+        ],
+        [
+          "{@filter 4–5|spells|level=4;5}",
+          "Town or city only",
+          "2,000 GP"
+        ],
+        [
+          "{@filter 6–8|spells|level=6;8}",
+          "City only",
+          "20,000 GP"
+        ],
+        [
+          "{@filter 9|spells|level=9}",
+          "City only",
+          "100,000 GP"
+        ]
+      ],
+      "name": "Spellcasting Services",
+      "page": 232,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

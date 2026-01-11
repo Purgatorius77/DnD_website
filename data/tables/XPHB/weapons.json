@@ -1,0 +1,522 @@
+{
+  "table": [
+    {
+      "caption": "Weapons",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Name",
+        "Damage",
+        "Properties",
+        "Mastery",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2",
+        "col-4-1",
+        "col-1-3 text-center",
+        "col-1-3 text-center",
+        "col-1-3 text-right"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "width": 6,
+            "entry": "{@i Simple Melee Weapons}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Club|XPHB}",
+            "{@dice 1d4} Bludgeoning",
+            "{@itemProperty L|XPHB|Light}",
+            "{@itemMastery Slow}",
+            "2 lb.",
+            "1 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Dagger|XPHB}",
+            "{@dice 1d4} Piercing",
+            "{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+            "{@itemMastery Nick}",
+            "1 lb.",
+            "2 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Greatclub|XPHB}",
+            "{@dice 1d8} Bludgeoning",
+            "{@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Push}",
+            "10 lb.",
+            "2 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Handaxe|XPHB}",
+            "{@dice 1d6} Slashing",
+            "{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+            "{@itemMastery Vex}",
+            "2 lb.",
+            "5 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Javelin|XPHB}",
+            "{@dice 1d6} Piercing",
+            "{@itemProperty T|XPHB|Thrown} (Range 30/120)",
+            "{@itemMastery Slow}",
+            "2 lb.",
+            "5 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Light Hammer|XPHB}",
+            "{@dice 1d4} Bludgeoning",
+            "{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+            "{@itemMastery Nick}",
+            "2 lb.",
+            "2 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Mace|XPHB}",
+            "{@dice 1d6} Bludgeoning",
+            "—",
+            "{@itemMastery Sap}",
+            "4 lb.",
+            "5 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Quarterstaff|XPHB}",
+            "{@dice 1d6} Bludgeoning",
+            "{@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
+            "{@itemMastery Topple}",
+            "4 lb.",
+            "2 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Sickle|XPHB}",
+            "{@dice 1d4} Slashing",
+            "{@itemProperty L|XPHB|Light}",
+            "{@itemMastery Nick}",
+            "2 lb.",
+            "1 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Spear|XPHB}",
+            "{@dice 1d6} Piercing",
+            "{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
+            "{@itemMastery Sap}",
+            "3 lb.",
+            "1 GP"
+          ]
+        },
+        [
+          {
+            "type": "cell",
+            "width": 6,
+            "entry": "{@i Simple Ranged Weapons}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Dart|XPHB}",
+            "{@dice 1d4} Piercing",
+            "{@itemProperty F|XPHB|Finesse}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+            "{@itemMastery Vex}",
+            "1/4 lb.",
+            "5 CP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Light Crossbow|XPHB}",
+            "{@dice 1d8} Piercing",
+            "{@itemProperty A|XPHB|Ammunition} (Range 80/320; Bolt), {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Slow}",
+            "5 lb.",
+            "25 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Shortbow|XPHB}",
+            "{@dice 1d6} Piercing",
+            "{@itemProperty A|XPHB|Ammunition} (Range 80/320; Arrow), {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Vex}",
+            "2 lb.",
+            "25 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Sling|XPHB}",
+            "{@dice 1d4} Bludgeoning",
+            "{@itemProperty A|XPHB|Ammunition} (Range 30/120; Bullet)",
+            "{@itemMastery Slow}",
+            "—",
+            "1 SP"
+          ]
+        },
+        [
+          {
+            "type": "cell",
+            "width": 6,
+            "entry": "{@i Martial Melee Weapons}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Battleaxe|XPHB}",
+            "{@dice 1d8} Slashing",
+            "{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+            "{@itemMastery Topple}",
+            "4 lb.",
+            "10 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Flail|XPHB}",
+            "{@dice 1d8} Bludgeoning",
+            "—",
+            "{@itemMastery Sap}",
+            "2 lb.",
+            "10 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Glaive|XPHB}",
+            "{@dice 1d10} Slashing",
+            "{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Graze}",
+            "6 lb.",
+            "20 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Greataxe|XPHB}",
+            "{@dice 1d12} Slashing",
+            "{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Cleave}",
+            "7 lb.",
+            "30 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Greatsword|XPHB}",
+            "{@dice 2d6} Slashing",
+            "{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Graze}",
+            "6 lb.",
+            "50 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Halberd|XPHB}",
+            "{@dice 1d10} Slashing",
+            "{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Cleave}",
+            "6 lb.",
+            "20 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Lance|XPHB}",
+            "{@dice 1d10} Piercing",
+            "{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed} (unless mounted)",
+            "{@itemMastery Topple}",
+            "6 lb.",
+            "10 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Longsword|XPHB}",
+            "{@dice 1d8} Slashing",
+            "{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+            "{@itemMastery Sap}",
+            "3 lb.",
+            "15 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Maul|XPHB}",
+            "{@dice 2d6} Bludgeoning",
+            "{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Topple}",
+            "10 lb.",
+            "10 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Morningstar|XPHB}",
+            "{@dice 1d8} Piercing",
+            "—",
+            "{@itemMastery Sap}",
+            "4 lb.",
+            "15 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Pike|XPHB}",
+            "{@dice 1d10} Piercing",
+            "{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Push}",
+            "18 lb.",
+            "5 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Rapier|XPHB}",
+            "{@dice 1d8} Piercing",
+            "{@itemProperty F|XPHB|Finesse}",
+            "{@itemMastery Vex}",
+            "2 lb.",
+            "25 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Scimitar|XPHB}",
+            "{@dice 1d6} Slashing",
+            "{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+            "{@itemMastery Nick}",
+            "3 lb.",
+            "25 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Shortsword|XPHB}",
+            "{@dice 1d6} Piercing",
+            "{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+            "{@itemMastery Vex}",
+            "2 lb.",
+            "10 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Trident|XPHB}",
+            "{@dice 1d8} Piercing",
+            "{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+            "{@itemMastery Topple}",
+            "4 lb.",
+            "5 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Warhammer|XPHB}",
+            "{@dice 1d8} Bludgeoning",
+            "{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+            "{@itemMastery Push}",
+            "5 lb.",
+            "15 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item War Pick|XPHB}",
+            "{@dice 1d8} Piercing",
+            "{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+            "{@itemMastery Sap}",
+            "2 lb.",
+            "5 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Whip|XPHB}",
+            "{@dice 1d4} Slashing",
+            "{@itemProperty F|XPHB|Finesse}, {@itemProperty R|XPHB|Reach}",
+            "{@itemMastery Slow}",
+            "3 lb.",
+            "2 GP"
+          ]
+        },
+        [
+          {
+            "type": "cell",
+            "width": 6,
+            "entry": "{@i Martial Ranged Weapons}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Blowgun|XPHB}",
+            "1 Piercing",
+            "{@itemProperty A|XPHB|Ammunition} (Range 25/100; Needle), {@itemProperty LD|XPHB|Loading}",
+            "{@itemMastery Vex}",
+            "1 lb.",
+            "10 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Hand Crossbow|XPHB}",
+            "{@dice 1d6} Piercing",
+            "{@itemProperty A|XPHB|Ammunition} (Range 30/120; Bolt), {@itemProperty L|XPHB|Light}, {@itemProperty LD|XPHB|Loading}",
+            "{@itemMastery Vex}",
+            "3 lb.",
+            "75 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Heavy Crossbow|XPHB}",
+            "{@dice 1d10} Piercing",
+            "{@itemProperty A|XPHB|Ammunition} (Range 100/400; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Push}",
+            "18 lb.",
+            "50 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Longbow|XPHB}",
+            "{@dice 1d8} Piercing",
+            "{@itemProperty A|XPHB|Ammunition} (Range 150/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Slow}",
+            "2 lb.",
+            "50 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Musket|XPHB}",
+            "{@dice 1d12} Piercing",
+            "{@itemProperty A|XPHB|Ammunition} (Range 40/120; Bullet), {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Slow}",
+            "10 lb.",
+            "500 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Pistol|XPHB}",
+            "{@dice 1d10} Piercing",
+            "{@itemProperty A|XPHB|Ammunition} (Range 30/90; Bullet), {@itemProperty LD|XPHB|Loading}",
+            "{@itemMastery Vex}",
+            "3 lb.",
+            "250 GP"
+          ]
+        }
+      ],
+      "name": "Weapons",
+      "page": 213,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

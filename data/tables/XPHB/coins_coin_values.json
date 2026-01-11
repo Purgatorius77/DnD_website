@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Coin Values",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Coin",
+        "Value in GP"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Copper Piece (CP)",
+          "1/100"
+        ],
+        [
+          "Silver Piece (SP)",
+          "1/10"
+        ],
+        [
+          "Electrum Piece (EP)",
+          "1/2"
+        ],
+        [
+          "Gold Piece (GP)",
+          "1"
+        ],
+        [
+          "Platinum Piece (PP)",
+          "10"
+        ]
+      ],
+      "name": "Coins; Coin Values",
+      "page": 213,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

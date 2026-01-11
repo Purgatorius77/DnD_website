@@ -1,0 +1,62 @@
+{
+  "table": [
+    {
+      "caption": "Ability Score Point Costs",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Score",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "8",
+          "0"
+        ],
+        [
+          "9",
+          "1"
+        ],
+        [
+          "10",
+          "2"
+        ],
+        [
+          "11",
+          "3"
+        ],
+        [
+          "12",
+          "4"
+        ],
+        [
+          "13",
+          "5"
+        ],
+        [
+          "14",
+          "7"
+        ],
+        [
+          "15",
+          "9"
+        ]
+      ],
+      "name": "Ability Score Point Costs",
+      "page": 38,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

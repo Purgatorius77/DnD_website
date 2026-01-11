@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Cover",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Degree",
+        "Benefit to Target",
+        "Offered By..."
+      ],
+      "colStyles": [
+        "col-2",
+        "col-4",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@variantrule Cover|XPHB|Half}",
+          "+2 bonus to AC and Dexterity saving throws",
+          "Another creature or an object that covers at least half of the target"
+        ],
+        [
+          "{@variantrule Cover|XPHB|Three-Quarters}",
+          "+5 bonus to AC and Dexterity saving throws",
+          "An object that covers at least three-quarters of the target"
+        ],
+        [
+          "{@variantrule Cover|XPHB|Total}",
+          "Can't be targeted directly",
+          "An object that covers the whole target"
+        ]
+      ],
+      "name": "Cover",
+      "page": 25,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Playing the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

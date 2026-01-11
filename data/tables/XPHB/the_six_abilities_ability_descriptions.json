@@ -1,0 +1,54 @@
+{
+  "table": [
+    {
+      "caption": "Ability Descriptions",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Ability",
+        "Score Measures..."
+      ],
+      "colStyles": [
+        "col-4",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "Strength",
+          "Physical might"
+        ],
+        [
+          "Dexterity",
+          "Agility, reflexes, and balance"
+        ],
+        [
+          "Constitution",
+          "Health and stamina"
+        ],
+        [
+          "Intelligence",
+          "Reasoning and memory"
+        ],
+        [
+          "Wisdom",
+          "Perceptiveness and mental fortitude"
+        ],
+        [
+          "Charisma",
+          "Confidence, poise, and charm"
+        ]
+      ],
+      "name": "The Six Abilities; Ability Descriptions",
+      "page": 10,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Playing the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

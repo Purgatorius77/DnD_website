@@ -1,0 +1,62 @@
+{
+  "table": [
+    {
+      "caption": "Schools of Magic",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "School",
+        "Typical Effects"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "Abjuration",
+          "Prevents or reverses harmful effects"
+        ],
+        [
+          "Conjuration",
+          "Transports creatures or objects"
+        ],
+        [
+          "Divination",
+          "Reveals information"
+        ],
+        [
+          "Enchantment",
+          "Influences minds"
+        ],
+        [
+          "Evocation",
+          "Channels energy to create effects that are often destructive"
+        ],
+        [
+          "Illusion",
+          "Deceives the mind or senses"
+        ],
+        [
+          "Necromancy",
+          "Manipulates life and death"
+        ],
+        [
+          "Transmutation",
+          "Transforms creatures or objects"
+        ]
+      ],
+      "name": "School of Magic; Schools of Magic",
+      "page": 236,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Spells",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 7
+      }
+    }
+  ]
+}

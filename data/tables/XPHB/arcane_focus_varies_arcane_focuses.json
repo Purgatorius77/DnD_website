@@ -1,0 +1,57 @@
+{
+  "table": [
+    {
+      "caption": "Arcane Focuses",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Focus",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Crystal|XPHB}",
+          "1 lb.",
+          "10 GP"
+        ],
+        [
+          "{@item Orb|XPHB}",
+          "3 lb.",
+          "20 GP"
+        ],
+        [
+          "{@item Rod|XPHB}",
+          "2 lb.",
+          "10 GP"
+        ],
+        [
+          "{@item Staff|XPHB} (also a {@item Quarterstaff|XPHB})",
+          "4 lb.",
+          "5 GP"
+        ],
+        [
+          "{@item Wand|XPHB}",
+          "1 lb.",
+          "10 GP"
+        ]
+      ],
+      "name": "Arcane Focus (Varies); Arcane Focuses",
+      "page": 224,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

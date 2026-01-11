@@ -1,0 +1,42 @@
+{
+  "table": [
+    {
+      "caption": "Hirelings",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Service",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "Skilled hireling",
+          "2 GP per day"
+        ],
+        [
+          "Untrained hireling",
+          "2 SP per day"
+        ],
+        [
+          "Messenger",
+          "2 CP per mile"
+        ]
+      ],
+      "name": "Hirelings",
+      "page": 232,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

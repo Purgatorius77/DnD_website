@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Charisma",
+      "colLabels": [
+        "1d4",
+        "High Charisma",
+        "Low Charisma"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5 text-center",
+        "col-5 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "Charming",
+          "Pedantic"
+        ],
+        [
+          "2",
+          "Commanding",
+          "Humorless"
+        ],
+        [
+          "3",
+          "Hilarious",
+          "Reserved"
+        ],
+        [
+          "4",
+          "Inspiring",
+          "Tactless"
+        ]
+      ],
+      "name": "Describe Appearance and Personality; Charisma",
+      "page": 38,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

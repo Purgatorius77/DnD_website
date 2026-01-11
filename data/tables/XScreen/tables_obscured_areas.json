@@ -1,0 +1,31 @@
+{
+  "table": [
+    {
+      "caption": "Obscured Areas",
+      "colLabels": [
+        "Obscureness",
+        "Effect",
+        "Examples"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-5",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "{@variantrule Lightly Obscured|XPHB}",
+          "Creatures have {@variantrule Disadvantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks that rely on sight",
+          "{@variantrule Dim Light|XPHB}, patchy fog, moderate foliage"
+        ],
+        [
+          "{@variantrule Heavily Obscured|XPHB}",
+          "Creatures have the {@condition Blinded|XPHB} condition",
+          "{@variantrule Darkness|XPHB}, heavy fog, dense foliage"
+        ]
+      ],
+      "name": "Tables; Obscured Areas",
+      "source": "XScreen"
+    }
+  ]
+}

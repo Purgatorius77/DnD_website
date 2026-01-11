@@ -1,0 +1,46 @@
+{
+  "table": [
+    {
+      "caption": "Fixed Hit Points by Class",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Class",
+        "Hit Points per Level"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@class Barbarian|XPHB}",
+          "7 + Con. modifier"
+        ],
+        [
+          "{@class Fighter|XPHB}, {@class Paladin|XPHB}, or {@class Ranger|XPHB}",
+          "6 + Con. modifier"
+        ],
+        [
+          "{@class Bard|XPHB}, {@class Cleric|XPHB}, {@class Druid|XPHB}, {@class Monk|XPHB}, {@class Rogue|XPHB}, or {@class Warlock|XPHB}",
+          "5 + Con. modifier"
+        ],
+        [
+          "{@class Sorcerer|XPHB} or {@class Wizard|XPHB}",
+          "4 + Con. modifier"
+        ]
+      ],
+      "name": "Adjust Hit Points and Hit Point Dice; Fixed Hit Points by Class",
+      "page": 42,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

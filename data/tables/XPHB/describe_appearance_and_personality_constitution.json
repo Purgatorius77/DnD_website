@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Constitution",
+      "colLabels": [
+        "1d4",
+        "High Constitution",
+        "Low Constitution"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5 text-center",
+        "col-5 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "Energetic",
+          "Frail"
+        ],
+        [
+          "2",
+          "Hale",
+          "Squeamish"
+        ],
+        [
+          "3",
+          "Hearty",
+          "Lethargic"
+        ],
+        [
+          "4",
+          "Stable",
+          "Fragile"
+        ]
+      ],
+      "name": "Describe Appearance and Personality; Constitution",
+      "page": 38,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

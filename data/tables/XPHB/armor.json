@@ -1,0 +1,222 @@
+{
+  "table": [
+    {
+      "caption": "Armor",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Armor",
+        "Armor Class (AC)",
+        "Strength",
+        "Stealth",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-2-9",
+        "col-2-9",
+        "col-1-4",
+        "col-2",
+        "col-1-4 text-center",
+        "col-1-4 text-right"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "width": 6,
+            "entry": "{@i Light Armor (1 Minute to Don or Doff)}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Padded Armor|XPHB}",
+            "11 + Dex modifier",
+            "—",
+            "{@variantrule Disadvantage|XPHB}",
+            "8 lb.",
+            "5 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Leather Armor|XPHB}",
+            "11 + Dex modifier",
+            "—",
+            "—",
+            "10 lb.",
+            "10 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Studded Leather Armor|XPHB}",
+            "12 + Dex modifier",
+            "—",
+            "—",
+            "13 lb.",
+            "45 GP"
+          ]
+        },
+        [
+          {
+            "type": "cell",
+            "width": 6,
+            "entry": "{@i Medium Armor (5 Minutes to Don and 1 Minute to Doff)}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Hide Armor|XPHB}",
+            "12 + Dex modifier (max 2)",
+            "—",
+            "—",
+            "12 lb.",
+            "10 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Chain Shirt|XPHB}",
+            "13 + Dex modifier (max 2)",
+            "—",
+            "—",
+            "20 lb.",
+            "50 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Scale Mail|XPHB}",
+            "14 + Dex modifier (max 2)",
+            "—",
+            "{@variantrule Disadvantage|XPHB}",
+            "45 lb.",
+            "50 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Breastplate|XPHB}",
+            "14 + Dex modifier (max 2)",
+            "—",
+            "—",
+            "20 lb.",
+            "400 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Half Plate Armor|XPHB}",
+            "15 + Dex modifier (max 2)",
+            "—",
+            "{@variantrule Disadvantage|XPHB}",
+            "40 lb.",
+            "750 GP"
+          ]
+        },
+        [
+          {
+            "type": "cell",
+            "width": 6,
+            "entry": "{@i Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Ring Mail|XPHB}",
+            "14",
+            "—",
+            "{@variantrule Disadvantage|XPHB}",
+            "40 lb.",
+            "30 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Chain Mail|XPHB}",
+            "16",
+            "Str 13",
+            "{@variantrule Disadvantage|XPHB}",
+            "55 lb.",
+            "75 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Splint Armor|XPHB}",
+            "17",
+            "Str 15",
+            "{@variantrule Disadvantage|XPHB}",
+            "60 lb.",
+            "200 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Plate Armor|XPHB}",
+            "18",
+            "Str 15",
+            "{@variantrule Disadvantage|XPHB}",
+            "65 lb.",
+            "1,500 GP"
+          ]
+        },
+        [
+          {
+            "type": "cell",
+            "width": 6,
+            "entry": "{@i Shield ({@action Utilize|XPHB} Action to Don or Doff)}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Shield|XPHB}",
+            "+2",
+            "—",
+            "—",
+            "6 lb.",
+            "10 GP"
+          ]
+        }
+      ],
+      "name": "Armor",
+      "page": 219,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

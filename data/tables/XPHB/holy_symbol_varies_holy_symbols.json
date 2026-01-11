@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Holy Symbols",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Symbol",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Amulet|XPHB} (worn or held)",
+          "1 lb.",
+          "5 GP"
+        ],
+        [
+          "{@item Emblem|XPHB} (borne on fabric or a Shield)",
+          "—",
+          "5 GP"
+        ],
+        [
+          "{@item Reliquary|XPHB} (held)",
+          "2 lb.",
+          "5 GP"
+        ]
+      ],
+      "name": "Holy Symbol (Varies); Holy Symbols",
+      "page": 226,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

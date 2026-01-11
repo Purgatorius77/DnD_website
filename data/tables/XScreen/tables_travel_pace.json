@@ -1,0 +1,58 @@
+{
+  "table": [
+    {
+      "caption": "Travel Pace",
+      "colLabelRows": [
+        [
+          "",
+          {
+            "type": "cellHeader",
+            "width": 3,
+            "entry": "Distance Traveled Per...",
+            "style": "th-skewer"
+          },
+          ""
+        ],
+        [
+          "Pace",
+          "Minute",
+          "Hour",
+          "Day",
+          "Effect"
+        ]
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "Fast",
+          "400 feet",
+          "4 miles",
+          "30 miles",
+          "{@variantrule Disadvantage|XPHB} on Wisdom ({@skill Perception|XPHB} or {@skill Survival|XPHB}) and Dexterity ({@skill Stealth|XPHB}) checks"
+        ],
+        [
+          "Normal",
+          "300 feet",
+          "3 miles",
+          "24 miles",
+          "{@variantrule Disadvantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks"
+        ],
+        [
+          "Slow",
+          "200 feet",
+          "2 miles",
+          "18 miles",
+          "{@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB} or {@skill Survival|XPHB}) checks"
+        ]
+      ],
+      "name": "Tables; Travel Pace",
+      "source": "XScreen"
+    }
+  ]
+}

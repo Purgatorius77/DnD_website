@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Starting Equipment at Higher Levels",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Starting Level",
+        "Equipment and Money",
+        "Magic Items"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-6",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "2–4",
+          "Normal starting equipment",
+          "1 {@filter Common|items|rarity=Common}"
+        ],
+        [
+          "5–10",
+          "500 GP plus {@dice 1d10 × 25} GP plus normal starting equipment",
+          "1 {@filter Common|items|rarity=Common}, 1 {@filter Uncommon|items|rarity=Uncommon}"
+        ],
+        [
+          "11–16",
+          "5,000 gp plus {@dice 1d10 × 250} GP plus normal starting equipment",
+          "2 {@filter Common|items|rarity=Common}, 3 {@filter Uncommon|items|rarity=Uncommon}, 1 {@filter Rare|items|rarity=Rare}"
+        ],
+        [
+          "17–20",
+          "20,000 GP plus {@dice 1d10 × 250} GP plus normal starting equipment",
+          "2 {@filter Common|items|rarity=Common}, 4 {@filter Uncommon|items|rarity=Uncommon}, 3 {@filter Rare|items|rarity=Rare}, 1 {@filter Very Rare|items|rarity=Very Rare}"
+        ]
+      ],
+      "name": "Starting Equipment at Higher Levels",
+      "page": 43,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

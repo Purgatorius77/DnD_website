@@ -1,0 +1,72 @@
+{
+  "table": [
+    {
+      "caption": "Mounts and Other Animals",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Item",
+        "Carrying Capacity",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Camel|XPHB}",
+          "450 lb.",
+          "50 GP"
+        ],
+        [
+          "{@item Elephant|XPHB}",
+          "1,320 lb.",
+          "200 GP"
+        ],
+        [
+          "{@item Draft Horse|XPHB|Horse, Draft}",
+          "540 lb.",
+          "50 GP"
+        ],
+        [
+          "{@item Riding Horse|XPHB|Horse, Riding}",
+          "480 lb.",
+          "75 GP"
+        ],
+        [
+          "{@item Mastiff|XPHB}",
+          "195 lb.",
+          "25 GP"
+        ],
+        [
+          "{@item Mule|XPHB}",
+          "420 lb.",
+          "8 GP"
+        ],
+        [
+          "{@item Pony|XPHB}",
+          "225 lb.",
+          "30 GP"
+        ],
+        [
+          "{@item Warhorse|XPHB}",
+          "540 lb.",
+          "400 GP"
+        ]
+      ],
+      "name": "Mounts and Vehicles; Mounts and Other Animals",
+      "page": 229,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

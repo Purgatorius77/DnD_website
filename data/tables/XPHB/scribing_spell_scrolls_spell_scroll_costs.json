@@ -1,0 +1,82 @@
+{
+  "table": [
+    {
+      "caption": "Spell Scroll Costs",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Spell Level",
+        "Time",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-4 text-center",
+        "col-4 text-right"
+      ],
+      "rows": [
+        [
+          "{@filter Cantrip|spells|level=0}",
+          "1 day",
+          "15 GP"
+        ],
+        [
+          "{@filter 1|spells|level=1}",
+          "1 day",
+          "25 GP"
+        ],
+        [
+          "{@filter 2|spells|level=2}",
+          "3 days",
+          "100 GP"
+        ],
+        [
+          "{@filter 3|spells|level=3}",
+          "5 days",
+          "150 GP"
+        ],
+        [
+          "{@filter 4|spells|level=4}",
+          "10 days",
+          "1,000 GP"
+        ],
+        [
+          "{@filter 5|spells|level=5}",
+          "25 days",
+          "1,500 GP"
+        ],
+        [
+          "{@filter 6|spells|level=6}",
+          "40 days",
+          "10,000 GP"
+        ],
+        [
+          "{@filter 7|spells|level=7}",
+          "50 days",
+          "12,500 GP"
+        ],
+        [
+          "{@filter 8|spells|level=8}",
+          "60 days",
+          "15,000 GP"
+        ],
+        [
+          "{@filter 9|spells|level=9}",
+          "120 days",
+          "50,000 GP"
+        ]
+      ],
+      "name": "Scribing Spell Scrolls; Spell Scroll Costs",
+      "page": 233,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

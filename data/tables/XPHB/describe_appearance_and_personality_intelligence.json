@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Intelligence",
+      "colLabels": [
+        "1d4",
+        "High Intelligence",
+        "Low Intelligence"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5 text-center",
+        "col-5 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "Decisive",
+          "Artless"
+        ],
+        [
+          "2",
+          "Logical",
+          "Illogical"
+        ],
+        [
+          "3",
+          "Informative",
+          "Uninformed"
+        ],
+        [
+          "4",
+          "Curious",
+          "Frivolous"
+        ]
+      ],
+      "name": "Describe Appearance and Personality; Intelligence",
+      "page": 38,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "table": [
+    {
+      "caption": "Ability Scores and Modifiers",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Score",
+        "Modifier"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "3",
+          "−4"
+        ],
+        [
+          "4–5",
+          "−3"
+        ],
+        [
+          "6–7",
+          "−2"
+        ],
+        [
+          "8–9",
+          "−1"
+        ],
+        [
+          "10–11",
+          "+0"
+        ],
+        [
+          "12–13",
+          "+1"
+        ],
+        [
+          "14–15",
+          "+2"
+        ],
+        [
+          "16–17",
+          "+3"
+        ],
+        [
+          "18–19",
+          "+4"
+        ],
+        [
+          "20",
+          "+5"
+        ]
+      ],
+      "name": "Determine Ability Modifiers; Ability Scores and Modifiers",
+      "page": 38,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

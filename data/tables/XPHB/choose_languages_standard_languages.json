@@ -1,0 +1,130 @@
+{
+  "table": [
+    {
+      "caption": "Standard Languages",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "{@dice 1d12}",
+        "Language",
+        "Origin"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "—",
+          "{@language Common|XPHB}",
+          "Sigil"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 1
+            }
+          },
+          "{@language Common Sign Language|XPHB}",
+          "Sigil"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 2
+            }
+          },
+          "{@language Draconic|XPHB}",
+          "Dragons"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 3,
+              "max": 4
+            }
+          },
+          "{@language Dwarvish|XPHB}",
+          "Dwarves"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 5,
+              "max": 6
+            }
+          },
+          "{@language Elvish|XPHB}",
+          "Elves"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 7
+            }
+          },
+          "{@language Giant|XPHB}",
+          "Giants"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 8
+            }
+          },
+          "{@language Gnomish|XPHB}",
+          "Gnomes"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 9
+            }
+          },
+          "{@language Goblin|XPHB}",
+          "Goblinoids"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "min": 10,
+              "max": 11
+            }
+          },
+          "{@language Halfling|XPHB}",
+          "Halflings"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 12
+            }
+          },
+          "{@language Orc|XPHB}",
+          "Orcs"
+        ]
+      ],
+      "name": "Choose Languages; Standard Languages",
+      "page": 37,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

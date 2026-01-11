@@ -1,0 +1,71 @@
+{
+  "table": [
+    {
+      "caption": "Ammunition",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Type",
+        "Amount",
+        "Storage",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-2 text-center",
+        "col-3",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Arrows (20)|XPHB|Arrows}",
+          "20",
+          "{@item Quiver|XPHB}",
+          "1 lb.",
+          "1 GP"
+        ],
+        [
+          "{@item Bolts (20)|XPHB|Bolts}",
+          "20",
+          "{@item Crossbow Bolt Case|XPHB|Case}",
+          "1½ lb.",
+          "1 GP"
+        ],
+        [
+          "{@item Firearm Bullets (10)|XPHB|Bullets, Firearm}",
+          "10",
+          "{@item Pouch|XPHB}",
+          "2 lb.",
+          "3 GP"
+        ],
+        [
+          "{@item Sling Bullet|XPHB|Bullets, Sling}",
+          "20",
+          "{@item Pouch|XPHB}",
+          "1½ lb.",
+          "4 CP"
+        ],
+        [
+          "{@item Needles (50)|XPHB|Needles}",
+          "50",
+          "{@item Pouch|XPHB}",
+          "1 lb.",
+          "1 GP"
+        ]
+      ],
+      "name": "Ammunition (Varies); Ammunition",
+      "page": 222,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

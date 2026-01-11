@@ -1,0 +1,148 @@
+{
+  "table": [
+    {
+      "caption": "Standard Array by Class",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Class",
+        "Str.",
+        "Dex.",
+        "Con.",
+        "Int.",
+        "Wis.",
+        "Cha."
+      ],
+      "colStyles": [
+        "col-6",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@class Barbarian|XPHB}",
+          "15",
+          "13",
+          "14",
+          "10",
+          "12",
+          "8"
+        ],
+        [
+          "{@class Bard|XPHB}",
+          "8",
+          "14",
+          "12",
+          "13",
+          "10",
+          "15"
+        ],
+        [
+          "{@class Cleric|XPHB}",
+          "14",
+          "8",
+          "13",
+          "10",
+          "15",
+          "12"
+        ],
+        [
+          "{@class Druid|XPHB}",
+          "8",
+          "12",
+          "14",
+          "13",
+          "15",
+          "10"
+        ],
+        [
+          "{@class Fighter|XPHB}",
+          "15",
+          "14",
+          "13",
+          "8",
+          "10",
+          "12"
+        ],
+        [
+          "{@class Monk|XPHB}",
+          "12",
+          "15",
+          "13",
+          "10",
+          "14",
+          "8"
+        ],
+        [
+          "{@class Paladin|XPHB}",
+          "15",
+          "10",
+          "13",
+          "8",
+          "12",
+          "14"
+        ],
+        [
+          "{@class Ranger|XPHB}",
+          "12",
+          "15",
+          "13",
+          "8",
+          "14",
+          "10"
+        ],
+        [
+          "{@class Rogue|XPHB}",
+          "12",
+          "15",
+          "13",
+          "14",
+          "10",
+          "8"
+        ],
+        [
+          "{@class Sorcerer|XPHB}",
+          "10",
+          "13",
+          "14",
+          "8",
+          "12",
+          "15"
+        ],
+        [
+          "{@class Warlock|XPHB}",
+          "8",
+          "14",
+          "13",
+          "12",
+          "10",
+          "15"
+        ],
+        [
+          "{@class Wizard|XPHB}",
+          "8",
+          "12",
+          "13",
+          "15",
+          "14",
+          "10"
+        ]
+      ],
+      "name": "Assign Ability Scores; Standard Array by Class",
+      "page": 38,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

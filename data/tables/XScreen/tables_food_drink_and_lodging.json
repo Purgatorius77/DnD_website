@@ -1,0 +1,155 @@
+{
+  "table": [
+    {
+      "caption": "Food, Drink, and Lodging",
+      "colLabels": [
+        "Item",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-4 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Ale (mug)|XPHB}",
+          "4 CP"
+        ],
+        [
+          "{@item Bread (loaf)|XPHB}",
+          "2 CP"
+        ],
+        [
+          "{@item Cheese (wedge)|XPHB}",
+          "1 SP"
+        ],
+        [
+          "{@i Inn Stay per Day}",
+          ""
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Squalid",
+            "7 CP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Poor",
+            "1 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Modest",
+            "5 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Comfortable",
+            "8 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Wealthy",
+            "2 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Aristocratic",
+            "4 GP"
+          ]
+        },
+        [
+          "{@i Meal}",
+          ""
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Squalid",
+            "1 CP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Poor",
+            "2 CP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Modest",
+            "1 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Comfortable",
+            "2 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Wealthy",
+            "3 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Aristocratic",
+            "6 SP"
+          ]
+        },
+        [
+          "{@i Wine (bottle)}",
+          ""
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Common Wine (bottle)|XPHB|Common}",
+            "2 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Fine Wine (bottle)|XPHB|Fine}",
+            "10 GP"
+          ]
+        }
+      ],
+      "name": "Tables; Food, Drink, and Lodging",
+      "source": "XScreen"
+    }
+  ]
+}

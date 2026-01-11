@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "caption": "Rare Languages",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Language",
+        "Origin"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Abyssal",
+          "Demons of the Abyss"
+        ],
+        [
+          "Celestial",
+          "Celestials"
+        ],
+        [
+          "Deep Speech",
+          "Aberrations"
+        ],
+        [
+          "Druidic",
+          "Druidic circles"
+        ],
+        [
+          "Infernal",
+          "Devils of the Nine Hells"
+        ],
+        [
+          "Primordial*",
+          "Elementals"
+        ],
+        [
+          "Sylvan",
+          "The Feywild"
+        ],
+        [
+          "Thieves' Cant",
+          "Various criminal guilds"
+        ],
+        [
+          "Undercommon",
+          "The Underdark"
+        ]
+      ],
+      "footnotes": [
+        "*Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one."
+      ],
+      "name": "Choose Languages; Rare Languages",
+      "page": 37,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

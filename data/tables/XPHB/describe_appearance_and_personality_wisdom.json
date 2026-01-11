@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Wisdom",
+      "colLabels": [
+        "1d4",
+        "High Wisdom",
+        "Low Wisdom"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5 text-center",
+        "col-5 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "Serene",
+          "Rash"
+        ],
+        [
+          "2",
+          "Considerate",
+          "Distracted"
+        ],
+        [
+          "3",
+          "Attentive",
+          "Oblivious"
+        ],
+        [
+          "4",
+          "Wary",
+          "Naive"
+        ]
+      ],
+      "name": "Describe Appearance and Personality; Wisdom",
+      "page": 38,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Strength",
+      "colLabels": [
+        "1d4",
+        "High Strength",
+        "Low Strength"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5 text-center",
+        "col-5 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "Muscular",
+          "Weak"
+        ],
+        [
+          "2",
+          "Sinewy",
+          "Slight"
+        ],
+        [
+          "3",
+          "Protective",
+          "Self-conscious"
+        ],
+        [
+          "4",
+          "Direct",
+          "Indirect"
+        ]
+      ],
+      "name": "Describe Appearance and Personality; Strength",
+      "page": 38,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "table": [
+    {
+      "caption": "Cover",
+      "colLabels": [
+        "Cover Degree",
+        "Benefit to Target"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Half Cover",
+          "+2 bonus to AC and Dexterity saving throws"
+        ],
+        [
+          "Three-Quarters Cover",
+          "+5 bonus to AC and Dexterity saving throws"
+        ],
+        [
+          "Total Cover",
+          "Can't be targeted directly"
+        ]
+      ],
+      "name": "Tables; Cover",
+      "source": "XScreen"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "table": [
+    {
+      "caption": "Spell Preparation by Class",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Class",
+        "Change When You...",
+        "Number of Spells"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@class Bard|XPHB}",
+          "Gain a level",
+          "One"
+        ],
+        [
+          "{@class Cleric|XPHB}",
+          "Finish a Long Rest",
+          "Any"
+        ],
+        [
+          "{@class Druid|XPHB}",
+          "Finish a Long Rest",
+          "Any"
+        ],
+        [
+          "{@class Paladin|XPHB}",
+          "Finish a Long Rest",
+          "One"
+        ],
+        [
+          "{@class Ranger|XPHB}",
+          "Finish a Long Rest",
+          "One"
+        ],
+        [
+          "{@class Sorcerer|XPHB}",
+          "Gain a level",
+          "One"
+        ],
+        [
+          "{@class Warlock|XPHB}",
+          "Gain a level",
+          "One"
+        ],
+        [
+          "{@class Wizard|XPHB}",
+          "Finish a Long Rest",
+          "Any"
+        ]
+      ],
+      "name": "Preparing Spells; Spell Preparation by Class",
+      "page": 235,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Spells",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 7
+      }
+    }
+  ]
+}

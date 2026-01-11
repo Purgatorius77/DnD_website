@@ -1,0 +1,54 @@
+{
+  "table": [
+    {
+      "caption": "Saving Throw Examples",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Ability",
+        "Make a Save To..."
+      ],
+      "colStyles": [
+        "col-4",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "Strength",
+          "Physically resist direct force"
+        ],
+        [
+          "Dexterity",
+          "Dodge out of harm's way"
+        ],
+        [
+          "Constitution",
+          "Endure a toxic hazard"
+        ],
+        [
+          "Intelligence",
+          "Recognize an illusion as fake"
+        ],
+        [
+          "Wisdom",
+          "Resist a mental assault"
+        ],
+        [
+          "Charisma",
+          "Assert your identity"
+        ]
+      ],
+      "name": "Ability Modifier; Saving Throw Examples",
+      "page": 11,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Playing the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

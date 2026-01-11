@@ -1,0 +1,31 @@
+{
+  "table": [
+    {
+      "caption": "Visibility Outdoors",
+      "colLabels": [
+        "Conditions",
+        "Distance"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Clear day, no obstructions",
+          "2 miles (40 miles from a height)"
+        ],
+        [
+          "Rain ({@variantrule Lightly Obscured|XPHB})",
+          "1 mile"
+        ],
+        [
+          "Fog ({@variantrule Lightly Obscured|XPHB})",
+          "100 to 300 feet"
+        ]
+      ],
+      "name": "Tables; Visibility Outdoors",
+      "source": "XScreen"
+    }
+  ]
+}

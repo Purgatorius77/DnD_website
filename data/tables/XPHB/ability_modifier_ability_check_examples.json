@@ -1,0 +1,54 @@
+{
+  "table": [
+    {
+      "caption": "Ability Check Examples",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Ability",
+        "Make a Check To..."
+      ],
+      "colStyles": [
+        "col-4",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "Strength",
+          "Lift, push, pull, or break something"
+        ],
+        [
+          "Dexterity",
+          "Move nimbly, quickly, or quietly"
+        ],
+        [
+          "Constitution",
+          "Push your body beyond normal limits"
+        ],
+        [
+          "Intelligence",
+          "Reason or remember"
+        ],
+        [
+          "Wisdom",
+          "Notice things in the environment or in creatures' behavior"
+        ],
+        [
+          "Charisma",
+          "Influence, entertain, or deceive"
+        ]
+      ],
+      "name": "Ability Modifier; Ability Check Examples",
+      "page": 10,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Playing the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

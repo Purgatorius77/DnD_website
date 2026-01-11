@@ -1,0 +1,41 @@
+{
+  "table": [
+    {
+      "caption": "Object Hit Points",
+      "colLabels": [
+        "Size",
+        "Fragile",
+        "Resilient"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-3",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "Tiny (bottle, lock)",
+          "2 ({@dice 1d4})",
+          "5 ({@dice 2d4})"
+        ],
+        [
+          "Small (chest, lute)",
+          "3 ({@dice 1d6})",
+          "10 ({@dice 3d6})"
+        ],
+        [
+          "Medium (barrel, chandelier)",
+          "4 ({@dice 1d8})",
+          "18 ({@dice 4d8})"
+        ],
+        [
+          "Large (cart, dining table)",
+          "5 ({@dice 1d10})",
+          "27 ({@dice 5d10})"
+        ]
+      ],
+      "name": "Tables; Object Hit Points",
+      "source": "XScreen"
+    }
+  ]
+}

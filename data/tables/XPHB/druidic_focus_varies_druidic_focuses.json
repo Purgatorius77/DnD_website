@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Druidic Focuses",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Focus",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Sprig of mistletoe|XPHB}",
+          "—",
+          "1 GP"
+        ],
+        [
+          "{@item Wooden staff|XPHB} (also a {@item Quarterstaff|XPHB})",
+          "4 lb.",
+          "5 GP"
+        ],
+        [
+          "{@item Yew wand|XPHB}",
+          "1 lb.",
+          "10 GP"
+        ]
+      ],
+      "name": "Druidic Focus (Varies); Druidic Focuses",
+      "page": 225,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

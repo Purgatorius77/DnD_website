@@ -1,0 +1,331 @@
+{
+  "table": [
+    {
+      "caption": "Feat List",
+      "colLabels": [
+        "Feat",
+        "Category"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@feat Ability Score Improvement|XPHB}*",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Actor|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Alert|XPHB}",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Archery|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat Athlete|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Blind Fighting|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat Boon of Combat Prowess|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Dimensional Travel|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Energy Resistance|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Fate|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Fortitude|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Irresistible Offense|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Recovery|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Skill|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Speed|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Spell Recall|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of the Night Spirit|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Boon of Truesight|XPHB}",
+          "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+        ],
+        [
+          "{@feat Charger|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Chef|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Crafter|XPHB}",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Crossbow Expert|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Crusher|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Defense|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat Defensive Duelist|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Dual Wielder|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Dueling|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat Durable|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Elemental Adept|XPHB}*",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Fey-Touched|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Grappler|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Great Weapon Fighting|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat Great Weapon Master|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Healer|XPHB}",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Heavily Armored|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Heavy Armor Master|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Inspiring Leader|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Interception|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat Keen Mind|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Lightly Armored|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Lucky|XPHB}",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Mage Slayer|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Magic Initiate|XPHB}*",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Martial Weapon Training|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Medium Armor Master|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Moderately Armored|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Mounted Combatant|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Musician|XPHB}",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Observant|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Piercer|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Poisoner|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Polearm Master|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Protection|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat Resilient|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Ritual Caster|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Savage Attacker|XPHB}",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Sentinel|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Shadow-Touched|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Sharpshooter|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Shield Master|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Skilled|XPHB}*",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Skill Expert|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Skulker|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Slasher|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Speedy|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Spell Sniper|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Tavern Brawler|XPHB}",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Telekinetic|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Telepathic|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Thrown Weapon Fighting|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat Tough|XPHB}",
+          "{@book Origin|XPHB|5|Origin Feats}"
+        ],
+        [
+          "{@feat Two-Weapon Fighting|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat Unarmed Fighting|XPHB}",
+          "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+        ],
+        [
+          "{@feat War Caster|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ],
+        [
+          "{@feat Weapon Master|XPHB}",
+          "{@book General|XPHB|5|General Feats}"
+        ]
+      ],
+      "footnotes": [
+        "*This feat can be taken more than once."
+      ],
+      "name": "Repeatable; Feat List",
+      "page": 199,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Feats",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

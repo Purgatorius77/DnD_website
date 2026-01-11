@@ -1,0 +1,129 @@
+{
+  "table": [
+    {
+      "caption": "Tack, Harness, and Drawn Vehicles",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Item",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Carriage|XPHB}",
+            "600 lb.",
+            "100 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Cart|XPHB}",
+            "200 lb.",
+            "15 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Chariot|XPHB}",
+            "100 lb.",
+            "250 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Feed (per day)|XPHB|Feed per day}",
+            "10 lb.",
+            "5 CP"
+          ]
+        },
+        [
+          {
+            "type": "cell",
+            "width": 3,
+            "entry": "{@i Saddle}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Exotic Saddle|XPHB|Exotic}",
+            "40 lb.",
+            "60 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Military Saddle|XPHB|Military}",
+            "30 lb.",
+            "20 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Riding Saddle|XPHB|Riding}",
+            "25 lb.",
+            "10 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Sled|XPHB}",
+            "300 lb.",
+            "20 GP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Stabling per day",
+            "—",
+            "5 SP"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Wagon|XPHB}",
+            "400 lb.",
+            "35 GP"
+          ]
+        }
+      ],
+      "name": "Mounts and Vehicles; Tack, Harness, and Drawn Vehicles",
+      "page": 229,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Equipment",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

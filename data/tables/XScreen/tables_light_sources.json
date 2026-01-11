@@ -1,0 +1,53 @@
+{
+  "table": [
+    {
+      "caption": "Light Sources",
+      "colLabels": [
+        "Source",
+        "Bright Light",
+        "Dim Light",
+        "Duration"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3",
+        "col-3",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "{@item Candle|XPHB}",
+          "5 feet",
+          "+5 feet",
+          "1 hour"
+        ],
+        [
+          "{@item Lamp|XPHB}",
+          "15 feet",
+          "+30 feet",
+          "6 hours"
+        ],
+        [
+          "{@item Bullseye Lantern|XPHB|Lantern, Bullseye}",
+          "60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}",
+          "+60 feet",
+          "6 hours"
+        ],
+        [
+          "{@item Hooded Lantern|XPHB|Lantern, Hooded}",
+          "30 feet (none with hood lowered)",
+          "+30 feet (5 feet with hood lowered)",
+          "6 hours"
+        ],
+        [
+          "{@item Torch|XPHB}",
+          "20 feet",
+          "+20 feet",
+          "1 hour"
+        ]
+      ],
+      "name": "Tables; Light Sources",
+      "source": "XScreen"
+    }
+  ]
+}

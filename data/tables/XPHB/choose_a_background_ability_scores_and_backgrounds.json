@@ -1,0 +1,54 @@
+{
+  "table": [
+    {
+      "caption": "Ability Scores and Backgrounds",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Ability",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Strength",
+          "{@background Artisan|XPHB}, {@background Entertainer|XPHB}, {@background Farmer|XPHB}, {@background Guard|XPHB}, {@background Noble|XPHB}, {@background Sailor|XPHB}, {@background Soldier|XPHB}"
+        ],
+        [
+          "Dexterity",
+          "{@background Artisan|XPHB}, {@background Charlatan|XPHB}, {@background Criminal|XPHB}, {@background Entertainer|XPHB}, {@background Guide|XPHB}, {@background Sailor|XPHB}, {@background Scribe|XPHB}, {@background Soldier|XPHB}, {@background Wayfarer|XPHB}"
+        ],
+        [
+          "Constitution",
+          "{@background Charlatan|XPHB}, {@background Criminal|XPHB}, {@background Farmer|XPHB}, {@background Guide|XPHB}, {@background Hermit|XPHB}, {@background Merchant|XPHB}, {@background Sage|XPHB}, {@background Soldier|XPHB}"
+        ],
+        [
+          "Intelligence",
+          "{@background Acolyte|XPHB}, {@background Artisan|XPHB}, {@background Criminal|XPHB}, {@background Guard|XPHB}, {@background Merchant|XPHB}, {@background Noble|XPHB}, {@background Sage|XPHB}, {@background Scribe|XPHB}"
+        ],
+        [
+          "Wisdom",
+          "{@background Acolyte|XPHB}, {@background Farmer|XPHB}, {@background Guard|XPHB}, {@background Guide|XPHB}, {@background Hermit|XPHB}, {@background Sage|XPHB}, {@background Sailor|XPHB}, {@background Scribe|XPHB}, {@background Wayfarer|XPHB}"
+        ],
+        [
+          "Charisma",
+          "{@background Acolyte|XPHB}, {@background Charlatan|XPHB}, {@background Entertainer|XPHB}, {@background Hermit|XPHB}, {@background Merchant|XPHB}, {@background Noble|XPHB}, {@background Wayfarer|XPHB}"
+        ]
+      ],
+      "name": "Choose a Background; Ability Scores and Backgrounds",
+      "page": 36,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Creating a Character",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

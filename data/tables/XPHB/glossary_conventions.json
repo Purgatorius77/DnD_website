@@ -1,0 +1,155 @@
+{
+  "table": [
+    {
+      "colStyles": [
+        "col-2 text-right",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "AC",
+          "Armor Class"
+        ],
+        [
+          "C",
+          "{@status Concentration|XPHB}"
+        ],
+        [
+          "CE",
+          "Chaotic Evil"
+        ],
+        [
+          "CG",
+          "Chaotic Good"
+        ],
+        [
+          "Cha.",
+          "Charisma"
+        ],
+        [
+          "CN",
+          "Chaotic Neutral"
+        ],
+        [
+          "Con.",
+          "Constitution"
+        ],
+        [
+          "CP",
+          "Copper Piece(s)"
+        ],
+        [
+          "CR",
+          "{@variantrule Challenge Rating|XPHB}"
+        ],
+        [
+          "DC",
+          "{@variantrule Difficulty Class|XPHB}"
+        ],
+        [
+          "Dex.",
+          "Dexterity"
+        ],
+        [
+          "DM",
+          "Dungeon Master"
+        ],
+        [
+          "EP",
+          "Electrum Piece(s)"
+        ],
+        [
+          "GP",
+          "Gold Piece(s)"
+        ],
+        [
+          "HP",
+          "{@variantrule Hit Points|XPHB|Hit Point}(s)"
+        ],
+        [
+          "Int.",
+          "Intelligence"
+        ],
+        [
+          "LE",
+          "Lawful Evil"
+        ],
+        [
+          "LG",
+          "Lawful Good"
+        ],
+        [
+          "LN",
+          "Lawful Neutral"
+        ],
+        [
+          "M",
+          "Material component"
+        ],
+        [
+          "N",
+          "Neutral"
+        ],
+        [
+          "NE",
+          "Neutral Evil"
+        ],
+        [
+          "NG",
+          "Neutral Good"
+        ],
+        [
+          "NPC",
+          "Nonplayer character"
+        ],
+        [
+          "PB",
+          "{@variantrule Proficiency|XPHB|Proficiency Bonus}"
+        ],
+        [
+          "PP",
+          "Platinum Piece(s)"
+        ],
+        [
+          "R",
+          "{@variantrule Ritual|XPHB}"
+        ],
+        [
+          "S",
+          "Somatic component"
+        ],
+        [
+          "SP",
+          "Silver Piece(s)"
+        ],
+        [
+          "Str.",
+          "Strength"
+        ],
+        [
+          "V",
+          "Verbal component"
+        ],
+        [
+          "Wis.",
+          "Wisdom"
+        ],
+        [
+          "XP",
+          "{@variantrule Experience Points|XPHB|Experience Point}(s)"
+        ]
+      ],
+      "name": "Glossary Conventions",
+      "page": 360,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Rules Glossary",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "C"
+        },
+        "index": 10
+      }
+    }
+  ]
+}

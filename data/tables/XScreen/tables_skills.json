@@ -1,0 +1,91 @@
+{
+  "table": [
+    {
+      "caption": "Skills",
+      "colLabels": [
+        "Skill",
+        "Ability"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@skill Acrobatics|XPHB}",
+          "Dexterity"
+        ],
+        [
+          "{@skill Animal Handling|XPHB}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Arcana|XPHB}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Athletics|XPHB}",
+          "Strength"
+        ],
+        [
+          "{@skill Deception|XPHB}",
+          "Charisma"
+        ],
+        [
+          "{@skill History|XPHB}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Insight|XPHB}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Intimidation|XPHB}",
+          "Charisma"
+        ],
+        [
+          "{@skill Investigation|XPHB}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Medicine|XPHB}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Nature|XPHB}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Perception|XPHB}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Performance|XPHB}",
+          "Charisma"
+        ],
+        [
+          "{@skill Persuasion|XPHB}",
+          "Charisma"
+        ],
+        [
+          "{@skill Religion|XPHB}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Sleight of Hand|XPHB}",
+          "Dexterity"
+        ],
+        [
+          "{@skill Stealth|XPHB}",
+          "Dexterity"
+        ],
+        [
+          "{@skill Survival|XPHB}",
+          "Wisdom"
+        ]
+      ],
+      "name": "Tables; Skills",
+      "source": "XScreen"
+    }
+  ]
+}

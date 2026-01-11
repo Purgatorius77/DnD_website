@@ -1,0 +1,54 @@
+{
+  "table": [
+    {
+      "caption": "Typical Difficulty Classes",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Task Difficulty",
+        "DC"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Very easy",
+          "5"
+        ],
+        [
+          "Easy",
+          "10"
+        ],
+        [
+          "Medium",
+          "15"
+        ],
+        [
+          "Hard",
+          "20"
+        ],
+        [
+          "Very hard",
+          "25"
+        ],
+        [
+          "Nearly impossible",
+          "30"
+        ]
+      ],
+      "name": "Typical Difficulty Classes",
+      "page": 11,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Playing the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

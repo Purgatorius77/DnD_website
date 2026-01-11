@@ -1,0 +1,42 @@
+{
+  "table": [
+    {
+      "caption": "Attack Roll Abilities",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Ability",
+        "Attack Type"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Strength",
+          "Melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB}"
+        ],
+        [
+          "Dexterity",
+          "Ranged attack with a weapon"
+        ],
+        [
+          "Varies",
+          "Spell attack (the ability used is determined by the spellcaster's spellcasting feature, as explained in {@book chapter 7|XPHB|7})"
+        ]
+      ],
+      "name": "Ability Modifier; Attack Roll Abilities",
+      "page": 12,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Playing the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

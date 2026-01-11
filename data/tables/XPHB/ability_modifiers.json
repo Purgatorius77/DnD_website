@@ -1,0 +1,94 @@
+{
+  "table": [
+    {
+      "caption": "Ability Modifiers",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Score",
+        "Modifier"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "−5"
+        ],
+        [
+          "2–3",
+          "−4"
+        ],
+        [
+          "4–5",
+          "−3"
+        ],
+        [
+          "6–7",
+          "−2"
+        ],
+        [
+          "8–9",
+          "−1"
+        ],
+        [
+          "10–11",
+          "+0"
+        ],
+        [
+          "12–13",
+          "+1"
+        ],
+        [
+          "14–15",
+          "+2"
+        ],
+        [
+          "16–17",
+          "+3"
+        ],
+        [
+          "18–19",
+          "+4"
+        ],
+        [
+          "20–21",
+          "+5"
+        ],
+        [
+          "22–23",
+          "+6"
+        ],
+        [
+          "24–25",
+          "+7"
+        ],
+        [
+          "26–27",
+          "+8"
+        ],
+        [
+          "28–29",
+          "+9"
+        ],
+        [
+          "30",
+          "+10"
+        ]
+      ],
+      "name": "Ability Modifiers",
+      "page": 10,
+      "source": "XPHB",
+      "chapter": {
+        "name": "Playing the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}
