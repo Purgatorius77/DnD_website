@@ -33,8 +33,22 @@ import { initTableFilters } from "./filters/tablesfilter.js";
 // after tables loaded
 
 
+async function main() {
+  console.log("Loading tables...");
 
+  const tables = await initTables();   // ⏳ WAIT here
 
+  console.log("Loaded tables:", tables.length);
+
+  initTableFilters(tables);            // ✅ Only now is it safe
+
+  document.addEventListener("tableSelected", e => {
+  renderTableStatblock(e.detail);
+});
+
+}
+
+main();
 
 document.addEventListener("DOMContentLoaded", async () => {
   // Load all your data
@@ -55,7 +69,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // ✅ Initialize combat tracker only once
   initCombatTracker(monsters);
-  initTables();
   initRulesFilters();
   initRulesStatblock();
   initCharacterFilters();
@@ -79,7 +92,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initRelics();
   initImplements();
   initViewSwitcher();
-  initTableFilters();
+
 });
 
 
@@ -89,7 +102,6 @@ const layout = document.querySelector(".layout");
 toggleBtn.addEventListener("click", () => {
   layout.classList.toggle("tracker-collapsed");
 });
-
 
 
 
