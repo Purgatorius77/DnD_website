@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Urban Chase Complications",
+      "colLabels": [
+        "1d12",
+        "Complication"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A cart or another large obstacle blocks your way. Make a {@dc 10} Dexterity saving throw to get past the obstacle. On a failed save, the obstacle counts as 10 feet of {@variantrule Difficult Terrain|XPHB} for you."
+        ],
+        [
+          "2",
+          "A crowd blocks your way. Make a {@dc 10} Strength, Dexterity, or Charisma saving throw (your choice) to navigate through the crowd. On a failed save, the crowd counts as 10 feet of {@variantrule Difficult Terrain|XPHB} for you."
+        ],
+        [
+          "3",
+          "A maze of barrels, crates, or similar obstacles stands in your way. Make a {@dc 10} Dexterity or Intelligence saving throw (your choice) to navigate the maze. On a failed save, the maze counts as 10 feet of {@variantrule Difficult Terrain|XPHB} for you."
+        ],
+        [
+          "4",
+          "The ground is slippery with rain, spilled oil, or some other liquid. Make a {@dc 10} Dexterity saving throw. On a failed save, you have the {@condition Prone|XPHB} condition."
+        ],
+        [
+          "5",
+          "You encounter a brawl in progress. Make a {@dc 15} Strength, Dexterity, or Charisma saving throw (your choice) to get past the brawlers unimpeded. On a failed save, you take {@dice 2d4} Bludgeoning damage, and the brawlers count as 10 feet of {@variantrule Difficult Terrain|XPHB} for you."
+        ],
+        [
+          "6",
+          "You must make a sharp turn to avoid colliding with something impassable. Make a {@dc 10} Dexterity saving throw to navigate the turn. On a failed save, you collide with something hard and take {@dice 1d4} Bludgeoning damage."
+        ],
+        [
+          "7–12",
+          "There is no complication."
+        ]
+      ],
+      "name": "Urban Chase Complications",
+      "page": 53,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Acheron",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Avalas",
+          "Spirit soldiers wage endless wars across debris-strewn battlefields."
+        ],
+        [
+          "Thuldanin",
+          "Pitted, hollow cubes are filled with the cast-off machinery of war."
+        ],
+        [
+          "Tintibulus",
+          "Jagged blocks tumble in darkness, holding frozen memories sapped by the River Styx and crystallized into fleeting images."
+        ],
+        [
+          "Ocanthus",
+          "Maelstroms of razor-sharp debris swirl above a mire of black ice."
+        ]
+      ],
+      "name": "Layers of Acheron",
+      "page": 182,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

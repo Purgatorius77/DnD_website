@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Elysium",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Amoria",
+          "Small towns on the banks of the River Oceanus, surrounded by lush meadows, are among the most hospitable refuges on the Outer Planes."
+        ],
+        [
+          "Eronia",
+          "Steep hills, craggy mountains, and white granite valleys offer a rugged home for hardy souls."
+        ],
+        [
+          "Belierin",
+          "Lighthouses pierce the fog and form hubs for small communities amid sprawling marshlands."
+        ],
+        [
+          "Thalasia",
+          "The Heroic Isles, rising from the headwaters of the River Oceanus, hold the best departed souls."
+        ]
+      ],
+      "name": "Layers of Elysium",
+      "page": 191,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

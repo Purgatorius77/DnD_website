@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Special Facility Acquisition",
+      "colLabels": [
+        "Level",
+        "Special Facilities"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "5",
+          "2"
+        ],
+        [
+          "9",
+          "4"
+        ],
+        [
+          "13",
+          "5"
+        ],
+        [
+          "17",
+          "6"
+        ]
+      ],
+      "name": "Special Facilities; Special Facility Acquisition",
+      "page": 335,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Bastions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 8
+        },
+        "index": 7
+      }
+    }
+  ]
+}

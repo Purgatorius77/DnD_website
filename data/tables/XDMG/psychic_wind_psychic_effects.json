@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Psychic Wind Psychic Effects",
+      "colLabels": [
+        "1d20",
+        "Psychic Effect"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–8",
+          "You have the {@condition Stunned|XPHB} condition for 1 minute; you repeat the saving throw at the end of each of your turns, ending the effect on yourself on a success."
+        ],
+        [
+          "9–12",
+          "You take 11 ({@dice 2d10}) Psychic damage."
+        ],
+        [
+          "13–17",
+          "You take 22 ({@dice 4d10}) Psychic damage."
+        ],
+        [
+          "18–20",
+          "You have the {@condition Unconscious|XPHB} condition for 5 ({@dice 1d10}) hours; the effect on you ends if you take damage or if another creature takes an action to shake you awake."
+        ]
+      ],
+      "name": "Psychic Wind Psychic Effects",
+      "page": 185,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

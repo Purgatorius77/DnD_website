@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Layers of the Nine Hells",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "{@book Avernus|XDMG|5|Avernus}",
+          "The Blood War rages across battlefields littered with corpses and the wreckage of hellish war machines."
+        ],
+        [
+          "{@book Dis|XDMG|5|Dis}",
+          "Iron roads in deep canyons lead to the dreaded Iron City of Dis."
+        ],
+        [
+          "{@book Minauros|XDMG|5|Minauros}",
+          "Acid falls like rain on putrid bogs and decaying cities."
+        ],
+        [
+          "{@book Phlegethos|XDMG|5|Phlegethos}",
+          "Obsidian fortresses bask in the heat of raging volcanoes and magma rivers."
+        ],
+        [
+          "{@book Stygia|XDMG|5|Stygia}",
+          "Levistus's prison is a frigid hellscape of jagged ice and cold fire."
+        ],
+        [
+          "{@book Malbolge|XDMG|5|Malbolge}",
+          "An ever-crumbling mountain threatens to bury visitors."
+        ],
+        [
+          "{@book Maladomini|XDMG|5|Maladomini}",
+          "Swarms of hungry flies plague dead cities surrounded by utter desolation."
+        ],
+        [
+          "{@book Cania|XDMG|5|Cania}",
+          "Ice-trapped cities provide shelter in a realm cold enough to freeze the soul."
+        ],
+        [
+          "{@book Nessus|XDMG|5|Nessus}",
+          "Mighty fortresses stand watch over the deepest pits of the Nine Hells."
+        ]
+      ],
+      "name": "Layers of the Nine Hells",
+      "page": 202,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

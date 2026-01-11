@@ -1,0 +1,36 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Arcadia",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Abellio",
+          "Everything in these fields of plenty is dedicated to the good of all."
+        ],
+        [
+          "Buxenus",
+          "Military forces gather their strength, amid pleasant valleys and orchards, to reclaim the lost layer of Menausus—now part of Mechanus."
+        ]
+      ],
+      "name": "Layers of Arcadia",
+      "page": 183,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

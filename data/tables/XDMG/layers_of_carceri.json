@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Carceri",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Orthrys",
+          "The River Styx meanders through a layer of vast bogs and quicksand."
+        ],
+        [
+          "Cathrys",
+          "The stench of decay hangs over fetid jungles and scarlet plains."
+        ],
+        [
+          "Minethys",
+          "Stinging sand blows in unending storms, hiding the ruins of the ancient city Payratheon."
+        ],
+        [
+          "Colothys",
+          "Deep chasms cut between cruel mountains make foot travel nearly impossible."
+        ],
+        [
+          "Porphatys",
+          "Cold, acidic oceans are fed by constant black snow."
+        ],
+        [
+          "Agathys",
+          "Black ice streaked with red covers this frigid realm."
+        ]
+      ],
+      "name": "Layers of Carceri",
+      "page": 187,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

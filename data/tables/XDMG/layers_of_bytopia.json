@@ -1,0 +1,36 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Bytopia",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Dothion",
+          "Farms nestled among well-tamed woods are hubs of pastoral activity and individual industry."
+        ],
+        [
+          "Shurrock",
+          "Small communities thrive around quarries and mills amid rough country and harsh weather."
+        ]
+      ],
+      "name": "Layers of Bytopia",
+      "page": 186,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

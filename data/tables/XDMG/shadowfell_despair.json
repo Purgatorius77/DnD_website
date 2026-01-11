@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Shadowfell Despair",
+      "colLabels": [
+        "1d6",
+        "Effect"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–3",
+          "Apathy. The character has {@variantrule Disadvantage|XPHB} on {@variantrule Death Saving Throw|XPHB|Death Saving Throws} and {@variantrule Initiative|XPHB} rolls."
+        ],
+        [
+          "4–5",
+          "Dread. The character has {@variantrule Disadvantage|XPHB} on all saving throws."
+        ],
+        [
+          "6",
+          "Delusion. The character has {@variantrule Disadvantage|XPHB} on ability checks and saving throws that use Intelligence, Wisdom, or Charisma."
+        ]
+      ],
+      "name": "Shadowfell Despair",
+      "page": 209,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

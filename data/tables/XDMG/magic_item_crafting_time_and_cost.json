@@ -1,0 +1,58 @@
+{
+  "table": [
+    {
+      "caption": "Magic Item Crafting Time and Cost",
+      "colLabels": [
+        "Item Rarity",
+        "Time*",
+        "Cost*"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4 text-right",
+        "col-4 text-right"
+      ],
+      "rows": [
+        [
+          "Common",
+          "5 days",
+          "50 GP"
+        ],
+        [
+          "Uncommon",
+          "10 days",
+          "200 GP"
+        ],
+        [
+          "Rare",
+          "50 days",
+          "2,000 GP"
+        ],
+        [
+          "Very Rare",
+          "125 days",
+          "20,000 GP"
+        ],
+        [
+          "Legendary",
+          "250 days",
+          "100,000 GP"
+        ]
+      ],
+      "footnotes": [
+        "*The time and cost are halved for a consumable item other than a {@item Spell Scroll|XDMG}, whose {@table Scribing Spell Scrolls; Spell Scroll Costs|XPHB|crafting time and cost} are given in the {@book Player's Handbook|XPHB}."
+      ],
+      "name": "Magic Item Crafting Time and Cost",
+      "page": 221,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

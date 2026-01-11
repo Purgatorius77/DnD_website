@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Days of the Week",
+      "colLabels": [
+        "Starday",
+        "Sunday",
+        "Moonday",
+        "Godsday",
+        "Waterday",
+        "Earthday",
+        "Freeday"
+      ],
+      "colStyles": [
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-8 text-center"
+      ],
+      "rows": [
+        [
+          "(Saturday)",
+          "(Sunday)",
+          "(Monday)",
+          "(Tuesday)",
+          "(Wednesday)",
+          "(Thursday)",
+          "(Friday)"
+        ],
+        [
+          {
+            "type": "cell",
+            "width": 6,
+            "entry": "Day of Worship"
+          },
+          "Day of Rest"
+        ]
+      ],
+      "name": "Months and Festivals; Days of the Week",
+      "page": 146,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Creating Campaigns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 4
+      }
+    }
+  ]
+}

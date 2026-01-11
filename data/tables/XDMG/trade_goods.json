@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Trade Goods",
+      "colLabels": [
+        "Cost",
+        "Goods"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1 CP",
+          "1 lb. of {@item wheat|XDMG}"
+        ],
+        [
+          "2 CP",
+          "2 lb. of {@item flour|XDMG} or one {@item chicken|XDMG}"
+        ],
+        [
+          "5 CP",
+          "1 lb. of {@item salt|XDMG}"
+        ],
+        [
+          "1 SP",
+          "1 lb. of {@item iron|XDMG} or 1 sq. yd. of {@item Canvas (1 sq. yd.)|XDMG|canvas}"
+        ],
+        [
+          "5 SP",
+          "1 lb. of {@item copper|XDMG} or 1 sq. yd. of {@item Cotton Cloth (1 sq. yd.)|XDMG|cotton cloth}"
+        ],
+        [
+          "1 GP",
+          "1 lb. of {@item ginger|XDMG} or one {@item goat|XDMG}"
+        ],
+        [
+          "2 GP",
+          "1 lb. of {@item cinnamon|XDMG} or {@item pepper|XDMG}, or one {@item sheep|XDMG}"
+        ],
+        [
+          "3 GP",
+          "1 lb. of {@item cloves|XDMG} or one {@item pig|XDMG}"
+        ],
+        [
+          "5 GP",
+          "1 lb. of {@item silver|XDMG} or 1 sq. yd. of {@item Linen (1 sq. yd.)|XDMG|linen}"
+        ],
+        [
+          "10 GP",
+          "1 lb. of {@item silk|XDMG} or one {@item cow|XDMG}"
+        ],
+        [
+          "15 GP",
+          "1 lb. of {@item saffron|XDMG} or one {@item ox|XDMG}"
+        ],
+        [
+          "50 GP",
+          "1 lb. of {@item gold|XDMG}"
+        ],
+        [
+          "500 GP",
+          "1 lb. of {@item platinum|XDMG}"
+        ]
+      ],
+      "name": "Trade Goods",
+      "page": 213,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Underwater Encounter Distance",
+      "colLabels": [
+        "Visibility",
+        "Encounter Distance"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Clear water, {@variantrule Bright Light|XPHB}",
+          "60 feet"
+        ],
+        [
+          "Clear water, {@variantrule Dim Light|XPHB}",
+          "30 feet"
+        ],
+        [
+          "Murky water or {@variantrule Darkness|XPHB}",
+          "10 feet"
+        ]
+      ],
+      "name": "Visibility Underwater; Underwater Encounter Distance",
+      "page": 36,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Running the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

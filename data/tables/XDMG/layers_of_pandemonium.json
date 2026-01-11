@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Pandemonium",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Pandesmos",
+          "Howling winds, dark streams bound for the River Styx, and blowing snow pour through vast, desolate caverns."
+        ],
+        [
+          "Cocytus",
+          "Winds blowing through narrower tunnels create a stronger force and louder wails, making this the so-called \"Layer of Lamentation.\""
+        ],
+        [
+          "Phlegethon",
+          "Tunnel walls absorb light while water creates intricate rock formations."
+        ],
+        [
+          "Agathion",
+          "Sealed-off tunnels are largely inaccessible from elsewhere, making them ideal as vaults for ancient secrets."
+        ]
+      ],
+      "name": "Layers of Pandemonium",
+      "page": 206,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

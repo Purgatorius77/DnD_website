@@ -1,0 +1,108 @@
+{
+  "table": [
+    {
+      "caption": "Random Shops",
+      "colLabels": [
+        "1d20",
+        "Type"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Pawnshop"
+        ],
+        [
+          "2",
+          "Apothecary"
+        ],
+        [
+          "3",
+          "Grocer"
+        ],
+        [
+          "4",
+          "Delicatessen"
+        ],
+        [
+          "5",
+          "Potter"
+        ],
+        [
+          "6",
+          "Undertaker"
+        ],
+        [
+          "7",
+          "Bookstore"
+        ],
+        [
+          "8",
+          "Moneylender"
+        ],
+        [
+          "9",
+          "Armorer"
+        ],
+        [
+          "10",
+          "Chandler"
+        ],
+        [
+          "11",
+          "Smithy"
+        ],
+        [
+          "12",
+          "Carpenter"
+        ],
+        [
+          "13",
+          "Weaver"
+        ],
+        [
+          "14",
+          "Jeweler"
+        ],
+        [
+          "15",
+          "Baker"
+        ],
+        [
+          "16",
+          "Mapmaker"
+        ],
+        [
+          "17",
+          "Tailor"
+        ],
+        [
+          "18",
+          "Ropemaker"
+        ],
+        [
+          "19",
+          "Mason"
+        ],
+        [
+          "20",
+          "Scribe"
+        ]
+      ],
+      "name": "Settlement Tables and Tracker; Random Shops",
+      "page": 93,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

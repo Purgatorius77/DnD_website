@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Trade Bars",
+      "colLabels": [
+        "Bar",
+        "Value",
+        "Dimensions"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-2 text-center",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@item silver bar (2-pound)|XDMG|2-pound silver bar}",
+          "10 GP",
+          "5 in. long × 2 in. wide × 1/2 in. thick"
+        ],
+        [
+          "{@item silver bar (5-pound)|XDMG|5-pound silver bar}",
+          "25 GP",
+          "6 in. long × 2 in. wide × 1 in. thick"
+        ],
+        [
+          "{@item gold bar (5-pound)|XDMG|5-pound gold bar}",
+          "250 GP",
+          "5 in. long × 2 in. wide × 3/4 in. thick"
+        ]
+      ],
+      "name": "Trade Bars",
+      "page": 213,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

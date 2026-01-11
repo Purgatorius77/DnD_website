@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Arborea",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Arvandor",
+          "Towering trees, colorful wildflowers, abundant grain, and delicious fruit create a lush environment."
+        ],
+        [
+          "Aquallor",
+          "An eternal ocean fed by the River Oceanus is home to teeming sea life and mighty storms."
+        ],
+        [
+          "Mithardir",
+          "A desert of white sand is abandoned by whatever powers once lived there."
+        ]
+      ],
+      "name": "Layers of Arborea",
+      "page": 183,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

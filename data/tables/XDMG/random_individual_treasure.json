@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Random Individual Treasure",
+      "colLabels": [
+        "CR",
+        "Treasure"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0–4",
+          "{@dice 3d6} (10) GP"
+        ],
+        [
+          "5–10",
+          "{@dice 2d8 × 10} (90) GP"
+        ],
+        [
+          "11–16",
+          "{@dice 2d10 × 10} (110) PP"
+        ],
+        [
+          "17+",
+          "{@dice 2d8 × 100} (900) PP"
+        ]
+      ],
+      "name": "Random Individual Treasure",
+      "page": 120,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

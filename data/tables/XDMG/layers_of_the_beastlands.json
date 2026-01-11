@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Layers of the Beastlands",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Krigala",
+          "The River Oceanus is a strong torrent flowing through this wilderness of eternal summer noon."
+        ],
+        [
+          "Brux",
+          "A red sun hovers forever on the horizon as mists and streams roil through the trees in eternal twilight."
+        ],
+        [
+          "Karasuthra",
+          "A pale moon provides the only light in this wilderness of eternal night."
+        ]
+      ],
+      "name": "Layers of the Beastlands",
+      "page": 186,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

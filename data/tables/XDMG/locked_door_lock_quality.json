@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Lock Quality",
+      "colLabels": [
+        "Quality",
+        "DC to Unlock"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Inferior",
+          "10"
+        ],
+        [
+          "Good",
+          "15"
+        ],
+        [
+          "Superior",
+          "20"
+        ]
+      ],
+      "name": "Locked Door; Lock Quality",
+      "page": 64,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

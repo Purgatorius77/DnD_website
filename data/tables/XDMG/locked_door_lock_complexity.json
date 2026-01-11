@@ -1,0 +1,36 @@
+{
+  "table": [
+    {
+      "caption": "Lock Complexity",
+      "colLabels": [
+        "Complexity",
+        "Time"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Simple",
+          "1 action"
+        ],
+        [
+          "Complex",
+          "1 minute"
+        ]
+      ],
+      "name": "Locked Door; Lock Complexity",
+      "page": 64,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

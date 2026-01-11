@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d20",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–14",
+          "No encounter"
+        ],
+        [
+          "15",
+          "An {@variantrule Indifferent [Attitude]|XPHB|Indifferent} {@creature Giant Ape|XMM} protects its territory; its primary concern is getting the party to leave."
+        ],
+        [
+          "16",
+          "A {@variantrule Hostile [Attitude]|XPHB|Hostile} {@creature Tyrannosaurus Rex|XMM} is on the hunt and tries to eat the characters."
+        ],
+        [
+          "17",
+          "Three {@creature Allosaurus|XMM|Allosauruses} are hunting in the jungle; they are {@variantrule Hostile [Attitude]|XPHB|Hostile} and treat the party as prey."
+        ],
+        [
+          "18",
+          "Two {@creature Ankylosaurus|XMM|Ankylosauruses} tromp through the forest nearby. They are territorial and aggressive but {@variantrule Indifferent [Attitude]|XPHB|Indifferent}, and they won't pursue a fleeing party."
+        ],
+        [
+          "19",
+          "A band of humans, including a {@creature Warrior Veteran|XMM} and eight {@creature Warrior Infantry|XMM}, watch the party. They are {@variantrule Indifferent [Attitude]|XPHB|Indifferent}; they live in the jungle and aren't used to seeing other people."
+        ],
+        [
+          "20",
+          "Four {@creature Minotaur of Baphomet|XMM|Minotaurs of Baphomet} prowl the jungle looking for Humanoids they can capture and bring back to the temple."
+        ]
+      ],
+      "name": "Stage 2",
+      "page": 124,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

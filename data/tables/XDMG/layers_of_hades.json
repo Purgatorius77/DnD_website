@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Hades",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Oinos",
+          "A land of dead-gray ash, stunted trees, and virulent disease is stalked by roving bands of Fiends looking for a fight or recruits for the Blood War."
+        ],
+        [
+          "Niflheim",
+          "Gray pine trees blanket rolling hills and rocky bluffs, and thick mists coil around their trunks."
+        ],
+        [
+          "Pluton",
+          "Shriveled willows, olive trees, and poplars contribute to the gloom of this concentration of the deepest despair in the multiverse."
+        ]
+      ],
+      "name": "Layers of Hades",
+      "page": 197,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Supernatural Hooks",
+      "colLabels": [
+        "1d6",
+        "Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The characters all have a vivid dream that foreshadows elements of the adventure."
+        ],
+        [
+          "2",
+          "While preparing spells, one character receives a quest from a god or patron."
+        ],
+        [
+          "3",
+          "A fortune teller's reading for one of the characters points to a quest and offers hints about challenges that lie ahead."
+        ],
+        [
+          "4",
+          "Flames, clouds, smoke, or huge flocks of birds take distinct shapes that portend the adventure situation."
+        ],
+        [
+          "5",
+          "Animals or animated objects speak clearly to direct the adventurers toward the situation."
+        ],
+        [
+          "6",
+          "Someone who died returns as a ghost and haunts the characters. The ghost prompts the characters to investigate the cause of the ghost's death and put it to rest."
+        ]
+      ],
+      "name": "Supernatural Hooks",
+      "page": 111,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

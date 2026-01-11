@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Treasure Themes",
+      "colLabels": [
+        "Theme",
+        "Appropriate Treasure"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "{@book Arcana|XDMG|6|Arcana Tables}",
+          "Gemstones plus magic items of an eldritch or esoteric nature"
+        ],
+        [
+          "{@book Armaments|XDMG|6|Armaments Tables}",
+          "Coins or trade bars plus magic items that are useful in battle"
+        ],
+        [
+          "{@book Implements|XDMG|6|Implements Tables}",
+          "Coins, trade bars, or trade goods plus magic items that focus on utility"
+        ],
+        [
+          "{@book Relics|XDMG|6|Relics Tables}",
+          "Art objects plus magic items that have religious origins or purposes"
+        ]
+      ],
+      "name": "Treasure Themes",
+      "page": 213,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

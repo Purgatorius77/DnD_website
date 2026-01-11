@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Gehenna",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Khalas",
+          "Lava illuminates clouds of volcanic ash and steam from the River Styx."
+        ],
+        [
+          "Chamada",
+          "Constant lava flows and eruptions make overland travel difficult. Iron zeppelins piloted by yugoloths drift through the constant gray ashfall."
+        ],
+        [
+          "Mungoth",
+          "Acidic ash mingles with falling snow on this freezing layer."
+        ],
+        [
+          "Krangath",
+          "The Dead Furnace is a great mountain suspended in silence and darkness, home to a coterie of liches."
+        ]
+      ],
+      "name": "Layers of Gehenna",
+      "page": 197,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

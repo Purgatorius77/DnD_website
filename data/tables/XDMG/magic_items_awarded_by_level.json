@@ -1,0 +1,83 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items Awarded by Level",
+      "colLabels": [
+        "Character Level (Tier of Play)",
+        "Common Items",
+        "Uncommon Items",
+        "Rare Items",
+        "Very Rare Items",
+        "Legendary Items",
+        "All Items"
+      ],
+      "colStyles": [
+        "col-1-8 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center"
+      ],
+      "rows": [
+        [
+          "1–4 (tier 1)",
+          "6",
+          "4",
+          "1",
+          "0",
+          "0",
+          "11"
+        ],
+        [
+          "5–10 (tier 2)",
+          "10",
+          "17",
+          "6",
+          "1",
+          "0",
+          "34"
+        ],
+        [
+          "11–16 (tier 3)",
+          "3",
+          "7",
+          "11",
+          "7",
+          "2",
+          "30"
+        ],
+        [
+          "17–20 (tier 4)",
+          "0",
+          "0",
+          "5",
+          "11",
+          "9",
+          "25"
+        ],
+        [
+          "{@b Total}",
+          "{@b 19}",
+          "{@b 28}",
+          "{@b 23}",
+          "{@b 19}",
+          "{@b 11}",
+          "{@b 100}"
+        ]
+      ],
+      "name": "Magic Items Awarded by Level",
+      "page": 218,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

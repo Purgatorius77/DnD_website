@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Settlements by Size",
+      "colLabels": [
+        "Settlement",
+        "Population Range",
+        "Max. GP Value"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4",
+        "col-4 text-right"
+      ],
+      "rows": [
+        [
+          "Village",
+          "Up to 500",
+          "20 GP"
+        ],
+        [
+          "Town",
+          "501–5,000",
+          "2,000 GP"
+        ],
+        [
+          "City",
+          "5,001 and higher",
+          "200,000 GP"
+        ]
+      ],
+      "name": "Settlements by Size",
+      "page": 93,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

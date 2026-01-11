@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d100",
+        "Treasure"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–40",
+          "Roll on the 25 GP {@book Art Objects|XDMG|6|25 GP Art Objects} table."
+        ],
+        [
+          "41–63",
+          "Roll on the 250 GP {@book Art Objects|XDMG|6|250 GP Art Objects} table."
+        ],
+        [
+          "64–73",
+          "Roll on the 750 GP {@book Art Objects|XDMG|6|750 GP Art Objects} table."
+        ],
+        [
+          "74–75",
+          "Roll on the 2,500 GP {@book Art Objects|XDMG|6|2,500 GP Art Objects} table."
+        ],
+        [
+          "76–90",
+          "Roll on a Common Magic Items table of your choice ({@book Arcana|XDMG|6|Arcana—Common}, {@book Armaments|XDMG|6|Armaments—Common}, {@book Implements|XDMG|6|Implements—Common}, or {@book Relics|XDMG|6|Relics—Common})."
+        ],
+        [
+          "91–98",
+          "Roll on an Uncommon Magic Items table of your choice ({@book Arcana|XDMG|6|Arcana—Uncommon}, {@book Armaments|XDMG|6|Armaments—Uncommon}, {@book Implements|XDMG|6|Implements—Uncommon}, or {@book Relics|XDMG|6|Relics—Uncommon})."
+        ],
+        [
+          "99–00",
+          "Roll on a Rare Magic Items table of your choice ({@book Arcana|XDMG|6|Arcana—Rare}, {@book Armaments|XDMG|6|Armaments—Rare}, {@book Implements|XDMG|6|Implements—Rare}, or {@book Relics|XDMG|6|Relics—Rare})."
+        ]
+      ],
+      "name": "Treasure",
+      "page": 352,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Bastions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 8
+        },
+        "index": 7
+      }
+    }
+  ]
+}

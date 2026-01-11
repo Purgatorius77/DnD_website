@@ -1,0 +1,96 @@
+{
+  "table": [
+    {
+      "caption": "Outer Planes",
+      "colLabels": [
+        "Outer Plane",
+        "Alignment"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@book Abyss|XDMG|5|Abyss}",
+          "Chaotic Evil"
+        ],
+        [
+          "{@book Acheron|XDMG|5|Acheron}",
+          "Lawful Evil, Lawful Neutral"
+        ],
+        [
+          "{@book Arborea|XDMG|5|Arborea}",
+          "Chaotic Good"
+        ],
+        [
+          "{@book Arcadia|XDMG|5|Arcadia}",
+          "Lawful Good, Lawful Neutral"
+        ],
+        [
+          "{@book Beastlands|XDMG|5|Beastlands}",
+          "Chaotic Good, Neutral Good"
+        ],
+        [
+          "{@book Bytopia|XDMG|5|Bytopia}",
+          "Lawful Good, Neutral Good"
+        ],
+        [
+          "{@book Carceri|XDMG|5|Carceri}",
+          "Chaotic Evil, Neutral Evil"
+        ],
+        [
+          "{@book Elysium|XDMG|5|Elysium}",
+          "Neutral Good"
+        ],
+        [
+          "{@book Gehenna|XDMG|5|Gehenna}",
+          "Lawful Evil, Neutral Evil"
+        ],
+        [
+          "{@book Hades|XDMG|5|Hades}",
+          "Neutral Evil"
+        ],
+        [
+          "{@book Limbo|XDMG|5|Limbo}",
+          "Chaotic Neutral"
+        ],
+        [
+          "{@book Mechanus|XDMG|5|Mechanus}",
+          "Lawful Neutral"
+        ],
+        [
+          "{@book Mount Celestia|XDMG|5|Mount Celestia}",
+          "Lawful Good"
+        ],
+        [
+          "{@book Nine Hells|XDMG|5|Nine Hells}",
+          "Lawful Evil"
+        ],
+        [
+          "{@book Outlands|XDMG|5|Outlands}",
+          "Neutral"
+        ],
+        [
+          "{@book Pandemonium|XDMG|5|Pandemonium}",
+          "Chaotic Evil, Chaotic Neutral"
+        ],
+        [
+          "{@book Ysgard|XDMG|5|Ysgard}",
+          "Chaotic Good, Chaotic Neutral"
+        ]
+      ],
+      "name": "Outer Planes",
+      "page": 174,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

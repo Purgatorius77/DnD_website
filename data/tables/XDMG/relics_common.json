@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Relics - Common",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–08",
+          "{@item Ear Horn of Hearing|XDMG}"
+        ],
+        [
+          "09–28",
+          "{@item Potion of Healing|XDMG}"
+        ],
+        [
+          "29–36",
+          "{@item Pot of Awakening|XDMG}"
+        ],
+        [
+          "37–44",
+          "{@item Ruby of the War Mage|XDMG}"
+        ],
+        [
+          "45–52",
+          "{@item Shield of Expression|XDMG}"
+        ],
+        [
+          "53–60",
+          "{@item Smoldering Armor|XDMG}"
+        ],
+        [
+          "61–80",
+          "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Cantrip)|XDMG|cantrip} or {@item Spell Scroll (Level 1)|XDMG|level 1} spell)"
+        ],
+        [
+          "81–90",
+          "{@item Staff of Adornment|XDMG}"
+        ],
+        [
+          "91–00",
+          "{@item Staff of Flowers|XDMG}"
+        ]
+      ],
+      "name": "Relics - Common",
+      "page": 330,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

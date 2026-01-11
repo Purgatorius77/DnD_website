@@ -1,0 +1,70 @@
+{
+  "table": [
+    {
+      "caption": "Abilities, Ability Checks, and Saving Throws",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Ability",
+        "Score Measures...",
+        "Make an Ability Check To...",
+        "Make a Saving Throw To..."
+      ],
+      "colStyles": [
+        "col-2-1",
+        "col-3-3",
+        "col-3-3",
+        "col-3-3"
+      ],
+      "rows": [
+        [
+          "Strength",
+          "Physical might",
+          "Lift, push, pull, or break something",
+          "Physically resist direct force"
+        ],
+        [
+          "Dexterity",
+          "Agility, reflexes, balance",
+          "Move nimbly, quickly, or quietly",
+          "Dodge out of harm's way"
+        ],
+        [
+          "Constitution",
+          "Health and stamina",
+          "Push your body beyond normal limits",
+          "Endure a toxic hazard"
+        ],
+        [
+          "Intelligence",
+          "Reasoning and memory",
+          "Reason or remember",
+          "Recognize an illusion as fake"
+        ],
+        [
+          "Wisdom",
+          "Perceptiveness and mental fortitude",
+          "Notice things in the environment or in creatures' behavior",
+          "Resist a mental assault"
+        ],
+        [
+          "Charisma",
+          "Confidence, poise, and charm",
+          "Influence, entertain, or deceive",
+          "Assert your identity"
+        ]
+      ],
+      "name": "Resolving Outcomes; Abilities, Ability Checks, and Saving Throws",
+      "page": 27,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Running the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

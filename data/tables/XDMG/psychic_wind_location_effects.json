@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Psychic Wind Location Effects",
+      "colLabels": [
+        "1d20",
+        "Location Effect"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–8",
+          "Diverted; add {@dice 1d6} days to travel time"
+        ],
+        [
+          "9–12",
+          "Blown astray; add {@dice 3d10} days to travel time"
+        ],
+        [
+          "13–16",
+          "Lost; at the end of the travel time, the characters arrive at a location other than the intended destination"
+        ],
+        [
+          "17–20",
+          "Sent through a random color pool (roll on the {@book Astral Color Pools|XDMG|5|Astral Color Pools} table)"
+        ]
+      ],
+      "name": "Psychic Wind Location Effects",
+      "page": 185,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

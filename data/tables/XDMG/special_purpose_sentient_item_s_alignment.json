@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Sentient Item's Alignment",
+      "colLabels": [
+        "1d100",
+        "Alignment"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–15",
+          "Lawful Good"
+        ],
+        [
+          "16–35",
+          "Neutral Good"
+        ],
+        [
+          "36–50",
+          "Chaotic Good"
+        ],
+        [
+          "51–63",
+          "Lawful Neutral"
+        ],
+        [
+          "64–73",
+          "Neutral"
+        ],
+        [
+          "74–85",
+          "Chaotic Neutral"
+        ],
+        [
+          "86–89",
+          "Lawful Evil"
+        ],
+        [
+          "90–96",
+          "Neutral Evil"
+        ],
+        [
+          "97–00",
+          "Chaotic Evil"
+        ]
+      ],
+      "name": "Special Purpose; Sentient Item's Alignment",
+      "page": 226,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

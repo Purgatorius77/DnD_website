@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Portcullises",
+      "colLabels": [
+        "Portcullis Size",
+        "Iron DC",
+        "Wood DC"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Medium (8 ft. tall × 5 ft. wide)",
+          "20",
+          "15"
+        ],
+        [
+          "Large (10 ft. tall × 10 ft. wide)",
+          "25",
+          "20"
+        ],
+        [
+          "Huge (20 ft. tall × 15 ft. wide)",
+          "30",
+          "25"
+        ]
+      ],
+      "name": "Portcullises",
+      "page": 64,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Audible Distance",
+      "colLabels": [
+        "Noise",
+        "Distance"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Trying to be quiet",
+          "{@dice 2d6 × 5} feet"
+        ],
+        [
+          "Normal noise level",
+          "{@dice 2d6 × 10} feet"
+        ],
+        [
+          "Very loud",
+          "{@dice 2d6 × 50} feet"
+        ]
+      ],
+      "name": "Perception and Encounters; Audible Distance",
+      "page": 34,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Running the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

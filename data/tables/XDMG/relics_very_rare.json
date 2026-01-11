@@ -1,0 +1,100 @@
+{
+  "table": [
+    {
+      "caption": "Relics - Very Rare",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–05",
+          "{@item +2 Armor|XDMG|Armor, +2}"
+        ],
+        [
+          "06–10",
+          "{@item Candle of Invocation|XDMG}"
+        ],
+        [
+          "11–15",
+          "{@item Cauldron of Rebirth|XDMG}"
+        ],
+        [
+          "16–20",
+          "{@item Enspelled Staff|XDMG} (level 4 or 5 spell)"
+        ],
+        [
+          "21–25",
+          "{@item Horn of Valhalla, Bronze|XDMG|Horn of Valhalla (bronze)}"
+        ],
+        [
+          "26–30",
+          "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Insight|XDMG|insight})"
+        ],
+        [
+          "31–35",
+          "{@item Manual of Bodily Health|XDMG}"
+        ],
+        [
+          "36–43",
+          "{@item Potion of Supreme Healing|XDMG|Potion of Healing (supreme)}"
+        ],
+        [
+          "44–50",
+          "{@item Potion of Vitality|XDMG}"
+        ],
+        [
+          "51–55",
+          "{@item Rod of Alertness|XDMG}"
+        ],
+        [
+          "56–65",
+          "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 6)|XDMG|level 6}, {@item Spell Scroll (Level 7)|XDMG|level 7}, or {@item Spell Scroll (Level 8)|XDMG|level 8} spell)"
+        ],
+        [
+          "66–70",
+          "{@item Spirit Board|XDMG}"
+        ],
+        [
+          "71–75",
+          "{@item Staff of Fire|XDMG}"
+        ],
+        [
+          "76–80",
+          "{@item Staff of Frost|XDMG}"
+        ],
+        [
+          "81–85",
+          "{@item Staff of Striking|XDMG}"
+        ],
+        [
+          "86–90",
+          "{@item Staff of Thunder and Lightning|XDMG}"
+        ],
+        [
+          "91–95",
+          "{@item Tome of Understanding|XDMG}"
+        ],
+        [
+          "96–00",
+          "{@item +3 Wand of the War Mage|XDMG|Wand of the War Mage, +3}"
+        ]
+      ],
+      "name": "Relics - Very Rare",
+      "page": 330,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

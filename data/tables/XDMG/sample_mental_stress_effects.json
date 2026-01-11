@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Sample Mental Stress Effects",
+      "colLabels": [
+        "Example",
+        "Save DC",
+        "Psychic Damage"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "A character ingests a hallucinogenic substance that distorts the character's perception of reality.",
+          "10",
+          "{@dice 1d6}"
+        ],
+        [
+          "A character touches a fiendish idol that tears at the character's mind, threatening to shatter it.",
+          "15",
+          "{@dice 3d6}"
+        ],
+        [
+          "A magical trap flings a character into the Far Realm until the end of that character's next turn.",
+          "20",
+          "{@dice 9d6}"
+        ]
+      ],
+      "name": "Sample Mental Stress Effects",
+      "page": 70,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

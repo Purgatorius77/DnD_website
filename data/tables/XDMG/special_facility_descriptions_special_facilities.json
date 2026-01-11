@@ -1,0 +1,209 @@
+{
+  "table": [
+    {
+      "caption": "Special Facilities",
+      "colLabels": [
+        "Level",
+        "Special Facility",
+        "Prerequisite",
+        "Order"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-2",
+        "col-7",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "5",
+          "{@facility Arcane Study|XDMG}",
+          "Ability to use an {@item Arcane Focus|XPHB} or a tool as a {@variantrule Spellcasting Focus|XPHB}",
+          "Craft"
+        ],
+        [
+          "5",
+          "{@facility Armory|XDMG}",
+          "None",
+          "Trade"
+        ],
+        [
+          "5",
+          "{@facility Barrack|XDMG}",
+          "None",
+          "Recruit"
+        ],
+        [
+          "5",
+          "{@facility Garden|XDMG}",
+          "None",
+          "Harvest"
+        ],
+        [
+          "5",
+          "{@facility Library|XDMG}",
+          "None",
+          "Research"
+        ],
+        [
+          "5",
+          "{@facility Sanctuary|XDMG}",
+          "Ability to use a {@item Holy Symbol|XPHB} or {@item Druidic Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB}",
+          "Craft"
+        ],
+        [
+          "5",
+          "{@facility Smithy|XDMG}",
+          "None",
+          "Craft"
+        ],
+        [
+          "5",
+          "{@facility Storehouse|XDMG}",
+          "None",
+          "Trade"
+        ],
+        [
+          "5",
+          "{@facility Workshop|XDMG}",
+          "None",
+          "Craft"
+        ],
+        [
+          "9",
+          "{@facility Gaming Hall|XDMG}",
+          "None",
+          "Trade"
+        ],
+        [
+          "9",
+          "{@facility Greenhouse|XDMG}",
+          "None",
+          "Harvest"
+        ],
+        [
+          "9",
+          "{@facility Laboratory|XDMG}",
+          "None*",
+          "Craft"
+        ],
+        [
+          "9",
+          "{@facility Sacristy|XDMG}",
+          "Ability to use a {@item Holy Symbol|XPHB} or {@item Druidic Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB}",
+          "Craft"
+        ],
+        [
+          "9",
+          "{@facility Scriptorium|XDMG}",
+          "None*",
+          "Craft"
+        ],
+        [
+          "9",
+          "{@facility Stable|XDMG}",
+          "None",
+          "Trade"
+        ],
+        [
+          "9",
+          "{@facility Teleportation Circle|XDMG}",
+          "None",
+          "Recruit"
+        ],
+        [
+          "9",
+          "{@facility Theater|XDMG}",
+          "None",
+          "Empower"
+        ],
+        [
+          "9",
+          "{@facility Training Area|XDMG}",
+          "None",
+          "Empower"
+        ],
+        [
+          "9",
+          "{@facility Trophy Room|XDMG}",
+          "None",
+          "Research"
+        ],
+        [
+          "13",
+          "{@facility Archive|XDMG}",
+          "None",
+          "Research"
+        ],
+        [
+          "13",
+          "{@facility Meditation Chamber|XDMG}",
+          "None",
+          "Empower"
+        ],
+        [
+          "13",
+          "{@facility Menagerie|XDMG}",
+          "None",
+          "Recruit"
+        ],
+        [
+          "13",
+          "{@facility Observatory|XDMG}",
+          "Ability to use a {@variantrule Spellcasting Focus|XPHB}",
+          "Empower"
+        ],
+        [
+          "13",
+          "{@facility Pub|XDMG}",
+          "None",
+          "Research"
+        ],
+        [
+          "13",
+          "{@facility Reliquary|XDMG}",
+          "Ability to use a {@item Holy Symbol|XPHB} or {@item Druidic Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB}",
+          "Harvest"
+        ],
+        [
+          "17",
+          "{@facility Demiplane|XDMG}",
+          "Ability to use an {@item Arcane Focus|XPHB} or a tool as a {@variantrule Spellcasting Focus|XPHB}",
+          "Empower"
+        ],
+        [
+          "17",
+          "{@facility Guildhall|XDMG}",
+          "Expertise in a skill",
+          "Recruit"
+        ],
+        [
+          "17",
+          "{@facility Sanctum|XDMG}",
+          "Ability to use a {@item Holy Symbol|XPHB} or {@item Druidic Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB}",
+          "Empower"
+        ],
+        [
+          "17",
+          "{@facility War Room|XDMG}",
+          "Fighting Style feature or Unarmored Defense feature",
+          "Recruit"
+        ]
+      ],
+      "footnotes": [
+        "*Certain orders that can be issued to these facilities have additional prerequisites."
+      ],
+      "name": "Special Facility Descriptions; Special Facilities",
+      "page": 336,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Bastions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 8
+        },
+        "index": 7
+      }
+    }
+  ]
+}

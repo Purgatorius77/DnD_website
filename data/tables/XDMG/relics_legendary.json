@@ -1,0 +1,72 @@
+{
+  "table": [
+    {
+      "caption": "Relics - Legendary",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–08",
+          "{@item Armor of Invulnerability|XDMG}"
+        ],
+        [
+          "09–18",
+          "{@item +3 Armor|XDMG|Armor, +3}"
+        ],
+        [
+          "19–27",
+          "{@item Enspelled Staff|XDMG} (level 6, 7, or 8 spell)"
+        ],
+        [
+          "28–36",
+          "{@item Holy Avenger|XDMG}"
+        ],
+        [
+          "37–45",
+          "{@item Horn of Valhalla, Iron|XDMG|Horn of Valhalla (iron)}"
+        ],
+        [
+          "46–54",
+          "{@item Rod of Resurrection|XDMG}"
+        ],
+        [
+          "55–63",
+          "{@item Scarab of Protection|XDMG}"
+        ],
+        [
+          "64–72",
+          "{@item Scroll of Titan Summoning|XDMG}"
+        ],
+        [
+          "73–80",
+          "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 9)|XDMG|level 9} spell)"
+        ],
+        [
+          "81–90",
+          "{@item Talisman of Pure Good|XDMG}"
+        ],
+        [
+          "91–00",
+          "{@item Talisman of Ultimate Evil|XDMG}"
+        ]
+      ],
+      "name": "Relics - Legendary",
+      "page": 330,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

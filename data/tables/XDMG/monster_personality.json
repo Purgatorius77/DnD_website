@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Monster Personality",
+      "colLabels": [
+        "1d8",
+        "Personality"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Cowardly; surrenders easily"
+        ],
+        [
+          "2",
+          "Greedy; wants treasure"
+        ],
+        [
+          "3",
+          "Boastful; makes a show of bravery but runs from danger"
+        ],
+        [
+          "4",
+          "Disorderly; poorly trained and easily rattled"
+        ],
+        [
+          "5",
+          "Fanatical; ready to die fighting"
+        ],
+        [
+          "6",
+          "Brave; stands firm against danger"
+        ],
+        [
+          "7",
+          "Jocular; taunts enemies"
+        ],
+        [
+          "8",
+          "Orderly; difficult to rattle"
+        ]
+      ],
+      "name": "Monster Personality",
+      "page": 116,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

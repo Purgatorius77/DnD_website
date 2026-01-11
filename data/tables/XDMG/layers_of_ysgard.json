@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Layers of Ysgard",
+      "colLabels": [
+        "Layer",
+        "Description"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Ysgard",
+          "Immense rivers of floating earth grind together in eternal rumbling."
+        ],
+        [
+          "Muspelheim",
+          "The ground smokes and burns beneath the earthbergs of the top layer."
+        ],
+        [
+          "Nidavellir",
+          "Floating chunks of earth are closer together, giving the appearance of endless tunnels with rich mineral deposits."
+        ]
+      ],
+      "name": "Layers of Ysgard",
+      "page": 210,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

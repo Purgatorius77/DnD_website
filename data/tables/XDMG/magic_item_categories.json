@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Magic Item Categories",
+      "colLabels": [
+        "Category",
+        "Examples"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "{@book Armor|XDMG|6|Armor}",
+          "{@item +1 Leather Armor|XDMG}, {@item +1 Shield|XDMG}"
+        ],
+        [
+          "{@book Potions|XDMG|6|Potions}",
+          "{@item Potion of Healing|XDMG}"
+        ],
+        [
+          "{@book Rings|XDMG|6|Rings}",
+          "{@item Ring of Invisibility|XDMG}"
+        ],
+        [
+          "{@book Rods|XDMG|6|Rods}",
+          "{@item Immovable Rod|XDMG}"
+        ],
+        [
+          "{@book Scrolls|XDMG|6|Scrolls}",
+          "{@item Spell Scroll|XDMG}"
+        ],
+        [
+          "{@book Staffs|XDMG|6|Staffs}",
+          "{@item Staff of Striking|XDMG}"
+        ],
+        [
+          "{@book Wands|XDMG|6|Wands}",
+          "{@item Wand of Fireballs|XDMG}"
+        ],
+        [
+          "{@book Weapons|XDMG|6|Weapons}",
+          "{@item +1 Ammunition|XDMG}, {@item +1 Longsword|XDMG}"
+        ],
+        [
+          "{@book Wondrous Items|XDMG|6|Wondrous Items}",
+          "{@item Bag of Holding|XDMG}, {@item Boots of Elvenkind|XDMG}"
+        ]
+      ],
+      "name": "Magic Item Categories",
+      "page": 216,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

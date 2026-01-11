@@ -1,0 +1,96 @@
+{
+  "table": [
+    {
+      "caption": "Relics - Uncommon",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–05",
+          "{@item Enspelled Staff|XDMG} (cantrip or level 1 spell)"
+        ],
+        [
+          "06–10",
+          "{@item Keoghtom's Ointment|XDMG}"
+        ],
+        [
+          "11–15",
+          "{@item Mariner's Armor|XDMG}"
+        ],
+        [
+          "16–20",
+          "{@item Nature's Mantle|XDMG}"
+        ],
+        [
+          "21–25",
+          "{@item Pearl of Power|XDMG}"
+        ],
+        [
+          "26–30",
+          "{@item Periapt of Health|XDMG}"
+        ],
+        [
+          "31–35",
+          "{@item Periapt of Wound Closure|XDMG}"
+        ],
+        [
+          "36–40",
+          "{@item Potion of Animal Friendship|XDMG}"
+        ],
+        [
+          "41–55",
+          "{@item Potion of Greater Healing|XDMG|Potion of Healing (greater)}"
+        ],
+        [
+          "56–60",
+          "{@item Potion of Resistance|XDMG}"
+        ],
+        [
+          "61–65",
+          "{@item Ring of Water Walking|XDMG}"
+        ],
+        [
+          "66–70",
+          "{@item Sending Stones|XDMG}"
+        ],
+        [
+          "71–80",
+          "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 2)|XDMG|level 2} or {@item Spell Scroll (Level 3)|XDMG|level 3} spell)"
+        ],
+        [
+          "81–85",
+          "{@item Staff of the Adder|XDMG}"
+        ],
+        [
+          "86–90",
+          "{@item Staff of the Python|XDMG}"
+        ],
+        [
+          "91–95",
+          "{@item Wand of Magic Detection|XDMG}"
+        ],
+        [
+          "96–00",
+          "{@item +1 Wand of the War Mage|XDMG|Wand of the War Mage, +1}"
+        ]
+      ],
+      "name": "Relics - Uncommon",
+      "page": 330,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

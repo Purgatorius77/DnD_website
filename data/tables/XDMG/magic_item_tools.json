@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Magic Item Tools",
+      "colLabels": [
+        "Item Category",
+        "Required Tool"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Armor",
+          "{@item Leatherworker's Tools|XPHB}, {@item Smith's Tools|XPHB}, or {@item Weaver's Tools|XPHB} depending on the kind of armor as noted in the tools' descriptions"
+        ],
+        [
+          "Potion",
+          "{@item Alchemist's Supplies|XPHB} or {@item Herbalism Kit|XPHB}"
+        ],
+        [
+          "Ring",
+          "{@item Jeweler's Tools|XPHB}"
+        ],
+        [
+          "Rod",
+          "{@item Woodcarver's Tools|XPHB}"
+        ],
+        [
+          "Scroll",
+          "{@item Calligrapher's Supplies|XPHB}"
+        ],
+        [
+          "Staff",
+          "{@item Woodcarver's Tools|XPHB}"
+        ],
+        [
+          "Wand",
+          "{@item Woodcarver's Tools|XPHB}"
+        ],
+        [
+          "Weapon",
+          "{@item Leatherworker's Tools|XPHB}, {@item Smith's Tools|XPHB}, or {@item Woodcarver's Tools|XPHB} depending on the kind of weapon as noted in the tools' descriptions"
+        ],
+        [
+          "Wondrous Item",
+          "{@item Tinker's Tools|XPHB} or the tool required to make the nonmagical item on which the magic item is based"
+        ]
+      ],
+      "name": "Magic Item Tools",
+      "page": 220,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

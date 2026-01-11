@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Magic Item Rarities and Values",
+      "colLabels": [
+        "Rarity",
+        "Value*"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-right"
+      ],
+      "rows": [
+        [
+          "Common",
+          "100 GP"
+        ],
+        [
+          "Uncommon",
+          "400 GP"
+        ],
+        [
+          "Rare",
+          "4,000 GP"
+        ],
+        [
+          "Very Rare",
+          "40,000 GP"
+        ],
+        [
+          "Legendary",
+          "200,000 GP"
+        ],
+        [
+          "Artifact",
+          "Priceless"
+        ]
+      ],
+      "footnotes": [
+        "*Halve the value for a consumable item other than a {@item Spell Scroll|XDMG}. The value of a Spell Scroll is double what it costs to scribe the scroll (as specified in the {@book Player's Handbook|XPHB})."
+      ],
+      "name": "Magic Item Values by Rarity; Magic Item Rarities and Values",
+      "page": 217,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

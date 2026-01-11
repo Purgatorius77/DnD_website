@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Sentient Item's Senses",
+      "colLabels": [
+        "1d4",
+        "Senses"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Hearing and standard vision out to 30 feet"
+        ],
+        [
+          "2",
+          "Hearing and standard vision out to 60 feet"
+        ],
+        [
+          "3",
+          "Hearing and standard vision out to 120 feet"
+        ],
+        [
+          "4",
+          "Hearing and {@sense Darkvision|XPHB} out to 120 feet"
+        ]
+      ],
+      "name": "Special Purpose; Sentient Item's Senses",
+      "page": 226,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}
