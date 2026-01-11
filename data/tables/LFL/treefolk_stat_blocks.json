@@ -1,0 +1,38 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d4",
+        "The Treefolk Is..."
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An ash tree dedicated to defending the forest's people in Lorwyn or the forest's trees in Shadowmoor."
+        ],
+        [
+          "2",
+          "A black poplar tree that loves to contemplate philosophy."
+        ],
+        [
+          "3",
+          "A rowan tree that seeks to destroy all technology."
+        ],
+        [
+          "4",
+          "A yew tree of a variety so rare that they're rumored to be extinct."
+        ]
+      ],
+      "name": "Treefolk Stat Blocks",
+      "source": "LFL",
+      "chapter": {
+        "name": "Bestiary",
+        "index": 3
+      }
+    }
+  ]
+}

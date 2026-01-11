@@ -1,0 +1,121 @@
+{
+  "table": [
+    {
+      "name": "Open Water Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "GoS",
+      "page": 207,
+      "caption": "Open Water Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-03",
+          "{@dice 3d6} {@creature Quipper||quippers}"
+        ],
+        [
+          "04-08",
+          "1 {@creature swarm of quippers}"
+        ],
+        [
+          "09-12",
+          "{@dice 3d10} {@creature Dolphin|VGM|dolphins}"
+        ],
+        [
+          "13-14",
+          "1 {@creature giant octopus}"
+        ],
+        [
+          "15-16",
+          "{@dice 1d4} {@creature Killer Whale||killer whales}"
+        ],
+        [
+          "17-18",
+          "{@dice 1d6} {@creature merfolk}"
+        ],
+        [
+          "19-20",
+          "{@dice 1d6} {@creature Giant Sea Horse||giant sea horses}"
+        ],
+        [
+          "21-24",
+          "{@dice 1d8} {@creature Giant Crab||giant crabs}"
+        ],
+        [
+          "25-28",
+          "{@dice 1d4} {@creature Reef Shark||reef sharks}"
+        ],
+        [
+          "29",
+          "1 {@creature hunter shark}"
+        ],
+        [
+          "30-34",
+          "{@dice 1d4} {@creature sahuagin}"
+        ],
+        [
+          "35-37",
+          "{@dice 1d4} {@creature koalinth|GoS}"
+        ],
+        [
+          "38-40",
+          "A {@table Whirlpools; Whirlpool Rank|GoS|rank 1 whirlpool} connected to the Elemental Plane of Water (see \"{@variantrule Ocean Environs|GoS|Whirlpools}\" from Appendix A of {@i Ghosts of Saltmarsh})"
+        ],
+        [
+          "41-45",
+          "{@dice 1d4} {@creature Locathah|GoS|locathahs}"
+        ],
+        [
+          "46-51",
+          "{@dice 1d3} {@creature Harpy||harpies}"
+        ],
+        [
+          "52-54",
+          "2 {@creature merrow}"
+        ],
+        [
+          "55-57",
+          "1 {@creature sahuagin priestess} and {@dice 1d4} {@creature sahuagin}"
+        ],
+        [
+          "58-59",
+          "1 {@creature koalinth sergeant|GoS} and {@dice 2d4} {@creature koalinth|GoS}"
+        ],
+        [
+          "60-62",
+          "1 {@creature plesiosaurus}"
+        ],
+        [
+          "63-64",
+          "{@dice 1d3} {@creature Sea Hag||sea hags}"
+        ],
+        [
+          "65-67",
+          "{@dice 1d4} {@creature Blood Hawk||blood hawks}"
+        ],
+        [
+          "68-70",
+          "1 {@creature sahuagin champion|GoS}"
+        ],
+        [
+          "71-74",
+          "1 {@creature giant shark}"
+        ],
+        [
+          "75",
+          "1 {@creature young bronze dragon}"
+        ],
+        [
+          "76-00",
+          "A ship ({@variantrule Random Ships|GoS|generated at random})"
+        ]
+      ]
+    }
+  ]
+}

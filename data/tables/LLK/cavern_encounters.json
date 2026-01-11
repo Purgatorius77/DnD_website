@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Cavern Encounters",
+      "colLabels": [
+        "d10",
+        "Encounter"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature Xorn} and an {@creature Umber Hulk} hunt as a team, with the umber hulk working to herd characters toward its partner. Alternatively, the xorn and the umber hulk are rivals, with the characters caught in the middle."
+        ],
+        [
+          "2",
+          "A small war machine built at the monastery has been claimed by three kobolds, which use it to attack any potential threats. Use the statistics for the {@creature Oaken Bolter|MTF} (from {@book Mordenkainen's Tome of Foes|MTF}) and the {@creature Kobold Inventor|VGM} (from {@book Volo's Guide to Monsters|VGM})."
+        ],
+        [
+          "3",
+          "The characters' tunnel route leads through the lair of a {@creature Froghemoth|VGM} or some other exotic monstrosity escaped from another planar craft that crashed into the Barrier Peaks long ago."
+        ],
+        [
+          "4",
+          "A {@creature Galeb Duhr} serves as a kind of door between passageways. Negotiating with it successfully allows access to a secret tunnel that cuts days off the characters' journey."
+        ],
+        [
+          "5",
+          "Roving outlaws (five to ten {@creature Thug||Thugs} led by a {@creature Bandit Captain}) heading to the monastery to join its ranks are hopelessly lost in the tunnels. In gratitude for being rescued, they offer to help the characters in their quest, but betray them at the first opportunity."
+        ],
+        [
+          "6–7",
+          "Six prisoners ({@creature Commoner||Commoners}) escaping from the monastery look to the characters for aid. They are pursued by monks (five {@creature Cultist||Cultists} led by a {@creature Cult Fanatic}). If the prisoners are aided, they can supply some knowledge of the monastery before making their own way safely out of the mountains."
+        ],
+        [
+          "8–10",
+          "A monastery work party—six humanoid prisoners ({@creature Commoner||Commoners}) watched by five {@creature Cultist||Cultists} and a {@creature Cult Fanatic}—is seen collecting ore to fuel the monastery's engines. If the prisoners are rescued, they can supply some knowledge of the monastery before fleeing the mountains."
+        ]
+      ],
+      "name": "Cavern Encounters",
+      "page": 33,
+      "source": "LLK",
+      "chapter": {
+        "name": "Random Encounters",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "A"
+        },
+        "index": 4
+      }
+    }
+  ]
+}

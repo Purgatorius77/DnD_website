@@ -1,0 +1,97 @@
+{
+  "table": [
+    {
+      "name": "Open Water Encounters (Levels 11—20)",
+      "type": "table",
+      "source": "GoS",
+      "page": 207,
+      "caption": "Open Water Encounters (Levels 11—20)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-03",
+          "1 {@creature storm giant}"
+        ],
+        [
+          "04-07",
+          "{@dice 2d6} {@creature Giant Shark||giant sharks}"
+        ],
+        [
+          "08-11",
+          "1 {@creature marid}"
+        ],
+        [
+          "12-18",
+          "1 {@creature sahuagin high priestess|GoS} and {@dice 2d4} {@creature Sahuagin Champion|GoS|sahuagin champions}"
+        ],
+        [
+          "19-25",
+          "1 {@creature sahuagin baron} and {@dice 1d4} {@creature Sahuagin Blademaster|GoS|sahuagin blademasters}"
+        ],
+        [
+          "26-28",
+          "{@dice 3d6} {@creature Reef Shark||reef sharks}"
+        ],
+        [
+          "29-32",
+          "{@dice 2d6} {@creature Hunter Shark||hunter sharks}"
+        ],
+        [
+          "33-39",
+          "A {@table Whirlpools; Whirlpool Rank|GoS|rank 3 whirlpool} connected to the Elemental Plane of Water (see \"{@variantrule Ocean Environs|GoS|Whirlpools}\" from Appendix A of {@i Ghosts of Saltmarsh})"
+        ],
+        [
+          "40-43",
+          "A {@table Whirlpools; Whirlpool Rank|GoS|rank 4 whirlpool} connected to the Elemental Plane of Water (see \"{@variantrule Ocean Environs|GoS|Whirlpools}\" from Appendix A of {@i Ghosts of Saltmarsh})"
+        ],
+        [
+          "44-45",
+          "{@dice 1d3} {@creature Hydra||hydras}"
+        ],
+        [
+          "46-48",
+          "{@dice 1d4} {@creature koalinth sergeant|GoS} and {@dice 3d10} {@creature koalinth|GoS}"
+        ],
+        [
+          "49-50",
+          "{@dice 2d4} {@creature Plesiosaurus||plesiosauruses}"
+        ],
+        [
+          "51-53",
+          "{@dice 3d6} {@creature merrow}"
+        ],
+        [
+          "54-57",
+          "1 {@creature harpy matriarch|GoS} and {@dice 2d8} {@creature Harpy||harpies}"
+        ],
+        [
+          "58-60",
+          "A coven of 3 {@creature Sea Hag||sea hags}"
+        ],
+        [
+          "61-63",
+          "1 {@creature dragon turtle}"
+        ],
+        [
+          "64",
+          "1 {@creature ancient bronze dragon}"
+        ],
+        [
+          "65-75",
+          "A ship ({@variantrule Random Ships|GoS|generated at random})"
+        ],
+        [
+          "76-00",
+          "A mysterious island ({@variantrule Mysterious Islands|GoS|generated at random})"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "CR",
+        "Creature",
+        "Creature Type"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-6",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "1/4",
+          "{@creature Noggle Ransacker|LFL}",
+          "Fey"
+        ],
+        [
+          "1",
+          "{@creature Noggle Wild Mage|LFL}",
+          "Fey"
+        ],
+        [
+          "4",
+          "{@creature Merrow Doublespeaker|LFL}",
+          "Monstrosity"
+        ],
+        [
+          "5",
+          "{@creature Merrow Haranguer|LFL}",
+          "Monstrosity"
+        ],
+        [
+          "6",
+          "{@creature Lorwyn Giant|LFL}",
+          "Giant"
+        ],
+        [
+          "7",
+          "{@creature Incarnation of Transience|LFL}",
+          "Fey"
+        ],
+        [
+          "8",
+          "{@creature Shadowmoor Giant|LFL}",
+          "Giant"
+        ],
+        [
+          "10",
+          "{@creature Incarnation of Vibrance|LFL}",
+          "Fey"
+        ]
+      ],
+      "name": "Creature Descriptions",
+      "source": "LFL",
+      "chapter": {
+        "name": "Bestiary",
+        "index": 3
+      }
+    }
+  ]
+}
