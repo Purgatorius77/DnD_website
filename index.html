@@ -26,6 +26,7 @@
   <button id="Rules">Rules</button>
   <button id="Items">Items, Treasure and Loot</button>
   <button id="Fluff">Lore</button>
+  <button id="Tables">Tables</button>
 
   <div class="sidebar-divider"></div>
 
@@ -81,6 +82,19 @@
   </div>
 
   
+  <div id="tables-filters" style="display:none;">
+    <label for="tableSelect">Select Table</label>
+    <select id="tableSelect"></select>
+
+    <input type="text" id="nameFilter" placeholder="Search by name">
+
+    <div id="tablesourceFilter">
+      <p>Filter by Source:</p>
+    <div id="tablesourceCheckboxes"></div>
+    </div>
+        <button id="resetTablesFiltersBtn">Reset Filters</button>
+</div>
+
 
   <!-- SPELL FILTERS (start hidden) -->
   <div id="spell-filters" style="display:none;">
@@ -198,6 +212,16 @@
   </div>
 </div>
 
+<div id="tables-intro" class="intro">
+  <div class="intro-content">
+    <h2>Welcome to Tables</h2>
+    <p>Here you can browse all available tables and see their detailed effects.</p>
+    <ul>
+      <li>Filter by source</li>
+    </ul>
+  </div>
+</div>
+
 <!-- RULES INTRO -->
 <div id="rules-intro" class="intro">
   <div class="intro-content">
@@ -243,7 +267,8 @@
     <div id="statblock-content"></div>
   </div>
 
-
+  <div id="tables-statblock" style="display:none;">
+  </div>
 
   <!-- SPELL STATBLOCK -->
   <div id="spell-statblock" style="display:none;">
