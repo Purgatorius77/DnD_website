@@ -4,7 +4,7 @@ import { loadJSON } from "../data/dataloader.js";
 
 export async function initTables() {
   // Load index.json
-  const tablePaths = await loadJSON("../data/index.json");
+  const tablePaths = await loadJSON("/DnD_website/data/index.json");
 
   const tables = [];
 window.allTables = tables;
@@ -46,6 +46,7 @@ function renderTableStatblock(table) {
     </table>
   `;
 }
+
 
 
 
