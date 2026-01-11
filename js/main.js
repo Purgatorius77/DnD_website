@@ -27,8 +27,8 @@ import { initArcana} from "./items/arcana.js"
 import { initArmaments} from "./items/armaments.js"
 import { initImplements} from "./items/implements.js"
 import { initArt} from "./items/art.js"
-import { initTables} from "./tables/tables.js"
 import { initTableFilters } from "./filters/tablesfilter.js";
+import { initTables, renderTableStatblock } from "./tables/tables.js";
 
 // after tables loaded
 
@@ -102,6 +102,7 @@ const layout = document.querySelector(".layout");
 toggleBtn.addEventListener("click", () => {
   layout.classList.toggle("tracker-collapsed");
 });
+
 
 
 
