@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Canyon Shrine Villains",
+      "colLabels": [
+        "d8",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature minotaur} captures and devours other creatures limb by limb as part of a bizarre ritual honoring Mogis."
+        ],
+        [
+          "2",
+          "A tribe of {@creature Berserker||berserkers} ride {@creature Giant Bat||giant bats} and hunt humanoids that travel through the canyon."
+        ],
+        [
+          "3",
+          "An {@creature adult blue dragon} enslaves the inhabitants of the caves, intent on building an army to conquer a neighboring settlement."
+        ],
+        [
+          "4",
+          "A {@creature manticore} captures warriors and forces them to fight to the death for its amusement."
+        ],
+        [
+          "5",
+          "A group of {@creature Cyclops||cyclopes} capture travelers and keep them as livestock in their caves."
+        ],
+        [
+          "6",
+          "A {@creature lamia} lures young nobles into its cult with promises of hedonism and sells those who disappoint it to other canyon inhabitants."
+        ],
+        [
+          "7",
+          "A vicious {@creature gynosphinx} captures groups of people, then forces one person to choose which of the others should be devoured first."
+        ],
+        [
+          "8",
+          "The victims of the canyon's inhabitants rise as {@creature Wraith||wraiths} determined to end all life in the area."
+        ]
+      ],
+      "name": "Canyon Shrine Villains",
+      "page": 154,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

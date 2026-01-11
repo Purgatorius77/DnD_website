@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Athreos's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Giant vulture}"
+        ],
+        [
+          "2",
+          "{@creature Two-headed cerberus|MOT}"
+        ],
+        [
+          "3",
+          "{@creature Hell hound}"
+        ],
+        [
+          "3",
+          "{@creature Lampad|MOT}"
+        ],
+        [
+          "6",
+          "{@creature Invisible stalker}"
+        ],
+        [
+          "6",
+          "{@creature Underworld cerberus|MOT}"
+        ],
+        [
+          "8",
+          "{@creature Spirit naga}"
+        ],
+        [
+          "9",
+          "{@creature Phylaskia|MOT}"
+        ]
+      ],
+      "name": "Athreos's Monsters",
+      "page": 116,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Graveyard Temple Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A terrified {@creature Returned palamnite|MOT} (see {@book chapter 6|MOT|6|Returned Palamnite}) runs amok in the graveyard, having lost all sense of itself after finding its way back to the world."
+        ],
+        [
+          "2",
+          "A {@creature cyclops} with a taste for rotting flesh digs up plots in the graveyard each night."
+        ],
+        [
+          "3",
+          "A priest removes limbs from corpses to build an congregation of {@creature Flesh Golem||flesh golems} he can't control."
+        ],
+        [
+          "4",
+          "A gate to the Underworld releases a bloodthirsty {@creature Underworld cerberus|MOT} (see {@book chapter 6|MOT|6|Underworld Cerberus}) into the graveyard."
+        ],
+        [
+          "5",
+          "An {@creature archmage} works to raise a vengeful army from the remains of her war-ravaged village."
+        ],
+        [
+          "6",
+          "A mob of paranoid, inexperienced {@creature Commoner||commoners} hunt for Returned but end up tormenting all strangers."
+        ]
+      ],
+      "name": "Graveyard Temple Villains",
+      "page": 126,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

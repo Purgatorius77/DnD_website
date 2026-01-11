@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Agora Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature assassin} murders a politician's rivals then poses the victims in grisly, public tableaus."
+        ],
+        [
+          "2",
+          "A group of {@creature Thug||thugs} vandalizes market stalls whose owners don't pay a weekly protection fee."
+        ],
+        [
+          "3",
+          "{@creature Cultist||Cultists} of Pharika plot to spike the wine at a party in the agora with an experimental poison."
+        ],
+        [
+          "4",
+          "A snake charmer overreaches when he unsuccessfully attempts to control an {@creature amphisbaena|GoS} (see {@book chapter 6|MOT|6|Amphisbaena}) during a performance."
+        ],
+        [
+          "5",
+          "A disgraced priest of Ephara releases a horde of anvilwrought creatures (see {@book chapter 6|MOT|6|Anvilwroughts}) on a crowd gathered at the agora."
+        ],
+        [
+          "6",
+          "A {@creature mage} politician uses enchantment magic to spread rumors about rivals."
+        ]
+      ],
+      "name": "Agora Villains",
+      "page": 122,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

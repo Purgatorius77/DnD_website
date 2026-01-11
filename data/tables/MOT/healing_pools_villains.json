@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Healing Pools Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A group of {@creature Returned Palamnite|MOT|Returned palamnites} (see {@book chapter 6|MOT|6|Returned Palamnite}) invade the pools, believing the waters' magic can restore their lost memories and mortal bodies."
+        ],
+        [
+          "2",
+          "{@creature Naiad|MOT|Naiads} (see {@book chapter 6|MOT|6|Naiad}) guard the pools, making their own judgments about who is and isn't worthy of the pools' healing magic."
+        ],
+        [
+          "3",
+          "The magic waters of the pools wash out to sea and attract a dying {@creature kraken} to the area."
+        ],
+        [
+          "4",
+          "An {@creature assassin} barters captured humanoid test subjects for poison from the pools' {@creature medusa} priest."
+        ],
+        [
+          "5",
+          "A dying {@creature veteran} who was {@condition poisoned} by the pools slaughters any person who is healed by the waters."
+        ],
+        [
+          "6",
+          "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) allows the pools' poisons to seep from the caves and contaminate a community."
+        ]
+      ],
+      "name": "Healing Pools Villains",
+      "page": 162,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

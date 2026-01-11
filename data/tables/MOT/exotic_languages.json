@@ -1,0 +1,41 @@
+{
+  "table": [
+    {
+      "caption": "Exotic Languages",
+      "colLabels": [
+        "Language",
+        "Typical Speakers",
+        "Script"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-4 text-center",
+        "col-4 text-center"
+      ],
+      "rows": [
+        [
+          "{@language Celestial|MOT}",
+          "Gods",
+          "Celestial"
+        ],
+        [
+          "{@language Draconic|MOT}",
+          "Dragons",
+          "Draconic"
+        ],
+        [
+          "{@language Sphinx|MOT}",
+          "Sphinxes",
+          "—"
+        ]
+      ],
+      "name": "Exotic Languages",
+      "page": 9,
+      "source": "MOT",
+      "chapter": {
+        "name": "Welcome to Theros",
+        "index": 0
+      }
+    }
+  ]
+}

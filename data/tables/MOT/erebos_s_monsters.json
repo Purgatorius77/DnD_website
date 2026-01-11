@@ -1,0 +1,71 @@
+{
+  "table": [
+    {
+      "caption": "Erebos's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "{@creature Shadow}",
+          "MM"
+        ],
+        [
+          "2",
+          "{@creature Two-headed cerberus|MOT}",
+          "MOoT"
+        ],
+        [
+          "3",
+          "{@creature Lampad|MOT}",
+          "MOoT"
+        ],
+        [
+          "3",
+          "{@creature Nightmare}",
+          "MM"
+        ],
+        [
+          "5",
+          "{@creature Night hag}*",
+          "MM"
+        ],
+        [
+          "9",
+          "{@creature Abhorrent Overlord|MOT}",
+          "MOoT"
+        ],
+        [
+          "11",
+          "{@creature Doomwake giant|MOT}",
+          "MOoT"
+        ],
+        [
+          "11",
+          "{@creature Nightmare shepherd|MOT}",
+          "MOoT"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6} for details about these creatures in Theros."
+      ],
+      "name": "Erebos's Monsters",
+      "page": 124,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

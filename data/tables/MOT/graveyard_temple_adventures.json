@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Graveyard Temple Adventures",
+      "colLabels": [
+        "d10",
+        "Adventure Goal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Rob a grave or the temple's vault."
+        ],
+        [
+          "2",
+          "Protect a grave or the temple's vault from robbery."
+        ],
+        [
+          "3",
+          "Destroy a seemingly endless wave of undead pouring forth from a graveyard."
+        ],
+        [
+          "4",
+          "Prevent the funeral of a loathed individual from being disrupted."
+        ],
+        [
+          "5",
+          "Find an entrance to the Underworld in the graveyard."
+        ],
+        [
+          "6",
+          "Reunite a {@creature Returned sentry|MOT} (see {@book chapter 6|MOT|6|Returned Sentry}) and their {@creature ghostblade eidolon|MOT} (see {@book chapter 6|MOT|6|Eidolons})."
+        ],
+        [
+          "7",
+          "Destroy {@creature Giant Spider||giant spiders} infesting a tomb."
+        ],
+        [
+          "8",
+          "Acquire death records for a family from a temple full of angry spirits."
+        ],
+        [
+          "9",
+          "Escape the graveyard when undead suddenly rise and overtake the complex."
+        ],
+        [
+          "10",
+          "Use a person's remains to raise them from the dead."
+        ]
+      ],
+      "name": "Graveyard Temple Adventures",
+      "page": 126,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

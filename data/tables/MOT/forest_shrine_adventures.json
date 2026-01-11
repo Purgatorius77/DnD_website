@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Forest Shrine Adventures",
+      "colLabels": [
+        "d10",
+        "Adventure Goal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Get permission from the shrine's {@creature Druid||druids} to take part in a sacred hunt with them."
+        ],
+        [
+          "2",
+          "Prevent game hunters from killing a {@creature unicorn}, and lead the unicorn to a shrine for shelter."
+        ],
+        [
+          "3",
+          "Find a {@creature scout} from the shrine who has gone missing."
+        ],
+        [
+          "4",
+          "Escape a shrine after being captured and held there for crimes against the forest."
+        ],
+        [
+          "5",
+          "Rescue trophy hunters being tortured at a shrine."
+        ],
+        [
+          "6",
+          "Earn a {@creature Druid||druid's} trust to learn a valuable secret about the forest."
+        ],
+        [
+          "7",
+          "Retrieve a sacred weapon held in the grove."
+        ],
+        [
+          "8",
+          "Recruit the help of the shrine's {@creature Druid||druids} to defeat a group of poachers."
+        ],
+        [
+          "9",
+          "Acquire a beast companion from the shrine."
+        ],
+        [
+          "10",
+          "Defend the shrine from a group of {@creature Harpy||harpies}."
+        ]
+      ],
+      "name": "Forest Shrine Adventures",
+      "page": 158,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

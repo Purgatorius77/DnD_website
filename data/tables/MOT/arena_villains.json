@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Arena Villains",
+      "colLabels": [
+        "d8",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A champion pankratiast ({@creature Akroan hoplite|MOT}; see {@book chapter 6|MOT|6|Hoplites}) has her cronies lock everyone in the arena. She allows none to leave until a challenger defeats her."
+        ],
+        [
+          "2",
+          "A {@creature minotaur} frees all the beasts in the amphitheater during a well-attended event."
+        ],
+        [
+          "3",
+          "A chariot racer ({@creature gladiator}) poisons members of a rival team, causing them to fall asleep during competition."
+        ],
+        [
+          "4",
+          "A {@creature mage} uses magic to spy on athletes' conversations and then blackmails them with the information."
+        ],
+        [
+          "5",
+          "A {@creature stone giant} interrupts a session of games and demands a chance to compete."
+        ],
+        [
+          "6",
+          "A promoter forces athletes to overexert themselves, causing dangerous accidents during competitions."
+        ],
+        [
+          "7",
+          "An {@creature archmage} enchants or polymorphs innocents, forcing them to participate in brutal contests."
+        ],
+        [
+          "8",
+          "A {@creature druid} uses the {@spell awaken} spell on beasts in the arena to make them more capable competitors."
+        ]
+      ],
+      "name": "Arena Villains",
+      "page": 134,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

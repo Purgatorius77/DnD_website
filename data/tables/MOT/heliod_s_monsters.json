@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Heliod's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/8",
+          "{@creature Noble}"
+        ],
+        [
+          "2",
+          "{@creature Centaur}"
+        ],
+        [
+          "2",
+          "{@creature Griffon}"
+        ],
+        [
+          "2",
+          "{@creature Pegasus}"
+        ],
+        [
+          "3",
+          "{@creature Fleecemane lion|MOT}"
+        ],
+        [
+          "9",
+          "{@creature Cloud giant}"
+        ],
+        [
+          "11",
+          "{@creature Roc}"
+        ],
+        [
+          "23",
+          "{@creature Empyrean}"
+        ]
+      ],
+      "name": "Heliod's Monsters",
+      "page": 128,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

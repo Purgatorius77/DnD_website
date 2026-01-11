@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Abandoned Temple Condition",
+      "colLabels": [
+        "d8",
+        "Status"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Sunken underground"
+        ],
+        [
+          "2",
+          "Overgrown with plants"
+        ],
+        [
+          "3",
+          "Underwater"
+        ],
+        [
+          "4",
+          "Partially collapsed"
+        ],
+        [
+          "5",
+          "Buried in dirt, mud, sand, or snow"
+        ],
+        [
+          "6",
+          "Beneath a new temple"
+        ],
+        [
+          "7",
+          "Cracked into more than one piece"
+        ],
+        [
+          "8",
+          "Floating in an unstable parallel reality"
+        ]
+      ],
+      "name": "Abandoned Temple Condition",
+      "page": 146,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

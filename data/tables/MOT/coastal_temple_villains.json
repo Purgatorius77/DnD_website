@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Coastal Temple Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature kraken} threatens to destroy the temple if worshipers don't pay tribute to the creature."
+        ],
+        [
+          "2",
+          "A {@creature Naiad|MOT} (see {@book chapter 6|MOT|6|Naiad}) hides inside the temple and murders fishers who worship here for their crimes against the sea."
+        ],
+        [
+          "3",
+          "A group of sirens (see the {@creature Harpy||harpies} entry in {@book chapter 6|MOT|6|Harpies}) take over the temple and lure new victims inside to drown themselves during high tide."
+        ],
+        [
+          "4",
+          "A {@creature priest} of Thassa falsely convinces elderly worshipers that giving more wealth to the temple increases the length of time they live."
+        ],
+        [
+          "5",
+          "A {@creature giant octopus} under the effects of the {@spell awaken} spell hunts in the temple at high tide."
+        ],
+        [
+          "6",
+          "A rageful {@creature triton master of waves|MOT} (see {@book chapter 6|MOT|6|Triton Master of Waves}) believes everyone in a temple is secretly serving a kraken and begins murdering them."
+        ]
+      ],
+      "name": "Coastal Temple Villains",
+      "page": 174,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Ephara's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "1/8",
+          "{@creature Guard}"
+        ],
+        [
+          "1/2",
+          "{@creature Anvilwrought raptor|MOT}"
+        ],
+        [
+          "3",
+          "{@creature Meletian hoplite|MOT}"
+        ],
+        [
+          "9",
+          "{@creature War priest|VGM}"
+        ],
+        [
+          "11",
+          "{@creature Gynosphinx}*"
+        ],
+        [
+          "15",
+          "{@creature Hundred-handed one|MOT}"
+        ],
+        [
+          "17",
+          "{@creature Androsphinx}*"
+        ],
+        [
+          "23",
+          "{@creature Empyrean}"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6|Sphinx} for details about these creatures in Theros."
+      ],
+      "name": "Ephara's Monsters",
+      "page": 120,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}
