@@ -30,6 +30,7 @@ import { initArt} from "./items/art.js"
 import { initTableFilters } from "./filters/tablesfilter.js";
 import { initTables, renderTableStatblock } from "./tables/tables.js";
 
+
 // after tables loaded
 
 
@@ -102,7 +103,6 @@ const layout = document.querySelector(".layout");
 toggleBtn.addEventListener("click", () => {
   layout.classList.toggle("tracker-collapsed");
 });
-
 
 
 
