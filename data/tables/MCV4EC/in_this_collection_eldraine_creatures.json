@@ -1,0 +1,150 @@
+{
+  "table": [
+    {
+      "caption": "Eldraine Creatures",
+      "colLabels": [
+        "CR",
+        "Creature",
+        "Creature Type"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-6",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "{@creature Faerie Borrower|MCV4EC}",
+          "Fey"
+        ],
+        [
+          "1/2",
+          "{@creature Gingerbrute|MCV4EC}",
+          "Construct"
+        ],
+        [
+          "1",
+          "{@creature Faerie Pest|MCV4EC}",
+          "Fey"
+        ],
+        [
+          "2",
+          "{@creature Faerie Pathlighter|MCV4EC}",
+          "Fey"
+        ],
+        [
+          "2",
+          "{@creature Sewer King|MCV4EC}",
+          "Fiend"
+        ],
+        [
+          "3",
+          "{@creature Knight of Eldraine|MCV4EC}",
+          "Humanoid"
+        ],
+        [
+          "3",
+          "{@creature Ogre Chitterlord|MCV4EC}",
+          "Giant"
+        ],
+        [
+          "3",
+          "{@creature Redtooth Werefox|MCV4EC}",
+          "Monstrosity"
+        ],
+        [
+          "4",
+          "{@creature Sweettooth Horror|MCV4EC}",
+          "Fiend"
+        ],
+        [
+          "5",
+          "{@creature Deathless Rider|MCV4EC}",
+          "Undead"
+        ],
+        [
+          "5",
+          "{@creature Dunbarrow Witch|MCV4EC}",
+          "Humanoid"
+        ],
+        [
+          "5",
+          "{@creature Nightmare Haunt|MCV4EC}",
+          "Aberration"
+        ],
+        [
+          "6",
+          "{@creature Witchstalker|MCV4EC}",
+          "Monstrosity"
+        ],
+        [
+          "7",
+          "{@creature Goose Mother|MCV4EC}",
+          "Fey"
+        ],
+        [
+          "11",
+          "{@creature High Fae Impostor|MCV4EC}",
+          "Fey"
+        ],
+        [
+          "11",
+          "{@creature Snapping Hydra|MCV4EC}",
+          "Monstrosity"
+        ],
+        [
+          "11",
+          "{@creature Tempest Hart|MCV4EC}",
+          "Elemental"
+        ],
+        [
+          "11",
+          "{@creature Treefolk|MCV4EC}",
+          "Plant"
+        ],
+        [
+          "12",
+          "{@creature High Fae Kindguard|MCV4EC}",
+          "Fey"
+        ],
+        [
+          "12",
+          "{@creature High Fae Mage|MCV4EC}",
+          "Fey"
+        ],
+        [
+          "12",
+          "{@creature Specter of Night|MCV4EC}",
+          "Undead"
+        ],
+        [
+          "13",
+          "{@creature High Fae Noble|MCV4EC}",
+          "Fey"
+        ],
+        [
+          "15",
+          "{@creature Archon of Boundaries|MCV4EC}",
+          "Celestial"
+        ],
+        [
+          "15",
+          "{@creature Witchkite|MCV4EC}",
+          "Dragon"
+        ],
+        [
+          "18",
+          "{@creature Beanstalk Wurm|MCV4EC}",
+          "Monstrosity"
+        ]
+      ],
+      "name": "In This Collection; Eldraine Creatures",
+      "source": "MCV4EC",
+      "chapter": {
+        "name": "Monstrous Compendium Vol. Four: Eldraine Creatures",
+        "index": 0
+      }
+    }
+  ]
+}

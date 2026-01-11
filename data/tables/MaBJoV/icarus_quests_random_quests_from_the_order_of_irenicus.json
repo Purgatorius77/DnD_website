@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Quests from the Order of Irenicus",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Domain of Dread. Steal a relic from a rival Dark Lord in another Domain of Dread"
+        ],
+        [
+          "2",
+          "Elemental Evil. Loot a temple dedicated to the Elder Elemental Eye"
+        ],
+        [
+          "3",
+          "Netherese Ruins. Explore the ruins of a crashed Netherese city"
+        ],
+        [
+          "4",
+          "Horrific Tomb. Steal the spell books of a rival lich"
+        ],
+        [
+          "5",
+          "Mythal. Investigate a recently discovered Mythal"
+        ],
+        [
+          "6",
+          "Dark Elf Vault. Infiltrate a dark elf city and break into the vault of their magical academy"
+        ]
+      ],
+      "name": "Icarus Quests; Random Quests from the Order of Irenicus",
+      "page": 70,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

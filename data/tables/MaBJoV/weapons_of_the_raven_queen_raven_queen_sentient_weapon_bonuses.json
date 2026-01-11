@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Raven Queen Sentient Weapon Bonuses",
+      "colLabels": [
+        "CR",
+        "Rare",
+        "Very Rare",
+        "Legendary"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3 text-center",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "5-9",
+          "+1",
+          "+1",
+          "+2"
+        ],
+        [
+          "10-15",
+          "+2",
+          "+2",
+          "+3"
+        ],
+        [
+          "16+",
+          "+2",
+          "+3",
+          "+3"
+        ]
+      ],
+      "name": "Weapons of the Raven Queen; Raven Queen Sentient Weapon Bonuses",
+      "page": 79,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

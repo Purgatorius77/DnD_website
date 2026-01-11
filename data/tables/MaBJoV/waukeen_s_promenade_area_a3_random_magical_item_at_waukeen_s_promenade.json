@@ -1,0 +1,165 @@
+{
+  "table": [
+    {
+      "caption": "Random Magical Item at Waukeen's Promenade",
+      "colLabels": [
+        "d100",
+        "Magic Item",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-9",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "1-10",
+          "{@item +1 Ammunition||Ammunition, +1}—{@item +1 Arrow||arrows} (10), {@item +1 Crossbow Bolt||bolts} (10) or {@item +1 sling bullet||sling bullets} (20)",
+          "100 gp"
+        ],
+        [
+          "11-15",
+          "{@item Rope of climbing}",
+          "250 gp"
+        ],
+        [
+          "16-24",
+          "Simple {@item +1 Weapon||weapon, +1}—{@item +1 dagger||dagger}, {@item +1 mace||mace} or {@item +1 sickle||sickle}",
+          "300 gp"
+        ],
+        [
+          "25-26",
+          "{@item +1 Battleaxe||Battleaxe, +1}",
+          "400 gp"
+        ],
+        [
+          "27-28",
+          "{@item +1 Shortsword||Shortsword, +1}",
+          "400 gp"
+        ],
+        [
+          "29-30",
+          "{@item +1 Warhammer||Warhammer, +1}",
+          "400 gp"
+        ],
+        [
+          "31-35",
+          "{@item Potion of growth}",
+          "200 gp"
+        ],
+        [
+          "36-40",
+          "{@item Potion of greater healing}",
+          "300 gp"
+        ],
+        [
+          "41-45",
+          "{@item +1 Shield||Shield, +1}",
+          "300 gp"
+        ],
+        [
+          "46-50",
+          "{@item Lantern of revealing}",
+          "400 gp"
+        ],
+        [
+          "51-55",
+          "{@item Medallion of thoughts}",
+          "400 gp"
+        ],
+        [
+          "56-60",
+          "{@item Robe of useful items}",
+          "500 gp"
+        ],
+        [
+          "61-65",
+          "{@item Driftglobe}",
+          "600 gp"
+        ],
+        [
+          "66-70",
+          "{@item Wand of secrets}",
+          "600 gp"
+        ],
+        [
+          "71-75",
+          "{@item Wand of magic missiles}",
+          "1000 gp"
+        ],
+        [
+          "76-80",
+          "{@item +2 Shield||Shield, +2}",
+          "3,000 gp"
+        ],
+        [
+          "81-83",
+          "{@item Potion of invulnerability}",
+          "4,000 gp"
+        ],
+        [
+          "84-86",
+          "{@item +1 Breastplate||Breastplate, +1}",
+          "7,500 gp"
+        ],
+        [
+          "87-88",
+          "{@item Rope of entanglement}",
+          "7,500 gp"
+        ],
+        [
+          "89-90",
+          "{@item +2 Shortbow||Shortbow, +2}",
+          "8,000 gp"
+        ],
+        [
+          "91-92",
+          "{@item Belt of hill giant strength}",
+          "9,000 gp"
+        ],
+        [
+          "93-94",
+          "{@item Mantle of spell resistance}",
+          "9,000 gp"
+        ],
+        [
+          "95-96",
+          "{@item +2 Rapier||Rapier, +2}",
+          "9,000 gp"
+        ],
+        [
+          "97",
+          "{@item Portable hole}",
+          "11,000 gp"
+        ],
+        [
+          "98",
+          "{@item +2 Studded leather armor||Studded leather, +2}",
+          "25,000 gp"
+        ],
+        [
+          "99",
+          "{@item Crystal ball} (very rare version)",
+          "32,500 gp"
+        ],
+        [
+          "00",
+          "{@item Greatsword of sharpness}",
+          "36,000 gp"
+        ]
+      ],
+      "name": "Waukeen's Promenade (Area A3); Random Magical Item at Waukeen's Promenade",
+      "page": 13,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

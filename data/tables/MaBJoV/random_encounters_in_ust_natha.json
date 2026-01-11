@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random encounters in Ust Natha",
+      "colLabels": [
+        "d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature Achaierai|MaBJoV} band hunting for vengeance"
+        ],
+        [
+          "2",
+          "{@creature Kelubar Consul|MaBJoV|Kelubar Consuls} pursuing an escaped prisoner"
+        ],
+        [
+          "3",
+          "{@creature Phaerimm|MaBJoV} seeking victims to experiment upon"
+        ],
+        [
+          "4",
+          "{@creature Deep Spider|MaBJoV|Deep Spiders} in service of house Despana"
+        ],
+        [
+          "5",
+          "A war band of eight {@creature drow} led by a {@creature drow mage}"
+        ],
+        [
+          "6",
+          "{@creature Aboleth} in water filled crystal bowl carried by four {@creature chuul}"
+        ]
+      ],
+      "name": "Random encounters in Ust Natha",
+      "page": 25,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

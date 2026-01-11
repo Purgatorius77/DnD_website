@@ -1,0 +1,74 @@
+{
+  "table": [
+    {
+      "caption": "Henchmen Rates and Risk-taking DCs",
+      "colLabels": [
+        "Henchman",
+        "Daily Rate",
+        "Intimidation DC",
+        "Persuasion DC"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Talkative {@creature tasloi|MaBJoV}",
+          "1 gp",
+          "12",
+          "10"
+        ],
+        [
+          "Slobbering {@creature gibberling|MaBJoV}",
+          "1 gp",
+          "10",
+          "20"
+        ],
+        [
+          "Flatulent {@creature thug}",
+          "2 gp",
+          "20",
+          "12"
+        ],
+        [
+          "Anxious {@creature scout}",
+          "2 gp",
+          "12",
+          "15"
+        ],
+        [
+          "Egotistical svirfneblin",
+          "2 gp",
+          "15",
+          "15"
+        ],
+        [
+          "Alluring {@creature sirene|MaBJoV}",
+          "10 gp",
+          "15",
+          "15"
+        ],
+        [
+          "Ridiculous {@creature berserker}",
+          "10 gp",
+          "20",
+          "10"
+        ]
+      ],
+      "name": "Henchmen Rates and Risk-taking DCs",
+      "page": 29,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

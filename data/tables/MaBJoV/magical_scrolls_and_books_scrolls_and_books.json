@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Scrolls and Books",
+      "colLabels": [
+        "Scroll",
+        "Required Level",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Spell scroll (1st level)||Spell scroll—1st level wizard spells}",
+          "1",
+          "100 gp"
+        ],
+        [
+          "{@item Spell scroll (2nd level)||Spell scroll—2nd level wizard spells}",
+          "1",
+          "200 gp"
+        ],
+        [
+          "{@item Spell scroll (3rd level)||Spell scroll—3rd level wizard spells}",
+          "3",
+          "500 gp"
+        ],
+        [
+          "{@item Spell scroll (4th level)||Spell scroll—4th level wizard spells}",
+          "3",
+          "900 gp"
+        ],
+        [
+          "{@item Spell scroll (5th level)||Spell scroll—5th level wizard spells}",
+          "9",
+          "2,000 gp"
+        ],
+        [
+          "{@item Spell scroll (6th level)||Spell scroll—6th level wizard spells}",
+          "12",
+          "4,000 gp"
+        ],
+        [
+          "{@item Spell scroll (7th level)||Spell scroll—7th level wizard spells}",
+          "12",
+          "7,500 gp"
+        ],
+        [
+          "{@item Scroll of protection}",
+          "3",
+          "1,500 gp"
+        ],
+        [
+          "{@item Manual of Clay Golems||Manual of golems—clay}",
+          "12",
+          "5,000 gp"
+        ],
+        [
+          "{@item Manual of flesh Golems||Manual of golems—flesh}",
+          "9",
+          "5,000 gp"
+        ]
+      ],
+      "name": "Magical Scrolls and Books; Scrolls and Books",
+      "page": 70,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

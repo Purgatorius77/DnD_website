@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Quests From the Adventurer's Guild",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Monster Hunter. You take missions to hunt down and capture or kill monsters"
+        ],
+        [
+          "2",
+          "Archaeologist. You track down ancient treasures of historical significance and bring them back to museums"
+        ],
+        [
+          "3",
+          "Treasure Hunter. You purchase treasure maps to dungeons, tombs and ruins that haven't yet been plundered"
+        ],
+        [
+          "4",
+          "Mercenary. You hire out to anyone who needs the unique set of skills that your group provides. As long as the money is good"
+        ],
+        [
+          "5",
+          "Surveyor. You go into and map unexplored lands for kingdoms and city states"
+        ],
+        [
+          "6",
+          "Zoologist. You seek out monsters to research and write about"
+        ]
+      ],
+      "name": "Random Quests From the Adventurer's Guild",
+      "page": 28,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

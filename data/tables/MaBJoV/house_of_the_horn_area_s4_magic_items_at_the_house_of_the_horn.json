@@ -1,0 +1,105 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items at the House of the Horn",
+      "colLabels": [
+        "Magic Item",
+        "Religion DC",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Potion of healing}",
+          "12",
+          "30 gp"
+        ],
+        [
+          "{@item Elixir of health}",
+          "12",
+          "100 gp"
+        ],
+        [
+          "{@item Potion of greater healing}",
+          "12",
+          "300 gp"
+        ],
+        [
+          "{@item Boots of elvenkind}",
+          "12",
+          "600 gp"
+        ],
+        [
+          "{@item Stone of good luck} (luckstone)",
+          "12",
+          "600 gp"
+        ],
+        [
+          "{@item Boots of striding and springing}",
+          "12",
+          "600 gp"
+        ],
+        [
+          "{@item Mithral chain mail}",
+          "12",
+          "800 gp"
+        ],
+        [
+          "{@item Cloak of elvenkind}",
+          "18",
+          "1,000 gp"
+        ],
+        [
+          "{@item Mariner's chain mail} armor",
+          "18",
+          "1,000 gp"
+        ],
+        [
+          "{@item Potion of flying}",
+          "18",
+          "9,000 gp"
+        ],
+        [
+          "{@item Elven chain}",
+          "22",
+          "12,000 gp"
+        ],
+        [
+          "{@item Bracers of defense}",
+          "22",
+          "13,000 gp"
+        ],
+        [
+          "{@item Boots of levitation}",
+          "22",
+          "15,000 gp"
+        ],
+        [
+          "{@item Folding boat}",
+          "22",
+          "15,000 gp"
+        ],
+        [
+          "{@item Oathbow}",
+          "24",
+          "50,000 gp"
+        ]
+      ],
+      "name": "House of the Horn (Area S4); Magic Items at the House of the Horn",
+      "page": 23,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

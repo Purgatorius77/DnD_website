@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Quests from the Knights of Bahamut",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Relic of Bahamut. Track down an ancient relic blessed by Bahamut"
+        ],
+        [
+          "2",
+          "Dragon Egg. Steal a dragon egg from a chromatic dragon that raided the nest of a metallic dragon"
+        ],
+        [
+          "3",
+          "Recovery. Recover dragon eggs from the lair of a recently slain metallic dragon"
+        ],
+        [
+          "4",
+          "Pearls. Loot a horde of pearls from the bottom of the ocean to give to an ancient gold dragon as a gift (pearls are a food delicacy to such beings)"
+        ],
+        [
+          "5",
+          "Assault. Join an adult bronze dragon in an assault against a castle ruled by goblinoids and devils"
+        ],
+        [
+          "6",
+          "Silver Dragon. Accompany an adult silver dragon into the Anauroch desert to investigate Netherese ruins"
+        ]
+      ],
+      "name": "Random Quests from the Knights of Bahamut",
+      "page": 64,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

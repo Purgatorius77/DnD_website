@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Rilsa Rael's Wares",
+      "colLabels": [
+        "Magic Item",
+        "Persuasion DC",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Deck of illusions}",
+          "12",
+          "400 gp"
+        ],
+        [
+          "{@item Gloves of thievery}",
+          "12",
+          "500 gp"
+        ],
+        [
+          "{@item Bead of force}",
+          "18",
+          "5,000 gp"
+        ],
+        [
+          "{@item Ring of free action}",
+          "18",
+          "9,000 gp"
+        ],
+        [
+          "{@item Sword of life stealing}",
+          "22",
+          "11,000 gp"
+        ],
+        [
+          "{@item Wand of binding}",
+          "22",
+          "11,000 gp"
+        ],
+        [
+          "{@item Elven chain}",
+          "22",
+          "11,000 gp"
+        ],
+        [
+          "{@item Mace of terror}",
+          "22",
+          "12,000 gp"
+        ],
+        [
+          "{@item Arrow-catching shield}",
+          "22",
+          "13,000 gp"
+        ],
+        [
+          "{@item Ioun Stone, Reserve||Ioun stone (reserve)}",
+          "22",
+          "13,000 gp"
+        ]
+      ],
+      "name": "Rilsa Rael, Fence (Area B21); Rilsa Rael's Wares",
+      "page": 19,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Encounters in Suldanessellar",
+      "colLabels": [
+        "d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Hamadryad|MaBJoV} haunt an abandoned elven house"
+        ],
+        [
+          "2",
+          "{@creature Sirene|MaBJoV} crazed from the influence of the Shadowfell"
+        ],
+        [
+          "3",
+          "Victims hunted by a {@creature Wolfwere|MaBJoV} in the Black Branches"
+        ],
+        [
+          "4",
+          "A {@creature Skeleton warrior|MaBJoV} seeking to punish one who has transgressed against {@creature Jon Irenicus|MaBJoV}"
+        ],
+        [
+          "5",
+          "{@creature Sword spider|MaBJoV|Sword spiders} prowling the outskirts"
+        ],
+        [
+          "6",
+          "{@creature Vampire spawn} seeking victims for {@creature Bodhi Irenicus|MaBJoV}"
+        ]
+      ],
+      "name": "Random Encounters in Suldanessellar",
+      "page": 21,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Encounters in Athkatla",
+      "colLabels": [
+        "d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Farastu Stalker|MaBJoV} in pursuit of an escaped Carceri prisoner"
+        ],
+        [
+          "2",
+          "{@creature Dread Doppelganger|MaBJoV} posing as a fellow adventurer"
+        ],
+        [
+          "3",
+          "Shadow Thief Slavers ({@creature thug||thugs}) looking to replace escaped slaves"
+        ],
+        [
+          "4",
+          "Cowled Wizards ({@creature mage||mages}) seeking to incarcerate illegal magic users"
+        ],
+        [
+          "5",
+          "{@creature Tasloi|MaBJoV} who have infested a forest or sewer system"
+        ],
+        [
+          "6",
+          "{@creature Sirene|MaBJoV} band hunting to retrieve a stolen sacred item"
+        ]
+      ],
+      "name": "Random Encounters in Athkatla",
+      "page": 12,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

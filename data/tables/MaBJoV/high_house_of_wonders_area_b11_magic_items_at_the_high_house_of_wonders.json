@@ -1,0 +1,95 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items at the High House of Wonders",
+      "colLabels": [
+        "Magic Item",
+        "Religion DC",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Instrument of the Bards, Doss Lute||Instrument of the bard (Doss lute)}",
+          "12",
+          "500 gp"
+        ],
+        [
+          "{@item Broom of flying}",
+          "12",
+          "600 gp"
+        ],
+        [
+          "{@item Gauntlets of ogre power}",
+          "12",
+          "700 gp"
+        ],
+        [
+          "{@item Heward's handy haversack}",
+          "18",
+          "8,000 gp"
+        ],
+        [
+          "{@item Instrument of the Bards, Canaith Mandolin||Instrument of the bard (Canaith mandolin)}",
+          "18",
+          "9,000 gp"
+        ],
+        [
+          "{@item Wings of flying}",
+          "22",
+          "12,000 gp"
+        ],
+        [
+          "{@item Chime of opening}",
+          "22",
+          "12,000 gp"
+        ],
+        [
+          "{@item Quaal's Feather Token, Swan Boat||Quaal's feather token (swan boat)}",
+          "22",
+          "12,000 gp"
+        ],
+        [
+          "{@item Figurine of Wondrous Power, Onyx Dog||Figurine of wondrous power (onyx dog)}",
+          "22",
+          "14,000 gp"
+        ],
+        [
+          "{@item Horseshoes of a zephyr}",
+          "22",
+          "27,000 gp"
+        ],
+        [
+          "{@item Helm of brilliance}",
+          "22",
+          "33,000 gp"
+        ],
+        [
+          "{@item Spellguard shield}",
+          "24",
+          "40,000 gp"
+        ],
+        [
+          "{@item Ioun stone, intellect||Ioun stone (intellect)}",
+          "15",
+          "45,000 gp"
+        ]
+      ],
+      "name": "High House of Wonders (Area B11); Magic Items at the High House of Wonders",
+      "page": 19,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Common Items at the Trade Center",
+      "colLabels": [
+        "Magic Item",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Spell scroll (1st level)}",
+          "50 gp"
+        ],
+        [
+          "{@item Potion of healing}",
+          "40 gp"
+        ],
+        [
+          "{@item +1 Ammunition||Ammunition, +1}—{@item +1 Arrow||arrows} (10), {@item +1 Crossbow Bolt||bolts} (10) or {@item +1 sling bullet||sling bullets} (20)",
+          "100 gp"
+        ],
+        [
+          "{@item Elixir of health}",
+          "125 gp"
+        ],
+        [
+          "{@item Potion of poison}",
+          "125 gp"
+        ],
+        [
+          "{@item Spell scroll (2nd level)}",
+          "300 gp"
+        ],
+        [
+          "{@item +1 weapon||Weapon, +1}—any simple or martial",
+          "400 gp"
+        ],
+        [
+          "{@item Bag of holding}",
+          "500 gp"
+        ],
+        [
+          "{@item Cloak of elvenkind}",
+          "600 gp"
+        ],
+        [
+          "{@item Driftglobe}",
+          "700 gp"
+        ],
+        [
+          "{@item Wand of secrets}",
+          "750 gp"
+        ],
+        [
+          "{@item Cloak of protection}",
+          "800 gp"
+        ],
+        [
+          "{@item Adamantine Half Plate Armor||Adamantine half plate}",
+          "900 gp"
+        ]
+      ],
+      "name": "Trade Center (Area U13); Common Items at the Trade Center",
+      "page": 25,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

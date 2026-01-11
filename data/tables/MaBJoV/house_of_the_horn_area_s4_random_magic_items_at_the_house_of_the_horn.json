@@ -1,0 +1,110 @@
+{
+  "table": [
+    {
+      "caption": "Random Magic Items at the House of the Horn",
+      "colLabels": [
+        "d100",
+        "Magic Item",
+        "Intimidation DC",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-2",
+        "col-7 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "1-10",
+          "{@item Pipes of haunting}",
+          "12",
+          "500 gp"
+        ],
+        [
+          "11-20",
+          "{@item Ring of mind shielding}",
+          "12",
+          "600 gp"
+        ],
+        [
+          "21-30",
+          "{@item Shortbow of warning}",
+          "12",
+          "800 gp"
+        ],
+        [
+          "31-40",
+          "{@item Mariner's plate armor}",
+          "12",
+          "1,200 gp"
+        ],
+        [
+          "41-50",
+          "{@item Ring of feather falling}",
+          "18",
+          "7,500 gp"
+        ],
+        [
+          "51-60",
+          "{@item +2 Rod of the pact keeper||Rod of the pact keeper, +2}",
+          "18",
+          "9,000 gp"
+        ],
+        [
+          "61-67",
+          "{@item Vicious weapon}",
+          "20",
+          "10,000 gp"
+        ],
+        [
+          "68-74",
+          "{@item Cloak of the bat}",
+          "20",
+          "11,000 gp"
+        ],
+        [
+          "75-82",
+          "{@item +2 Greatsword||Greatsword, +2}",
+          "20",
+          "12,000 gp"
+        ],
+        [
+          "83-89",
+          "{@item Scale Mail of Cold Resistance||Scale mail armor of resistance (cold)}",
+          "20",
+          "12,000 gp"
+        ],
+        [
+          "90-93",
+          "{@item Staff of withering}",
+          "22",
+          "12,000 gp"
+        ],
+        [
+          "94-97",
+          "{@item Robe of eyes}",
+          "22",
+          "15,000 gp"
+        ],
+        [
+          "98-00",
+          "{@item Shortsword of wounding}",
+          "22",
+          "20,000 gp"
+        ]
+      ],
+      "name": "House of the Horn (Area S4); Random Magic Items at the House of the Horn",
+      "page": 23,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

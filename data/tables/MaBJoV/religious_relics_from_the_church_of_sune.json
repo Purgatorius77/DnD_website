@@ -1,0 +1,140 @@
+{
+  "table": [
+    {
+      "caption": "Religious Relics from the Church of Sune",
+      "colLabels": [
+        "Religious Relics",
+        "Religious Service",
+        "Required Level",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Gem of brightness}",
+          "None",
+          "–",
+          "600 gp"
+        ],
+        [
+          "{@item Pearl of power}",
+          "Required",
+          "5",
+          "600 gp"
+        ],
+        [
+          "{@item Periapt of wound closure}",
+          "Required",
+          "5",
+          "500 gp"
+        ],
+        [
+          "{@item Ring of Warmth}",
+          "None",
+          "5",
+          "100 gp"
+        ],
+        [
+          "{@item Wind fan}",
+          "None",
+          "5",
+          "100 gp"
+        ],
+        [
+          "{@item Amulet of health}",
+          "Required",
+          "10",
+          "4,000 gp"
+        ],
+        [
+          "{@item Gem of seeing}",
+          "Required",
+          "10",
+          "18,000 gp"
+        ],
+        [
+          "Glamoured leather armor",
+          "None",
+          "10",
+          "5,000 gp"
+        ],
+        [
+          "{@item Ioun stone, awareness||Ioun stone (awareness)}",
+          "Required",
+          "10",
+          "6,000 gp"
+        ],
+        [
+          "{@item Ioun stone, sustenance||Ioun stone (sustenance)}",
+          "Required",
+          "10",
+          "6,000 gp"
+        ],
+        [
+          "{@item Mace of disruption}",
+          "Required",
+          "10",
+          "10,000 gp"
+        ],
+        [
+          "{@item Necklace of prayer beads}",
+          "None",
+          "10",
+          "10,000 gp"
+        ],
+        [
+          "{@item Ring of x-ray vision}",
+          "Required",
+          "10",
+          "4,000 gp"
+        ],
+        [
+          "{@item Staff of charming}",
+          "None",
+          "10",
+          "8,000 gp"
+        ],
+        [
+          "{@item Staff of healing}",
+          "Required",
+          "10",
+          "10,000 gp"
+        ],
+        [
+          "{@item Ioun stone, leadership||Ioun stone (leadership)}",
+          "None",
+          "15",
+          "30,000 gp"
+        ],
+        [
+          "{@item Rod of security}",
+          "Required",
+          "15",
+          "30,000 gp"
+        ],
+        [
+          "{@item Tome of leadership and influence}",
+          "None",
+          "15",
+          "40,000 gp"
+        ]
+      ],
+      "name": "Religious Relics from the Church of Sune",
+      "page": 41,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

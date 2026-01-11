@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Hometown",
+      "colLabels": [
+        "d4",
+        "Hometown",
+        "Themes",
+        "Suggested Group Patrons"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-2",
+        "col-2",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "1",
+          "Athkatla",
+          "Sword and Sorcery, Urban",
+          "Adventurer's Guild, Church of Sune, Knights of Bahamut, Emerald Enclave, Harpers, Shadow Thieves"
+        ],
+        [
+          "2",
+          "Baldur's Gate",
+          "Heroic Fantasy",
+          "Adventurer's Guild, Candlekeep, Church of Sune, Knights of Bahamut, Emerald Enclave, Flaming Fist, Harpers"
+        ],
+        [
+          "3",
+          "Suldanessellar",
+          "Horror",
+          "Order of Icarus, Raven Circle"
+        ],
+        [
+          "4",
+          "Ust Natha",
+          "Dark Fantasy, Underdark",
+          "Adventurer's Guild, Knights of Bahamut, Shadow Thieves"
+        ]
+      ],
+      "name": "Campaign Villains; Random Hometown",
+      "page": 6,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Heroic Stories",
+        "index": 1
+      }
+    }
+  ]
+}

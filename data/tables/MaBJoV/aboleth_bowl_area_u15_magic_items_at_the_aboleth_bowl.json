@@ -1,0 +1,95 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items at the Aboleth Bowl",
+      "colLabels": [
+        "Magic Item",
+        "Intimidation DC",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Oil of slipperiness}",
+          "12",
+          "200 gp"
+        ],
+        [
+          "{@item Periapt of wound closure}",
+          "12",
+          "500 gp"
+        ],
+        [
+          "{@item Wand of magic detection}",
+          "18",
+          "1,200 gp"
+        ],
+        [
+          "{@item Staff of swarming insects}",
+          "18",
+          "9,000 gp"
+        ],
+        [
+          "{@item Ring of evasion}",
+          "22",
+          "12,000 gp"
+        ],
+        [
+          "{@item Nolzur's marvelous pigments}",
+          "22",
+          "32,500 gp"
+        ],
+        [
+          "{@item Amulet of the planes}",
+          "22",
+          "35,000 gp"
+        ],
+        [
+          "{@item Horn of Valhalla, Bronze||Horn of valhalla (bronze)}",
+          "24",
+          "40,000 gp"
+        ],
+        [
+          "{@item Efreeti bottle}",
+          "24",
+          "45,000 gp"
+        ],
+        [
+          "{@item Ioun stone} (fortitude)",
+          "24",
+          "50,000 gp"
+        ],
+        [
+          "{@item Tome of leadership and influence}",
+          "24",
+          "55,000 gp"
+        ],
+        [
+          "{@item Ring of regeneration}",
+          "24",
+          "60,000 gp"
+        ],
+        [
+          "{@item Cloak of invisibility}",
+          "26",
+          "150,000 gp"
+        ]
+      ],
+      "name": "Aboleth Bowl (Area U15); Magic Items at the Aboleth Bowl",
+      "page": 26,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Encounters in Baldur's Gate",
+      "colLabels": [
+        "d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Dread doppelganger|MaBJoV} posing as a Flaming Fist captain"
+        ],
+        [
+          "2",
+          "{@creature Gibberling|MaBJoV} horde erupts from burrows on the roadside"
+        ],
+        [
+          "3",
+          "{@creature Wolfwere|MaBJoV} hunt for victims during the night"
+        ],
+        [
+          "4",
+          "{@creature Skeleton warrior|MaBJoV} hunting for its golden circlet"
+        ],
+        [
+          "5",
+          "{@creature Hamadryad|MaBJoV} seek vengeance on human loggers"
+        ],
+        [
+          "6",
+          "Bhaal cultist ({@creature assassin}) looking to kill in the name of her god"
+        ]
+      ],
+      "name": "Random Encounters in Baldur's Gate",
+      "page": 18,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Hometowns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

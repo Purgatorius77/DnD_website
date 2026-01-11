@@ -1,0 +1,92 @@
+{
+  "table": [
+    {
+      "caption": "Item Transmutation Components and Costs",
+      "colLabels": [
+        "Magic Item",
+        "Magical Component",
+        "Arcana Check DC",
+        "Material Component Cost"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4 text-center",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Amulet of the planes}",
+          "Rare or Very Rare Wondrous Item",
+          "20",
+          "1,500 gp"
+        ],
+        [
+          "{@item Belt of fire giant strength}",
+          "Rare or Very Rare Wondrous Item",
+          "25",
+          "7,500 gp"
+        ],
+        [
+          "{@item Crystal ball}",
+          "Rare or Very Rare Wondrous Item",
+          "20",
+          "1,500 gp"
+        ],
+        [
+          "{@item Efreeti bottle}",
+          "Rare or Very Rare Wondrous Item",
+          "25",
+          "5,000 gp"
+        ],
+        [
+          "{@item Ring of shooting stars}",
+          "Rare or Very Rare Ring",
+          "20",
+          "1,500 gp"
+        ],
+        [
+          "{@item Robe of stars}",
+          "Rare or Very Rare magical Cloak or Robe",
+          "20",
+          "1,500 gp"
+        ],
+        [
+          "{@item Staff of fire}",
+          "Rare or Very Rare Magical Rod or Staff",
+          "20",
+          "1,500 gp"
+        ],
+        [
+          "{@item Staff of frost}",
+          "Rare or Very Rare Magical Rod or Staff",
+          "20",
+          "1,500 gp"
+        ],
+        [
+          "{@item Staff of power}",
+          "Rare or Very Rare Magical Rod or Staff",
+          "25",
+          "7,500 gp"
+        ],
+        [
+          "{@item Spellguard shield}",
+          "Rare or Very Rare Shield",
+          "20",
+          "1,500 gp"
+        ]
+      ],
+      "name": "Magic Item Transmutation; Item Transmutation Components and Costs",
+      "page": 71,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

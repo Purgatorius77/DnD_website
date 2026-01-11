@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Quests from the Raven Circle",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Vecna. Collect the memories from an archmage who is dedicated to Vecna"
+        ],
+        [
+          "2",
+          "Fallen Paladin. Collect the memories of an oath breaking paladin"
+        ],
+        [
+          "3",
+          "Corrupt Despot. A powerful lord or king rules with an iron fist while drowning himself in drink and debauchery to forget the many tragedies of his life. Complete his fall by engineering his overthrow"
+        ],
+        [
+          "4",
+          "Faithless Priestess. Collect the memories of a priestess who has lost faith in her god after the death of her husband and children"
+        ],
+        [
+          "5",
+          "Obsessed Vigilante. Capture or kill a vigilante that has been terrorizing a city. Collect the memories of the tragedy that drives his obsession"
+        ],
+        [
+          "6",
+          "Dark Lord. Stop a Dark Lord's scheme to escape the Domain of Dread that she rules"
+        ]
+      ],
+      "name": "Random Quests from the Raven Circle",
+      "page": 78,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

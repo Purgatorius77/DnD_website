@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Items Acquired via Harper Fences",
+      "colLabels": [
+        "Magic Item",
+        "Required Trade",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "Armor, +1 of your choice",
+          "Armor, +1",
+          "200 gp"
+        ],
+        [
+          "{@item Bag of holding}, {@item bag of tricks}, {@item boots of elvenkind}, {@item cloak of elvenkind}, {@item cloak of protection}, {@item robe of useful items}, {@item winged boots}",
+          "Uncommon magical bag, boots or cloak",
+          "75 gp"
+        ],
+        [
+          "{@item Eyes of charming}, {@item eyes of minute seeing}, {@item eyes of the eagle}, {@item gloves of missile snaring}, {@item gloves of swimming and climbing}, {@item gloves of thievery}, {@item hat of disguise}",
+          "Any uncommon magical wondrous item",
+          "75 gp"
+        ],
+        [
+          "{@item Wand of magic detection}, {@item wand of magic missiles}, {@item wand of secrets}, wand of the war mage, {@item wand of web}",
+          "Any magical wand",
+          "100 gp"
+        ],
+        [
+          "{@item +1 Weapon||Weapon, +1} of your choice",
+          "{@item +1 Weapon||Weapon, +1}",
+          "100 gp"
+        ]
+      ],
+      "name": "Items Acquired via Harper Fences",
+      "page": 59,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Quests from the Harpers",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "The Black Network. Take out a Zhentarim safe house in a major city"
+        ],
+        [
+          "2",
+          "Devil Worshippers. Expose an Athkatlan noble family that secretly worships a lord of the Nine Hells"
+        ],
+        [
+          "3",
+          "Demon Possession. Banish a demon that has possessed the lord of a major city"
+        ],
+        [
+          "4",
+          "Slavers. Take out the transport ships of a major slave ring operation"
+        ],
+        [
+          "5",
+          "Assassination. Assassinate an evil noble who threatens to destabilize the Lords' Alliance"
+        ],
+        [
+          "6",
+          "Spies. Infiltrate the court of a powerful king who has been preparing to go to war against his neighbors"
+        ]
+      ],
+      "name": "Random Quests from the Harpers",
+      "page": 58,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Dragon Eggs from Suldil",
+      "colLabels": [
+        "Dragon Egg",
+        "Required Level",
+        "Magic Item"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4 text-center",
+        "col-4 text-center"
+      ],
+      "rows": [
+        [
+          "Copper",
+          "12",
+          "Very Rare"
+        ],
+        [
+          "Brass",
+          "12",
+          "Very Rare"
+        ],
+        [
+          "Bronze",
+          "14",
+          "Very Rare"
+        ],
+        [
+          "Silver",
+          "16",
+          "Legendary"
+        ],
+        [
+          "Gold",
+          "18",
+          "Legendary"
+        ]
+      ],
+      "name": "Dragon Eggs from Suldil",
+      "page": 64,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "table": [
+    {
+      "caption": "Devotion Tokens",
+      "colLabels": [
+        "CR",
+        "Neutral",
+        "Chaotic",
+        "Lawful",
+        "Lycanthrope, Intelligent Undead*, Cursed**",
+        "Good, Used To Be Evil",
+        "Evil, Used To Be Good"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-1-3 text-center",
+        "col-1-3 text-center",
+        "col-1-3 text-center",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "5-9",
+          "Feather",
+          "Feather",
+          "Feather",
+          "Gold Coin",
+          "Gold Coin",
+          "Gem"
+        ],
+        [
+          "10-12",
+          "Feather",
+          "Feather",
+          "Feather",
+          "Gold Coin",
+          "Gold Coin",
+          "Gem"
+        ],
+        [
+          "13-15",
+          "Feather",
+          "Feather",
+          "Feather",
+          "Gold Coin",
+          "Gem",
+          "Gem"
+        ],
+        [
+          "16-18",
+          "Feather",
+          "Feather",
+          "Gold Coin",
+          "Gold Coin",
+          "Gem",
+          "Gem"
+        ],
+        [
+          "19+",
+          "Feather",
+          "Feather",
+          "Gold Coin",
+          "Gem",
+          "Gem",
+          "Gem"
+        ]
+      ],
+      "footnotes": [
+        "* Intelligent undead must have an Intelligence or Wisdom score of at least 16. Examples include dracoliches, liches, mummy lords, vampires.",
+        "** DMs discretion; examples include driders, medusa, shadow dragons."
+      ],
+      "name": "Collect Memories; Devotion Tokens",
+      "page": 79,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

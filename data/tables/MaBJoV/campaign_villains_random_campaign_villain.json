@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Random Campaign Villain",
+      "colLabels": [
+        "d6",
+        "Campaign Villain",
+        "Overview",
+        "Henchmen"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-2",
+        "col-7",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Baalzebul|MaBJoV}",
+          "The lord of lies. He spins a web of intrigue and untruths that threatens to make a mockery of all that is good and decent.",
+          "{@creature Dagryn|MaBJoV|Dagryn the Lost}, {@creature Saemon Havarian|MaBJoV}"
+        ],
+        [
+          "2",
+          "Bhaal",
+          "The god of murder. Thought dead for more than a century. Recently reborn, he seeks to wash the world in blood in order to rebuild his power.",
+          "{@creature Pelyious Avhoste|MaBJoV|Pelyious}, {@creature Kagain|MaBJoV}, {@creature Sarevok|MaBJoV|Sarevok Anchev}"
+        ],
+        [
+          "3",
+          "{@creature Cryonax|MaBJoV}",
+          "A prince of elemental evil. Ruler of the Plane of ice. He wants to bring a winter to the world that never ends.",
+          "{@creature Darien|MaBJoV}, {@creature Viconia DeVir|MaBJoV|Viconia}"
+        ],
+        [
+          "4",
+          "{@creature Mephistopheles|MaBJoV}",
+          "The archdevil of Hellfire. Second only to Asmodeus in power and deviousness. Why corrupt a single soul when you can corrupt the soul of an entire world.",
+          "{@creature Aribeth de Tylmarande|MaBJoV}, A Group Patron"
+        ],
+        [
+          "5",
+          "{@creature Pazuzu|MaBJoV}",
+          "The first and most ancient demon lord. He has been trapped in an {@item iron flask} and must be kept imprisoned until a way is found to destroy him.",
+          "{@creature Eo Ashmajiir|MaBJoV}, {@creature Edwin Odesseiron|MaBJoV}"
+        ],
+        [
+          "6",
+          "Ssendam",
+          "The first slaad. Lord of chaos and insanity. She wants to spread her anarchy and filth across the entire world.",
+          "{@creature Xzar the Chaos Clone|MaBJoV|Xzar, Death Slaad}"
+        ]
+      ],
+      "name": "Campaign Villains; Random Campaign Villain",
+      "page": 6,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Heroic Stories",
+        "index": 1
+      }
+    }
+  ]
+}

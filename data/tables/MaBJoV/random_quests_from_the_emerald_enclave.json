@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Quests from the Emerald Enclave",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Logging Camp. Raid a {@creature hobgoblin} logging camp"
+        ],
+        [
+          "2",
+          "Spider Nest. Clear out a den of {@creature sword spider|MaBJoV|sword spiders} and giant spiders that have infested a forest"
+        ],
+        [
+          "3",
+          "Inferno. {@action Help} to put out a forest fire by destroying the efreet who is keeping it going"
+        ],
+        [
+          "4",
+          "Snake Men. Destroy the nest of yuan-ti that is poisoning the headwater of a major river"
+        ],
+        [
+          "5",
+          "Shadow Druid. Capture the shadow druid who is terrorizing a town with his {@condition charmed} animals"
+        ],
+        [
+          "6",
+          "Alkilith. Close a portal to the abyss that is corrupting a beautiful mountain valley"
+        ]
+      ],
+      "name": "Random Quests from the Emerald Enclave",
+      "page": 46,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

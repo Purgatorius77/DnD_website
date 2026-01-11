@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Quests From Candlekeep",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Retrieval. You must retrieve a rare tome that was stolen from the library"
+        ],
+        [
+          "2",
+          "Tomb Raiding. Break into an ancient tomb and bring back any relics, scrolls or ancient texts"
+        ],
+        [
+          "3",
+          "Archeology. Investigate newly discovered Netherese ruins. Bring back any secrets found"
+        ],
+        [
+          "4",
+          "Evil Magic User. Defeat a {@creature necromancer wizard|MPMM} or {@creature lich} and take their magical relics or tomes to be sealed up in Candlekeep"
+        ],
+        [
+          "5",
+          "Corrupting Relic. Track down an evil relic that is corrupting a forest/river/town"
+        ],
+        [
+          "6",
+          "Artifact. An ancient book that has the location of a powerful artifact has been discovered. Track it down before it falls into the wrong hands"
+        ]
+      ],
+      "name": "Random Quests From Candlekeep",
+      "page": 34,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

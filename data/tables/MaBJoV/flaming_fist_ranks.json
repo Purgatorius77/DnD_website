@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Flaming Fist Ranks",
+      "colLabels": [
+        "Rank",
+        "Equivalent",
+        "Level"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Fist",
+          "Common soldier",
+          "1"
+        ],
+        [
+          "Manip",
+          "Sergeant",
+          "2"
+        ],
+        [
+          "Flame",
+          "Captain",
+          "5"
+        ],
+        [
+          "Blaze",
+          "General",
+          "8"
+        ],
+        [
+          "Marshal",
+          "Commander of the Flaming Fist",
+          "12"
+        ]
+      ],
+      "name": "Flaming Fist Ranks",
+      "page": 52,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

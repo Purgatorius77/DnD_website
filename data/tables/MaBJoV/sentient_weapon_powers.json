@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Sentient Weapon Powers",
+      "colLabels": [
+        "Devotion Cost",
+        "Level Required",
+        "Power"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-1 text-center",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Feather token",
+          "1",
+          "The weapon can speak, read, and understand one language. This can be taken multiple times"
+        ],
+        [
+          "Gold token",
+          "3",
+          "The weapon can communicate telepathically with any character that carries or wields it"
+        ],
+        [
+          "Gem token",
+          "3",
+          "Roll on the Magic Item Minor Property table of the {@book Dungeon Master's Guide|DMG}. This can only be taken three times"
+        ],
+        [
+          "Feather token",
+          "3",
+          "The weapon has hearing and normal vision out to 30 feet"
+        ],
+        [
+          "Gold token",
+          "5",
+          "The weapon has hearing and normal vision out an additional 30 feet (to a maximum of 120 ft.)"
+        ],
+        [
+          "Gold token",
+          "7",
+          "The weapon has {@sense darkvision} (requires hearing and normal vision)"
+        ],
+        [
+          "Gem token",
+          "7",
+          "The weapon has advantage on all {@skill Perception} checks"
+        ],
+        [
+          "Feather token",
+          "9",
+          "One aspect of the weapon's alignment can be changed (good to evil, chaotic to lawful)"
+        ],
+        [
+          "Gold token",
+          "9",
+          "The weapon scores a critical hit on a roll of 19 or 20"
+        ],
+        [
+          "Gem token",
+          "12",
+          "Roll once on the Artifact Minor Beneficial Properties table in the {@book Dungeon Master's Guide|DMG}. This can only be taken three times"
+        ]
+      ],
+      "name": "Sentient Weapon Powers",
+      "page": 79,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

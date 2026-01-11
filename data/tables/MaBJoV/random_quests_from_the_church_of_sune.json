@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Random Quests from The Church of Sune",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Musical Prodigy. Rescue a musical prodigy who has been taken prisoner by a goblin or orc war band"
+        ],
+        [
+          "2",
+          "Architect. Escort a famed architect to a far-off town where he is to set down the foundations of a new temple to Sune"
+        ],
+        [
+          "3",
+          "Necromancers. Hunt down a band of necromancers who have been vandalizing beautiful monuments and terrorizing artists"
+        ],
+        [
+          "4",
+          "Cult. Root out and destroy a cult devoted to an infernal lord that is especially abhorrent to Sune"
+        ],
+        [
+          "5",
+          "Warlord. Assassinate a powerful warlord who leads an alliance of orcs, hobgoblins and giants"
+        ],
+        [
+          "6",
+          "Siege Breaker. Break the siege of an important town by destroying the siege equipment of the enemy force"
+        ]
+      ],
+      "name": "Random Quests from The Church of Sune",
+      "page": 41,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

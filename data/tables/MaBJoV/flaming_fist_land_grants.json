@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Flaming Fist Land Grants",
+      "colLabels": [
+        "Land Grant",
+        "Required Rank",
+        "Monthly Upkeep Cost",
+        "Donation"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3 text-center",
+        "col-3 text-center",
+        "col-3 text-right"
+      ],
+      "rows": [
+        [
+          "Fortified Tower",
+          "Flame",
+          "5 gp",
+          "5,000 gp"
+        ],
+        [
+          "Fort",
+          "Flame",
+          "10 gp",
+          "10,000 gp"
+        ],
+        [
+          "Keep",
+          "Blaze",
+          "20 gp",
+          "25,000 gp"
+        ],
+        [
+          "Castle",
+          "Marshal",
+          "100 gp",
+          "100,000 gp"
+        ]
+      ],
+      "name": "Flaming Fist Land Grants",
+      "page": 53,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

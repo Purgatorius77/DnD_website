@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Required Religious Service",
+      "colLabels": [
+        "d20",
+        "Religious Service"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "Seduce an important noble's daughter/son"
+        ],
+        [
+          "5-8",
+          "Restore a desecrated shrine of Sune"
+        ],
+        [
+          "9-12",
+          "Destroy a necromancer who has been raising an army of dead"
+        ],
+        [
+          "13-15",
+          "Stamp out a potential warlord"
+        ],
+        [
+          "16-19",
+          "Protect a young and powerful noble in the Lord's Alliance who has recently converted to Sune. Assassins have targeted the noble"
+        ],
+        [
+          "20",
+          "Vanquish a powerful foe of the Church"
+        ]
+      ],
+      "name": "Religious Relics; Required Religious Service",
+      "page": 41,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "table": [
+    {
+      "caption": "Random Group Patron",
+      "colLabels": [
+        "d10",
+        "Group Patron",
+        "Contacts",
+        "Themes",
+        "Overview"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Adventurer's Guild",
+          "Doc Watson, Flimp Shagglecran",
+          "Lighthearted",
+          "An unlikely pair who want to bankroll you to become famous adventurers. Why not have some laughs on your way to stardom."
+        ],
+        [
+          "2",
+          "Candlekeep",
+          "{@creature Valygar|MaBJoV|Valygar Corthola, Xan Moonblade}",
+          "High adventure",
+          "Work for the most prestigious academy in the world. Seek out ancient secrets and rare artifacts and place them in the care of the monks of Candlekeep."
+        ],
+        [
+          "3",
+          "Church of Sune",
+          "{@creature Naes Inuus|MaBJoV}, {@creature Tiberius Inuus|MaBJoV}",
+          "Epic Fantasy and War",
+          "Join in the epic struggle between good and evil and help ensure that war doesn't engulf the world."
+        ],
+        [
+          "4",
+          "Emerald Enclave",
+          "{@creature Faldorn|MaBJoV}, {@creature Kivan|MaBJoV}",
+          "Exploration",
+          "Become an explorer who travels to the edges of the world."
+        ],
+        [
+          "5",
+          "Flaming Fist",
+          "Borivik Windheim, {@creature Nauk|MaBJoV}",
+          "Mercenaries and War",
+          "Work for the world's most feared mercenaries."
+        ],
+        [
+          "6",
+          "Harpers",
+          "{@creature Jaheira|MaBJoV|Jaheira, Vellin Farstride}",
+          "Spies and Intrigue",
+          "Join the Harpers, a famed organization that works from the shadows to keep the world from falling into ruin."
+        ],
+        [
+          "7",
+          "Knights of Bahamut",
+          "{@creature Suldil Baldoriel|MaBJoV|Suldil}, {@creature Minsc and Boo!|MaBJoV|Minsc}",
+          "Dragonriders",
+          "Lost in the Feywild for more than a millennium, Suldil wants you to help her resurrect the ancient Knights of Bahamut."
+        ],
+        [
+          "8",
+          "Order of Icarus",
+          "{@creature Jon Irenicus|MaBJoV}, {@creature Bodhi Irenicus|MaBJoV}",
+          "Horror",
+          "Rulers and prisoners of a haunted elven city consumed by the Shadowfell. You must help them escape."
+        ],
+        [
+          "9",
+          "Raven Circle",
+          "{@creature Viktor|MaBJoV}, {@creature Lothar|MaBJoV|Lothar of the Raven}",
+          "Lovecraftian horror",
+          "Grizzled veterans recruit you to aid the enigmatic Raven Queen in her quest to collect memories."
+        ],
+        [
+          "10",
+          "Shadow Thieves",
+          "{@creature Imoen|MaBJoV}, {@creature Montaron and the Laughing Skull|MaBJoV|Montaron}",
+          "Urban",
+          "The oldest and most dangerous thief's guild in Faerûn, the Shadow Thieves have long ago grown beyond simple thievery."
+        ]
+      ],
+      "name": "Campaign Villains; Random Group Patron",
+      "page": 6,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Heroic Stories",
+        "index": 1
+      }
+    }
+  ]
+}

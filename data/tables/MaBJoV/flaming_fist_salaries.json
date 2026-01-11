@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Flaming Fist Salaries",
+      "colLabels": [
+        "Rank",
+        "Lifestyle",
+        "Pay"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2 text-center",
+        "col-8 text-center"
+      ],
+      "rows": [
+        [
+          "Fist",
+          "Modest",
+          "5 sp per day"
+        ],
+        [
+          "Manip",
+          "Modest",
+          "1 gp per day"
+        ],
+        [
+          "Flame",
+          "Modest",
+          "5 gp per day"
+        ],
+        [
+          "Blaze",
+          "Wealthy",
+          "10 gp per day"
+        ],
+        [
+          "Marshal",
+          "Aristocratic",
+          "Every month roll on the Treasure Horde: Challenge 0-4 table from the {@book Dungeon Master's Guide|DMG}"
+        ]
+      ],
+      "name": "Flaming Fist Salaries",
+      "page": 53,
+      "source": "MaBJoV",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 3
+      }
+    }
+  ]
+}
