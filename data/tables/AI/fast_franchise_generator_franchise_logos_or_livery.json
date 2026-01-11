@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Franchise Logos or Livery",
+      "colLabels": [
+        "d10",
+        "Logo or Livery"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The words \"Green Flan\" in Elvish"
+        ],
+        [
+          "2",
+          "The symbol of Asmodeus"
+        ],
+        [
+          "3",
+          "The name of the franchise's dead founder, elaborately engraved"
+        ],
+        [
+          "4",
+          "A beholder's central eye"
+        ],
+        [
+          "5",
+          "The silhouette of a catoblepas"
+        ],
+        [
+          "6",
+          "Three werewolves howling at the moon"
+        ],
+        [
+          "7",
+          "\"Lathander is Our Copilot\""
+        ],
+        [
+          "8",
+          "A winking {@creature Jim Darkmagic|AI}"
+        ],
+        [
+          "9",
+          "A snaking piece of barbed wire"
+        ],
+        [
+          "10",
+          "The franchise's business number"
+        ]
+      ],
+      "name": "Fast Franchise Generator; Franchise Logos or Livery",
+      "page": 7,
+      "source": "AI",
+      "chapter": {
+        "name": "Acquisitions Incorporated",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

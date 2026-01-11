@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "The Loremonger",
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "colLabels": [
+        "Franchise Rank",
+        "Features"
+      ],
+      "rows": [
+        [
+          "1",
+          "Proficiencies and Starting Equipment, {@item Whisper Jar|AI}"
+        ],
+        [
+          "2",
+          "Need to Know, Whispered Encyclopedia"
+        ],
+        [
+          "3",
+          "Construction Permits, Whispered Warnings"
+        ],
+        [
+          "4",
+          "Efficient Upgrades, Whispered Arcana"
+        ]
+      ],
+      "name": "The Loremonger",
+      "page": 26,
+      "source": "AI",
+      "chapter": {
+        "name": "Growing Your Franchise",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

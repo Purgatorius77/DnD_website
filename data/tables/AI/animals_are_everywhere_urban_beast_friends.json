@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Urban Beast Friends",
+      "colLabels": [
+        "d10",
+        "Beast"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Rat"
+        ],
+        [
+          "2",
+          "Pigeon"
+        ],
+        [
+          "3",
+          "Skunk"
+        ],
+        [
+          "4",
+          "Crow"
+        ],
+        [
+          "5",
+          "Raccoon"
+        ],
+        [
+          "6",
+          "Possum"
+        ],
+        [
+          "7",
+          "Snake"
+        ],
+        [
+          "8",
+          "Toad"
+        ],
+        [
+          "9",
+          "Giant beetle"
+        ],
+        [
+          "10",
+          "Lizard"
+        ]
+      ],
+      "name": "Animals are Everywhere; Urban Beast Friends",
+      "page": 64,
+      "source": "AI",
+      "chapter": {
+        "name": "Player Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Possible Map Mission Landmarks",
+      "colLabels": [
+        "d8",
+        "Landmark"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The Ancient Sarcophagus of Gerald Smith"
+        ],
+        [
+          "2",
+          "A tree labeled \"This tree\""
+        ],
+        [
+          "3",
+          "\"The Last Resting Place of My Rich Brother that is Also a Bear Cave\""
+        ],
+        [
+          "4",
+          "A range of peaks known as the Slightly Wobbly Spires"
+        ],
+        [
+          "5",
+          "An ever-flowing, nonmagical spigot of pure, clear water in the middle of nowhere"
+        ],
+        [
+          "6",
+          "A cave filled with screaming bioluminescent worms"
+        ],
+        [
+          "7",
+          "The most haunted forest for ten miles in any direction"
+        ],
+        [
+          "8",
+          "A huge pile of rocks with no other rocks within sight"
+        ]
+      ],
+      "name": "Map of the Moment; Possible Map Mission Landmarks",
+      "page": 20,
+      "source": "AI",
+      "chapter": {
+        "name": "Growing Your Franchise",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

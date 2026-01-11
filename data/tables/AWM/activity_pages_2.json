@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "page": 14,
+      "colLabels": [
+        "{@dice d6|🎲}",
+        "Animal Personality"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Sleepy"
+        ],
+        [
+          "2",
+          "Rabid and Crazy!"
+        ],
+        [
+          "3",
+          "Lovestruck"
+        ],
+        [
+          "4",
+          "Happy"
+        ],
+        [
+          "5",
+          "Mischievous"
+        ],
+        [
+          "6",
+          "Very, Very Sad"
+        ]
+      ],
+      "name": "Activity Pages; 2",
+      "source": "AWM",
+      "chapter": {
+        "name": "Activity Pages",
+        "index": 0
+      }
+    }
+  ]
+}

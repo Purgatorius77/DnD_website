@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "page": 14,
+      "colLabels": [
+        "{@dice d6|🎲}",
+        "Animal Type"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Giant Badger}"
+        ],
+        [
+          "2",
+          "{@creature Rat}"
+        ],
+        [
+          "3",
+          "{@creature Owl}"
+        ],
+        [
+          "4",
+          "Dog"
+        ],
+        [
+          "5",
+          "Miniature Goat"
+        ],
+        [
+          "6",
+          "Hedgehog"
+        ]
+      ],
+      "name": "Activity Pages; 1",
+      "source": "AWM",
+      "chapter": {
+        "name": "Activity Pages",
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Cool Mottos",
+      "colLabels": [
+        "d6",
+        "Motto"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "\"I don't break even; I get even.\""
+        ],
+        [
+          "2",
+          "\"I'm the prophet of profit, and I've got a prediction for success.\""
+        ],
+        [
+          "3",
+          "\"Victory is the finest perfume, and I smell delightful.\""
+        ],
+        [
+          "4",
+          "\"Your treasure is my business.\""
+        ],
+        [
+          "5",
+          "\"To err is human, so I'm not.\""
+        ],
+        [
+          "6",
+          "\"I get the job done rather than thinking up fancy mottos.\""
+        ]
+      ],
+      "name": "Marketing Is Everything; Cool Mottos",
+      "page": 69,
+      "source": "AI",
+      "chapter": {
+        "name": "Player Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

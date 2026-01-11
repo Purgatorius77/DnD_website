@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "The Cartographer",
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "colLabels": [
+        "Franchise Rank",
+        "Features"
+      ],
+      "rows": [
+        [
+          "1",
+          "Proficiencies and Starting Equipment, It's a Rental"
+        ],
+        [
+          "2",
+          "{@item Spyglass of Clairvoyance|AI}, Tale of Safe Travel"
+        ],
+        [
+          "3",
+          "Map of Shortcuts, Map of the Moment"
+        ],
+        [
+          "4",
+          "{@item Elder Cartographer's Glossography|AI}, Greater Tale of Safe Travel"
+        ]
+      ],
+      "name": "The Cartographer",
+      "page": 19,
+      "source": "AI",
+      "chapter": {
+        "name": "Growing Your Franchise",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

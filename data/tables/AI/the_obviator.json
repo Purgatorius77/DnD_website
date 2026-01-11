@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "The Obviator",
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "colLabels": [
+        "Franchise Rank",
+        "Features"
+      ],
+      "rows": [
+        [
+          "1",
+          "Proficiencies and Starting Equipment, Read the Opposition"
+        ],
+        [
+          "2",
+          "Alchemist's Insight, {@item Obviator's Lenses|AI}"
+        ],
+        [
+          "3",
+          "Advanced Preparations, {@item Travel Alchemical Kit|AI}"
+        ],
+        [
+          "4",
+          "Enhanced Lenses, Obviate the Opposition"
+        ]
+      ],
+      "name": "The Obviator",
+      "page": 28,
+      "source": "AI",
+      "chapter": {
+        "name": "Growing Your Franchise",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

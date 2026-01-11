@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Ways to Read the Kill",
+      "colLabels": [
+        "d6",
+        "Reading"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Using a tiny bellows to pump one last breath into a corpse."
+        ],
+        [
+          "2",
+          "Reading the entrails with special reading-the-entrails glasses."
+        ],
+        [
+          "3",
+          "Burning a small piece of the body and looking for shapes in the smoke."
+        ],
+        [
+          "4",
+          "A cautious, reasoned, professional guesstimate."
+        ],
+        [
+          "5",
+          "Careful measurements. The distance between nostrils. The difference between the index finger and the middle finger. The elasticity of the ear lobe."
+        ],
+        [
+          "6",
+          "You take a long, careful look, and then decide based on which fellow franchisee has been nice to you lately."
+        ]
+      ],
+      "name": "Ways to Read the Kill",
+      "page": 31,
+      "source": "AI",
+      "chapter": {
+        "name": "Growing Your Franchise",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

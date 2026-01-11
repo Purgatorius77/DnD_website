@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "The Decisionist",
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "colLabels": [
+        "Franchise Rank",
+        "Features"
+      ],
+      "rows": [
+        [
+          "1",
+          "Proficiencies and Starting Equipment, Tiebreaker"
+        ],
+        [
+          "2",
+          "Absentee Ballot, {@item Coin of Decisionry|AI}"
+        ],
+        [
+          "3",
+          "Better Odds, Inspired Decision"
+        ],
+        [
+          "4",
+          "Charming Misdemeanor, Clandestine Kit"
+        ]
+      ],
+      "name": "The Decisionist",
+      "page": 21,
+      "source": "AI",
+      "chapter": {
+        "name": "Growing Your Franchise",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "d4",
+        "Decision"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Lucrative"
+        ],
+        [
+          "2",
+          "Brand Appeal"
+        ],
+        [
+          "3",
+          "Indeterminate"
+        ],
+        [
+          "4",
+          "Ruinous"
+        ]
+      ],
+      "name": "Coin of Decisionry",
+      "page": 22,
+      "source": "AI",
+      "chapter": {
+        "name": "Growing Your Franchise",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

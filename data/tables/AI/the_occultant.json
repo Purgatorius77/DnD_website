@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "The Occultant",
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "colLabels": [
+        "Franchise Rank",
+        "Features"
+      ],
+      "rows": [
+        [
+          "1",
+          "Proficiencies and Starting Equipment, Read the Kill"
+        ],
+        [
+          "2",
+          "Eldritch Occultant, Bring Out Your Dead"
+        ],
+        [
+          "3",
+          "Bead of Instant Karma, Death's Omen"
+        ],
+        [
+          "4",
+          "Bead of Diverted Karma, Correct the Balance"
+        ]
+      ],
+      "name": "The Occultant",
+      "page": 30,
+      "source": "AI",
+      "chapter": {
+        "name": "Growing Your Franchise",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Faction Training",
+      "colLabels": [
+        "Faction",
+        "Available Training"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "Harpers",
+          "Musical Instrument, {@item Calligrapher's supplies|phb}, or {@item Disguise Kit|phb}"
+        ],
+        [
+          "Order of the Gauntlet",
+          "{@item Smith's tools|phb}, {@item Leatherworker's tools|phb}, {@item Carpenter's tools|phb}, {@item Mason's tools|phb}, Vehicles"
+        ],
+        [
+          "Emerald Enclave",
+          "{@item Herbalism kit|phb}, {@item Woodcarver's tools|phb}, {@item Cartographer's tools|phb}"
+        ],
+        [
+          "Lords' Alliance",
+          "{@item Jeweler's tools|phb}, {@item Mason's tools|phb}, {@item Navigator's tools|phb}, {@item Painter's supplies|phb}, Gaming Set, Any Standard Language"
+        ],
+        [
+          "Zhentarim",
+          "{@item Disguise Kit|phb}, {@item Forgery kit|phb}, {@item Poisoner's kit|phb} {@item Thieves' tools|phb},"
+        ]
+      ],
+      "name": "Faction Training",
+      "source": "AL",
+      "chapter": {
+        "name": "Faction Guide",
+        "index": 0
+      }
+    }
+  ]
+}

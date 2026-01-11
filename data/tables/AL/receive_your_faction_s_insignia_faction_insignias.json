@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Faction Insignias",
+      "colLabels": [
+        "Faction",
+        "Item"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Harpers",
+          "Pin"
+        ],
+        [
+          "Order of the Gauntlet",
+          "Pendant"
+        ],
+        [
+          "Emerald Enclave",
+          "Leaf Clasp"
+        ],
+        [
+          "Lords' Alliance",
+          "Signet right (symbol palm side)"
+        ],
+        [
+          "Zhentarim",
+          "Gold coin (stamped symbol)"
+        ]
+      ],
+      "name": "Receive Your Faction's Insignia; Faction Insignias",
+      "source": "AL",
+      "chapter": {
+        "name": "Faction Guide",
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "colLabels": [
+        "Totem Animal",
+        "Urban Replacements"
+      ],
+      "rows": [
+        [
+          "Bear",
+          "Otyugh, giant spider"
+        ],
+        [
+          "Eagle",
+          "Crow, flying snake"
+        ],
+        [
+          "Wolf",
+          "Giant rat, giant fire beetle"
+        ]
+      ],
+      "name": "Path of the Totem Warrior",
+      "page": 54,
+      "source": "AI",
+      "chapter": {
+        "name": "Player Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

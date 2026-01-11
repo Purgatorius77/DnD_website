@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Tomes",
+      "colLabels": [
+        "d10",
+        "Tome"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@i Gambling with the Gods}"
+        ],
+        [
+          "2",
+          "{@i Plowshares into Swords}"
+        ],
+        [
+          "3",
+          "{@i The Poetry of Flumphism}"
+        ],
+        [
+          "4",
+          "{@i Monsters are People Too}"
+        ],
+        [
+          "5",
+          "{@i Oracles of the Future}"
+        ],
+        [
+          "6",
+          "{@i The Sociable Hermit}"
+        ],
+        [
+          "7",
+          "{@i The Enigma of Air}"
+        ],
+        [
+          "8",
+          "{@i The Compendium of Limitless Space}"
+        ],
+        [
+          "9",
+          "{@i The Organic Sun and Moon Cookbook}"
+        ],
+        [
+          "10",
+          "{@i Life is Endless Calamities, What Are You Going to Do About It}?"
+        ]
+      ],
+      "name": "By the Book; Ancient Tomes",
+      "page": 61,
+      "source": "AI",
+      "chapter": {
+        "name": "Player Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

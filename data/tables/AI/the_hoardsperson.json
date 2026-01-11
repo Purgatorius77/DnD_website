@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "The Hoardsperson",
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "colLabels": [
+        "Franchise Rank",
+        "Features"
+      ],
+      "rows": [
+        [
+          "1",
+          "Proficiencies and Starting Equipment, What a Deal"
+        ],
+        [
+          "2",
+          "{@item Living Loot Satchel|AI}, Living the Good Life"
+        ],
+        [
+          "3",
+          "Secret Satchel, That Thing You Need"
+        ],
+        [
+          "4",
+          "Portable Hole Satchel, That Expensive Thing You Need"
+        ]
+      ],
+      "name": "The Hoardsperson",
+      "page": 24,
+      "source": "AI",
+      "chapter": {
+        "name": "Growing Your Franchise",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}
