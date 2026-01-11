@@ -1,0 +1,289 @@
+{
+  "table": [
+    {
+      "name": "Urban Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 110,
+      "caption": "Urban Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1d6 {@creature cat||cats}"
+        ],
+        [
+          "02-03",
+          "1 {@creature commoner} with 1d6 {@creature goat||goats}"
+        ],
+        [
+          "04-05",
+          "2d10 {@creature rat||rats}"
+        ],
+        [
+          "06",
+          "1 {@creature raven} perched on a signpost"
+        ],
+        [
+          "07",
+          "1 {@creature commoner} on a {@creature draft horse}"
+        ],
+        [
+          "08",
+          "2d4 {@creature mastiff||mastiffs}"
+        ],
+        [
+          "09",
+          "1d2 {@creature commoner||commoners} leading 1d4 {@creature mule||mules} or 1d4 {@creature pony||ponies}"
+        ],
+        [
+          "10",
+          "1 {@creature pseudodragon}"
+        ],
+        [
+          "11",
+          "1 {@creature spy}"
+        ],
+        [
+          "12-13",
+          "1d8 + 1 {@creature acolyte||acolytes}"
+        ],
+        [
+          "14",
+          "1d6 + 6 {@creature flying snake||flying snakes}"
+        ],
+        [
+          "15",
+          "3d6 {@creature kobold||kobolds}"
+        ],
+        [
+          "16",
+          "2d4 {@creature giant centipede||giant centipedes}"
+        ],
+        [
+          "17",
+          "1d8 + 1 {@creature skeleton||skeletons}"
+        ],
+        [
+          "18-19",
+          "1d6 + 2 {@creature swarm of rats||swarms of rats}"
+        ],
+        [
+          "20",
+          "1d12 {@creature zombie||zombies}"
+        ],
+        [
+          "21-25",
+          "A peddler weighed down with a load of pots, pans, and other basic supplies"
+        ],
+        [
+          "26",
+          "1 {@creature giant wasp}"
+        ],
+        [
+          "27-28",
+          "1 {@creature warhorse}"
+        ],
+        [
+          "29",
+          "2d8 {@creature cultist||cultists}"
+        ],
+        [
+          "30-31",
+          "3d4 {@creature giant rat||giant rats}"
+        ],
+        [
+          "32",
+          "2d8 {@creature stirge||stirges}"
+        ],
+        [
+          "33",
+          "1d3 + 2 {@creature giant poisonous snake||giant poisonous snakes}"
+        ],
+        [
+          "34",
+          "1d4 + 2 {@creature swarm of bats||swarms of bats}"
+        ],
+        [
+          "35",
+          "2d4 {@creature winged kobold||winged kobolds}"
+        ],
+        [
+          "36-40",
+          "A wagon loaded with apples that has a broken wheel and holds up traffic"
+        ],
+        [
+          "41",
+          "1 {@creature crocodile}"
+        ],
+        [
+          "42-43",
+          "1 {@creature swarm of insects}"
+        ],
+        [
+          "44-45",
+          "3d6 {@creature bandit||bandits}"
+        ],
+        [
+          "46-47",
+          "1d3 + 2 {@creature noble||nobles} on {@creature riding horse||riding horses} with an escort of 1d10 {@creature guard||guards}"
+        ],
+        [
+          "48",
+          "2d4 {@creature kenku}"
+        ],
+        [
+          "49",
+          "1d6 + 2 {@creature smoke mephit||smoke mephits}"
+        ],
+        [
+          "50",
+          "1d8 + 1 {@creature swarm of ravens||swarms of ravens}"
+        ],
+        [
+          "51-52",
+          "1 {@creature wererat}"
+        ],
+        [
+          "53-54",
+          "1d3 {@creature half-ogre (ogrillon)||half-ogres}"
+        ],
+        [
+          "55-56",
+          "1 {@creature mimic}"
+        ],
+        [
+          "57-58",
+          "1d4 {@creature ghoul||ghouls}"
+        ],
+        [
+          "59-60",
+          "1d4 {@creature specter||specters}"
+        ],
+        [
+          "61-62",
+          "1d10 {@creature shadow||shadows}"
+        ],
+        [
+          "63-65",
+          "Someone empties a chamber pot onto the street from a second-floor window"
+        ],
+        [
+          "66-67",
+          "1 {@creature ghast}"
+        ],
+        [
+          "68-69",
+          "1 {@creature priest}"
+        ],
+        [
+          "70-71",
+          "1 {@creature will-o'-wisp}"
+        ],
+        [
+          "72-73",
+          "1d3 {@creature giant spider||giant-spiders}"
+        ],
+        [
+          "74-75",
+          "1d4 {@creature yuan-ti pureblood||yuan-ti purebloods}"
+        ],
+        [
+          "76-77",
+          "2d4 {@creature thug||thugs}"
+        ],
+        [
+          "78-80",
+          "A doomsayer who preaches the end of the world from a street corner"
+        ],
+        [
+          "81",
+          "1 {@creature cambion}"
+        ],
+        [
+          "82",
+          "1 {@creature vampire spawn}"
+        ],
+        [
+          "83",
+          "1 {@creature couatl}"
+        ],
+        [
+          "84",
+          "1 {@creature ghost}"
+        ],
+        [
+          "85",
+          "1 {@creature succubus} or 1 {@creature incubus}"
+        ],
+        [
+          "86",
+          "1 {@creature bandit captain} with 3d6 {@creature bandit||bandits}"
+        ],
+        [
+          "87",
+          "1d4 + 1 {@creature cult fanatic||cult fanatics}"
+        ],
+        [
+          "88",
+          "1 {@creature knight} or 1 {@creature veteran}"
+        ],
+        [
+          "89",
+          "1 {@creature water weird}"
+        ],
+        [
+          "90",
+          "1 {@creature wight}"
+        ],
+        [
+          "91",
+          "1 {@creature mage}"
+        ],
+        [
+          "92",
+          "1 {@creature shield guardian}"
+        ],
+        [
+          "93",
+          "1 {@creature gladiator}"
+        ],
+        [
+          "94",
+          "1 {@creature revenant}"
+        ],
+        [
+          "95",
+          "2d4 {@creature gargoyle||gargoyles}"
+        ],
+        [
+          "96",
+          "1d4 {@creature doppelganger||doppelgangers}"
+        ],
+        [
+          "97",
+          "1 {@creature oni}"
+        ],
+        [
+          "98",
+          "1 {@creature invisible stalker}"
+        ],
+        [
+          "99",
+          "1d3 + 1 {@creature phase spider||phase spiders}"
+        ],
+        [
+          "00",
+          "1 {@creature assassin}"
+        ]
+      ]
+    }
+  ]
+}

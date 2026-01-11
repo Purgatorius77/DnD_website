@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Wages",
+      "colLabels": [
+        "Check Total",
+        "Earnings"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "9 or lower",
+          "Poor lifestyle for the week"
+        ],
+        [
+          "10—14",
+          "Modest lifestyle for the week"
+        ],
+        [
+          "15—20",
+          "Comfortable lifestyle for the week"
+        ],
+        [
+          "21+",
+          "Comfortable lifestyle for the week + 25 gp"
+        ]
+      ],
+      "name": "Work; Wages",
+      "page": 134,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

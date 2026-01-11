@@ -1,0 +1,121 @@
+{
+  "table": [
+    {
+      "name": "Urban Encounters (Levels 17—20)",
+      "type": "table",
+      "source": "XGE",
+      "page": 110,
+      "caption": "Urban Encounters (Levels 17—20)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-05",
+          "1d10 {@creature invisible stalker||invisible stalkers}"
+        ],
+        [
+          "06-10",
+          "1d10 {@creature revenant||revenants}"
+        ],
+        [
+          "11-14",
+          "1d6 + 2 {@creature gladiator||gladiators}"
+        ],
+        [
+          "15-18",
+          "2d4 {@creature cambion||cambions}"
+        ],
+        [
+          "19-22",
+          "2d6 {@creature succubus||succubi} or 2d6 {@creature incubus||incubi}"
+        ],
+        [
+          "23-25",
+          "A witch ({@creature archmage}) who zooms overhead on a {@item broom of flying}"
+        ],
+        [
+          "26-30",
+          "1d4 {@creature gray slaad||gray slaadi}"
+        ],
+        [
+          "31-35",
+          "2d8 {@creature couatl||couatls}"
+        ],
+        [
+          "36-40",
+          "A distraught parent who rushes up to people, begging for help for a child who fell into the sewer"
+        ],
+        [
+          "41-45",
+          "1d3 {@creature young silver dragon||young silver dragons}"
+        ],
+        [
+          "46-50",
+          "3d6 {@creature ghost||ghosts}"
+        ],
+        [
+          "51-55",
+          "1 {@creature adult silver dragon}"
+        ],
+        [
+          "56-60",
+          "1d4 {@creature mage||mages} with 1d4 {@creature shield guardian||shield guardians}"
+        ],
+        [
+          "61-65",
+          "An aggressive merchant who hawks wares to passersby, claiming to be the purveyor of the finest silks in all the land"
+        ],
+        [
+          "66-70",
+          "1 {@creature ancient silver dragon}"
+        ],
+        [
+          "71-75",
+          "3d6 {@creature vampire spawn}"
+        ],
+        [
+          "76-80",
+          "A patrol of 2d10 {@creature guard||guards} marching up the street, searching for someone or something"
+        ],
+        [
+          "81-85",
+          "1d10 {@creature assassin||assassins}"
+        ],
+        [
+          "86-90",
+          "1d4 + 1 {@creature gray slaad||gray slaadi}"
+        ],
+        [
+          "91-93",
+          "1d10 {@creature oni}"
+        ],
+        [
+          "94-96",
+          "1 {@creature vampire spellcaster||spellcaster vampire} or 1 {@creature vampire warrior||warrior vampire}"
+        ],
+        [
+          "97",
+          "1d4 {@creature archmage||archmages}"
+        ],
+        [
+          "98",
+          "1d3 {@creature rakshasa||rakshasas}"
+        ],
+        [
+          "99",
+          "1d4 {@creature vampire||vampires}"
+        ],
+        [
+          "00",
+          "1 {@creature tarrasque}"
+        ]
+      ]
+    }
+  ]
+}

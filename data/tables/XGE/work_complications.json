@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Work Complications",
+      "colLabels": [
+        "d6",
+        "Complication"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A difficult customer or a fight with a coworker reduces the wages you earn by one category.*"
+        ],
+        [
+          "2",
+          "Your employer's financial difficulties result in your not being paid.*"
+        ],
+        [
+          "3",
+          "A coworker with ties to an important family in town takes a dislike to you.*"
+        ],
+        [
+          "4",
+          "Your employer is involved with a dark cult or a criminal enterprise."
+        ],
+        [
+          "5",
+          "A crime ring targets your business for extortion.*"
+        ],
+        [
+          "6",
+          "You gain a reputation for laziness (unjustified or not, as you choose), giving you disadvantage on checks made for this downtime activity for the next six workweeks you devote to it.*"
+        ]
+      ],
+      "footnotes": [
+        "*Might involve a rival"
+      ],
+      "name": "Work Complications",
+      "page": 134,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

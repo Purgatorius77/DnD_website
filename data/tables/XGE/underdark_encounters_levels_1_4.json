@@ -1,0 +1,341 @@
+{
+  "table": [
+    {
+      "name": "Underdark Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 106,
+      "caption": "Underdark Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature mind flayer arcanist}"
+        ],
+        [
+          "02",
+          "{@dice 1d3 + 1} {@creature giant poisonous snake||giant poisonous snakes}"
+        ],
+        [
+          "03",
+          "{@dice 1d3} {@creature giant lizard||giant lizards}"
+        ],
+        [
+          "04",
+          "{@dice 2d4} {@creature giant fire beetle||giant fire beetles}"
+        ],
+        [
+          "05",
+          "{@dice 1d8 + 1} {@creature flumph||flumphs}"
+        ],
+        [
+          "06",
+          "1 {@creature shrieker}"
+        ],
+        [
+          "07",
+          "{@dice 1d12} {@creature giant rat||giant rats}"
+        ],
+        [
+          "08",
+          "{@dice 2d4} {@creature kobold||kobolds}"
+        ],
+        [
+          "09",
+          "{@dice 1d8 + 1} {@creature stirge||stirges}"
+        ],
+        [
+          "10",
+          "{@dice 2d4} humans ({@creature tribal warrior||tribal warriors}) seeking the way to the surface, fleeing their Underdark oppressors"
+        ],
+        [
+          "11-12",
+          "{@dice 1d10} {@creature troglodyte||troglodytes}"
+        ],
+        [
+          "13-14",
+          "{@dice 1d2} {@creature gray ooze||gray oozes}"
+        ],
+        [
+          "15-16",
+          "{@dice 3d6} {@creature stirge||stirges}"
+        ],
+        [
+          "17-18",
+          "{@dice 1d3} {@creature magma mephit||magma mephits}"
+        ],
+        [
+          "19-20",
+          "{@dice 1d10} {@creature goblin||goblins}"
+        ],
+        [
+          "21-22",
+          "Orc graffiti on the walls, suggesting something rude about the mother of someone named Krusk"
+        ],
+        [
+          "23-24",
+          "1 {@creature swarm of insects}"
+        ],
+        [
+          "25",
+          "1 deep gnome"
+        ],
+        [
+          "26-28",
+          "{@dice 1d8 + 1} {@creature drow}"
+        ],
+        [
+          "29-30",
+          "{@dice 1d4} {@creature violet fungus||violet fungi}"
+        ],
+        [
+          "31-32",
+          "{@dice 1d12} {@creature kuo-toa}"
+        ],
+        [
+          "33",
+          "1 {@creature rust monster}"
+        ],
+        [
+          "34-35",
+          "A rubble-strewn passage that appears to have been recently cleared after a cave-in"
+        ],
+        [
+          "36-37",
+          "{@dice 1d8 + 1} {@creature giant bat||giant bats}"
+        ],
+        [
+          "38-39",
+          "{@dice 3d6} {@creature kobold||kobolds}"
+        ],
+        [
+          "40-41",
+          "{@dice 2d4} {@creature grimlock||grimlocks}"
+        ],
+        [
+          "42-43",
+          "{@dice 1d4 + 3} {@creature swarm of bats||swarms of bats}"
+        ],
+        [
+          "44",
+          "1 dwarf prospector ({@creature scout}) looking for gold"
+        ],
+        [
+          "45",
+          "1 {@creature carrion crawler} or 1 {@creature gelatinous cube}"
+        ],
+        [
+          "46",
+          "{@dice 1d8} {@creature darkmantle||darkmantles} or {@dice 2d4} {@creature piercer||piercers}"
+        ],
+        [
+          "47",
+          "1 {@creature hell hound}"
+        ],
+        [
+          "48",
+          "{@dice 1d3} {@creature specter||specters}"
+        ],
+        [
+          "49",
+          "{@dice 1d4} {@creature bugbear||bugbears}"
+        ],
+        [
+          "50",
+          "{@dice 1d10 + 5} {@creature winged kobold||winged kobolds}"
+        ],
+        [
+          "51",
+          "{@dice 1d4} {@creature fire snake||fire snakes}"
+        ],
+        [
+          "52",
+          "{@dice 2d8 + 1} {@creature troglodyte||troglodytes}"
+        ],
+        [
+          "53",
+          "{@dice 1d6} {@creature giant spider||giant spiders}"
+        ],
+        [
+          "54",
+          "{@dice 3d6} {@creature kuo-toa}"
+        ],
+        [
+          "55",
+          "1 {@creature goblin boss} with {@dice 2d4} {@creature goblin||goblins}"
+        ],
+        [
+          "56",
+          "{@dice 4d4} {@creature grimlock||grimlocks}"
+        ],
+        [
+          "57",
+          "1 {@creature ochre jelly}"
+        ],
+        [
+          "58",
+          "{@dice 2d10} {@creature giant centipede||giant centipedes}"
+        ],
+        [
+          "59",
+          "1 {@creature nothic} or 1 {@creature giant toad}"
+        ],
+        [
+          "60",
+          "{@dice 1d4} {@creature myconid adult||myconid adults} with {@dice 5d4} {@creature myconid sprout||myconid sprouts}"
+        ],
+        [
+          "61",
+          "1 {@creature minotaur skeleton} or 1 {@creature minotaur}"
+        ],
+        [
+          "62",
+          "{@dice 3d6} {@creature drow}"
+        ],
+        [
+          "63",
+          "1 {@creature mimic} or 1 {@creature doppelganger}"
+        ],
+        [
+          "64",
+          "{@dice 1d6 + 3} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "65",
+          "1 {@creature intellect devourer} or 1 {@creature spectator}"
+        ],
+        [
+          "66",
+          "{@dice 1d8 + 1} {@creature orc||orcs}"
+        ],
+        [
+          "67-68",
+          "A faint tapping coming from inside a nearby wall"
+        ],
+        [
+          "69",
+          "1 {@creature gibbering mouther} or 1 {@creature water weird}"
+        ],
+        [
+          "70",
+          "{@dice 1d12} {@creature gas spore||gas spores}"
+        ],
+        [
+          "71",
+          "1 {@creature giant constrictor snake}"
+        ],
+        [
+          "72",
+          "{@dice 1d10} {@creature shadow||shadows}"
+        ],
+        [
+          "73",
+          "{@dice 1d3} {@creature grell||grells}"
+        ],
+        [
+          "74",
+          "{@dice 1d4} {@creature wight||wights}"
+        ],
+        [
+          "75",
+          "{@dice 1d8 + 1} {@creature quaggoth spore servant||quaggoth spore servants}"
+        ],
+        [
+          "76",
+          "{@dice 1d2} {@creature gargoyle||gargoyles}"
+        ],
+        [
+          "77",
+          "{@dice 1d4} {@creature ogre||ogres} or {@dice 1d3} {@creature ettin||ettins}"
+        ],
+        [
+          "78",
+          "{@dice 1d4} dwarf explorers ({@creature veteran||veterans})"
+        ],
+        [
+          "79-80",
+          "An abandoned miners' camp spattered with blood and littered with the contents of {@dice 1d3} {@item dungeoneer's pack|phb|dungeoneer's packs}"
+        ],
+        [
+          "81",
+          "1 {@creature chuul} or 1 {@creature salamander}"
+        ],
+        [
+          "82",
+          "{@dice 1d4} {@creature phase spider||phase spiders} or {@dice 1d3} {@creature hook horror||hook horrors}"
+        ],
+        [
+          "83",
+          "{@dice 5d4} {@creature duergar}"
+        ],
+        [
+          "84",
+          "1 {@creature ghost} or 1 {@creature flameskull} or 1 {@creature wraith}"
+        ],
+        [
+          "85",
+          "1 {@creature druid} with 1 {@creature polar bear} ({@creature cave bear})"
+        ],
+        [
+          "86",
+          "1 {@creature hobgoblin captain} with {@dice 1d4} {@creature half-ogre (ogrillon)||half-ogres} and {@dice 2d10} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "87",
+          "1 {@creature earth elemental} or 1 {@creature black pudding}"
+        ],
+        [
+          "88",
+          "1 {@creature kuo-toa monitor} with {@dice 1d8 + 1} {@creature kuo-toa whip||kuo-toa whips}"
+        ],
+        [
+          "89",
+          "1 {@creature quaggoth thonot} with {@dice 1d3} {@creature quaggoth||quaggoths}"
+        ],
+        [
+          "90",
+          "1 {@creature beholder zombie} or 1 {@creature bone naga (guardian)||bone naga}"
+        ],
+        [
+          "91",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 1d4} {@creature orog||orogs} and {@dice 2d8} {@creature orc||orcs}"
+        ],
+        [
+          "92",
+          "{@dice 1d4} {@creature ghast||ghasts} with {@dice 1d10} {@creature ghoul||ghouls}"
+        ],
+        [
+          "93-95",
+          "A reeking puddle where slimy water has dripped from the ceiling"
+        ],
+        [
+          "96",
+          "1 {@creature otyugh} or 1 {@creature roper}"
+        ],
+        [
+          "97",
+          "1 {@creature vampire spawn}"
+        ],
+        [
+          "98",
+          "1 {@creature chimera}"
+        ],
+        [
+          "99",
+          "1 {@creature mind flayer}"
+        ],
+        [
+          "00",
+          "1 {@creature spirit naga}"
+        ]
+      ]
+    }
+  ]
+}

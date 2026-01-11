@@ -1,0 +1,225 @@
+{
+  "table": [
+    {
+      "name": "Urban Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 110,
+      "caption": "Urban Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-02",
+          "1d10 {@creature kenku}"
+        ],
+        [
+          "03-04",
+          "2d6 {@creature giant centipede||giant centipedes}"
+        ],
+        [
+          "05-06",
+          "2d8 {@creature skeleton||skeletons}"
+        ],
+        [
+          "07-08",
+          "1d6 {@creature swarm of bats||swarms of bats} and 1d6 {@creature swarm of rats||swarms of rats}"
+        ],
+        [
+          "09-10",
+          "3d6 {@creature winged kobold||winged kobolds}"
+        ],
+        [
+          "11-13",
+          "2d4 {@creature specter||specters}"
+        ],
+        [
+          "14-16",
+          "1d4 {@creature wight||wights}"
+        ],
+        [
+          "17-19",
+          "4d4 {@creature acolyte||acolytes} on {@creature draft horse||draft horses}"
+        ],
+        [
+          "20-22",
+          "3d6 {@creature giant centipede||giant centipedes}"
+        ],
+        [
+          "23-25",
+          "A talkative urchin, badgering passersby to serve as their guide through the community for a price of 1 sp"
+        ],
+        [
+          "26-28",
+          "1d10 {@creature spy||spies}"
+        ],
+        [
+          "29-31",
+          "3d6 {@creature crocodile||crocodiles}"
+        ],
+        [
+          "32-34",
+          "1d6 + 2 {@creature swarm of insects||swarms of insects}"
+        ],
+        [
+          "35-37",
+          "2d4 {@creature smoke mephit||smoke mephits}"
+        ],
+        [
+          "38-40",
+          "A {@creature noble} shouts \"Stop! Thief!\" at a fleeing scoundrel ({@creature bandit})"
+        ],
+        [
+          "41-43",
+          "1 {@creature succubus} or 1 {@creature incubus}"
+        ],
+        [
+          "44-46",
+          "1d10 {@creature half-ogre (ogrillon)||half-ogres}"
+        ],
+        [
+          "47-49",
+          "2d10 {@creature giant wasp||giant wasps}"
+        ],
+        [
+          "50-51",
+          "4d10 {@creature zombie||zombies}"
+        ],
+        [
+          "52-53",
+          "1d4 {@creature knight||knights} on {@creature warhorse||warhorses}"
+        ],
+        [
+          "54-55",
+          "1d4 + 1 {@creature water weird||water weirds}"
+        ],
+        [
+          "56-57",
+          "1d8 + 1 {@creature mimic||mimics}"
+        ],
+        [
+          "58-59",
+          "2d8 {@creature giant spider||giant spiders}"
+        ],
+        [
+          "60-61",
+          "3d6 {@creature shadow||shadows}"
+        ],
+        [
+          "62-65",
+          "An actor leans out from a second-story window to call to passersby, announcing a show"
+        ],
+        [
+          "66-67",
+          "1 {@creature bandit captain} with 3d8 {@creature bandit||bandits}"
+        ],
+        [
+          "68-69",
+          "1d10 {@creature will-o'-wisp||will-o'-wisps}"
+        ],
+        [
+          "70-71",
+          "2d4 {@creature priest||priests}"
+        ],
+        [
+          "72-74",
+          "3d6 {@creature yuan-ti pureblood||yuan-ti purebloods}"
+        ],
+        [
+          "75-76",
+          "2d10 {@creature thug||thugs}"
+        ],
+        [
+          "77-80",
+          "A fortune-teller reads cards for those who pay a price of 1 sp"
+        ],
+        [
+          "81",
+          "1d3 {@creature gladiator||gladiators}"
+        ],
+        [
+          "82",
+          "1d4 + 1 {@creature couatl||couatls}"
+        ],
+        [
+          "83",
+          "1d8 {@creature ghost||ghosts}"
+        ],
+        [
+          "84",
+          "2d4 {@creature doppelganger||doppelgangers}"
+        ],
+        [
+          "85",
+          "1d6 + 2 {@creature phase spider||phase spiders}"
+        ],
+        [
+          "86",
+          "2d4 {@creature veteran||veterans}"
+        ],
+        [
+          "87",
+          "1d8 {@creature ghast||ghasts} with 2d6 {@creature ghoul||ghouls}"
+        ],
+        [
+          "88",
+          "3d6 {@creature gargoyle||gargoyles}"
+        ],
+        [
+          "89",
+          "2d10 {@creature cult fanatic||cult fanatics}"
+        ],
+        [
+          "90",
+          "3d6 {@creature wererat||wererats}"
+        ],
+        [
+          "91",
+          "1 {@creature assassin}"
+        ],
+        [
+          "92",
+          "1d3 {@creature invisible stalker||invisible stalkers}"
+        ],
+        [
+          "93",
+          "1 {@creature gray slaad}"
+        ],
+        [
+          "94",
+          "1 {@creature young silver dragon}"
+        ],
+        [
+          "95",
+          "1d4 {@creature cambion||cambions} or 1d4 {@creature revenant||revenants}"
+        ],
+        [
+          "96",
+          "3d6 {@creature wight||wights}"
+        ],
+        [
+          "97",
+          "1 {@creature archmage}"
+        ],
+        [
+          "98",
+          "2d4 {@creature vampire spawn} or 1d4 {@creature oni}"
+        ],
+        [
+          "99",
+          "1 {@creature mage} with 1 {@creature shield guardian}"
+        ],
+        [
+          "00",
+          "1 {@creature rakshasa} or 1 {@creature vampire}"
+        ]
+      ]
+    }
+  ]
+}
