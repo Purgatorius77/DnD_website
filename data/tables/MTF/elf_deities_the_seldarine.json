@@ -1,0 +1,241 @@
+{
+  "table": [
+    {
+      "caption": "Elf Deities (The Seldarine)",
+      "colLabels": [
+        "Deity",
+        "Alignment",
+        "Province",
+        "Suggested Domains",
+        "Common Symbol"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-1 text-center",
+        "col-4",
+        "col-2",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "{@deity Aerdrie Faenya|elven|mtf}",
+          "CG",
+          "Air, rain, fertility, birth",
+          "Life, Tempest, Trickery",
+          "Bird silhouetted against a cloud"
+        ],
+        [
+          "{@deity Angharradh|elven|mtf}",
+          "CG",
+          "Wisdom, growth, protection",
+          "Knowledge, Life, War",
+          "Three interlocking circles"
+        ],
+        [
+          "{@deity Alathrien Druanna|elven|mtf}",
+          "N",
+          "Runes, writing, spellcasting",
+          "Arcana,** Knowledge",
+          "A quill or glyph"
+        ],
+        [
+          "{@deity Alobal Lorfiril|elven|mtf}",
+          "CG",
+          "Revelry, mirth",
+          "Life, Trickery",
+          "Wine glass"
+        ],
+        [
+          "{@deity Araleth Letheranil|elven|mtf}",
+          "CG",
+          "Light, stars, revelations",
+          "Knowledge, Light",
+          "Shaft of light"
+        ],
+        [
+          "{@deity Corellon Larethian|elven|mtf}",
+          "CG",
+          "Primary god of elves",
+          "Arcana,** Life, Light, War",
+          "Quarter moon or starburst"
+        ],
+        [
+          "{@deity Darahl Tilvenar|elven|mtf}",
+          "LN",
+          "Fire, earth, metalwork",
+          "Forge,* Light",
+          "Flame between hands"
+        ],
+        [
+          "{@deity Deep Sashelas|elven|mtf}",
+          "CG",
+          "Creativity, knowledge, sea",
+          "Knowledge, Nature, Tempest",
+          "Dolphin"
+        ],
+        [
+          "{@deity Elebrin Liothiel|elven|mtf}",
+          "CG",
+          "Abundance, gardens, the harvest",
+          "Life, Nature",
+          "Acorn"
+        ],
+        [
+          "{@deity Erevan Ilesere|elven|mtf}",
+          "CN",
+          "Mischief, change",
+          "Trickery",
+          "Asymmetrical starburst"
+        ],
+        [
+          "{@deity Fenmarel Mestarine|elven|mtf}",
+          "CN",
+          "Solitude, outcasts",
+          "Nature, Trickery",
+          "Two peering elven eyes"
+        ],
+        [
+          "{@deity Gadhelyn|elven|mtf}",
+          "CN",
+          "Independence, outlawry",
+          "Nature, Trickery",
+          "Leaf-shaped arrowhead"
+        ],
+        [
+          "{@deity Hanali Celanil|elven|mtf}",
+          "CG",
+          "Love, beauty, the arts",
+          "Life",
+          "Golden heart"
+        ],
+        [
+          "{@deity Kirith Sotheril|elven|mtf}",
+          "NG",
+          "Divination, illusion",
+          "Knowledge, Trickery",
+          "Rainbow sphere"
+        ],
+        [
+          "{@deity Labelas Enoreth|elven|mtf}",
+          "CG",
+          "Time, history, memory",
+          "Arcana,** Knowledge, Life",
+          "Setting sun"
+        ],
+        [
+          "{@deity Melira Taralen|elven|mtf}",
+          "CG",
+          "Poetry, songs",
+          "Knowledge, Life, Trickery",
+          "Lute"
+        ],
+        [
+          "{@deity Mythrien Sarath|elven|mtf}",
+          "CG",
+          "Abjuration, mythals",
+          "Arcana,** Forge,* Knowledge",
+          "Row of three intertwined rings"
+        ],
+        [
+          "{@deity Naralis Analor|elven|mtf}",
+          "NG",
+          "Healing, suffering, death",
+          "Life, Grave*",
+          "White dove"
+        ],
+        [
+          "{@deity Rellavar Danuvien|elven|mtf}",
+          "NG",
+          "Winter, harsh weather",
+          "Tempest",
+          "Spear between two circles"
+        ],
+        [
+          "{@deity Rillifane Rallathil|elven|mtf}",
+          "CG",
+          "Nature, beasts, the seasons",
+          "Nature",
+          "Oak"
+        ],
+        [
+          "{@deity Sarula Iliene|elven|mtf}",
+          "CG",
+          "Lakes, streams",
+          "Tempest, Trickery",
+          "Three lines symbolizing waves"
+        ],
+        [
+          "{@deity Sehanine Moonbow|elven|mtf}",
+          "CG",
+          "Dreams, death, travel",
+          "Grave,* Knowledge, Light",
+          "Full moon under a moonbow"
+        ],
+        [
+          "{@deity Shevarash|elven|mtf}",
+          "CN",
+          "Vengeance, loss, hatred",
+          "War",
+          "Broken arrow over a tear"
+        ],
+        [
+          "{@deity Solonor Thelandira|elven|mtf}",
+          "CG",
+          "Archery, hunting, survival",
+          "Nature, War",
+          "Silver arrow with green fletching"
+        ],
+        [
+          "{@deity Tarsellis Meunniduin|elven|mtf}",
+          "CN",
+          "Mountains, rivers, wild places",
+          "Nature, Tempest",
+          "Mountain with a river"
+        ],
+        [
+          "{@deity Tethrin Veraldé|elven|mtf}",
+          "NG",
+          "Battle, sword fighting",
+          "War",
+          "Crossed swords beneath a quarter moon and above a full moon"
+        ],
+        [
+          "{@deity Vandria Gilmadrith|elven|mtf}",
+          "LN",
+          "War, grief, justice, vigilance",
+          "Grave,* War",
+          "Weeping eye"
+        ],
+        [
+          "{@deity Ye'Cind|elven|mtf}",
+          "CG",
+          "Music, enchantment",
+          "Life, Trickery",
+          "Recorder"
+        ],
+        [
+          "{@deity Zandilar|elven|mtf}",
+          "CN",
+          "Romance, lust, dance",
+          "Life",
+          "Lips"
+        ]
+      ],
+      "footnotes": [
+        "*Appears in {@i Xanathar's Guide to Everything}",
+        "**Appears in {@i Sword Coast Adventurer's Guide}"
+      ],
+      "name": "Elf Deities (The Seldarine)",
+      "page": 43,
+      "source": "MTF",
+      "chapter": {
+        "name": "Elves",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

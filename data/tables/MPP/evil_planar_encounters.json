@@ -1,0 +1,77 @@
+{
+  "table": [
+    {
+      "name": "Evil Planar Encounters",
+      "type": "table",
+      "source": "MPP",
+      "page": 63,
+      "caption": "Evil Planar Encounters",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-07",
+          "{@dice 1d6} {@creature Vargouille Reflection|MPP|vargouille reflections}*"
+        ],
+        [
+          "08-16",
+          "1 {@creature night hag} selling {@dice 2d6} {@creature Larva|DMG|larvae} (see the {@book Dungeon Master's Guide|DMG})"
+        ],
+        [
+          "17-23",
+          "{@dice 1d4} {@creature Razorvine Blight|MPP|razorvine blights}*"
+        ],
+        [
+          "24-31",
+          "A force of {@dice 3d10} {@creature Hobgoblin||hobgoblins} and 1 {@creature hobgoblin} {@creature warlord|MPMM}"
+        ],
+        [
+          "32-38",
+          "1 {@creature gnoll fang of Yeenoghu} and {@dice 2d6} {@creature Gnoll||gnolls}"
+        ],
+        [
+          "39-47",
+          "1 {@creature ultroloth} and {@dice 1d4} {@creature Mezzoloth||mezzoloths}"
+        ],
+        [
+          "48-53",
+          "1 {@creature darkweaver|MPP}* that calls from its shadowy lair"
+        ],
+        [
+          "54-63",
+          "A portal to a Lower Plane that whispers sinister promises"
+        ],
+        [
+          "64-69",
+          "1 {@creature shator demodand|MPP}* seeking its lost prisoners"
+        ],
+        [
+          "70-77",
+          "{@dice 2d6} {@creature Nightmare||nightmares}"
+        ],
+        [
+          "78-84",
+          "1 {@creature githyanki knight} mounted on 1 {@creature young red dragon}"
+        ],
+        [
+          "85-91",
+          "1 {@creature lich} in a sinister walking citadel"
+        ],
+        [
+          "92-98",
+          "A Blood War battlefield where 1 {@creature marilith} general leads demons against 1 {@creature ice devil} general and its devils"
+        ],
+        [
+          "99-100",
+          "1 {@creature baernaloth|MPP}* with a sinister magic item"
+        ]
+      ]
+    }
+  ]
+}

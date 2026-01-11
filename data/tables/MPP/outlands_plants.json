@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Plants",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A young {@creature treant} wants to put down roots. It asks the characters to help it travel around the Outlands so it can find a suitable place to call home."
+        ],
+        [
+          "2",
+          "A {@creature myconid sovereign} has convinced a group of {@creature Githzerai Monk||githzerai monks} to abandon their teachings and follow its path to serenity. Another githzerai hires the characters to oust the fungal guru."
+        ],
+        [
+          "3",
+          "An herbalist has cultivated a unique breed of {@creature Gas Spore||gas spores}. She hires the characters to convey the spores to her buyer without setting off the fungi."
+        ],
+        [
+          "4",
+          "A resident of the gate-town of {@book Ecstasy|SatO|3|Ecstasy} is missing. His garden of {@creature Twig Blight||twig blights}—influenced by {@book Elysium|MPP|0|Elysium} to resemble topiary sculptures—haven't been fed and now sow chaos in town."
+        ]
+      ],
+      "name": "Outlands Plants",
+      "page": 14,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

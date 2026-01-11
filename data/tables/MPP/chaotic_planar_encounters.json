@@ -1,0 +1,77 @@
+{
+  "table": [
+    {
+      "name": "Chaotic Planar Encounters",
+      "type": "table",
+      "source": "MPP",
+      "page": 63,
+      "caption": "Chaotic Planar Encounters",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-08",
+          "{@dice 1d6} {@creature Bariaur Wanderer|MPP|bariaur wanderers}*"
+        ],
+        [
+          "09-16",
+          "1 {@creature monodrone} that has gone rogue and seeks the meaning of the multiverse"
+        ],
+        [
+          "17-24",
+          "{@dice 1d6} {@creature Swarm of Sunflies|MPP|swarms of sunflies}*"
+        ],
+        [
+          "25-31",
+          "{@dice 1d4} {@creature Red Slaad||red slaadi}"
+        ],
+        [
+          "32-38",
+          "1 {@creature Cranium Rat Squeaker Swarm|MPP|swarm of cranium rat squeakers}.* Roll a die. If the number is even, these cranium rats have set up a tiny shop. If the number is odd, these cranium rats have also set up a tiny shop but are con artists."
+        ],
+        [
+          "39-46",
+          "{@dice 1d6} {@creature Pteranodon||pteranodons}"
+        ],
+        [
+          "47-55",
+          "{@dice 1d4} {@creature Mercykiller Bloodhound|MPP|Mercykiller bloodhounds}* tracking a planar criminal"
+        ],
+        [
+          "56-62",
+          "{@dice 1d8} {@creature berserker} {@book petitioners|MPP|0|Petitioners}"
+        ],
+        [
+          "63-72",
+          "A rift-like portal connecting to a random plane"
+        ],
+        [
+          "73-79",
+          "1 {@creature ettin} with two different animal heads"
+        ],
+        [
+          "80-85",
+          "1 {@creature green slaad} disguised as a lost explorer from the Material Plane"
+        ],
+        [
+          "86-90",
+          "{@dice 1d6} {@creature Vrock||vrocks} seeking to dragoon captives into the Blood War"
+        ],
+        [
+          "91-97",
+          "A location the characters passed hours ago"
+        ],
+        [
+          "98-100",
+          "1 chaotic {@creature empyrean} seeking companions to undertake a mighty quest"
+        ]
+      ]
+    }
+  ]
+}

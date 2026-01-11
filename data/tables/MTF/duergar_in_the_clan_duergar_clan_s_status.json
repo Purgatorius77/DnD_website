@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Duergar Clan's Status",
+      "colLabels": [
+        "d6",
+        "Status"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Mighty. Conquered several dwarven strongholds, dominates Underdark region"
+        ],
+        [
+          "2",
+          "Growing. Stronghold expanding"
+        ],
+        [
+          "3",
+          "Declining. Clan growing stale, population falling"
+        ],
+        [
+          "4",
+          "Beleaguered. Surrounded by drow and illithid foes"
+        ],
+        [
+          "5",
+          "Scattered. Torn apart by slave rebellion or civil war"
+        ],
+        [
+          "6",
+          "Refugees. Defeated by enemies, few survivors"
+        ]
+      ],
+      "name": "Duergar in the Clan; Duergar Clan's Status",
+      "page": 84,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "table": [
+    {
+      "caption": "Stat Blocks by Challenge Rating",
+      "colLabels": [
+        "CR",
+        "Stat Block",
+        "Creature Type"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-6",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Cranium rat squeaker|MPP}",
+          "Aberration"
+        ],
+        [
+          "0",
+          "{@creature Sunfly|MPP}",
+          "Celestial"
+        ],
+        [
+          "1",
+          "{@creature Swarm of sunflies|MPP}",
+          "Celestial"
+        ],
+        [
+          "1",
+          "{@creature Vargouille reflection|MPP}",
+          "Fiend"
+        ],
+        [
+          "2",
+          "{@creature Dabus|MPP}",
+          "Celestial"
+        ],
+        [
+          "2",
+          "{@creature Lantern archon|MPP}",
+          "Celestial"
+        ],
+        [
+          "2",
+          "{@creature Musteval guardinal|MPP}",
+          "Celestial"
+        ],
+        [
+          "3",
+          "{@creature Bariaur wanderer|MPP}",
+          "Celestial"
+        ],
+        [
+          "3",
+          "{@creature Bleak Cabal void soother|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "3",
+          "{@creature Githzerai traveler|MPP}",
+          "Aberration"
+        ],
+        [
+          "3",
+          "{@creature Harmonium peacekeeper|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "3",
+          "{@creature Society of Sensation muse|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "3",
+          "{@creature Transcendent Order instinct|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "4",
+          "{@creature Hands of Havoc fire starter|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "4",
+          "{@creature Heralds of Dust remnant|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "4",
+          "{@creature Hound archon|MPP}",
+          "Celestial"
+        ],
+        [
+          "4",
+          "{@creature Mind's Eye matter smith|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "5",
+          "{@creature Athar null|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "5",
+          "{@creature Cranium rat squeaker swarm|MPP}",
+          "Aberration"
+        ],
+        [
+          "5",
+          "{@creature Fated shaker|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "5",
+          "{@creature Time dragon wyrmling|MPP}",
+          "Dragon"
+        ],
+        [
+          "6",
+          "{@creature Doomguard rot blade|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "6",
+          "{@creature Eater of knowledge|MPP}",
+          "Aberration"
+        ],
+        [
+          "6",
+          "{@creature Equinal guardinal|MPP}",
+          "Celestial"
+        ],
+        [
+          "7",
+          "{@creature Githzerai uniter|MPP}",
+          "Aberration"
+        ],
+        [
+          "7",
+          "{@creature Mercykiller bloodhound|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "8",
+          "{@creature Decaton modron|MPP}",
+          "Celestial"
+        ],
+        [
+          "8",
+          "{@creature Harmonium captain|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "8",
+          "{@creature Transcendent Order conduit|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "8",
+          "{@creature Warden archon|MPP}",
+          "Celestial"
+        ],
+        [
+          "9",
+          "{@creature Avoral guardinal|MPP}",
+          "Celestial"
+        ],
+        [
+          "9",
+          "{@creature Ferrumach rilmani|MPP}",
+          "Celestial"
+        ],
+        [
+          "9",
+          "{@creature Fraternity of Order law bender|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "9",
+          "{@creature Githzerai futurist|MPP}",
+          "Aberration"
+        ],
+        [
+          "10",
+          "{@creature Darkweaver|MPP}",
+          "Aberration"
+        ],
+        [
+          "10",
+          "{@creature Maelephant|MPP}",
+          "Fiend"
+        ],
+        [
+          "10",
+          "{@creature Nonaton modron|MPP}",
+          "Construct"
+        ],
+        [
+          "11",
+          "{@creature Farastu demodand|MPP}",
+          "Fiend"
+        ],
+        [
+          "11",
+          "{@creature Octon modron|MPP}",
+          "Construct"
+        ],
+        [
+          "11",
+          "{@creature Young time dragon|MPP}",
+          "Dragon"
+        ],
+        [
+          "12",
+          "{@creature Cuprilach rilmani|MPP}",
+          "Celestial"
+        ],
+        [
+          "12",
+          "{@creature Doomguard doom lord|MPP}*",
+          "Humanoid"
+        ],
+        [
+          "12",
+          "{@creature Septon modron|MPP}",
+          "Construct"
+        ],
+        [
+          "13",
+          "{@creature Hexton modron|MPP}",
+          "Construct"
+        ],
+        [
+          "13",
+          "{@creature Kelubar demodand|MPP}",
+          "Fiend"
+        ],
+        [
+          "14",
+          "{@creature Shemeshka|MPP}",
+          "Fiend"
+        ],
+        [
+          "16",
+          "{@creature Shator demodand|MPP}",
+          "Fiend"
+        ],
+        [
+          "17",
+          "{@creature Aurumach rilmani|MPP}",
+          "Celestial"
+        ],
+        [
+          "17",
+          "{@creature Baernaloth|MPP}",
+          "Fiend"
+        ],
+        [
+          "18",
+          "{@creature Adult time dragon|MPP}",
+          "Dragon"
+        ],
+        [
+          "20",
+          "{@creature Kolyarut|MPP}",
+          "Construct"
+        ],
+        [
+          "22",
+          "{@creature Planar incarnate|MPP}",
+          "Celestial or Fiend"
+        ],
+        [
+          "26",
+          "{@creature Ancient time dragon|MPP}",
+          "Dragon"
+        ]
+      ],
+      "footnotes": [
+        "*Appears in the \"{@book Faction Agents|MPP|1|Faction Agents}\" section"
+      ],
+      "name": "Meeting Magic Item Prerequisites; Stat Blocks by Challenge Rating",
+      "page": 4,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

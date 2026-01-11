@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Elementals",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Water Elemental||Water elementals} travel in a group that looks like a long, wandering river."
+        ],
+        [
+          "2",
+          "Some skull-headed {@creature Azer||azers} have been influenced by {@book the Nine Hells|MPP|0|The Nine Hells}. They escort a heavily armored caravan of rare ore to the gate-town of Ribcage."
+        ],
+        [
+          "3",
+          "A wounded {@creature mud mephit} asks the characters to help it deliver a sealed package to a leader in a nearby gate-town."
+        ],
+        [
+          "4",
+          "A wealthy {@creature dao} that glistens with gemstones has been influenced by {@book Arborea|MPP|0|Arborea}. It leads a parade of glimmering {@creature galeb duhr} between gate-towns as part of a shopping spree for precious rocks."
+        ]
+      ],
+      "name": "Outlands Elementals",
+      "page": 13,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

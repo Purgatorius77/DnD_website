@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Fiends",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature nycaloth} seeks to capture several monochromatic {@creature Hell Hound||hell hounds} influenced by {@book Gehenna|MPP|0|Gehenna}. The yugoloth seeks to sell the hounds to Fiends participating in the Blood War."
+        ],
+        [
+          "2",
+          "After being ambushed by a rival, a {@creature night hag} merchant offers a reward to characters who help her recover her lost inventory: several dozen stray {@creature Larva|DMG|larvae} (see the {@book Dungeon Master's Guide|DMG})."
+        ],
+        [
+          "3",
+          "A hero requests the characters' help in gaining the aid of a legendary steed called a nic'epona, a {@creature nightmare} influenced by one of the Upper Planes."
+        ],
+        [
+          "4",
+          "Rival {@creature Incubus||incubi} seek to recruit the characters to serve either a {@creature balor} warlord or a {@creature pit fiend} general whose fiendish armies are prepared to clash nearby."
+        ]
+      ],
+      "name": "Outlands Fiends",
+      "page": 13,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

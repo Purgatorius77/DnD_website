@@ -1,0 +1,67 @@
+{
+  "table": [
+    {
+      "caption": "Fool's Needle Gate Creatures",
+      "colLabels": [
+        "1d6",
+        "Creature",
+        "Details",
+        "Difficulty"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-4",
+        "col-4",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Flameskull|XMM}",
+          "The remains of an overzealous Netherese mage, this creature is enraged and confused after accidentally floating through the time gate.",
+          "Moderate"
+        ],
+        [
+          "2",
+          "Two {@creature Basilisk|XMM|Basilisks}",
+          "The result of irresponsible summoning, these aggressive creatures wreaked havoc in Eileanar until their summoner accidentally shoved them through the time gate.",
+          "Moderate"
+        ],
+        [
+          "3",
+          "{@creature Helmed Horror|XMM}",
+          "A magical bodyguard to a low-ranking mage, this creature wandered through the time gate and thinks the characters threaten its creator.",
+          "Moderate"
+        ],
+        [
+          "4",
+          "{@creature Beholder Zombie|XMM}",
+          "This magical experiment gone awry doesn't seem to know or care that it wandered through the time gate; it wants only to destroy everything it can.",
+          "Moderate"
+        ],
+        [
+          "5",
+          "{@creature Eldritch Eddy|NF} ({@book see appendix B|NF|6})",
+          "This dangerous magical storm originated in Eileanar and now rampages on Fool's Needle.",
+          "High"
+        ],
+        [
+          "6",
+          "{@creature Virvos Magen|NF} (see appendix B)",
+          "This confused Netherese servant took a wrong turn on the way to a party; it's convinced the characters have killed its master.",
+          "High"
+        ]
+      ],
+      "name": "Summit; Fool's Needle Gate Creatures",
+      "source": "NF",
+      "chapter": {
+        "name": "Through the Time Gates",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Duergar Deities",
+      "colLabels": [
+        "Deity",
+        "Alignment",
+        "Province",
+        "Suggested Domains",
+        "Common Symbol"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-1 text-center",
+        "col-3",
+        "col-3",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "{@deity Deep Duerra|duergar|mtf}",
+          "LE",
+          "Conquest, psionics",
+          "Knowledge, War",
+          "Mind flayer skull"
+        ],
+        [
+          "{@deity Laduguer|duergar|mtf}",
+          "LE",
+          "Labor, slavery",
+          "Death, Forge*",
+          "Broken arrow"
+        ]
+      ],
+      "footnotes": [
+        "*Appears in {@i Xanathar's Guide to Everything}"
+      ],
+      "name": "Duergar Deities",
+      "page": 79,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

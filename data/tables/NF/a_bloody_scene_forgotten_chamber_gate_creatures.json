@@ -1,0 +1,79 @@
+{
+  "table": [
+    {
+      "caption": "Forgotten Chamber Gate Creatures",
+      "colLabels": [
+        "1d8",
+        "Creature",
+        "Details",
+        "Difficulty"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-4",
+        "col-4",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Yeti|XMM}",
+          "Unaware of the time gate, this yeti lives in the caldera and defends it from intruders.",
+          "Low"
+        ],
+        [
+          "2",
+          "{@creature Hook Horror|XMM}",
+          "This confused predator wandered through the portal from a nearby mining tunnel in Conch.",
+          "Low"
+        ],
+        [
+          "3",
+          "{@creature Ghost|XMM}",
+          "The remnants of a High Netherese shift commander who was poisoned by her workers, this furious Undead assumes the characters are responsible for her death.",
+          "Moderate"
+        ],
+        [
+          "4",
+          "{@creature Ettin|XMM}",
+          "This obstinate creature was indiscriminately killing miners when it accidentally wandered through the portal.",
+          "Moderate"
+        ],
+        [
+          "5",
+          "{@creature Black Pudding|XMM}",
+          "High Netherese mages released this creature into Conch's mines to punish disobedient miners, but it mistakenly trudged through the portal.",
+          "Moderate"
+        ],
+        [
+          "6",
+          "{@creature Giant Axe Beak|XMM}",
+          "This oblivious creature wants to build a nest in the chasm that holds the portal.",
+          "High"
+        ],
+        [
+          "7",
+          "{@creature Otyugh|XMM}",
+          "This creature gorged itself on trash from Conch's mining tunnels before accidentally lumbering through the portal.",
+          "High"
+        ],
+        [
+          "8",
+          "{@creature Troll|XMM}",
+          "A scout for a larger band of trolls, this creature wants to clear the caldera of all threats before its companions move in.",
+          "High"
+        ]
+      ],
+      "name": "A Bloody Scene; Forgotten Chamber Gate Creatures",
+      "source": "NF",
+      "chapter": {
+        "name": "Through the Time Gates",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

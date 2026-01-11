@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Duergar Purpose of Raid",
+      "colLabels": [
+        "d6",
+        "Purpose"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-3",
+          "Collecting slaves"
+        ],
+        [
+          "4",
+          "Pursuing a specific enemy"
+        ],
+        [
+          "5",
+          "Patrolling for expansion opportunities"
+        ],
+        [
+          "6",
+          "On a rampage for loot"
+        ]
+      ],
+      "name": "Duergar Raiding Parties; Duergar Purpose of Raid",
+      "page": 83,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

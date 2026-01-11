@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Demon Personality Traits",
+      "colLabels": [
+        "d6",
+        "Trait"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "I enjoy telling lies."
+        ],
+        [
+          "2",
+          "Threats are my only language."
+        ],
+        [
+          "3",
+          "I fawn over others to make my betrayal more unexpected."
+        ],
+        [
+          "4",
+          "I crush those I can defeat, and lie in wait to weaken and overwhelm those I must respect."
+        ],
+        [
+          "5",
+          "I will do anything to survive. Anything."
+        ],
+        [
+          "6",
+          "Someday all will worship me. Until then, I track their insults with obsessive attention."
+        ]
+      ],
+      "name": "Demon Customization Tables; Demon Personality Traits",
+      "page": 33,
+      "source": "MTF",
+      "chapter": {
+        "name": "The Blood War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

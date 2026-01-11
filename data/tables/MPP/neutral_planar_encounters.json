@@ -1,0 +1,77 @@
+{
+  "table": [
+    {
+      "name": "Neutral Planar Encounters",
+      "type": "table",
+      "source": "MPP",
+      "page": 63,
+      "caption": "Neutral Planar Encounters",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-07",
+          "{@dice 1d6} {@creature thri-kreen} looking for a way back to their Material Plane home"
+        ],
+        [
+          "08-15",
+          "A mysterious being who communicates via 1 {@creature cranium rat squeaker|MPP}*"
+        ],
+        [
+          "16-22",
+          "{@dice 1d4} {@creature Society of Sensation Muse|MPP|Society of Sensation muses}* undertaking increasingly daring feats"
+        ],
+        [
+          "23-31",
+          "1 {@creature smoke mephit} carrying challenges between archmage rivals"
+        ],
+        [
+          "32-38",
+          "1 {@creature eater of knowledge|MPP}*"
+        ],
+        [
+          "39-46",
+          "{@dice 2d12} {@creature commoner} {@book petitioners|MPP|0|Petitioners} fleeing {@dice 1d4} {@creature Farastu Demodand|MPP|farastu demodands}* and 1 {@creature kelubar demodand|MPP}*"
+        ],
+        [
+          "47-55",
+          "1 {@creature cuprilach rilmani|MPP}* on an assassination mission"
+        ],
+        [
+          "56-64",
+          "1 {@creature equinal guardinal|MPP}* messenger"
+        ],
+        [
+          "65-71",
+          "{@dice 1d4} {@creature Githzerai Traveler|MPP|githzerai travelers}*"
+        ],
+        [
+          "72-79",
+          "1 {@creature kolyarut|MPP}* seeking a contract breaker"
+        ],
+        [
+          "80-86",
+          "1 {@creature aurumach rilmani|MPP}*"
+        ],
+        [
+          "87-92",
+          "1 {@creature githzerai futurist|MPP}* with a warning about a character's future"
+        ],
+        [
+          "93-98",
+          "1 {@creature flameskull} claiming to be the famed planar explorer Morte"
+        ],
+        [
+          "99-100",
+          "1 {@creature ancient time dragon|MPP}* (50 percent chance the time dragon is from the past, 50 percent chance it's from the future)"
+        ]
+      ]
+    }
+  ]
+}

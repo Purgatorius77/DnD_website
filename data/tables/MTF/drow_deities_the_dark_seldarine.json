@@ -1,0 +1,100 @@
+{
+  "table": [
+    {
+      "caption": "Drow Deities (The Dark Seldarine)",
+      "colLabels": [
+        "Deity",
+        "Alignment",
+        "Province",
+        "Suggested Domains",
+        "Common Symbol"
+      ],
+      "colStyles": [
+        "col-1",
+        "col-1 text-center",
+        "col-4",
+        "col-2",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "{@deity Eilistraee|drow|mtf}",
+          "CG",
+          "Freedom, moonlight, song",
+          "Life, Light, Nature",
+          "Sword-wielding, dancing female drow silhouetted against the full moon"
+        ],
+        [
+          "{@deity Ghaunadaur|drow|mtf}",
+          "CE",
+          "Oozes, slimes, outcasts",
+          "War",
+          "Purple eye with black sclera"
+        ],
+        [
+          "{@deity Keptolo|drow|mtf}",
+          "CE",
+          "Beauty, hedonism, fertility",
+          "Nature, Trickery",
+          "Mushroom"
+        ],
+        [
+          "{@deity Kiaransalee|drow|mtf}",
+          "CE",
+          "Necromancy",
+          "Arcana,* Death",
+          "Drow hand wearing many silver rings"
+        ],
+        [
+          "{@deity Malyk|drow|mtf}",
+          "CE",
+          "Chaos, rebellion, wild magic",
+          "Tempest, Trickery",
+          "A flame in a tear or a multihued vortex"
+        ],
+        [
+          "{@deity Lolth|drow|mtf}",
+          "CE",
+          "Primary god of drow, spiders",
+          "Trickery, War",
+          "Spider"
+        ],
+        [
+          "{@deity Selvetarm|drow|mtf}",
+          "CE",
+          "Warriors, slaughter",
+          "War",
+          "Spider over crossed sword and mace"
+        ],
+        [
+          "{@deity Vhaeraun|drow|mtf}",
+          "CE",
+          "Arrogance, thieves",
+          "Trickery, War",
+          "Black mask with blue glass lenses inset over eyes"
+        ],
+        [
+          "{@deity Zinzerena|drow|mtf}",
+          "CN",
+          "Assassination, illusion, lies",
+          "Trickery",
+          "Shortsword draped with cloth"
+        ]
+      ],
+      "footnotes": [
+        "*Appears in {@i Sword Coast Adventurer's Guide}"
+      ],
+      "name": "Drow Deities (The Dark Seldarine)",
+      "page": 53,
+      "source": "MTF",
+      "chapter": {
+        "name": "Elves",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

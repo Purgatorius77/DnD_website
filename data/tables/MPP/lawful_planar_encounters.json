@@ -1,0 +1,81 @@
+{
+  "table": [
+    {
+      "name": "Lawful Planar Encounters",
+      "type": "table",
+      "source": "MPP",
+      "page": 63,
+      "caption": "Lawful Planar Encounters",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-06",
+          "A {@creature warden archon|MPP}* guarding a portal to a dangerous plane"
+        ],
+        [
+          "07-13",
+          "1 {@creature imp} who claims to speak for an archdevil"
+        ],
+        [
+          "14-21",
+          "{@dice 1d6} {@creature Hands of Havoc Fire Starter|MPP|Hands of Havoc fire starters}*"
+        ],
+        [
+          "22-29",
+          "1 {@creature maelephant|MPP}*"
+        ],
+        [
+          "30-36",
+          "1 {@creature flumph} {@book petitioner|MPP|0|Petitioners} that's excited to learn about the planes"
+        ],
+        [
+          "37-42",
+          "1 {@creature decaton modron|MPP}* and {@dice 2d6} {@creature Quadrone||quadrones} on their way back to Mechanus"
+        ],
+        [
+          "43-48",
+          "1 {@creature guardian naga} storyteller"
+        ],
+        [
+          "49-54",
+          "1 {@creature gynosphinx} who guards secret wisdom"
+        ],
+        [
+          "55-61",
+          "{@dice 1d6} {@creature Knight||knights} on a quest across the planes"
+        ],
+        [
+          "62-69",
+          "1 {@creature nonaton modron|MPP}* in a walking citadel that looks like a giant modron"
+        ],
+        [
+          "70-76",
+          "{@dice 1d4} {@creature Couatl||couatls}"
+        ],
+        [
+          "77-84",
+          "1 {@creature Mind's Eye matter smith|MPP}* testing a new invention"
+        ],
+        [
+          "85-90",
+          "1 {@creature beholder} {@book petitioner|MPP|0|Petitioners} scheming against a rival who's still alive"
+        ],
+        [
+          "91-97",
+          "1 {@creature pit fiend} who claims to speak for an archdevil"
+        ],
+        [
+          "98-100",
+          "1 {@creature hexton modron|MPP}* leading a march of hundreds of lesser modrons"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Githyanki Special Allies",
+      "colLabels": [
+        "d10",
+        "Ally"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-3",
+          "No special Allies"
+        ],
+        [
+          "4-5",
+          "{@creature Githyanki Knight||Githyanki Knights}"
+        ],
+        [
+          "6-7",
+          "{@creature Githyanki Knight||Knights} and {@creature Githyanki Gish|MTF|Gish}"
+        ],
+        [
+          "8-9",
+          "{@creature Githyanki Gish|MTF|Gish} and {@creature Githyanki Knight||Knights}"
+        ],
+        [
+          "10",
+          "{@creature Githyanki Kith'rak|MTF|Kith'rak}"
+        ]
+      ],
+      "name": "Githyanki Raiding Parties; Githyanki Special Allies",
+      "page": 98,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

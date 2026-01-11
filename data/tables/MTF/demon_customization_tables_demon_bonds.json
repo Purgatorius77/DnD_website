@@ -1,0 +1,32 @@
+{
+  "table": [
+    {
+      "caption": "Demon Bonds",
+      "colLabels": [
+        "d6",
+        "Bond"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-6",
+          "I am a perfect product of creation, destined to one day shape the cosmos to my whims. Everything I do verifies my destiny."
+        ]
+      ],
+      "name": "Demon Customization Tables; Demon Bonds",
+      "page": 33,
+      "source": "MTF",
+      "chapter": {
+        "name": "The Blood War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

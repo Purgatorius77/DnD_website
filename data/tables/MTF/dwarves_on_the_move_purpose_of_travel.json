@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Purpose of Travel",
+      "colLabels": [
+        "d6",
+        "Purpose"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Merchant caravan"
+        ],
+        [
+          "2",
+          "Seeking a specific enemy"
+        ],
+        [
+          "3",
+          "Patrolling to keep roads safe"
+        ],
+        [
+          "4",
+          "Delivering ransom for captive clan member"
+        ],
+        [
+          "5",
+          "Fleeing attack on stronghold"
+        ],
+        [
+          "6",
+          "Diplomatic mission"
+        ]
+      ],
+      "name": "Dwarves on the Move; Purpose of Travel",
+      "page": 81,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

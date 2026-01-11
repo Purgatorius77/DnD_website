@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Duergar Clan Names",
+      "colLabels": [
+        "d12",
+        "Name"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Ashlord"
+        ],
+        [
+          "2",
+          "Battlegore"
+        ],
+        [
+          "3",
+          "Doomfist"
+        ],
+        [
+          "4",
+          "Earthlord"
+        ],
+        [
+          "5",
+          "Firetamer"
+        ],
+        [
+          "6",
+          "Knifemind"
+        ],
+        [
+          "7",
+          "Mindeater"
+        ],
+        [
+          "8",
+          "Necksnapper"
+        ],
+        [
+          "9",
+          "Orehammer"
+        ],
+        [
+          "10",
+          "Runehammer"
+        ],
+        [
+          "11",
+          "Thundermaster"
+        ],
+        [
+          "12",
+          "Underearth"
+        ]
+      ],
+      "name": "Duergar in the Clan; Duergar Clan Names",
+      "page": 84,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

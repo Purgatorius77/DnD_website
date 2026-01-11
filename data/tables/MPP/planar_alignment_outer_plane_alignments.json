@@ -1,0 +1,88 @@
+{
+  "table": [
+    {
+      "caption": "Outer Plane Alignments",
+      "colLabels": [
+        "Outer Plane",
+        "Alignment"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@book The Abyss|MPP|0|The Abyss}",
+          "CE"
+        ],
+        [
+          "{@book Acheron|MPP|0|Acheron}",
+          "LN, LE"
+        ],
+        [
+          "{@book Arborea|MPP|0|Arborea}",
+          "CG"
+        ],
+        [
+          "{@book Arcadia|MPP|0|Arcadia}",
+          "LN, LG"
+        ],
+        [
+          "{@book The Beastlands|MPP|0|The Beastlands}",
+          "NG, CG"
+        ],
+        [
+          "{@book Bytopia|MPP|0|Bytopia}",
+          "NG, LG"
+        ],
+        [
+          "{@book Carceri|MPP|0|Carceri}",
+          "NE, CE"
+        ],
+        [
+          "{@book Elysium|MPP|0|Elysium}",
+          "NG"
+        ],
+        [
+          "{@book Gehenna|MPP|0|Gehenna}",
+          "NE, LE"
+        ],
+        [
+          "{@book Hades|MPP|0|Hades}",
+          "NE"
+        ],
+        [
+          "{@book Limbo|MPP|0|Limbo}",
+          "CN"
+        ],
+        [
+          "{@book Mechanus|MPP|0|Mechanus}",
+          "LN"
+        ],
+        [
+          "{@book Mount Celestia|MPP|0|Mount Celestia}",
+          "LG"
+        ],
+        [
+          "{@book The Nine Hells|MPP|0|The Nine Hells}",
+          "LE"
+        ],
+        [
+          "{@book Pandemonium|MPP|0|Pandemonium}",
+          "CN, CE"
+        ],
+        [
+          "{@book Ysgard|MPP|0|Ysgard}",
+          "CN, CG"
+        ]
+      ],
+      "name": "Planar Alignment; Outer Plane Alignments",
+      "page": 6,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

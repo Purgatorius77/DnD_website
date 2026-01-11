@@ -1,0 +1,54 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Subrace",
+        "Base Height",
+        "Base Weight",
+        "Height Modifier",
+        "Weight Modifier"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-1 text-center",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-4 text-center"
+      ],
+      "rows": [
+        [
+          "Eladrin",
+          "4'6\"",
+          "90 lb.",
+          "+{@dice 2d12}",
+          "×({@dice 1d4}) lb."
+        ],
+        [
+          "Sea elf",
+          "4'6\"",
+          "90 lb.",
+          "+{@dice 2d8}",
+          "×({@dice 1d4}) lb."
+        ],
+        [
+          "Shadar-kai",
+          "4'8\"",
+          "90 lb.",
+          "+{@dice 2d8}",
+          "×({@dice 1d4}) lb."
+        ]
+      ],
+      "name": "Elf Random Height and Weight",
+      "page": 63,
+      "source": "MTF",
+      "chapter": {
+        "name": "Elves",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

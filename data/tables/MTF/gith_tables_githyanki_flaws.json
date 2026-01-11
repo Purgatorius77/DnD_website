@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Githyanki Flaws",
+      "colLabels": [
+        "d4",
+        "Flaw"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Hunger and thirst are unbearable pains to me."
+        ],
+        [
+          "2",
+          "I can't see a non-githyanki as a real threat."
+        ],
+        [
+          "3",
+          "I follow orders, regardless of their implications."
+        ],
+        [
+          "4",
+          "I start projects but never finish them."
+        ]
+      ],
+      "name": "Gith Tables; Githyanki Flaws",
+      "page": 97,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

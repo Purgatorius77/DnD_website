@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Cult Resources",
+      "colLabels": [
+        "d6",
+        "Resource"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The cult uses a respectable guild, business, or institution as a front."
+        ],
+        [
+          "2",
+          "The cult thrives through the support of generations of a powerful noble family."
+        ],
+        [
+          "3",
+          "The cult controls the local officers of the law."
+        ],
+        [
+          "4",
+          "The cult has access to a cache of powerful magic."
+        ],
+        [
+          "5",
+          "The cult can open a direct portal to the Outer Planes, allowing fiends to intercede on their behalf."
+        ],
+        [
+          "6",
+          "The cult's leader is a renegade fiend seeking to evade its enemies."
+        ]
+      ],
+      "name": "Fiendish Cults; Cult Resources",
+      "page": 34,
+      "source": "MTF",
+      "chapter": {
+        "name": "The Blood War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

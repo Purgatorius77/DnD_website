@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Weird Time Gate Effects",
+      "colLabels": [
+        "1d4",
+        "Effect"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Extreme Weather. The area has one environmental effect: extreme cold, extreme heat, heavy precipitation, or strong wind (see the {@book Dungeon Master's Guide|XDMG} for details about each)."
+        ],
+        [
+          "2",
+          "Dulled or Warped Magic. The area is a dead magic zone or wild magic zone (see the Dungeon Master's Guide for details about both). The presence of either zone doesn't affect the time gate."
+        ],
+        [
+          "3",
+          "Fast Movement. All creatures' Speeds are doubled."
+        ],
+        [
+          "4",
+          "Slow Movement. All creatures' Speeds are halved (round down)."
+        ]
+      ],
+      "name": "Severe Temporal Effects; Weird Time Gate Effects",
+      "source": "NF",
+      "chapter": {
+        "name": "Through the Time Gates",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

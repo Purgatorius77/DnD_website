@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Githzerai Names, Female",
+      "colLabels": [
+        "d10",
+        "Name"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Adaka"
+        ],
+        [
+          "2",
+          "Adeya"
+        ],
+        [
+          "3",
+          "Ella"
+        ],
+        [
+          "4",
+          "Ezhelya"
+        ],
+        [
+          "5",
+          "Immilzin"
+        ],
+        [
+          "6",
+          "Izera"
+        ],
+        [
+          "7",
+          "Janara"
+        ],
+        [
+          "8",
+          "Loraya"
+        ],
+        [
+          "9",
+          "Uweya"
+        ],
+        [
+          "10",
+          "Vithka"
+        ]
+      ],
+      "name": "Gith Tables; Githzerai Names, Female",
+      "page": 97,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

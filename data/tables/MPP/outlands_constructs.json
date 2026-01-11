@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Constructs",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A tyrannical {@creature homunculus} rules over the small domain of its long-lost archmage master."
+        ],
+        [
+          "2",
+          "A beautiful but vain {@creature flesh golem} influenced by {@book Arborea|MPP|0|Arborea} insists on following a character until the character sketches, sculpts, or otherwise artistically renders it."
+        ],
+        [
+          "3",
+          "A gang of inquisitive {@creature Monodrone||monodrones} and its {@creature duodrone} leader insist on following a character, saying they expect that individual's doom to be \"statistically noteworthy.\""
+        ],
+        [
+          "4",
+          "A {@creature clay golem} influenced by {@book the Beastlands|MPP|0|The Beastlands} has been transformed into the walking hive that's home to numerous {@creature Swarm of Wasps||swarms of insects (wasps)}."
+        ]
+      ],
+      "name": "Outlands Constructs",
+      "page": 12,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

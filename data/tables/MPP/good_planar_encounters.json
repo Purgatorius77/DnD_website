@@ -1,0 +1,77 @@
+{
+  "table": [
+    {
+      "name": "Good Planar Encounters",
+      "type": "table",
+      "source": "MPP",
+      "page": 63,
+      "caption": "Good Planar Encounters",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-09",
+          "1 {@creature sunfly|MPP}* carrying a tiny dessert"
+        ],
+        [
+          "10-16",
+          "1 {@creature lantern archon|MPP}* leading a group of {@dice 2d4} {@creature commoner} {@book petitioners|MPP|0|Petitioners} who are prone to getting lost"
+        ],
+        [
+          "17-22",
+          "{@dice 1d6} {@creature Musteval Guardinal|MPP|musteval guardinals}* on a secret mission"
+        ],
+        [
+          "23-28",
+          "1 {@creature time dragon wyrmling|MPP}*"
+        ],
+        [
+          "29-35",
+          "{@dice 1d4} {@creature Hound Archon|MPP|hound archons},* each with a {@creature mastiff} tracking dog"
+        ],
+        [
+          "36-41",
+          "A friendly, awakened {@creature swarm of bats}"
+        ],
+        [
+          "42-48",
+          "{@dice 1d4} {@creature Cloud Giant||cloud giants} on a floating island"
+        ],
+        [
+          "49-56",
+          "1 {@creature druid} studying an inert, magical animal sculpture made of thousands of tanzanite crystals"
+        ],
+        [
+          "57-63",
+          "1 {@creature treant} comprised of cacti, coral, or mushrooms"
+        ],
+        [
+          "64-70",
+          "1 {@creature avoral guardinal|MPP}* seeking a lost animal {@book petitioner|MPP|0|Petitioners}"
+        ],
+        [
+          "71-80",
+          "A portal to an Upper Plane that beckons with promises of eternal peace and comfort"
+        ],
+        [
+          "81-87",
+          "1 gold dragon (your choice of {@creature Young Gold Dragon||young}, {@creature Adult Gold Dragon||adult}, or {@creature Ancient Gold Dragon||ancient})"
+        ],
+        [
+          "88-95",
+          "1 {@creature planar incarnate|MPP|planar incarnate (Celestial form)}"
+        ],
+        [
+          "96-100",
+          "1 {@creature solar} angel sent to bestow a {@book blessing|DMG|7|Blessings} (see the {@book Dungeon Master's Guide|DMG}) on a character"
+        ]
+      ]
+    }
+  ]
+}

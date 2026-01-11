@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Githyanki Purpose of Raid",
+      "colLabels": [
+        "d6",
+        "Purpose"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-2",
+          "Wanton destruction, the githyanki want to fight and loot to relieve their boredom"
+        ],
+        [
+          "3",
+          "Revenge, the githyanki seek a stolen silver sword"
+        ],
+        [
+          "4-5",
+          "Mind flayer hunt, the githyanki are seeking mind flayers and their thralls"
+        ],
+        [
+          "6",
+          "Vlaakith's orders, the githyanki have been dispatched to seize a specific item or person"
+        ]
+      ],
+      "name": "Githyanki Raiding Parties; Githyanki Purpose of Raid",
+      "page": 98,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

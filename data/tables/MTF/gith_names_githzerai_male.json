@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "name": "Gith Names – Githzerai, Male",
+      "type": "table",
+      "source": "MTF",
+      "page": 97,
+      "caption": "Gith Names – Githzerai, Male",
+      "colLabels": [
+        "{@dice d10}",
+        "Name"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Dak"
+        ],
+        [
+          "2",
+          "Duurth"
+        ],
+        [
+          "3",
+          "Ferzth"
+        ],
+        [
+          "4",
+          "Greth"
+        ],
+        [
+          "5",
+          "Hurm"
+        ],
+        [
+          "6",
+          "Kalla"
+        ],
+        [
+          "7",
+          "Muurg"
+        ],
+        [
+          "8",
+          "Nurm"
+        ],
+        [
+          "9",
+          "Shrakk"
+        ],
+        [
+          "10",
+          "Xorm"
+        ]
+      ]
+    }
+  ]
+}

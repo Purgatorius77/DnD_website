@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Githzerai Group Leader",
+      "colLabels": [
+        "d6",
+        "Leader"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Githzerai Anarch|MTF}"
+        ],
+        [
+          "2-3",
+          "{@creature Githzerai Enlightened|MTF}"
+        ],
+        [
+          "4-6",
+          "{@creature Githzerai Zerth}"
+        ]
+      ],
+      "name": "Githzerai Groups; Githzerai Group Leader",
+      "page": 98,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

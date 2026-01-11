@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "",
+      "colLabels": [
+        "Members",
+        "Number Present"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@creature Duergar}",
+          "{@dice 2d6 + 5}"
+        ],
+        [
+          "{@creature Duergar stone guard|mtf|Duergar stone guards}",
+          "{@dice 1d4 + 1}"
+        ],
+        [
+          "{@creature Duergar kavalrachni|mtf}",
+          "{@dice 1d4}"
+        ],
+        [
+          "{@creature Male steeder|mtf|Male steeders}",
+          "{@dice 1d4}"
+        ]
+      ],
+      "name": "Duergar Raiding Parties; 1",
+      "page": 83,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

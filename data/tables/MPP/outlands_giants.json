@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Giants",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Several {@creature Cyclops||cyclopes} refuse to let the characters pass through a region where they're constructing a massive ring of beautifully carved standing stones."
+        ],
+        [
+          "2",
+          "An {@creature ettin} influenced by {@book the Beastlands|MPP|0|The Beastlands} has one head with bovine features and one head with lupine features. It desperately needs help finding something both heads are willing to eat."
+        ],
+        [
+          "3",
+          "A {@creature storm giant} seeks the characters' help in finding an offering of significant worth and size to impress the god Annam."
+        ],
+        [
+          "4",
+          "A jade-skinned {@creature oni} from Bytopia has become separated from the spirit she was bound to protect. She requests aid in catching up to her lost ward."
+        ]
+      ],
+      "name": "Outlands Giants",
+      "page": 13,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

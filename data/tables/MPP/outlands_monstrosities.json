@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Monstrosities",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The characters are hired to recover cargo from a crashed vessel brimming with rare technology, but the wreckage is overrun with {@creature Rust Monster||rust monsters}."
+        ],
+        [
+          "2",
+          "The characters have to retrieve a treasure from a group of mischievous {@creature Sprite||sprites}. The sprites are secretly defended by {@creature Mimic||mimics} influenced by {@book Elysium|MPP|0|Elysium} that take the form of tiny, whimsical cottages."
+        ],
+        [
+          "3",
+          "A pride of {@creature Displacer Beast||displacer beasts} stalks a band of traveling merchants. The merchants seek protection from the predators hunting them for sport."
+        ],
+        [
+          "4",
+          "A {@creature drider} influenced by {@book Arborea|MPP|0|Arborea} runs a {@creature giant spider} ranch. She hires the characters to hunt a rare breed of {@creature sunfly|MPP} (detailed {@book later|MPP|1|Sunflies} in this book) that, when fed to her spiders, will allow them to produce a remarkable type of silk."
+        ]
+      ],
+      "name": "Outlands Monstrosities",
+      "page": 14,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

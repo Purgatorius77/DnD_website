@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Githzerai Special Allies",
+      "colLabels": [
+        "d8",
+        "Ally"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-3",
+          "The group has no allies"
+        ],
+        [
+          "4-5",
+          "{@dice 1d4} {@creature Githzerai Zerth||Zerths}"
+        ],
+        [
+          "6",
+          "{@dice 1d4} {@creature githzerai enlightened|MTF}"
+        ],
+        [
+          "7",
+          "{@dice 1d4} {@creature githzerai zerth||githzerai zerths}, {@dice 1d4} {@creature githzerai enlightened|MTF}"
+        ],
+        [
+          "8",
+          "1 {@creature githzerai anarch|mtf}, {@dice 1d4} {@creature githzerai enlightened|mtf}"
+        ]
+      ],
+      "name": "Githzerai Groups; Githzerai Special Allies",
+      "page": 98,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

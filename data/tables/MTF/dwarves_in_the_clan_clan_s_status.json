@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Clan's Status",
+      "colLabels": [
+        "d6",
+        "Status"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Prosperous. Clan occupies original stronghold, currently flourishing"
+        ],
+        [
+          "2",
+          "Growing. Stronghold expanding"
+        ],
+        [
+          "3",
+          "Declining. Clan population stagnant or decreasing"
+        ],
+        [
+          "4",
+          "Beleaguered. Victimized by goblinoid and dragon attacks, intact but severely weakened"
+        ],
+        [
+          "5",
+          "Scattered. Stronghold recently lost, many folk slain, survivors scattered"
+        ],
+        [
+          "6",
+          "Refugees. Stronghold lost, survivors occupy a neighborhood or ward in human city"
+        ]
+      ],
+      "name": "Dwarves in the Clan; Clan's Status",
+      "page": 82,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

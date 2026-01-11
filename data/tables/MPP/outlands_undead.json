@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Undead",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The characters find a trapped {@creature crawling claw}. Rather than attacking, the severed hand can lead the characters to the thankful immortal who lost it."
+        ],
+        [
+          "2",
+          "A {@creature banshee} influenced by {@book Acheron|MPP|0|Acheron} appears as a fallen knight-commander with a legion of {@creature Specter||specters}. Guardians of the gate-town of Rigus hire the characters to help banish the phantom army."
+        ],
+        [
+          "3",
+          "A {@creature lich} seeks to dominate the gate-town of Hopeless and see it dragged into Hades with himself as its ruler. Citizens of the gate-town entreat the characters to keep the gate-town hopeful enough that it doesn't fall into the Lower Plane."
+        ],
+        [
+          "4",
+          "Several confused {@creature ghost} {@book petitioners|MPP|0|Petitioners} have become lost. They seek someone to pass judgment on their lives and deliver them to the proper planes."
+        ]
+      ],
+      "name": "Outlands Undead",
+      "page": 15,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

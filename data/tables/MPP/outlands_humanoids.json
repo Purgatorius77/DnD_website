@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Humanoids",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The characters need to find a wandering {@creature priest} who alone knows the ritual necessary to open a specific portal."
+        ],
+        [
+          "2",
+          "Several gnome {@creature Mage||mages} seek help recovering their walking castle from a band of aggressive, spine-covered {@creature lizardfolk} influenced by {@book the Abyss|MPP|0|The Abyss}."
+        ],
+        [
+          "3",
+          "The characters stumble across a youthful or elderly {@creature commoner} who doesn't know how they came to be in the Outlands and who wants only to go home."
+        ],
+        [
+          "4",
+          "A {@creature bandit captain} and his gang seek the characters' help as they plan a heist in the realm of an immortal being, like the {@book Realm of the Norns|SatO|3|Realm of the Norns} or {@book Wonderhome|SatO|3|Wonderhome} (see {@book Sigil and the Outlands|SatO} for details on both locations)."
+        ]
+      ],
+      "name": "Outlands Humanoids",
+      "page": 14,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

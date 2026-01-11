@@ -1,0 +1,85 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Deity",
+        "Alignment",
+        "Province",
+        "Suggested Domains",
+        "Common Symbol"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-1 text-center",
+        "col-4",
+        "col-2",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "{@deity Arvoreen|halfling|mtf}",
+          "LG",
+          "Vigilance, war",
+          "War",
+          "Crossed short swords"
+        ],
+        [
+          "{@deity Brandobaris|halfling|mtf}",
+          "N",
+          "Adventure, thievery",
+          "Trickery",
+          "Halfling footprint"
+        ],
+        [
+          "{@deity Charmalaine|halfling|mtf}",
+          "N",
+          "Keen senses, luck",
+          "Trickery",
+          "Burning boot print"
+        ],
+        [
+          "{@deity Cyrrollalee|halfling|mtf}",
+          "LG",
+          "Hearth, home",
+          "Life",
+          "An open door"
+        ],
+        [
+          "{@deity Sheela Peryroyl|halfling|mtf}",
+          "NG",
+          "Agriculture, nature, weather",
+          "Nature, Tempest",
+          "A flower"
+        ],
+        [
+          "{@deity Urogalan|halfling|mtf}",
+          "LN",
+          "Earth, death",
+          "Death, Grave,* Knowledge",
+          "Silhouette of a dog's head"
+        ],
+        [
+          "{@deity Yondalla|halfling|mtf}",
+          "LG",
+          "Primary goddess of halflings",
+          "Life",
+          "Cornucopia"
+        ]
+      ],
+      "footnotes": [
+        "*Appears in {@book Xanathar's Guide to Everything|XGE}"
+      ],
+      "name": "Halfling Deities",
+      "page": 102,
+      "source": "MTF",
+      "chapter": {
+        "name": "Halflings and Gnomes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 4
+      }
+    }
+  ]
+}

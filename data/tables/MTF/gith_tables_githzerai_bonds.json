@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Githzerai Bonds",
+      "colLabels": [
+        "d4",
+        "Bond"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Zerthimon provides an example of conduct that I strive to duplicate."
+        ],
+        [
+          "2",
+          "Menyar-Ag hand-picked me for my duties, and I will never betray the trust he showed in me."
+        ],
+        [
+          "3",
+          "Vlaakith and her toadies will be defeated, if not by me then by those who follow in my footsteps."
+        ],
+        [
+          "4",
+          "I will not rest until the last elder brain is destroyed."
+        ]
+      ],
+      "name": "Gith Tables; Githzerai Bonds",
+      "page": 97,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

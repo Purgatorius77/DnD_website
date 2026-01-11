@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Duergar Group Leader",
+      "colLabels": [
+        "d6",
+        "Leader"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Duergar Stone Guard|MTF}"
+        ],
+        [
+          "2-4",
+          "{@creature Duergar Warlord|MTF}"
+        ],
+        [
+          "5-6",
+          "{@creature Duergar Despot|MTF}"
+        ]
+      ],
+      "name": "Duergar Raiding Parties; Duergar Group Leader",
+      "page": 83,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

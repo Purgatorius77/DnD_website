@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Race",
+        "Base Height",
+        "Base Weight",
+        "Height Modifier",
+        "Weight Modifier"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Githyanki",
+          "5'0\"",
+          "100 lb.",
+          "+{@dice 2d12}",
+          "×({@dice 2d4}) lb."
+        ],
+        [
+          "Githzerai",
+          "4'11\"",
+          "90 lb.",
+          "+{@dice 2d12}",
+          "×({@dice 1d4}) lb."
+        ]
+      ],
+      "name": "Gith Random Height and Weight",
+      "page": 96,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "table": [
+    {
+      "caption": "Layers and Rulers of the Nine Hells",
+      "colLabels": [
+        "Layer",
+        "Layer Name",
+        "Ruler"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-5",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "1",
+          "Avernus",
+          "{@creature Zariel|MTF}"
+        ],
+        [
+          "2",
+          "Dis",
+          "Dispater"
+        ],
+        [
+          "3",
+          "Minauros",
+          "Mammon"
+        ],
+        [
+          "4",
+          "Phlegethos",
+          "Belial and Fierna"
+        ],
+        [
+          "5",
+          "Stygia",
+          "Levistus"
+        ],
+        [
+          "6",
+          "Malbolge",
+          "Glasya"
+        ],
+        [
+          "7",
+          "Maladomini",
+          "Baalzebul"
+        ],
+        [
+          "8",
+          "Cania",
+          "Mephistopheles"
+        ],
+        [
+          "9",
+          "Nessus",
+          "Asmodeus"
+        ]
+      ],
+      "name": "Lords of the Nine; Layers and Rulers of the Nine Hells",
+      "page": 9,
+      "source": "MTF",
+      "chapter": {
+        "name": "The Blood War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Fey",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Revelers joined a group of {@creature Satyr||satyrs} in their festivities. As the satyrs' celebration has continued for over a year, the revelers seek the characters' help in extricating themselves without offending their hosts."
+        ],
+        [
+          "2",
+          "A kindly {@creature green hag} influenced by {@book Elysium|MPP|0|Elysium} invites passersby to join her for tea in her cottage made of sweets. She makes some of the best cookies in the Outlands."
+        ],
+        [
+          "3",
+          "A pack of {@creature Blink Dog||blink dogs} tracks a band of {@creature Maelephant|MPP|maelephants} (presented {@book later|MPP|1|Maelephant} in this book) to prevent them from spoiling lands influenced by the Upper Planes."
+        ],
+        [
+          "4",
+          "A gnarled {@creature dryad} influenced by {@book Carceri|MPP|0|Carceri} seeks to entrap creatures within the root-snarled, prison-like cavern beneath her grove."
+        ]
+      ],
+      "name": "Outlands Fey",
+      "page": 13,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

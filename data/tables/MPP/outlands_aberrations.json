@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Aberrations",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature aboleth} travels in a muck-filled, orbicular carriage, seeking to better understand the Outer Planes in preparation for a future world-domination scheme."
+        ],
+        [
+          "2",
+          "A {@creature beholder} influenced by {@book the Abyss|MPP|0|The Abyss} has compound eyes and looks like a floating, cyclopean fly head. It promises not to destroy the characters if they bring it a corpse it has never tasted before."
+        ],
+        [
+          "3",
+          "A dejected {@creature red slaad} wishes to be reunited with its {@creature slaad tadpole}, but it isn't certain where—or in what—it implanted its egg."
+        ],
+        [
+          "4",
+          "A hirsute, axe-wielding {@creature flumph} influenced by {@book Ysgard|MPP|0|Ysgard} quests across the land, seeking legendary beasts to slay and epic songs to sing."
+        ]
+      ],
+      "name": "Outlands Aberrations",
+      "page": 11,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

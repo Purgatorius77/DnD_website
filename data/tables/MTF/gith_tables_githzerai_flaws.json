@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Githzerai Flaws",
+      "colLabels": [
+        "d4",
+        "Flaw"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "I see githyanki machinations behind every threat."
+        ],
+        [
+          "2",
+          "I believe in the supremacy of the gith and that githzerai and githyanki will align to rule the multiverse."
+        ],
+        [
+          "3",
+          "I respond to even minor threats with overwhelming displays of force."
+        ],
+        [
+          "4",
+          "The next time I laugh will be the first. The sound of merriment takes me to the edge of violence."
+        ]
+      ],
+      "name": "Gith Tables; Githzerai Flaws",
+      "page": 97,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

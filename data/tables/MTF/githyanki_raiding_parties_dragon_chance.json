@@ -1,0 +1,36 @@
+{
+  "table": [
+    {
+      "caption": "Dragon Chance",
+      "colLabels": [
+        "d6",
+        "result"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-5",
+          "No dragons"
+        ],
+        [
+          "6",
+          "Roll on the encounter to determine the number"
+        ]
+      ],
+      "name": "Githyanki Raiding Parties; Dragon Chance",
+      "page": 98,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

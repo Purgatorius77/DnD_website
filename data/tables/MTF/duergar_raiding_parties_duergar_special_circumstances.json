@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Duergar Special Circumstances",
+      "colLabels": [
+        "d4",
+        "Circumstance"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Special hatred for dwarves, will attack them first"
+        ],
+        [
+          "2",
+          "Exiles, willing to bargain"
+        ],
+        [
+          "3",
+          "Laden with loot from raid, tries to flee"
+        ],
+        [
+          "4",
+          "Seeks to take hostages for ransom"
+        ]
+      ],
+      "name": "Duergar Raiding Parties; Duergar Special Circumstances",
+      "page": 83,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

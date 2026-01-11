@@ -1,0 +1,72 @@
+{
+  "table": [
+    {
+      "caption": "Ascendant Factions of Sigil",
+      "colLabels": [
+        "Name",
+        "Summary"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@creature Athar Null|MPP|Athar}",
+          "Claim the gods are frauds"
+        ],
+        [
+          "{@creature Bleak Cabal Void Soother|MPP|Bleak Cabal}",
+          "Find no sense in the multiverse"
+        ],
+        [
+          "{@creature Doomguard Doom Lord|MPP|Doomguard}",
+          "Celebrate destruction"
+        ],
+        [
+          "{@creature Doomguard Rot Blade|MPP|Fated}",
+          "Take all they can"
+        ],
+        [
+          "{@creature Fated Shaker|MPP|Fraternity of Order}",
+          "Discover laws to find truth"
+        ],
+        [
+          "{@creature Fraternity of Order Law Bender|MPP|Hands of Havoc}",
+          "Free society through chaos"
+        ],
+        [
+          "{@creature Hands of Havoc Fire Starter|MPP|Harmonium}",
+          "Enforce peace through might"
+        ],
+        [
+          "{@creature Harmonium Captain|MPP|Heralds of Dust}",
+          "Believe we're already dead"
+        ],
+        [
+          "{@creature Harmonium Peacekeeper|MPP|Mercykillers}",
+          "Bringers of merciless justice"
+        ],
+        [
+          "{@creature Heralds of Dust Remnant|MPP|Mind's Eye}",
+          "Seekers of godhood"
+        ],
+        [
+          "{@creature Mercykiller Bloodhound|MPP|Society of Sensation}",
+          "Find truth through experience"
+        ],
+        [
+          "{@creature Mind's Eye Matter Smith|MPP|Transcendent Order}",
+          "Act unfettered by thought"
+        ]
+      ],
+      "name": "Faction Agents; Ascendant Factions of Sigil",
+      "page": 53,
+      "source": "MPP",
+      "chapter": {
+        "name": "Bestiary A to Z",
+        "index": 1
+      }
+    }
+  ]
+}

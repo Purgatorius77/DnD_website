@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Cult Goals",
+      "colLabels": [
+        "d6",
+        "Goal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Political power, control over the local area"
+        ],
+        [
+          "2",
+          "The death of a hated enemy or rival"
+        ],
+        [
+          "3",
+          "Control of a guild or similar institution"
+        ],
+        [
+          "4",
+          "Recovery of an artifact or magic item that could prove useful in the Blood War"
+        ],
+        [
+          "5",
+          "Revenge for an insult, wrong, or past defeat"
+        ],
+        [
+          "6",
+          "Personal power and comfort for its leaders"
+        ]
+      ],
+      "name": "Fiendish Cults; Cult Goals",
+      "page": 34,
+      "source": "MTF",
+      "chapter": {
+        "name": "The Blood War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Beasts",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An awakened {@creature giant scorpion} owns a custom-made boat and runs a ferry business along a prominent river. It offers its services to characters in need."
+        ],
+        [
+          "2",
+          "A {@creature triceratops} influenced by {@book Mechanus|MPP|0|Mechanus} and composed of simple geometric shapes charges creatures that enter the angular canyons it inhabits. It moves only in straight lines and turns only at right angles."
+        ],
+        [
+          "3",
+          "{@creature Stirge||Stirges} drawn from countless worlds congregate in a tornado-sized, bloodsucking cloud that threatens a gate-town."
+        ],
+        [
+          "4",
+          "A desiccated {@creature giant frog} influenced by {@book Pandemonium|MPP|0|Pandemonium} screams whenever it opens its mouth. Its interior is even noisier."
+        ]
+      ],
+      "name": "Outlands Beasts",
+      "page": 11,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

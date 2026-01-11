@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Oozes",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A yugoloth arms dealer has captured a hundred {@creature Gray Ooze||gray oozes} and seeks to sell them in the gate-town of Rigus as a weapon capable of destroying Acheron's floating cubes. A rival hires the characters to steal and dispose of the oozes."
+        ],
+        [
+          "2",
+          "Within a {@creature gelatinous cube} influenced by {@book Gehenna|MPP|0|Gehenna} floats a gigantic fiendish skull. Numerous Fiends revere the cube and interpret depraved schemes and threatening orders from its quivering. A Celestial seeks aid in destroying the cube."
+        ],
+        [
+          "3",
+          "A bog in a region influenced by {@book Carceri|MPP|0|Carceri} is swamped with countless {@creature Black Pudding||black puddings}. The characters are hired to recover a lost relic from the bottom of the bog."
+        ],
+        [
+          "4",
+          "A chef in the gate-town of {@book Tradegate|SatO|3|Tradegate} wants the characters to retrieve royal jelly from a hive of giant bees (use the {@creature giant wasp} stat block). He doesn't note that the hive's honey takes the form of sweet-tasting {@creature Ochre Jelly||ochre jellies}."
+        ]
+      ],
+      "name": "Outlands Oozes",
+      "page": 14,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

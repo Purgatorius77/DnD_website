@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Dragons",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient gold dragon} disguised as a canary gives the characters a nonmagical item and offers them Bahamut's best wishes."
+        ],
+        [
+          "2",
+          "A lawful good {@creature Faerie Dragon (Violet)||faerie dragon} with wings like stained glass has been influenced by {@book Mount Celestia|MPP|0|Mount Celestia}. It seeks the characters' aid in recovering a stolen {@item holy avenger}."
+        ],
+        [
+          "3",
+          "A {@creature time dragon wyrmling|MPP} (presented later in this book) wants help constructing a magical structure that will be important in the future."
+        ],
+        [
+          "4",
+          "A neutral evil {@creature adult silver dragon} with dull, gray scales has been influenced by {@book Hades|MPP|0|Hades}. It demands a toll from any who crosses its domain."
+        ]
+      ],
+      "name": "Outlands Dragons",
+      "page": 12,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

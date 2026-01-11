@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Halfling Personality Traits",
+      "colLabels": [
+        "d6",
+        "Personality Trait"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "You try to start every day with a smile."
+        ],
+        [
+          "2",
+          "Why walk when you can skip?"
+        ],
+        [
+          "3",
+          "You make up songs about your friends that praise them for their bravery and intelligence."
+        ],
+        [
+          "4",
+          "You are extremely cautious, always on the lookout for monsters and other dangers."
+        ],
+        [
+          "5",
+          "You always see the bright side of a situation."
+        ],
+        [
+          "6",
+          "You like to collect mementos of your travels."
+        ]
+      ],
+      "name": "Halfling Tables; Halfling Personality Traits",
+      "page": 105,
+      "source": "MTF",
+      "chapter": {
+        "name": "Halflings and Gnomes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 4
+      }
+    }
+  ]
+}

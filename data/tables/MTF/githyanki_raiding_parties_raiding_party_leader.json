@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Raiding Party Leader",
+      "colLabels": [
+        "d6",
+        "Leader"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Githyanki Supreme Commander|MTF}"
+        ],
+        [
+          "2-3",
+          "{@creature Githyanki Knight}"
+        ],
+        [
+          "4-5",
+          "{@creature Githyanki Kith'rak|MTF}"
+        ],
+        [
+          "6",
+          "{@creature Githyanki Gish|MTF}"
+        ]
+      ],
+      "name": "Githyanki Raiding Parties; Raiding Party Leader",
+      "page": 98,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

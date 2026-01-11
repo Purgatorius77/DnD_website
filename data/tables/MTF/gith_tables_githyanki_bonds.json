@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Githyanki Bonds",
+      "colLabels": [
+        "d4",
+        "Bond"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "There is no greater duty than to serve the Revered Queen."
+        ],
+        [
+          "2",
+          "Humanity thrives only because we conquered the illithids. Therefore, what is theirs is ours."
+        ],
+        [
+          "3",
+          "Without battle, life has no purpose."
+        ],
+        [
+          "4",
+          "Life is but a spark in the dark. We all go dark, but those who dare can burn bright."
+        ]
+      ],
+      "name": "Gith Tables; Githyanki Bonds",
+      "page": 97,
+      "source": "MTF",
+      "chapter": {
+        "name": "Gith and Their Endless War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

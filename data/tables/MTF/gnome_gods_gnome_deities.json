@@ -1,0 +1,129 @@
+{
+  "table": [
+    {
+      "caption": "Gnome Deities",
+      "colLabels": [
+        "Deity",
+        "Alignment",
+        "Province",
+        "Suggested Domains",
+        "Common Symbol"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-1 text-center",
+        "col-2",
+        "col-2",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "{@deity Baervan Wildwanderer|gnome|mtf}",
+          "NG",
+          "Woodlands",
+          "Nature",
+          "Face of a raccoon"
+        ],
+        [
+          "{@deity Baravar Cloakshadow|gnome|mtf}",
+          "NG",
+          "Illusion, deception",
+          "Arcana,** Trickery",
+          "Dagger against a hooded cloak"
+        ],
+        [
+          "{@deity Bleredd|gnome|mtf}",
+          "N",
+          "Labor, craft",
+          "Forge,* Light",
+          "Iron mule"
+        ],
+        [
+          "{@deity Callarduran Smoothhands|gnome|mtf}",
+          "N",
+          "Mining, stone carving",
+          "Knowledge, Nature",
+          "Golden signet ring with six pointed star"
+        ],
+        [
+          "{@deity Flandal Steelskin|gnome|mtf}",
+          "NG",
+          "Metalwork Forge,*",
+          "Knowledge",
+          "Flaming hammer"
+        ],
+        [
+          "{@deity Gaerdal Ironhand|gnome|mtf}",
+          "LG",
+          "Protection",
+          "War",
+          "Iron band"
+        ],
+        [
+          "{@deity Garl Glittergold|gnome|mtf}",
+          "LG",
+          "Primary god of gnomes",
+          "Trickery",
+          "Gold nugget"
+        ],
+        [
+          "{@deity Gelf Darkhearth|gnome|mtf}",
+          "CN",
+          "Frustration, destruction",
+          "War",
+          "Broken anvil"
+        ],
+        [
+          "{@deity Nebelun|gnome|mtf}",
+          "CG",
+          "Invention, luck",
+          "Forge,* Knowledge, Trickery",
+          "Bellows and lizard tail"
+        ],
+        [
+          "{@deity Rill Cleverthrush|gnome|mtf}",
+          "LN",
+          "Law, thought",
+          "Knowledge",
+          "Interlocking gears"
+        ],
+        [
+          "{@deity Segojan Earthcaller|gnome|mtf}",
+          "NG",
+          "Earth, the dead",
+          "Grave,* Light",
+          "Glowing gemstone"
+        ],
+        [
+          "{@deity Sheyanna Flaxenstrand|gnome|mtf}",
+          "CG",
+          "Love, beauty, passion",
+          "Light",
+          "Two silver goblets"
+        ],
+        [
+          "{@deity Urdlen|gnome|mtf}",
+          "CE",
+          "Greed, murder",
+          "Death, War",
+          "Whiteclawed mole emerging from ground"
+        ]
+      ],
+      "footnotes": [
+        "*Appears in {@i Xanathar's Guide to Everything}",
+        "**Appears in {@i Sword Coast Adventurer's Guide}"
+      ],
+      "name": "Gnome Gods; Gnome Deities",
+      "page": 110,
+      "source": "MTF",
+      "chapter": {
+        "name": "Halflings and Gnomes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 4
+      }
+    }
+  ]
+}

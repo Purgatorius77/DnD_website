@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Outlands Celestials",
+      "colLabels": [
+        "d4",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature empyrean} calls for aid in taking back a corner of the Outlands overrun by demons."
+        ],
+        [
+          "2",
+          "Wearing grim armor and displaying a rust-colored horn, a {@creature unicorn} influenced by {@book Acheron|MPP|0|Acheron} challenges all it encounters to mortal combat."
+        ],
+        [
+          "3",
+          "A fallen {@creature deva}, now neutral aligned, is on permanent vacation. The mellow angel is a font of multiversal secrets, but it shares them only with strangers who prove themselves more relaxed than it."
+        ],
+        [
+          "4",
+          "A {@creature couatl} influenced by {@book Limbo|MPP|0|Limbo} has color-changing wings and insists passersby convince it that they're worthy of existing. If the couatl isn't convinced, it has a 50 percent chance of either attacking or wandering off."
+        ]
+      ],
+      "name": "Outlands Celestials",
+      "page": 11,
+      "source": "MPP",
+      "chapter": {
+        "name": "Introduction: Multiversal Menagerie",
+        "index": 0
+      }
+    }
+  ]
+}

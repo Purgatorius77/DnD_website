@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Special Allies",
+      "colLabels": [
+        "d8",
+        "Ally"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "Dwarf Acolytes"
+        ],
+        [
+          "5",
+          "Earth Elementals"
+        ],
+        [
+          "6",
+          "Trained Griffons"
+        ],
+        [
+          "7",
+          "Azers"
+        ],
+        [
+          "8",
+          "Dwarf Mage"
+        ]
+      ],
+      "name": "Dwarves on the Move; Special Allies",
+      "page": 81,
+      "source": "MTF",
+      "chapter": {
+        "name": "Dwarves and Duergar",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}
