@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient White Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature death knight} and an {@creature ancient white dragon} swap tales of old foes and unanswered grievances, nursing the hunger for vengeance that sustains them."
+        ],
+        [
+          "2",
+          "An {@creature ancient white dragon} makes intermittent assaults against a mated pair of {@creature Adult Silver Dragon||adult silver dragons} who lair nearby."
+        ],
+        [
+          "3",
+          "An {@creature ancient white dragon} guards a {@creature Lich||lich's} phylactery, keeping it sealed in a tomb of ice. The lich visits periodically, bearing fabulous treasures as payment."
+        ],
+        [
+          "4",
+          "A community of orcs believe an {@creature ancient white dragon} to be the reincarnation of a legendary leader. They've been venerating the dragon so long that the dragon now believes the story and speaks proudly in Orc about the orcs' triumphs."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient White Dragon Connections",
+      "page": 154,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

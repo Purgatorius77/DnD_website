@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Topaz Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient topaz dragon|FTD} has decided to set local {@creature ogre} and bandit clans against one another, hoping they wipe each other out."
+        ],
+        [
+          "2",
+          "An {@creature adult bronze dragon} has ignored the petitions of townsfolk to deal with an {@creature ancient topaz dragon|FTD} killing livestock and farmers alike. But now the topaz dragon has killed the bronze dragon's child."
+        ],
+        [
+          "3",
+          "An {@creature Ancient Topaz Dragon|FTD|ancient topaz dragon's} lair contains a portal to the Elemental Chaos."
+        ],
+        [
+          "4",
+          "An {@creature ancient bronze dragon} and an {@creature ancient topaz dragon|FTD} are locked in an ongoing conflict that threatens shipping and caravans around a major city."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Topaz Dragon Connections",
+      "page": 149,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

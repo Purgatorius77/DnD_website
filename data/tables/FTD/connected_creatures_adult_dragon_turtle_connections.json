@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Dragon Turtle Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature adult bronze dragon} has befriended an {@creature Dragon Turtle||adult dragon turtle} and is trying to convince the dragon turtle to help fight off an invading navy."
+        ],
+        [
+          "2",
+          "A {@creature marid} and an {@creature Dragon Turtle||adult dragon turtle} are traveling companions, touring oceans across the multiverse."
+        ],
+        [
+          "3",
+          "{@creature Shambling Mound||Shambling mounds} grow like an infestation on an {@creature Dragon Turtle||adult dragon turtle's} shell and spread wherever the dragon turtle travels."
+        ],
+        [
+          "4",
+          "An {@creature archmage} is helping an {@creature Dragon Turtle||adult dragon turtle} write a definitive history of the deep."
+        ],
+        [
+          "5",
+          "An {@creature Dragon Turtle||adult dragon turtle} serves as a mount for the {@creature storm giant} who saved the dragon turtle's life."
+        ],
+        [
+          "6",
+          "An {@creature Dragon Turtle||adult dragon turtle} hunts an aquatic {@creature purple worm} that has been hollowing out the reef where the dragon turtle dwells."
+        ],
+        [
+          "7",
+          "An {@creature Dragon Turtle||adult dragon turtle} has awoken from a decades-long nap to discover that halflings have unwittingly built a seaside tavern upon the dragon turtle's back."
+        ],
+        [
+          "8",
+          "An {@creature ultroloth} works with an {@creature Dragon Turtle||adult dragon turtle} living in the River Styx, using magic to protect the dragon turtle from the river's effects and charging travelers for safe passage to the other side."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Dragon Turtle Connections",
+      "page": 111,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

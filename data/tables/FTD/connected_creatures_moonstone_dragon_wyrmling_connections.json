@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Moonstone Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An abandoned {@creature moonstone dragon wyrmling|FTD} is being raised by a family of {@creature Faerie Dragon (Violet)||faerie dragons}, who eagerly encourage the wyrmling's mischievous habits."
+        ],
+        [
+          "2",
+          "A {@creature moonstone dragon wyrmling|FTD} searches for whoever made the dragon's friend—a suit of {@creature animated armor} able to make witty, if limited, conversation."
+        ],
+        [
+          "3",
+          "A {@creature moonstone dragon wyrmling|FTD} has convinced a lost {@creature white dragon wyrmling} that the latter is also a moonstone dragon, cursed by an archfey of winter. The two travel together, causing trouble in the name of lifting the \"curse.\""
+        ],
+        [
+          "4",
+          "{@creature Ettercap||Ettercaps} captured a {@creature moonstone dragon wyrmling|FTD}, who has so far avoided becoming dinner by teaching the ettercaps to create wild, impossible sculptures with their webs."
+        ],
+        [
+          "5",
+          "A {@creature moonstone dragon wyrmling|FTD} torments a group of lost modrons by tricking them into performing chaotic acts."
+        ],
+        [
+          "6",
+          "A {@creature moonstone dragon wyrmling|FTD} has volunteered to be a spy in a conflict between a group of {@creature Pixie||pixies} and a group of {@creature Quickling|VGM|quicklings}. Both sides believe the wyrmling is working exclusively for them."
+        ]
+      ],
+      "name": "Connected Creatures; Moonstone Dragon Wyrmling Connections",
+      "page": 131,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

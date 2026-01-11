@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Deep Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ogre} has acquired a {@creature deep dragon wyrmling|FTD} as a pet, ignoring the fact that the dragon is an intelligent creature who will grow extremely large."
+        ],
+        [
+          "2",
+          "An inquisitive {@creature deep dragon wyrmling|FTD} has made it to the surface world. Lost and confused, the wyrmling has been captured by a group of cruel adventurers."
+        ],
+        [
+          "3",
+          "A {@creature deep dragon wyrmling|FTD} whimsically rules over a worshipful group of kobolds, sending them to the surface to fetch delicacies the wyrmling craves."
+        ],
+        [
+          "4",
+          "An exclusive auction in an enclave of Lolth-worshipers features a deep dragon egg just about to hatch."
+        ],
+        [
+          "5",
+          "A {@creature deep dragon wyrmling|FTD} with an experimental bent has created a \"garden\" of {@creature Gray Ooze||gray oozes}."
+        ],
+        [
+          "6",
+          "An orphaned {@creature deep dragon wyrmling|FTD} is cared for by a {@creature giant constrictor snake} that is the recipient of a druid's {@spell awaken} spell."
+        ]
+      ],
+      "name": "Connected Creatures; Deep Dragon Wyrmling Connections",
+      "page": 108,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Silver Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature silver dragon wyrmling} is raised by {@creature Giant Eagle||giant eagles} who have lost their own clutch of eggs."
+        ],
+        [
+          "2",
+          "A {@creature silver dragon wyrmling} becomes the mascot and would-be protector of a group of refugee {@creature aarakocra}."
+        ],
+        [
+          "3",
+          "A {@creature silver dragon wyrmling} practices precocious shape-shifting abilities among a colony of {@creature Kobold||kobolds}."
+        ],
+        [
+          "4",
+          "A {@creature hell hound} watches over a {@creature silver dragon wyrmling} in the name of its master—a {@creature lich} hoping to corrupt the dragon when the dragon is older."
+        ],
+        [
+          "5",
+          "A {@creature silver dragon wyrmling} besieges a pack of {@creature Pseudodragon||pseudodragons}, intent on teaching them poetry."
+        ],
+        [
+          "6",
+          "{@creature Ogre||Ogres} keep a young {@creature silver dragon wyrmling} as a pet, and the dragon has become dedicated to changing the ogres' nefarious ways."
+        ]
+      ],
+      "name": "Connected Creatures; Silver Dragon Wyrmling Connections",
+      "page": 146,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

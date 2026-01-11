@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Sapphire Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient sapphire dragon|FTD} has called a conclave of ancient gem dragons to discuss how they might reunite and restore Sardior, the Ruby Dragon."
+        ],
+        [
+          "2",
+          "A horde of {@creature Revenant||revenants} led by a {@creature death knight} has one goal—destroying the {@creature ancient sapphire dragon|FTD} who defeated their army in battle centuries ago."
+        ],
+        [
+          "3",
+          "An {@creature ancient sapphire dragon|FTD} guards the phylactery of a {@creature lich} who helped the dragon establish a lair centuries before becoming Undead."
+        ],
+        [
+          "4",
+          "Lolth the Spider Queen has declared war on an {@creature ancient sapphire dragon|FTD} who has annexed the heart of her cult's Underdark territory."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Sapphire Dragon Connections",
+      "page": 139,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

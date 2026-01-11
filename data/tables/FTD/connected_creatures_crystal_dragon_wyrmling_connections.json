@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Crystal Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature crystal dragon wyrmling|FTD} rides a sled pulled by a trained pack of {@creature Wolf||wolves} and frets about outgrowing this favorite pastime."
+        ],
+        [
+          "2",
+          "A {@creature crystal dragon wyrmling|FTD} has foreseen an untimely end for the {@creature Bandit||bandits} who raided the wyrmling's lair and follows the bandits to keep them safe."
+        ],
+        [
+          "3",
+          "A {@creature crystal dragon wyrmling|FTD} has befriended a {@creature white dragon wyrmling}. The wyrmlings' parents, who are ancient rivals, regard the relationship with concern."
+        ],
+        [
+          "4",
+          "A {@creature crystal dragon wyrmling|FTD} encourages nearby farmers to go on dangerous excursions so they'll return with interesting stories to tell the dragon."
+        ],
+        [
+          "5",
+          "A {@creature crystal dragon wyrmling|FTD} finds {@creature Ice Mephit||ice mephits} to be the perfect household servants—if only they would stop trying to kill the dragon's guests."
+        ],
+        [
+          "6",
+          "A {@creature crystal dragon wyrmling|FTD} is placed in a monastery to learn the teachings of the monks before returning home in three years. The monks don't appreciate the wyrmling's pranks."
+        ]
+      ],
+      "name": "Connected Creatures; Crystal Dragon Wyrmling Connections",
+      "page": 104,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

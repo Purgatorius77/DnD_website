@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Red Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature fire giant} lord has captured a {@creature red dragon wyrmling} and is looking to train the willful creature as a pet."
+        ],
+        [
+          "2",
+          "A {@creature red dragon wyrmling} adopted a nest of {@creature Fire Snake||fire snakes}, which have now grown into {@creature Salamander||salamanders} who protect the wyrmling."
+        ],
+        [
+          "3",
+          "A band of {@creature Kobold||kobolds} was driven out of its warren by a {@creature red dragon wyrmling}; they now raid to survive—and to gather offerings to propitiate \"the winged god.\""
+        ],
+        [
+          "4",
+          "A tiefling child has secretly hidden and raised a {@creature red dragon wyrmling} from an egg. The wyrmling is bonded to the child, but dangerous to anyone else."
+        ],
+        [
+          "5",
+          "A bound {@creature fire elemental} serves as the guardian of an orphaned {@creature red dragon wyrmling}."
+        ],
+        [
+          "6",
+          "A band of {@creature Hobgoblin||hobgoblins} is thrown into chaos when a {@creature red dragon wyrmling} supports a coup by an ambitious war leader, in exchange for tribute."
+        ]
+      ],
+      "name": "Connected Creatures; Red Dragon Wyrmling Connections",
+      "page": 134,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

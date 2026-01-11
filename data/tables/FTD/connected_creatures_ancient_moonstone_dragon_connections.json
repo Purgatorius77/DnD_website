@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Moonstone Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient moonstone dragon|FTD} and an {@creature ancient green dragon} vie for supremacy in a primeval forest."
+        ],
+        [
+          "2",
+          "An {@creature ancient moonstone dragon|FTD} has partnered with an {@creature androsphinx} to guard a precious treasure, taking the place of the sphinx's slain {@creature gynosphinx} partner."
+        ],
+        [
+          "3",
+          "An {@creature ancient moonstone dragon|FTD} is summoned to mediate a centuries-old conflict between fey courts."
+        ],
+        [
+          "4",
+          "An {@creature Ancient Moonstone Dragon|FTD|ancient moonstone dragon's} sibling, imprisoned for centuries in the Shadowfell, has finally returned home as a shadow dragon."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Moonstone Dragon Connections",
+      "page": 131,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

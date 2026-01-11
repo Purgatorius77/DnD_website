@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Dragon Turtle Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient dragon turtle|FTD} and an {@creature ancient gold dragon} meet once a year to trade moves in a game of dragonchess that has been going on for centuries."
+        ],
+        [
+          "2",
+          "An {@creature ancient dragon turtle|FTD} serves as counsel to an {@creature empyrean} court, tempering the Celestials' passions with the dragon turtle's endless patience."
+        ],
+        [
+          "3",
+          "A {@spell geas} spell forces an {@creature ancient dragon turtle|FTD} to carry a {@creature Lich||lich's} tower."
+        ],
+        [
+          "4",
+          "An {@creature ancient dragon turtle|FTD} is responsible for ensuring that a {@creature kraken} is never woken from its slumber."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Dragon Turtle Connections",
+      "page": 111,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

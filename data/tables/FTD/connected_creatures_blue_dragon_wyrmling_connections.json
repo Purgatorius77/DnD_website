@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Blue Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A recently hatched brood of {@creature Blue Dragon Wyrmling||blue dragon wyrmlings} has adopted a wounded {@creature pseudodragon} as a sibling."
+        ],
+        [
+          "2",
+          "A {@creature blue dragon wyrmling} frequently wanders off to a nearby city, where the residents treat the wyrmling as royalty."
+        ],
+        [
+          "3",
+          "A clan of druids has taken in an orphaned {@creature blue dragon wyrmling}, and its members are trying to teach the creature the value of compassion."
+        ],
+        [
+          "4",
+          "A family of gnolls is holding a {@creature blue dragon wyrmling} hostage in an attempt to force the wyrmling's parents to leave the gnolls' hunting grounds."
+        ],
+        [
+          "5",
+          "Because of the friendship between a bandit leader's child and a {@creature blue dragon wyrmling}, the wyrmling's parents are considering allowing the bandits to move into the dragons' territory."
+        ],
+        [
+          "6",
+          "The accidental death of a {@creature blue dragon wyrmling} has caused a sibling to seek revenge."
+        ]
+      ],
+      "name": "Connected Creatures; Blue Dragon Wyrmling Connections",
+      "page": 86,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

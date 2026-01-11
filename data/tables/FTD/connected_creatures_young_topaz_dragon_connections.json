@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Topaz Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature young topaz dragon|FTD} engages in repeated aerial battles with a young {@creature gynosphinx} to determine territory. Both of them are secretly starting to enjoy the bouts."
+        ],
+        [
+          "2",
+          "A {@creature young topaz dragon|FTD} found and ate a dead {@creature sahuagin} on the beach, unwittingly incurring the wrath of the sahuagin's community."
+        ],
+        [
+          "3",
+          "A flock of {@creature Harpy||harpies} enjoy taunting a {@creature young topaz dragon|FTD} who has moved into their territory. The dragon adds a feather to a necklace for each harpy slain."
+        ],
+        [
+          "4",
+          "A curious {@creature water elemental} supplies a {@creature young topaz dragon|FTD} with aquatic delicacies so as to learn more about the dragon."
+        ],
+        [
+          "5",
+          "A {@creature young topaz dragon|FTD} continually attempts to steal eggs from a {@creature roc} nest, despite having nearly been killed by the roc parents multiple times."
+        ],
+        [
+          "6",
+          "A clan of {@creature Winged Kobold||winged kobolds} consider a {@creature young topaz dragon|FTD} their monarch, despite the dragon's complete lack of interest and growing annoyance toward them."
+        ]
+      ],
+      "name": "Connected Creatures; Young Topaz Dragon Connections",
+      "page": 149,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

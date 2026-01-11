@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Amethyst Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A myconid community dwells in tunnels near a {@creature Young Amethyst Dragon|FTD|young amethyst dragon's} lair, and its members telepathically commune with the dragon and any visitors in the lair from time to time."
+        ],
+        [
+          "2",
+          "A {@creature young amethyst dragon|FTD} and a {@creature githzerai zerth} travel together, learning about the multiverse."
+        ],
+        [
+          "3",
+          "A {@creature young amethyst dragon|FTD} wants to take over the cavern lair of a {@creature hydra}."
+        ],
+        [
+          "4",
+          "A deep pool in a {@creature Young Amethyst Dragon|FTD|young amethyst dragon's} lair leads to the underground domain of an {@creature aboleth} the dragon has been seeking to eliminate."
+        ],
+        [
+          "5",
+          "A {@creature young amethyst dragon|FTD} and a {@creature cloud giant} regularly host each other to play strategy games."
+        ],
+        [
+          "6",
+          "{@creature Pegasus||Pegasi} nesting in the mountain heights are under the protection of a {@creature young amethyst dragon|FTD}."
+        ]
+      ],
+      "name": "Connected Creatures; Young Amethyst Dragon Connections",
+      "page": 77,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

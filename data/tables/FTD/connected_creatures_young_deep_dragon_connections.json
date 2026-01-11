@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Deep Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature young deep dragon|FTD} has captured a number of {@creature kuo-toa} and has decided to try them out as servants instead of eating them."
+        ],
+        [
+          "2",
+          "A {@creature young deep dragon|FTD} maintains the guise of a handsome Humanoid artist so as to maintain an adoring cult of drow and duergar admirers."
+        ],
+        [
+          "3",
+          "A rather snooty {@creature Bone Naga (Spirit)||bone naga} serves as a {@creature Young Deep Dragon|FTD|young deep dragon's} loyal butler, as it did for the dragon's parent."
+        ],
+        [
+          "4",
+          "A {@creature young deep dragon|FTD} has organized a society of hobgoblin explorers, whose members seek out new places in the Underdark for the dragon to visit."
+        ],
+        [
+          "5",
+          "A {@creature doppelganger} mimics a {@creature Young Deep Dragon|FTD|young deep dragon's} Humanoid form while committing a string of murders, hoping to turn local Underdark settlements against the dragon."
+        ],
+        [
+          "6",
+          "Despite repeated {@creature mind flayer} attacks, a {@creature young deep dragon|FTD} refuses to leave the cave where the dragon's best friend—an adventurer who won the dragon's respect and affection—lingers as a {@creature ghost}."
+        ]
+      ],
+      "name": "Connected Creatures; Young Deep Dragon Connections",
+      "page": 108,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

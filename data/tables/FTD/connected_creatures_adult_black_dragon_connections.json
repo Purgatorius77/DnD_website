@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Black Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature adult black dragon} has learned to domesticate swamp-bred {@creature Chimera||chimeras} as guardians and has sold a few of the creatures to local warlords."
+        ],
+        [
+          "2",
+          "A cult of assassins worships an {@creature adult black dragon} as an avatar of their deity. The dragon now uses the cult to destabilize the local sovereign's rule."
+        ],
+        [
+          "3",
+          "Ruins rumored to hold the treasury of a lost empire are guarded by an elaborate network of ooze-based traps designed by a restless {@creature adult black dragon}."
+        ],
+        [
+          "4",
+          "The appearance of a {@creature spirit naga} in the domain of an {@creature adult black dragon} encourages the dragon to study necromancy."
+        ],
+        [
+          "5",
+          "An {@creature adult black dragon} has hidden a cache of gems in a dismal topiary maze filled with {@creature Shambling Mound||shambling mounds}, traps, and noxious plant life, all for the amusement of testing adventurers."
+        ],
+        [
+          "6",
+          "An {@creature adult black dragon} has bound {@creature Water Elemental||water elementals} to the task of bringing food to the dragon's lair."
+        ],
+        [
+          "7",
+          "A bullywug community seeks help to defeat an {@creature adult black dragon} who has been feasting on the bullywugs' domesticated {@creature Giant Frog||giant frogs}."
+        ],
+        [
+          "8",
+          "Two nations—one led by an {@creature adult black dragon} and the other by a {@creature yuan-ti abomination}—are on the brink of joining forces to destroy a third nation. The threatened nation is recruiting adventurers to defend it."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Black Dragon Connections",
+      "page": 81,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

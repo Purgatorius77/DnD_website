@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Emerald Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient emerald dragon|FTD} bargains with a {@creature pit fiend} to buy back the soul of a legendary hero."
+        ],
+        [
+          "2",
+          "A group of {@creature Adult Red Dragon||adult red} and {@creature Adult Silver Dragon||silver} dragons set aside their differences to learn wisdom from an {@creature ancient emerald dragon|FTD}."
+        ],
+        [
+          "3",
+          "Two {@creature Balor||balors} act as jailers for an {@creature ancient emerald dragon|FTD} imprisoned by a long-dead enemy."
+        ],
+        [
+          "4",
+          "An {@creature ancient emerald dragon|FTD} works to summon a {@creature solar} to get a firsthand account for a history of the gods the dragon is compiling."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Emerald Dragon Connections",
+      "page": 114,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

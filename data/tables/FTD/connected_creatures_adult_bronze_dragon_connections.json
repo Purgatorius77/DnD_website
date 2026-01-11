@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Bronze Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature rakshasa} disguised as a pirate lord seeks revenge on the {@creature adult bronze dragon} who has killed the Fiend three times so far."
+        ],
+        [
+          "2",
+          "An {@creature adult bronze dragon} regularly consults a {@creature storm giant} whose prophecies give hints as to which conflicts the dragon should seek out and engage in."
+        ],
+        [
+          "3",
+          "An {@creature adult bronze dragon} keeps a {@creature roc} as a beloved pet and views the creature's predations on local settlements as simply part of the natural order."
+        ],
+        [
+          "4",
+          "An {@creature adult bronze dragon} swore an oath to a comrade who later became a {@creature vampire}. The dragon reluctantly continues to protect the vampire, all the while searching for a way to reverse the transformation."
+        ],
+        [
+          "5",
+          "An {@creature adult bronze dragon} sends regular tributes of treasure to an {@creature adult topaz dragon|FTD}, not wanting the topaz dragon's enmity to become a threat to coastal communities under the bronze dragon's protection."
+        ],
+        [
+          "6",
+          "An {@creature archmage} and an {@creature adult bronze dragon} who have been friends since they fought together in the mage's youth often visit each other to share stories."
+        ],
+        [
+          "7",
+          "An {@creature adult bronze dragon} attempting to raise a clutch of wyrmlings alone is in desperate need of tutors and babysitters who can survive the assignment."
+        ],
+        [
+          "8",
+          "An obsessed shadow dragon plots to trap an {@creature adult bronze dragon} in the Shadowfell until the bronze dragon too is transformed."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Bronze Dragon Connections",
+      "page": 95,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

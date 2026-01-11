@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Red Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature specter} is bound as the guardian of a {@creature Young Red Dragon||young red dragon's} treasure hoard."
+        ],
+        [
+          "2",
+          "A {@creature Young Red Dragon||young red dragon's} new lair spawns {@creature Magma Mephit||magma mephits} and {@creature Smoke Mephit||smoke mephits}, which escape into the surrounding countryside and cause mischief."
+        ],
+        [
+          "3",
+          "A {@creature young red dragon} serves as the guardian of a githyanki creche, hoping to eventually earn the allegiance of the young githyanki raised there."
+        ],
+        [
+          "4",
+          "{@creature Ogre||Ogres} and {@creature Ettin||ettins} cowed by a {@creature young red dragon} wander the foothills near the dragon's lair, helping to drive away intruders."
+        ],
+        [
+          "5",
+          "A colony of {@creature Mind Flayer||mind flayers} has captured and controlled a {@creature young red dragon}, which now guards the passages to the illithids' underground lair."
+        ],
+        [
+          "6",
+          "A parent of a {@creature young red dragon} has become a dracolich, and the dragon wishes to see the Undead abomination destroyed."
+        ]
+      ],
+      "name": "Connected Creatures; Young Red Dragon Connections",
+      "page": 134,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

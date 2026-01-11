@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Emerald Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature adult emerald dragon|FTD} wages a constant battle against deep gnome miners, who scour the tunnels of the dragon's lair in search of emeralds."
+        ],
+        [
+          "2",
+          "An {@creature adult silver dragon} tries to befriend and draw out a reclusive {@creature adult emerald dragon|FTD}."
+        ],
+        [
+          "3",
+          "An {@creature adult emerald dragon|FTD} unwillingly serves a {@creature fire giant} tribe holding the dragon's egg hostage."
+        ],
+        [
+          "4",
+          "An {@creature adult emerald dragon|FTD} is fascinated by the intrigues of a {@creature rakshasa} disguised as a human merchant prince."
+        ],
+        [
+          "5",
+          "An {@creature adult emerald dragon|FTD} shows an {@creature emerald dragon wyrmling|FTD} how to safely observe Humanoids without being detected."
+        ],
+        [
+          "6",
+          "An {@creature adult emerald dragon|FTD} keeps a wary eye on the {@creature Efreeti||efreet} who have built a tower near the dragon's lair, and indirectly aids any who oppose the efreet."
+        ],
+        [
+          "7",
+          "An {@creature iron golem} ferries visitors across the lava moat surrounding an {@creature Adult Emerald Dragon|FTD|adult emerald dragon's} lair."
+        ],
+        [
+          "8",
+          "An {@creature adult emerald dragon|FTD} spies on the {@creature adult red dragon} who killed the emerald dragon's mate, looking for weaknesses."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Emerald Dragon Connections",
+      "page": 114,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

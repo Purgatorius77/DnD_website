@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Topaz Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature adult topaz dragon|FTD} vies with a {@creature storm giant} over territory. The giant keeps live seafood in a tide pool, and the dragon keeps drying out the pool in an effort to drive the giant away."
+        ],
+        [
+          "2",
+          "An {@creature adult topaz dragon|FTD} and an {@creature adult bronze dragon} are finding their centuries-old enmity turning into a more romantic passion."
+        ],
+        [
+          "3",
+          "A {@creature djinni} hopes to convince a topaz dragon to tolerate the djinni's presence by driving off a clan of {@creature Cyclops||cyclopes} harassing the dragon."
+        ],
+        [
+          "4",
+          "Reunited after years apart, an {@creature adult topaz dragon|FTD} parent and young dragon child realize they enjoy hunting together."
+        ],
+        [
+          "5",
+          "A tempestuous {@creature marid} continually floods the carefully dried-out lair of a topaz dragon."
+        ],
+        [
+          "6",
+          "A {@creature sahuagin baron} attempts to gain the support of other sahuagin for driving away a topaz dragon attempting to claim the sea devils' territory."
+        ],
+        [
+          "7",
+          "A pirate captain tells stories of an {@creature Adult Topaz Dragon|FTD|adult topaz dragon's} legendary hoard while attempting to gather a crew to raid the dragon's lair."
+        ],
+        [
+          "8",
+          "A ship wrecks near an {@creature Adult Topaz Dragon|FTD|adult topaz dragon's} lair. The dragon claims what's left of the cargo and tries to ransom the survivors (including the dragonborn ship captain) back to the city they came from."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Topaz Dragon Connections",
+      "page": 149,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

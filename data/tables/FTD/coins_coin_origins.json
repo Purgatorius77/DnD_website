@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Coin Origins",
+      "colLabels": [
+        "d10",
+        "Origin"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Equivalent value in {@book trade goods|PHB|5|Trade Goods} (see the {@book Player's Handbook|PHB}) rather than coins"
+        ],
+        [
+          "2–3",
+          "Coins from an ancient culture local to this region, ancestral to the people who live here now"
+        ],
+        [
+          "4–5",
+          "Coins from an ancient culture in a distant region"
+        ],
+        [
+          "6–7",
+          "Coins from a nearby contemporary culture"
+        ],
+        [
+          "8–9",
+          "Coins from a local contemporary culture"
+        ],
+        [
+          "10",
+          "Coins from another world"
+        ]
+      ],
+      "name": "Coins; Coin Origins",
+      "page": 70,
+      "source": "FTD",
+      "chapter": {
+        "name": "Lairs and Hoards",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

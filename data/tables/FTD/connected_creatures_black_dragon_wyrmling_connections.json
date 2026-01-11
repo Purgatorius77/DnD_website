@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Black Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "After breaking free from captivity at the hands of a cocky mage, a cunning {@creature black dragon wyrmling} claimed the mage's amulet—and the suits of {@creature animated armor} the amulet controls."
+        ],
+        [
+          "2",
+          "A band of {@creature Troglodyte||troglodytes} is cowed into serving a {@creature black dragon wyrmling} as bodyguards."
+        ],
+        [
+          "3",
+          "The recent appearance of a {@creature black dragon wyrmling} has altered the local ecosystem, allowing various types of blights to spread prodigiously and upset nature's balance."
+        ],
+        [
+          "4",
+          "A {@creature black dragon wyrmling} is setting cunning traps along local roadways, hoping to injure horses and draft animals for easy butchering."
+        ],
+        [
+          "5",
+          "Kobolds dwelling under a tropical city serve as safecrackers and tunneling burglars to amass treasure for their beloved {@creature black dragon wyrmling} master."
+        ],
+        [
+          "6",
+          "A gnome relic hunter looting a long-abandoned city strikes up an unlikely partnership with a {@creature black dragon wyrmling} to plunder an archaeological dig."
+        ]
+      ],
+      "name": "Connected Creatures; Black Dragon Wyrmling Connections",
+      "page": 81,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

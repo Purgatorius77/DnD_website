@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Silver Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature adult silver dragon} watches over a flock of rare {@creature Goat||goats}, but a group of {@creature Storm Giant||storm giants} covet their wool."
+        ],
+        [
+          "2",
+          "An {@creature adult silver dragon} and a {@creature vampire} write books of philosophy arguing with each other's works."
+        ],
+        [
+          "3",
+          "An {@creature adult red dragon} killed a group of adventurers that an {@creature adult silver dragon} had befriended, and the silver dragon now seeks revenge."
+        ],
+        [
+          "4",
+          "In making a new lair, an {@creature adult silver dragon} destroyed the home of some {@creature galeb duhr}, and the dragon now seeks help to restore the site for them."
+        ],
+        [
+          "5",
+          "A number of {@creature Adult Silver Dragon||adult silver dragons} all pretend to be painters and vie for the commission to paint the ceiling of a huge cathedral."
+        ],
+        [
+          "6",
+          "An {@creature adult silver dragon} leads a group of warriors, changing identities every generation."
+        ],
+        [
+          "7",
+          "Having lost their own offspring, two {@creature Adult Silver Dragon||adult silver dragons} raise a clutch of {@creature Wyvern||wyverns}."
+        ],
+        [
+          "8",
+          "A solitary {@creature adult silver dragon} domesticates {@creature Roc||rocs} as an amusement."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Silver Dragon Connections",
+      "page": 146,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

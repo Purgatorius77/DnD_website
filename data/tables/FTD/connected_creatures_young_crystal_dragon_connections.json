@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Crystal Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature young crystal dragon|FTD} tries to protect a local population of rare {@creature Snowy Owlbear|IDRotF|snowy owlbears} from poachers and hunters."
+        ],
+        [
+          "2",
+          "A {@creature young crystal dragon|FTD} has adopted a group of {@creature Kobold||kobolds} and is trying to teach them the value of a good practical joke."
+        ],
+        [
+          "3",
+          "A {@creature young crystal dragon|FTD} has captured a pack of {@creature Winter Wolf||winter wolves} loyal to a {@creature frost giant}, intent on convincing the wolves to change their evil ways."
+        ],
+        [
+          "4",
+          "A lonely {@creature werebear} enjoys long conversations with a {@creature young crystal dragon|FTD} but doesn't always appreciate the dragon's sense of humor."
+        ],
+        [
+          "5",
+          "A {@creature young crystal dragon|FTD} finds some {@creature Manticore||manticores'} bluster hilarious and befriends them despite their fear. But the dragon is having trouble overcoming the manticores' predatory nature."
+        ],
+        [
+          "6",
+          "A {@creature young crystal dragon|FTD} uses {@spell dancing lights} and {@spell hypnotic pattern} to give an air of authenticity to a charlatan fortuneteller's act, in exchange for a portion of the take from the charlatan's clients."
+        ]
+      ],
+      "name": "Connected Creatures; Young Crystal Dragon Connections",
+      "page": 104,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

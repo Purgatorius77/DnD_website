@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Brass Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature adult brass dragon} enjoys trading riddles with a {@creature gynosphinx}."
+        ],
+        [
+          "2",
+          "Long ago, an {@creature adult brass dragon} swore service to a human priest, expecting to outlive the priest. But now the priest is a {@creature mummy lord}, and the dragon remains bound to serve."
+        ],
+        [
+          "3",
+          "An {@creature efreeti} wants to claim an {@creature Adult Brass Dragon||adult brass dragon's} palatial lair and fabulous hoard."
+        ],
+        [
+          "4",
+          "A pair of {@creature Roc||rocs} have nested too close to an {@creature Adult Brass Dragon||adult brass dragon's} lair, and they harass the dragon whenever they can."
+        ],
+        [
+          "5",
+          "A {@creature guardian naga} charged with protecting an ancient artifact has decided that the artifact—as well as the naga—would be safer in an {@creature Adult Brass Dragon||adult brass dragon's} hoard than left alone in some crumbling ruin."
+        ],
+        [
+          "6",
+          "A half-brass dragon {@creature yuan-ti abomination} leads other yuan-ti in worshiping an {@creature adult brass dragon} as a serpent god, much to the dragon's amusement."
+        ],
+        [
+          "7",
+          "Two {@creature Adult Brass Dragon||adult brass dragons} are rearing a clutch of wyrmlings together, and they allow the infant dragons to wreak innocent havoc on nearby settlements."
+        ],
+        [
+          "8",
+          "A solitary {@creature adult brass dragon} has adopted a {@creature blue dragon wyrmling} found starving in the desert."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Brass Dragon Connections",
+      "page": 91,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

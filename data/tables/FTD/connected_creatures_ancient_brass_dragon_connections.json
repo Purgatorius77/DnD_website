@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Brass Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient brass dragon} once ruled a temple-state through a puppet sovereign, who is now a {@creature mummy lord} ruling a city of {@creature Ghoul||ghouls} that owe the dragon fealty."
+        ],
+        [
+          "2",
+          "An {@creature ancient brass dragon} believes that a local {@creature androsphinx} is an insufferable know-it-all with no sense of humor and enjoys playing pranks on the sphinx."
+        ],
+        [
+          "3",
+          "An {@creature ancient brass dragon} and an {@creature ancient blue dragon} have a centuries-old rivalry, and each dragon manipulates adventurers into harassing the other."
+        ],
+        [
+          "4",
+          "An {@creature ancient brass dragon} rules a mighty city whose folk have erected massive stone monuments to honor the dragon over the centuries."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Brass Dragon Connections",
+      "page": 91,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Brass Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature young brass dragon} and a {@creature young blue dragon} fight over territory."
+        ],
+        [
+          "2",
+          "A {@creature young brass dragon} frequently visits a {@creature couatl} who is charged with guarding an ancient temple, sharing stories to help the couatl pass the years."
+        ],
+        [
+          "3",
+          "A {@creature lamia} and a {@creature young brass dragon} lair in the same desert ruin, mostly leaving each other alone—but the lamia hopes to corrupt the dragon."
+        ],
+        [
+          "4",
+          "A {@creature Young Brass Dragon||young brass dragon's} lair occasionally spawns {@creature Air Elemental||air elementals} that roam around the area for a while, causing havoc before eventually dissipating."
+        ],
+        [
+          "5",
+          "A {@creature young brass dragon} and a {@creature weretiger} have become close friends as they try to keep a region safe from a growing horde of malicious gnolls."
+        ],
+        [
+          "6",
+          "A {@creature young brass dragon} allowed a group of {@creature Cyclops||cyclopes} to shelter in the dragon's lair when they were harassed by a blue dragon. Now the cyclopes won't leave, so the dragon is trying to educate them."
+        ]
+      ],
+      "name": "Connected Creatures; Young Brass Dragon Connections",
+      "page": 91,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

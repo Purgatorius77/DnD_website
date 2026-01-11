@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Amethyst Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A yuan-ti cult known as the Serpents of the Dreaming City draws power from an {@creature ancient amethyst dragon|FTD}, which the cultists keep in eternal slumber with braziers of enchanted smoke."
+        ],
+        [
+          "2",
+          "A rogue {@creature purple worm} swallowed a large portion of an amethyst dragon's hoard before burrowing back into the deep Underdark. The dragon has a magic crystal that can trace the worm's movement."
+        ],
+        [
+          "3",
+          "An {@creature ancient amethyst dragon|FTD} is able to awaken psionic potential in others, and many of the greatest psi warriors in history were the dragon's students."
+        ],
+        [
+          "4",
+          "After centuries guarding the world against incursions from the Far Realm, an {@creature ancient amethyst dragon|FTD} has been corrupted by aberrant influences and now leads a cult the dragon once opposed."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Amethyst Dragon Connections",
+      "page": 77,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Moonstone Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A Fey noble has sent an {@creature archmage} advisor to parley with an {@creature adult moonstone dragon|FTD} whose lair is in the noble's territory, and it isn't going well."
+        ],
+        [
+          "2",
+          "Fascinated by the dreams of a {@creature myconid sovereign}, an {@creature adult moonstone dragon|FTD} has befriended the whole myconid colony."
+        ],
+        [
+          "3",
+          "In the midst of a {@creature werewolf} invasion, someone suggests that a nearby {@creature Adult Moonstone Dragon|FTD|adult moonstone dragon's} hoard could be a good source of silver."
+        ],
+        [
+          "4",
+          "An {@creature Adult Moonstone Dragon|FTD|adult moonstone dragon's} burgeoning hoard attracts the attention of an {@creature arcanaloth} seeking a powerful Feywild artifact."
+        ],
+        [
+          "5",
+          "An {@creature adult moonstone dragon|FTD} attempts to help a {@creature beholder} worried that its dreams will soon give birth to a rival beholder."
+        ],
+        [
+          "6",
+          "Members of a {@creature Night Hag||night hag coven} are determined to prevent an {@creature adult moonstone dragon|FTD} from contacting creatures in the dream realm, and the dragon has no idea why."
+        ],
+        [
+          "7",
+          "An {@creature adult moonstone dragon|FTD} is called upon to discipline a group of {@creature Moonstone Dragon Wyrmling|FTD|moonstone dragon wyrmlings} that rampaged through a Fey noble's territory."
+        ],
+        [
+          "8",
+          "An {@creature adult moonstone dragon|FTD} has amassed a menagerie of {@item Figurine of Wondrous Power||figurines of wondrous power} and activates the items regularly to liven up the lair."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Moonstone Dragon Connections",
+      "page": 131,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

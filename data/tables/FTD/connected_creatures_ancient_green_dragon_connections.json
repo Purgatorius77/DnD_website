@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Green Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient green dragon} returns to the same sylvan forest every year to feed upon a herd of {@creature Unicorn||unicorns}."
+        ],
+        [
+          "2",
+          "An {@creature ancient green dragon} prevents would-be rescuers from reaching a cursed realm whose people are magically asleep and hidden behind a forest of thorns."
+        ],
+        [
+          "3",
+          "A once-peaceful land has become warlike, thanks to the {@creature ancient green dragon} controlling its elf monarchs."
+        ],
+        [
+          "4",
+          "An {@creature ancient green dragon} is the guardian of a {@creature Lich||lich's} phylactery and extorts favors from the lich."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Green Dragon Connections",
+      "page": 127,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

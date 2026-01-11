@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Crystal Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature adult crystal dragon|FTD} convinces a {@creature druid} to cast the {@spell awaken} spell on creatures around the dragon's lair, so the dragon will never want for conversation."
+        ],
+        [
+          "2",
+          "A family of {@creature Yeti||yetis} seized an {@creature Adult Crystal Dragon|FTD|adult crystal dragon's} lair and hoard, and the dragon seeks help to drive the yetis out."
+        ],
+        [
+          "3",
+          "An {@creature adult crystal dragon|FTD} and an elf {@creature archmage} have been friends for centuries and often go stargazing together on the peaks of their favorite mountains, but the dragon is grieving as the elf approaches the end of life."
+        ],
+        [
+          "4",
+          "A pair of {@creature Adult Crystal Dragon|FTD|adult crystal dragons} lairing on neighboring mountaintops have enjoyed a decades-long snowball war, but their antics sometimes cause avalanches that threaten nearby villages."
+        ],
+        [
+          "5",
+          "An {@creature adult crystal dragon|FTD} enjoys shaping the ice and snow near a den of {@creature Troll||trolls} into a labyrinth and watching the trolls try to make their way through it."
+        ],
+        [
+          "6",
+          "{@creature Remorhaz||Remorhazes} infest the glacier beneath an {@creature Adult Crystal Dragon|FTD|adult crystal dragon's} lair, posing an imminent threat to the dragon's home and hoard."
+        ],
+        [
+          "7",
+          "A {@creature revenant} persuades an {@creature adult crystal dragon|FTD} to help get revenge on the {@creature Frost Giant||frost giants} who murdered her."
+        ],
+        [
+          "8",
+          "An {@creature adult crystal dragon|FTD} teaches astronomy to students of a renowned university, but the students must travel to the dragon's mountain lair for class."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Crystal Dragon Connections",
+      "page": 104,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Moonstone Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature young moonstone dragon|FTD} on the cusp of adulthood refuses to settle down and build a lair. To protect the local populace from the dragon's chaotic activities, a minor deity sends a {@creature deva} to temper the dragon's mischievous spirit."
+        ],
+        [
+          "2",
+          "A {@creature young moonstone dragon|FTD} fell victim to a {@creature Fomorian||fomorian's} curse and has elected to stay with the Giant rather than reveal this magical affliction."
+        ],
+        [
+          "3",
+          "A {@creature treant} and a {@creature young moonstone dragon|FTD} love to meet and share stories. While the dragon speaks of travels and adventures, the treant tells tales of the tiny moments that make up a forest's life."
+        ],
+        [
+          "4",
+          "A {@creature young moonstone dragon|FTD} has acquired a powerful magic item belonging to one of the fey courts and is leading the assassin sent to retrieve the item on a chase through the Feywild."
+        ],
+        [
+          "5",
+          "A {@creature young moonstone dragon|FTD} has joined a pack of {@creature Blink Dog||blink dogs} for a year and a day. The dragon pretends to be a blink dog and refuses to admit otherwise until this time with the pack expires."
+        ],
+        [
+          "6",
+          "A {@creature young moonstone dragon|FTD} and a {@creature night hag} repeatedly encounter each other in the dream realm, but they have never met in the flesh."
+        ]
+      ],
+      "name": "Connected Creatures; Young Moonstone Dragon Connections",
+      "page": 131,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

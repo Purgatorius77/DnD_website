@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Blue Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature Young Blue Dragon||young blue dragon's} family was killed, and the dragon is building a whole realm as a base for exterminating those responsible."
+        ],
+        [
+          "2",
+          "A {@creature young blue dragon} claims the rule of a fast-growing city to impress the dragon's family."
+        ],
+        [
+          "3",
+          "A {@creature young blue dragon} running a protection racket has run afoul of an {@creature efreeti}, who has decided the area would be better off without dragons."
+        ],
+        [
+          "4",
+          "A tough but fair {@creature young blue dragon} leads a fanatically loyal mercenary squad."
+        ],
+        [
+          "5",
+          "A {@creature young blue dragon} schemes to take over a {@creature Guardian Naga||guardian naga's} ancient temple."
+        ],
+        [
+          "6",
+          "A {@creature mummy lord} keeps a {@creature young blue dragon} bodyguard as a sign of power."
+        ]
+      ],
+      "name": "Connected Creatures; Young Blue Dragon Connections",
+      "page": 86,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Amethyst Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Merfolk} dwelling near an {@creature Adult Amethyst Dragon|FTD|adult amethyst dragon's} lair are under threat from {@creature sahuagin} raiders."
+        ],
+        [
+          "2",
+          "Clusters of {@creature Shrieker||shriekers} serve as a warning system in the tunnels of an {@creature Adult Amethyst Dragon|FTD|adult amethyst dragon's} lair."
+        ],
+        [
+          "3",
+          "The Enlightened Dragon Master of an isolated monastery is, in fact, an {@creature adult amethyst dragon|FTD}."
+        ],
+        [
+          "4",
+          "An {@creature adult amethyst dragon|FTD} is at war with a {@creature beholder} that has moved into the dragon's domain."
+        ],
+        [
+          "5",
+          "{@creature Xorn} serve as lookouts and spies for an {@creature adult amethyst dragon|FTD} who rewards them with gems."
+        ],
+        [
+          "6",
+          "To repay a favor long owed to a monastery of githzerai warrior-monks, an {@creature adult amethyst dragon|FTD} sends them aid against a {@creature mind flayer} colony."
+        ],
+        [
+          "7",
+          "An apostate community of githyanki follows the tutelage of an {@creature adult amethyst dragon|FTD}, who safeguards their creche on the Material Plane."
+        ],
+        [
+          "8",
+          "The crystal-infused clay near an {@creature Adult Amethyst Dragon|FTD|adult amethyst dragon's} lair is ideal for the creation of {@creature Clay Golem||clay golems}, and the dragon can perceive everything those golems do."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Amethyst Dragon Connections",
+      "page": 77,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

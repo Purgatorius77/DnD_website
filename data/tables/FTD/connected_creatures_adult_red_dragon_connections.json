@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Red Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A flock of {@creature Gargoyle||gargoyles} dwell near an {@creature Adult Red Dragon||adult red dragon's} lair, serving as lookouts and guardians."
+        ],
+        [
+          "2",
+          "{@creature Azer} artisans are bound in service to an {@creature adult red dragon}, for whom they make sculptures and art objects from precious metals and gems."
+        ],
+        [
+          "3",
+          "An {@creature adult red dragon} rules over a hidden valley filled with dinosaurs."
+        ],
+        [
+          "4",
+          "A {@creature shadow demon} serves as an {@creature Adult Red Dragon||adult red dragon's} spy and messenger."
+        ],
+        [
+          "5",
+          "Cultists worshiping an {@creature adult red dragon} act as the dragon's agents throughout the region."
+        ],
+        [
+          "6",
+          "A mysterious masked knight relentlessly hunting an {@creature adult red dragon} is, in fact, the dragon's half-dragon offspring bent on vengeance."
+        ],
+        [
+          "7",
+          "An {@creature adult red dragon} owes a debt of service to an elderly {@creature druid}, enforced by a magical oath."
+        ],
+        [
+          "8",
+          "An {@creature adult red dragon} has seized an outpost of an {@creature efreeti} pasha's domain as a lair, and the noble genie wants to evict the intruder."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Red Dragon Connections",
+      "page": 134,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

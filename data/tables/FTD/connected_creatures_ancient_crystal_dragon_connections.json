@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Crystal Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A clan of dwarves has discovered a self-renewing vein of quartz near an {@creature Ancient Crystal Dragon|FTD|ancient crystal dragon's} lair. The dwarves mine the area aggressively, unaware that the dragon is spying on them—and intends to demand recompense at some point in the future."
+        ],
+        [
+          "2",
+          "An {@creature ancient crystal dragon|FTD} is stalked by a villainous ranger who has already claimed a dozen draconic trophies."
+        ],
+        [
+          "3",
+          "An {@creature ancient crystal dragon|FTD} follows a pod of whales from one sea to another, having grown fond of the valuable ambergris they leave in their wake. Now whalers are scheming to kill the dragon."
+        ],
+        [
+          "4",
+          "A community of seal hunters reveres an {@creature ancient crystal dragon|FTD} as the spirit of their glacier home. Such worship amuses and flatters the dragon, who keeps the hunters safe and leads them to locations where seals are plentiful."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Crystal Dragon Connections",
+      "page": 104,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

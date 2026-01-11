@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Dragon Turtle Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature sea hag} has promised treasure to a {@creature dragon turtle wyrmling|FTD} if the wyrmling brings the hag \"visitors\" by capsizing fishing boats."
+        ],
+        [
+          "2",
+          "A school of {@creature Hunter Shark||hunter sharks} try to drive a {@creature dragon turtle wyrmling|FTD} out of their waters."
+        ],
+        [
+          "3",
+          "A {@creature dragon turtle wyrmling|FTD} shares food with a {@creature giant octopus} in exchange for the octopus pilfering baubles from passing ships."
+        ],
+        [
+          "4",
+          "A {@creature dragon turtle wyrmling|FTD} lairs in a geyser inhabited by {@creature Steam Mephit||steam mephits}, believing the creatures to be dragon turtle spirits."
+        ],
+        [
+          "5",
+          "A {@creature dragon turtle wyrmling|FTD} is blamed for attacks on sea traffic being made by a {@creature plesiosaurus}."
+        ],
+        [
+          "6",
+          "A {@creature dragon turtle wyrmling|FTD} plays with a pod of {@creature Killer Whale||killer whales}, leaping into the air and blowing clouds of steam each time the whales breach."
+        ]
+      ],
+      "name": "Connected Creatures; Dragon Turtle Wyrmling Connections",
+      "page": 111,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

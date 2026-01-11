@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Blue Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient blue dragon} is worried that no members of the younger generation are strong enough to inherit the ancient dragon's territory, and this elder is trying to start a war to test the younger dragons and determine which, if any, might be a worthy heir."
+        ],
+        [
+          "2",
+          "An {@creature ancient blue dragon} without offspring has adopted wyrmlings of various colors—including a number stolen from the wyrmlings' parents."
+        ],
+        [
+          "3",
+          "An {@creature ancient blue dragon} is training an {@creature androsphinx} as heir to the region the dragon rules and searching for magic items that will allow the sphinx to control the weather as the dragon does."
+        ],
+        [
+          "4",
+          "Under the pretense of helping an {@creature ancient blue dragon} become a dracolich, an {@creature archmage} is actually hoping to claim the dragon's vast hoard."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Blue Dragon Connections",
+      "page": 86,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Bronze Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A flight of {@creature Pseudodragon||pseudodragons} has raised an orphaned {@creature bronze dragon wyrmling}, who is quickly growing too large for the group's usual activities."
+        ],
+        [
+          "2",
+          "A {@creature knight} rescued a {@creature bronze dragon wyrmling} from sacrifice at the hands of a cult, and the two now travel together in search of wrongs to right."
+        ],
+        [
+          "3",
+          "A {@creature Bronze Dragon Wyrmling||bronze dragon wyrmling's} murdered tutor rose as a {@creature revenant}, and the dragon seeks anyone who can help obtain justice."
+        ],
+        [
+          "4",
+          "A {@creature bronze dragon wyrmling} has chosen a lair filled with {@creature Poisonous Snake||poisonous snakes}, admiring the elegance with which they slither through the flooded tunnels."
+        ],
+        [
+          "5",
+          "A {@creature bronze dragon wyrmling} has been captured by {@creature sahuagin} raiders and manipulated into serving as the band's icon and war leader."
+        ],
+        [
+          "6",
+          "A group of {@creature merrow} stole a {@creature Bronze Dragon Wyrmling||bronze dragon wyrmling's} hoard, and the wyrmling is training a {@creature plesiosaurus} to help attack the merrow's stronghold."
+        ]
+      ],
+      "name": "Connected Creatures; Bronze Dragon Wyrmling Connections",
+      "page": 95,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

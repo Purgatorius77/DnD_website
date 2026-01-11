@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Sapphire Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "After being robbed by gnomes who had pledged to protect the hoard, a {@creature sapphire dragon wyrmling|FTD} installs new guardians that have no interest in material riches: {@creature Gelatinous Cube||gelatinous cubes} and {@creature Ochre Jelly||ochre jellies}."
+        ],
+        [
+          "2",
+          "A band of {@creature Minotaur||minotaurs} in service to Baphomet has captured a {@creature sapphire dragon wyrmling|FTD} to learn from the wyrmling's strategies."
+        ],
+        [
+          "3",
+          "Two {@creature Sapphire Dragon Wyrmling|FTD|sapphire dragon wyrmlings} vie for the same territory. Their primary battle tactic involves luring {@creature Grell||grells} into each other's lairs."
+        ],
+        [
+          "4",
+          "A group of Lolth-worshiping {@creature Drow Elite Warrior||drow warriors} were sent to kill a {@creature sapphire dragon wyrmling|FTD} who has been making meals of their goddess's holy spiders."
+        ],
+        [
+          "5",
+          "A {@creature sapphire dragon wyrmling|FTD} is on the verge of starvation after incorrectly identifying a nearby {@creature phase spider} nest as an easy food source."
+        ],
+        [
+          "6",
+          "A {@creature Sapphire Dragon Wyrmling|FTD|sapphire dragon wyrmling's} hoard contains a cursed item, which has attracted {@creature Specter||specters} and {@creature Wraith||wraiths} to the area around the dragon's lair."
+        ]
+      ],
+      "name": "Connected Creatures; Sapphire Dragon Wyrmling Connections",
+      "page": 139,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

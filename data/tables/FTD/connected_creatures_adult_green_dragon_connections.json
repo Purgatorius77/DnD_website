@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Green Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A ruler controlled by an {@creature adult green dragon} plunders the realm's populace to fill the dragon's hoard."
+        ],
+        [
+          "2",
+          "Several {@creature Adult Green Dragon||adult green dragons} fight to claim a treasure hoard hidden under a woodland city."
+        ],
+        [
+          "3",
+          "An {@creature adult green dragon} is bound to the service of a {@creature guardian naga} and baits other creatures to kill the dragon's naga captor."
+        ],
+        [
+          "4",
+          "{@creature Giant Ape||Giant apes} raised from birth by an {@creature adult green dragon} now serve as the dragon's hunting party."
+        ],
+        [
+          "5",
+          "Mind-controlled clerics lead unsuspecting worshipers to the lair of an {@creature adult green dragon}."
+        ],
+        [
+          "6",
+          "An {@creature adult green dragon} works to corrupt a {@creature young gold dragon} trapped in the green dragon's woods."
+        ],
+        [
+          "7",
+          "Wood elves flagellate themselves to earn the favor of a god suddenly turned cruel, not knowing they've been misled by an {@creature adult green dragon}."
+        ],
+        [
+          "8",
+          "An {@creature adult green dragon} turns {@creature Treant||treants} against the druids who once guarded the treants' grove."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Green Dragon Connections",
+      "page": 127,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

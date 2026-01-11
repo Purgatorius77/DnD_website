@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Topaz Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Moved by pity, a {@creature giant eagle} continues bringing food to an abandoned {@creature topaz dragon wyrmling|FTD}, despite the wyrmling's attempts to eat the eagle."
+        ],
+        [
+          "2",
+          "A {@creature pseudodragon} who is fanatical about the kinship of all dragonkind is trying to win a {@creature Topaz Dragon Wyrmling|FTD|topaz dragon wyrmling's} friendship."
+        ],
+        [
+          "3",
+          "A {@creature topaz dragon wyrmling|FTD} has developed a taste for crab meat and persistently hunts a {@creature giant crab} that always manages to evade the wyrmling. (The crab might have been the recipient of a druid's {@spell awaken} spell.)"
+        ],
+        [
+          "4",
+          "A mated pair of {@creature Griffon||griffons} found a topaz dragon egg, and they care for it as if it were their own."
+        ],
+        [
+          "5",
+          "A {@creature sea hag} is on the hunt for a {@creature topaz dragon wyrmling|FTD}, to be used as a component in a fell ritual."
+        ],
+        [
+          "6",
+          "A pirate crew keeps a curmudgeonly {@creature topaz dragon wyrmling|FTD} as a beloved mascot."
+        ]
+      ],
+      "name": "Connected Creatures; Topaz Dragon Wyrmling Connections",
+      "page": 149,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

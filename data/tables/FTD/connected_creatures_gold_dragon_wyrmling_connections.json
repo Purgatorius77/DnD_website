@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Gold Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature gold dragon wyrmling} bonded with a {@creature xorn} over their shared love of gems and seeks to help the creature back to the Elemental Plane of Earth."
+        ],
+        [
+          "2",
+          "A {@creature gold dragon wyrmling} yearns to imitate a {@creature couatl} mentor and is searching for a magical location worth guarding."
+        ],
+        [
+          "3",
+          "A {@creature gold dragon wyrmling} is venerated by a tribe of lizardfolk—much to the consternation of the priest who used to rule the tribe."
+        ],
+        [
+          "4",
+          "A band of {@creature Centaur||centaurs} makes pilgrimages to a {@creature Gold Dragon Wyrmling||gold dragon wyrmling's} lair, bringing gifts of gems and knowledge."
+        ],
+        [
+          "5",
+          "A {@creature gold dragon wyrmling} is fascinated by modrons' clockwork determinism and has tracked down and befriended a rogue {@creature pentadrone}."
+        ],
+        [
+          "6",
+          "A {@creature gold dragon wyrmling} has befriended a group of {@creature Githzerai Monk||githzerai monks} and visits them regularly to conduct elaborate thought experiments."
+        ]
+      ],
+      "name": "Connected Creatures; Gold Dragon Wyrmling Connections",
+      "page": 122,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

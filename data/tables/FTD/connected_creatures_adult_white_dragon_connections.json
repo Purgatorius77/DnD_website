@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult White Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A pirate captain uses the pervasive fog near an {@creature Adult White Dragon||adult white dragon's} lair to elude capture and propitiates the dragon with a share of the crew's booty."
+        ],
+        [
+          "2",
+          "A {@creature djinni} has pledged to serve an {@creature adult white dragon} for a year and a day in exchange for sparing the genie's previous master's life."
+        ],
+        [
+          "3",
+          "An {@creature arcanaloth} has been trying to tease information out of an {@creature adult white dragon}, hoping the dragon can lead it to a lost font of magical power."
+        ],
+        [
+          "4",
+          "An {@creature adult white dragon}, captured by devils decades ago, now serves as a mount for an {@creature ice devil}."
+        ],
+        [
+          "5",
+          "A {@creature beholder} manipulates an {@creature adult white dragon} into eliminating its enemies by inventing ways in which these foes have supposedly offended the dragon."
+        ],
+        [
+          "6",
+          "A {@creature storm giant} and an {@creature adult white dragon} are engaged in a deadly game of cat-and-mouse, leaving a trail of destruction behind them."
+        ],
+        [
+          "7",
+          "An {@creature adult white dragon} periodically brings a mouthful of gems to the {@creature ancient crystal dragon|FTD} who raised them, and who is now too old and tired to seek out new mineral veins for sustenance."
+        ],
+        [
+          "8",
+          "A clan of {@creature Winged Kobold||winged kobolds} treat the air currents and ice slides of an {@creature Adult White Dragon||adult white dragon's} lair as an obstacle course. The dragon enjoys devising increasingly hazardous routes for the kobolds to tackle."
+        ]
+      ],
+      "name": "Connected Creatures; Adult White Dragon Connections",
+      "page": 154,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

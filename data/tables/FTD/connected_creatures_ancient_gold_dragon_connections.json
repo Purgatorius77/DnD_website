@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Gold Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature solar} who admires an {@creature ancient gold dragon} campaigns to recruit the dragon into the service of the solar's god."
+        ],
+        [
+          "2",
+          "An {@creature ancient gold dragon} is infatuated with an oblivious {@creature empyrean}, drawn in by the empyrean's carefree nature and larger-than-life emotions."
+        ],
+        [
+          "3",
+          "An {@creature ancient gold dragon} and a {@creature lich} have vied to bend history to their respective wills. The two have reluctantly come to understand and empathize with each other."
+        ],
+        [
+          "4",
+          "An {@creature ancient gold dragon} takes little interest in the day-to-day governance of a powerful empire. But the dragon expects to be obeyed completely when deigning to address the populace."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Gold Dragon Connections",
+      "page": 122,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

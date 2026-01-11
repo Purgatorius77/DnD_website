@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Copper Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A flock of {@creature aarakocra} shelters a {@creature copper dragon wyrmling} from {@creature Gargoyle||gargoyles} hunting in the mountains."
+        ],
+        [
+          "2",
+          "A {@creature copper dragon wyrmling} guards a hidden pass that leads into a sylvan valley populated by {@creature Centaur||centaurs}, {@creature Pixie||pixies}, and {@creature Satyr||satyrs}."
+        ],
+        [
+          "3",
+          "A {@creature copper dragon wyrmling} has killed a number of domestic animals. A group of {@creature Druid||druids} wants the wyrmling captured and relocated, rather than killed."
+        ],
+        [
+          "4",
+          "A ruined manor house being reclaimed by a newly titled noble is the lair of a {@creature copper dragon wyrmling}."
+        ],
+        [
+          "5",
+          "A {@creature copper dragon wyrmling} follows a wizard everywhere, fascinated by {@spell prestidigitation} tricks."
+        ],
+        [
+          "6",
+          "An {@creature ettin} is trying to keep a captured {@creature copper dragon wyrmling} as a pet."
+        ]
+      ],
+      "name": "Connected Creatures; Copper Dragon Wyrmling Connections",
+      "page": 100,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

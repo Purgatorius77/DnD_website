@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Brass Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Captured by a band of gnolls, a {@creature brass dragon wyrmling} is patiently trying to teach the gnolls to speak Draconic."
+        ],
+        [
+          "2",
+          "Grieved by the fate of a former friend, a {@creature brass dragon wyrmling} guards a tomb haunted by a {@creature wight}."
+        ],
+        [
+          "3",
+          "Yuan-ti have captured a {@creature brass dragon wyrmling} and are picking up the dragon's twisted sense of humor."
+        ],
+        [
+          "4",
+          "A party of {@creature Bandit||bandits} stole a brass dragon egg, and now the hatched wyrmling is manipulating the bandits to do the dragon's whimsical bidding."
+        ],
+        [
+          "5",
+          "A lost {@creature brass dragon wyrmling} was raised by {@creature Hyena||hyenas} and now leads the pack."
+        ],
+        [
+          "6",
+          "A {@creature druid} who tends a desert oasis has been keeping watch over several {@creature Brass Dragon Wyrmling||brass dragon wyrmlings} since adventurers killed the wyrmlings' parents."
+        ]
+      ],
+      "name": "Connected Creatures; Brass Dragon Wyrmling Connections",
+      "page": 91,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

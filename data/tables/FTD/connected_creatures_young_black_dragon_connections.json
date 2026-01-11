@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Black Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature young black dragon} with a talent for alchemy has weaponized the spores of a myconid colony."
+        ],
+        [
+          "2",
+          "A {@creature merrow} war band has negotiated an alliance with a {@creature young black dragon} to sack a nearby trading port."
+        ],
+        [
+          "3",
+          "A pack of {@creature Ghoul||ghouls} infesting a necropolis serve as a {@creature Young Black Dragon||young black dragon's} bodyguards and enforcers."
+        ],
+        [
+          "4",
+          "A {@creature young black dragon} has cultivated an awakened carnivorous plant (use the {@creature awakened tree} stat block) as a lair guardian and has been abducting travelers to feed the plant creature."
+        ],
+        [
+          "5",
+          "Lizardfolk worshiping a {@creature young black dragon} have been raiding a local fishing community."
+        ],
+        [
+          "6",
+          "A {@creature young black dragon} has struck up a mutual assistance pact with a {@creature roper} that haunts the ruins outside the dragon's lair."
+        ]
+      ],
+      "name": "Connected Creatures; Young Black Dragon Connections",
+      "page": 81,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

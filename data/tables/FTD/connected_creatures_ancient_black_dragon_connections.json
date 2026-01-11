@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Black Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient black dragon}, after studying blasphemous texts dedicated to alien gods, issues a warning that a corrupted {@creature planetar} will soon fall to earth like a meteor in the fens outside a great city's walls."
+        ],
+        [
+          "2",
+          "An illithid community has spent nearly a millennium raising and preparing a black dragon to become an {@creature elder brain dragon|FTD} (described in {@book chapter 6|FTD|6|Elder Brain Dragon}), so the {@creature elder brain|VGM} can wreak ruin upon its rivals."
+        ],
+        [
+          "3",
+          "The decades-long machinations of an {@creature ancient black dragon} and an evil {@creature archmage} are nearing fruition. If their pact succeeds, they will unleash devastation on a continental scale."
+        ],
+        [
+          "4",
+          "An {@creature ancient black dragon} rules a vast, decadent city built on artificial islands within a polluted lake. The site is threatened with destruction by an enraged {@creature archdruid|VGM}—but destroying the city means thousands of innocents will die."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Black Dragon Connections",
+      "page": 81,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

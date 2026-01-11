@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Faerie Dragon Connections",
+      "colLabels": [
+        "d10",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An entrepreneurial gnome uses a {@creature Faerie Dragon (Violet)||faerie dragon's} Euphoria Breath to open a novel relaxation spa; the dragon appreciates the steady stream of treats and baubles they receive in exchange for their labor."
+        ],
+        [
+          "2",
+          "A {@creature Faerie Dragon (Violet)||faerie dragon} is in love with a member of a {@creature pixie} royal court and is constantly searching for some grand deed capable of impressing their beloved."
+        ],
+        [
+          "3",
+          "A {@creature Faerie Dragon (Violet)||faerie dragon} uses magic to aid in the rambling revels of a band of {@creature Satyr||satyrs}."
+        ],
+        [
+          "4",
+          "A {@creature Faerie Dragon (Violet)||faerie dragon} and a {@creature quasit} are sworn enemies, and their invisible battles and the elaborate traps they lay for each other cause havoc in the area where they both live."
+        ],
+        [
+          "5",
+          "A mercenary band keeps a {@creature Faerie Dragon (Violet)||faerie dragon} captive in a cage, forcing the dragon to act as a jester."
+        ],
+        [
+          "6",
+          "A {@creature Faerie Dragon (Violet)||faerie dragon} nests in the branches of a tree that recently received the benefit of a {@creature Druid||druid's} {@spell awaken} spell and promises to teach the {@creature awakened tree} in exchange for shelter and companionship."
+        ],
+        [
+          "7",
+          "A {@creature Faerie Dragon (Violet)||faerie dragon} rules a pack of {@creature Blink Dog||blink dogs}, leading them on a grand quest against evil that the dragon is making up along the way."
+        ],
+        [
+          "8",
+          "A {@creature green dragon wyrmling} has recruited a {@creature Faerie Dragon (Violet)||faerie dragon} as a spy, though the faerie dragon's bizarre means of carrying out orders leaves the green dragon wondering if it's worth the effort."
+        ],
+        [
+          "9",
+          "A {@creature Faerie Dragon (Violet)||faerie dragon} constantly tries to impress a gruff dwarf priest by proselytizing to everyone they meet as they travel together, but the dragon's interpretation of their \"shared faith\" is extremely eccentric."
+        ],
+        [
+          "10",
+          "A {@creature Faerie Dragon (Violet)||faerie dragon} has intimidated a gang of {@creature Goblin||goblins} and now forces the goblins to follow an increasingly bizarre set of rules."
+        ]
+      ],
+      "name": "Connected Creatures; Faerie Dragon Connections",
+      "page": 118,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Green Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature green dragon wyrmling} is the centerpiece of a traveling circus but might not be a prisoner after all."
+        ],
+        [
+          "2",
+          "A {@creature green dragon wyrmling} was raised by a cluster of {@creature Pseudodragon||pseudodragons}, whom the wyrmling now protects."
+        ],
+        [
+          "3",
+          "Hobgoblin raiders have captured several {@creature Green Dragon Wyrmling||green dragon wyrmlings}, hoping to use them as the vanguards of their war parties."
+        ],
+        [
+          "4",
+          "A {@creature green dragon wyrmling} exacerbates the chaotic tendencies of a group of {@creature Satyr||satyrs}, driving them to greater acts of mischief with the promise of rich rewards."
+        ],
+        [
+          "5",
+          "A {@creature green dragon wyrmling} tricks a village of lizardfolk into believing the dragon is an incarnation of a lizardfolk god."
+        ],
+        [
+          "6",
+          "An ancient {@creature couatl} attempts to shape the moral outlook of a {@creature green dragon wyrmling}, so the dragon might inherit the duty of guarding the couatl's treasures."
+        ]
+      ],
+      "name": "Connected Creatures; Green Dragon Wyrmling Connections",
+      "page": 127,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

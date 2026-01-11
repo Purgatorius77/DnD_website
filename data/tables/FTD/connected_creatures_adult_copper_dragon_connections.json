@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Adult Copper Dragon Connections",
+      "colLabels": [
+        "d8",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature adult copper dragon} befriended a {@creature djinni} after granting the genie freedom. Now the two meet yearly to talk and exchange news."
+        ],
+        [
+          "2",
+          "{@creature Centaur} communities in the foothills surrounding an {@creature Adult Copper Dragon||adult copper dragon's} lair gather yearly to offer tribute to the dragon, who settles disputes and dispenses advice for them."
+        ],
+        [
+          "3",
+          "A {@creature galeb duhr} acts as the guardian of an {@creature Adult Copper Dragon||adult copper dragon's} hoard."
+        ],
+        [
+          "4",
+          "An {@creature adult copper dragon} regularly visits the {@creature Treant||treants} of the nearby forest to help protect their woods from encroachment."
+        ],
+        [
+          "5",
+          "A band of {@creature Fomorian||fomorians} believe they have allied with a red dragon to burn a Feywild grove, but an {@creature adult copper dragon} has deceived them."
+        ],
+        [
+          "6",
+          "An {@creature adult copper dragon} serves as the patron of a community of gnome tinkerers, who present their best ideas to the dragon in hopes of being funded."
+        ],
+        [
+          "7",
+          "A community of {@creature Stone Giant||stone giants} believes an {@creature adult copper dragon} is a key figure in a prophecy—and the dragon has decided to play along for fun."
+        ],
+        [
+          "8",
+          "An {@creature adult copper dragon} sends agents into a {@creature goristro} demon's labyrinth to steal a lost soul, as part of a centuries-long game."
+        ]
+      ],
+      "name": "Connected Creatures; Adult Copper Dragon Connections",
+      "page": 100,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

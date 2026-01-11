@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Sapphire Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature young sapphire dragon|FTD} practices martial skills by regularly using a {@item horn of Valhalla} to summon {@creature Berserker||berserker spirits} to fight."
+        ],
+        [
+          "2",
+          "A {@creature young sapphire dragon|FTD} has found a collection of long-forgotten {@creature Clay Golem||clay golems} and is trying to teach them military tactics."
+        ],
+        [
+          "3",
+          "A {@creature druid} summoned {@creature galeb duhr} to guard a {@creature Young Sapphire Dragon|FTD|young sapphire dragon's} hoard in exchange for the dragon controlling the {@creature giant spider} population, but the galeb duhr are causing trouble for local miners."
+        ],
+        [
+          "4",
+          "Two Lolth {@creature Cultist||cultists} seek a magical relic that attracts {@creature Giant Spider||giant spiders}, but the relic's resting place has become a {@creature Young Sapphire Dragon|FTD|young sapphire dragon's} feeding ground."
+        ],
+        [
+          "5",
+          "A {@creature young sapphire dragon|FTD} and a {@creature hobgoblin warlord} have become friends. The hobgoblin visits regularly to trade war stories and tactics with the dragon."
+        ],
+        [
+          "6",
+          "A {@creature kuo-toa archpriest} believes a {@creature young sapphire dragon|FTD} is a god named Sliploopdreegoo, and calls on other kuo-toa to worship the dragon."
+        ]
+      ],
+      "name": "Connected Creatures; Young Sapphire Dragon Connections",
+      "page": 139,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Emerald Dragon Wyrmling Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Blood Hawk||Blood hawks} routinely accost an {@creature emerald dragon wyrmling|FTD} who lairs near the hawks' nest."
+        ],
+        [
+          "2",
+          "An {@creature emerald dragon wyrmling|FTD} is being hunted by a {@creature Fire Giant||fire giant's} pet {@creature hell hound}."
+        ],
+        [
+          "3",
+          "An {@creature emerald dragon wyrmling|FTD} follows a {@creature berserker} to observe the berserker's life. The berserker believes the dragon is a spirit companion."
+        ],
+        [
+          "4",
+          "A flattering {@creature orog} plies an {@creature emerald dragon wyrmling|FTD} with gems in exchange for information about a settlement the wyrmling has been observing."
+        ],
+        [
+          "5",
+          "An {@creature emerald dragon wyrmling|FTD} keeps trying to play with a pair of newly hatched {@creature Fire Snake||fire snakes}."
+        ],
+        [
+          "6",
+          "An {@creature emerald dragon wyrmling|FTD} has been captured by scheming duergar, who plan to use the wyrmling as bait to lure the wyrmling's parents out of their lair."
+        ]
+      ],
+      "name": "Connected Creatures; Emerald Dragon Wyrmling Connections",
+      "page": 114,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

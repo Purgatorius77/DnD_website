@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Silver Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient silver dragon} helps a group of spellcasters keep the {@creature tarrasque} asleep."
+        ],
+        [
+          "2",
+          "An {@creature ancient silver dragon} is secretly the age-old blacksmith who creates magical weapons for a kingdom's heroes."
+        ],
+        [
+          "3",
+          "Bound by an oath, an {@creature ancient silver dragon} rules a dead city in place of its original monarchs."
+        ],
+        [
+          "4",
+          "An {@creature ancient silver dragon} has become the figurehead and protector of a clan of {@creature Frost Giant||frost giants}."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Silver Dragon Connections",
+      "page": 146,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

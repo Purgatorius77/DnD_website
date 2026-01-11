@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Deep Dragon Connections",
+      "colLabels": [
+        "d4",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature ancient deep dragon|FTD} has taken on a {@creature young red shadow dragon} as a protégé."
+        ],
+        [
+          "2",
+          "Two ancient dragon lovers—one {@creature Ancient Deep Dragon|FTD|deep} and one {@creature Ancient White Dragon||white}—see each other only once every hundred years, when they choose targets for a deadly hunting spree."
+        ],
+        [
+          "3",
+          "Two {@creature Ancient Deep Dragon|FTD|ancient deep dragons} fight over territory. Unwilling to move against each other directly, they use local settlements—and any competent visitors—as pawns in their struggle."
+        ],
+        [
+          "4",
+          "An {@creature ancient deep dragon|FTD} has put the folk of a city to work building the dragon a metropolis to rule in the center of a vast underground salt lake."
+        ]
+      ],
+      "name": "Connected Creatures; Ancient Deep Dragon Connections",
+      "page": 108,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

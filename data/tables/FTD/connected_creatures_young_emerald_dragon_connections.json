@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Young Emerald Dragon Connections",
+      "colLabels": [
+        "d6",
+        "Connected Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature young emerald dragon|FTD} has befriended a {@creature stone giant}, who is teaching the dragon giant folklore."
+        ],
+        [
+          "2",
+          "A {@creature young emerald dragon|FTD} lairs in abandoned bandit caverns also occupied by a friendly {@creature earth elemental}, which hunts for buried coins for the dragon's hoard."
+        ],
+        [
+          "3",
+          "A {@creature galeb duhr} acts as a door guard to a {@creature Young Emerald Dragon|FTD|young emerald dragon's} lair."
+        ],
+        [
+          "4",
+          "A {@creature young emerald dragon|FTD} invites repeated visits from a {@creature drow mage} who corrects what the dragon has learned about the history of the elven schism."
+        ],
+        [
+          "5",
+          "A {@creature young emerald dragon|FTD} attempts to drive off a clan of {@creature Cyclops||cyclopes} who have taken up residence in a nearby cave, attacking the clan's herd of {@creature Giant Goat||giant goats}."
+        ],
+        [
+          "6",
+          "An {@creature assassin} and a {@creature young emerald dragon|FTD} train together to master the art of stealth."
+        ]
+      ],
+      "name": "Connected Creatures; Young Emerald Dragon Connections",
+      "page": 114,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}
