@@ -171,4 +171,3 @@ resetBtn.addEventListener("click", () => {
   }
 }
 
-
