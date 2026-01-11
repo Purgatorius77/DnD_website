@@ -27,6 +27,12 @@ import { initArcana} from "./items/arcana.js"
 import { initArmaments} from "./items/armaments.js"
 import { initImplements} from "./items/implements.js"
 import { initArt} from "./items/art.js"
+import { initTables} from "./tables/tables.js"
+import { initTableFilters } from "./filters/tablesfilter.js";
+
+// after tables loaded
+
+
 
 
 
@@ -49,7 +55,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // ✅ Initialize combat tracker only once
   initCombatTracker(monsters);
-
+  initTables();
   initRulesFilters();
   initRulesStatblock();
   initCharacterFilters();
@@ -73,6 +79,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initRelics();
   initImplements();
   initViewSwitcher();
+  initTableFilters(allTables);
 });
 
 
