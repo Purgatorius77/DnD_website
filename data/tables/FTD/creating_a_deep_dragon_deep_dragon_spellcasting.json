@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Deep Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Deep Dragon|FTD|Young}",
+          "14",
+          "{@spell command}, {@spell dissonant whispers}, {@spell faerie fire}"
+        ],
+        [
+          "{@creature Adult Deep Dragon|FTD|Adult}",
+          "16",
+          "{@spell command}, {@spell dissonant whispers}, {@spell faerie fire}, {@spell water breathing}"
+        ],
+        [
+          "{@creature Ancient Deep Dragon|FTD|Ancient}",
+          "19",
+          "{@spell command}, {@spell dissonant whispers}, {@spell faerie fire}, {@spell passwall}, {@spell water breathing}"
+        ]
+      ],
+      "name": "Creating a Deep Dragon; Deep Dragon Spellcasting",
+      "page": 107,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

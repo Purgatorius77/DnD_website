@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Gold Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Gold Dragon||Young}",
+          "17",
+          "{@spell bless}, {@spell cure wounds}, {@spell slow}, {@spell suggestion}, {@spell zone of truth}"
+        ],
+        [
+          "{@creature Adult Gold Dragon||Adult}",
+          "21",
+          "{@spell bless}, {@spell commune}, {@spell cure wounds}, {@spell geas},* {@spell slow}, {@spell suggestion}, {@spell zone of truth}"
+        ],
+        [
+          "{@creature Ancient Gold Dragon||Ancient}",
+          "24",
+          "{@spell bless}, {@spell commune},* {@spell cure wounds}, {@spell geas},* {@spell plane shift} (+16 to hit), {@spell slow}, {@spell suggestion}, {@spell word of recall}, {@spell zone of truth}"
+        ]
+      ],
+      "footnotes": [
+        "*This spell's casting time is longer than 1 action."
+      ],
+      "name": "Creating a Gold Dragon; Gold Dragon Spellcasting",
+      "page": 121,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Brass Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Brass Dragon||Young}",
+          "13",
+          "{@spell create or destroy water}, {@spell speak with animals}"
+        ],
+        [
+          "{@creature Adult Brass Dragon||Adult}",
+          "16",
+          "{@spell create or destroy water}, {@spell speak with animals}, {@spell suggestion}"
+        ],
+        [
+          "{@creature Ancient Brass Dragon||Ancient}",
+          "18",
+          "{@spell create or destroy water}, {@spell locate creature}, {@spell speak with animals}, {@spell suggestion}"
+        ]
+      ],
+      "name": "Creating a Brass Dragon; Brass Dragon Spellcasting",
+      "page": 90,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

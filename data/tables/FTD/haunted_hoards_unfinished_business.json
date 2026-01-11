@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Unfinished Business",
+      "colLabels": [
+        "d6",
+        "Unfinished Business"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Entrust the haunted item to the ghost's heir"
+        ],
+        [
+          "2",
+          "Entomb the haunted item with the ghost's corpse"
+        ],
+        [
+          "3",
+          "Destroy the haunted item"
+        ],
+        [
+          "4",
+          "Use the haunted item for a specific purpose"
+        ],
+        [
+          "5",
+          "Reunite the haunted item with other items forming a set"
+        ],
+        [
+          "6",
+          "Destroy the ghost's killer: a dragon who is an echo of the hoard's owner on another world"
+        ]
+      ],
+      "name": "Haunted Hoards; Unfinished Business",
+      "page": 68,
+      "source": "FTD",
+      "chapter": {
+        "name": "Lairs and Hoards",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "White Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young White Dragon||Young}",
+          "12",
+          "{@spell gust of wind}"
+        ],
+        [
+          "{@creature Adult White Dragon||Adult}",
+          "14",
+          "{@spell gust of wind}"
+        ],
+        [
+          "{@creature Ancient White Dragon||Ancient}",
+          "16",
+          "{@spell gust of wind}, {@spell ice storm}"
+        ]
+      ],
+      "name": "Creating a White Dragon; White Dragon Spellcasting",
+      "page": 153,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

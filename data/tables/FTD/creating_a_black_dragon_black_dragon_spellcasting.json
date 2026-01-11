@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Black Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Black Dragon||Young}",
+          "13",
+          "{@spell blindness/deafness}, {@spell create or destroy water}"
+        ],
+        [
+          "{@creature Adult Black Dragon||Adult}",
+          "16",
+          "{@spell blindness/deafness}, {@spell create or destroy water}, {@spell plant growth}"
+        ],
+        [
+          "{@creature Ancient Black Dragon||Ancient}",
+          "19",
+          "{@spell blindness/deafness}, {@spell create or destroy water}, {@spell insect plague}, {@spell plant growth}"
+        ]
+      ],
+      "name": "Creating a Black Dragon; Black Dragon Spellcasting",
+      "page": 80,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

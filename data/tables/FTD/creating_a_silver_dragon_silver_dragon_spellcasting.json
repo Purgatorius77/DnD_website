@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Silver Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Silver Dragon||Young}",
+          "16",
+          "{@spell beacon of hope}, {@spell calm emotions}, {@spell hold person}, {@spell zone of truth}"
+        ],
+        [
+          "{@creature Adult Silver Dragon||Adult}",
+          "18",
+          "{@spell beacon of hope}, {@spell calm emotions}, {@spell hold person}, {@spell polymorph}, {@spell zone of truth}"
+        ],
+        [
+          "{@creature Ancient Silver Dragon||Ancient}",
+          "21",
+          "{@spell beacon of hope}, {@spell calm emotions}, {@spell hold person}, {@spell polymorph}, {@spell teleport}, {@spell zone of truth}"
+        ]
+      ],
+      "name": "Creating a Silver Dragon; Silver Dragon Spellcasting",
+      "page": 145,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

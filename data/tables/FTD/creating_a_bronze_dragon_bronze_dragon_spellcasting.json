@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Bronze Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Bronze Dragon||Young}",
+          "14",
+          "{@spell beast sense}, {@spell detect thoughts}, {@spell speak with animals}"
+        ],
+        [
+          "{@creature Adult Bronze Dragon||Adult}",
+          "17",
+          "{@spell beast sense}, {@spell control water}, {@spell detect thoughts}, {@spell speak with animals}"
+        ],
+        [
+          "{@creature Ancient Bronze Dragon||Ancient}",
+          "20",
+          "{@spell beast sense}, {@spell control water}, {@spell detect thoughts}, {@spell heroes' feast},* {@spell speak with animals}"
+        ]
+      ],
+      "footnotes": [
+        "*This spell's casting time is longer than 1 action."
+      ],
+      "name": "Creating a Bronze Dragon; Bronze Dragon Spellcasting",
+      "page": 94,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

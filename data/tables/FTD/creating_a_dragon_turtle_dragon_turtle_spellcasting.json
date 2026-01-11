@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Dragon Turtle Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Dragon Turtle|FTD|Young}",
+          "13",
+          "{@spell fog cloud}"
+        ],
+        [
+          "{@creature Dragon Turtle||Adult}",
+          "15",
+          "{@spell control water}, {@spell fog cloud}"
+        ],
+        [
+          "{@creature Ancient Dragon Turtle|FTD|Ancient}",
+          "17",
+          "{@spell control water}, {@spell control weather},* {@spell fog cloud}"
+        ]
+      ],
+      "footnotes": [
+        "*This spell's casting time is longer than 1 action."
+      ],
+      "name": "Creating a Dragon Turtle; Dragon Turtle Spellcasting",
+      "page": 110,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

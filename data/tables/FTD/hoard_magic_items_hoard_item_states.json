@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Hoard Item States",
+      "colLabels": [
+        "State",
+        "Age"
+      ],
+      "colStyles": [
+        "col-7 text-center",
+        "col-5 text-center"
+      ],
+      "rows": [
+        [
+          "Slumbering",
+          "—"
+        ],
+        [
+          "Stirring",
+          "Young"
+        ],
+        [
+          "Wakened",
+          "Adult"
+        ],
+        [
+          "Ascendant",
+          "Ancient"
+        ]
+      ],
+      "name": "Hoard Magic Items; Hoard Item States",
+      "page": 25,
+      "source": "FTD",
+      "chapter": {
+        "name": "Dragon Magic",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

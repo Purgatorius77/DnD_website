@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Silver Dragon Personality Traits",
+      "colLabels": [
+        "d8",
+        "Trait"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "People are so wonderfully varied, and I do so love experiencing life with them."
+        ],
+        [
+          "2",
+          "I'm an epicurean, and I live to eat all the delightful foods people concoct."
+        ],
+        [
+          "3",
+          "It's my duty as a member of an elder species to protect and guide other peoples."
+        ],
+        [
+          "4",
+          "I like coming up with new disguises to use among small folk. It makes me feel clever!"
+        ],
+        [
+          "5",
+          "Violence is the provenance of uncouth beings, and I will do my best to avoid its use."
+        ],
+        [
+          "6",
+          "I don't understand why anyone would fight when they could talk instead and build on this ecosystem of wondrous cultures and fascinating traditions."
+        ],
+        [
+          "7",
+          "I owe the short-lived mortals I become friends with the responsibility of watching over their progeny."
+        ],
+        [
+          "8",
+          "People must earn my respect—and they're failing badly."
+        ]
+      ],
+      "name": "Creating a Silver Dragon; Silver Dragon Personality Traits",
+      "page": 145,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Blue Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Blue Dragon||Young}",
+          "15",
+          "{@spell create or destroy water}, {@spell major image}"
+        ],
+        [
+          "{@creature Adult Blue Dragon||Adult}",
+          "17",
+          "{@spell arcane eye}, {@spell create or destroy water}, {@spell major image}"
+        ],
+        [
+          "{@creature Ancient Blue Dragon||Ancient}",
+          "20",
+          "{@spell arcane eye}, {@spell create or destroy water}, {@spell major image}, {@spell project image}"
+        ]
+      ],
+      "name": "Creating a Blue Dragon; Blue Dragon Spellcasting",
+      "page": 85,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

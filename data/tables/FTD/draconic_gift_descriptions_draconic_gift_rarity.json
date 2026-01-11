@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Draconic Gift Rarity",
+      "colLabels": [
+        "Rarity",
+        "Age Category"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "Wyrmling"
+        ],
+        [
+          "Rare",
+          "Young"
+        ],
+        [
+          "Very rare",
+          "Adult"
+        ],
+        [
+          "Legendary",
+          "Ancient"
+        ]
+      ],
+      "name": "Draconic Gift Descriptions; Draconic Gift Rarity",
+      "page": 28,
+      "source": "FTD",
+      "chapter": {
+        "name": "Dragon Magic",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

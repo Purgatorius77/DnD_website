@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Copper Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Copper Dragon||Young}",
+          "13",
+          "{@spell lesser restoration}, {@spell phantasmal force}"
+        ],
+        [
+          "{@creature Adult Copper Dragon||Adult}",
+          "16",
+          "{@spell lesser restoration}, {@spell phantasmal force}, {@spell stone shape}"
+        ],
+        [
+          "{@creature Ancient Copper Dragon||Ancient}",
+          "19",
+          "{@spell lesser restoration}, {@spell move earth}, {@spell phantasmal force}, {@spell stone shape}"
+        ]
+      ],
+      "name": "Creating a Copper Dragon; Copper Dragon Spellcasting",
+      "page": 99,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Green Dragon Spellcasting",
+      "colLabels": [
+        "Age",
+        "Spell Save DC",
+        "Spells Known"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "{@creature Young Green Dragon||Young}",
+          "13",
+          "{@spell invisibility}, {@spell speak with animals}"
+        ],
+        [
+          "{@creature Adult Green Dragon||Adult}",
+          "16",
+          "{@spell invisibility}, {@spell plant growth}, {@spell speak with animals}"
+        ],
+        [
+          "{@creature Ancient Green Dragon||Ancient}",
+          "19",
+          "{@spell invisibility}, {@spell mass suggestion}, {@spell plant growth}, {@spell speak with animals}"
+        ]
+      ],
+      "name": "Creating a Green Dragon; Green Dragon Spellcasting",
+      "page": 126,
+      "source": "FTD",
+      "chapter": {
+        "name": "Draconomicon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

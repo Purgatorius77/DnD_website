@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Draconic Marks",
+      "colLabels": [
+        "d4",
+        "Visual Manifestation"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "One or both of the character's eyes change color to resemble the dragon's eyes or scales."
+        ],
+        [
+          "2",
+          "The character's hair (or a streak of it) changes color to match the color of the dragon's scales."
+        ],
+        [
+          "3",
+          "A mark like a stylized dragon eye or claw appears on the body."
+        ],
+        [
+          "4",
+          "Patches of scales appear on the character's body, typically on the neck, shoulders, or forearms."
+        ]
+      ],
+      "name": "Draconic Gifts; Draconic Marks",
+      "page": 27,
+      "source": "FTD",
+      "chapter": {
+        "name": "Dragon Magic",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}
