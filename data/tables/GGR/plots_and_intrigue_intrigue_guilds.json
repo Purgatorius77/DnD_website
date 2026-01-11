@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Intrigue Guilds",
+      "colLabels": [
+        "d12",
+        "Guild"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–2",
+          "Azorius Senate"
+        ],
+        [
+          "3–6",
+          "House Dimir"
+        ],
+        [
+          "7–8",
+          "Golgari Swarm"
+        ],
+        [
+          "9–11",
+          "Orzhov Syndicate"
+        ],
+        [
+          "12",
+          "Simic Combine"
+        ]
+      ],
+      "name": "Plots and Intrigue; Intrigue Guilds",
+      "page": 124,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

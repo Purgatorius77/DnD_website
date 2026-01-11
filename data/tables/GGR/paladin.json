@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Paladin",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class Paladin||Oath of Conquest|Conquest|XGE}*",
+          "Orzhov"
+        ],
+        [
+          "{@class Paladin||Oath of Devotion|Devotion}",
+          "Boros"
+        ],
+        [
+          "{@class Paladin||Oath of Redemption|Redemption|XGE}*",
+          "Selesnya"
+        ],
+        [
+          "{@class Paladin||Oath of the Ancients|Ancients}",
+          "Selesnya"
+        ],
+        [
+          "{@class Paladin||Oath of Vengeance|Vengeance}",
+          "Azorius"
+        ]
+      ],
+      "name": "Paladin",
+      "page": 24,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

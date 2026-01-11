@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Gruul Clan Options",
+      "colLabels": [
+        "d8",
+        "Clan"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Burning Tree clan"
+        ],
+        [
+          "2",
+          "Ghor clan"
+        ],
+        [
+          "3",
+          "Scab clan"
+        ],
+        [
+          "4",
+          "Slizt clan"
+        ],
+        [
+          "5",
+          "Gravel Hide clan"
+        ],
+        [
+          "6",
+          "Zhur-Taa clan"
+        ],
+        [
+          "7",
+          "Minor or new clan"
+        ],
+        [
+          "8",
+          "Trog"
+        ]
+      ],
+      "name": "Joining the Gruul Clans; Gruul Clan Options",
+      "page": 59,
+      "source": "GGR",
+      "chapter": {
+        "name": "Guilds of Ravnica",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

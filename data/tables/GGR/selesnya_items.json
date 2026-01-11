@@ -1,0 +1,105 @@
+{
+  "table": [
+    {
+      "caption": "Selesnya Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Bag of tricks}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Bracers of archery}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Selesnya Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon or greater",
+          "{@item Instrument of the bards}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Periapt of health}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Periapt of wound closure}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Elixir of health}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Selesnya keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Periapt of proof against poison}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Ring of animal influence}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Staff of healing}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Staff of the woodlands}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Oathbow}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Staff of thunder and lightning}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Rod of resurrection}",
+          "{@i DMG}"
+        ]
+      ],
+      "name": "Selesnya Items",
+      "page": 176,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Monk",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class monk||Way of Shadow|Shadow}",
+          "Dimir"
+        ],
+        [
+          "{@class monk||Way of the Four Elements|Four Elements}",
+          "Simic (focus on water- and air-related disciplines)"
+        ],
+        [
+          "{@class monk||Way of the Open Hand|Open Hand}",
+          "Selesnya, Simic"
+        ],
+        [
+          "{@class monk||Way of the Sun Soul|Sun Soul|XGE}*",
+          "Boros"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}"
+      ],
+      "name": "Monk",
+      "page": 24,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

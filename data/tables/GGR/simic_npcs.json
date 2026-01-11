@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "caption": "Simic NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Biomancer (creates hybrids)",
+          "{@creature Biomancer|GGR}*"
+        ],
+        [
+          "Forcemage (grows flora and fauna)",
+          "{@creature Druid}"
+        ],
+        [
+          "Terraformer (alters environments)",
+          "{@creature Druid} or {@creature mage}"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Simic NPCs",
+      "page": 254,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}

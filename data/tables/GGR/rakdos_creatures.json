@@ -1,0 +1,140 @@
+{
+  "table": [
+    {
+      "caption": "Rakdos Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "1/8",
+          "{@creature Bandit}",
+          "{@i MM}"
+        ],
+        [
+          "1/8",
+          "{@creature Cultist}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Cackler|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/2",
+          "{@creature Magmin}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Thug}",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Rakdos|GGR} performer ({@creature Rakdos Performer, Blade Juggler|GGR|blade juggler}, {@creature Rakdos Performer, Fire Eater|GGR|fire eater}, or {@creature Rakdos Performer, High-Wire Acrobat|GGR|high-wire acrobat})",
+          "{@i GGR}"
+        ],
+        [
+          "2",
+          "{@creature Berserker}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Cult fanatic}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Ogre}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Rakdos lampooner|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "3",
+          "{@creature Hell hound}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Nightmare}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Ogre chain brute|MTF}",
+          "{@i MTF}"
+        ],
+        [
+          "5",
+          "{@creature Barbed devil}",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "{@creature Cambion}",
+          "{@i MM}"
+        ],
+        [
+          "6",
+          "{@creature Bloodfray giant|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "7",
+          "{@creature Blood witch|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "9",
+          "{@creature Master of cruelties|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "9",
+          "{@creature Shadow horror|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "11",
+          "{@creature Horned devil}",
+          "{@i MM}"
+        ],
+        [
+          "12",
+          "{@creature Sire of insanity|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "24",
+          "{@creature Rakdos|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Rakdos Creatures",
+      "page": 186,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

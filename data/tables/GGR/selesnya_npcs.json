@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Selesnya NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Equenaut (cavalry)",
+          "{@creature Scout} mounted on a {@creature pegasus}"
+        ],
+        [
+          "Ledev guardian (outrider)",
+          "{@creature Knight} mounted on a {@creature dire wolf}"
+        ],
+        [
+          "Religious leader",
+          "{@creature Priest} or {@creature druid}"
+        ],
+        [
+          "Selesnya soldier",
+          "{@creature Soldier|GGR}* or {@creature veteran}"
+        ],
+        [
+          "Shepherd",
+          "{@creature Horncaller|GGR}*"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Selesnya NPCs",
+      "page": 251,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}

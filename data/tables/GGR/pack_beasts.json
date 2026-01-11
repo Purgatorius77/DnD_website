@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Pack Beasts",
+      "colLabels": [
+        "Beast",
+        "Monster Manual Stat Block"
+      ],
+      "rows": [
+        [
+          "Brushstrider",
+          "{@creature Elk}"
+        ],
+        [
+          "Ceratok",
+          "{@creature Rhinoceros}"
+        ],
+        [
+          "Dromad",
+          "{@creature Camel}"
+        ],
+        [
+          "Indrik",
+          "{@creature Elephant}"
+        ],
+        [
+          "Krovod",
+          "{@creature Mammoth}"
+        ],
+        [
+          "Raktusk",
+          "{@creature Giant elk}"
+        ]
+      ],
+      "name": "Pack Beasts",
+      "page": 188,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

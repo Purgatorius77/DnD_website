@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Sorcerer",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class Sorcerer||Divine Soul|Divine Soul|XGE}*",
+          "Boros"
+        ],
+        [
+          "{@class Sorcerer||Draconic Bloodline|Draconic}",
+          "Izzet"
+        ],
+        [
+          "{@class Sorcerer||Shadow Magic|Shadow|XGE}*",
+          "Dimir"
+        ],
+        [
+          "{@class Sorcerer||Storm Sorcery|Storm|XGE}*",
+          "Izzet"
+        ],
+        [
+          "{@class Sorcerer||Wild Magic|Wild}",
+          "Izzet"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}"
+      ],
+      "name": "Sorcerer",
+      "page": 25,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

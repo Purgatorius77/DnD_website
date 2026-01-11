@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Orzhov Assignments",
+      "colLabels": [
+        "d6",
+        "Assignment"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Convince a debtor to make a payment."
+        ],
+        [
+          "2",
+          "Damage the person or property of someone who refuses to pay protection money."
+        ],
+        [
+          "3",
+          "Distribute alms-coins to the poor."
+        ],
+        [
+          "4",
+          "Transport a chest of coins to an Orzhov bank."
+        ],
+        [
+          "5",
+          "Destroy evidence that implicates the Orzhov in a crime."
+        ],
+        [
+          "6",
+          "Find information that can be used to blackmail a powerful person."
+        ]
+      ],
+      "name": "Orzhov Character Goals; Orzhov Assignments",
+      "page": 149,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

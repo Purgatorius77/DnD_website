@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Orzhov Adventure Hooks",
+      "colLabels": [
+        "d6",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Newly minted Orzhov coins are inscribed with a magical symbol that binds the spirit of anyone who uses them."
+        ],
+        [
+          "2",
+          "{@creature Indentured Spirit|GGR|Indentured spirits} have been deployed to haunt a location the Orzhov want to keep people away from."
+        ],
+        [
+          "3",
+          "Thrulls (a {@creature servitor thrull|ggr} or {@creature winged thrull|ggr}) that have broken free of Orzhov control are causing mischief."
+        ],
+        [
+          "4",
+          "Items appear on the black market that were obviously stolen from an Orzhov vault, but no one admits that the theft has occurred or claims credit."
+        ],
+        [
+          "5",
+          "{@creature Gargoyle||Gargoyles} perched on structures throughout the city are robbing passersby and delivering their stolen goods to an Orzhov basilica."
+        ],
+        [
+          "6",
+          "An eclipse triggers violent behavior from bound Orzhov spirits."
+        ]
+      ],
+      "name": "Other Adventure Hooks; Orzhov Adventure Hooks",
+      "page": 149,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

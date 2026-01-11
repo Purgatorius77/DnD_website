@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Ranger",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class ranger||Beast Master|Beast Master}",
+          "Golgari (prefer insects and reptiles), Gruul (prefer fierce beasts), Selesnya (prefer wolves)"
+        ],
+        [
+          "{@class ranger||Gloom Stalker|Gloom Stalker|XGE}*",
+          "Golgari"
+        ],
+        [
+          "{@class ranger||Hunter|Hunter}",
+          "Boros, Gruul, Selesnya"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}"
+      ],
+      "name": "Ranger",
+      "page": 24,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

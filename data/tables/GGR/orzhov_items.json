@@ -1,0 +1,70 @@
+{
+  "table": [
+    {
+      "caption": "Orzhov Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Eyes of charming}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Orzhov Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Orzhov keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Rod of rulership}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Wings of flying}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Mirror of life trapping}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Tome of leadership and influence}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Sphere of annihilation}",
+          "{@i DMG}"
+        ]
+      ],
+      "name": "Orzhov Items",
+      "page": 176,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

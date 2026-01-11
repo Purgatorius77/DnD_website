@@ -1,0 +1,85 @@
+{
+  "table": [
+    {
+      "caption": "Simic Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Cap of water breathing}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Cloak of the manta ray}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Decanter of endless water}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Simic keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Simic Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Necklace of adaptation}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Ring of swimming}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Trident of fish command}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Cloak of the bat}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Manual of bodily health}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Wand of polymorph}",
+          "{@i DMG}"
+        ]
+      ],
+      "name": "Simic Items",
+      "page": 176,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Selesnya Adventure Hooks",
+      "colLabels": [
+        "d6",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A sacred tree has been defiled or cut down, and an angry Selesnya mob is gathering to exact revenge."
+        ],
+        [
+          "2",
+          "The Worldsoul has identified the characters as emblematic of their guilds' overreaching ambition."
+        ],
+        [
+          "3",
+          "A seer of the conclave tries to convince the characters that they are fated to save the world."
+        ],
+        [
+          "4",
+          "Plants throughout a neighborhood develop carnivorous tendencies."
+        ],
+        [
+          "5",
+          "A magic-infused stone of a Selesnya building grows out of control, threatening nearby buildings."
+        ],
+        [
+          "6",
+          "A Selesnya {@creature wurm|GGR} breaks free of its controller and goes on a rampage."
+        ]
+      ],
+      "name": "Other Adventure Hooks; Selesnya Adventure Hooks",
+      "page": 156,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Orzhov NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Advokist",
+          "{@creature Mage}"
+        ],
+        [
+          "Indentured spirit",
+          "{@creature Indentured spirit|GGR}*"
+        ],
+        [
+          "Knight",
+          "{@creature Knight}"
+        ],
+        [
+          "Oligarch",
+          "{@creature Noble}"
+        ],
+        [
+          "Pontiff or ministrant",
+          "{@creature Priest} or {@creature acolyte}"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Orzhov NPCs",
+      "page": 244,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Mystery Guilds",
+      "colLabels": [
+        "d12",
+        "Guild"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–4",
+          "House Dimir"
+        ],
+        [
+          "5–7",
+          "Golgari Swarm"
+        ],
+        [
+          "8",
+          "Izzet League"
+        ],
+        [
+          "9–11",
+          "Orzhov Syndicate"
+        ],
+        [
+          "12",
+          "Simic Combine"
+        ]
+      ],
+      "name": "Mystery Guilds",
+      "page": 125,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

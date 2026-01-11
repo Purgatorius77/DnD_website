@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Protection Guilds",
+      "colLabels": [
+        "d12",
+        "Guild"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–2",
+          "Boros Legion"
+        ],
+        [
+          "3–6",
+          "Gruul Clans"
+        ],
+        [
+          "7–8",
+          "Orzhov Syndicate"
+        ],
+        [
+          "9–12",
+          "Cult of Rakdos"
+        ]
+      ],
+      "name": "Protection Guilds",
+      "page": 125,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

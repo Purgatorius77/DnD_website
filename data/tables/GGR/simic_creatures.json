@@ -1,0 +1,135 @@
+{
+  "table": [
+    {
+      "caption": "Simic Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Homunculus}",
+          "{@i MM}"
+        ],
+        [
+          "1/8",
+          "{@creature Merfolk}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Hybrid spy|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1",
+          "{@creature Category 1 krasis|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1",
+          "{@creature Giant octopus}",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Hybrid poisoner|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1",
+          "{@creature Hybrid shocker|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "2",
+          "{@creature Druid}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Hybrid brute|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "2",
+          "{@creature Hybrid flier|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "2",
+          "{@creature Plesiosaurus}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Killer whale}",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "{@creature Giant shark}",
+          "{@i MM}"
+        ],
+        [
+          "6",
+          "{@creature Category 2 krasis|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "6",
+          "{@creature Mage}",
+          "{@i MM}"
+        ],
+        [
+          "10",
+          "{@creature Biomancer|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "13",
+          "{@creature Skyswimmer|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "16",
+          "{@creature Category 3 krasis|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "16",
+          "{@creature Zegana|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "17",
+          "{@creature Dragon turtle}",
+          "{@i MM}"
+        ],
+        [
+          "23",
+          "{@creature Kraken}",
+          "{@i MM}"
+        ]
+      ],
+      "name": "Simic Creatures",
+      "page": 187,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

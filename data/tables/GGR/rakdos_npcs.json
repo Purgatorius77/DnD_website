@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "caption": "Rakdos NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Blood witch",
+          "{@creature Blood witch|GGR}*"
+        ],
+        [
+          "Cult member",
+          "{@creature Cult fanatic} or {@creature cultist}"
+        ],
+        [
+          "Performer",
+          "{@creature Rakdos lampooner|GGR}* or {@creature Rakdos|GGR} performer ({@creature Rakdos Performer, Blade Juggler|GGR|blade juggler}, {@creature Rakdos Performer, Fire Eater|GGR|fire eater}, or {@creature Rakdos Performer, High-Wire Acrobat|GGR|high-wire acrobat})*"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Rakdos NPCs",
+      "page": 246,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "table": [
+    {
+      "caption": "Selesnya Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "0",
+          "Small nature elemental ({@creature awakened shrub})",
+          "{@i MM}"
+        ],
+        [
+          "1/8",
+          "{@creature Twig blight}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Axe beak}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Needle blight}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Scout}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Soldier|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/2",
+          "{@creature Vine blight}",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Dire wolf}",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Dryad}",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Horncaller|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "2",
+          "{@creature Druid}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "Huge nature elemental ({@creature awakened tree})",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Pegasus}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Priest}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Archer|VGM}",
+          "{@i VGM}"
+        ],
+        [
+          "3",
+          "{@creature Knight}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Veteran}",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "{@creature Earth elemental}",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "{@creature Shambling mound}",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "{@creature Wood woad|VGM}",
+          "{@i VGM}"
+        ],
+        [
+          "9",
+          "{@creature Conclave dryad|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "9",
+          "{@creature Treant}",
+          "{@i MM}"
+        ],
+        [
+          "12",
+          "{@creature Archdruid|VGM}",
+          "{@i VGM}"
+        ],
+        [
+          "12",
+          "Wurmcaller ({@creature archmage})",
+          "{@i MM}"
+        ],
+        [
+          "14",
+          "{@creature Wurm|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "18",
+          "{@creature Trostani|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Selesnya Creatures",
+      "page": 187,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

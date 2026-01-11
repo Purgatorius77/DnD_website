@@ -1,0 +1,120 @@
+{
+  "table": [
+    {
+      "caption": "Izzet Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Alchemy jug}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Elemental gem}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Izzet Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Headband of intellect}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Mizzium apparatus|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Pyroconverger|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Bowl of commanding water elementals}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Brazier of commanding fire elementals}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Censer of controlling air elementals}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Izzet keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Mizzium armor|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Mizzium mortar|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Wand of wonder}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Manual of golems}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Staff of thunder and lightning}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Apparatus of Kwalish}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Ring of elemental command}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Staff of the magi}",
+          "{@i DMG}"
+        ]
+      ],
+      "name": "Izzet Items",
+      "page": 175,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Rogue",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class Rogue||Arcane Trickster|Arcane Trickster}",
+          "Dimir"
+        ],
+        [
+          "{@class Rogue||Assassin|Assassin}",
+          "Dimir, Golgari, Orzhov"
+        ],
+        [
+          "{@class Rogue||Inquisitive|Inquisitive|XGE}*",
+          "Azorius, Dimir"
+        ],
+        [
+          "{@class Rogue||Mastermind|Mastermind|XGE}*",
+          "Dimir"
+        ],
+        [
+          "{@class Rogue||Scout|Scout|XGE}*",
+          "Gruul"
+        ],
+        [
+          "{@class Rogue||Swashbuckler|Swashbuckler|XGE}*",
+          "{@creature Rakdos|GGR}"
+        ],
+        [
+          "{@class Rogue||Thief|Thief}",
+          "Dimir, Golgari, Orzhov, {@creature Rakdos|GGR}"
+        ]
+      ],
+      "name": "Rogue",
+      "page": 24,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

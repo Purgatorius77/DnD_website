@@ -1,0 +1,36 @@
+{
+  "table": [
+    {
+      "caption": "Wilderness Guilds",
+      "colLabels": [
+        "d6",
+        "Guild"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–4",
+          "Gruul Clans"
+        ],
+        [
+          "5–6",
+          "Selesnya Conclave"
+        ]
+      ],
+      "name": "Wilderness Guilds",
+      "page": 124,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

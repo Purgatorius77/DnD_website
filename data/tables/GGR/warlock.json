@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Warlock",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class Warlock||The Archfey|Archfey}",
+          "Selesnya"
+        ],
+        [
+          "{@class Warlock||The Celestial|Celestial|XGE}*",
+          "Boros"
+        ],
+        [
+          "{@class Warlock||The Fiend|Fiend}",
+          "{@creature Rakdos|GGR}"
+        ],
+        [
+          "{@class Warlock||The Great Old One|Great Old One}",
+          "Any"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}"
+      ],
+      "name": "Warlock",
+      "page": 25,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

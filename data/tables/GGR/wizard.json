@@ -1,0 +1,67 @@
+{
+  "table": [
+    {
+      "caption": "Wizard",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class Wizard||School of Abjuration|Abjuration}",
+          "Azorius, Orzhov"
+        ],
+        [
+          "{@class Wizard||School of Conjuration|Conjuration}",
+          "Izzet, Simic"
+        ],
+        [
+          "{@class Wizard||School of Divination|Divination}",
+          "Azorius, Dimir, Orzhov"
+        ],
+        [
+          "{@class Wizard||School of Enchantment|Enchantment}",
+          "Azorius, Dimir, Orzhov"
+        ],
+        [
+          "{@class Wizard||School of Evocation|Evocation}",
+          "Boros, Izzet"
+        ],
+        [
+          "{@class Wizard||School of Illusion|Illusion}",
+          "Dimir"
+        ],
+        [
+          "{@class Wizard||School of Necromancy|Necromancy}",
+          "Golgari, Orzhov"
+        ],
+        [
+          "{@class Wizard||School of Transmutation|Transmutation}",
+          "Izzet, Simic"
+        ],
+        [
+          "{@class Wizard||War Magic|War|XGE}*",
+          "Boros"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}"
+      ],
+      "name": "Wizard",
+      "page": 25,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

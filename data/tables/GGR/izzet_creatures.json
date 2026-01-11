@@ -1,0 +1,140 @@
+{
+  "table": [
+    {
+      "caption": "Izzet Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "0",
+          "Attendant ({@creature commoner})",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Apprentice wizard|VGM}",
+          "{@i VGM}"
+        ],
+        [
+          "1/4",
+          "{@creature Pixie}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Smoke mephit}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Sprite}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Steam mephit}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Ice mephit}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Magma mephit}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Scorchbringer guard|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/2",
+          "Viashino ({@creature lizardfolk})",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Galvanice weird|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "2",
+          "{@creature Counterflux blastseeker|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "4",
+          "{@creature Blistercoil weird|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "4",
+          "{@creature Cosmotronic blastseeker|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "5",
+          "{@creature Flux blastseeker|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "5",
+          "{@creature Galvanic blastseeker|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "6",
+          "Chemister ({@creature mage})",
+          "{@i MM}"
+        ],
+        [
+          "7",
+          "{@creature Fluxcharger|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "8",
+          "{@creature Nivix cyclops|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "12",
+          "{@creature Archmage}",
+          "{@i MM}"
+        ],
+        [
+          "12",
+          "{@creature Arclight phoenix|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "26",
+          "{@creature Niv-Mizzet|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Izzet Creatures",
+      "page": 185,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "table": [
+    {
+      "caption": "Rakdos Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Deck of illusions}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Rakdos keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Rakdos Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Potion of fire breath}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Cape of the mountebank}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Flame tongue}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Mace of terror}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Necklace of fireballs}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Sword of wounding}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Wand of fear}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Wand of fireballs}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Bag of devouring}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Dancing sword}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Demon armor}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Nine lives stealer}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Staff of fire}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Sword of sharpness}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Iron flask}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Rakdos riteknife|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Rakdos Items",
+      "page": 176,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

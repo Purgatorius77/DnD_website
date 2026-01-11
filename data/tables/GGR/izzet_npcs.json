@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Izzet NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Attendant",
+          "{@creature Commoner}"
+        ],
+        [
+          "Chemister",
+          "{@creature Mage}"
+        ],
+        [
+          "Guard",
+          "{@creature Scorchbringer guard|GGR}*"
+        ],
+        [
+          "Magic tester",
+          "{@creature Flux blastseeker|GGR},* {@creature cosmotronic blastseeker|GGR},* {@creature counterflux blastseeker|GGR},* or {@creature galvanic blastseeker|GGR}*"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Izzet NPCs",
+      "page": 240,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "table": [
+    {
+      "caption": "Orzhov Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Bat}",
+          "{@i MM}"
+        ],
+        [
+          "0",
+          "{@creature Commoner}",
+          "{@i MM}"
+        ],
+        [
+          "1/8",
+          "{@creature Guard}",
+          "{@i MM}"
+        ],
+        [
+          "1/8",
+          "{@creature Noble}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Acolyte}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Giant bat}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Servitor thrull|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/4",
+          "{@creature Swarm of bats}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Thug}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Winged thrull|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1",
+          "{@creature Indentured spirit|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1",
+          "Spirit ({@creature specter})",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Gargoyle}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Priest}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Knight}",
+          "{@i MM}"
+        ],
+        [
+          "4",
+          "Spirit ({@creature ghost})",
+          "{@i MM}"
+        ],
+        [
+          "6",
+          "{@creature Mage}",
+          "{@i MM}"
+        ],
+        [
+          "6",
+          "{@creature Orzhov giant|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "8",
+          "{@creature Blood drinker vampire|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "8",
+          "{@creature Obzedat ghost|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "14",
+          "{@creature Deathpact angel|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Orzhov Creatures",
+      "page": 186,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}
