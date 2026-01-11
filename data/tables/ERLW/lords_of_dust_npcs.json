@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Lords of Dust NPCs",
+      "colLabels": [
+        "d6",
+        "NPC"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A virtuous paladin is hunting and destroying those who might one day thwart the Lords of Dust."
+        ],
+        [
+          "2",
+          "A possessed lord or lady spreads corruption throughout the noble house."
+        ],
+        [
+          "3",
+          "A wizard who sought to accelerate their own power by making a dark bargain must now pay the price demanded by their sinister patron."
+        ],
+        [
+          "4",
+          "A powerful demon has corrupted the local ruler in the name of its overlord."
+        ],
+        [
+          "5",
+          "A {@creature succubus} or {@creature incubus} tempts a mercenary warlord to engage in greater and greater battles."
+        ],
+        [
+          "6",
+          "One of the characters' most trusted allies or servants turns out to be a {@creature rakshasa} in disguise."
+        ]
+      ],
+      "name": "Lords of Dust NPCs",
+      "page": 215,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - The Last War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 10
+      }
+    }
+  ]
+}

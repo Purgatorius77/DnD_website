@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Lord of Blades NPCs",
+      "colLabels": [
+        "d6",
+        "NPC"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A House Cannith apprentice warforged becomes obsessed with {@creature the Lord of Blades|ERLW}' message, disrupting house operations in the hope of becoming a warrior in the Mournland."
+        ],
+        [
+          "2",
+          "A warforged druid devises diseases and poisons that have no effect on warforged, and starts to unleash them on the general populace."
+        ],
+        [
+          "3",
+          "A warforged ranger relentlessly hunts creatures of flesh in the wilderness near the Mournland."
+        ],
+        [
+          "4",
+          "A warforged assassin poses as a simple workshop assistant while exterminating those who speak out against the rights of the warforged."
+        ],
+        [
+          "5",
+          "A mad artificer is trying to reactivate a destroyed warforged colossus."
+        ],
+        [
+          "6",
+          "A band of warforged attacks a lightning rail, intent on stealing something in one of the cargo carriages."
+        ]
+      ],
+      "name": "Lord of Blades NPCs",
+      "page": 214,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - The Last War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Mournland Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature The Lord of Blades|ERLW} maintains a detention center where experiments are performed on adventurers and scavengers that his forces capture in the Mournland."
+        ],
+        [
+          "2",
+          "The leader of a cult devoted to {@creature Belashyrra|ERLW}, the Lord of Eyes, uses daelkyr-made tentacles to tear out the eyes of victims and attaches them to members of the cult."
+        ],
+        [
+          "3",
+          "A powerful member of House Cannith hopes to find something in the Mournland that will guarantee the ascendancy of her branch of the house."
+        ],
+        [
+          "4",
+          "A Karrnathi {@creature bone knight|ERLW} (see {@book chapter 6|ERLW|13}) wants to raise up an undead army from the corpses in the Mournland."
+        ],
+        [
+          "5",
+          "A {@creature rakshasa} works to free a fiendish overlord trapped in a whirlwind of stone and sand somewhere in the Mournland."
+        ],
+        [
+          "6",
+          "A servant of the Lords of Dust maintains an extensive collection of severed heads and continues to draw on the knowledge in their brains."
+        ]
+      ],
+      "name": "Mournland Villains",
+      "page": 222,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - The Last War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 10
+      }
+    }
+  ]
+}

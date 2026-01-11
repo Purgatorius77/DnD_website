@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Tarkanan Contacts",
+      "colLabels": [
+        "d6",
+        "Contact"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Rotting Bal} (human) is an assassin, an expert in unarmed combat, and a founding member of the house."
+        ],
+        [
+          "2",
+          "{@b Fileon} (halfling) is a healer with a deadly touch, who evaluates and trains potential recruits."
+        ],
+        [
+          "3",
+          "{@b Nightshade} (gnome) is an assassin and alchemist specializing in exotic poisons, who's always interested in acquiring new toxins or unusual herbs."
+        ],
+        [
+          "4",
+          "{@b Whisper} (elf) is a thief whose aberrant dragonmark absorbs sound. Whisper appreciates fine things and has a vast collection of unusual trinkets."
+        ],
+        [
+          "5",
+          "{@b Zae} (halfling) can influence vermin and see through rats' eyes—an ability often used to spy on people."
+        ],
+        [
+          "6",
+          "{@b Mala Shol} (half-elf) is an expert pickpocket and a master of disguise, with a talent for illusion."
+        ]
+      ],
+      "name": "House Tarkanan; Tarkanan Contacts",
+      "page": 179,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Sharn, City of Towers",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 8
+      }
+    }
+  ]
+}

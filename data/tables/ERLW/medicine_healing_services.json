@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Healing Services",
+      "colLabels": [
+        "Service",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Minor nonmagical care",
+          "3 sp per use of the {@skill Medicine} skill"
+        ],
+        [
+          "Major nonmagical care",
+          "1 gp per day"
+        ],
+        [
+          "{@spell Cure wounds}",
+          "25 gp per level of the spell"
+        ],
+        [
+          "{@spell Lesser restoration}",
+          "50 gp"
+        ],
+        [
+          "{@spell Remove curse}",
+          "75 gp"
+        ],
+        [
+          "{@spell Greater restoration}",
+          "150 gp"
+        ],
+        [
+          "{@spell Raise dead}",
+          "750 gp"
+        ]
+      ],
+      "name": "Medicine; Healing Services",
+      "page": 10,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Welcome to Eberron",
+        "index": 0
+      }
+    }
+  ]
+}

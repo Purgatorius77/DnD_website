@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Group Status",
+      "colLabels": [
+        "d4",
+        "Status"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Favored}. You have access to the leadership of the house, owing to your record of faithful service."
+        ],
+        [
+          "2",
+          "{@b Reliable}. You are reliable contributors to the house, and can count on it for help in difficult situations."
+        ],
+        [
+          "3",
+          "{@b Oddballs}. You don't quite fit in, and tend to draw strange assignments or those that other operatives pass up."
+        ],
+        [
+          "4",
+          "{@b Outcast}. You have made some mistakes in the recent past, and your status in the house is tenuous at best."
+        ]
+      ],
+      "name": "House Status; Group Status",
+      "page": 73,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Character Creation - Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 4
+      }
+    }
+  ]
+}

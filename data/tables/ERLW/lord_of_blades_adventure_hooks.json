@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Lord of Blades Adventure Hooks",
+      "colLabels": [
+        "d6",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A newly awakened {@item docent|ERLW} (see {@book chapter 5|ERLW|12}) tells its new owner that {@creature the Lord of Blades|ERLW} is the only hope for averting a coming catastrophe."
+        ],
+        [
+          "2",
+          "A military officer hires the characters to retrace the steps of a lost scouting party into the Mournland and rescue the commander, who is the officer's son."
+        ],
+        [
+          "3",
+          "Warforged go missing over the course of several weeks; then one resurfaces, badly damaged and raving about {@creature the Lord of Blades|ERLW}."
+        ],
+        [
+          "4",
+          "Characters strike out into a ruin held by {@creature the Lord of Blades|ERLW} and recover a lost relic that has resurfaced in the possession of warforged soldiers."
+        ],
+        [
+          "5",
+          "A warforged accused of murdering several members of their mercenary company claims to have no memory of the night in question."
+        ],
+        [
+          "6",
+          "The characters are met by a warforged who delivers a written summons from {@creature the Lord of Blades|ERLW} himself."
+        ]
+      ],
+      "name": "Lord of Blades Adventure Hooks",
+      "page": 214,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - The Last War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Bazaar Merchants",
+      "colLabels": [
+        "d10",
+        "Merchant"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Secondhand Strings}. A must-stop shop for the bard on a budget, with a variety of gently used instruments."
+        ],
+        [
+          "2",
+          "{@b Korryn's Quill}. A reliable source for cartographers, calligraphers, and scribes of all stripes."
+        ],
+        [
+          "3",
+          "{@b Seven Leagues}. Owned by the cobbler Boots, this small stall has a remarkable selection of footwear."
+        ],
+        [
+          "4",
+          "{@b Borran's Blades}. Borran is one of the few halfling smiths in Sharn. He specializes in knives and daggers."
+        ],
+        [
+          "5",
+          "{@b Hearty Scales}. A stall serving grilled lizard meat and other Talentan delicacies."
+        ],
+        [
+          "6",
+          "{@b Roll and Conquer}. One of Sharn's only game stores. It does most of its business in cards and dice."
+        ],
+        [
+          "7",
+          "{@b The Old Apothecary}. Selling supplies for herbalists and alchemists, this claims to be Bazaar's oldest shop."
+        ],
+        [
+          "8",
+          "{@b Illumination}. This shop sells lamps, lanterns, candles, and torches. Some are magical."
+        ],
+        [
+          "9",
+          "{@b The Magewright's Miscellany}. This little shop deals in spell components. The clerks love to discuss magic."
+        ],
+        [
+          "10",
+          "{@b Sundry's Shop}. A gnome named Sundry runs a pawn shop filled with all manner of trinkets."
+        ]
+      ],
+      "name": "Middle Dura; Bazaar Merchants",
+      "page": 167,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Sharn, City of Towers",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 8
+      }
+    }
+  ]
+}
