@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Elementals",
+      "colLabels": [
+        "d4",
+        "Desired Offering"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A gem worth at least 50 gp, which the creature eats"
+        ],
+        [
+          "2",
+          "An exceedingly pure sample of a favored element"
+        ],
+        [
+          "3",
+          "A way to return the elemental to its home plane"
+        ],
+        [
+          "4",
+          "Performing a dance from the elemental's home plane"
+        ]
+      ],
+      "name": "Monsters' Desires; Elementals",
+      "page": 148,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

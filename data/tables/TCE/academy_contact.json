@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Academy Contact",
+      "colLabels": [
+        "d6",
+        "Contact"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Harried Functionary}. A disinterested secretary conveys written correspondence to you from an exceptionally busy or aloof senior faculty member."
+        ],
+        [
+          "2",
+          "{@b Celebrated Instructor}. Despite their throngs of ambitious assistants, a celebrity researcher considers you their star pupil."
+        ],
+        [
+          "3",
+          "{@b Wizened Fixture}. A fantastically old, believed-to-be-deceased librarian gives you assignments from the circulation desk they never leave."
+        ],
+        [
+          "4",
+          "{@b Infatuated Tourist}. A flirtatious visiting scholar perceives your every report and donated discovery as a personal gift."
+        ],
+        [
+          "5",
+          "{@b Spectral Fragment}. A haunted piece of the academy's collection compels you to complete its secret research."
+        ],
+        [
+          "6",
+          "{@b Distant Observer}. A mysterious sponsor encourages your research from afar to avoid alerting nefarious forces embedded within the academy's bureaucracy."
+        ]
+      ],
+      "name": "Academy Contact",
+      "page": 85,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

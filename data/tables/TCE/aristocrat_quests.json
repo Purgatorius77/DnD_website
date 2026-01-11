@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Aristocrat Quests",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Noble Union}. You work within multiple noble factions to unite rival families."
+        ],
+        [
+          "2",
+          "{@b Business Breakthrough}. You track down and obtain a wonder your patron believes is the key to their financial fortunes."
+        ],
+        [
+          "3",
+          "{@b Sabotage Rival}. You break into the business or estate of an enemy noble family and undermine their political or professional ventures."
+        ],
+        [
+          "4",
+          "{@b Lost Lineage}. You seek evidence of a lost branch of a noble family or proof that individuals don't possess a noble pedigree."
+        ],
+        [
+          "5",
+          "{@b Origin of Nobility}. You reveal the secret reason why certain individuals were elevated to noble status and how they will soon fulfill their purpose."
+        ],
+        [
+          "6",
+          "{@b The New Nobility}. You recreate the remarkable event that granted today's noble families their special standing, enabling the rise of new nobles."
+        ]
+      ],
+      "name": "Aristocrat Quests",
+      "page": 90,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

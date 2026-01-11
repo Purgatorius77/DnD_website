@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Fey",
+      "colLabels": [
+        "d4",
+        "Desired Offering"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The memory of your first kiss"
+        ],
+        [
+          "2",
+          "The color of your eyes"
+        ],
+        [
+          "3",
+          "An object of deep sentimental value to you"
+        ],
+        [
+          "4",
+          "Reciting a sublime poem"
+        ]
+      ],
+      "name": "Monsters' Desires; Fey",
+      "page": 148,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

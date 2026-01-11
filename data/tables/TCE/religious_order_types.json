@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Religious Order Types",
+      "colLabels": [
+        "d6",
+        "Religious Order"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Undead Hunters}. This community of scholars and monster hunters laboriously researches the unquiet dead, tracking them to their lairs and permanently laying them to rest."
+        ],
+        [
+          "2",
+          "{@b Devout Scholars}. This federation prizes knowledge and texts pertaining to their god. They collect rare holy books and record the life stories of miracle-working prophets."
+        ],
+        [
+          "3",
+          "{@b Relic Collectors}. This order of archaeologist-monks seeks to fill their museum-like temple with storied holy relics."
+        ],
+        [
+          "4",
+          "{@b Charitable Missionaries}. Adhering to the belief that religion empowers civilization, this order travels far to help the downtrodden, seeking to draw new believers by their virtuous example."
+        ],
+        [
+          "5",
+          "{@b Militant Inquisitors}. This dogmatically rigid hierarchy seeks to stamp out all threats to their beliefs."
+        ],
+        [
+          "6",
+          "{@b Doomsaying Evangelists}. This order believes the world is about to end. They're convinced that if they persuade everyone else of this fact they might stave off the impending doom."
+        ]
+      ],
+      "name": "Religious Order Types",
+      "page": 98,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

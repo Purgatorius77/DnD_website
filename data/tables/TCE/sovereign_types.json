@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Sovereign Types",
+      "colLabels": [
+        "d6",
+        "Sovereign"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Village Elder}. The wizened leader of a community offers both civic and moral leadership."
+        ],
+        [
+          "2",
+          "{@b Young Noble}. An ambitious noble eagerly seeks to reform society to align with a personal vision."
+        ],
+        [
+          "3",
+          "{@b Shipwrecked Governor}. A desperate leader struggles to keep people alive in a wilderness they're not prepared to endure."
+        ],
+        [
+          "4",
+          "{@b Ruler Returned}. A tribe's revered leader has returned from the dead and seeks to resurrect their past glories."
+        ],
+        [
+          "5",
+          "{@b Hidden Power}. A mysterious figure manipulates the nation's puppet leader and guides the government's true agenda."
+        ],
+        [
+          "6",
+          "{@b True Regent}. The rightful heir to the throne struggles to reclaim power from a perfect impostor."
+        ]
+      ],
+      "name": "Sovereign Types",
+      "page": 100,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Sovereign Contact",
+      "colLabels": [
+        "d6",
+        "Contact"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Intimate Confidant}. The sovereign's friend or lover seeks to aid their companion in any way possible."
+        ],
+        [
+          "2",
+          "{@b Spymaster}. An intelligence operative attends to the nation's dirty work so the sovereign keeps their hands clean."
+        ],
+        [
+          "3",
+          "{@b Administrator}. This severe bureaucrat disagrees with many of the sovereign's policies but takes loyal service seriously."
+        ],
+        [
+          "4",
+          "{@b Executive Assistant}. The responsibilities of an exacting butler or other servant at the royal household far exceed their title."
+        ],
+        [
+          "5",
+          "{@b Envoy}. A semi-retired, leisure-loving ambassador speaks in suggestion and innuendo."
+        ],
+        [
+          "6",
+          "{@b Spectral Assembly}. A ghostly council of the nation's previous regents manifests to avert disasters."
+        ]
+      ],
+      "name": "Sovereign Contact",
+      "page": 102,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

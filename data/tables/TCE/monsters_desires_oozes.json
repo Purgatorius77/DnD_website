@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Oozes",
+      "colLabels": [
+        "d4",
+        "Desired Offering"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A vial of putrid liquids"
+        ],
+        [
+          "2",
+          "A cloth bearing a noxious odor"
+        ],
+        [
+          "3",
+          "Bones or metal, which the ooze promptly absorbs"
+        ],
+        [
+          "4",
+          "A gallon of any effervescent fluid"
+        ]
+      ],
+      "name": "Monsters' Desires; Oozes",
+      "page": 148,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

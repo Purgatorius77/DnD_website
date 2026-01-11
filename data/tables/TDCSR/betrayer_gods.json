@@ -1,0 +1,75 @@
+{
+  "table": [
+    {
+      "caption": "Betrayer Gods",
+      "colLabels": [
+        "Deity",
+        "Alignment",
+        "Province"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "{@deity The Lord of the Hells|Exandria|TDCSR|Lord of the Hells}",
+          "Lawful evil",
+          "God of devils and the Hells"
+        ],
+        [
+          "{@deity The Strife Emperor|Exandria|TDCSR|Strife Emperor}",
+          "Lawful evil",
+          "Conquest, tyranny"
+        ],
+        [
+          "{@deity The Ruiner|Exandria|TDCSR}",
+          "Chaotic evil",
+          "Slaughter, warfare"
+        ],
+        [
+          "{@deity The Spider Queen|Exandria|TDCSR|Spider Queen}",
+          "Chaotic evil",
+          "Deceit, spiders"
+        ],
+        [
+          "{@deity The Chained Oblivion|Exandria|TDCSR|Chained Oblivion}",
+          "Chaotic evil",
+          "Darkness, destruction"
+        ],
+        [
+          "{@deity The Scaled Tyrant|Exandria|TDCSR|Scaled Tyrant}",
+          "Lawful evil",
+          "Dragon god of evil"
+        ],
+        [
+          "{@deity The Crawling King|Exandria|TDCSR|Crawling King}",
+          "Neutral evil",
+          "Enslavement, torture"
+        ],
+        [
+          "{@deity The Whispered One|Exandria|TDCSR|Whispered One}",
+          "Neutral evil",
+          "Necromancy, secrets"
+        ],
+        [
+          "{@deity The Cloaked Serpent|Exandria|TDCSR|Cloaked Serpent}",
+          "Chaotic evil",
+          "Assassins, poison, snakes"
+        ]
+      ],
+      "name": "Betrayer Gods",
+      "page": 34,
+      "source": "TDCSR",
+      "chapter": {
+        "name": "Allegiances of Tal'Dorei",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

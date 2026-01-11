@@ -1,0 +1,84 @@
+{
+  "table": [
+    {
+      "caption": "Monster Research",
+      "colLabels": [
+        "Type",
+        "Suggested Skills"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Aberration",
+          "{@skill Arcana}"
+        ],
+        [
+          "Beast",
+          "{@skill Animal Handling}, {@skill Nature}, or {@skill Survival}"
+        ],
+        [
+          "Celestial",
+          "{@skill Arcana} or {@skill Religion}"
+        ],
+        [
+          "Construct",
+          "{@skill Arcana}"
+        ],
+        [
+          "Dragon",
+          "{@skill Arcana}, {@skill History}, or {@skill Nature}"
+        ],
+        [
+          "Elemental",
+          "{@skill Arcana} or {@skill Nature}"
+        ],
+        [
+          "Fey",
+          "{@skill Arcana} or {@skill Nature}"
+        ],
+        [
+          "Fiend",
+          "{@skill Arcana} or {@skill Religion}"
+        ],
+        [
+          "Giant",
+          "{@skill History}"
+        ],
+        [
+          "Humanoid",
+          "{@skill History}"
+        ],
+        [
+          "Monstrosity",
+          "{@skill Nature} or {@skill Survival}"
+        ],
+        [
+          "Ooze",
+          "{@skill Arcana} or {@skill Survival}"
+        ],
+        [
+          "Plant",
+          "{@skill Nature} or {@skill Survival}"
+        ],
+        [
+          "Undead",
+          "{@skill Arcana} or {@skill Religion}"
+        ]
+      ],
+      "name": "Monster Research",
+      "page": 148,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

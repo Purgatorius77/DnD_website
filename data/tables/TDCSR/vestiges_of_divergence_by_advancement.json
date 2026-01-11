@@ -1,0 +1,134 @@
+{
+  "table": [
+    {
+      "caption": "Vestiges of Divergence by Advancement",
+      "colLabels": [
+        "Item Group",
+        "Dormant",
+        "Awakened",
+        "Exalted"
+      ],
+      "colStyles": [
+        "col-3 text-left",
+        "col-3 text-right",
+        "col-3 text-right",
+        "col-3 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Agony|TDCSR}",
+          "{@item Agony (Dormant)|TDCSR}",
+          "{@item Agony (Awakened)|TDCSR}",
+          "{@item Agony (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Armor of the Valiant Soul|TDCSR}",
+          "{@item Armor of the Valiant Soul (Dormant)|TDCSR}",
+          "{@item Armor of the Valiant Soul (Awakened)|TDCSR}",
+          "{@item Armor of the Valiant Soul (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Cabal's Ruin|TDCSR}",
+          "{@item Cabal's Ruin (Dormant)|TDCSR}",
+          "{@item Cabal's Ruin (Awakened)|TDCSR}",
+          "{@item Cabal's Ruin (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Circlet of Barbed Vision|TDCSR}",
+          "{@item Circlet of Barbed Vision (Dormant)|TDCSR}",
+          "{@item Circlet of Barbed Vision (Awakened)|TDCSR}",
+          "{@item Circlet of Barbed Vision (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Condemner|TDCSR}",
+          "{@item Condemner (Dormant)|TDCSR}",
+          "{@item Condemner (Awakened)|TDCSR}",
+          "{@item Condemner (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Deathwalker's Ward|TDCSR}",
+          "{@item Deathwalker's Ward (Dormant)|TDCSR}",
+          "{@item Deathwalker's Ward (Awakened)|TDCSR}",
+          "{@item Deathwalker's Ward (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Fenthras|TDCSR}",
+          "{@item Fenthras (Dormant)|TDCSR}",
+          "{@item Fenthras (Awakened)|TDCSR}",
+          "{@item Fenthras (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Honor's Last Stand|TDCSR}",
+          "{@item Honor's Last Stand (Dormant)|TDCSR}",
+          "{@item Honor's Last Stand (Awakened)|TDCSR}",
+          "{@item Honor's Last Stand (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Kiss of the Changebringer|TDCSR}",
+          "{@item Kiss of the Changebringer (Dormant)|TDCSR}",
+          "{@item Kiss of the Changebringer (Awakened)|TDCSR}",
+          "{@item Kiss of the Changebringer (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Mythcarver|TDCSR}",
+          "{@item Mythcarver (Dormant)|TDCSR}",
+          "{@item Mythcarver (Awakened)|TDCSR}",
+          "{@item Mythcarver (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Plate of the Dawnmartyr|TDCSR}",
+          "{@item Plate of the Dawnmartyr (Dormant)|TDCSR}",
+          "{@item Plate of the Dawnmartyr (Awakened)|TDCSR}",
+          "{@item Plate of the Dawnmartyr (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Pyremaul|TDCSR}",
+          "{@item Pyremaul (Dormant)|TDCSR}",
+          "{@item Pyremaul (Awakened)|TDCSR}",
+          "{@item Pyremaul (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Spire of Conflux|TDCSR}",
+          "{@item Spire of Conflux (Dormant)|TDCSR}",
+          "{@item Spire of Conflux (Awakened)|TDCSR}",
+          "{@item Spire of Conflux (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Star Razor|TDCSR}",
+          "{@item Star Razor (Dormant)|TDCSR}",
+          "{@item Star Razor (Awakened)|TDCSR}",
+          "{@item Star Razor (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Titanstone Knuckles|TDCSR}",
+          "{@item Titanstone Knuckles (Dormant)|TDCSR}",
+          "{@item Titanstone Knuckles (Awakened)|TDCSR}",
+          "{@item Titanstone Knuckles (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Whisper|TDCSR}",
+          "{@item Whisper (Dormant)|TDCSR}",
+          "{@item Whisper (Awakened)|TDCSR}",
+          "{@item Whisper (Exalted)|TDCSR}"
+        ],
+        [
+          "{@item Wraps of Dyamak|TDCSR}",
+          "{@item Wraps of Dyamak (Dormant)|TDCSR}",
+          "{@item Wraps of Dyamak (Awakened)|TDCSR}",
+          "{@item Wraps of Dyamak (Exalted)|TDCSR}"
+        ]
+      ],
+      "name": "Vestiges of Divergence by Advancement",
+      "page": 200,
+      "source": "TDCSR",
+      "chapter": {
+        "name": "Game Master's Toolkit",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

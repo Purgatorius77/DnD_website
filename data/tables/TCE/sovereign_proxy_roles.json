@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Sovereign Proxy Roles",
+      "colLabels": [
+        "Role",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Advisor",
+          "{@background Acolyte}, {@background Folk Hero}, {@background Noble}, {@background Sage}, {@background Soldier}"
+        ],
+        [
+          "Ambassador",
+          "{@background Charlatan}, {@background Folk Hero}, {@background Guild Artisan}, {@background Noble}, {@background Sailor}"
+        ],
+        [
+          "Secret Agent",
+          "{@background Charlatan}, {@background Criminal}, {@background Entertainer}, {@background Soldier}, {@background Urchin}"
+        ],
+        [
+          "Champion",
+          "{@background Criminal}, {@background Noble}, {@background Outlander}, {@background Soldier}, {@background Urchin}"
+        ],
+        [
+          "Jester",
+          "{@background Charlatan}, {@background Criminal}, {@background Entertainer}, {@background Outlander}, {@background Urchin}"
+        ],
+        [
+          "Confidant",
+          "{@5etools Any|backgrounds.html}"
+        ]
+      ],
+      "name": "Sovereign Proxy Roles",
+      "page": 102,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

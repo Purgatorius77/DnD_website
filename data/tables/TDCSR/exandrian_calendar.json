@@ -1,0 +1,149 @@
+{
+  "table": [
+    {
+      "caption": "Exandrian Calendar",
+      "colLabels": [
+        "Month",
+        "Day",
+        "Holidays"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-3 text-center",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "Horisal",
+          "29",
+          {
+            "type": "entries",
+            "entries": [
+              "New Dawn (1st)",
+              "Hillsgold (27th)"
+            ],
+            "id": "012"
+          }
+        ],
+        [
+          "Misuthar",
+          "30",
+          "Day of Challenging (7th)"
+        ],
+        [
+          "Dualahei",
+          "30",
+          {
+            "type": "entries",
+            "entries": [
+              "Renewal Festival (13th)",
+              "Wild's Grandeur (20th)"
+            ],
+            "id": "013"
+          }
+        ],
+        [
+          "Thunsheer",
+          "31",
+          {
+            "type": "entries",
+            "entries": [
+              "Harvest's Rise (11th)",
+              "Merryfrond's Day (31st)"
+            ],
+            "id": "014"
+          }
+        ],
+        [
+          "Unndilar",
+          "28",
+          {
+            "type": "entries",
+            "entries": [
+              "Deep Solace (8th)",
+              "Zenith (26th)"
+            ],
+            "id": "015"
+          }
+        ],
+        [
+          "Brussendar",
+          "31",
+          {
+            "type": "entries",
+            "entries": [
+              "Artisan's Faire (15th)",
+              "Elvendawn or Midsummer (20th)"
+            ],
+            "id": "016"
+          }
+        ],
+        [
+          "Sydenstar",
+          "32",
+          {
+            "type": "entries",
+            "entries": [
+              "Highsummer (7th)",
+              "Morn of Largesse (14th)"
+            ],
+            "id": "017"
+          }
+        ],
+        [
+          "Fessuran",
+          "29",
+          "Harvest's Close (3rd)"
+        ],
+        [
+          "Quen'pillar",
+          "27",
+          {
+            "type": "entries",
+            "entries": [
+              "The Hazel Festival (10th)",
+              "Civilization's Dawn (22nd)"
+            ],
+            "id": "018"
+          }
+        ],
+        [
+          "Cuersaar",
+          "29",
+          {
+            "type": "entries",
+            "entries": [
+              "Night of Ascension (13th)",
+              "Zan's Cup (21st)"
+            ],
+            "id": "019"
+          }
+        ],
+        [
+          "Duscar",
+          "32",
+          {
+            "type": "entries",
+            "entries": [
+              "Barren Eve (2nd)",
+              "Embertide (5th)",
+              "Winter's Crest (20th)"
+            ],
+            "id": "01a"
+          }
+        ]
+      ],
+      "name": "Exandrian Calendar",
+      "page": 9,
+      "source": "TDCSR",
+      "chapter": {
+        "name": "Welcome to Tal'Dorei",
+        "ordinal": {
+          "identifier": 1,
+          "type": "chapter"
+        },
+        "index": 1
+      }
+    }
+  ]
+}

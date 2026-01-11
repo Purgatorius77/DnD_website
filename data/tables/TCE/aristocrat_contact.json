@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Aristocrat Contact",
+      "colLabels": [
+        "d6",
+        "Contact"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Common Contact}. A servant with ambitions toward a title works as a go-between for your patron."
+        ],
+        [
+          "2",
+          "{@b Professional}. A level-headed advisor or manager of your patron's business directs you in keeping their reckless employer safe."
+        ],
+        [
+          "3",
+          "{@b Family Peacemaker}. A naive aristocrat appointed by your patron wants your assistance in keeping the peace between fractious family members, which isn't your patron's priority."
+        ],
+        [
+          "4",
+          "{@b Intimate Connection}. A common-born confidant or lover of your patron guides you in creating circumstances to bolster the noble family's best interests."
+        ],
+        [
+          "5",
+          "{@b Outside Insider}. An outcast noble favored by your patron works with you to uphold their family's interests despite their exile."
+        ],
+        [
+          "6",
+          "{@b Outsider Inside}. A mysterious entity manipulates a noble family's fortunes. Through your patron, it employs you to help guide its chosen family along a centuries-long course."
+        ]
+      ],
+      "name": "Aristocrat Contact",
+      "page": 90,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

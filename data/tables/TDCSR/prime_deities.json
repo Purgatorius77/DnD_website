@@ -1,0 +1,90 @@
+{
+  "table": [
+    {
+      "caption": "Prime Deities",
+      "colLabels": [
+        "Deity",
+        "Alignment",
+        "Province"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "{@deity The Changebringer|Exandria|TDCSR|Changebringer}",
+          "Chaotic good",
+          "Change, freedom, luck"
+        ],
+        [
+          "{@deity The Platinum Dragon|Exandria|TDCSR|Platinum Dragon}",
+          "Lawful good",
+          "Honor, justice"
+        ],
+        [
+          "{@deity The Arch Heart|Exandria|TDCSR|Arch Heart}",
+          "Chaotic good",
+          "Art, beauty, {@book elves|TDCSR|4|elves}"
+        ],
+        [
+          "{@deity The Lawbearer|Exandria|TDCSR|Lawbearer}",
+          "Lawful neutral",
+          "Civilization, law, peace"
+        ],
+        [
+          "{@deity The Knowing Mentor|Exandria|TDCSR|Knowing Mentor}",
+          "Neutral",
+          "Knowledge, learning, teaching"
+        ],
+        [
+          "{@deity The Stormlord|Exandria|TDCSR|Stormlord}",
+          "Chaotic neutral",
+          "Battle, competition, storms"
+        ],
+        [
+          "{@deity The Wildmother|Exandria|TDCSR|Wildmother}",
+          "Neutral",
+          "Seas, wilderness"
+        ],
+        [
+          "{@deity The All-Hammer|Exandria|TDCSR|All-Hammer}",
+          "Lawful good",
+          "Craft, creation"
+        ],
+        [
+          "{@deity The Dawnfather|Exandria|TDCSR|Dawnfather}",
+          "Neutral good",
+          "Healing, sun"
+        ],
+        [
+          "{@deity The Everlight|Exandria|TDCSR|Everlight}",
+          "Neutral good",
+          "Atonement, compassion"
+        ],
+        [
+          "{@deity The Matron of Ravens|Exandria|TDCSR|Matron of Ravens}",
+          "Lawful neutral",
+          "Death, fate, winter"
+        ],
+        [
+          "{@deity The Moonweaver|Exandria|TDCSR|Moonweaver}",
+          "Chaotic good",
+          "Illusion, moonlight, night"
+        ]
+      ],
+      "name": "Prime Deities",
+      "page": 27,
+      "source": "TDCSR",
+      "chapter": {
+        "name": "Allegiances of Tal'Dorei",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

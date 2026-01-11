@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Guild Representative Roles",
+      "colLabels": [
+        "Role",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Researcher",
+          "{@background Acolyte}, {@background Entertainer}, {@background Guild Artisan}, {@background Sage}"
+        ],
+        [
+          "Negotiator",
+          "{@background Charlatan}, {@background Entertainer}, {@background Guild Artisan}, {@background Noble}, {@background Sailor}"
+        ],
+        [
+          "Saboteur",
+          "{@background Charlatan}, {@background Criminal}, {@background Guild Artisan}, {@background Soldier}, {@background Urchin}"
+        ],
+        [
+          "Guard",
+          "{@background Criminal}, {@background Folk Hero}, {@background Outlander}, {@background Sailor}, {@background Soldier}"
+        ],
+        [
+          "Explorer",
+          "{@background Acolyte}, {@background Folk Hero}, {@background Guild Artisan}, {@background Outlander}, {@background Sailor}"
+        ],
+        [
+          "Expert",
+          "{@5etools Any|backgrounds.html}"
+        ]
+      ],
+      "name": "Guild Representative Roles",
+      "page": 95,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

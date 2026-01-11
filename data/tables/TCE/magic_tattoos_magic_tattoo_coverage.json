@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Magic Tattoo Coverage",
+      "colLabels": [
+        "Tattoo Rarity",
+        "Area Covered"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Common",
+          "One hand or foot or a quarter of a limb"
+        ],
+        [
+          "Uncommon",
+          "Half a limb or the scalp"
+        ],
+        [
+          "Rare",
+          "One limb"
+        ],
+        [
+          "Very Rare",
+          "Two limbs or the chest or upper back"
+        ],
+        [
+          "Legendary",
+          "Two limbs and the torso"
+        ]
+      ],
+      "name": "Magic Tattoos; Magic Tattoo Coverage",
+      "page": 118,
+      "source": "TCE",
+      "chapter": {
+        "name": "Magical Miscellany",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

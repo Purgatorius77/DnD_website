@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Skeleton Keys Solution",
+      "colLabels": [
+        "Lock",
+        "Key"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-8 text-center"
+      ],
+      "rows": [
+        [
+          "Bat",
+          "Three teeth"
+        ],
+        [
+          "Snake",
+          "Five teeth"
+        ],
+        [
+          "Spider",
+          "Six teeth"
+        ],
+        [
+          "Wolf",
+          "Four teeth"
+        ]
+      ],
+      "name": "Skeleton Keys Solution",
+      "page": 175,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

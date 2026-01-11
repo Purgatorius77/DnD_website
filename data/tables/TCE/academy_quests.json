@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Academy Quests",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Aberrant Zoology}. You undertake expeditions to document, capture, and explain beings antithetical to the natural order."
+        ],
+        [
+          "2",
+          "{@b Arcanodynamics}. You investigate the ways magic underpins existence, exploring its flows and seeking ways to harness its nexuses."
+        ],
+        [
+          "3",
+          "{@b Forbidden History}. You reveal the lost truths of the world's darkest ages, pursuing the history of purposefully hidden or taboo eras."
+        ],
+        [
+          "4",
+          "{@b Cryptogeography}. You search for proof of a hidden land or that the world isn't structured as commonly assumed."
+        ],
+        [
+          "5",
+          "{@b Restorative Antiquarianism}. You track clues leading to plundered artifacts and then restore them to their rightful owners."
+        ],
+        [
+          "6",
+          "{@b Evolutionary Divinity}. You dare to explore what no mortal was meant to know: the origins of divinity."
+        ]
+      ],
+      "name": "Academy Quests",
+      "page": 86,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

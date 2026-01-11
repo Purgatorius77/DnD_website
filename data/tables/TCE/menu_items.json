@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Menu Items",
+      "colLabels": [
+        "Item",
+        "Price"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "Corn and lentil soup",
+          "12 cp"
+        ],
+        [
+          "Rabbit stew",
+          "1 cp"
+        ],
+        [
+          "Ale and cheese pastry",
+          "7 cp"
+        ],
+        [
+          "Brandied ham and carrots",
+          "9 cp"
+        ],
+        [
+          "Grilled fish and carrots",
+          "6 cp"
+        ],
+        [
+          "Seared boar and potatoes",
+          "9 cp"
+        ],
+        [
+          "Dragonfire mead",
+          "11 cp"
+        ]
+      ],
+      "name": "Menu Items",
+      "page": 187,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

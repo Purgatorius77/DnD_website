@@ -1,0 +1,166 @@
+{
+  "table": [
+    {
+      "caption": "Omu Encounters",
+      "colLabelRows": [
+        [
+          "Encounter",
+          "Ruins",
+          "Palace",
+          "Swamp"
+        ],
+        [
+          "",
+          "{@dice d100}",
+          "{@dice d100}",
+          "{@dice d100}"
+        ]
+      ],
+      "colStyles": [
+        "col-6",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@area Apes|5a3|x}",
+          "01–05",
+          "—",
+          "—"
+        ],
+        [
+          "{@area Baboons|5a7|x}",
+          "06–10",
+          "01–10",
+          "—"
+        ],
+        [
+          "{@area Cannibals|5a9|x}",
+          "11–15",
+          "—",
+          "—"
+        ],
+        [
+          "{@area Crocodiles|5ab|x}",
+          "—",
+          "—",
+          "01–10"
+        ],
+        [
+          "{@area Dragon, faerie|5bb|x}",
+          "16–20",
+          "11–15",
+          "—"
+        ],
+        [
+          "{@area Gargoyles|602|x}",
+          "21–25",
+          "16–25",
+          "11–15"
+        ],
+        [
+          "{@area Giant wasps|5cf|x}",
+          "26–30",
+          "—",
+          "16–25"
+        ],
+        [
+          "{@area Giant wolf spiders|603|x}",
+          "31–35",
+          "26–35",
+          "—"
+        ],
+        [
+          "{@area Goblins|5d1|x}",
+          "36–40",
+          "36–40",
+          "—"
+        ],
+        [
+          "{@area Grungs|5d2|x}",
+          "41–45",
+          "—",
+          "26–35"
+        ],
+        [
+          "{@area King of Feathers|604|x}",
+          "46–50",
+          "41–50",
+          "36–50"
+        ],
+        [
+          "{@area Kobolds|605|x}",
+          "51–55",
+          "51–60",
+          "—"
+        ],
+        [
+          "{@area Red Wizard|5dd|x}",
+          "56–60",
+          "61–70",
+          "—"
+        ],
+        [
+          "{@area Shambling mound|5e0|x}",
+          "61–65",
+          "—",
+          "51–60"
+        ],
+        [
+          "{@area Su-monsters|5e7|x}",
+          "66–70",
+          "71–75",
+          "—"
+        ],
+        [
+          "{@area Tabaxi hunter|5eb|x}",
+          "71–75",
+          "76–80",
+          "—"
+        ],
+        [
+          "Undead, {@area ghouls|5f0|x}",
+          "76–80",
+          "—",
+          "61–65"
+        ],
+        [
+          "Undead, {@area zombies|5f4|x}",
+          "81–85",
+          "—",
+          "66–70"
+        ],
+        [
+          "{@area Vegepygmies|5f5|x}",
+          "86–90",
+          "—",
+          "71–80"
+        ],
+        [
+          "{@area Yellow musk creeper and yellow musk zombies|5f9|x}",
+          "91–95",
+          "81–90",
+          "81–90"
+        ],
+        [
+          "{@area Yuan-ti|5fa|x}",
+          "96–00",
+          "91–00",
+          "91–00"
+        ]
+      ],
+      "name": "Omu Encounters",
+      "page": 204,
+      "source": "ToA",
+      "chapter": {
+        "name": "Random Encounters",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 7
+      }
+    }
+  ]
+}

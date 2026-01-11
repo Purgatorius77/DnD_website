@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Aristocrat Types",
+      "colLabels": [
+        "d6",
+        "Aristocrats"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Local Lord}. Convinced that power and prestige lie just around the corner, this minor lordling grasps for every opportunity to climb the ranks."
+        ],
+        [
+          "2",
+          "{@b Merchant Mastermind}. Reputation, wealth, and power are one and the same for the head of a family with world-spanning business holdings."
+        ],
+        [
+          "3",
+          "{@b Nomadic Princeling}. Nothing is more appealing to this princeling than treasure. Their sprawling merchant caravan trails behind their palanquin as far as the eye can see."
+        ],
+        [
+          "4",
+          "{@b Double Dealer}. The leader of a noble family has turned against their nation, secretly opposing their liege for personal gain or ethical reasons."
+        ],
+        [
+          "5",
+          "{@b Ambitious Entrepreneur}. The sole heir of a vast fortune, this entrepreneur seeks allies to expand their wealth in a new business on the international, global, or planar stage."
+        ],
+        [
+          "6",
+          "{@b Future Ruler}. This young noble is destined to rule, but currently their whims are fickle and dangerous."
+        ]
+      ],
+      "name": "Aristocrat Types",
+      "page": 89,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

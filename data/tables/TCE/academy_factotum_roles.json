@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Academy Factotum Roles",
+      "colLabels": [
+        "Role",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Student",
+          "{@background Acolyte}, {@background Guild Artisan}, {@background Noble}, {@background Outlander}, {@background Sage}, {@background Urchin}"
+        ],
+        [
+          "Groundskeeper",
+          "{@background Charlatan}, {@background Hermit}, {@background Outlander}, {@background Soldier}, {@background Urchin}"
+        ],
+        [
+          "Professor",
+          "{@background Acolyte}, {@background Entertainer}, {@background Folk Hero}, {@background Noble}, {@background Sage}"
+        ],
+        [
+          "Researcher",
+          "{@background Acolyte}, {@background Charlatan}, {@background Guild Artisan}, {@background Hermit}, {@background Sage}"
+        ],
+        [
+          "Financier",
+          "{@background Charlatan}, {@background Criminal}, {@background Noble}, {@background Sailor}, {@background Urchin}"
+        ],
+        [
+          "Expert Speaker",
+          "{@5etools Any|backgrounds.html}"
+        ]
+      ],
+      "name": "Academy Factotum Roles",
+      "page": 85,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

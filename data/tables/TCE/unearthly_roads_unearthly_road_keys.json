@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Unearthly Road Keys",
+      "colLabels": [
+        "d6",
+        "Key"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Throwing a silver orb through an ancient arch"
+        ],
+        [
+          "2",
+          "Spilling a pint of humanoid blood"
+        ],
+        [
+          "3",
+          "Calling the name of a specific archfey three times"
+        ],
+        [
+          "4",
+          "Wearing the regalia of a lost royal dynasty"
+        ],
+        [
+          "5",
+          "Permanently sacrificing a memory of joy"
+        ],
+        [
+          "6",
+          "Being the descendant of a legendary hero"
+        ]
+      ],
+      "name": "Unearthly Roads; Unearthly Road Keys",
+      "page": 169,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

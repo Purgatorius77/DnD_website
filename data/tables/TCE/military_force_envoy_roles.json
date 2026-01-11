@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Military Force Envoy Roles",
+      "colLabels": [
+        "Role",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Combatant",
+          "{@background Criminal}, {@background Folk Hero}, {@background Outlander}, {@background Sailor}, {@background Soldier}"
+        ],
+        [
+          "Tactician",
+          "{@background Acolyte}, {@background Folk Hero}, {@background Noble}, {@background Outlander}, {@background Sage}, {@background Soldier}"
+        ],
+        [
+          "Medic",
+          "{@background Acolyte}, {@background Folk Hero}, {@background Hermit}, {@background Sage}, {@background Soldier}"
+        ],
+        [
+          "Scout",
+          "{@background Hermit}, {@background Outlander}, {@background Sailor}, {@background Soldier}, {@background Urchin}"
+        ],
+        [
+          "Provocateur",
+          "{@background Acolyte}, {@background Charlatan}, {@background Criminal}, {@background Entertainer}, {@background Noble}"
+        ],
+        [
+          "Spy",
+          "{@5etools Any|backgrounds.html}"
+        ]
+      ],
+      "name": "Military Force Envoy Roles",
+      "page": 97,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

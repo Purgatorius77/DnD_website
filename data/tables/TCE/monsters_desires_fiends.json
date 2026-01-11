@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Fiends",
+      "colLabels": [
+        "d4",
+        "Desired Offering"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Your soul"
+        ],
+        [
+          "2",
+          "A desecrated holy object"
+        ],
+        [
+          "3",
+          "Blood from a living or recently slain loved one"
+        ],
+        [
+          "4",
+          "Breaking a sacred promise in the fiend's presence"
+        ]
+      ],
+      "name": "Monsters' Desires; Fiends",
+      "page": 148,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

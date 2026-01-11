@@ -1,0 +1,75 @@
+{
+  "table": [
+    {
+      "caption": "Gem Inventory",
+      "colLabels": [
+        "Gem",
+        "Amount",
+        "Letter"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Amber",
+          "9",
+          "I"
+        ],
+        [
+          "Amethyst",
+          "14",
+          "N"
+        ],
+        [
+          "Citrine",
+          "8",
+          "H"
+        ],
+        [
+          "Garnet",
+          "5",
+          "E"
+        ],
+        [
+          "Jade",
+          "18",
+          "R"
+        ],
+        [
+          "Onyx",
+          "16",
+          "P"
+        ],
+        [
+          "Quartz",
+          "1",
+          "A"
+        ],
+        [
+          "Ruby",
+          "12",
+          "L"
+        ],
+        [
+          "Sapphire",
+          "13",
+          "M"
+        ]
+      ],
+      "name": "Solution; Gem Inventory",
+      "page": 176,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

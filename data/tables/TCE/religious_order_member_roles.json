@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Religious Order Member Roles",
+      "colLabels": [
+        "Role",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Councilor",
+          "{@background Acolyte}, {@background Folk Hero}, {@background Hermit}, {@background Sage}, {@background Urchin}"
+        ],
+        [
+          "Defender",
+          "{@background Acolyte}, {@background Criminal}, {@background Folk Hero}, {@background Outlander}, {@background Soldier}"
+        ],
+        [
+          "Ascetic",
+          "{@background Acolyte}, {@background Entertainer}, {@background Hermit}, {@background Sage}, {@background Soldier}"
+        ],
+        [
+          "Inquisitor",
+          "{@background Acolyte}, {@background Criminal}, {@background Noble}, {@background Sailor}, {@background Soldier}"
+        ],
+        [
+          "Emissary",
+          "{@background Acolyte}, {@background Charlatan}, {@background Entertainer}, {@background Noble}, {@background Sailor}"
+        ],
+        [
+          "Chosen One",
+          "{@5etools Any|backgrounds.html}"
+        ]
+      ],
+      "name": "Religious Order Member Roles",
+      "page": 99,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

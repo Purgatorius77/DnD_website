@@ -1,0 +1,120 @@
+{
+  "table": [
+    {
+      "caption": "Spells as Natural Hazards",
+      "colLabels": [
+        "Natural Hazard",
+        "Approximate Spell"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Ball lightning",
+          "{@spell Chromatic orb}"
+        ],
+        [
+          "Blizzard",
+          "{@spell Cone of cold}, {@spell ice storm}, {@spell sleet storm}"
+        ],
+        [
+          "Earthquake",
+          "{@spell Earthquake}"
+        ],
+        [
+          "Falling debris",
+          "{@spell Conjure barrage}, {@spell conjure volley}"
+        ],
+        [
+          "Flood",
+          "{@spell Control water}, {@spell tsunami}"
+        ],
+        [
+          "Fog",
+          "{@spell Fog cloud}"
+        ],
+        [
+          "Lava bomb",
+          "{@spell Fireball}, {@spell produce flame}"
+        ],
+        [
+          "Lightning",
+          "{@spell Call lightning}, {@spell lightning bolt}"
+        ],
+        [
+          "Meteor",
+          "{@spell Fireball}, {@spell meteor swarm}"
+        ],
+        [
+          "Mirage",
+          "{@spell Hallucinatory terrain}"
+        ],
+        [
+          "Pyroclastic flow",
+          "{@spell Incendiary cloud}"
+        ],
+        [
+          "Radiation",
+          "{@spell Blight}, {@spell circle of death}"
+        ],
+        [
+          "Smoke",
+          "{@spell Fog cloud}"
+        ],
+        [
+          "St. Elmo's fire",
+          "{@spell Faerie fire}"
+        ],
+        [
+          "Swamp gas",
+          "{@spell Dancing lights}"
+        ],
+        [
+          "Tidal wave",
+          "{@spell Tsunami}"
+        ],
+        [
+          "Toxic eruption",
+          "{@spell Acid splash}"
+        ],
+        [
+          "Toxic gas",
+          "{@spell Cloudkill}, {@spell stinking cloud}"
+        ],
+        [
+          "Thunder",
+          "{@spell Thunderwave}"
+        ],
+        [
+          "Volcanic lightning",
+          "{@spell Storm of vengeance}"
+        ],
+        [
+          "Whirlpool",
+          "{@spell Control water}"
+        ],
+        [
+          "Wildfire",
+          "{@spell Fire storm}, {@spell wall of fire}"
+        ],
+        [
+          "Windstorm",
+          "{@spell Gust of wind}"
+        ]
+      ],
+      "name": "Spells as Natural Hazards",
+      "page": 170,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

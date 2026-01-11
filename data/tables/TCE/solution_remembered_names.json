@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Remembered Names",
+      "colLabels": [
+        "Alcove",
+        "Name",
+        "Letter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5 text-center",
+        "col-5 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "Sam",
+          "S"
+        ],
+        [
+          "2",
+          "Delia",
+          "E"
+        ],
+        [
+          "3",
+          "Fifi",
+          "F"
+        ],
+        [
+          "4",
+          "Tobias",
+          "I"
+        ],
+        [
+          "5",
+          "Johana",
+          "N"
+        ],
+        [
+          "6",
+          "Alexia",
+          "A"
+        ]
+      ],
+      "name": "Solution; Remembered Names",
+      "page": 187,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

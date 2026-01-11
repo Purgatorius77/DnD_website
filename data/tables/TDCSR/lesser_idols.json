@@ -1,0 +1,75 @@
+{
+  "table": [
+    {
+      "caption": "Lesser Idols",
+      "colLabels": [
+        "Deity",
+        "Alignment",
+        "Province"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "{@deity Azgrah|Exandria|TDCSR}",
+          "Lawful neutral",
+          "Undying"
+        ],
+        [
+          "{@deity Galdric|Exandria|TDCSR}",
+          "Lawful good",
+          "Celestial, Undying"
+        ],
+        [
+          "{@deity Graz'tchar|Exandria|TDCSR}",
+          "Chaotic evil",
+          "Fiend, Hexblade"
+        ],
+        [
+          "{@deity Khedive Xundi|Exandria|TDCSR}",
+          "Chaotic neutral",
+          "Genie"
+        ],
+        [
+          "{@deity The Lost Beacon of Unknown Light|Exandria|TDCSR|Lost Beacon}",
+          "Neutral",
+          "Celestial"
+        ],
+        [
+          "{@deity The Observer|Exandria|TDCSR}",
+          "Neutral good",
+          "Archfey, Celestial"
+        ],
+        [
+          "{@deity The Sightless|Exandria|TDCSR}",
+          "Chaotic evil",
+          "Great Old One"
+        ],
+        [
+          "{@deity The Traveler|Exandria|TDCSR}",
+          "Chaotic neutral",
+          "Archfey"
+        ],
+        [
+          "{@deity Vesh|Exandria|TDCSR}",
+          "Neutral evil",
+          "Archfey, Undying"
+        ]
+      ],
+      "name": "Lesser Idols",
+      "page": 39,
+      "source": "TDCSR",
+      "chapter": {
+        "name": "Allegiances of Tal'Dorei",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

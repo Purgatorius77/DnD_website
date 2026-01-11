@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Syndicate Contact",
+      "colLabels": [
+        "d6",
+        "Contact"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Personal Mentor}. This longtime member of the syndicate took you under their wing when you were young and became a parental figure."
+        ],
+        [
+          "2",
+          "{@b Clever Urchin}. An innocuous person, perhaps a beggar or menial laborer, knows all the right people and shares their connections with you."
+        ],
+        [
+          "3",
+          "{@b Former Law Enforcement}. Your contact used to be (or maybe still is) a member of local law enforcement. They have sharp insight into the law's workings in your area and a healthy dose of paranoia for that reason."
+        ],
+        [
+          "4",
+          "{@b Bon Vivant}. The boss of a local den of vice—whether gambling, narcotics, or other pleasures—aids you when they're not distracted by their own debauchery."
+        ],
+        [
+          "5",
+          "{@b Traitor}. You know your contact in the syndicate has betrayed it, but they have enough clout and leverage that you don't dare cross them—yet."
+        ],
+        [
+          "6",
+          "{@b Criminal Royalty}. Unknown to most, your contact is a member of local nobility or royalty. Why they maintain relations with the syndicate is a troubling mystery."
+        ]
+      ],
+      "name": "Criminal Syndicate Contact; Syndicate Contact",
+      "page": 92,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

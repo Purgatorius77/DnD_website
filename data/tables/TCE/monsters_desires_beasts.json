@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Beasts",
+      "colLabels": [
+        "d4",
+        "Desired Offering"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Fresh meat"
+        ],
+        [
+          "2",
+          "A soothing melody"
+        ],
+        [
+          "3",
+          "Brightly colored beads, cloth, feathers, or string"
+        ],
+        [
+          "4",
+          "An old stuffed animal or other soft trinket"
+        ]
+      ],
+      "name": "Monsters' Desires; Beasts",
+      "page": 148,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

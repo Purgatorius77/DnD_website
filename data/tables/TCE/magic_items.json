@@ -1,0 +1,265 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Attunement"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-7 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Common",
+          "{@item Illuminator's Tattoo|TCE}",
+          "Yes"
+        ],
+        [
+          "Common",
+          "{@item Masquerade Tattoo|TCE}",
+          "Yes"
+        ],
+        [
+          "Common",
+          "{@item Prosthetic Limb|TCE}",
+          "No"
+        ],
+        [
+          "Common+",
+          "{@item Spellwrought Tattoo|TCE}",
+          "No"
+        ],
+        [
+          "Uncommon+",
+          "{@item +1 All-Purpose Tool|TCE|All-Purpose Tool}",
+          "Yes"
+        ],
+        [
+          "Uncommon+",
+          "{@item +1 Amulet of the Devout|TCE|Amulet of the Devout}",
+          "Yes"
+        ],
+        [
+          "Uncommon+",
+          "{@item +1 Arcane Grimoire|TCE|Arcane Grimoire}",
+          "Yes"
+        ],
+        [
+          "Uncommon+",
+          "{@item Barrier Tattoo (small)|TCE|Barrier Tattoo}",
+          "Yes"
+        ],
+        [
+          "Uncommon+",
+          "{@item +1 Bloodwell Vial|TCE|Bloodwell Vial}",
+          "Yes"
+        ],
+        [
+          "Uncommon",
+          "{@item Coiling Grasp Tattoo|TCE}",
+          "Yes"
+        ],
+        [
+          "Uncommon",
+          "{@item Eldritch Claw Tattoo|TCE}",
+          "Yes"
+        ],
+        [
+          "Uncommon",
+          "{@item Feywild Shard|TCE}",
+          "Yes"
+        ],
+        [
+          "Uncommon",
+          "{@item Guardian Emblem|TCE}",
+          "Yes"
+        ],
+        [
+          "Uncommon+",
+          "{@item +1 Moon Sickle|TCE|Moon Sickle}",
+          "Yes"
+        ],
+        [
+          "Uncommon",
+          "{@item Nature's Mantle|TCE}",
+          "Yes"
+        ],
+        [
+          "Uncommon+",
+          "{@item +1 Rhythm-Maker's Drum|TCE|Rhythm-Maker's Drum}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Alchemical Compendium|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Astral Shard|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Astromancy Archive|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Atlas of Endless Horizons|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Bell Branch|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Devotee's Censer|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Duplicitous Manuscript|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Elemental Essence Shard|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Far Realm Shard|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Fulminating Treatise|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Heart Weaver's Primer|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Libram of Souls and Flesh|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Lyre of Building|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Outer Essence Shard|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Planecaller's Codex|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Protective Verses|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Reveler's Concertina|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Shadowfell Brand Tattoo|TCE}",
+          "Yes"
+        ],
+        [
+          "Rare",
+          "{@item Shadowfell Shard|TCE}",
+          "Yes"
+        ],
+        [
+          "Very Rare",
+          "{@item Absorbing Tattoo|TCE}",
+          "Yes"
+        ],
+        [
+          "Very Rare",
+          "{@item Cauldron of Rebirth|TCE}",
+          "Yes"
+        ],
+        [
+          "Very Rare",
+          "{@item Crystalline Chronicle|TCE}",
+          "Yes"
+        ],
+        [
+          "Very Rare",
+          "{@item Ghost Step Tattoo|TCE}",
+          "Yes"
+        ],
+        [
+          "Very Rare",
+          "{@item Lifewell Tattoo|TCE}",
+          "Yes"
+        ],
+        [
+          "Legendary",
+          "{@item Blood Fury Tattoo|TCE}",
+          "Yes"
+        ],
+        [
+          "Artifact",
+          "{@item Baba Yaga's Mortar and Pestle|TCE}",
+          "Yes"
+        ],
+        [
+          "Artifact",
+          "{@item Crook of Rao|TCE}",
+          "Yes"
+        ],
+        [
+          "Artifact",
+          "{@item Demonomicon of Iggwilv|TCE}",
+          "Yes"
+        ],
+        [
+          "Artifact",
+          "{@item Luba's Tarokka of Souls|TCE}",
+          "Yes"
+        ],
+        [
+          "Artifact",
+          "{@item Mighty Servant of Leuk-o|TCE}",
+          "Yes"
+        ],
+        [
+          "Artifact",
+          "{@item Teeth of Dahlver-Nar|TCE}",
+          "Yes"
+        ]
+      ],
+      "name": "Magic Items",
+      "page": 117,
+      "source": "TCE",
+      "chapter": {
+        "name": "Magical Miscellany",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

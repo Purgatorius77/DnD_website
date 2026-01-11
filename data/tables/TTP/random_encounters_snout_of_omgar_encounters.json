@@ -1,0 +1,136 @@
+{
+  "table": [
+    {
+      "page": 5,
+      "caption": "Snout of Omgar Encounters",
+      "colLabels": [
+        "Encounter",
+        "Land",
+        "Water"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "{@area Almiraj|008|x}",
+          "01-05",
+          "—"
+        ],
+        [
+          "{@area Axe beaks|009|x}",
+          "06-10",
+          "—"
+        ],
+        [
+          "{@area Baboons|00a|x}",
+          "11-15",
+          "—"
+        ],
+        [
+          "{@area Blood hawks|00b|x}",
+          "16-20",
+          "—"
+        ],
+        [
+          "{@area Cannibals|00c|x}",
+          "21-25",
+          "01-15"
+        ],
+        [
+          "{@area Chwinga|00d|x}",
+          "26-30",
+          "—"
+        ],
+        [
+          "{@area Dimetrodons|00e|x}",
+          "31-35",
+          "—"
+        ],
+        [
+          "{@area Dolphins|00f|x}",
+          "—",
+          "16-30"
+        ],
+        [
+          "{@area Eblis|010|x}",
+          "36-40",
+          "—"
+        ],
+        [
+          "{@area Flail snail|011|x}",
+          "41-45",
+          "—"
+        ],
+        [
+          "{@area Flying snakes|012|x}",
+          "46-50",
+          "31-40"
+        ],
+        [
+          "{@area Geonids|013|x}",
+          "51-55",
+          "—"
+        ],
+        [
+          "{@area Giant lizards|014|x}",
+          "56-60",
+          "—"
+        ],
+        [
+          "{@area Giant snapping turtle|015|x}",
+          "61-65",
+          "41-50"
+        ],
+        [
+          "{@area Jaculis|016|x}",
+          "66-70",
+          "—"
+        ],
+        [
+          "{@area Marine Decapus|017|x}",
+          "—",
+          "51-60"
+        ],
+        [
+          "{@area Plesiosaurus|018|x}",
+          "—",
+          "61-75"
+        ],
+        [
+          "{@area Pteranodons|019|x}",
+          "71-75",
+          "76-85"
+        ],
+        [
+          "{@area Reef sharks|01a|x}",
+          "—",
+          "86-00"
+        ],
+        [
+          "{@area Stirges|01b|x}",
+          "76-80",
+          "—"
+        ],
+        [
+          "{@area Topis|01c|x}",
+          "81-85",
+          "—"
+        ],
+        [
+          "{@area Tortle|01d|x}",
+          "86-00",
+          "—"
+        ]
+      ],
+      "name": "Random Encounters; Snout of Omgar Encounters",
+      "source": "TTP",
+      "chapter": {
+        "name": "Exploring the Island",
+        "index": 2
+      }
+    }
+  ]
+}

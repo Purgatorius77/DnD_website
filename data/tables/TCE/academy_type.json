@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Academy Type",
+      "colLabels": [
+        "d6",
+        "Academy Types"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Boarding School}. Students and faculty enjoy a familial relationship on a self-contained campus."
+        ],
+        [
+          "2",
+          "{@b Arcane Enclave}. Drawn together by cutting-edge magical scholarship, the enclave's residents are hungry for secrets, reagents, and subjects."
+        ],
+        [
+          "3",
+          "{@b Secret Monastery}. Ageless secrets remain the focus of contemplation and rigorous training at this site."
+        ],
+        [
+          "4",
+          "{@b Elite Institute}. This cutthroat college of science or the arts accepts only the crème de la crème of society and talent."
+        ],
+        [
+          "5",
+          "{@b Vault of Secrets}. This conspiracy strives to keep or eradicate all knowledge of a specific truth."
+        ],
+        [
+          "6",
+          "{@b Museum of Dreams}. Magical communication or shared dreamscapes connect a network of wide-ranging specialists."
+        ]
+      ],
+      "name": "Academy Type",
+      "page": 84,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

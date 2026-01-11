@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Aristocrat Retainer Roles",
+      "colLabels": [
+        "Role",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Advisor",
+          "{@background Acolyte}, {@background Charlatan}, {@background Folk Hero}, {@background Hermit}, {@background Sage}"
+        ],
+        [
+          "Bodyguard",
+          "{@background Criminal}, {@background Folk Hero}, {@background Noble}, {@background Outlander}, {@background Soldier}"
+        ],
+        [
+          "Informant",
+          "{@background Charlatan}, {@background Criminal}, {@background Entertainer}, {@background Sailor}, {@background Urchin}"
+        ],
+        [
+          "House Staff",
+          "{@background Entertainer}, {@background Guild Artisan}, {@background Sailor}, {@background Soldier}, {@background Urchin}"
+        ],
+        [
+          "Messenger",
+          "{@background Charlatan}, {@background Entertainer}, {@background Outlander}, {@background Sailor}, {@background Urchin}"
+        ],
+        [
+          "Family Scion",
+          "{@5etools Any|backgrounds.html}"
+        ]
+      ],
+      "name": "Aristocrat Retainer Roles",
+      "page": 90,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

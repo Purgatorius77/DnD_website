@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Humanoids",
+      "colLabels": [
+        "d4",
+        "Desired Offering"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Promising to find a lost item of great importance to their culture"
+        ],
+        [
+          "2",
+          "Challenging them to a type of friendly contest, such as dancing, singing, or drinking"
+        ],
+        [
+          "3",
+          "Recovering something they've lost"
+        ],
+        [
+          "4",
+          "Information on a foe's secrets or weaknesses"
+        ]
+      ],
+      "name": "Monsters' Desires; Humanoids",
+      "page": 148,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

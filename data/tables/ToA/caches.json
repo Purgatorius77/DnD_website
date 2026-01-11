@@ -1,0 +1,108 @@
+{
+  "table": [
+    {
+      "caption": "Caches",
+      "colLabels": [
+        "d20",
+        "Cache"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Rain Catcher|ToA} and {@item Mess Kit|PHB}"
+        ],
+        [
+          "2",
+          "10-day supply of preserved {@item Rations (1 day)|PHB|rations}"
+        ],
+        [
+          "3",
+          "20-day supply of preserved {@item Rations (1 day)|PHB|rations}"
+        ],
+        [
+          "4",
+          "50-day supply of preserved {@item Rations (1 day)|PHB|rations}"
+        ],
+        [
+          "5",
+          "{@dice 1d4} casks of water holding 5 gallons each"
+        ],
+        [
+          "6",
+          "{@dice 1d4} casks of {@item tej|ToA}"
+        ],
+        [
+          "7",
+          "{@dice 1d4} {@item Climber's Kit|PHB|climber's kits}"
+        ],
+        [
+          "8",
+          "Coffer containing {@dice 2d4} {@item Antitoxin (vial)|PHB|vials of antitoxin}"
+        ],
+        [
+          "9",
+          "20-day supply of {@item Insect Repellent (greasy salve)|ToA|insect repellent salve} in a leather tube"
+        ],
+        [
+          "10",
+          "{@dice 1d4} {@item quiver|PHB|quivers}, each containing {@dice 1d20} {@item arrow|PHB|arrows}"
+        ],
+        [
+          "11",
+          "{@item Canoe|ToA} with six paddles"
+        ],
+        [
+          "12",
+          "2 {@item Hooded Lantern|PHB|hooded lanterns} and 10 {@item Oil (flask)|PHB|flasks of lamp oil}"
+        ],
+        [
+          "13",
+          "{@item Two-Person Tent|PHB} and {@dice 1d4} {@item Explorer's Pack|PHB|explorer's packs}"
+        ],
+        [
+          "14",
+          "Wooden box containing {@dice 2d10} daggers (low quality, of the type used as trade goods)"
+        ],
+        [
+          "15",
+          "Set of {@item navigator's tools|PHB}"
+        ],
+        [
+          "16",
+          "{@dice 1d10} changes of woolen clothing"
+        ],
+        [
+          "17",
+          "Set of {@item cartographer's tools|PHB}"
+        ],
+        [
+          "18",
+          "{@item Two-person tent|PHB} and {@dice 1d4} {@item healer's kit|PHB|healer's kits}"
+        ],
+        [
+          "19",
+          "2 {@item two-person tent|PHB|two-person tents}, folding camp table, and four folding stools"
+        ],
+        [
+          "20",
+          "Wooden box containing {@dice 2d4} {@item Potion of Healing|DMG|potions of healing}"
+        ]
+      ],
+      "name": "Caches",
+      "page": 196,
+      "source": "ToA",
+      "chapter": {
+        "name": "Random Encounters",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 7
+      }
+    }
+  ]
+}

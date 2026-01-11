@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Criminal Syndicate Member Roles",
+      "colLabels": [
+        "Role",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Burglar",
+          "{@background Criminal}, {@background Folk Hero}, {@background Noble}, {@background Outlander}, {@background Urchin}"
+        ],
+        [
+          "Muscle",
+          "{@background Criminal}, {@background Entertainer}, {@background Outlander}, {@background Sailor}, {@background Soldier}"
+        ],
+        [
+          "Con Artist",
+          "{@background Acolyte}, {@background Charlatan}, {@background Criminal}, {@background Entertainer}, {@background Noble}, {@background Urchin}"
+        ],
+        [
+          "Cleaner",
+          "{@background Acolyte}, {@background Charlatan}, {@background Guild Artisan}, {@background Noble}, {@background Soldier}"
+        ],
+        [
+          "Mastermind",
+          "{@background Acolyte}, {@background Criminal}, {@background Folk Hero}, {@background Noble}, {@background Sage}"
+        ],
+        [
+          "Mole",
+          "{@5etools Any|backgrounds.html}"
+        ]
+      ],
+      "name": "Criminal Syndicate Member Roles",
+      "page": 92,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

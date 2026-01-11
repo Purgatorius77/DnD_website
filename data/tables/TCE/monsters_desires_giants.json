@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Giants",
+      "colLabels": [
+        "d4",
+        "Desired Offering"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A dwarf admitting giant-craft to be superior to dwarf-craft"
+        ],
+        [
+          "2",
+          "A strong working animal"
+        ],
+        [
+          "3",
+          "Multiple barrels of ale"
+        ],
+        [
+          "4",
+          "Treasure stolen from a rival giant"
+        ]
+      ],
+      "name": "Monsters' Desires; Giants",
+      "page": 148,
+      "source": "TCE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

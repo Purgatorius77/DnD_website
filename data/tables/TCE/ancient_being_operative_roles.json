@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Ancient Being Operative Roles",
+      "colLabels": [
+        "Role",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Devotee",
+          "{@background Acolyte}, {@background Hermit}, {@background Noble}, {@background Outlander}, {@background Sage}"
+        ],
+        [
+          "Infiltrator",
+          "{@background Charlatan}, {@background Criminal}, {@background Hermit}, {@background Soldier}, {@background Urchin}"
+        ],
+        [
+          "Mouthpiece",
+          "{@background Charlatan}, {@background Entertainer}, {@background Folk Hero}, {@background Hermit}, {@background Sage}"
+        ],
+        [
+          "Pupil",
+          "{@background Acolyte}, {@background Entertainer}, {@background Folk Hero}, {@background Guild Artisan}, {@background Sage}"
+        ],
+        [
+          "Guardian",
+          "{@background Acolyte}, {@background Folk Hero}, {@background Hermit}, {@background Outlander}, {@background Soldier}"
+        ],
+        [
+          "Offspring",
+          "{@5etools Any|backgrounds.html}"
+        ]
+      ],
+      "name": "Ancient Being Operative Roles",
+      "page": 88,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

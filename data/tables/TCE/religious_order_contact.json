@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Religious Order Contact",
+      "colLabels": [
+        "d6",
+        "Contact"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Shadow Tongue}. A mysterious speaker for your order advises your next steps but fears being discovered by a powerful rival faith."
+        ],
+        [
+          "2",
+          "{@b Inspired Creator}. A gifted artisan conveys the will of the divine through prophetic song or artwork."
+        ],
+        [
+          "3",
+          "{@b Mysterious Text}. The gradual translation of a secret holy text points you toward the next step of a divine destiny."
+        ],
+        [
+          "4",
+          "{@b Fierce Inquisitor}. A severe hierarch directs you to cleanse wickedness from a region, from the order, or from within yourself."
+        ],
+        [
+          "5",
+          "{@b Beloved Healer}. A famed healer guides you to where you'll be needed most, even if their reasons are unclear until you arrive."
+        ],
+        [
+          "6",
+          "{@b Divinity's Voice}. Otherworldly messages direct you to undertake divine quests."
+        ]
+      ],
+      "name": "Religious Order Contact",
+      "page": 99,
+      "source": "TCE",
+      "chapter": {
+        "name": "Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}
