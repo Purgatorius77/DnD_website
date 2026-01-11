@@ -86,7 +86,7 @@ export function initTableFilters(tables) {
   }
 
   const tableSelect = document.getElementById("tableSelect");
-  const nameInput = document.querySelector("tablenameFilter");
+const nameInput = document.getElementById("tablesNameFilter");
   const sourceDiv = document.getElementById("tablesourceCheckboxes");
 
   // Build source checkboxes only once
@@ -191,4 +191,5 @@ resetBtn.addEventListener("click", () => {
   }
 }
 export { tableSourceNames };
+
 
