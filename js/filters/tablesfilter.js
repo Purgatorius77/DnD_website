@@ -86,11 +86,11 @@ export function initTableFilters(tables) {
   }
 
   const tableSelect = document.getElementById("tableSelect");
-  const nameInput = document.querySelector("#tables-filters input[type=text]");
+  const nameInput = document.querySelector("tablenameFilter");
   const sourceDiv = document.getElementById("tablesourceCheckboxes");
 
   // Build source checkboxes only once
-  buildSourceCheckboxes();
+  buildTableSourceCheckboxes();
 
   // Initial filter shows all tables
   filterTables();
@@ -104,7 +104,7 @@ export function initTableFilters(tables) {
     document.dispatchEvent(new CustomEvent("tableSelected", { detail: tables[index] }));
   });
 
-function buildSourceCheckboxes() {
+function buildTableSourceCheckboxes() {
   // Get unique source codes from the tables
   const usedSources = [...new Set(tables.map(t => t.source))];
 

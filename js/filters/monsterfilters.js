@@ -95,7 +95,15 @@ function buildSourceCheckboxes() {
     label.append(cb, src);
     sourceCheckboxesDiv.appendChild(label);
   });
+
+  // Event delegation on the parent div
+  sourceCheckboxesDiv.addEventListener("change", e => {
+    if (e.target.tagName === "INPUT") {
+      filterMonsters();
+    }
+  });
 }
+
 
 function buildAlignmentCheckboxes() {
   const alignments = [...new Set(monsters.map(m => m.alignment))].sort();
@@ -132,7 +140,7 @@ function buildAlignmentCheckboxes() {
     const homebrewChecked = homebrewCheckbox?.checked;
     const selectedCRs = [...crCheckboxesDiv.querySelectorAll("input:checked")].map(cb => cb.value);
     const selectedTypes = [...typeCheckboxesDiv.querySelectorAll("input:checked")].map(cb => cb.value);
-    const selectedSources = [...sourceCheckboxesDiv.querySelectorAll("input:checked")];
+const selectedSources = [...sourceCheckboxesDiv.querySelectorAll("input:checked")].map(cb => cb.value);
     const selectedAlignments = [...alignmentCheckboxesDiv.querySelectorAll("input:checked")]
 
   .map(cb => cb.value);
