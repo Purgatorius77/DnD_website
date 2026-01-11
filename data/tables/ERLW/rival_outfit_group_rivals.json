@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Group Rivals",
+      "colLabels": [
+        "d6",
+        "Rival"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b The Law}. Someone in the Sharn Watch has vowed to put you in prison or die trying."
+        ],
+        [
+          "2",
+          "{@b Gang War}. Some members of a rival syndicate (such as Daask, House Tarkanan, or the Tyrants) hate you, probably for good reason."
+        ],
+        [
+          "3",
+          "{@b The Press}. Your group's adventures make for great headlines. Your every move is reported in the broadsheets and your steps are dogged by journalists."
+        ],
+        [
+          "4",
+          "{@b Infighting}. Another group within the Boromar Clan is jealous of your success or angry about a past wrong. They do everything they can to undercut you."
+        ],
+        [
+          "5",
+          "{@b Vigilante}. A citizen you wronged has sworn vengeance. Around any corner, you might find yourself facing a vigilante or a posse of angry citizens out for your blood."
+        ],
+        [
+          "6",
+          "{@b The Bosses}. The halfling family in control of the syndicate has its eye on you, taking pains to keep you in line and make sure you stay loyal."
+        ]
+      ],
+      "name": "Rival Outfit; Group Rivals",
+      "page": 70,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Character Creation - Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Thelanis Manifest Zone Features",
+      "colLabels": [
+        "d4",
+        "Feature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Fey trees whose wood is imbued with magical properties grow here, along with a copse of guardian {@creature Treant||treants} and awakened flora."
+        ],
+        [
+          "2",
+          "A circle of mushrooms serves as a portal to Thelanis when the proper offering is placed in its center."
+        ],
+        [
+          "3",
+          "An eladrin commune that holds powerful esoteric knowledge is nestled in the depths of a forest inhabited by large numbers of {@creature Pixie||pixies}."
+        ],
+        [
+          "4",
+          "The magic of the fey runs deep here. Saving throws against enchantment and illusion spells are made with disadvantage."
+        ]
+      ],
+      "name": "Thelanis, the Faerie Court; Thelanis Manifest Zone Features",
+      "page": 232,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - The Last War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 10
+      }
+    }
+  ]
+}

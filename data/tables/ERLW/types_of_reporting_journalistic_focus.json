@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Journalistic Focus",
+      "colLabels": [
+        "d10",
+        "Reporting"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Investigation}. Your job is to uncover the secrets that governments, dragonmarked houses, and other powerful people don't want the public to know."
+        ],
+        [
+          "2",
+          "{@b Muckraking}. You look for scandalous and titillating secrets that famous people would rather hide."
+        ],
+        [
+          "3",
+          "{@b Local News}. You care about the local community and report on local events and government."
+        ],
+        [
+          "4",
+          "{@b International Affairs}. You report on the activities of national governments and their relationships."
+        ],
+        [
+          "5",
+          "{@b Crime}. You work with police and inquisitives—or do some inquisitive work yourselves—to report on criminal activity."
+        ],
+        [
+          "6",
+          "{@b Cultural Reporting}. You write about arts, fashion, and similar events and trends."
+        ],
+        [
+          "7",
+          "{@b Science and Magic}. Your job is to investigate scientific and magical advances and explain them in jargon-free language anyone can understand."
+        ],
+        [
+          "8",
+          "{@b Personal Interest}. You seek out stories of personal triumph over adversity, such as how people are rebuilding and working together in the wake of the Last War."
+        ],
+        [
+          "9",
+          "{@b Travel}. You travel extensively and write about the best way for others to enjoy such journeys."
+        ],
+        [
+          "10",
+          "{@b Adventure Logs}. Your job is to entertain the public with exciting stories about your life as an adventurer."
+        ]
+      ],
+      "name": "Types of Reporting; Journalistic Focus",
+      "page": 94,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Character Creation - Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 4
+      }
+    }
+  ]
+}

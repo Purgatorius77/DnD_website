@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Shows in Menthis",
+      "colLabels": [
+        "d8",
+        "Event"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Tira's Tears}. A speculative drama about the founder of the Church of the Silver Flame. (Grand Stage, Upper Menthis)"
+        ],
+        [
+          "2",
+          "{@b Facade}. A comedy of errors about a family of changelings, involving a tangled web of mistaken identities. (Art Temple, Upper Menthis)"
+        ],
+        [
+          "3",
+          "{@b Five Lives}. A bitter reflection on the tragedy of the Last War, as seen through the eyes of five soldiers. Written by up-and-coming playwright Luca Syara. (Diamond Theater, Lower Menthis)"
+        ],
+        [
+          "4",
+          "{@b Galifar Triumphant}. A beloved history based on the legendary king and the conflict that established the Kingdom of Galifar. (Classic Theater, Middle Menthis)"
+        ],
+        [
+          "5",
+          "{@b The Late Count}. A comic opera by the bard Kessler, revolving around a Karrnathi count who is resurrected as a zombie. (Sharn Opera House, Upper Menthis)"
+        ],
+        [
+          "6",
+          "{@b The Carnival of Shadows.} House Phiarlan's traveling circus, a mesmerizing blend of illusions, physical arts, and exotic beasts. The traveling troupe always visits Smoky Towers (Middle Menthis)."
+        ],
+        [
+          "7",
+          "{@b The Brelish Symphony Orchestra.} A performance of some of the finest works of Seventh Century Brelish composers. (Kavarrah Concert Hall, Upper Menthis)"
+        ],
+        [
+          "8",
+          "{@b Reflection}. A one-person show performed by the changeling Adi, exploring the multitudes that exist within us all. (Ten Torches, Lower Menthis)"
+        ]
+      ],
+      "name": "What's on the Bill?; Shows in Menthis",
+      "page": 170,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Sharn, City of Towers",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 8
+      }
+    }
+  ]
+}

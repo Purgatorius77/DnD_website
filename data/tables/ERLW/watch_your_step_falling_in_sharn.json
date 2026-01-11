@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Falling in Sharn",
+      "colLabels": [
+        "d8",
+        "Result"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "You fall hundreds of feet before striking the ground at the base of the towers."
+        ],
+        [
+          "2",
+          "You fall {@dice 3d6 × 10} feet before striking a bridge. A major bridge in an upper or a middle ward will have a {@spell feather fall} enchantment; otherwise, it's going to be a hard landing."
+        ],
+        [
+          "3",
+          "You fall {@dice 2d4 × 10} feet and land in a passing skycoach, possibly injuring a passenger."
+        ],
+        [
+          "4",
+          "You fall {@dice 4d4 × 5} feet and strike an outcropping, flagpole, or projecting statue. If you survive, you're still precariously perched on the edge of a tower or bridge."
+        ],
+        [
+          "5",
+          "You fall past a {@creature hippogriff}—make a successful {@dc 15} Dexterity ({@skill Acrobatics}) check to catch its leg!"
+        ],
+        [
+          "6",
+          "A {@creature gargoyle} or {@creature giant owl} catches you—then threatens to drop you if it doesn't get a reward."
+        ],
+        [
+          "7",
+          "You can fly! Actually, a nearby wizard or artificer casts {@spell feather fall} to save you, but for a moment it felt like you can fly. And now the spellcaster wants payment."
+        ],
+        [
+          "8",
+          "You strike a small {@creature air elemental} that was drawn to the city. Doing this cushions your fall, but now you're on top of an air elemental."
+        ]
+      ],
+      "name": "Watch Your Step!; Falling in Sharn",
+      "page": 152,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Sharn, City of Towers",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 8
+      }
+    }
+  ]
+}

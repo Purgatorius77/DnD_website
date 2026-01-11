@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Espionage Missions",
+      "colLabels": [
+        "d6",
+        "Mission"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Information Gathering}. If information is out there, you can find it and hand it over to your patron."
+        ],
+        [
+          "2",
+          "{@b Counterintelligence}. Your work focuses on finding, opposing, and eliminating enemy intelligence agents."
+        ],
+        [
+          "3",
+          "{@b Misinformation}. You are experts at creating false stories and bogus information to foil enemy spies."
+        ],
+        [
+          "4",
+          "{@b Covert Elimination}. When you disappear someone you leave behind no evidence."
+        ],
+        [
+          "5",
+          "{@b Disruption}. You excel at infiltration and wreaking havoc via blackmail, misinformation, and subversion."
+        ],
+        [
+          "6",
+          "{@b Sabotage}. You slip into places, lay the seeds for their destruction, and escape without detection."
+        ]
+      ],
+      "name": "Types of Espionage; Espionage Missions",
+      "page": 78,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Character Creation - Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 4
+      }
+    }
+  ]
+}

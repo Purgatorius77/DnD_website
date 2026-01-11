@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Dream Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Goal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Break a psychic lock that is preventing a House Thuranni spy from remembering what they learned about a sinister Dreaming Dark plot."
+        ],
+        [
+          "2",
+          "Escape into Dal Quor to find an artifact that can be brought back to the Material Plane when the characters awaken."
+        ],
+        [
+          "3",
+          "Rescue a character who is suffering from debilitating recurring nightmares by defeating the quori inhabiting the character's mind."
+        ],
+        [
+          "4",
+          "Stop the construction of an eldritch machine in Dal Quor that will give the quori physical access to the Material Plane again."
+        ]
+      ],
+      "name": "The Role of Dreams; Dream Adventures",
+      "page": 196,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 9
+      }
+    }
+  ]
+}

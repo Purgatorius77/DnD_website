@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Shady Nightclub Adventures",
+      "colLabels": [
+        "d6",
+        "Adventure Goal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Get accepted into a private high-stakes card game, and try to win the grand prize."
+        ],
+        [
+          "2",
+          "Find out which Sharn Watch captain has a private meeting with a Boromar fence, and steal whatever the captain is buying."
+        ],
+        [
+          "3",
+          "Track down a missing noble hunted by assassins."
+        ],
+        [
+          "4",
+          "Steal a hidden stash of dreamlily."
+        ],
+        [
+          "5",
+          "Broker a deal with the Boromars on behalf of a city councilor who's too scared to face the family in person."
+        ],
+        [
+          "6",
+          "Find evidence that could be used to blackmail a member of a dragonmarked house."
+        ]
+      ],
+      "name": "Shady Nightclub Adventures",
+      "page": 247,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - Sharn",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 11
+      }
+    }
+  ]
+}

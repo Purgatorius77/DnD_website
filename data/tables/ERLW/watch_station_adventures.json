@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Watch Station Adventures",
+      "colLabels": [
+        "d6",
+        "Adventure Goal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Destroy evidence of a crime that's being stored in a Watch station, or plant evidence in a Watch station to frame someone for a crime."
+        ],
+        [
+          "2",
+          "Learn which members of a station's crew are on the payroll of a criminal organization."
+        ],
+        [
+          "3",
+          "Ensure the station's Watch officers are indisposed during an upcoming crime spree."
+        ],
+        [
+          "4",
+          "Help defend a Watch station from a siege."
+        ],
+        [
+          "5",
+          "Free someone being held at a Watch station."
+        ],
+        [
+          "6",
+          "Steal uniforms from a Watch station."
+        ]
+      ],
+      "name": "Watch Station Adventures",
+      "page": 258,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - Sharn",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 11
+      }
+    }
+  ]
+}

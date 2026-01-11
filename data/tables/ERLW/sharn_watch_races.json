@@ -1,0 +1,72 @@
+{
+  "table": [
+    {
+      "caption": "Sharn Watch Races",
+      "colLabels": [
+        "d20",
+        "Race"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Changeling"
+        ],
+        [
+          "2-4",
+          "Dwarf"
+        ],
+        [
+          "5-6",
+          "Elf"
+        ],
+        [
+          "7",
+          "Gnome"
+        ],
+        [
+          "8-9",
+          "Half-elf"
+        ],
+        [
+          "10-11",
+          "Half-orc"
+        ],
+        [
+          "12-13",
+          "Halfling"
+        ],
+        [
+          "14-16",
+          "Human"
+        ],
+        [
+          "17",
+          "Kalashtar"
+        ],
+        [
+          "18",
+          "Shifter"
+        ],
+        [
+          "19-20",
+          "Warforged"
+        ]
+      ],
+      "name": "Sharn Watch Races",
+      "page": 257,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - Sharn",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 11
+      }
+    }
+  ]
+}

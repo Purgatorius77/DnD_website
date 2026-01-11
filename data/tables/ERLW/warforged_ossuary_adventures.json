@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Warforged Ossuary Adventures",
+      "colLabels": [
+        "d6",
+        "Adventure Goal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Rescue an artificer who is being forced to graft warforged components onto {@creature the Lord of Blades|ERLW}' warriors."
+        ],
+        [
+          "2",
+          "Locate a {@item docent|ERLW} (see {@book chapter 5|ERLW|12}) carried by a warforged wizard who has joined up with {@creature the Lord of Blades|ERLW}."
+        ],
+        [
+          "3",
+          "Capture a warforged artificer thought to be an advisor to {@creature the Lord of Blades|ERLW}, who is touring a series of ossuaries and inspecting the remains."
+        ],
+        [
+          "4",
+          "Steal a House Cannith spellbook and workshop log from before the Day of Mourning that is being held in the ossuary's vault."
+        ],
+        [
+          "5",
+          "Extract a warforged spy from within {@creature the Lord of Blades|ERLW}' followers who is close to being discovered."
+        ],
+        [
+          "6",
+          "Retrieve a Cannith schema supposedly held within the ossuary that tells of a process for transferring a warforged consciousness from one body to another."
+        ]
+      ],
+      "name": "Warforged Ossuary Adventures",
+      "page": 212,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - The Last War",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 10
+      }
+    }
+  ]
+}

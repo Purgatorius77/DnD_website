@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Magewright Casting Fees",
+      "colLabels": [
+        "Spell Level",
+        "Price"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "1st",
+          "25 gp"
+        ],
+        [
+          "2nd",
+          "50 gp"
+        ],
+        [
+          "3rd",
+          "100 gp"
+        ]
+      ],
+      "name": "Spellcasting Services; Magewright Casting Fees",
+      "page": 153,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Sharn, City of Towers",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 8
+      }
+    }
+  ]
+}

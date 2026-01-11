@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Boromar Contacts",
+      "colLabels": [
+        "d6",
+        "Contact"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Sundry} (gnome) is a fence who runs a pawn shop in the Bazaar of Dura and has ties to many smugglers, sailors, and burglars."
+        ],
+        [
+          "2",
+          "{@b Canon} (halfling) is a pickpocket who works across Sharn and is at home throughout the lower districts."
+        ],
+        [
+          "3",
+          "{@b The Rake} (dwarf) runs a handful of gambling dens and sets odds on the sporting events of Sharn."
+        ],
+        [
+          "4",
+          "{@b Myri Olar} (halfling) is a burglar and socialite, familiar with many of the mansions of the upper districts."
+        ],
+        [
+          "5",
+          "{@b Hass Faldren} (half-elf) is a smuggler and the captain of the elemental sloop {@i Ice Storm}. Hass is also well connected on the docks and in the warehouse districts."
+        ],
+        [
+          "6",
+          "{@b Cala Boromar} (halfling) is a lawyer by trade but with specialties in blackmail and intimidation. Cala loves engaging in the art of negotiation and is always interested in acquiring secrets."
+        ]
+      ],
+      "name": "The Boromar Clan; Boromar Contacts",
+      "page": 179,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Sharn, City of Towers",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 8
+      }
+    }
+  ]
+}

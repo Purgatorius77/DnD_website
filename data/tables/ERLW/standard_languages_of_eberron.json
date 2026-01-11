@@ -1,0 +1,66 @@
+{
+  "table": [
+    {
+      "caption": "Standard Languages of Eberron",
+      "colLabels": [
+        "Language",
+        "Main Speakers",
+        "Script"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-8",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "Common",
+          "The Five Nations, trade language of Khorvaire",
+          "Common"
+        ],
+        [
+          "Dwarvish",
+          "Mror Holds",
+          "Dwarvish"
+        ],
+        [
+          "Elvish",
+          "Aerenal, Valenar",
+          "Elvish"
+        ],
+        [
+          "Giant",
+          "Inhabitants of Xen'drik",
+          "Giant"
+        ],
+        [
+          "Gnomish",
+          "Zilargo",
+          "Dwarvish"
+        ],
+        [
+          "Goblin",
+          "Darguun, Droaam, Shadow Marches, monsters of Khorvaire",
+          "Goblin"
+        ],
+        [
+          "Halfling",
+          "Talenta Plains",
+          "Common"
+        ],
+        [
+          "Riedran",
+          "People of Sarlona",
+          "Common"
+        ]
+      ],
+      "name": "Standard Languages of Eberron",
+      "page": 6,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Welcome to Eberron",
+        "index": 0
+      }
+    }
+  ]
+}

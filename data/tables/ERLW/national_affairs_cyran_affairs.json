@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Cyran Affairs",
+      "colLabels": [
+        "d6",
+        "Mission"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Convince nations to recognize Oargev as a sovereign"
+        ],
+        [
+          "2",
+          "Work diplomatically to secure land for a Cyran nation"
+        ],
+        [
+          "3",
+          "Track down agents and infiltrators from other nations who are acting against New Cyre's interests"
+        ],
+        [
+          "4",
+          "Venture into the Mournland to salvage Cyran treasures"
+        ],
+        [
+          "5",
+          "Aid Cyran refugees in Breland and elsewhere"
+        ],
+        [
+          "6",
+          "Make incriminating or embarrassing evidence about the prince quietly disappear"
+        ]
+      ],
+      "name": "National Affairs; Cyran Affairs",
+      "page": 81,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Character Creation - Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 4
+      }
+    }
+  ]
+}

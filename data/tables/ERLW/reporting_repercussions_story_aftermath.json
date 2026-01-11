@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Story Aftermath",
+      "colLabels": [
+        "d6",
+        "Aftermath"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Business}. Your reporting put a serious dent in a business, and that organization refuses to deal with you."
+        ],
+        [
+          "2",
+          "{@b Dragonmarked House}. One of the dragonmarked houses has sworn revenge against you. You avoid showing your face in their facilities."
+        ],
+        [
+          "3",
+          "{@b Criminal}. You exposed a criminal conspiracy. Most involved were arrested, but a few crooks remain free."
+        ],
+        [
+          "4",
+          "{@b Politician}. You ended a politician's career, and they've sworn to return the favor."
+        ],
+        [
+          "5",
+          "{@b Rival Newspaper}. You got the scoop of a lifetime by stealing it from another newspaper. Now that paper tries to undermine you at every turn."
+        ],
+        [
+          "6",
+          "{@b Innocent Victim}. You rashly published the name of a person you incorrectly thought was connected to a scandal, ruining their life."
+        ]
+      ],
+      "name": "Reporting Repercussions; Story Aftermath",
+      "page": 95,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Character Creation - Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 4
+      }
+    }
+  ]
+}
