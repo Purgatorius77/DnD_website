@@ -9,6 +9,7 @@ export function initViewSwitcher() {
   const charactersBtn = document.getElementById("Character");
   const itemsBtn      = document.getElementById("Items");
   const fluffBtn      = document.getElementById("Fluff");
+  const tablesBtn     = document.getElementById("Tables");
 
   const classesBtn    = document.getElementById("classesBtn");
   const strainBtn     = document.getElementById("strainBtn");
@@ -26,6 +27,7 @@ export function initViewSwitcher() {
   const rulesIntro      = document.getElementById("rules-intro");
   const itemsIntro      = document.getElementById("items-intro");
   const fluffIntro      = document.getElementById("fluff-intro");
+  const tablesIntro      = document.getElementById("tables-intro");
 
   /* =====================
      FILTERS
@@ -41,6 +43,7 @@ export function initViewSwitcher() {
   const backgroundFilters= document.getElementById("backgroundFilters");
   const featsFilters     = document.getElementById("featsFilters");
   const strainFilters    = document.getElementById("strainFilters");
+  const tablesFilters    = document.getElementById("tables-filters");
 
   /* =====================
      STATBLOCKS
@@ -51,7 +54,7 @@ export function initViewSwitcher() {
   const characterStatblock = document.getElementById("character-statblock");
   const itemsStatblock     = document.getElementById("items-statblock");
   const fluffStatblock     = document.getElementById("fluff-statblock");
-
+const tablesStatblock     = document.getElementById("tables-statblock");
   const combatTracker = document.querySelector(".combat-tracker");
 
   /* =====================
@@ -69,7 +72,7 @@ export function initViewSwitcher() {
       rulesIntro,
       itemsIntro,
       fluffIntro,
-
+      tablesIntro,
       monsterFilters,
       spellFilters,
       rulesFilters,
@@ -81,7 +84,8 @@ export function initViewSwitcher() {
       backgroundFilters,
       featsFilters,
       strainFilters,
-
+      tablesFilters,
+      tablesStatblock,
       monsterStatblock,
       spellStatblock,
       rulesStatblock,
@@ -143,6 +147,7 @@ spellFilters?.addEventListener("click", () => enterSection(spellsIntro, spellSta
   rulesFilters?.addEventListener("click", () => enterSection(rulesIntro, rulesStatblock));
   itemsFilters?.addEventListener("click", () => enterSection(itemsIntro, itemsStatblock));
   fluffFilters?.addEventListener("click", () => enterSection(fluffIntro, fluffStatblock));
+tablesFilters?.addEventListener("click", () => enterSection(tablesIntro, tablesStatblock));
 
   /* =====================
      CHARACTER SUB-FILTERS
@@ -163,7 +168,7 @@ spellFilters?.addEventListener("click", () => enterSection(spellsIntro, spellSta
   rulesBtn?.addEventListener("click", () => showLanding(rulesIntro, rulesFilters));
   itemsBtn?.addEventListener("click", () => showLanding(itemsIntro, itemsFilters));
   fluffBtn?.addEventListener("click", () => showLanding(fluffIntro, fluffFilters));
-
+tablesBtn?.addEventListener("click", () => showLanding(tablesIntro, tablesFilters));
 
 
   /* =====================
