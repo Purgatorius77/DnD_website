@@ -1,0 +1,85 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "The Sovereign Host",
+        "Province",
+        "Suggested Cleric Domains",
+        "Common Symbol"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@deity Arawai|Eberron|erlw}",
+          "Life, love",
+          "Life, Nature",
+          "Sheaf of wheat tied with green ribbon {@i or} bronze dragon"
+        ],
+        [
+          "{@deity Aureon|Eberron|erlw}",
+          "Knowledge, law",
+          "Knowledge, Order*",
+          "Open tome {@i or} blue dragon"
+        ],
+        [
+          "{@deity Balinor|Eberron|erlw}",
+          "Beasts, the hunt",
+          "Nature, War",
+          "Pair of antlers {@i or} green dragon"
+        ],
+        [
+          "{@deity Boldrei|Eberron|erlw}",
+          "Community, home",
+          "Life",
+          "Fire in a stone hearth {@i or} copper dragon"
+        ],
+        [
+          "{@deity Dol Arrah|Eberron|erlw}",
+          "Honor, sunlight",
+          "Light, War",
+          "Rising sun {@i or} red dragon"
+        ],
+        [
+          "{@deity Dol Dorn|Eberron|erlw}",
+          "Strength at arms",
+          "War",
+          "Longsword crossed over a shield {@i or} silver dragon"
+        ],
+        [
+          "{@deity Kol Korran|Eberron|erlw}",
+          "Trade, travel",
+          "Trickery",
+          "Nine-sided gold coin {@i or} white dragon"
+        ],
+        [
+          "{@deity Olladra|Eberron|erlw}",
+          "Good fortune",
+          "Life, Trickery",
+          "Domino {@i or} black dragon"
+        ],
+        [
+          "{@deity Onatar|Eberron|erlw}",
+          "Artifice, the forge",
+          "Forge**, Knowledge",
+          "Crossed hammer and tongs {@i or} brass dragon"
+        ]
+      ],
+      "name": "Deities of Eberron; 1",
+      "page": 141,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Khorvaire Gazetteer - Faiths of Khorvaire",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 7
+      }
+    }
+  ]
+}

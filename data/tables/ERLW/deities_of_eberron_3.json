@@ -1,0 +1,67 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Other Faiths",
+        "Province",
+        "Suggested Cleric Domains",
+        "Common Symbol"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@deity The Silver Flame|Eberron|erlw}",
+          "Good, protection",
+          "Life, Light, War",
+          "Flame drawn on silver or molded from silver"
+        ],
+        [
+          "{@deity The Blood of Vol|Eberron|erlw}",
+          "Immortality",
+          "Death, Life",
+          "Red teardrop gem"
+        ],
+        [
+          "{@deity Cults of the Dragon Below|Eberron|erlw}",
+          "Madness",
+          "Trickery",
+          "Varies"
+        ],
+        [
+          "{@deity The Path of Light|Eberron|erlw}",
+          "Light, self-improvement",
+          "Life, Light",
+          "Brilliant crystal"
+        ],
+        [
+          "{@deity The Spirits of the Past|Eberron|erlw}",
+          "Elven ancestors",
+          "Nature, War",
+          "Varies"
+        ],
+        [
+          "{@deity The Undying Court|Eberron|erlw}",
+          "Elven ancestors",
+          "Grave**, Knowledge, Life",
+          "Golden mask"
+        ]
+      ],
+      "name": "Deities of Eberron; 3",
+      "page": 141,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Khorvaire Gazetteer - Faiths of Khorvaire",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 7
+      }
+    }
+  ]
+}

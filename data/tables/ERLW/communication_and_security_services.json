@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Communication and Security Services",
+      "colLabels": [
+        "Service",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-9",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "{@spell Arcane lock} (House Kundarak)",
+          "20 gp"
+        ],
+        [
+          "Courier service (House Orien)",
+          "1 sp per mile"
+        ],
+        [
+          "{@spell Glyph of warding} (House Kundarak)",
+          "350 gp"
+        ],
+        [
+          "{@spell Illusory script} (House Sivis)",
+          "15 gp"
+        ],
+        [
+          "Mail service (House Orien)",
+          "1 cp per mile"
+        ],
+        [
+          "Message station (House Sivis)",
+          "2 sp per word"
+        ],
+        [
+          "Translation (House Sivis)",
+          "2 cp per word"
+        ]
+      ],
+      "name": "Communication and Security Services",
+      "page": 10,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Welcome to Eberron",
+        "index": 0
+      }
+    }
+  ]
+}

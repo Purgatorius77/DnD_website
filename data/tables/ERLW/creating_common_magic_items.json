@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Creating Common Magic Items",
+      "colLabels": [
+        "Common Magic Item",
+        "Time",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@item Spell scroll} (cantrip)",
+          "8 hours",
+          "15 gp"
+        ],
+        [
+          "{@item Potion of healing}",
+          "8 hours",
+          "25 gp"
+        ],
+        [
+          "Any other common magic item",
+          "32 hours*",
+          "50 gp*"
+        ]
+      ],
+      "footnotes": [
+        "*Halved for a consumable item like a potion or scroll"
+      ],
+      "name": "Creating Common Magic Items",
+      "page": 281,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Treasures",
+        "index": 12
+      }
+    }
+  ]
+}

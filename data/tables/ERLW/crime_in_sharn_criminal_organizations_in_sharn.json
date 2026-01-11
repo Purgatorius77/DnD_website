@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Criminal Organizations in Sharn",
+      "colLabels": [
+        "Organization",
+        "Description"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "The Boromar Clan",
+          "Influential criminal syndicate founded by Talenta halflings, with blood ties to House Jorasco"
+        ],
+        [
+          "Daask",
+          "Violent monsters and thugs loyal to Droaam and answerable to Sora Katra"
+        ],
+        [
+          "House Tarkanan",
+          "Enemies of the dragonmarked houses dedicated to protecting and training individuals with aberrant dragonmarks"
+        ],
+        [
+          "The Tyrants",
+          "Evil-minded changelings interested in gathering secrets and using them for all sorts of nefarious purposes"
+        ]
+      ],
+      "name": "Crime in Sharn; Criminal Organizations in Sharn",
+      "page": 245,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - Sharn",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 11
+      }
+    }
+  ]
+}

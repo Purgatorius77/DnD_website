@@ -1,0 +1,36 @@
+{
+  "table": [
+    {
+      "caption": "Living Spell Customization",
+      "colLabels": [
+        "Spell Level",
+        "Stat Block to Customize"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–2",
+          "Living burning hands"
+        ],
+        [
+          "3–4",
+          "Living lightning bolt"
+        ],
+        [
+          "5",
+          "Living cloudkill"
+        ]
+      ],
+      "name": "Customizing a Living Spell; Living Spell Customization",
+      "page": 283,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Friends and Foes",
+        "index": 13
+      }
+    }
+  ]
+}

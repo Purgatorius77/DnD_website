@@ -1,0 +1,67 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "The Dark Six",
+        "Province",
+        "Suggested Cleric Domains",
+        "Common Symbol"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@deity The Devourer|Eberron|erlw}",
+          "Nature's wrath",
+          "Tempest",
+          "Bundle of five sharpened bones {@i or} dragon turtle"
+        ],
+        [
+          "{@deity The Fury|Eberron|erlw}",
+          "Passion, revenge",
+          "War",
+          "Winged wyrm with woman's head and arms"
+        ],
+        [
+          "{@deity The Keeper|Eberron|erlw}",
+          "Death, greed",
+          "Death",
+          "Dragonshard in the shape of a fang {@i or} dracolich"
+        ],
+        [
+          "{@deity The Mockery|Eberron|erlw}",
+          "Betrayal, bloodshed",
+          "Trickery, War",
+          "Five blood-spattered blades {@i or} flayed dragon"
+        ],
+        [
+          "{@deity The Shadow|Eberron|erlw}",
+          "Ambition, dark magic",
+          "Knowledge",
+          "Obsidian tower"
+        ],
+        [
+          "{@deity The Traveler|Eberron|erlw}",
+          "Change, chaos",
+          "Forge**, Knowledge, Trickery",
+          "Four crossed, rune-inscribed bones"
+        ]
+      ],
+      "name": "Deities of Eberron; 2",
+      "page": 141,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Khorvaire Gazetteer - Faiths of Khorvaire",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Defining Mission",
+      "colLabels": [
+        "d6",
+        "Mission"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Heroic Stand}. You knew if you took one step back from the line, all would be lost. When relief arrived days later, you had not budged."
+        ],
+        [
+          "2",
+          "{@b Telling Blow}. The enemy general never knew what hit them. You still carry their personal flag as a trophy."
+        ],
+        [
+          "3",
+          "{@b Dawn Raid}. You traveled hundreds of miles around enemy lines to reach your target. In a single day, months of enemy preparation went up in flames."
+        ],
+        [
+          "4",
+          "{@b Break the Line}. During a key battle, you were part of a heroic push to break the enemy line."
+        ],
+        [
+          "5",
+          "{@b Liberator}. You were at the forefront of a daring assault to liberate a captured citadel or town."
+        ],
+        [
+          "6",
+          "{@b Sharp Eye}. The enemy's secret attack would've been devastating. Luckily, you spotted it in time."
+        ]
+      ],
+      "name": "Defining Mission",
+      "page": 90,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Character Creation - Group Patrons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "table": [
+    {
+      "caption": "Exotic Languages of Eberron",
+      "colLabels": [
+        "Language",
+        "Main Speakers",
+        "Script"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-8",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "Celestial",
+          "Celestials",
+          "Celestial"
+        ],
+        [
+          "Daelkyr",
+          "Aberrations, denizens of Khyber",
+          "Daelkyr"
+        ],
+        [
+          "Draconic",
+          "Dragons, dragonborn",
+          "Draconic"
+        ],
+        [
+          "Infernal",
+          "Fiends",
+          "Infernal"
+        ],
+        [
+          "Orc",
+          "Isolated orc tribes",
+          "Goblin"
+        ],
+        [
+          "Primordial",
+          "Elementals",
+          "Primordial"
+        ],
+        [
+          "Quori",
+          "Inspired, kalashtar, quori",
+          "Quori"
+        ],
+        [
+          "Sylvan",
+          "Fey creatures",
+          "Elvish"
+        ]
+      ],
+      "name": "Exotic Languages of Eberron",
+      "page": 6,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Welcome to Eberron",
+        "index": 0
+      }
+    }
+  ]
+}

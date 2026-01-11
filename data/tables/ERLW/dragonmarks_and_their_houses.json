@@ -1,0 +1,110 @@
+{
+  "table": [
+    {
+      "caption": "Dragonmarks and Their Houses",
+      "colLabels": [
+        "Dragonmark",
+        "House",
+        "Race",
+        "Guild Specialties"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Detection",
+          "Medani",
+          "Half-elf",
+          "Bodyguards, investigation, risk management"
+        ],
+        [
+          "Finding",
+          "Tharashk",
+          "Human, half-orc",
+          "Bounty hunting, investigation, prospecting"
+        ],
+        [
+          "Handling",
+          "Vadalis",
+          "Human",
+          "Animal training and breeding"
+        ],
+        [
+          "Healing",
+          "Jorasco",
+          "Halfling",
+          "Healing"
+        ],
+        [
+          "Hospitality",
+          "Ghallanda",
+          "Halfling",
+          "Food, lodging, urban information"
+        ],
+        [
+          "Making",
+          "Cannith",
+          "Human",
+          "Manufacturing"
+        ],
+        [
+          "Passage",
+          "Orien",
+          "Human",
+          "Land transportation"
+        ],
+        [
+          "Scribing",
+          "Sivis",
+          "Gnome",
+          "Communication, translation, verification"
+        ],
+        [
+          "Sentinel",
+          "Deneith",
+          "Human",
+          "Bodyguards, mercenaries"
+        ],
+        [
+          "Shadow",
+          "Phiarlan",
+          "Elf",
+          "Entertainment, espionage"
+        ],
+        [
+          "",
+          "Thuranni",
+          "Elf",
+          "Entertainment, assassination"
+        ],
+        [
+          "Storm",
+          "Lyrandar",
+          "Half-elf",
+          "Air and sea transportation"
+        ],
+        [
+          "Warding",
+          "Kundarak",
+          "Dwarf",
+          "Banking, storage, prisons"
+        ]
+      ],
+      "name": "Dragonmarks and Their Houses",
+      "page": 37,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Character Creation - Dragonmarks",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 2
+      }
+    }
+  ]
+}

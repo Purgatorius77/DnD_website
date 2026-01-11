@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Daask Assignments",
+      "colLabels": [
+        "d6",
+        "Assignment"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Convince several new businesses in the lower wards to pay protection fees to Daask."
+        ],
+        [
+          "2",
+          "Cause as much death and destruction as possible inside a Boromar-owned establishment."
+        ],
+        [
+          "3",
+          "Guard a priest of the Dark Six as he preaches the word of the Mockery on the street."
+        ],
+        [
+          "4",
+          "Assassinate a member of the Boromar Clan."
+        ],
+        [
+          "5",
+          "Convince a dragonmarked noble to offer the house's services to Daask for free."
+        ],
+        [
+          "6",
+          "Mug someone to steal a magic item in their possession."
+        ]
+      ],
+      "name": "Daask Assignments",
+      "page": 252,
+      "source": "ERLW",
+      "chapter": {
+        "name": "Building Eberron Adventures - Sharn",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 11
+      }
+    }
+  ]
+}
