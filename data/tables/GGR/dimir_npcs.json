@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "caption": "Dimir NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Dimir spy",
+          "{@creature Spy} or {@creature thought spy|GGR}*"
+        ],
+        [
+          "Duskmantle assassin",
+          "{@creature Assassin}"
+        ],
+        [
+          "Mind mage",
+          "{@creature Mind mage|GGR}*"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Dimir NPCs",
+      "page": 232,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}

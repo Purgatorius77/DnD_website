@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Azorius NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Arrester",
+          "{@creature Knight} or {@creature veteran}"
+        ],
+        [
+          "Azorius soldier",
+          "{@creature Soldier|GGR}*"
+        ],
+        [
+          "Hussar (cavalry)",
+          "{@creature Soldier|GGR}* mounted on a {@creature warhorse} or a {@creature griffon}"
+        ],
+        [
+          "Magical support",
+          "{@creature Lawmage|GGR}* or {@creature precognitive mage|GGR}*"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Azorius NPCs",
+      "page": 226,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}

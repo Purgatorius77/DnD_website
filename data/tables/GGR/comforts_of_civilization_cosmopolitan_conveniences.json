@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Cosmopolitan Conveniences",
+      "colLabels": [
+        "Item",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6 text-right"
+      ],
+      "rows": [
+        [
+          "Cup of coffee",
+          "10 cp"
+        ],
+        [
+          "Newspaper",
+          "15 cp"
+        ],
+        [
+          "Pendulum clock",
+          "100–250 gp"
+        ],
+        [
+          "Spectacles",
+          "25 gp"
+        ],
+        [
+          "Spyglass",
+          "50–100 gp"
+        ]
+      ],
+      "name": "Comforts of Civilization; Cosmopolitan Conveniences",
+      "page": 9,
+      "source": "GGR",
+      "chapter": {
+        "name": "Welcome to Ravnica",
+        "index": 0
+      }
+    }
+  ]
+}

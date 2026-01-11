@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Golgari Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Common",
+          "{@item Moodmark paint|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Boots of elvenkind}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Cloak of elvenkind}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Golgari Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Pipes of the sewers}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Dagger of venom}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Staff of swarming insects}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Cloak of arachnida}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Golgari keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Very rare",
+          "{@item Ring of regeneration}",
+          "{@i DMG}"
+        ]
+      ],
+      "name": "Golgari Items",
+      "page": 175,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

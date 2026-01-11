@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Barbarian",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class barbarian||Path of the Ancestral Guardian|Ancestral Guardian|XGE}*",
+          "Gruul"
+        ],
+        [
+          "{@class barbarian||Path of the Berserker|Berserker}",
+          "Gruul, {@creature Rakdos|GGR}"
+        ],
+        [
+          "{@class barbarian||Path of the Storm Herald|Storm Herald|XGE}*",
+          "Gruul"
+        ],
+        [
+          "{@class barbarian||Path of the Totem Warrior|Totem Warrior}",
+          "Gruul"
+        ],
+        [
+          "{@class barbarian||Path of the Zealot|Zealot|XGE}*",
+          "Boros, {@creature Rakdos|GGR}"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}"
+      ],
+      "name": "Barbarian",
+      "page": 23,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "table": [
+    {
+      "caption": "Golgari Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Shrieker}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Drow}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "Fungus drudge ({@creature zombie})",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Vegepygmy|VGM}",
+          "{@i VGM}"
+        ],
+        [
+          "1/4",
+          "{@creature Violet fungus}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Kraul warrior|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/2",
+          "{@creature Scout}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "Piranha beetles ({@creature swarm of insects})",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "Skein spider ({@creature giant spider})",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Thorny|VGM}",
+          "{@i VGM}"
+        ],
+        [
+          "2",
+          "{@creature Ankheg}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Ogre zombie}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Vegepygmy chief|VGM}",
+          "{@i VGM}"
+        ],
+        [
+          "3",
+          "Erstwhile ({@creature wight})",
+          "{@i MM}"
+        ],
+        [
+          "4",
+          "{@creature Kraul death priest|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "5",
+          "Deadbridge goliath beetle ({@creature triceratops})",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "{@creature Drow elite warrior}",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "{@creature Golgari shaman|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "5",
+          "{@creature Shambling mound}",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "{@creature Troll}",
+          "{@i MM}"
+        ],
+        [
+          "6",
+          "{@creature Undercity medusa|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "8",
+          "{@creature Assassin}",
+          "{@i MM}"
+        ],
+        [
+          "8",
+          "{@creature Corpse flower|MTF}",
+          "{@i MTF}"
+        ],
+        [
+          "14",
+          "{@creature Devkarin lich|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "15",
+          "{@creature Skittering horror|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "22",
+          "{@creature Jarad Vod Savo|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Golgari Creatures",
+      "page": 184,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

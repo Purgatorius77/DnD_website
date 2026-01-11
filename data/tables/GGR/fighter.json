@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Fighter",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class fighter||Arcane Archer|Arcane Archer|XGE}*",
+          "Selesnya"
+        ],
+        [
+          "{@class fighter||Battle Master|Battle MAster}",
+          "Azorius, Boros, Orzhov, Selesnya"
+        ],
+        [
+          "{@class fighter||Cavalier|Cavalier|XGE}*",
+          "Azorius, Boros"
+        ],
+        [
+          "{@class fighter||Champion|Champion}",
+          "Azorius, Boros, Golgari, Gruul, Orzhov, {@creature Rakdos|GGR}, Selesnya, Simic"
+        ],
+        [
+          "{@class fighter||Eldritch Knight|Eldritch Knight}",
+          "Azorius, Boros, Izzet, {@creature Rakdos|GGR}"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}"
+      ],
+      "name": "Fighter",
+      "page": 24,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

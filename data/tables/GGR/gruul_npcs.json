@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Gruul NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Clan member",
+          "{@creature Anarch|GGR}*"
+        ],
+        [
+          "Clan warrior",
+          "{@creature Berserker}"
+        ],
+        [
+          "Druid",
+          "{@creature Druid of the Old Ways|GGR}*"
+        ],
+        [
+          "Scout",
+          "{@creature Rubblebelt stalker|GGR}*"
+        ],
+        [
+          "Trog (Gruul hermit)",
+          "{@creature Gladiator}"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Gruul NPCs",
+      "page": 237,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}

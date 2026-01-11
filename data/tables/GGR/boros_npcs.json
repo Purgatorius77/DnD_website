@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "caption": "Boros NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Boros soldier",
+          "{@creature Soldier|GGR}*"
+        ],
+        [
+          "Magical support",
+          "{@creature Firefist|GGR}* or {@creature frontline medic|GGR}*"
+        ],
+        [
+          "Shock trooper",
+          "{@creature Reckoner|GGR}*"
+        ],
+        [
+          "Skyknight",
+          "{@creature Knight} mounted on a {@creature Skyjek roc|GGR}*"
+        ],
+        [
+          "Sunhome Guard",
+          "{@creature Guardian giant|GGR}* or {@creature veteran}"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Boros NPCs",
+      "page": 229,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}

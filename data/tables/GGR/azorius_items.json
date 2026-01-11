@@ -1,0 +1,95 @@
+{
+  "table": [
+    {
+      "caption": "Azorius Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Azorius Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Lantern of revealing}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Weapon of warning}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Bead of force}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Dimensional shackles}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Azorius keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Iron bands of Bilarro}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Rope of entanglement}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Wand of binding}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Rod of alertness}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Rod of security}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Defender}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Rod of lordly might}",
+          "{@i DMG}"
+        ]
+      ],
+      "name": "Azorius Items",
+      "page": 175,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Gruul Assignments",
+      "colLabels": [
+        "d6",
+        "Assignment"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Collect a beast cub so it can be trained for battle."
+        ],
+        [
+          "2",
+          "Slay a powerful monster to prove your strength."
+        ],
+        [
+          "3",
+          "Destroy a laboratory, a work of engineering, or a similar edifice of decadent civilization."
+        ],
+        [
+          "4",
+          "Kill someone who has been persecuting the Gruul."
+        ],
+        [
+          "5",
+          "Free a captive warrior who was imprisoned during a recent raid."
+        ],
+        [
+          "6",
+          "Create a disruption so the clan can raid elsewhere."
+        ]
+      ],
+      "name": "Gruul Character Goals; Gruul Assignments",
+      "page": 143,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

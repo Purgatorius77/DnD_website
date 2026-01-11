@@ -1,0 +1,135 @@
+{
+  "table": [
+    {
+      "caption": "Gruul Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "1/4",
+          "{@creature Anarch|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/2",
+          "{@creature Rubblebelt stalker|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/2",
+          "Viashino ({@creature lizardfolk})",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Half-Ogre (Ogrillon)||Half-ogre}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "Batterboar ({@creature giant boar})",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Berserker}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "Maaka ({@creature saber-toothed tiger})",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Ogre}",
+          "{@i MM}"
+        ],
+        [
+          "4",
+          "{@creature Ettin}",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "Elemental ({@creature earth elemental} or {@creature fire elemental})",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "{@creature Hill giant}",
+          "{@i MM}"
+        ],
+        [
+          "5",
+          "Trog ({@creature gladiator})",
+          "{@i MM}"
+        ],
+        [
+          "6",
+          "{@creature Cyclops}",
+          "{@i MM}"
+        ],
+        [
+          "6",
+          "Huge batterboar ({@creature mammoth})",
+          "{@i MM}"
+        ],
+        [
+          "7",
+          "{@creature Druid of the Old Ways|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "7",
+          "{@creature Stone giant}",
+          "{@i MM}"
+        ],
+        [
+          "8",
+          "{@creature Fomorian}",
+          "{@i MM}"
+        ],
+        [
+          "8",
+          "{@creature Hydra}",
+          "{@i MM}"
+        ],
+        [
+          "10",
+          "{@creature Sunder shaman|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "14",
+          "{@creature Wurm|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "18",
+          "{@creature Borborygmos|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Gruul Creatures",
+      "page": 185,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

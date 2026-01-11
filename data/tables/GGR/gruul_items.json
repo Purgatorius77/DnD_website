@@ -1,0 +1,75 @@
+{
+  "table": [
+    {
+      "caption": "Gruul Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Gauntlets of ogre power}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Gruul Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare or greater",
+          "{@item Belt of giant strength}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Berserker axe}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Gruul keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Horn of blasting}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Ring of the ram}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Stone of controlling earth elementals}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Ring of spell turning}",
+          "{@i DMG}"
+        ]
+      ],
+      "name": "Gruul Items",
+      "page": 175,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

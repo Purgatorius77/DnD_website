@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Boros Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Boros Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Sentinel shield}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Daern's instant fortress}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Boros keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare or greater",
+          "{@item Horn of Valhalla}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Pariah's Shield|GGR|Pariah's shield}",
+          "{@i GGR}"
+        ],
+        [
+          "Rare",
+          "{@item Sun blade}",
+          "{@i DMG}"
+        ],
+        [
+          "Rare",
+          "{@item Sunforger|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Very rare",
+          "{@item Spellguard shield}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Holy avenger}",
+          "{@i DMG}"
+        ]
+      ],
+      "name": "Boros Items",
+      "page": 175,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

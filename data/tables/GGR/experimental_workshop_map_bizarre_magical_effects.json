@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Bizarre Magical Effects",
+      "colLabels": [
+        "d6",
+        "Effect"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Every spell cast in the area triggers a wild magic surge. (Roll on the {@table Wild Magic Surge|PHB} table in the \"Sorcerer\" section of the {@i Player's Handbook}.)"
+        ],
+        [
+          "2",
+          "One or more objects in the area have a random trick effect. (Roll on the Tricks table in {@book appendix A|DMG|10|Random Tricks} of the {@book Dungeon Master's Guide|DMG}.)"
+        ],
+        [
+          "3",
+          "The area is affected by a {@spell guards and wards}{@i spell}."
+        ],
+        [
+          "4",
+          "Rooms and chambers in the area are affected by random obstacles. (Roll on the Obstacles table in {@book appendix A|DMG|10|Stocking a Dungeon} of the {@book Dungeon Master's Guide|DMG}.)"
+        ],
+        [
+          "5",
+          "One or more objects in the area have a random trap effect. (Roll on the Traps table in {@book appendix A|DMG|10|Random Traps} of the {@book Dungeon Master's Guide|DMG}.)"
+        ],
+        [
+          "6",
+          "Random sections of the area are affected by an {@spell antimagic field} spell."
+        ]
+      ],
+      "name": "Experimental Workshop Map; Bizarre Magical Effects",
+      "page": 144,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

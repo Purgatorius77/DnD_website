@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Azorius Villains",
+      "colLabels": [
+        "d8",
+        "Villain"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An ambitious authority figure seeks to achieve a higher rank by framing or defaming a rival."
+        ],
+        [
+          "2",
+          "A venal judge's rulings are swayed by bribes and favors."
+        ],
+        [
+          "3",
+          "A vengeful imperator persecutes a certain group of people, seeking revenge for a past wrong done by one of the group's members."
+        ],
+        [
+          "4",
+          "An overzealous imperator is prepared to arrest a neighborhood full of people to find a stolen item."
+        ],
+        [
+          "5",
+          "A sadistic warden tortures prisoners, ostensibly for the sake of law and order."
+        ],
+        [
+          "6",
+          "A corrupt senator seeks to pass laws that favor a certain class of people."
+        ],
+        [
+          "7",
+          "A {@creature precognitive mage|GGR} invents visions designed to frame enemies."
+        ],
+        [
+          "8",
+          "A cowardly bureaucrat destroys evidence to hide someone else's involvement in a crime."
+        ]
+      ],
+      "name": "Azorius Villains",
+      "page": 129,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

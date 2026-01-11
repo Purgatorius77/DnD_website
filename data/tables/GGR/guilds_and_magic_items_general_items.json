@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "General Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Skyblinder staff|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Very rare",
+          "{@item Illusionist's Bracers|GGR|Illusionist's bracers}",
+          "{@i GGR}"
+        ],
+        [
+          "Very rare",
+          "{@item Peregrine mask|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Very rare",
+          "{@item Sword of the paruns|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Very rare",
+          "{@item Voyager staff|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Guilds and Magic Items; General Items",
+      "page": 174,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Golgari Villains",
+      "colLabels": [
+        "d8",
+        "Villain"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Armed with a powerful magic item found among the dead in the undercity, a {@creature Golgari shaman|GGR} enacts a plan of revenge against another guild."
+        ],
+        [
+          "2",
+          "A {@creature kraul death priest|GGR} is seeking a way to revive the ancient gods of Ravnica and destroy the world."
+        ],
+        [
+          "3",
+          "A {@creature Devkarin lich|GGR} is capturing living subjects and infecting them with an insidious, mind-controlling fungus."
+        ],
+        [
+          "4",
+          "A trophy-hunting {@creature undercity medusa|GGR} for the stat block) is on a killing spree, petrifying victims in interesting poses."
+        ],
+        [
+          "5",
+          "A {@creature Golgari shaman|GGR} is spreading a fungal infection that transforms its dead victims into {@creature Zombie||zombies}."
+        ],
+        [
+          "6",
+          "An elf child lures citizens into the sewers, where a monstrous \"pet\" is waiting to kill and eat them."
+        ],
+        [
+          "7",
+          "Pursuing a personal vendetta, an Ochran {@creature assassin} is targeting members of a certain guild and trying to ensure that their bodies are never found."
+        ],
+        [
+          "8",
+          "A {@creature kraul death priest|GGR}, angry at the way the Golgari have treated the kraul in the past, is killing the elves and medusas of the guild, hoping to eventually take Jarad's place as guildmaster."
+        ]
+      ],
+      "name": "Golgari Villains",
+      "page": 138,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

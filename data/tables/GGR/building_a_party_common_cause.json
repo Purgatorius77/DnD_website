@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Common Cause",
+      "colLabels": [
+        "d8",
+        "Reasons for Cooperating"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Cellmates}. The characters are prisoners in an Azorius prison, a Gruul camp, or a {@creature Rakdos|GGR} cage."
+        ],
+        [
+          "2",
+          "{@b Greater Threat}. The characters are fighting each other when a rampaging wurm attacks."
+        ],
+        [
+          "3",
+          "{@b Sudden Danger}. The characters are trapped together by a sinkhole opening, a building collapsing, or a laboratory exploding."
+        ],
+        [
+          "4",
+          "{@b Dream Team}. A strange dream leads each character to the same destination."
+        ],
+        [
+          "5",
+          "{@b Lost Together}. The characters are hopelessly lost in an unfamiliar part of the city."
+        ],
+        [
+          "6",
+          "{@b Detente}. By order of their guilds' leaders, the characters must cooperate to complete a secret mission."
+        ],
+        [
+          "7",
+          "{@b Common Foe}. A villain is a common enemy to all the characters."
+        ],
+        [
+          "8",
+          "{@b Do or Die}. The characters are all trying to avert the catastrophe of an all-out war among the guilds."
+        ]
+      ],
+      "name": "Building a Party; Common Cause",
+      "page": 11,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

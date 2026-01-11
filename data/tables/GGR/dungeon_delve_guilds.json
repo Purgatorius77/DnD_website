@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Dungeon Delve Guilds",
+      "colLabels": [
+        "d12",
+        "Guild"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–3",
+          "House Dimir"
+        ],
+        [
+          "4–8",
+          "Golgari Swarm"
+        ],
+        [
+          "9–10",
+          "Cult of Rakdos"
+        ],
+        [
+          "11–12",
+          "Simic Combine"
+        ]
+      ],
+      "name": "Dungeon Delve Guilds",
+      "page": 124,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

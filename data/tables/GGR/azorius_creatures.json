@@ -1,0 +1,105 @@
+{
+  "table": [
+    {
+      "caption": "Azorius Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Homunculus}",
+          "{@i MM}"
+        ],
+        [
+          "0",
+          "{@creature Owl}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Giant owl}",
+          "{@i MM}"
+        ],
+        [
+          "1/2",
+          "{@creature Soldier|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/2",
+          "{@creature Warhorse}",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Giant eagle}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Griffon}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "Arrester ({@creature veteran} or {@creature knight})",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Precognitive mage|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "5",
+          "{@creature Felidar|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "6",
+          "{@creature Lawmage|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "11",
+          "{@creature Sphinx of judgment|GGR} ({@creature gynosphinx})",
+          "{@i MM}"
+        ],
+        [
+          "14",
+          "{@creature Archon of the Triumvirate|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "17",
+          "{@creature Androsphinx}",
+          "{@i MM}"
+        ],
+        [
+          "21",
+          "{@creature Isperia|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Azorius Creatures",
+      "page": 183,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

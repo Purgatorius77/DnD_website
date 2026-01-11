@@ -1,0 +1,125 @@
+{
+  "table": [
+    {
+      "caption": "Dimir Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "{@creature Shadow}",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Spy}",
+          "{@i MM}"
+        ],
+        [
+          "1",
+          "{@creature Thought spy|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "2",
+          "{@creature Grick}",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Intellect devourer}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Doppelganger}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Flying horror|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "4",
+          "{@creature Mind drinker vampire|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "5",
+          "{@creature Allip|MTF}",
+          "{@i MTF}"
+        ],
+        [
+          "5",
+          "{@creature Mind mage|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "5",
+          "{@creature Wraith}",
+          "{@i MM}"
+        ],
+        [
+          "6",
+          "{@creature Invisible stalker}",
+          "{@i MM}"
+        ],
+        [
+          "7",
+          "{@creature Grick alpha}",
+          "{@i MM}"
+        ],
+        [
+          "8",
+          "{@creature Assassin}",
+          "{@i MM}"
+        ],
+        [
+          "8",
+          "{@creature Gloamwing|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "9",
+          "{@creature Shadow horror|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "10",
+          "{@creature Nightveil specter|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "15",
+          "{@creature Skittering horror|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "17",
+          "{@creature Lazav|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Dimir Creatures",
+      "page": 184,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

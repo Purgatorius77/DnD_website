@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Dimir Items",
+      "colLabels": [
+        "Rarity",
+        "Item",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Uncommon",
+          "{@item Amulet of proof against detection and location}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Dimir Guild signet|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Uncommon",
+          "{@item Hat of disguise}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Medallion of thoughts}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Ring of mind shielding}",
+          "{@i DMG}"
+        ],
+        [
+          "Uncommon",
+          "{@item Spies' Murmur|GGR|Spies' murmur}",
+          "{@i GGR}"
+        ],
+        [
+          "Very rare or greater",
+          "{@item Crystal ball}",
+          "{@i DMG}"
+        ],
+        [
+          "Very rare",
+          "{@item Dimir keyrune|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "Legendary",
+          "{@item Cloak of invisibility}",
+          "{@i DMG}"
+        ],
+        [
+          "Legendary",
+          "{@item Ring of invisibility}",
+          "{@i DMG}"
+        ]
+      ],
+      "name": "Dimir Items",
+      "page": 175,
+      "source": "GGR",
+      "chapter": {
+        "name": "Treasures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Druid",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class druid||Circle of Dreams|Dreams|XGE}*",
+          "Selesnya"
+        ],
+        [
+          "{@class druid||Circle of Spores|Spores|TCE}**",
+          "Golgari"
+        ],
+        [
+          "{@class druid||Circle of the Land|Land}",
+          "Golgari (forest, swamp, Underdark), Selesnya (forest, grassland), Simic (coast, forest)"
+        ],
+        [
+          "{@class druid||Circle of the Moon|Moon}",
+          "Gruul"
+        ],
+        [
+          "{@class druid||Circle of the Shepherd|Shepherd|XGE}*",
+          "Selesnya"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}",
+        "** Appears in this chapter"
+      ],
+      "name": "Druid",
+      "page": 23,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

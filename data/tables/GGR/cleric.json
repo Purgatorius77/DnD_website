@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Cleric",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class cleric||Forge Domain|Forge|XGE}*",
+          "Boros"
+        ],
+        [
+          "{@class cleric||Knowledge Domain|Knowledge}",
+          "Azorius"
+        ],
+        [
+          "{@class cleric||Life Domain|Life}",
+          "Boros, Selesnya"
+        ],
+        [
+          "{@class cleric||Light Domain|Light}",
+          "Boros"
+        ],
+        [
+          "{@class cleric||Nature Domain|Nature}",
+          "Selesnya"
+        ],
+        [
+          "{@class cleric||Order Domain|Order|TCE}**",
+          "Azorius, Orzhov"
+        ],
+        [
+          "{@class cleric||Tempest Domain|Tempest}",
+          "Gruul"
+        ],
+        [
+          "{@class cleric||Trickery Domain|Trickery}",
+          "Dimir"
+        ],
+        [
+          "{@class cleric||War Domain|War}",
+          "Boros"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}",
+        "** Appears in this chapter"
+      ],
+      "name": "Cleric",
+      "page": 23,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

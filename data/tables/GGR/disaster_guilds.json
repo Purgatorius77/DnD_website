@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Disaster Guilds",
+      "colLabels": [
+        "d12",
+        "Guild"
+      ],
+      "colStyles": [
+        "text-center col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–2",
+          "Golgari Swarm"
+        ],
+        [
+          "3–5",
+          "Gruul Clans"
+        ],
+        [
+          "6–8",
+          "Izzet League"
+        ],
+        [
+          "9–10",
+          "Selesnya Conclave"
+        ],
+        [
+          "11–12",
+          "Simic Combine"
+        ]
+      ],
+      "name": "Disaster Guilds",
+      "page": 125,
+      "source": "GGR",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

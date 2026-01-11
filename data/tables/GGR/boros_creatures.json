@@ -1,0 +1,115 @@
+{
+  "table": [
+    {
+      "caption": "Boros Creatures",
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "rows": [
+        [
+          "1/8",
+          "{@creature Mastiff}",
+          "{@i MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Frontline medic|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/2",
+          "{@creature Soldier|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "1/2",
+          "Viashino ({@creature lizardfolk})",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "Flame-kin ({@creature azer})",
+          "{@i MM}"
+        ],
+        [
+          "2",
+          "{@creature Skyjek roc|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "3",
+          "{@creature Knight}",
+          "{@i MM}"
+        ],
+        [
+          "3",
+          "{@creature Veteran}",
+          "{@i MM}"
+        ],
+        [
+          "4",
+          "{@creature Reckoner|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "5",
+          "{@creature Battleforce angel|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "7",
+          "{@creature Firefist|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "8",
+          "{@creature Guardian giant|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "10",
+          "{@creature Deva}",
+          "{@i MM}"
+        ],
+        [
+          "12",
+          "{@creature Firemane angel|GGR}",
+          "{@i GGR}"
+        ],
+        [
+          "16",
+          "{@creature Planetar}",
+          "{@i MM}"
+        ],
+        [
+          "21",
+          "{@creature Solar}",
+          "{@i MM}"
+        ],
+        [
+          "23",
+          "{@creature Aurelia|GGR}",
+          "{@i GGR}"
+        ]
+      ],
+      "name": "Boros Creatures",
+      "page": 183,
+      "source": "GGR",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

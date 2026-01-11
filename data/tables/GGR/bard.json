@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Bard",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Subclass",
+        "Guild"
+      ],
+      "rows": [
+        [
+          "{@class bard||College of Glamour|Glamour|XGE}*",
+          "Selesnya"
+        ],
+        [
+          "{@class bard||College of Lore|Lore}",
+          "Azorius, Selesnya"
+        ],
+        [
+          "{@class bard||College of Swords|Swords|XGE}*",
+          "{@creature Rakdos|GGR}"
+        ],
+        [
+          "{@class bard||College of Valor|Valor}",
+          "{@creature Rakdos|GGR}"
+        ],
+        [
+          "{@class bard||College of Whispers|Whispers|XGE}*",
+          "Dimir"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in {@book Xanathar's Guide to Everything|XGE}"
+      ],
+      "name": "Bard",
+      "page": 23,
+      "source": "GGR",
+      "chapter": {
+        "name": "Character Creation",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

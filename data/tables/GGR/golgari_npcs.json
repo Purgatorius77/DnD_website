@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Golgari NPCs",
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "colLabels": [
+        "Role",
+        "Appropriate Stat Block"
+      ],
+      "rows": [
+        [
+          "Devkarin warrior",
+          "{@creature Drow} or {@creature drow elite warrior}"
+        ],
+        [
+          "Ochran assassin",
+          "{@creature Assassin}"
+        ],
+        [
+          "Reclaimer",
+          "{@creature Scout}"
+        ],
+        [
+          "Spiritual leader",
+          "{@creature Golgari shaman|GGR}*"
+        ]
+      ],
+      "footnotes": [
+        "* Appears in this chapter"
+      ],
+      "name": "Golgari NPCs",
+      "page": 234,
+      "source": "GGR",
+      "chapter": {
+        "name": "NPCs by Guild",
+        "index": 7
+      }
+    }
+  ]
+}
