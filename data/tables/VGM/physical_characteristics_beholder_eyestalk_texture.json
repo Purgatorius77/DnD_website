@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Beholder Eyestalk Texture",
+      "colLabels": [
+        "d6",
+        "Eyestalk Texture"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-2",
+          "Smooth"
+        ],
+        [
+          "3-4",
+          "Ridged (earthworm)"
+        ],
+        [
+          "5-6",
+          "Segmented (insectile)"
+        ]
+      ],
+      "name": "Physical Characteristics; Beholder Eyestalk Texture",
+      "page": 8,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Beholder Mouth Shape and Size",
+      "colLabels": [
+        "d6",
+        "Mouth Shape and Size"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Small/narrow"
+        ],
+        [
+          "2-5",
+          "Normal"
+        ],
+        [
+          "6",
+          "Large/wide"
+        ]
+      ],
+      "name": "Physical Characteristics; Beholder Mouth Shape and Size",
+      "page": 8,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

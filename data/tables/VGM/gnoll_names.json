@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Gnoll Names",
+      "colLabels": [
+        "d12",
+        "Name"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Aargab"
+        ],
+        [
+          "2",
+          "Alark"
+        ],
+        [
+          "3",
+          "Andak"
+        ],
+        [
+          "4",
+          "Ethak"
+        ],
+        [
+          "5",
+          "Eyeth"
+        ],
+        [
+          "6",
+          "Ignar"
+        ],
+        [
+          "7",
+          "Immor"
+        ],
+        [
+          "8",
+          "Oduk"
+        ],
+        [
+          "9",
+          "Orrom"
+        ],
+        [
+          "10",
+          "Otal"
+        ],
+        [
+          "11",
+          "Ulthak"
+        ],
+        [
+          "12",
+          "Ustar"
+        ]
+      ],
+      "name": "Gnoll Names",
+      "page": 36,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

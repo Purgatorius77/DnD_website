@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "isStriped": false,
+      "colStyles": [
+        "col-4",
+        "col-4",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "Beholders",
+          "Goblinoids",
+          "Mind flayers"
+        ],
+        [
+          "Giants",
+          "Hags",
+          "Orcs"
+        ],
+        [
+          "Gnolls",
+          "Kobolds",
+          "Yuan-ti"
+        ]
+      ],
+      "name": "Monster Lore",
+      "page": 5,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

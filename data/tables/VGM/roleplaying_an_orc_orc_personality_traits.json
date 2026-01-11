@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Orc Personality Traits",
+      "colLabels": [
+        "d6",
+        "Personality Trait"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "I never relinquish my weapon."
+        ],
+        [
+          "2",
+          "I welcome any chance to prove my battle skills."
+        ],
+        [
+          "3",
+          "I always appear like I am about to kill everyone around me."
+        ],
+        [
+          "4",
+          "I love a good brawl."
+        ],
+        [
+          "5",
+          "I drink the blood of monsters to consume their power."
+        ],
+        [
+          "6",
+          "I chant orcish war dirges during combat."
+        ]
+      ],
+      "name": "Roleplaying an Orc; Orc Personality Traits",
+      "page": 87,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

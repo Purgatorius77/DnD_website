@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Yuan-ti Snake Head Shape",
+      "colLabels": [
+        "d20",
+        "Snake Head Shape"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-5",
+          "Broad and rounded"
+        ],
+        [
+          "6-9",
+          "Flattened"
+        ],
+        [
+          "10-11",
+          "Hooded"
+        ],
+        [
+          "12-15",
+          "Slender"
+        ],
+        [
+          "16-20",
+          "Triangular"
+        ]
+      ],
+      "name": "Physical Variations; Yuan-ti Snake Head Shape",
+      "page": 97,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

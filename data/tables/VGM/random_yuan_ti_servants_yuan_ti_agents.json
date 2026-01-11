@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Yuan-ti Agents",
+      "colLabels": [
+        "d100",
+        "Agents"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-20",
+          "{@creature Cultist||Cultists}"
+        ],
+        [
+          "21-30",
+          "{@creature Cult Fanatic||Cult Fanatics}"
+        ],
+        [
+          "31-34",
+          "{@creature Doppelganger||Doppelgangers}"
+        ],
+        [
+          "35-50",
+          "{@creature Guard||Guards}"
+        ],
+        [
+          "51-60",
+          "{@creature Noble||Nobles}"
+        ],
+        [
+          "61-72",
+          "{@creature Priest||Priests}"
+        ],
+        [
+          "73-86",
+          "{@creature Scout||Scouts}"
+        ],
+        [
+          "87-100",
+          "{@creature Spy||Spies}"
+        ]
+      ],
+      "name": "Random Yuan-ti Servants; Yuan-ti Agents",
+      "page": 102,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

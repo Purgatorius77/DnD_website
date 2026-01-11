@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Orc Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Strength. Showing superior strength brings honor to Gruumsh. (Any)"
+        ],
+        [
+          "2",
+          "Prowess. Killing all your enemies is the path to greatness. (Evil)"
+        ],
+        [
+          "3",
+          "Dominance. I will have achieved glory when all cower before my might. (Evil)"
+        ],
+        [
+          "4",
+          "Intimidation. I can get what I want from weaklings that fear me. (Evil)"
+        ],
+        [
+          "5",
+          "Glory. The goals of the tribe don't concern me. Personal glory is what I crave. (Chaotic)"
+        ],
+        [
+          "6",
+          "Savagery. I will not be controlled. (Chaotic)"
+        ]
+      ],
+      "name": "Roleplaying an Orc; Orc Ideals",
+      "page": 87,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

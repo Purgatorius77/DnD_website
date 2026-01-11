@@ -1,0 +1,71 @@
+{
+  "table": [
+    {
+      "caption": "Orc Trophies",
+      "colLabels": [
+        "d10",
+        "Trophy"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@dice 1d12} elf ears"
+        ],
+        [
+          "2",
+          "{@dice 1d4} dwarf beards"
+        ],
+        [
+          "3",
+          "{@dice 1d6} human heads"
+        ],
+        [
+          "4",
+          "Skulls and bones"
+        ],
+        [
+          "5",
+          "Cave bear paw"
+        ],
+        [
+          "6",
+          "{@dice 1d20} severed fingers"
+        ],
+        [
+          "7",
+          "{@dice 1d8} eyeballs"
+        ],
+        [
+          "8",
+          "Flayed elf skin"
+        ],
+        [
+          "9",
+          "Dire wolf hide"
+        ],
+        [
+          "10",
+          "{@item trinket|phb|Random trinket}*"
+        ]
+      ],
+      "footnotes": [
+        "* Roll on the Trinkets table in chapter 5 of the Player's Handbook."
+      ],
+      "name": "Treasure; Orc Trophies",
+      "page": 90,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

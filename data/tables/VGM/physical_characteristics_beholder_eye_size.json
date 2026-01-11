@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Beholder Eye Size",
+      "colLabels": [
+        "2d6",
+        "Eye Size"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "2",
+          "50 percent normal"
+        ],
+        [
+          "3-4",
+          "75 percent normal"
+        ],
+        [
+          "5-9",
+          "Normal"
+        ],
+        [
+          "10-11",
+          "125 percent normal"
+        ],
+        [
+          "12",
+          "150 percent normal"
+        ]
+      ],
+      "name": "Physical Characteristics; Beholder Eye Size",
+      "page": 8,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

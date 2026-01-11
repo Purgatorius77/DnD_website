@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Orc Female Names",
+      "colLabels": [
+        "d12",
+        "Name"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Kansif"
+        ],
+        [
+          "2",
+          "Ownka"
+        ],
+        [
+          "3",
+          "Emen"
+        ],
+        [
+          "4",
+          "Sutha"
+        ],
+        [
+          "5",
+          "Myev"
+        ],
+        [
+          "6",
+          "Neega"
+        ],
+        [
+          "7",
+          "Baggi"
+        ],
+        [
+          "8",
+          "Shautha"
+        ],
+        [
+          "9",
+          "Ovak"
+        ],
+        [
+          "10",
+          "Vola"
+        ],
+        [
+          "11",
+          "Engong"
+        ],
+        [
+          "12",
+          "Volen"
+        ]
+      ],
+      "name": "Orc Names; Orc Female Names",
+      "page": 88,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

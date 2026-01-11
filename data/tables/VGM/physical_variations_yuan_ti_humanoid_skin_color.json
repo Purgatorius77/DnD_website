@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Yuan-ti Humanoid Skin Color",
+      "colLabels": [
+        "d20",
+        "Humanoid Skin Color"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "Dark brown"
+        ],
+        [
+          "5",
+          "Green-brown"
+        ],
+        [
+          "6-9",
+          "Light brown"
+        ],
+        [
+          "10-15",
+          "Medium brown"
+        ],
+        [
+          "16",
+          "Pale brown"
+        ],
+        [
+          "17-18",
+          "Red-brown"
+        ],
+        [
+          "19-20",
+          "Yellow-brown"
+        ]
+      ],
+      "name": "Physical Variations; Yuan-ti Humanoid Skin Color",
+      "page": 97,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

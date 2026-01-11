@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Beholder Body Diameter",
+      "colLabels": [
+        "2d6",
+        "Body Diameter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "2",
+          "4 feet"
+        ],
+        [
+          "3-4",
+          "4½ feet"
+        ],
+        [
+          "5-9",
+          "5 feet"
+        ],
+        [
+          "10-11",
+          "5½ feet"
+        ],
+        [
+          "12",
+          "6 feet"
+        ]
+      ],
+      "name": "Physical Characteristics; Beholder Body Diameter",
+      "page": 8,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Beholder Eyestalk Shape",
+      "colLabels": [
+        "d4",
+        "Eyestalk Shape"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Thick and short"
+        ],
+        [
+          "2",
+          "Thin and short"
+        ],
+        [
+          "3",
+          "Thick and long"
+        ],
+        [
+          "4",
+          "Thin and long"
+        ]
+      ],
+      "name": "Physical Characteristics; Beholder Eyestalk Shape",
+      "page": 8,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

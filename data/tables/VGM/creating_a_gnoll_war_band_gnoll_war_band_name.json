@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "caption": "Gnoll War Band Name",
+      "isNameGenerator": true,
+      "colLabels": [
+        "d6",
+        "Name Part 1",
+        "Name Part 2"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Abyssal",
+          "Harbingers"
+        ],
+        [
+          "2",
+          "Dire",
+          "Hunters"
+        ],
+        [
+          "3",
+          "Howling",
+          "Mongrels"
+        ],
+        [
+          "4",
+          "Rabid",
+          "Mutilators"
+        ],
+        [
+          "5",
+          "Rotted",
+          "Ravagers"
+        ],
+        [
+          "6",
+          "Screaming",
+          "Slayers"
+        ]
+      ],
+      "name": "Creating a Gnoll War Band; Gnoll War Band Name",
+      "page": 39,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

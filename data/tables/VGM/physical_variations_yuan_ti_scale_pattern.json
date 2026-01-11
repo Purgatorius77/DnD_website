@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Yuan-ti Scale Pattern",
+      "colLabels": [
+        "d20",
+        "Scale Pattern"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-5",
+          "Mottled"
+        ],
+        [
+          "6-7",
+          "Random"
+        ],
+        [
+          "8-10",
+          "Reticulated"
+        ],
+        [
+          "11-15",
+          "Speckled"
+        ],
+        [
+          "16-20",
+          "Striped"
+        ]
+      ],
+      "name": "Physical Variations; Yuan-ti Scale Pattern",
+      "page": 97,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

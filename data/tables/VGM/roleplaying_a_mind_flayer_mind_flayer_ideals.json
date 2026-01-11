@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Mind Flayer Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Knowledge. All information is of value. (Neutral)"
+        ],
+        [
+          "2",
+          "Obedience. Nothing is more important than following orders. (Lawful)"
+        ],
+        [
+          "3",
+          "Selfishness. I do my best work when motivated by my own self-interest. (Chaotic)"
+        ],
+        [
+          "4",
+          "Truth. Truth is the foundation of knowledge, so I never lie. (Lawful)"
+        ],
+        [
+          "5",
+          "Superiority. Nothing can be gained from the study of lesser beings. (Neutral)"
+        ],
+        [
+          "6",
+          "Domination. All others should submit to my control. (Evil)"
+        ]
+      ],
+      "name": "Roleplaying a Mind Flayer; Mind Flayer Ideals",
+      "page": 74,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

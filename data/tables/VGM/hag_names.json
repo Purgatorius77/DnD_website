@@ -1,0 +1,105 @@
+{
+  "table": [
+    {
+      "caption": "Hag Names",
+      "isNameGenerator": true,
+      "colLabels": [
+        "d12",
+        "Title",
+        "First Name",
+        "Last Name"
+      ],
+      "colStyles": [
+        "col-3 text-center",
+        "col-3",
+        "col-3",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "1",
+          "Auntie",
+          "Agatha",
+          "Bonechewer"
+        ],
+        [
+          "2",
+          "Black",
+          "Agnes",
+          "Frogwart"
+        ],
+        [
+          "3",
+          "Cackling",
+          "Ethel",
+          "Greenteeth"
+        ],
+        [
+          "4",
+          "Dismal",
+          "May",
+          "Gristlegums"
+        ],
+        [
+          "5",
+          "Dread",
+          "Mathilda",
+          "Knucklebones"
+        ],
+        [
+          "6",
+          "Driftwood",
+          "Morgan",
+          "Middenheap"
+        ],
+        [
+          "7",
+          "Granny",
+          "Olga",
+          "Mudwallow"
+        ],
+        [
+          "8",
+          "Old",
+          "Peggy",
+          "Pigtooth"
+        ],
+        [
+          "9",
+          "Rickety",
+          "Polly",
+          "Titchwillow"
+        ],
+        [
+          "10",
+          "Rotten",
+          "Sally",
+          "Toestealer"
+        ],
+        [
+          "11",
+          "Turtleback",
+          "Ursula",
+          "Twigmouth"
+        ],
+        [
+          "12",
+          "Wicked",
+          "Zilla",
+          "Wormwiggle"
+        ]
+      ],
+      "name": "Hag Names",
+      "page": 55,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Type 2 Malison: Arms",
+      "colLabels": [
+        "d10",
+        "Malison Type 2 Arm*"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "Cluster of small snakes"
+        ],
+        [
+          "5-9",
+          "One large snake"
+        ],
+        [
+          "10",
+          "Scaly humanoid with snake head for a hand"
+        ]
+      ],
+      "footnotes": [
+        "* Roll once for each arm"
+      ],
+      "name": "Physical Variations; Type 2 Malison: Arms",
+      "page": 97,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

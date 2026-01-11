@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Yuan-ti Snake Body Type",
+      "colLabels": [
+        "d20",
+        "Snake Body Shape"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-5",
+          "Thick"
+        ],
+        [
+          "6-15",
+          "Normal"
+        ],
+        [
+          "16-20",
+          "Sleek"
+        ]
+      ],
+      "name": "Physical Variations; Yuan-ti Snake Body Type",
+      "page": 97,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

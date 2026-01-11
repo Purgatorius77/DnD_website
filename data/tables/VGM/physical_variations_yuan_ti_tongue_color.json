@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Yuan-ti Tongue Color",
+      "colLabels": [
+        "d6",
+        "Tongue Color"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Black"
+        ],
+        [
+          "2",
+          "Blue"
+        ],
+        [
+          "3",
+          "Orange"
+        ],
+        [
+          "4",
+          "Pale"
+        ],
+        [
+          "5-6",
+          "Red"
+        ]
+      ],
+      "name": "Physical Variations; Yuan-ti Tongue Color",
+      "page": 97,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Giant Life Spans",
+      "colLabels": [
+        "Giant Type",
+        "Life Span"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Hill",
+          "200 years"
+        ],
+        [
+          "Frost",
+          "250 years"
+        ],
+        [
+          "Fire",
+          "350 years"
+        ],
+        [
+          "Cloud",
+          "400 years"
+        ],
+        [
+          "Storm",
+          "600 years"
+        ],
+        [
+          "Stone",
+          "800 years"
+        ]
+      ],
+      "name": "Living the Giant Life; Giant Life Spans",
+      "page": 22,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

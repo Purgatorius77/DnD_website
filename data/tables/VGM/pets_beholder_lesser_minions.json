@@ -1,0 +1,83 @@
+{
+  "table": [
+    {
+      "caption": "Beholder Lesser Minions",
+      "colLabels": [
+        "d100",
+        "Lesser Minions*"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "{@dice 10d10 + 50} {@creature bandit||bandits} and {@dice 3d6} {@creature bandit captain||bandit captains}"
+        ],
+        [
+          "5-8",
+          "{@dice 10d6} {@creature bugbear||bugbears} and {@dice 1d3} {@creature bugbear chief||bugbear chiefs}"
+        ],
+        [
+          "9-12",
+          "{@dice 1d10} {@creature cultist||cultists} and {@dice 4d6} {@creature cult fanatic||cult fanatics}"
+        ],
+        [
+          "13-14",
+          "{@dice 10d6} {@creature duergar}"
+        ],
+        [
+          "15-22",
+          "{@dice 10d10 + 50} {@creature goblin||goblins} and {@dice 3d4} {@creature goblin boss||goblin bosses}"
+        ],
+        [
+          "23-25",
+          "{@dice 10d10 + 50} {@creature grimlock||grimlocks}"
+        ],
+        [
+          "26-35",
+          "{@dice 10d10 } {@creature hobgoblin||hobgoblins} and {@dice 2d4} {@creature hobgoblin captain||hobgoblin captains}"
+        ],
+        [
+          "36-43",
+          "{@dice 10d10 + 50} {@creature kobold||kobolds}, {@dice 2d4} {@creature kobold inventor|vgm|kobold inventors}, and {@dice 2d6} {@creature kobold scale sorcerer|vgm|kobold scale sorcerers}"
+        ],
+        [
+          "44-48",
+          "{@dice 10d10 + 50} {@creature lizardfolk}"
+        ],
+        [
+          "49-56",
+          "{@dice 10d10} {@creature orc||orcs} and {@dice 1d6} {@creature orc war chief||orc war chiefs}"
+        ],
+        [
+          "57-59",
+          "{@dice 6d6} {@creature quaggoth||quaggoths}"
+        ],
+        [
+          "60-65",
+          "{@dice 10d10 + 50} {@creature troglodyte||troglodytes}"
+        ],
+        [
+          "66-100",
+          "Roll twice, ignoring results above 65"
+        ]
+      ],
+      "footnotes": [
+        "* For death tyrant lairs, use this table, but replace approximately half of its humanoid minions with zombies."
+      ],
+      "name": "Pets; Beholder Lesser Minions",
+      "page": 16,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

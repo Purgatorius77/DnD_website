@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Gnoll War Band Composition",
+      "colLabels": [
+        "War Band Composition",
+        "Number Appearing"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Gnoll fangs ofYeenoghu",
+          "{@dice 1d4 + 1}"
+        ],
+        [
+          "Gnoll hunters",
+          "{@dice 1d4 + 1}"
+        ],
+        [
+          "Gnoll flesh gnawers",
+          "{@dice 2d4}"
+        ],
+        [
+          "Warriors (common gnolls)",
+          "{@dice 6d6}"
+        ],
+        [
+          "Hyenas",
+          "{@dice 4d6}"
+        ]
+      ],
+      "name": "Creating a Gnoll War Band; Gnoll War Band Composition",
+      "page": 39,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

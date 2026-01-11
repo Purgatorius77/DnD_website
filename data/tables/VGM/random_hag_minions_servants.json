@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Servants",
+      "colLabels": [
+        "d8",
+        "Servant(s)"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Flameskull||Flameskulls}"
+        ],
+        [
+          "2",
+          "{@creature Flesh Golem||Flesh Golems}"
+        ],
+        [
+          "3",
+          "{@creature Helmed Horror||Helmed Horrors}"
+        ],
+        [
+          "4",
+          "{@creature Rug of Smothering}"
+        ],
+        [
+          "5",
+          "{@creature Scarecrow||Scarecrows}"
+        ],
+        [
+          "6",
+          "{@creature Shadow Mastiff|VGM|Shadow Mastiffs}"
+        ],
+        [
+          "7",
+          "{@dice 2d4} {@creature swarm of insects||swarms of insects} or {@creature swarm of rats||swarms of rats}"
+        ],
+        [
+          "8",
+          "{@creature Yeth Hound|VGM|Yeth Hounds}"
+        ]
+      ],
+      "name": "Random Hag Minions; Servants",
+      "page": 61,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

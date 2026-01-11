@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Brutes",
+      "colLabels": [
+        "d12",
+        "Brute(s)"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Bugbear||Bugbears}"
+        ],
+        [
+          "2",
+          "{@creature Doppelganger||Doppelgangers}"
+        ],
+        [
+          "3",
+          "{@creature Ettercap||Ettercaps}"
+        ],
+        [
+          "4",
+          "{@creature Gargoyle||Gargoyles}"
+        ],
+        [
+          "5",
+          "{@creature Jackalwere||Jackalweres}"
+        ],
+        [
+          "6",
+          "{@creature Kenku}"
+        ],
+        [
+          "7",
+          "{@creature Meenlock|VGM|Meenlocks}"
+        ],
+        [
+          "8",
+          "{@creature Oni}"
+        ],
+        [
+          "9",
+          "{@creature Quickling|VGM|Quicklings}"
+        ],
+        [
+          "10",
+          "{@creature Redcap|VGM|Redcaps}"
+        ],
+        [
+          "11",
+          "{@creature Wererat||Wererats}"
+        ],
+        [
+          "12",
+          "{@creature Werewolf||Werewolves}"
+        ]
+      ],
+      "name": "Random Hag Minions; Brutes",
+      "page": 61,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

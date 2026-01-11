@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Beholder Skin Texture",
+      "colLabels": [
+        "d10",
+        "Skin Texture"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-2",
+          "Pebbled"
+        ],
+        [
+          "3",
+          "Pitted"
+        ],
+        [
+          "4-5",
+          "Plated"
+        ],
+        [
+          "6",
+          "Scaled"
+        ],
+        [
+          "7-8",
+          "Smooth"
+        ],
+        [
+          "9",
+          "Warty"
+        ],
+        [
+          "10",
+          "Wrinkled"
+        ]
+      ],
+      "name": "Physical Characteristics; Beholder Skin Texture",
+      "page": 8,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

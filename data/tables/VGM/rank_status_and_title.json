@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "isStriped": false,
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "1st rank: Warlord",
+          "5th rank: Spear"
+        ],
+        [
+          "2nd rank: General",
+          "6th rank: Fist"
+        ],
+        [
+          "3rd rank: Captain",
+          "7th rank: Soldier"
+        ],
+        [
+          "4th rank: Fatal Axe",
+          ""
+        ]
+      ],
+      "name": "Rank, Status, and Title",
+      "page": 46,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

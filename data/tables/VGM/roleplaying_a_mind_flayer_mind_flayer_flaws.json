@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Mind Flayer Flaws",
+      "colLabels": [
+        "d6",
+        "Flaw"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "I am oblivious to the emotions expressed by others."
+        ],
+        [
+          "2",
+          "I believe my minions will always do precisely as I intend."
+        ],
+        [
+          "3",
+          "I never assume others understand and always explain everything."
+        ],
+        [
+          "4",
+          "I have a memory that isn't mine. I'm obsess about it."
+        ],
+        [
+          "5",
+          "It is inconceivable that another creature could outsmart me."
+        ],
+        [
+          "6",
+          "I sometimes confuse others' thoughts with my own."
+        ]
+      ],
+      "name": "Roleplaying a Mind Flayer; Mind Flayer Flaws",
+      "page": 74,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

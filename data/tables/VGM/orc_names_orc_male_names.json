@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Orc Male Names",
+      "colLabels": [
+        "d12",
+        "Name"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Grutok"
+        ],
+        [
+          "2",
+          "Lortar"
+        ],
+        [
+          "3",
+          "Abzug"
+        ],
+        [
+          "4",
+          "Shugog"
+        ],
+        [
+          "5",
+          "Urzul"
+        ],
+        [
+          "6",
+          "Ruhk"
+        ],
+        [
+          "7",
+          "Mobad"
+        ],
+        [
+          "8",
+          "Shamog"
+        ],
+        [
+          "9",
+          "Mugrub"
+        ],
+        [
+          "10",
+          "Bajok"
+        ],
+        [
+          "11",
+          "Rhorog"
+        ],
+        [
+          "12",
+          "Jahrukk"
+        ]
+      ],
+      "name": "Orc Names; Orc Male Names",
+      "page": 88,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

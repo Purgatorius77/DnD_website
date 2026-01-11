@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Scale Pattern",
+      "colLabels": [
+        "d20",
+        "Scale Pattern"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "Mottled"
+        ],
+        [
+          "5-8",
+          "Reticulated"
+        ],
+        [
+          "9-12",
+          "Shaded"
+        ],
+        [
+          "13-16",
+          "Spotted"
+        ],
+        [
+          "17-20",
+          "Striped"
+        ]
+      ],
+      "name": "Physical Variations; Scale Pattern",
+      "page": 66,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

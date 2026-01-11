@@ -1,0 +1,111 @@
+{
+  "table": [
+    {
+      "caption": "Yuan-ti Protectors",
+      "colLabels": [
+        "d100",
+        "Protector(s)"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-10",
+          "{@creature Bandit Captain||Bandit Captains} and {@creature Bandit||Bandits}"
+        ],
+        [
+          "11-12",
+          "{@creature Basilisk||Basilisks}"
+        ],
+        [
+          "13-18",
+          "{@creature Constrictor Snake||Constrictor Snakes}"
+        ],
+        [
+          "19-26",
+          "{@creature Cult Fanatic||Cult Fanatics} and {@creature Cultist||Cultists}"
+        ],
+        [
+          "27-28",
+          "{@creature Flying Snake||Flying Snakes}"
+        ],
+        [
+          "29-35",
+          "{@creature Giant Constrictor Snake||Giant Constrictor Snakes}"
+        ],
+        [
+          "36-45",
+          "{@creature Giant Poisonous Snake||Giant Poisonous Snakes}"
+        ],
+        [
+          "46-50",
+          "{@creature Gladiator||Gladiators}"
+        ],
+        [
+          "51-55",
+          "{@creature Guard||Guards}"
+        ],
+        [
+          "56-58",
+          "{@creature Hydra||Hydras}"
+        ],
+        [
+          "59-60",
+          "{@creature Medusa||Medusas}"
+        ],
+        [
+          "61",
+          "{@creature Mummy||Mummies}*"
+        ],
+        [
+          "62-63",
+          "{@creature Poisonous Snake||Poisonous Snakes}"
+        ],
+        [
+          "64-68",
+          "{@creature Priest||Priests}"
+        ],
+        [
+          "69-70",
+          "{@creature Skeleton||Skeletons}"
+        ],
+        [
+          "71",
+          "{@creature Stone Golem||Stone Golems}"
+        ],
+        [
+          "72-81",
+          "{@creature Swarm of Poisonous Snakes||Swarms of Poisonous Snakes}"
+        ],
+        [
+          "82-91",
+          "{@creature Tribal Warrior||Tribal Warriors}"
+        ],
+        [
+          "92-97",
+          "{@creature Veteran||Veterans}"
+        ],
+        [
+          "98-100",
+          "{@creature Zombie||Zombies}"
+        ]
+      ],
+      "footnotes": [
+        "* The mummies are the undead remains of yuan-ti malisons or purebloods. Each has the statistics of a normal mummy."
+      ],
+      "name": "Random Yuan-ti Servants; Yuan-ti Protectors",
+      "page": 102,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

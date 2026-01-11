@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "War Band Leadership",
+      "colLabels": [
+        "d6",
+        "Leader",
+        "Number Appearing Modifier"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Gnoll War Band Flind Leader",
+          "Double"
+        ],
+        [
+          "2-4",
+          "Gnoll War Band Gnoll Pack Lord Leader",
+          "None"
+        ],
+        [
+          "5-6",
+          "No Leader",
+          "Halve"
+        ]
+      ],
+      "name": "Creating a Gnoll War Band; War Band Leadership",
+      "page": 39,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

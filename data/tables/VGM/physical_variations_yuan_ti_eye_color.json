@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Yuan-ti Eye Color",
+      "colLabels": [
+        "d6",
+        "Eye Color"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Blue"
+        ],
+        [
+          "2",
+          "Brown"
+        ],
+        [
+          "3",
+          "Green"
+        ],
+        [
+          "4",
+          "Red"
+        ],
+        [
+          "5",
+          "Tan"
+        ],
+        [
+          "6",
+          "Yellow"
+        ]
+      ],
+      "name": "Physical Variations; Yuan-ti Eye Color",
+      "page": 97,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

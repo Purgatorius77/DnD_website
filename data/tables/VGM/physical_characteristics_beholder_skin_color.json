@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Beholder Skin Color",
+      "colLabels": [
+        "d12",
+        "Skin Color"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Brown"
+        ],
+        [
+          "2",
+          "Brown-yellow"
+        ],
+        [
+          "3",
+          "Gray"
+        ],
+        [
+          "4",
+          "Green"
+        ],
+        [
+          "5-7",
+          "Pinkish"
+        ],
+        [
+          "8-9",
+          "Purple-blue"
+        ],
+        [
+          "10-11",
+          "Mottled (roll twice, ignoring results above 10)"
+        ],
+        [
+          "12",
+          "Shaded (roll twice, ignoring results above 10)"
+        ]
+      ],
+      "name": "Physical Characteristics; Beholder Skin Color",
+      "page": 8,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

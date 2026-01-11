@@ -1,0 +1,72 @@
+{
+  "table": [
+    {
+      "caption": "Beholder Pets",
+      "colLabels": [
+        "d100",
+        "Pets"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-10",
+          "{@dice 1d3} {@creature basilisk||basilisks}"
+        ],
+        [
+          "11-13",
+          "{@dice 1d3} {@creature beholder zombie||beholder zombies}"
+        ],
+        [
+          "14-22",
+          "{@dice 1d4} {@creature chimera||chimeras}"
+        ],
+        [
+          "23-26",
+          "{@dice 1d4} {@creature flesh golem||flesh golems}"
+        ],
+        [
+          "27-29",
+          "{@dice 3d6} {@creature gazer|vgm|gazers}"
+        ],
+        [
+          "30-37",
+          "{@dice 3d6} {@creature hell hound||hell hounds}"
+        ],
+        [
+          "38-41",
+          "{@dice 2d6} {@creature nothic||nothics}"
+        ],
+        [
+          "42-53",
+          "{@dice 2d4} {@creature otyugh||otyughs}"
+        ],
+        [
+          "54-66",
+          "{@dice 2d4} {@creature roper||ropers}"
+        ],
+        [
+          "67-75",
+          "{@dice 1d6} {@creature wyvern||wyverns}"
+        ],
+        [
+          "76-100",
+          "Roll twice, ignoring results above 75"
+        ]
+      ],
+      "name": "Beholder Pets",
+      "page": 16,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Gnoll War Band Special Creatures",
+      "colLabels": [
+        "d20",
+        "Special Creatures"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "1 {@creature Barlgura}"
+        ],
+        [
+          "2-5",
+          "{@dice 3d6} {@creature Dretch||Dretches}"
+        ],
+        [
+          "6-8",
+          "{@dice 2d6} {@creature Ghoul||Ghouls}"
+        ],
+        [
+          "9-10",
+          "{@dice 2d6} {@creature Gnoll Witherling|VGM|Gnoll Witherlings}"
+        ],
+        [
+          "11",
+          "1 {@creature Hezrou}"
+        ],
+        [
+          "12-13",
+          "{@dice 1d4} {@creature Leucrotta|VGM|Leucrottas}"
+        ],
+        [
+          "14-16",
+          "{@dice 2d6} {@creature Manes}"
+        ],
+        [
+          "17-18",
+          "{@dice 2d4} {@creature Maw Demon|VGM|Maw Demons}"
+        ],
+        [
+          "19",
+          "1 {@creature Shoosuva|VGM}"
+        ],
+        [
+          "20",
+          "{@dice 1d3} {@creature Troll||Trolls}"
+        ]
+      ],
+      "name": "Creating a Gnoll War Band; Gnoll War Band Special Creatures",
+      "page": 39,
+      "source": "VGM",
+      "chapter": {
+        "name": "Monster Lore",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 0
+      }
+    }
+  ]
+}
