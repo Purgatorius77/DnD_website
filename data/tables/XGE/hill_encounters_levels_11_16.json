@@ -1,0 +1,133 @@
+{
+  "table": [
+    {
+      "name": "Hill Encounters (Levels 11—16)",
+      "type": "table",
+      "source": "XGE",
+      "page": 101,
+      "caption": "Hill Encounters (Levels 11—16)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "{@dice 2d8} {@creature manticore||manticores} or {@dice 2d8} {@creature phase spider||phase spiders}"
+        ],
+        [
+          "02-04",
+          "{@dice 1d6} {@creature green hag||green hags} with {@dice 1d6} {@creature wyvern||wyverns}"
+        ],
+        [
+          "05-07",
+          "1 {@creature hobgoblin captain} with 1 {@creature hill giant} and {@dice 4d10} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "08-10",
+          "{@dice 2d6 + 3} {@creature werewolf||werewolves}"
+        ],
+        [
+          "11-14",
+          "{@dice 1d6 + 2} {@creature ettin||ettins}"
+        ],
+        [
+          "15-18",
+          "{@dice 1d3} {@creature bulette||bulettes}"
+        ],
+        [
+          "19-22",
+          "{@dice 1d4} {@creature werebear||werebears}"
+        ],
+        [
+          "23-24",
+          "A stream of smoke emerging from a small chimney in the hillside"
+        ],
+        [
+          "25-28",
+          "{@dice 1d4} {@creature wyvern||wyverns}"
+        ],
+        [
+          "29-32",
+          "{@dice 1d8 + 1} {@creature wereboar||wereboars}"
+        ],
+        [
+          "33-36",
+          "{@dice 1d3} {@creature revenant||revenants}"
+        ],
+        [
+          "37-38",
+          "A mild earthquake that shakes the region for {@dice 1d20} seconds"
+        ],
+        [
+          "39-42",
+          "{@dice 1d3} {@creature chimera||chimeras}"
+        ],
+        [
+          "43-46",
+          "{@dice 1d4} {@creature gorgon||gorgons}"
+        ],
+        [
+          "47-50",
+          "{@dice 1d6 + 2} {@creature gnoll fang of Yeenoghu||gnoll fangs of Yeenoghu}"
+        ],
+        [
+          "51-54",
+          "{@dice 1d4} {@creature hill giant||hill giants}"
+        ],
+        [
+          "55-58",
+          "1 {@creature young red dragon}"
+        ],
+        [
+          "59-62",
+          "{@dice 1d3 + 1} {@creature galeb duhr}"
+        ],
+        [
+          "63-65",
+          "{@dice 2d10} dwarf miners ({@creature commoner||commoners}), whistling as they march toward their mine"
+        ],
+        [
+          "66-69",
+          "{@dice 1d3} {@creature young copper dragon||young copper dragons}"
+        ],
+        [
+          "70-73",
+          "{@dice 1d4} {@creature troll||trolls}"
+        ],
+        [
+          "74-77",
+          "{@dice 1d3} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "78-80",
+          "{@dice 1d3} {@creature noble||nobles} with {@dice 1d4} {@creature scout||scouts} prospecting for gold"
+        ],
+        [
+          "81-85",
+          "1 {@creature adult copper dragon}"
+        ],
+        [
+          "86-90",
+          "{@dice 2d4} {@creature stone giant||stone giants}"
+        ],
+        [
+          "91-96",
+          "{@dice 1d4} {@creature roc||rocs}"
+        ],
+        [
+          "97-99",
+          "1 {@creature adult red dragon}"
+        ],
+        [
+          "00",
+          "1 {@creature ancient copper dragon}"
+        ]
+      ]
+    }
+  ]
+}

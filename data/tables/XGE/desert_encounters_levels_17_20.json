@@ -1,0 +1,97 @@
+{
+  "table": [
+    {
+      "name": "Desert Encounters (Levels 17—20)",
+      "type": "table",
+      "source": "XGE",
+      "page": 95,
+      "caption": "Desert Encounters (Levels 17—20)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-05",
+          "1 {@creature adult brass dragon}"
+        ],
+        [
+          "06-10",
+          "{@dice 1d2} {@creature yuan-ti abomination||yuan-ti abominations} with {@dice 2d10 + 5} {@creature yuan-ti malison (type 1)||yuan-ti malisons} and {@dice 4d6 + 6} {@creature yuan-ti pureblood||yuan-ti purebloods}"
+        ],
+        [
+          "11-14",
+          "{@dice 1d6 + 2} {@creature medusa||medusas}"
+        ],
+        [
+          "15-18",
+          "{@dice 1d2} {@creature purple worm||purple worms}"
+        ],
+        [
+          "19-22",
+          "{@dice 2d4} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "23-25",
+          "An abandoned city made from white marble, empty during the day. At night, harmless apparitions roam the streets, replaying the final moments of their lives."
+        ],
+        [
+          "26-30",
+          "{@dice 1d3} {@creature young blue dragon||young blue dragons}"
+        ],
+        [
+          "31-35",
+          "1 {@creature mummy lord}"
+        ],
+        [
+          "36-40",
+          "{@dice 1d4} hours of extreme heat (see chapter 5 of the {@italic Dungeon Master's Guide})"
+        ],
+        [
+          "41-50",
+          "{@dice 1d3} {@creature guardian naga||guardian nagas}"
+        ],
+        [
+          "51-60",
+          "{@dice 1d4} {@creature efreeti||efreet}"
+        ],
+        [
+          "61-63",
+          "An old signpost identifying a single destination, called Pazar"
+        ],
+        [
+          "64-72",
+          "{@dice 1d4} {@creature roc||rocs}"
+        ],
+        [
+          "73-80",
+          "{@dice 1d3} {@creature gynosphinx||gynosphinxes}"
+        ],
+        [
+          "81-85",
+          "1 {@creature adult blue dracolich}"
+        ],
+        [
+          "86-90",
+          "1 {@creature androsphinx}"
+        ],
+        [
+          "91-96",
+          "1 {@creature ancient brass dragon}"
+        ],
+        [
+          "97-99",
+          "1 {@creature ancient blue dragon}"
+        ],
+        [
+          "00",
+          "{@dice 1d4} {@creature adult brass dragon||adult brass dragons}"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "table": [
+    {
+      "name": "Coastal Encounters (Levels 17—20)",
+      "type": "table",
+      "source": "XGE",
+      "page": 93,
+      "caption": "Coastal Encounters (Levels 17—20)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-10",
+          "1 {@creature roc}"
+        ],
+        [
+          "11-20",
+          "1 {@creature storm giant}"
+        ],
+        [
+          "21-25",
+          "An {@creature adult bronze dragon} fighting an {@creature adult blue dragon} to the death"
+        ],
+        [
+          "26-40",
+          "{@dice 2d4} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "41-50",
+          "1 {@creature adult bronze dragon} or 1 {@creature adult blue dragon}"
+        ],
+        [
+          "51-60",
+          "{@dice 1d3} {@creature djinni} or {@dice 1d3} {@creature marid||marids}"
+        ],
+        [
+          "61-70",
+          "1 {@creature dragon turtle}"
+        ],
+        [
+          "71-75",
+          "{@dice 1d3} {@creature roc||rocs}"
+        ],
+        [
+          "76-80",
+          "{@dice 1d6 + 2} waterspouts that dance on the water before stopping abruptly"
+        ],
+        [
+          "81-90",
+          "{@dice 1d6} {@creature young blue dragon||young blue dragons}"
+        ],
+        [
+          "91-96",
+          "1 {@creature ancient bronze dragon}"
+        ],
+        [
+          "97-99",
+          "1 {@creature ancient blue dragon}"
+        ],
+        [
+          "00",
+          "{@dice 1d3 + 1} {@creature storm giant||storm giants}"
+        ]
+      ]
+    }
+  ]
+}

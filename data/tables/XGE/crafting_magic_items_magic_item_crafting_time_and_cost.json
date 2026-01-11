@@ -1,0 +1,58 @@
+{
+  "table": [
+    {
+      "caption": "Magic Item Crafting Time and Cost",
+      "colLabels": [
+        "Item Rarity",
+        "Workweeks*",
+        "Cost*"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4 text-center",
+        "col-4 text-right"
+      ],
+      "rows": [
+        [
+          "Common",
+          "1",
+          "50 gp"
+        ],
+        [
+          "Uncommon",
+          "2",
+          "200 gp"
+        ],
+        [
+          "Rare",
+          "10",
+          "2,000 gp"
+        ],
+        [
+          "Very rare",
+          "25",
+          "20,000 gp"
+        ],
+        [
+          "Legendary",
+          "50",
+          "100,000 gp"
+        ]
+      ],
+      "footnotes": [
+        "*Halved for a consumable item like a potion or scroll"
+      ],
+      "name": "Crafting Magic Items; Magic Item Crafting Time and Cost",
+      "page": 128,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "table": [
+    {
+      "name": "Arctic Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 92,
+      "caption": "Arctic Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-05",
+          "2 {@creature saber-toothed tiger||saber-toothed tigers}"
+        ],
+        [
+          "06-07",
+          "{@dice 1d4} {@creature half-ogre (ogrillon)||half-ogres}"
+        ],
+        [
+          "08-10",
+          "{@dice 1d3 + 1} {@creature brown bear||brown bears}"
+        ],
+        [
+          "11-15",
+          "{@dice 1d3} {@creature polar bear||polar bears}"
+        ],
+        [
+          "16-20",
+          "{@dice 2d4} {@creature berserker||berserkers}"
+        ],
+        [
+          "21-25",
+          "A half-orc {@creature druid} tending to an injured {@creature polar bear}. If the characters assist the druid, she gives them a vial of antitoxin."
+        ],
+        [
+          "26-30",
+          "{@dice 2d8} {@creature scout||scouts}"
+        ],
+        [
+          "31-35",
+          "{@dice 2d4} {@creature ice mephit||ice mephits}"
+        ],
+        [
+          "36-40",
+          "{@dice 2d6 + 1} {@creature zombie||zombies} aboard a galleon trapped in the ice. Searching the ship yields {@dice 2d20} days of rations."
+        ],
+        [
+          "41-45",
+          "1 {@creature manticore}"
+        ],
+        [
+          "46-50",
+          "{@dice 2d6 + 3} {@creature orc||orcs}"
+        ],
+        [
+          "51-53",
+          "{@dice 1d6 + 2} {@creature ogre||ogres}"
+        ],
+        [
+          "54-55",
+          "{@dice 2d4} {@creature griffon||griffons}"
+        ],
+        [
+          "56-57",
+          "{@dice 1d4} {@creature veteran||veterans}"
+        ],
+        [
+          "58-60",
+          "1 {@creature bandit captain} with 1 {@creature druid}, {@dice 1d3} {@creature berserker||berserkers}, and {@dice 2d10 + 5} {@creature bandit||bandits}"
+        ],
+        [
+          "61-65",
+          "{@dice 1d4} hours of extreme cold (see chapter 5 of the {@italic Dungeon Master's Guide})"
+        ],
+        [
+          "66-68",
+          "1 {@creature young remorhaz}"
+        ],
+        [
+          "69-72",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 1d6} {@creature orog||orogs} and {@dice 2d8 + 6} {@creature orc||orcs}"
+        ],
+        [
+          "73-75",
+          "1 {@creature revenant}"
+        ],
+        [
+          "76-80",
+          "A howl that echoes over the land for {@dice 1d3} minutes"
+        ],
+        [
+          "81-82",
+          "{@dice 1d3} {@creature mammoth||mammoths}"
+        ],
+        [
+          "83-84",
+          "1 {@creature young white dragon}"
+        ],
+        [
+          "85-86",
+          "{@dice 2d4} {@creature winter wolf||winter wolves}"
+        ],
+        [
+          "87-88",
+          "{@dice 1d6 + 2} {@creature yeti||yetis}"
+        ],
+        [
+          "89-90",
+          "{@dice 1d2} {@creature frost giant||frost giants}"
+        ],
+        [
+          "91-92",
+          "{@dice 1d3} {@creature werebear||werebears}"
+        ],
+        [
+          "93-94",
+          "{@dice 1d4} {@creature troll||trolls}"
+        ],
+        [
+          "95-96",
+          "1 {@creature abominable yeti}"
+        ],
+        [
+          "97-98",
+          "1 {@creature remorhaz}"
+        ],
+        [
+          "99",
+          "1 {@creature roc}"
+        ],
+        [
+          "00",
+          "{@dice 2d4} {@creature young remorhaz||young remorhazes}"
+        ]
+      ]
+    }
+  ]
+}

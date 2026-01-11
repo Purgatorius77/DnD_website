@@ -1,0 +1,249 @@
+{
+  "table": [
+    {
+      "name": "Desert Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 95,
+      "caption": "Desert Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "{@dice 3d8} {@creature scorpion||scorpions}"
+        ],
+        [
+          "02",
+          "{@dice 2d4} {@creature vulture||vultures}"
+        ],
+        [
+          "03",
+          "1 abandoned {@creature mule}"
+        ],
+        [
+          "04",
+          "{@dice 2d6} {@creature commoner||commoners} with {@dice 2d4} {@creature camel||camels} bound for a distant city"
+        ],
+        [
+          "05",
+          "{@dice 1d6} {@creature flying snake||flying snakes}"
+        ],
+        [
+          "06",
+          "{@dice 2d6} {@creature hyena||hyenas} or {@dice 2d6} {@creature jackal||jackals}"
+        ],
+        [
+          "07",
+          "{@dice 1d6} {@creature guard||guards} escorting a {@creature noble} to the edge of the desert, all of them astride {@creature camel||camels}"
+        ],
+        [
+          "08",
+          "{@dice 1d6} {@creature cat||cats}"
+        ],
+        [
+          "09",
+          "1 {@creature pseudodragon}"
+        ],
+        [
+          "10",
+          "{@dice 1d4} {@creature poisonous snake||poisonous snakes}"
+        ],
+        [
+          "11-13",
+          "{@dice 2d4} {@creature stirge||stirges}"
+        ],
+        [
+          "14-15",
+          "{@dice 1d6 + 2} {@creature giant wolf spider||giant wolf spiders}"
+        ],
+        [
+          "16-17",
+          "1 {@creature scout}"
+        ],
+        [
+          "18-20",
+          "{@dice 2d4} {@creature giant poisonous snake||giant poisonous snakes}"
+        ],
+        [
+          "21-25",
+          "Single-file tracks marching deeper into the desert"
+        ],
+        [
+          "26-27",
+          "{@dice 4d4} {@creature kobold||kobolds}"
+        ],
+        [
+          "28-29",
+          "1 {@creature jackalwere}"
+        ],
+        [
+          "30-31",
+          "{@dice 3d6} {@creature tribal warrior||tribal warriors}"
+        ],
+        [
+          "32-33",
+          "{@dice 1d6} {@creature giant lizard||giant lizards}"
+        ],
+        [
+          "34-35",
+          "1 {@creature swarm of insects}"
+        ],
+        [
+          "36-40",
+          "An oasis surrounded by palm trees and containing the remnants of an old camp"
+        ],
+        [
+          "41-44",
+          "{@dice 3d6} {@creature bandit||bandits}"
+        ],
+        [
+          "45-46",
+          "{@dice 1d4} {@creature constrictor snake||constrictor snakes}"
+        ],
+        [
+          "47-48",
+          "{@dice 2d4} {@creature winged kobold}"
+        ],
+        [
+          "49-50",
+          "1 {@creature dust mephit}"
+        ],
+        [
+          "51-52",
+          "{@dice 1d3 + 1} {@creature giant toad||giant toads}"
+        ],
+        [
+          "53-54",
+          "{@dice 1d4} {@creature giant spider||giant spiders}"
+        ],
+        [
+          "55",
+          "1 {@creature druid}"
+        ],
+        [
+          "56-57",
+          "{@dice 2d4} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "58",
+          "1 {@creature wight}"
+        ],
+        [
+          "59-60",
+          "1 {@creature ogre}"
+        ],
+        [
+          "61-65",
+          "A brass lamp lying on the ground"
+        ],
+        [
+          "66-67",
+          "{@dice 1d4} {@creature giant vulture||giant vultures}"
+        ],
+        [
+          "68",
+          "1 {@creature phase spider}"
+        ],
+        [
+          "69",
+          "1 {@creature giant constrictor snake}"
+        ],
+        [
+          "70-71",
+          "1 {@creature gnoll pack lord} with {@dice 1d3} {@creature giant hyena||giant hyenas}"
+        ],
+        [
+          "72",
+          "{@dice 1d6 + 2} {@creature gnoll||gnolls}"
+        ],
+        [
+          "73-74",
+          "1 {@creature mummy}"
+        ],
+        [
+          "75",
+          "{@dice 1d3} {@creature half-ogre (ogrillon)||half-ogres}"
+        ],
+        [
+          "76-80",
+          "A pile of humanoid bones wrapped in rotting cloth"
+        ],
+        [
+          "81-82",
+          "1 {@creature lamia}"
+        ],
+        [
+          "83",
+          "1 {@creature hobgoblin captain} with {@dice 2d6} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "84",
+          "{@dice 2d4} {@creature death dog||death dogs}"
+        ],
+        [
+          "85-86",
+          "{@dice 1d4} {@creature giant scorpion||giant scorpions}"
+        ],
+        [
+          "87",
+          "1 {@creature yuan-ti malison (type 1)||yuan-ti malison} with {@dice 1d4 + 1} {@creature yuan-ti pureblood||yuan-ti purebloods}"
+        ],
+        [
+          "88-89",
+          "1 {@creature bandit captain} with 1 {@creature druid} and {@dice 3d6} {@creature bandit||bandits}"
+        ],
+        [
+          "90",
+          "{@dice 2d4} {@creature thri-kreen}"
+        ],
+        [
+          "91",
+          "1 {@creature air elemental}"
+        ],
+        [
+          "92",
+          "{@dice 1d3} {@creature couatl||couatls}"
+        ],
+        [
+          "93",
+          "1 {@creature fire elemental}"
+        ],
+        [
+          "94",
+          "{@dice 1d4} {@creature gnoll fang of Yeenoghu||gnoll fangs of Yeenoghu}"
+        ],
+        [
+          "95",
+          "1 {@creature revenant}"
+        ],
+        [
+          "96",
+          "{@dice 1d4} {@creature weretiger||weretigers}"
+        ],
+        [
+          "97",
+          "1 {@creature cyclops}"
+        ],
+        [
+          "98",
+          "1 {@creature young brass dragon}"
+        ],
+        [
+          "99",
+          "1 {@creature medusa}"
+        ],
+        [
+          "00",
+          "1 {@creature yuan-ti abomination}"
+        ]
+      ]
+    }
+  ]
+}

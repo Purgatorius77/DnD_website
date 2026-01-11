@@ -1,0 +1,117 @@
+{
+  "table": [
+    {
+      "name": "Forest Encounters (Levels 17—20)",
+      "type": "table",
+      "source": "XGE",
+      "page": 97,
+      "caption": "Forest Encounters (Levels 17—20)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-05",
+          "1 {@creature young green dragon}"
+        ],
+        [
+          "06-10",
+          "1 {@creature treant}"
+        ],
+        [
+          "11-13",
+          "1 {@creature guardian naga}"
+        ],
+        [
+          "14-16",
+          "{@dice 1d10} {@creature revenant||revenants}"
+        ],
+        [
+          "17-19",
+          "{@dice 1d8 + 1} {@creature unicorn||unicorns}"
+        ],
+        [
+          "20-22",
+          "{@dice 1d3} {@creature grick alpha||grick alphas}"
+        ],
+        [
+          "23-25",
+          "For a few hundred feet, wherever the characters step, flowers bloom and emit soft light."
+        ],
+        [
+          "26-28",
+          "1 {@creature young gold dragon}"
+        ],
+        [
+          "29-31",
+          "{@dice 1d6 + 2} {@creature shambling mound||shambling mounds}"
+        ],
+        [
+          "32-34",
+          "{@dice 2d4} {@creature werebear||werebears}"
+        ],
+        [
+          "35-37",
+          "{@dice 1d4} {@creature oni}"
+        ],
+        [
+          "38-40",
+          "{@dice 4d6 + 10} elves living in a small community in the treetop"
+        ],
+        [
+          "41-43",
+          "{@dice 1d6 + 2} {@creature gorgon||gorgons}"
+        ],
+        [
+          "44-46",
+          "{@dice 2d4} {@creature troll||trolls}"
+        ],
+        [
+          "47-49",
+          "{@dice 1d4} {@creature giant ape||giant apes}"
+        ],
+        [
+          "50-52",
+          "{@dice 1d3} {@creature yuan-ti abomination||yuan-ti abominations}"
+        ],
+        [
+          "53-62",
+          "{@dice 1d3} {@creature young green dragon||young green dragons}"
+        ],
+        [
+          "63-65",
+          "A 50-foot-tall stone statue of an elf warrior with hand raised, palm out, as if to forbid travelers from coming this way"
+        ],
+        [
+          "66-75",
+          "{@dice 1d4} {@creature treant||treants}"
+        ],
+        [
+          "76-80",
+          "A cairn set atop a low hill"
+        ],
+        [
+          "81-90",
+          "1 {@creature adult gold dragon}"
+        ],
+        [
+          "91-96",
+          "1 {@creature ancient green dragon}"
+        ],
+        [
+          "97-99",
+          "{@dice 2d4 + 1} {@creature treant||treants}"
+        ],
+        [
+          "00",
+          "1 {@creature ancient gold dragon}"
+        ]
+      ]
+    }
+  ]
+}

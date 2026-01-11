@@ -1,0 +1,165 @@
+{
+  "table": [
+    {
+      "name": "Desert Encounters (Levels 11—16)",
+      "type": "table",
+      "source": "XGE",
+      "page": 95,
+      "caption": "Desert Encounters (Levels 11—16)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature young brass dragon}"
+        ],
+        [
+          "02-05",
+          "{@dice 4d6} {@creature gnoll||gnolls}"
+        ],
+        [
+          "06-10",
+          "{@dice 3d10} {@creature giant hyena||giant hyenas}"
+        ],
+        [
+          "11-12",
+          "{@dice 1d8 + 1} {@creature lamia||lamias}"
+        ],
+        [
+          "13-14",
+          "{@dice 2d4} {@creature gnoll fang of Yeenoghu||gnoll fangs of Yeenoghu}"
+        ],
+        [
+          "15-17",
+          "{@dice 1d6 + 2} {@creature giant scorpion||giant scorpions}"
+        ],
+        [
+          "18-20",
+          "{@dice 2d4} {@creature phase spider||phase spiders}"
+        ],
+        [
+          "21-25",
+          "A desert caravan consisting of {@dice 1d6} merchants ({@creature noble||nobles}) with {@dice 2d6} {@creature guard||guards}"
+        ],
+        [
+          "26-27",
+          "{@dice 1d6 + 1} {@creature couatl||couatls}"
+        ],
+        [
+          "28-30",
+          "{@dice 1d4} {@creature fire elemental||fire elementals}"
+        ],
+        [
+          "31-32",
+          "1 {@creature hobgoblin captain} with {@dice 3d10 + 10} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "33-35",
+          "{@dice 2d4} {@creature wight||wights}"
+        ],
+        [
+          "36-40",
+          "{@dice 1d6} square miles of desert glass"
+        ],
+        [
+          "41-42",
+          "1 {@creature young blue dragon}"
+        ],
+        [
+          "43-45",
+          "{@dice 1d6 + 2} {@creature weretiger||weretigers}"
+        ],
+        [
+          "46-48",
+          "{@dice 1d4} {@creature air elemental||air elementals}"
+        ],
+        [
+          "49-50",
+          "{@dice 1d6 + 1} {@creature yuan-ti malison (type 1)||yuan-ti malisons}"
+        ],
+        [
+          "51-55",
+          "{@dice 1d4} {@creature medusa||medusas}"
+        ],
+        [
+          "56-60",
+          "{@dice 1d4} {@creature revenant||revenants} with {@dice 3d12} {@creature skeleton||skeletons}"
+        ],
+        [
+          "61-65",
+          "A plundered pyramid"
+        ],
+        [
+          "66-70",
+          "{@dice 1d4} {@creature young brass dragon||young brass dragons}"
+        ],
+        [
+          "71-75",
+          "{@dice 1d3} {@creature yuan-ti abomination||yuan-ti abominations}"
+        ],
+        [
+          "76-78",
+          "{@dice 1d6 + 2} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "79-82",
+          "1 {@creature adult brass dragon}"
+        ],
+        [
+          "83-85",
+          "1 {@creature purple worm}"
+        ],
+        [
+          "86",
+          "{@dice 1d2} {@creature young blue dragon||young blue dragons}"
+        ],
+        [
+          "87-88",
+          "1 {@creature mummy lord}"
+        ],
+        [
+          "89",
+          "{@dice 1d3} {@creature guardian naga||guardian nagas}"
+        ],
+        [
+          "90",
+          "1 {@creature adult blue dragon}"
+        ],
+        [
+          "91",
+          "{@dice 1d2} {@creature gynosphinx||gynosphinxes}"
+        ],
+        [
+          "92-93",
+          "{@dice 1d3} {@creature efreeti||efreet}"
+        ],
+        [
+          "94",
+          "1 {@creature androsphinx}"
+        ],
+        [
+          "95",
+          "{@dice 1d4} {@creature roc||rocs}"
+        ],
+        [
+          "96-97",
+          "1 {@creature adult blue dracolich}"
+        ],
+        [
+          "98-99",
+          "1 {@creature ancient brass dragon}"
+        ],
+        [
+          "00",
+          "1 {@creature ancient blue dragon}"
+        ]
+      ]
+    }
+  ]
+}

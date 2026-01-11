@@ -1,0 +1,117 @@
+{
+  "table": [
+    {
+      "name": "Coastal Encounters (Levels 11—16)",
+      "type": "table",
+      "source": "XGE",
+      "page": 93,
+      "caption": "Coastal Encounters (Levels 11—16)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "{@dice 1d4} {@creature banshee||banshees} (night only)"
+        ],
+        [
+          "02-04",
+          "1 {@creature cyclops}"
+        ],
+        [
+          "05-08",
+          "{@dice 1d6 + 2} {@creature manticore||manticores}"
+        ],
+        [
+          "09-10",
+          "{@dice 1d8 + 2} {@creature veteran||veterans}"
+        ],
+        [
+          "11-20",
+          "1 {@creature young blue dragon}"
+        ],
+        [
+          "21-25",
+          "A nest of {@dice 1d6} dragon turtle eggs"
+        ],
+        [
+          "26-35",
+          "{@dice 1d4} {@creature sahuagin baron||sahuagin barons}"
+        ],
+        [
+          "36-40",
+          "A trident partially buried in the sand"
+        ],
+        [
+          "41-50",
+          "1 {@creature young bronze dragon}"
+        ],
+        [
+          "51-55",
+          "1 {@creature marid}"
+        ],
+        [
+          "56-60",
+          "{@dice 1d6} {@creature water elemental||water elementals}"
+        ],
+        [
+          "61-65",
+          "{@dice 2d6} {@creature ghast||ghasts} crawling over {@dice 1d6} wrecked ships and feeding on the dead"
+        ],
+        [
+          "66-70",
+          "1 {@creature djinni}"
+        ],
+        [
+          "71-75",
+          "{@dice 1d3} {@creature young bronze dragon||young bronze dragons}"
+        ],
+        [
+          "76-80",
+          "A beached whale, dead and bloated. If it takes any damage, it explodes, and each creature within 30 feet of it must make a {@dc 15} Dexterity saving throw, taking {@dice 5d6} bludgeoning damage on a failed save, or half as much damage on a successful one."
+        ],
+        [
+          "81-82",
+          "{@dice 2d4} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "83-84",
+          "1 {@creature storm giant}"
+        ],
+        [
+          "85-86",
+          "{@dice 1d3} {@creature young blue dragon||young blue dragons}"
+        ],
+        [
+          "87-88",
+          "1 {@creature adult bronze dragon}"
+        ],
+        [
+          "89-90",
+          "1 {@creature adult blue dragon}"
+        ],
+        [
+          "91-93",
+          "{@dice 1d3} {@creature roc||rocs}"
+        ],
+        [
+          "94-97",
+          "1 {@creature dragon turtle}"
+        ],
+        [
+          "98-99",
+          "1 {@creature ancient bronze dragon}"
+        ],
+        [
+          "00",
+          "1 {@creature ancient blue dragon}"
+        ]
+      ]
+    }
+  ]
+}

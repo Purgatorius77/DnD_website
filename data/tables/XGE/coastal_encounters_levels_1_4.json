@@ -1,0 +1,189 @@
+{
+  "table": [
+    {
+      "name": "Coastal Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 93,
+      "caption": "Coastal Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature pseudodragon}"
+        ],
+        [
+          "02-05",
+          "{@dice 2d8} {@creature crab||crabs}"
+        ],
+        [
+          "06-10",
+          "{@dice 2d6} fishers ({@creature commoner||commoners})"
+        ],
+        [
+          "11",
+          "{@dice 1d3} {@creature poisonous snake||poisonous snakes}"
+        ],
+        [
+          "12-13",
+          "{@dice 1d6} {@creature guard||guards} protecting a standard {@creature noble}"
+        ],
+        [
+          "14-15",
+          "{@dice 2d4} {@creature scout||scouts}"
+        ],
+        [
+          "16-18",
+          "{@dice 2d10} {@creature merfolk}"
+        ],
+        [
+          "19-20",
+          "{@dice 1d6 + 2} {@creature sahuagin}"
+        ],
+        [
+          "21-25",
+          "{@dice 1d4} {@creature ghoul||ghouls} feeding on corpses aboard the wreckage of a merchant ship. A search uncovers {@dice 2d6} bolts of ruined silk, a 50-foot length of rope. and a barrel of salted herring."
+        ],
+        [
+          "26-27",
+          "{@dice 1d4} {@creature winged kobold||winged kobolds} with {@dice 1d6 + 1} {@creature kobold||kobolds}"
+        ],
+        [
+          "28-29",
+          "{@dice 2d6} {@creature tribal warrior||tribal warriors}"
+        ],
+        [
+          "30-31",
+          "{@dice 3d4} {@creature kobold||kobolds}"
+        ],
+        [
+          "32-33",
+          "{@dice 2d4 + 5} {@creature blood hawk||blood hawks}"
+        ],
+        [
+          "34-35",
+          "{@dice 1d8 + 1} {@creature pteranodon||pteranodons}"
+        ],
+        [
+          "36-40",
+          "A few dozen baby turtles struggling to make their way to the sea"
+        ],
+        [
+          "41-42",
+          "{@dice 1d6 + 2} {@creature giant lizard||giant lizards}"
+        ],
+        [
+          "43-44",
+          "{@dice 1d6 + 4} {@creature giant crab||giant crabs}"
+        ],
+        [
+          "45-46",
+          "{@dice 2d4} {@creature stirge||stirges}"
+        ],
+        [
+          "47-48",
+          "{@dice 2d6 + 3} {@creature bandit||bandits}"
+        ],
+        [
+          "49-53",
+          "{@dice 2d4} {@creature sahuagin}"
+        ],
+        [
+          "54-55",
+          "{@dice 1d6 + 2} {@creature scout||scouts}"
+        ],
+        [
+          "56-60",
+          "1 {@creature sea hag}"
+        ],
+        [
+          "61-65",
+          "A momentary formation in the waves that looks like an enormous humanoid face"
+        ],
+        [
+          "66-70",
+          "1 {@creature druid}"
+        ],
+        [
+          "71-75",
+          "{@dice 1d4} {@creature harpy||harpies}"
+        ],
+        [
+          "76-80",
+          "A lone hermit ({@creature acolyte}) sitting on the beach contemplating the meaning of the multiverse"
+        ],
+        [
+          "81",
+          "{@dice 1d4} {@creature berserker||berserkers}"
+        ],
+        [
+          "82",
+          "{@dice 1d6} {@creature giant eagle||giant eagles}"
+        ],
+        [
+          "83",
+          "{@dice 2d4} {@creature giant toad||giant toads}"
+        ],
+        [
+          "84",
+          "{@dice 1d4} {@creature ogre||ogres} or {@dice 1d4} {@creature merrow}"
+        ],
+        [
+          "85",
+          "{@dice 3d6} {@creature sahuagin}"
+        ],
+        [
+          "86",
+          "{@dice 1d4} {@creature veteran||veterans}"
+        ],
+        [
+          "87",
+          "{@dice 1d2} {@creature plesiosaurus||plesiosauruses}"
+        ],
+        [
+          "88",
+          "1 {@creature bandit captain} with {@dice 2d6} {@creature bandit||bandits}"
+        ],
+        [
+          "89",
+          "{@dice 1d3} {@creature manticore||manticores}"
+        ],
+        [
+          "90",
+          "1 {@creature banshee}"
+        ],
+        [
+          "91-92",
+          "{@dice 1d4 + 3} {@creature griffon||griffons}"
+        ],
+        [
+          "93-94",
+          "1 {@creature sahuagin priestess} with {@dice 1d3} {@creature merrow} and {@dice 2d6} {@creature sahuagin}"
+        ],
+        [
+          "95-96",
+          "1 {@creature sahuagin baron}"
+        ],
+        [
+          "97-98",
+          "1 {@creature water elemental}"
+        ],
+        [
+          "99",
+          "1 {@creature cyclops}"
+        ],
+        [
+          "00",
+          "1 {@creature young bronze dragon}"
+        ]
+      ]
+    }
+  ]
+}

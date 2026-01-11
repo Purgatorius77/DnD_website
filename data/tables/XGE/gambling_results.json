@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Gambling Results",
+      "colLabels": [
+        "Result",
+        "Value"
+      ],
+      "colStyles": [
+        "col-5",
+        "col-7"
+      ],
+      "rows": [
+        [
+          "0 successes",
+          "Lose all the money you bet, and accrue a debt equal to that amount."
+        ],
+        [
+          "1 success",
+          "Lose half the money you bet."
+        ],
+        [
+          "2 successes",
+          "Gain the amount you bet plus half again more."
+        ],
+        [
+          "3 successes",
+          "Gain double the amount you bet."
+        ]
+      ],
+      "name": "Gambling Results",
+      "page": 130,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

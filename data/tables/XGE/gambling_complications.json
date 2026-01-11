@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Gambling Complications",
+      "colLabels": [
+        "d6",
+        "Complication"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "You are accused of cheating. You decide whether you actually did cheat or were framed.*"
+        ],
+        [
+          "2",
+          "The town guards raid the gambling hall and throw you in jail.*"
+        ],
+        [
+          "3",
+          "A noble in town loses badly to you and loudly vows to get revenge.*"
+        ],
+        [
+          "4",
+          "You won a sum from a low-ranking member of a thieves' guild, and the guild wants its money back."
+        ],
+        [
+          "5",
+          "A local crime boss insists you start frequenting the boss's gambling parlor and no others."
+        ],
+        [
+          "6",
+          "A high-stakes gambler comes to town and insists that you take part in a game."
+        ]
+      ],
+      "footnotes": [
+        "*Might involve a rival"
+      ],
+      "name": "Gambling Complications",
+      "page": 130,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

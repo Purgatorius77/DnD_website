@@ -1,0 +1,273 @@
+{
+  "table": [
+    {
+      "name": "Hill Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 101,
+      "caption": "Hill Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature eagle}"
+        ],
+        [
+          "02-03",
+          "{@dice 2d4} {@creature baboon||baboons}"
+        ],
+        [
+          "04-06",
+          "{@dice 1d6} {@creature bandit||bandits}"
+        ],
+        [
+          "07",
+          "{@dice 1d4} {@creature vulture||vultures}"
+        ],
+        [
+          "08",
+          "{@dice 1d10} {@creature commoner||commoners}"
+        ],
+        [
+          "09",
+          "1 {@creature raven}"
+        ],
+        [
+          "10",
+          "1 {@creature poisonous snake}"
+        ],
+        [
+          "11-13",
+          "{@dice 2d6} {@creature bandit||bandits} {@dice 2d6} {@creature tribal warrior||tribal warriors}"
+        ],
+        [
+          "14",
+          "{@dice 2d8} {@creature goat||goats}"
+        ],
+        [
+          "15",
+          "{@dice 1d6 + 4} {@creature blood hawk||blood hawks}"
+        ],
+        [
+          "16",
+          "{@dice 1d4 + 3} {@creature giant weasel||giant weasels}"
+        ],
+        [
+          "17-18",
+          "{@dice 1d3} {@creature guard||guards} with {@dice 1d2} {@creature mastiff||mastiffs} and 1 {@creature mule}"
+        ],
+        [
+          "19-20",
+          "{@dice 1d6 + 5} {@creature hyena||hyenas}"
+        ],
+        [
+          "21-22",
+          "{@dice 2d4} {@creature stirge||stirges}"
+        ],
+        [
+          "23-25",
+          "An empty cave littered with bones"
+        ],
+        [
+          "26",
+          "1 {@creature pseudodragon} or {@dice 1d3} {@creature giant owl||giant owls}"
+        ],
+        [
+          "27",
+          "1 {@creature lion} or 1 cougar ({@creature panther})"
+        ],
+        [
+          "28-30",
+          "{@dice 2d8} {@creature kobold||kobolds}"
+        ],
+        [
+          "31",
+          "1 {@creature hippogriff}"
+        ],
+        [
+          "32-34",
+          "{@dice 2d4} {@creature goblin||goblins}"
+        ],
+        [
+          "35",
+          "1 {@creature worg}"
+        ],
+        [
+          "36",
+          "{@dice 1d3} {@creature swarm of bats||swarms of bats} or {@dice 1d3} {@creature swarm of ravens||swarms of ravens}"
+        ],
+        [
+          "37",
+          "1 {@creature giant eagle}"
+        ],
+        [
+          "38-40",
+          "An old dwarf sitting on a stump, whittling a piece of wood"
+        ],
+        [
+          "41",
+          "{@dice 1d4} {@creature elk}"
+        ],
+        [
+          "42",
+          "{@dice 1d4} {@creature winged kobold||winged kobolds} with {@dice 1d6} {@creature kobold||kobolds}"
+        ],
+        [
+          "43",
+          "{@dice 1d6 + 2} {@creature giant wolf spider||giant wolf spiders}"
+        ],
+        [
+          "44-45",
+          "{@dice 2d4} {@creature wolf||wolves}"
+        ],
+        [
+          "46",
+          "1 {@creature swarm of insects}"
+        ],
+        [
+          "47",
+          "{@dice 1d8 + 1} {@creature axe beak||axe beaks}"
+        ],
+        [
+          "48-49",
+          "1 {@creature brown bear} or {@dice 1d3} {@creature boar||boars}"
+        ],
+        [
+          "50",
+          "1 {@creature scout}"
+        ],
+        [
+          "51",
+          "1 {@creature ogre}"
+        ],
+        [
+          "52-53",
+          "{@dice 2d4} {@creature gnoll||gnolls}"
+        ],
+        [
+          "54",
+          "1 {@creature giant elk}"
+        ],
+        [
+          "55",
+          "{@dice 1d3 + 1} {@creature harpy||harpies}"
+        ],
+        [
+          "56",
+          "1 {@creature werewolf}"
+        ],
+        [
+          "57-58",
+          "{@dice 2d4} {@creature orc||orcs}"
+        ],
+        [
+          "59",
+          "{@dice 1d4} {@creature half-ogre (ogrillon)||half-ogres}"
+        ],
+        [
+          "60",
+          "1 {@creature druid} or 1 {@creature veteran}"
+        ],
+        [
+          "61-63",
+          "The corpse of an adventurer that carries an intact {@item explorer's pack|phb} and lies atop a longsword"
+        ],
+        [
+          "64",
+          "1 {@creature green hag}"
+        ],
+        [
+          "65-66",
+          "{@dice 1d3} {@creature dire wolf||dire wolves}"
+        ],
+        [
+          "67-68",
+          "A small cemetery containing {@dice 2d6} graves"
+        ],
+        [
+          "69-70",
+          "1 {@creature hobgoblin captain} with {@dice 2d4} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "71",
+          "{@dice 2d4} {@creature giant goat||giant goats}"
+        ],
+        [
+          "72",
+          "1 {@creature manticore}"
+        ],
+        [
+          "73-74",
+          "{@dice 1d6 + 2} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "75",
+          "1 {@creature phase spider}"
+        ],
+        [
+          "76-78",
+          "A pile of droppings from a very large bird"
+        ],
+        [
+          "79",
+          "1 {@creature gnoll fang of Yeenoghu}"
+        ],
+        [
+          "80",
+          "{@dice 1d3} {@creature giant boar||giant boars}"
+        ],
+        [
+          "81",
+          "1 {@creature gnoll pack lord} with {@dice 1d3} {@creature giant hyena||giant hyenas}"
+        ],
+        [
+          "82",
+          "1 {@creature bandit captain} with {@dice 2d4} {@creature bandit||bandits}"
+        ],
+        [
+          "83",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 1d8 + 2} {@creature orc||orcs}"
+        ],
+        [
+          "84",
+          "{@dice 1d3} {@creature orog||orogs} or {@dice 1d4} {@creature berserker||berserkers}"
+        ],
+        [
+          "85-86",
+          "1 {@creature ettin} or 1 {@creature wereboar}"
+        ],
+        [
+          "87-88",
+          "1 {@creature goblin boss} with {@dice 2d6} {@creature goblin||goblins}"
+        ],
+        [
+          "89",
+          "{@dice 1d3} {@creature griffon||griffons}"
+        ],
+        [
+          "90",
+          "{@dice 1d3} {@creature peryton||perytons} or {@dice 1d4} {@creature pegasus||pegasi}"
+        ],
+        [
+          "91-96",
+          "{@dice 1d3} {@creature troll||trolls}"
+        ],
+        [
+          "97-99",
+          "1 {@creature cyclops}"
+        ],
+        [
+          "00",
+          "1 {@creature stone giant}"
+        ]
+      ]
+    }
+  ]
+}

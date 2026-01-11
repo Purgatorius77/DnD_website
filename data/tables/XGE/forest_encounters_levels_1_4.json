@@ -1,0 +1,357 @@
+{
+  "table": [
+    {
+      "name": "Forest Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 97,
+      "caption": "Forest Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature giant owl}"
+        ],
+        [
+          "02",
+          "{@dice 1d4} {@creature cat||cats}"
+        ],
+        [
+          "03",
+          "{@dice 2d4} woodcutters ({@creature commoner||commoners})"
+        ],
+        [
+          "04",
+          "1 {@creature badger} or {@dice 1d4} {@creature poisonous snake||poisonous snakes}"
+        ],
+        [
+          "05",
+          "{@dice 2d8} {@creature baboon||baboons}"
+        ],
+        [
+          "06",
+          "{@dice 1d6 + 3} {@creature hyena||hyenas}"
+        ],
+        [
+          "07",
+          "1 {@creature owl}"
+        ],
+        [
+          "08",
+          "1 {@creature pseudodragon}"
+        ],
+        [
+          "09",
+          "1 {@creature panther}"
+        ],
+        [
+          "10",
+          "1 {@creature giant poisonous snake}"
+        ],
+        [
+          "11",
+          "{@dice 1d6 + 2} {@creature boar||boars}"
+        ],
+        [
+          "12",
+          "{@dice 1d4 + 1} {@creature giant lizard||giant lizards}"
+        ],
+        [
+          "13",
+          "1 {@creature ape} or 1 {@creature tiger}"
+        ],
+        [
+          "14",
+          "{@dice 2d6} {@creature tribal warrior||tribal warriors} with {@dice 1d6} {@creature mastiff||mastiffs}"
+        ],
+        [
+          "15",
+          "{@dice 1d6 + 2} {@creature giant bat||giant bats} or {@dice 3d6} {@creature flying snake||flying snakes}"
+        ],
+        [
+          "16",
+          "1 {@creature scout} or {@dice 2d4} {@creature guard||guards} with {@dice 1d6} {@creature mastiff||mastiffs}"
+        ],
+        [
+          "17",
+          "{@dice 1d8 + 1} {@creature winged kobold||winged kobolds}"
+        ],
+        [
+          "18",
+          "{@dice 1d3} {@creature constrictor snake||constrictor snakes}"
+        ],
+        [
+          "19",
+          "{@dice 1d10 + 5} {@creature giant rat||giant rats} or {@dice 2d6 + 3} {@creature giant weasel||giant weasels}"
+        ],
+        [
+          "20",
+          "{@dice 1d4 + 1} {@creature needle blight||needle blights} with {@dice 1d6 + 3} {@creature twig blight||twig blights}"
+        ],
+        [
+          "21-25",
+          "A lost, weeping child. If the characters take the child home, the parents reward them with {@dice 1d3} potions of healing."
+        ],
+        [
+          "26",
+          "{@dice 1d8 + 1} {@creature giant frog||giant frogs}"
+        ],
+        [
+          "27",
+          "{@dice 4d4} {@creature kobold||kobolds}"
+        ],
+        [
+          "28",
+          "{@dice 1d3} {@creature black bear||black bears}"
+        ],
+        [
+          "29",
+          "{@dice 3d6} {@creature stirge||stirges}"
+        ],
+        [
+          "30",
+          "1 {@creature satyr}"
+        ],
+        [
+          "31",
+          "{@dice 2d4} {@creature kenku}"
+        ],
+        [
+          "32",
+          "{@dice 1d3} {@creature vine blight||vine blights} with {@dice 1d12} {@creature awakened shrub||awakened shrubs}"
+        ],
+        [
+          "33",
+          "{@dice 1d4} {@creature swarm of ravens||swarms of ravens}"
+        ],
+        [
+          "34",
+          "1 {@creature faerie dragon (yellow)||faerie dragon} (yellow or younger)"
+        ],
+        [
+          "35",
+          "{@dice 1d4 + 2} {@creature giant badger||giant badgers}"
+        ],
+        [
+          "36-40",
+          "A young woodcutter ({@creature scout}) racing through the forest to rescue a lost friend"
+        ],
+        [
+          "41",
+          "{@dice 2d4} {@creature blink dog||blink dogs}"
+        ],
+        [
+          "42",
+          "{@dice 1d8 + 1} {@creature sprite||sprites}"
+        ],
+        [
+          "43",
+          "{@dice 1d6 + 2} {@creature elk}"
+        ],
+        [
+          "44",
+          "{@dice 1d4} {@creature lizardfolk} or {@dice 3d6} {@creature bandit||bandits}"
+        ],
+        [
+          "45",
+          "{@dice 1d4 + 4} {@creature wolf||wolves}"
+        ],
+        [
+          "46",
+          "{@dice 2d4} {@creature giant wolf spider||giant wolf spiders}"
+        ],
+        [
+          "47",
+          "1 {@creature swarm of insects} or {@dice 2d8} {@creature blood hawk||blood hawks}"
+        ],
+        [
+          "48",
+          "{@dice 1d6 + 2} {@creature pixie||pixies}"
+        ],
+        [
+          "49",
+          "1 {@creature brown bear}"
+        ],
+        [
+          "50",
+          "{@dice 1d4 + 3} {@creature goblin||goblins}"
+        ],
+        [
+          "51",
+          "{@dice 1d3} {@creature dryad||dryads}"
+        ],
+        [
+          "52",
+          "1 {@creature awakened tree}"
+        ],
+        [
+          "53",
+          "1 {@creature phase spider}"
+        ],
+        [
+          "54",
+          "{@dice 1d6} {@creature harpy||harpies}"
+        ],
+        [
+          "55",
+          "1 {@creature ettercap} or {@dice 1d8 + 1} {@creature orc||orcs}"
+        ],
+        [
+          "56",
+          "1 {@creature goblin boss} with {@dice 2d6 + 1} {@creature goblin||goblins}"
+        ],
+        [
+          "57",
+          "1 {@creature ankheg}"
+        ],
+        [
+          "58",
+          "1 {@creature giant constrictor snake}"
+        ],
+        [
+          "59",
+          "{@dice 1d4} {@creature bugbear||bugbears} or {@dice 2d4} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "60",
+          "1 {@creature pegasus}"
+        ],
+        [
+          "61-65",
+          "A stream of cool, clean water flowing between the trees"
+        ],
+        [
+          "66",
+          "{@dice 1d4} {@creature half-ogre (ogrillon)||half-ogres} or 1 {@creature ogre}"
+        ],
+        [
+          "67",
+          "1 {@creature faerie dragon (green)||faerie dragon} (green or older)"
+        ],
+        [
+          "68",
+          "1 {@creature werewolf} or {@dice 1d8 + 1} {@creature worg||worgs}"
+        ],
+        [
+          "69",
+          "1 {@creature druid} harvesting mistletoe"
+        ],
+        [
+          "70",
+          "1 {@creature will-o'-wisp}"
+        ],
+        [
+          "71",
+          "{@dice 1d4} {@creature dire wolf||dire wolves} or 1 {@creature giant boar}"
+        ],
+        [
+          "72",
+          "{@dice 1d10} {@creature giant wasp||giant wasps}"
+        ],
+        [
+          "73",
+          "1 {@creature owlbear} or 1 {@creature giant elk}"
+        ],
+        [
+          "74",
+          "{@dice 2d6} {@creature gnoll||gnolls}"
+        ],
+        [
+          "75",
+          "{@dice 1d6} {@creature giant toad||giant toads}"
+        ],
+        [
+          "76-80",
+          "{@dice 1d6} web cocoons hanging from the branches, holding withered carcasses"
+        ],
+        [
+          "81",
+          "1 {@creature wereboar} or {@dice 1d4} {@creature giant boar||giant boars}"
+        ],
+        [
+          "82",
+          "{@dice 1d6 + 2} {@creature giant spider||giant spiders}"
+        ],
+        [
+          "83",
+          "{@dice 1d4} {@creature centaur||centaurs} or {@dice 1d4} {@creature giant elk}"
+        ],
+        [
+          "84",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 2d4 + 2} {@creature orc||orcs}"
+        ],
+        [
+          "85",
+          "1 {@creature gnoll fang of Yeenoghu}"
+        ],
+        [
+          "86",
+          "{@dice 1d4} {@creature grick||gricks}"
+        ],
+        [
+          "87",
+          "1 {@creature bandit captain} with {@dice 2d6 + 3} {@creature bandit||bandits}"
+        ],
+        [
+          "88",
+          "{@dice 1d4} {@creature wererat||wererats}"
+        ],
+        [
+          "89",
+          "1 {@creature couatl} (day) or 1 {@creature banshee} (night)"
+        ],
+        [
+          "90",
+          "1 {@creature gnoll pack lord} with {@dice 1d4} {@creature giant hyena||giant hyenas}"
+        ],
+        [
+          "91",
+          "{@dice 2d4} {@creature berserker||berserkers} or {@dice 1d4} {@creature veteran||veterans}"
+        ],
+        [
+          "92",
+          "1 {@creature lizardfolk shaman} with {@dice 1d3} {@creature swarm of poisonous snakes||swarms of poisonous snakes} and {@dice 1d10 + 2} {@creature lizardfolk}"
+        ],
+        [
+          "93",
+          "{@dice 1d4} {@creature displacer beast||displacer beasts}"
+        ],
+        [
+          "94",
+          "{@dice 1d3} {@creature green hag||green hags}"
+        ],
+        [
+          "95",
+          "1 {@creature hobgoblin captain} with {@dice 2d6} {@creature hobgoblin||hobgoblins} and {@dice 1d4} {@creature giant boar||giant boars}"
+        ],
+        [
+          "96",
+          "1 {@creature yuan-ti malison (type 1)||yuan-ti malison} with {@dice 1d6 + 1} {@creature yuan-ti pureblood||yuan-ti purebloods}"
+        ],
+        [
+          "97",
+          "{@dice 1d3} {@creature weretiger||weretigers}"
+        ],
+        [
+          "98",
+          "1 {@creature gorgon} or 1 {@creature unicorn}"
+        ],
+        [
+          "99",
+          "1 {@creature shambling mound}"
+        ],
+        [
+          "00",
+          "1 {@creature yuan-ti abomination}"
+        ]
+      ]
+    }
+  ]
+}

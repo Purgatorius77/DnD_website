@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Carousing",
+      "colLabels": [
+        "Check Total",
+        "Result"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1—5",
+          "Character has made a hostile contact."
+        ],
+        [
+          "6—10",
+          "Character has made no new contacts."
+        ],
+        [
+          "11—15",
+          "Character has made an allied contact."
+        ],
+        [
+          "16—20",
+          "Character has made two allied contacts."
+        ],
+        [
+          "21+",
+          "Character has made three allied contacts."
+        ]
+      ],
+      "name": "Carousing",
+      "page": 127,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

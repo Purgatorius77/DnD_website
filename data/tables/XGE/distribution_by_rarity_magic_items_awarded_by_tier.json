@@ -1,0 +1,62 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items Awarded by Tier",
+      "colLabels": [
+        "Character Level",
+        "Minor Items",
+        "Major Items",
+        "All Items"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-2",
+        "col-1",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "9",
+          "2",
+          "11"
+        ],
+        [
+          "5-10",
+          "28",
+          "6",
+          "34"
+        ],
+        [
+          "11-16",
+          "24",
+          "6",
+          "30"
+        ],
+        [
+          "17-20",
+          "19",
+          "6",
+          "25"
+        ],
+        [
+          "Total",
+          "80",
+          "20",
+          "100"
+        ]
+      ],
+      "name": "Distribution by Rarity; Magic Items Awarded by Tier",
+      "page": 135,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

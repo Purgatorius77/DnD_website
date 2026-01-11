@@ -1,0 +1,189 @@
+{
+  "table": [
+    {
+      "name": "Grassland Encounters (Levels 1—5)",
+      "type": "table",
+      "source": "XGE",
+      "page": 100,
+      "caption": "Grassland Encounters (Levels 1—5)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature hobgoblin captain} with {@dice 1d4 + 1} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "02",
+          "1 {@creature chimera}"
+        ],
+        [
+          "03",
+          "1 {@creature gorgon}"
+        ],
+        [
+          "04",
+          "{@dice 1d2} {@creature couatl||couatls}"
+        ],
+        [
+          "05",
+          "1 {@creature ankylosaurus}"
+        ],
+        [
+          "06",
+          "1 {@creature weretiger}"
+        ],
+        [
+          "07",
+          "{@dice 1d3} {@creature allosaurus||allosauruses}"
+        ],
+        [
+          "08-09",
+          "{@dice 1d3} {@creature elephant||elephants}"
+        ],
+        [
+          "10-14",
+          "A circle of standing stones within which the air is utterly still, no matter how hard the wind blows outside"
+        ],
+        [
+          "15-16",
+          "1 {@creature phase spider}"
+        ],
+        [
+          "17-18",
+          "1 {@creature gnoll pack lord} with {@dice 1d4} {@creature giant hyena||giant hyenas}"
+        ],
+        [
+          "19-20",
+          "1 {@creature pegasus}"
+        ],
+        [
+          "21-22",
+          "1 {@creature ankheg}"
+        ],
+        [
+          "23-24",
+          "{@dice 1d3} {@creature rhinoceros||rhinoceroses}"
+        ],
+        [
+          "25-28",
+          "{@dice 1d3} {@creature cockatrice||cockatrices}"
+        ],
+        [
+          "29-32",
+          "{@dice 1d6 + 2} {@creature giant wasp||giant wasps} or {@dice 1d4 + 3} {@creature swarm of insects||swarms of insects}"
+        ],
+        [
+          "33-36",
+          "{@dice 1d4} {@creature jackalwere||jackalweres} or {@dice 1d4} {@creature scout||scouts}"
+        ],
+        [
+          "37-40",
+          "{@dice 1d8} {@creature giant goat||giant goats} or {@dice 1d8} {@creature worg||worgs}"
+        ],
+        [
+          "41-44",
+          "{@dice 2d4} {@creature hobgoblin||hobgoblins}, {@dice 2d4} {@creature orc||orcs}, or {@dice 2d4} {@creature gnoll||gnolls}"
+        ],
+        [
+          "45-46",
+          "{@dice 1d2} {@creature giant poisonous snake||giant poisonous snakes}"
+        ],
+        [
+          "47-48",
+          "{@dice 1d6 + 2} {@creature elk} or {@dice 1d6 + 2} {@creature riding horse||riding horses}"
+        ],
+        [
+          "49-50",
+          "{@dice 2d4} {@creature goblin||goblins}"
+        ],
+        [
+          "51-52",
+          "{@dice 1d3} {@creature boar||boars}"
+        ],
+        [
+          "53-54",
+          "1 leopard ({@creature panther}) 1 {@creature lion}"
+        ],
+        [
+          "55-58",
+          "{@dice 1d6 + 3} {@creature goblin||goblins} riding wolves"
+        ],
+        [
+          "59-62",
+          "{@dice 2d6} {@creature giant wolf spider||giant wolf spiders} or 1 {@creature giant eagle}"
+        ],
+        [
+          "63-65",
+          "{@dice 1d8 + 4} {@creature pteranodon||pteranodons}"
+        ],
+        [
+          "66-69",
+          "{@dice 3d6} {@creature wolf||wolves}"
+        ],
+        [
+          "70-74",
+          "{@dice 2d4 + 2} {@creature axe beak||axe beaks}"
+        ],
+        [
+          "75-76",
+          "1 {@creature giant boar} or {@dice 1d2} {@creature tiger||tigers}"
+        ],
+        [
+          "77-78",
+          "1 {@creature ogre} or {@dice 1d3} {@creature bugbear||bugbears}"
+        ],
+        [
+          "79-80",
+          "{@creature giant elk} or 1 {@creature gnoll pack lord} or {@dice 1d3} {@creature giant hyena||giant hyenas}"
+        ],
+        [
+          "81-82",
+          "{@dice 1d3} {@creature giant vulture||giant vultures} or {@dice 1d3} {@creature hippogriff||hippogriffs}"
+        ],
+        [
+          "83-84",
+          "1 {@creature goblin boss} with {@dice 1d6 + 2} {@creature goblin||goblins} and {@dice 1d4 + 3} {@creature wolf||wolves}, or {@dice 1d3} {@creature thri-kreen}"
+        ],
+        [
+          "85-89",
+          "{@dice 1d3} {@creature druid||druids} patrolling the wilds"
+        ],
+        [
+          "90-91",
+          "{@dice 1d6} {@creature scarecrow||scarecrows} or 1 {@creature wereboar}"
+        ],
+        [
+          "92-93",
+          "{@dice 1d3} {@creature centaur||centaurs} or {@dice 1d3} {@creature griffon||griffons}"
+        ],
+        [
+          "94",
+          "{@dice 1d3} {@creature gnoll fang of Yeenoghu||gnoll fangs of Yeenoghu}, or 1 {@creature orc Eye of Gruumsh} with {@dice 2d4 + 1} {@creature orc||orcs}"
+        ],
+        [
+          "95-96",
+          "1 {@creature triceratops}"
+        ],
+        [
+          "97",
+          "1 {@creature cyclops} or 1 {@creature bulette}"
+        ],
+        [
+          "98-99",
+          "{@dice 1d4} {@creature manticore||manticores}"
+        ],
+        [
+          "00",
+          "1 {@creature tyrannosaurus rex}"
+        ]
+      ]
+    }
+  ]
+}

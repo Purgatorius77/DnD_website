@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Proficiency",
+        "Items"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@item Herbalism kit|phb}",
+          "Antitoxin, potion of healing"
+        ],
+        [
+          "{@item Leatherworker's tools|phb}",
+          "Leather armor, boots"
+        ],
+        [
+          "{@item Smith's tools|phb}",
+          "Armor, weapons"
+        ],
+        [
+          "{@item Weaver's tools|phb}",
+          "Cloaks, robes"
+        ]
+      ],
+      "name": "Crafting an Item; Resources and Resolution",
+      "page": 128,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

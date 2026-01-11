@@ -1,0 +1,109 @@
+{
+  "table": [
+    {
+      "name": "Hill Encounters (Levels 17—20)",
+      "type": "table",
+      "source": "XGE",
+      "page": 101,
+      "caption": "Hill Encounters (Levels 17—20)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "{@dice 1d2} {@creature roc||rocs}"
+        ],
+        [
+          "02-05",
+          "1 {@creature young red dragon}"
+        ],
+        [
+          "06-10",
+          "{@dice 2d6} {@creature ettin||ettins}"
+        ],
+        [
+          "11-15",
+          "{@dice 1d4} {@creature bulette||bulettes}"
+        ],
+        [
+          "16-20",
+          "{@dice 1d10} {@creature revenant||revenants}"
+        ],
+        [
+          "21-25",
+          "The white outline of an enormous horse carved into the side of a high hill"
+        ],
+        [
+          "26-30",
+          "{@dice 1d6 + 1} {@creature gorgon||gorgons}"
+        ],
+        [
+          "31-35",
+          "{@dice 2d4 + 1} {@creature troll||trolls}"
+        ],
+        [
+          "36-40",
+          "The scorched remains of {@dice 2d10} humanoids littering a hillside"
+        ],
+        [
+          "41-45",
+          "{@dice 2d4} {@creature hill giant||hill giants}"
+        ],
+        [
+          "46-50",
+          "{@dice 1d6 + 2} {@creature werebear||werebears}"
+        ],
+        [
+          "51-55",
+          "{@dice 2d4} {@creature galeb duhr}"
+        ],
+        [
+          "56-60",
+          "{@dice 1d4 + 2} {@creature wyvern||wyverns}"
+        ],
+        [
+          "61-65",
+          "A massive boulder partly buried in the earth as if it fell or was thrown there"
+        ],
+        [
+          "66-70",
+          "1 {@creature adult copper dragon}"
+        ],
+        [
+          "71-75",
+          "{@dice 1d6 + 3} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "76-80",
+          "The stub of an old stone tower jutting from the top of a hill"
+        ],
+        [
+          "81-85",
+          "{@dice 2d4} {@creature stone giant||stone giants}"
+        ],
+        [
+          "86-90",
+          "1 {@creature adult red dragon}"
+        ],
+        [
+          "91-96",
+          "1 {@creature ancient copper dragon}"
+        ],
+        [
+          "97-99",
+          "1 {@creature ancient red dragon}"
+        ],
+        [
+          "00",
+          "{@dice 1d2} {@creature adult red dragon||adult red dragons} with {@dice 1d3} {@creature young red dragon||young red dragons}"
+        ]
+      ]
+    }
+  ]
+}

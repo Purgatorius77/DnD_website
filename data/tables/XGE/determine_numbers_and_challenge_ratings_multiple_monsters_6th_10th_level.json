@@ -1,0 +1,132 @@
+{
+  "table": [
+    {
+      "caption": "Multiple Monsters: 6th-10th Level",
+      "colLabels": [
+        "Character Level",
+        "CR 1/8",
+        "CR 1/4",
+        "CR 1/2",
+        "CR 1",
+        "CR 2",
+        "CR 3",
+        "CR 4",
+        "CR 5",
+        "CR 6",
+        "CR 7",
+        "CR 8",
+        "CR 9",
+        "CR 10"
+      ],
+      "colStyles": [
+        "col-2-2 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center",
+        "col-0-8 text-center"
+      ],
+      "rows": [
+        [
+          "6th",
+          "1/12",
+          "1/9",
+          "1/5",
+          "1/2",
+          "1/1",
+          "2/1",
+          "2/1",
+          "4/1",
+          "5/1",
+          "6/1",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "7th",
+          "1/12",
+          "1/12",
+          "1/6",
+          "1/3",
+          "1/1",
+          "1/1",
+          "2/1",
+          "3/1",
+          "4/1",
+          "5/1",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "8th",
+          "1/12",
+          "1/12",
+          "1/7",
+          "1/4",
+          "1/2",
+          "1/1",
+          "2/1",
+          "3/1",
+          "3/1",
+          "4/1",
+          "6/1",
+          "—",
+          "—"
+        ],
+        [
+          "9th",
+          "1/12",
+          "1/12",
+          "1/8",
+          "1/4",
+          "1/2",
+          "1/1",
+          "1/1",
+          "2/1",
+          "3/1",
+          "4/1",
+          "5/1",
+          "6/1",
+          "—"
+        ],
+        [
+          "10th",
+          "1/12",
+          "1/12",
+          "1/10",
+          "1/5",
+          "1/2",
+          "1/1",
+          "1/1",
+          "2/1",
+          "2/1",
+          "3/1",
+          "4/1",
+          "5/1",
+          "6/1"
+        ]
+      ],
+      "name": "Determine Numbers and Challenge Ratings; Multiple Monsters: 6th-10th Level",
+      "page": 88,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

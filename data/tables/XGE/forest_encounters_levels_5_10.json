@@ -1,0 +1,273 @@
+{
+  "table": [
+    {
+      "name": "Forest Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 97,
+      "caption": "Forest Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "{@dice 2d4} {@creature vine blight||vine blights}"
+        ],
+        [
+          "02",
+          "{@dice 2d6} {@creature hobgoblin||hobgoblins} or {@dice 2d6} {@creature orc||orcs}"
+        ],
+        [
+          "03",
+          "{@dice 2d4} {@creature ape||apes} or {@dice 2d4} {@creature satyr||satyrs}"
+        ],
+        [
+          "04",
+          "{@dice 1d3} {@creature will-o'-wisp||will-o'-wisps}"
+        ],
+        [
+          "05",
+          "{@dice 1d4} {@creature swarm of poisonous snakes||swarms of poisonous snakes}"
+        ],
+        [
+          "06",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 1d3} {@creature orog||orogs} and {@dice 1d8 + 2} {@creature orc||orcs}"
+        ],
+        [
+          "07",
+          "{@dice 1d3} {@creature constrictor snake||constrictor snakes} or {@dice 1d4} {@creature tiger||tigers}"
+        ],
+        [
+          "08",
+          "1 {@creature goblin boss} with {@dice 3d6} {@creature goblin||goblins}"
+        ],
+        [
+          "09",
+          "1 {@creature faerie dragon (red)||faerie dragon} (any age)"
+        ],
+        [
+          "10",
+          "1 {@creature brown bear} or {@dice 1d6 + 2} {@creature black bear||black bears}"
+        ],
+        [
+          "11-13",
+          "{@dice 1d4} {@creature giant boar||giant boars}"
+        ],
+        [
+          "14-15",
+          "{@dice 1d8 + 1} {@creature giant spider||giant spiders}"
+        ],
+        [
+          "16-17",
+          "1 {@creature lizardfolk shaman} with {@dice 2d4} {@creature lizardfolk}"
+        ],
+        [
+          "18",
+          "{@dice 1d10} {@creature giant toad||giant toads}"
+        ],
+        [
+          "19",
+          "{@dice 1d4} {@creature ankheg||ankhegs}"
+        ],
+        [
+          "20",
+          "{@dice 1d3} {@creature awakened tree||awakened trees} (day) or 1 {@creature banshee} (night)"
+        ],
+        [
+          "21-25",
+          "A small shack almost hidden by the deep forest. The interior is empty aside from a large cast-iron oven."
+        ],
+        [
+          "26",
+          "1 {@creature couatl}"
+        ],
+        [
+          "27-28",
+          "{@dice 1d4} {@creature ogre||ogres} or {@dice 1d6 + 2} {@creature half-ogre (ogrillon)||half-ogres}"
+        ],
+        [
+          "29-30",
+          "1 {@creature gnoll pack lord} with {@dice 1d4 + 1} {@creature giant hyena||giant hyenas}"
+        ],
+        [
+          "31-32",
+          "{@dice 1d6} {@creature wererat||wererats}"
+        ],
+        [
+          "33",
+          "{@dice 1d4} {@creature grick||gricks}"
+        ],
+        [
+          "34",
+          "{@dice 1d8 + 1} {@creature yuan-ti pureblood||yuan-ti purebloods}"
+        ],
+        [
+          "35",
+          "{@dice 1d6} {@creature pegasus||pegasi}"
+        ],
+        [
+          "36-40",
+          "An old stone archway of obvious elven design. Any character who passes under it makes Wisdom (Perception) checks with advantage for 1 hour."
+        ],
+        [
+          "41-42",
+          "{@dice 1d6 + 2} {@creature dryad||dryads}"
+        ],
+        [
+          "43",
+          "{@dice 1d4} {@creature giant elk}"
+        ],
+        [
+          "44",
+          "{@dice 1d8 + 1} {@creature harpy||harpies}"
+        ],
+        [
+          "45-46",
+          "1 {@creature bandit captain} with 1 {@creature druid} and {@dice 1d6 + 5} {@creature bandit||bandits}"
+        ],
+        [
+          "47-48",
+          "{@dice 2d4} {@creature dire wolf||dire wolves}"
+        ],
+        [
+          "49-50",
+          "{@dice 2d4} {@creature bugbear||bugbears}"
+        ],
+        [
+          "51-52",
+          "{@dice 2d4} {@creature centaur||centaurs}"
+        ],
+        [
+          "53-54",
+          "{@dice 3d10} {@creature blink dog||blink dogs}"
+        ],
+        [
+          "55-56",
+          "{@dice 1d4} {@creature owlbear||owlbears}"
+        ],
+        [
+          "57-58",
+          "{@dice 1d8 + 1} {@creature berserker||berserkers}"
+        ],
+        [
+          "59-60",
+          "{@dice 1d3} {@creature green hag||green hags}"
+        ],
+        [
+          "61-65",
+          "A clear pool of water with {@dice 1d6} sleeping animals lying around its edge"
+        ],
+        [
+          "66-67",
+          "{@dice 1d4} {@creature werewolf||werewolves}"
+        ],
+        [
+          "68-69",
+          "1 {@creature werebear}"
+        ],
+        [
+          "70-71",
+          "{@dice 1d8 + 1} {@creature ettercap||ettercaps}"
+        ],
+        [
+          "72-73",
+          "{@dice 2d10} {@creature elk}"
+        ],
+        [
+          "74-75",
+          "{@dice 1d4} {@creature veteran||veterans}"
+        ],
+        [
+          "76-80",
+          "An old tree with a wizened face carved into the trunk"
+        ],
+        [
+          "81",
+          "{@dice 1d4} {@creature wereboar||wereboars}"
+        ],
+        [
+          "82",
+          "{@dice 2d4} {@creature displacer beast||displacer beasts}"
+        ],
+        [
+          "83",
+          "{@dice 1d4} {@creature shambling mound||shambling mounds}"
+        ],
+        [
+          "84",
+          "1 {@creature hobgoblin captain} with {@dice 3d10} {@creature hobgoblin||hobgoblins} and {@dice 4d12} {@creature goblin||goblins}"
+        ],
+        [
+          "85",
+          "1 {@creature yuan-ti abomination}"
+        ],
+        [
+          "86",
+          "{@dice 1d8 + 1} {@creature phase spider||phase spiders}"
+        ],
+        [
+          "87",
+          "{@dice 1d4} {@creature troll||trolls}"
+        ],
+        [
+          "88",
+          "{@dice 2d4} {@creature yuan-ti malison (type 1)||yuan-ti malisons}"
+        ],
+        [
+          "89",
+          "1 {@creature oni}"
+        ],
+        [
+          "90",
+          "{@dice 1d4} {@creature unicorn||unicorns}"
+        ],
+        [
+          "91",
+          "{@dice 1d6 + 2} {@creature weretiger||weretigers}"
+        ],
+        [
+          "92",
+          "1 {@creature young green dragon}"
+        ],
+        [
+          "93",
+          "{@dice 1d4} {@creature gorgon||gorgons}"
+        ],
+        [
+          "94",
+          "{@dice 1d6 + 2} {@creature gnoll fang of Yeenoghu||gnoll fangs of Yeenoghu}"
+        ],
+        [
+          "95",
+          "1 {@creature treant}"
+        ],
+        [
+          "96",
+          "{@dice 1d4} {@creature revenant||revenants}"
+        ],
+        [
+          "97",
+          "1 {@creature grick alpha} with {@dice 1d6 + 1} {@creature grick||gricks}"
+        ],
+        [
+          "98",
+          "{@dice 1d4} {@creature giant ape||giant apes}"
+        ],
+        [
+          "99",
+          "1 {@creature guardian naga}"
+        ],
+        [
+          "00",
+          "1 {@creature adult gold dragon}"
+        ]
+      ]
+    }
+  ]
+}

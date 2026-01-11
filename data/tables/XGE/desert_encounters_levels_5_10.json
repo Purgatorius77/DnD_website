@@ -1,0 +1,205 @@
+{
+  "table": [
+    {
+      "name": "Desert Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 95,
+      "caption": "Desert Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature scout||scouts}"
+        ],
+        [
+          "02",
+          "{@dice 2d4} {@creature jackalwere||jackalweres}"
+        ],
+        [
+          "03",
+          "{@dice 2d6} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "04",
+          "{@dice 1d4 + 3} {@creature dust mephit||dust mephits}"
+        ],
+        [
+          "05",
+          "{@dice 1d6} {@creature swarm of insects}"
+        ],
+        [
+          "06",
+          "1 {@creature giant constrictor snake}"
+        ],
+        [
+          "07-08",
+          "1 {@creature lion}"
+        ],
+        [
+          "09-10",
+          "{@dice 2d4} {@creature gnoll||gnolls}"
+        ],
+        [
+          "11-12",
+          "{@dice 2d6} {@creature giant toad||giant toads}"
+        ],
+        [
+          "13-17",
+          "1 {@creature mummy}"
+        ],
+        [
+          "18-20",
+          "{@dice 1d8 + 1} {@creature giant vulture||giant vultures}"
+        ],
+        [
+          "21-25",
+          "A stone obelisk partly buried in the sand"
+        ],
+        [
+          "26-28",
+          "1 {@creature ogre} with {@dice 1d3} {@creature half-ogre (ogrillon)||half-ogres}"
+        ],
+        [
+          "29-35",
+          "{@dice 1d10} {@creature giant hyena||giant hyenas}"
+        ],
+        [
+          "36-40",
+          "{@dice 1d6 + 1} empty tents"
+        ],
+        [
+          "41-43",
+          "{@dice 1d6 + 2} {@creature thri-kreen}"
+        ],
+        [
+          "44-46",
+          "{@dice 2d4} {@creature yuan-ti pureblood||yuan-ti purebloods}"
+        ],
+        [
+          "47-50",
+          "{@dice 1d6 + 3} {@creature death dog||death dogs}"
+        ],
+        [
+          "51-52",
+          "{@dice 1d4} {@creature giant scorpion||giant scorpions}"
+        ],
+        [
+          "53",
+          "1 {@creature fire elemental}"
+        ],
+        [
+          "54-55",
+          "1 {@creature hobgoblin captain} with {@dice 3d4} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "56",
+          "{@dice 1d6 + 2} {@creature ogre||ogres}"
+        ],
+        [
+          "57-58",
+          "{@dice 1d4} {@creature lamia||lamias}"
+        ],
+        [
+          "59-60",
+          "1 {@creature air elemental}"
+        ],
+        [
+          "61-65",
+          "A meteorite resting at the bottom of a glassy crater"
+        ],
+        [
+          "66",
+          "{@dice 1d4 + 1} {@creature wight||wights}"
+        ],
+        [
+          "67-68",
+          "1 {@creature young brass dragon}"
+        ],
+        [
+          "69-70",
+          "1 {@creature bandit captain} with {@dice 1d3} {@creature berserker||berserkers} and {@dice 3d6} {@creature bandit||bandits}"
+        ],
+        [
+          "71-72",
+          "1 {@creature cyclops}"
+        ],
+        [
+          "73",
+          "{@dice 1d4} {@creature couatl||couatls}"
+        ],
+        [
+          "74-75",
+          "{@dice 1d4} {@creature yuan-ti malison (type 1)||yuan-ti malisons}"
+        ],
+        [
+          "76-80",
+          "Strong winds that kick up dust and reduce visibility to {@dice 1d6} feet for {@dice 1d4} hours"
+        ],
+        [
+          "81-83",
+          "1 {@creature revenant} with {@dice 1d3} {@creature wight||wights}"
+        ],
+        [
+          "84-85",
+          "{@dice 1d8 + 1} {@creature phase spider||phase spiders}"
+        ],
+        [
+          "86-87",
+          "{@dice 1d6 + 2} {@creature weretiger||weretigers}"
+        ],
+        [
+          "88-90",
+          "{@dice 2d4} {@creature gnoll fang of Yeenoghu||gnoll fangs of Yeenoghu}"
+        ],
+        [
+          "91",
+          "1 {@creature young blue dragon}"
+        ],
+        [
+          "92",
+          "{@dice 1d4} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "93",
+          "{@dice 1d3} {@creature yuan-ti abomination||yuan-ti abominations}"
+        ],
+        [
+          "94",
+          "{@dice 1d4} {@creature medusa||medusas}"
+        ],
+        [
+          "95",
+          "1 {@creature guardian naga}"
+        ],
+        [
+          "96",
+          "{@dice 1d3} {@creature young brass dragon||young brass dragons}"
+        ],
+        [
+          "97",
+          "1 {@creature efreeti}"
+        ],
+        [
+          "98",
+          "1 {@creature roc}"
+        ],
+        [
+          "99",
+          "1 {@creature gynosphinx}"
+        ],
+        [
+          "00",
+          "1 {@creature adult brass dragon}"
+        ]
+      ]
+    }
+  ]
+}

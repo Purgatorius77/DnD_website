@@ -1,0 +1,85 @@
+{
+  "table": [
+    {
+      "name": "Arctic Encounters (Levels 11—16)",
+      "type": "table",
+      "source": "XGE",
+      "page": 92,
+      "caption": "Arctic Encounters (Levels 11—16)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature abominable yeti}"
+        ],
+        [
+          "02-04",
+          "{@dice 1d6} {@creature revenant||revenants}"
+        ],
+        [
+          "05-10",
+          "{@dice 1d4 + 1} {@creature werebear||werebears}"
+        ],
+        [
+          "11-20",
+          "{@dice 1d3} {@creature young white dragon||young white dragons}"
+        ],
+        [
+          "21-25",
+          "A blizzard that reduces visibility to 5 feet for {@dice 1d6} hours"
+        ],
+        [
+          "26-35",
+          "1 {@creature roc}"
+        ],
+        [
+          "36-40",
+          "A herd of {@dice 3d20 + 60} caribou ({@creature deer}) moving through the snow"
+        ],
+        [
+          "41-50",
+          "{@dice 1d4} {@creature mammoth||mammoths}"
+        ],
+        [
+          "51-60",
+          "{@dice 1d8 + 1} {@creature troll||trolls}"
+        ],
+        [
+          "61-65",
+          "A mile-wide frozen lake in which preserved corpses of strange creatures can be seen"
+        ],
+        [
+          "66-75",
+          "{@dice 2d4} {@creature young remorhaz||young remorhazes}"
+        ],
+        [
+          "76-80",
+          "A crumbling ice castle littered with the frozen bodies of blue-skinned humanoids"
+        ],
+        [
+          "81-90",
+          "1 {@creature adult white dragon}"
+        ],
+        [
+          "91-96",
+          "{@dice 1d8 + 1} {@creature frost giant||frost giants}"
+        ],
+        [
+          "97-99",
+          "{@dice 1d4} {@creature remorhaz||remorhazes}"
+        ],
+        [
+          "00",
+          "1 {@creature ancient white dragon}"
+        ]
+      ]
+    }
+  ]
+}

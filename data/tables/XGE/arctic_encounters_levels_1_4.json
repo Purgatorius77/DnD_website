@@ -1,0 +1,177 @@
+{
+  "table": [
+    {
+      "name": "Arctic Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 92,
+      "caption": "Arctic Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature giant owl}"
+        ],
+        [
+          "02-05",
+          "{@dice 1d6 + 3} {@creature kobold||kobolds}"
+        ],
+        [
+          "06-08",
+          "{@dice 1d4 + 3} trappers ({@creature commoner||commoners})"
+        ],
+        [
+          "09-10",
+          "1 {@creature owl}"
+        ],
+        [
+          "11-12",
+          "{@dice 2d4} {@creature blood hawk||blood hawks}"
+        ],
+        [
+          "13-17",
+          "{@dice 2d6} {@creature bandit||bandits}"
+        ],
+        [
+          "18-20",
+          "{@dice 1d3} {@creature winged kobold||winged kobolds} with {@dice 1d6} {@creature kobold||kobolds}"
+        ],
+        [
+          "21-25",
+          "The partially eaten carcass of a mammoth, from which {@dice 1d4} weeks of rations can be harvested."
+        ],
+        [
+          "26-29",
+          "{@dice 2d8} hunters {@creature tribal warrior||tribal warriors}"
+        ],
+        [
+          "30-35",
+          "1 {@creature half-ogre (ogrillon)||half-ogre}"
+        ],
+        [
+          "36-40",
+          "Single-file tracks in the snow that stop abruptly"
+        ],
+        [
+          "41-45",
+          "{@dice 1d3} {@creature ice mephit||ice mephits}"
+        ],
+        [
+          "46-50",
+          "1 {@creature brown bear}"
+        ],
+        [
+          "51-53",
+          "{@dice 1d6 + 1} {@creature orc||orcs}"
+        ],
+        [
+          "54-55",
+          "1 {@creature polar bear}"
+        ],
+        [
+          "56-57",
+          "{@dice 1d6} {@creature scout||scouts}"
+        ],
+        [
+          "58-60",
+          "1 {@creature saber-toothed tiger}"
+        ],
+        [
+          "61-65",
+          "A frozen pond with a jagged hole in the ice that appears recently made"
+        ],
+        [
+          "66-68",
+          "1 {@creature berserker}"
+        ],
+        [
+          "69-70",
+          "1 {@creature ogre}"
+        ],
+        [
+          "71-72",
+          "1 {@creature griffon}"
+        ],
+        [
+          "73-75",
+          "1 {@creature druid}"
+        ],
+        [
+          "76-80",
+          "{@dice 3d4} refugees ({@creature commoner||commoners}) fleeing from orcs"
+        ],
+        [
+          "81",
+          "{@dice 1d3} {@creature veteran||veterans}"
+        ],
+        [
+          "82",
+          "{@dice 1d4} {@creature orog||orogs}"
+        ],
+        [
+          "83",
+          "2 {@creature brown bear||brown bears}"
+        ],
+        [
+          "84",
+          "1 {@creature orc Eye of Gruumsh} and {@dice 2d8} {@creature orc||orcs}"
+        ],
+        [
+          "85",
+          "{@dice 1d3} {@creature winter wolf||winter wolves}"
+        ],
+        [
+          "86-87",
+          "{@dice 1d4} {@creature yeti||yetis}"
+        ],
+        [
+          "88",
+          "1 {@creature half-ogre (ogrillon)||half-ogre}"
+        ],
+        [
+          "89",
+          "{@dice 1d3} {@creature manticore||manticores}"
+        ],
+        [
+          "90",
+          "1 {@creature bandit captain} with {@dice 2d6} {@creature bandit||bandits}"
+        ],
+        [
+          "91",
+          "1 {@creature revenant}"
+        ],
+        [
+          "92-93",
+          "1 {@creature troll}"
+        ],
+        [
+          "94-95",
+          "1 {@creature werebear}"
+        ],
+        [
+          "96-97",
+          "1 {@creature young remorhaz}"
+        ],
+        [
+          "98",
+          "1 {@creature mammoth}"
+        ],
+        [
+          "99",
+          "1 {@creature young white dragon}"
+        ],
+        [
+          "00",
+          "1 {@creature frost giant}"
+        ]
+      ]
+    }
+  ]
+}

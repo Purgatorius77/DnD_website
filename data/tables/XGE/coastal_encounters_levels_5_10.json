@@ -1,0 +1,161 @@
+{
+  "table": [
+    {
+      "name": "Coastal Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 93,
+      "caption": "Coastal Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "{@dice 2d8} {@creature giant wolf spider||giant wolf spiders}"
+        ],
+        [
+          "02-03",
+          "{@dice 3d6} {@creature pteranodon||pteranodons}"
+        ],
+        [
+          "04-05",
+          "{@dice 2d4} {@creature scout||scouts}"
+        ],
+        [
+          "06-07",
+          "{@dice 1d6 + 2} {@creature sahuagin}"
+        ],
+        [
+          "08",
+          "1 {@creature sea hag}"
+        ],
+        [
+          "09-10",
+          "{@dice 1d4 + 1} {@creature giant toad||giant toads}"
+        ],
+        [
+          "11-15",
+          "{@dice 3d6} {@creature sahuagin}"
+        ],
+        [
+          "16-20",
+          "{@dice 2d6} {@creature giant eagle||giant eagles}"
+        ],
+        [
+          "21-25",
+          "A {@creature pseudodragon} chasing gulls through the air"
+        ],
+        [
+          "26-29",
+          "{@dice 1d2} {@creature druid||druids}"
+        ],
+        [
+          "30-32",
+          "{@dice 2d4 + 1} {@creature giant toad||giant toads}"
+        ],
+        [
+          "33-35",
+          "1 {@creature commoner} singing a dirge (day only) or 1 {@creature banshee} (night only)"
+        ],
+        [
+          "36-40",
+          "A stoppered bottle containing an illegible note and half buried in the sand"
+        ],
+        [
+          "41-43",
+          "3 {@creature sea hag||sea hags}"
+        ],
+        [
+          "44-46",
+          "{@dice 1d8 + 1} {@creature harpy||harpies}"
+        ],
+        [
+          "47-50",
+          "{@dice 1d4} {@creature plesiosaurus||plesiosauruses}"
+        ],
+        [
+          "51-53",
+          "{@dice 1d4} {@creature manticore||manticores}"
+        ],
+        [
+          "54-56",
+          "{@dice 2d4} {@creature ogre||ogres}"
+        ],
+        [
+          "57-60",
+          "{@dice 1d10} {@creature griffon||griffons}"
+        ],
+        [
+          "61-65",
+          "A battle at sea between two galleons"
+        ],
+        [
+          "66-70",
+          "{@dice 1d4 + 3} {@creature merrow}"
+        ],
+        [
+          "71-75",
+          "A pirate crew consisting of 1 {@creature bandit captain}, 1 {@creature druid}, 2 {@creature berserker||berserkers}, and {@dice 2d12} {@creature bandit||bandits}, all searching for buried treasure"
+        ],
+        [
+          "76-80",
+          "A severed humanoid hand tangled in a net"
+        ],
+        [
+          "81-82",
+          "1 {@creature water elemental}"
+        ],
+        [
+          "83-84",
+          "1 {@creature cyclops}"
+        ],
+        [
+          "85-86",
+          "{@dice 1d4} {@creature banshee||banshees} (night only)"
+        ],
+        [
+          "87-88",
+          "{@dice 2d4} {@creature veteran||veterans}"
+        ],
+        [
+          "89-90",
+          "1 {@creature young bronze dragon}"
+        ],
+        [
+          "91-93",
+          "{@dice 1d3} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "94-95",
+          "1 {@creature young blue dragon}"
+        ],
+        [
+          "96",
+          "1 {@creature sahuagin baron} with {@dice 1d3} {@creature sahuagin priestess||sahuagin priestesses} and {@dice 2d8} {@creature sahuagin}"
+        ],
+        [
+          "97",
+          "1 {@creature djinni}"
+        ],
+        [
+          "98",
+          "1 {@creature roc}"
+        ],
+        [
+          "99",
+          "1 {@creature marid}"
+        ],
+        [
+          "00",
+          "1 {@creature storm giant}"
+        ]
+      ]
+    }
+  ]
+}

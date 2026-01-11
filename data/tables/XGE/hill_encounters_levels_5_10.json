@@ -1,0 +1,205 @@
+{
+  "table": [
+    {
+      "name": "Hill Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 101,
+      "caption": "Hill Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "{@dice 1d4} {@creature pegasus||pegasi} or {@dice 1d3} {@creature peryton||perytons}"
+        ],
+        [
+          "02",
+          "{@dice 1d6 + 2} {@creature giant goat||giant goats}"
+        ],
+        [
+          "03",
+          "1 {@creature manticore}"
+        ],
+        [
+          "04",
+          "{@dice 1d8 + 1} {@creature gnoll||gnolls} or {@dice 1d8 + 1} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "05",
+          "{@dice 1d4} {@creature lion||lions}"
+        ],
+        [
+          "06",
+          "{@dice 1d6 + 2} {@creature worg||worgs}"
+        ],
+        [
+          "07",
+          "{@dice 1d4} {@creature brown bear||brown bears}"
+        ],
+        [
+          "08",
+          "{@dice 3d6} {@creature axe beak||axe beaks}"
+        ],
+        [
+          "09",
+          "1 {@creature half-ogre (ogrillon)||half-ogre} with {@dice 2d6} {@creature orc||orcs}"
+        ],
+        [
+          "10",
+          "{@dice 2d10} {@creature winged kobold||winged kobolds}"
+        ],
+        [
+          "11-12",
+          "1 {@creature goblin boss} with {@dice 1d4} {@creature dire wolf||dire wolves} and {@dice 2d6} {@creature goblin||goblins}"
+        ],
+        [
+          "13",
+          "{@dice 1d6} {@creature giant elk}"
+        ],
+        [
+          "14-15",
+          "{@dice 1d8 + 1} {@creature giant eagle||giant eagles}"
+        ],
+        [
+          "16-17",
+          "{@dice 1d4} {@creature phase spider||phase spiders}"
+        ],
+        [
+          "18-19",
+          "1 {@creature gnoll pack lord} with {@dice 2d4} {@creature giant hyena||giant hyenas}"
+        ],
+        [
+          "20",
+          "{@dice 2d4} {@creature hippogriff||hippogriffs}"
+        ],
+        [
+          "21-25",
+          "A 15-foot-tall stone statue of a dwarf warrior that has been tipped over on its side"
+        ],
+        [
+          "26-27",
+          "{@dice 2d4} {@creature orog||orogs}"
+        ],
+        [
+          "28-29",
+          "{@dice 1d4 + 1} {@creature griffon||griffons}"
+        ],
+        [
+          "30-31",
+          "{@dice 1d6 + 2} {@creature harpy||harpies}"
+        ],
+        [
+          "32-33",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 2d6 + 3} {@creature orc||orcs}"
+        ],
+        [
+          "34-35",
+          "{@dice 1d4 + 3} {@creature giant boar||giant boars}"
+        ],
+        [
+          "36-40",
+          "A stone door set into the side of a steep hill, opening onto 15 feet of descending stairs that end at a cave-in"
+        ],
+        [
+          "41-42",
+          "{@dice 1d3} {@creature green hag||green hags}"
+        ],
+        [
+          "43-44",
+          "{@dice 1d4} {@creature werewolf||werewolves}"
+        ],
+        [
+          "45-46",
+          "{@dice 1d6 + 2} {@creature ogre||ogres}"
+        ],
+        [
+          "47-48",
+          "1 {@creature hobgoblin captain} with {@dice 2d8} {@creature hobgoblin||hobgoblins}"
+        ],
+        [
+          "49-50",
+          "1 {@creature bandit captain} with {@dice 3d6} {@creature bandit||bandits}"
+        ],
+        [
+          "51-54",
+          "1 {@creature chimera}"
+        ],
+        [
+          "55-58",
+          "{@dice 1d4} {@creature ettin||ettins}"
+        ],
+        [
+          "59-62",
+          "{@dice 1d6 + 2} {@creature veteran||veterans} with {@dice 2d6} {@creature berserker||berserkers}"
+        ],
+        [
+          "63-65",
+          "An abandoned wooden hut"
+        ],
+        [
+          "66-69",
+          "1 {@creature galeb duhr}"
+        ],
+        [
+          "70-73",
+          "1 {@creature bulette}"
+        ],
+        [
+          "74-77",
+          "1 {@creature wyvern}"
+        ],
+        [
+          "78-80",
+          "{@dice 2d6 + 10} {@creature goat||goats} with 1 herder ({@creature tribal warrior})"
+        ],
+        [
+          "81-82",
+          "{@dice 1d3} {@creature hill giant||hill giants}"
+        ],
+        [
+          "83-84",
+          "{@dice 2d4} {@creature wereboar||wereboars}"
+        ],
+        [
+          "85-86",
+          "{@dice 1d4} {@creature revenant||revenants}"
+        ],
+        [
+          "87-88",
+          "{@dice 1d2} {@creature gorgon||gorgons}"
+        ],
+        [
+          "89-90",
+          "{@dice 1d8 + 1} {@creature gnoll fang of Yeenoghu||gnoll fangs of Yeenoghu}"
+        ],
+        [
+          "91-93",
+          "{@dice 1d4} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "94-96",
+          "1 {@creature young red dragon}"
+        ],
+        [
+          "97-98",
+          "{@dice 1d4} {@creature stone giant||stone giants}"
+        ],
+        [
+          "99",
+          "{@dice 1d3} {@creature young copper dragon||young copper dragons}"
+        ],
+        [
+          "00",
+          "1 {@creature roc}"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "name": "Dwarf Names – Duergar Clan",
+      "type": "table",
+      "source": "XGE",
+      "page": 176,
+      "caption": "Dwarf Names – Duergar Clan",
+      "colLabels": [
+        "{@dice d12}",
+        "Name"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Ashlord"
+        ],
+        [
+          "2",
+          "Battlegore"
+        ],
+        [
+          "3",
+          "Doomfist"
+        ],
+        [
+          "4",
+          "Earthlord"
+        ],
+        [
+          "5",
+          "Firetamer"
+        ],
+        [
+          "6",
+          "Knifemind"
+        ],
+        [
+          "7",
+          "Mindeater"
+        ],
+        [
+          "8",
+          "Necksnapper"
+        ],
+        [
+          "9",
+          "Orehammer"
+        ],
+        [
+          "10",
+          "Runehammer"
+        ],
+        [
+          "11",
+          "Thundermaster"
+        ],
+        [
+          "12",
+          "Underearth"
+        ]
+      ]
+    }
+  ]
+}

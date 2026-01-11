@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Buying Magic Items",
+      "colLabels": [
+        "Check Total",
+        "Items Acquired"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1—5",
+          "Roll {@dice 1d6} times on {@table Magic Item Table A}."
+        ],
+        [
+          "6—10",
+          "Roll {@dice 1d4} times on {@table Magic Item Table B}."
+        ],
+        [
+          "11—15",
+          "Roll {@dice 1d4} times on {@table Magic Item Table C}."
+        ],
+        [
+          "16—20",
+          "Roll {@dice 1d4} times on {@table Magic Item Table D}."
+        ],
+        [
+          "21—25",
+          "Roll {@dice 1d4} times on {@table Magic Item Table E}."
+        ],
+        [
+          "26—30",
+          "Roll {@dice 1d4} times on {@table Magic Item Table F}."
+        ],
+        [
+          "31—35",
+          "Roll {@dice 1d4} times on {@table Magic Item Table G}."
+        ],
+        [
+          "36—40",
+          "Roll {@dice 1d4} times on {@table Magic Item Table H}."
+        ],
+        [
+          "41+",
+          "Roll {@dice 1d4} times on {@table Magic Item Table I}."
+        ]
+      ],
+      "name": "Buying a Magic Item; Buying Magic Items",
+      "page": 126,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

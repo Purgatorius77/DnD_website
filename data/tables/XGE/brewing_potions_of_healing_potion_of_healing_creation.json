@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Potion of Healing Creation",
+      "colLabels": [
+        "Type",
+        "Time",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4",
+        "col-4 text-right"
+      ],
+      "rows": [
+        [
+          "Healing",
+          "1 day",
+          "25 gp"
+        ],
+        [
+          "Greater healing",
+          "1 workweek",
+          "100 gp"
+        ],
+        [
+          "Superior healing",
+          "3 workweeks",
+          "1,000 gp"
+        ],
+        [
+          "Supreme healing",
+          "4 workweeks",
+          "10,000 gp"
+        ]
+      ],
+      "name": "Brewing Potions of Healing; Potion of Healing Creation",
+      "page": 130,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}
