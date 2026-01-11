@@ -80,6 +80,11 @@ const tableSourceNames = {
 
 
 export function initTableFilters(tables) {
+  if (!Array.isArray(tables)) {
+    console.warn("initTableFilters(): tables not ready", tables);
+    return;
+  }
+
   const tableSelect = document.getElementById("tableSelect");
   const nameInput = document.querySelector("#tables-filters input[type=text]");
   const sourceDiv = document.getElementById("tablesourceCheckboxes");
@@ -165,4 +170,5 @@ resetBtn.addEventListener("click", () => {
     }
   }
 }
+
 
