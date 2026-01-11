@@ -3,7 +3,7 @@
 import { loadJSON } from "../data/dataloader.js";
 
 export async function initTables() {
-  const tablePaths = await loadJSON("../data/index.json");  // For github this should be /DnD_website/data/index.json
+  const tablePaths = await loadJSON("/DnD_website/data/index.json");  // For github this should be /DnD_website/data/index.json
   const tables = [];
 
   for (const path of tablePaths) {
@@ -100,3 +100,4 @@ const rowsHtml = table.rows
     </table>
   `;
 }
+
