@@ -1,0 +1,248 @@
+{
+  "table": [
+    {
+      "caption": "Sage Destinies",
+      "colLabels": [
+        "{@dice 1d22|Card}",
+        "Heroic Tie"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 1
+            },
+            "entry": "Balance"
+          },
+          "You were once a member of an order dedicated to keeping magical artifacts out of the hands of those who would abuse their power."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 2
+            },
+            "entry": "Comet"
+          },
+          "A seer predicted you're destined for immense power. Do you seek this power or reject it?"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 3
+            },
+            "entry": "Donjon"
+          },
+          "Your dreams include visions of an imprisoned extraplanar entity."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 4
+            },
+            "entry": "Euryale"
+          },
+          "You wish to learn powerful magic to protect your loved ones from harm."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 5
+            },
+            "entry": "Fates"
+          },
+          "Your magical studies are driven by a desire to manipulate reality."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 6
+            },
+            "entry": "Flames"
+          },
+          "Your magical ability stems from a gamble you made with a Fiend—though you're not sure if you won or lost."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 7
+            },
+            "entry": "Fool"
+          },
+          "You use your arcane prowess to con unsuspecting individuals."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 8
+            },
+            "entry": "Gem"
+          },
+          "You carry a seemingly ordinary item stolen from a powerful archmage, and it causes inexplicable things to happen around you."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 9
+            },
+            "entry": "Jester"
+          },
+          "You come from a long tradition of wild mages, even if your own powers are different."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 10
+            },
+            "entry": "Key"
+          },
+          "Your spellbook manifests as a deck of cards."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 11
+            },
+            "entry": "Knight"
+          },
+          "Your family of renowned warriors judges you on your martial talents (or lack thereof)."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 12
+            },
+            "entry": "Moon"
+          },
+          "A loved one is cursed, and you're determined to break that curse."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 13
+            },
+            "entry": "Puzzle"
+          },
+          "You live for the pursuit of arcane secrets and lost legends."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 14
+            },
+            "entry": "Rogue"
+          },
+          "Someone you trust is actually a monster, such as a dragon or a hag, in disguise."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 15
+            },
+            "entry": "Ruin"
+          },
+          "A fortune teller warned that you're destined to cause great destruction, which you're trying to avoid."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 16
+            },
+            "entry": "Sage"
+          },
+          "You use a divinatory card spread to decide which spells to prepare each day."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 17
+            },
+            "entry": "Skull"
+          },
+          "You seek a way to cheat death."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 18
+            },
+            "entry": "Star"
+          },
+          "Your spells and magical abilities take on the appearance of playing cards."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 19
+            },
+            "entry": "Sun"
+          },
+          "Agents of the Solar Bastion (see {@book chapter 10|BMT|9}) once saved your life."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 20
+            },
+            "entry": "Talons"
+          },
+          "You seek to reclaim a stolen magical artifact."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 21
+            },
+            "entry": "Throne"
+          },
+          "You began your arcane scholarship as an apprentice to a court magician."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 22
+            },
+            "entry": "Void"
+          },
+          "You've glimpsed another plane of existence, but no one believes you. You strive to prove them wrong."
+        ]
+      ],
+      "name": "Heroes of Destiny; Sage Destinies",
+      "page": 47,
+      "source": "BMT",
+      "chapter": {
+        "name": "Sage",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

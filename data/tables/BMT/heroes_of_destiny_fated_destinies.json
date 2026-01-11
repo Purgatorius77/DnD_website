@@ -1,0 +1,248 @@
+{
+  "table": [
+    {
+      "caption": "Fated Destinies",
+      "colLabels": [
+        "{@dice 1d22|Card}",
+        "Heroic Tie"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 1
+            },
+            "entry": "Balance"
+          },
+          "You were trained by an organization that opposes a deity or another powerful cosmic force."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 2
+            },
+            "entry": "Comet"
+          },
+          "You were born under a sign associated with cataclysm, and every attempt to glimpse your future reveals ill omens."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 3
+            },
+            "entry": "Donjon"
+          },
+          "A religious organization imprisoned you, perhaps because of a crime you committed against that faith or because the leaders considered you the servant of a rival power."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 4
+            },
+            "entry": "Euryale"
+          },
+          "You or your family are watched by secretive figures. They usually keep hidden, but you've seen they wear an unknown symbol."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 5
+            },
+            "entry": "Fates"
+          },
+          "You made a choice in your past that haunts you. Whatever the consequences, it's not clear you made the right choice."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 6
+            },
+            "entry": "Flames"
+          },
+          "A powerful figure opposed to your beliefs vexes your life; even your triumphs seem to serve this being's ends."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 7
+            },
+            "entry": "Fool"
+          },
+          "What could have been one of the happiest moments in your life turned into a tragedy."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 8
+            },
+            "entry": "Gem"
+          },
+          "You inherited land containing the ruins of a temple where a coveted relic was hidden."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 9
+            },
+            "entry": "Jester"
+          },
+          "You were brought up to believe in a prophecy of impending doom, but you perceive potential and hope where others expect disaster."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 10
+            },
+            "entry": "Key"
+          },
+          "An inflexible person with power over you threatened to bring about disaster, but your decisive action prevailed."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 11
+            },
+            "entry": "Knight"
+          },
+          "The defenders of a religious organization such as a druid circle, paladin order, or temple watch over you."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 12
+            },
+            "entry": "Moon"
+          },
+          "You are most comfortable at night, and all your greatest successes have taken place then. You also bear a silvery, crescent-shaped birthmark."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 13
+            },
+            "entry": "Puzzle"
+          },
+          "Your studies led you to a scrap of prophecy or the memoir of a prominent figure, which calls your beliefs into question."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 14
+            },
+            "entry": "Rogue"
+          },
+          "A devout individual whom you looked up to revealed themself to be false, a disciple of a power opposed to your beliefs."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 15
+            },
+            "entry": "Ruin"
+          },
+          "You were once a favored adherent of a religious order, but you've been cast out in disgrace."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 16
+            },
+            "entry": "Sage"
+          },
+          "An otherworldly being whispers advice to you in dreams or visitations, taking on different guises and speaking through others."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 17
+            },
+            "entry": "Skull"
+          },
+          "You were returned to life through resurrection magic, divine intervention, or a mysterious circumstance you don't yet understand."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 18
+            },
+            "entry": "Star"
+          },
+          "When you adopted your current beliefs, your life changed dramatically for the better."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 19
+            },
+            "entry": "Sun"
+          },
+          "While you never placed much stock in the beliefs you were taught, adhering to them saved you from a catastrophe."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 20
+            },
+            "entry": "Talons"
+          },
+          "You have a well-used holy symbol from someone you looked up to, and you feel uncertain anytime you're without it."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 21
+            },
+            "entry": "Throne"
+          },
+          "You were born to a family of divinely favored folk, and they have big expectations for you."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 22
+            },
+            "entry": "Void"
+          },
+          "Your soul, or a loved one's, is doomed to be taken by a Fiend, a powerful Undead, or another wicked power."
+        ]
+      ],
+      "name": "Heroes of Destiny; Fated Destinies",
+      "page": 58,
+      "source": "BMT",
+      "chapter": {
+        "name": "Fates",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 8
+        },
+        "index": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Fey Fruit Effects",
+      "colLabels": [
+        "d10",
+        "Effect"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Every 10 minutes, the creature must eat another fey fruit or make a {@dc 10} Constitution saving throw, gaining 1 level of {@condition exhaustion} on a failed save. Magic that ends the {@condition charmed} condition cures the cravings, which otherwise end after 1 hour."
+        ],
+        [
+          "2",
+          "The creature turns a sickly green and has the {@condition poisoned} condition for 1 hour."
+        ],
+        [
+          "3",
+          "The creature can't deliberately lie for 24 hours."
+        ],
+        [
+          "4",
+          "The creature can't understand any language for the next 8 hours."
+        ],
+        [
+          "5",
+          "The creature turns into a {@creature Faerie Dragon (Violet)||faerie dragon}, as if by a {@spell True Polymorph} spell that has a duration of 24 hours."
+        ],
+        [
+          "6",
+          "Regenerative bark covers the creature's skin, granting the effects of a {@spell Barkskin} spell for 24 hours."
+        ],
+        [
+          "7",
+          "The creature and anything it is wearing or carrying become {@condition invisible} for 24 hours. This invisibility ends early immediately after the creature attacks or casts a spell."
+        ],
+        [
+          "8",
+          "The creature gains the benefits of a {@spell Speak with Animals} spell for 8 hours."
+        ],
+        [
+          "9",
+          "The creature gains {@dice 4d4 + 4} {@book temporary hit points|PHB|9|Temporary Hit Points}."
+        ],
+        [
+          "10",
+          "The creature sprouts dragonfly-like wings, gaining a flying speed of 30 feet for 1 hour."
+        ]
+      ],
+      "name": "Fruit Stalls; Fey Fruit Effects",
+      "page": 107,
+      "source": "BMT",
+      "chapter": {
+        "name": "Jester",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 14
+        },
+        "index": 13
+      }
+    }
+  ]
+}

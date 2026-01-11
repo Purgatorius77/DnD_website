@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Gem Stories",
+      "colLabels": [
+        "d6",
+        "Moment"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "One of the party's patrons dies, and the patron's will bequeaths all their wealth to the characters."
+        ],
+        [
+          "2",
+          "The party is hired by a disguised dragon who offers them part of its hoard as payment."
+        ],
+        [
+          "3",
+          "A character falls through a crevice and discovers a massive deposit of glittering ore."
+        ],
+        [
+          "4",
+          "The party finds a map in an old bottle that leads to a buried treasure chest filled with ancient coins."
+        ],
+        [
+          "5",
+          "The local merchants' guild, enamored with the party's exploits, offers to sponsor the characters."
+        ],
+        [
+          "6",
+          "The characters are invited to participate in a grand talent competition. Despite the odds, one of the characters wins."
+        ]
+      ],
+      "name": "Sudden Riches; Gem Stories",
+      "page": 33,
+      "source": "BMT",
+      "chapter": {
+        "name": "Gem",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 4
+      }
+    }
+  ]
+}

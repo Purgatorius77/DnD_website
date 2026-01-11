@@ -1,0 +1,248 @@
+{
+  "table": [
+    {
+      "caption": "Knight Destinies",
+      "colLabels": [
+        "{@dice 1d22|Card}",
+        "Heroic Tie"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 1
+            },
+            "entry": "Balance"
+          },
+          "Someone—or something—wronged you in your past. You seek revenge."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 2
+            },
+            "entry": "Comet"
+          },
+          "You've been promised an inheritance if you can make a name for yourself as a hero."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 3
+            },
+            "entry": "Donjon"
+          },
+          "You're stranded far from home and intend to fight your way back."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 4
+            },
+            "entry": "Euryale"
+          },
+          "A year of solitude gave you clarity and led you down the path of the warrior."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 5
+            },
+            "entry": "Fates"
+          },
+          "A fortune teller foresaw that you would find your calling in a life of battle."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 6
+            },
+            "entry": "Flames"
+          },
+          "When the heat of battle takes over, you barely recognize yourself. This scares you."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 7
+            },
+            "entry": "Fool"
+          },
+          "Friendly (or not-so-friendly) competition with a rival has spurred you to adventure."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 8
+            },
+            "entry": "Gem"
+          },
+          "You seek a fabled magic weapon or magic suit of armor. You won't rest until you find it."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 9
+            },
+            "entry": "Jester"
+          },
+          "You feel like a laughingstock but believe you'll make something of yourself on the battlefield."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 10
+            },
+            "entry": "Key"
+          },
+          "Someone close to you was kidnapped. You hope to find and rescue them."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 11
+            },
+            "entry": "Knight"
+          },
+          "You used to be a squire to a brave knight, but that knight died in combat."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 12
+            },
+            "entry": "Moon"
+          },
+          "Your dreams are haunted by the screams of those you couldn't save in battle."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 13
+            },
+            "entry": "Puzzle"
+          },
+          "Unpredictability is a hallmark of your fighting style. You keep enemies on their toes."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 14
+            },
+            "entry": "Rogue"
+          },
+          "Tales of your past heroic deeds might be somewhat exaggerated."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 15
+            },
+            "entry": "Ruin"
+          },
+          "When you lost everything, you realized the only thing you could rely on was your martial skill."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 16
+            },
+            "entry": "Sage"
+          },
+          "Descended from a family of sorcerers, you were the only one not to show magical aptitude."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 17
+            },
+            "entry": "Skull"
+          },
+          "You had a near-death experience, and you believe you saw yourself going to the Nine Hells."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 18
+            },
+            "entry": "Star"
+          },
+          "You're chasing notoriety, hoping for folk to sing of your deeds for years to come."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 19
+            },
+            "entry": "Sun"
+          },
+          "You once belonged to a small but mighty militia. Sometimes, you miss the regimented structure of that life."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 20
+            },
+            "entry": "Talons"
+          },
+          "When monsters attacked your hamlet, you found you had a way with weapons."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 21
+            },
+            "entry": "Throne"
+          },
+          "You honed your martial skills as a bodyguard to an important political figure."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 22
+            },
+            "entry": "Void"
+          },
+          "Slaying monsters is a welcome distraction to the growing emptiness inside you."
+        ]
+      ],
+      "name": "Heroes of Destiny; Knight Destinies",
+      "page": 69,
+      "source": "BMT",
+      "chapter": {
+        "name": "Knight",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 9
+        },
+        "index": 8
+      }
+    }
+  ]
+}

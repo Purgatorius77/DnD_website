@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Drone Patrols",
+      "colLabels": [
+        "d6",
+        "Patrol Composition"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–2",
+          "{@dice 1d6} {@creature Quadrone Detention Drone|BMT|quadrones}"
+        ],
+        [
+          "3",
+          "{@dice 1d4} suits of {@creature Animated Armor Detention Drone|BMT|animated armor}"
+        ],
+        [
+          "4–5",
+          "2 {@creature Helmed Horror Detention Drone|BMT|helmed horrors}"
+        ],
+        [
+          "6",
+          "1 {@creature Advanced Detention Drone|BMT|shield guardian}"
+        ]
+      ],
+      "name": "Drone Patrols",
+      "page": 135,
+      "source": "BMT",
+      "chapter": {
+        "name": "Donjon",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 17
+        },
+        "index": 16
+      }
+    }
+  ]
+}

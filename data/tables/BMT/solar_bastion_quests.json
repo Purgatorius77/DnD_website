@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Solar Bastion Quests",
+      "colLabels": [
+        "d8",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Aid and Counsel. Your contact has learned another group of adventurers has discovered a {@item Deck of Many Things}. Find them before they draw from it, and warn them of its dangers—or help them get out of the mess their draws bring upon them."
+        ],
+        [
+          "2",
+          "Research. A rare tome said to describe early encounters with Decks of Many Things is thought to lie in the hoard of a dragon. Retrieve it!"
+        ],
+        [
+          "3",
+          "Track Rifflers. {@creature Riffler|BMT|Rifflers} (see {@book chapter 21|BMT|20|Riffler}) have been active in a remote countryside. Find out if they have a {@item Deck of Many Things}, and ensure they don't give it to a hapless mortal."
+        ],
+        [
+          "4",
+          "Stay Ahead of the Grim Harrow. Riders of the Grim Harrow (see {@book chapter 19|BMT|18}) are terrorizing a village as they search for a {@item Deck of Many Things}. Figure out where they're going, and get there before they do!"
+        ],
+        [
+          "5",
+          "Find {@creature Euryale|BMT}. Rumors of a reclusive medusa are spreading through a city. There's a slim chance the medusa could be {@creature Euryale|BMT}, who could lead the knights to {@creature Asteria|BMT}. Determine the medusa's identity and secretly follow her trail, if any, to {@creature Asteria|BMT}."
+        ],
+        [
+          "6",
+          "Prevent Misuse. A {@creature Hierophant of the Comet|BMT|hierophant} of the Heralds of the Comet (see {@book chapter 12|BMT|11|Hierophant of the Comet}) has acquired a few cards from the original {@item Deck of Many Things}. Ensure the complete artifact doesn't fall into her hands."
+        ],
+        [
+          "7",
+          "Combat a Curse. After plundering a dragon's hoard, adventurers attract constant ill luck. Make sure the treasure isn't cursed; if it is, ensure they aren't spreading the curse as they spend the gold."
+        ],
+        [
+          "8",
+          "Contain an Evil Artifact. The blights and ruination befalling a region suggest someone there is casting spells from the {@item Book of Vile Darkness} or perhaps wielding the {@item Wand of Orcus}. Do whatever is necessary to stop this person, and bring the evil artifact back to Hilarion so it can be contained."
+        ]
+      ],
+      "name": "Solar Bastion Quests",
+      "page": 79,
+      "source": "BMT",
+      "chapter": {
+        "name": "Sun",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 10
+        },
+        "index": 9
+      }
+    }
+  ]
+}

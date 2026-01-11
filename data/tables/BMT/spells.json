@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Spells",
+      "colLabels": [
+        "Level",
+        "Spell",
+        "School",
+        "Concentration",
+        "Ritual",
+        "Class"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-2",
+        "col-2",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "2nd",
+          "{@spell Spray of Cards|BMT}",
+          "Conjuration",
+          "No",
+          "No",
+          "Bard, sorcerer, warlock, wizard"
+        ],
+        [
+          "3rd",
+          "{@spell Antagonize|BMT}",
+          "Enchantment",
+          "No",
+          "No",
+          "Bard, sorcerer, warlock, wizard"
+        ],
+        [
+          "4th",
+          "{@spell Spirit of Death|BMT}",
+          "Necromancy",
+          "Yes",
+          "No",
+          "Sorcerer, warlock, wizard"
+        ]
+      ],
+      "name": "Spells",
+      "page": 49,
+      "source": "BMT",
+      "chapter": {
+        "name": "Sage",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Telescope Travel Mishaps",
+      "colLabels": [
+        "d6",
+        "Mishap"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The travelers appear adrift in the Astral Sea."
+        ],
+        [
+          "2",
+          "The travelers appear on a different plane of existence, determined randomly or chosen by the DM."
+        ],
+        [
+          "3",
+          "Excess cosmic energy overloads the telescope, causing it to explode. Each creature within 60 feet of the telescope takes {@dice 8d6} necrotic damage. Any Humanoid who survives this damage is transformed into a different kind of creature, as if it had been subject to the {@spell Reincarnate} spell."
+        ],
+        [
+          "4",
+          "A creature from the Astral Sea (such as a {@creature githyanki knight}) appears within 60 feet of the telescope. The DM decides its attitude."
+        ],
+        [
+          "5",
+          "The travelers appear on a different planet or celestial body in the Wildspace system nearest to their target destination."
+        ],
+        [
+          "6",
+          "The travelers arrive at their intended destination, but they each appear coated in harmless slime."
+        ]
+      ],
+      "name": "Telescope Travel Mishaps",
+      "page": 105,
+      "source": "BMT",
+      "chapter": {
+        "name": "Star",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 13
+        },
+        "index": 12
+      }
+    }
+  ]
+}

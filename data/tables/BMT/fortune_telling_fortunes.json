@@ -1,0 +1,118 @@
+{
+  "table": [
+    {
+      "caption": "Fortunes",
+      "colLabels": [
+        "{@dice 1d9|Card}",
+        "Fortune"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 1
+            },
+            "entry": "Comet"
+          },
+          "\"Carry a lit flame with you at all times. You will be rewarded with wondrous treasure.\""
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 2
+            },
+            "entry": "Fates"
+          },
+          "\"You are fated to witness a terrible catastrophe. Take solace in knowing there is nothing you can do to stop it.\""
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 3
+            },
+            "entry": "Fool"
+          },
+          "\"Someone who seems helpless will call for your aid. Do not trust them.\""
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 4
+            },
+            "entry": "Key"
+          },
+          "\"A dream will bring answers to the questions you seek.\""
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 5
+            },
+            "entry": "Knight"
+          },
+          "\"Someone will offer you their services in a time of great need. Trust them.\""
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 6
+            },
+            "entry": "Rogue"
+          },
+          "\"A foe is hunting you. They seek vengeance and shall arrive soon.\""
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 7
+            },
+            "entry": "Ruin"
+          },
+          "\"You will soon lose something you hold dear.\""
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 8
+            },
+            "entry": "Sage"
+          },
+          "\"Give advice freely and often. It will save another's life in the near future, earning you their loyalty.\""
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 9
+            },
+            "entry": "Throne"
+          },
+          "\"Great responsibility shall be thrust upon you. Only you will know if you are ready.\""
+        ]
+      ],
+      "name": "Fortune-Telling; Fortunes",
+      "page": 110,
+      "source": "BMT",
+      "chapter": {
+        "name": "Jester",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 14
+        },
+        "index": 13
+      }
+    }
+  ]
+}

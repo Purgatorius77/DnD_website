@@ -1,0 +1,242 @@
+{
+  "table": [
+    {
+      "caption": "Stat Blocks by Challenge Rating",
+      "colLabels": [
+        "CR",
+        "Stat Block",
+        "Creature Type",
+        "Chapter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-6",
+        "col-2",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "1/4",
+          "{@creature Minotaur archaeologist|BMT}",
+          "Humanoid",
+          "{@book 16|BMT|15}"
+        ],
+        [
+          "1/2",
+          "{@creature Aspirant of the Comet|BMT}",
+          "Humanoid",
+          "{@book 12|BMT|11}"
+        ],
+        [
+          "1",
+          "{@creature Harrow hawk|BMT}",
+          "Undead",
+          "{@book 21|BMT|20}"
+        ],
+        [
+          "2",
+          "{@creature Minotaur infiltrator|BMT}",
+          "Humanoid",
+          "{@book 16|BMT|15}"
+        ],
+        [
+          "2",
+          "{@creature Oddlewin|BMT}",
+          "Fey",
+          "{@book 14|BMT|13}"
+        ],
+        [
+          "3",
+          "{@creature Brusipha|BMT}",
+          "Humanoid",
+          "{@book 16|BMT|15}"
+        ],
+        [
+          "3",
+          "{@creature Harrow hound|BMT}",
+          "Undead",
+          "{@book 19|BMT|18}"
+        ],
+        [
+          "3",
+          "{@creature Living portent|BMT}",
+          "Celestial",
+          "{@book 21|BMT|20}"
+        ],
+        [
+          "4",
+          "{@creature Fate hag|BMT}",
+          "Fey",
+          "{@book 21|BMT|20}"
+        ],
+        [
+          "4",
+          "{@creature Initiate of the Comet|BMT}",
+          "Humanoid",
+          "{@book 12|BMT|11}"
+        ],
+        [
+          "4",
+          "{@creature Werevulture|BMT}",
+          "Fiend",
+          "{@book 21|BMT|20}"
+        ],
+        [
+          "5",
+          "{@creature Ambitious assassin|BMT}",
+          "Humanoid",
+          "{@book 6|BMT|5}"
+        ],
+        [
+          "5",
+          "{@creature Riffler|BMT}",
+          "Fey",
+          "{@book 21|BMT|20}"
+        ],
+        [
+          "5",
+          "{@creature Ruin spider|BMT}",
+          "Monstrosity",
+          "{@book 21|BMT|20}"
+        ],
+        [
+          "5",
+          "{@creature Sir Jared|BMT}",
+          "Humanoid",
+          "{@book 10|BMT|9}"
+        ],
+        [
+          "7",
+          "{@creature Talon beast|BMT}",
+          "Monstrosity",
+          "{@book 21|BMT|20}"
+        ],
+        [
+          "9",
+          "{@creature Boss Augustus|BMT}",
+          "Monstrosity",
+          "{@book 11|BMT|10}"
+        ],
+        [
+          "9",
+          "{@creature Boss Delour|BMT}",
+          "Monstrosity",
+          "{@book 11|BMT|10}"
+        ],
+        [
+          "9",
+          "{@creature Gremorly's ghost|BMT}",
+          "Undead",
+          "{@book 15|BMT|14}"
+        ],
+        [
+          "9",
+          "{@creature Solar Bastion knight|BMT}",
+          "Humanoid",
+          "{@book 10|BMT|9}"
+        ],
+        [
+          "11",
+          "{@creature Enchanting infiltrator|BMT}",
+          "Fey",
+          "{@book 6|BMT|5}"
+        ],
+        [
+          "11",
+          "{@creature Hierophant of the Comet|BMT}",
+          "Humanoid",
+          "{@book 12|BMT|11}"
+        ],
+        [
+          "14",
+          "{@creature Breath drinker|BMT}",
+          "Aberration",
+          "{@book 18|BMT|17}"
+        ],
+        [
+          "14",
+          "{@creature Hulgaz|BMT}",
+          "Fiend",
+          "{@book 20|BMT|19}"
+        ],
+        [
+          "15",
+          "{@creature Grim Champion of Pestilence|BMT}",
+          "Undead",
+          "{@book 19|BMT|18}"
+        ],
+        [
+          "17",
+          "{@creature Hierophant medusa|BMT}",
+          "Monstrosity",
+          "{@book 21|BMT|20}"
+        ],
+        [
+          "17",
+          "{@creature Otherworldly corrupter|BMT}",
+          "Aberration",
+          "{@book 6|BMT|5}"
+        ],
+        [
+          "18",
+          "{@creature Asteria|BMT}",
+          "Humanoid",
+          "{@book 22|BMT|21}"
+        ],
+        [
+          "18",
+          "{@creature Euryale|BMT}",
+          "Monstrosity",
+          "{@book 22|BMT|21}"
+        ],
+        [
+          "18",
+          "{@creature Malaxxix|BMT}",
+          "Fiend",
+          "{@book 20|BMT|19}"
+        ],
+        [
+          "20",
+          "{@creature Grim Champion of Bloodshed|BMT}",
+          "Undead",
+          "{@book 19|BMT|18}"
+        ],
+        [
+          "21",
+          "{@creature Pazrodine|BMT}",
+          "Dragon",
+          "{@book 14|BMT|13}"
+        ],
+        [
+          "21",
+          "{@creature Veiled presence|BMT}",
+          "Celestial",
+          "{@book 6|BMT|5}"
+        ],
+        [
+          "22",
+          "{@creature Aurnozci|BMT}",
+          "Fiend",
+          "{@book 20|BMT|19}"
+        ],
+        [
+          "25",
+          "{@creature Grim Champion of Desolation|BMT}",
+          "Undead",
+          "{@book 19|BMT|18}"
+        ]
+      ],
+      "name": "Monsters in This Book; Stat Blocks by Challenge Rating",
+      "page": 175,
+      "source": "BMT",
+      "chapter": {
+        "name": "Talons",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 21
+        },
+        "index": 20
+      }
+    }
+  ]
+}

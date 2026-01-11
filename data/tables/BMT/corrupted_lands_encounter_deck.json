@@ -1,0 +1,287 @@
+{
+  "table": [
+    {
+      "caption": "Corrupted Lands Encounter Deck",
+      "colLabels": [
+        "{@dice 1d21|Card}",
+        "Creature",
+        "Challenge",
+        "Group"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-6",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 1
+            },
+            "entry": " A {@color ♦|#ff0000}"
+          },
+          "{@creature Shoosuva|MPMM}*",
+          "8",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 2
+            },
+            "entry": " A {@color ♥|#ff0000}"
+          },
+          "{@creature Gold dragon wyrmling} (friend)",
+          "—",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 3
+            },
+            "entry": " K {@color ♦|#ff0000}"
+          },
+          "{@creature Ochre jelly} (lurker)",
+          "2",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 4
+            },
+            "entry": " Q {@color ♥|#ff0000}"
+          },
+          "{@creature Nothic} (twin)",
+          "2",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 5
+            },
+            "entry": " Q {@color ♦|#ff0000}"
+          },
+          "{@creature Nothic} (twin)",
+          "2",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 6
+            },
+            "entry": "10 ♠"
+          },
+          "{@creature Cult fanatic}",
+          "2",
+          "Cultists"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 7
+            },
+            "entry": "10 ♣"
+          },
+          "{@creature Veteran}",
+          "3",
+          "Cultists"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 8
+            },
+            "entry": "10 {@color ♥|#ff0000}"
+          },
+          "{@creature Cultist} ×4",
+          "1/8",
+          "Cultists"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 9
+            },
+            "entry": "10 {@color ♦|#ff0000}"
+          },
+          "{@creature Maw demon|MPMM}*",
+          "1",
+          "Cultists"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 10
+            },
+            "entry": " 9 ♠"
+          },
+          "{@creature Gnoll fang of Yeenoghu}",
+          "4",
+          "Gnolls"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 11
+            },
+            "entry": " 9 {@color ♥|#ff0000}"
+          },
+          "{@creature Gnoll pack lord}",
+          "2",
+          "Gnolls"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 12
+            },
+            "entry": " 9 {@color ♦|#ff0000}"
+          },
+          "{@creature Gnoll}",
+          "1/2",
+          "Gnolls"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 13
+            },
+            "entry": " 8 {@color ♥|#ff0000}"
+          },
+          "{@creature Vrock}",
+          "6",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 14
+            },
+            "entry": " 7 {@color ♥|#ff0000}"
+          },
+          "{@creature Harpy}",
+          "1",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 15
+            },
+            "entry": " 7 {@color ♦|#ff0000}"
+          },
+          "{@creature Harpy}",
+          "1",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 16
+            },
+            "entry": " 6 {@color ♥|#ff0000}"
+          },
+          "{@creature Manticore}",
+          "3",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 17
+            },
+            "entry": " 5 {@color ♥|#ff0000}"
+          },
+          "{@creature Deathlock|MPMM}* (twin)",
+          "4",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 18
+            },
+            "entry": " 5 {@color ♦|#ff0000}"
+          },
+          "{@creature Ghoul} ×2 (twin)",
+          "1",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 19
+            },
+            "entry": " 4 {@color ♥|#ff0000}"
+          },
+          "{@creature Gibbering mouther} (lurker)",
+          "2",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 20
+            },
+            "entry": " 3 {@color ♥|#ff0000}"
+          },
+          "{@creature Treant} (noncombat encounter)",
+          "—",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 21
+            },
+            "entry": " 2 {@color ♦|#ff0000}"
+          },
+          "Draw two",
+          "—",
+          "—"
+        ]
+      ],
+      "footnotes": [
+        "*This monster appears in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}. Omit this card if you don't have that book."
+      ],
+      "name": "Corrupted Lands Encounter Deck",
+      "page": 23,
+      "source": "BMT",
+      "chapter": {
+        "name": "Balance",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

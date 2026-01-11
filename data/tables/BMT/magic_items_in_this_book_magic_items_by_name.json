@@ -1,0 +1,320 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items by Name",
+      "colLabels": [
+        "Magic Item",
+        "Rarity",
+        "Chapter"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@item Antimagic Armor|BMT}",
+          "Very rare",
+          "{@book 9|BMT|8|Starshot Crossbow}"
+        ],
+        [
+          "{@item Armor of Fungal Spores|BMT}",
+          "Uncommon",
+          "{@book 9|BMT|8|Armor of Fungal Spores}"
+        ],
+        [
+          "{@item Armor of the Fallen|BMT}",
+          "Uncommon",
+          "{@book 9|BMT|8|Armor of the Fallen}"
+        ],
+        [
+          "{@item Armor of Weightlessness|BMT}",
+          "Uncommon",
+          "{@book 9|BMT|8|Armor of Weightlessness}"
+        ],
+        [
+          "{@item Baleful Talon|BMT}",
+          "Very rare",
+          "{@book 5|BMT|4|Baleful Talon}"
+        ],
+        [
+          "{@item Blasted Goggles|BMT}",
+          "Uncommon",
+          "{@book 20|BMT|19|Blasted Goggles}"
+        ],
+        [
+          "{@item Bloodrage Greataxe|BMT}",
+          "Uncommon",
+          "{@book 9|BMT|8|Bloodrage Greataxe}"
+        ],
+        [
+          "{@item Bloodseeker Ammunition|BMT}",
+          "Very rare",
+          "{@book 9|BMT|8|Bloodseeker Ammunition}"
+        ],
+        [
+          "{@item Boomerang Shield|BMT}",
+          "Uncommon",
+          "{@book 9|BMT|8|Boomerang Shield}"
+        ],
+        [
+          "{@item Bow of Conflagration|BMT}",
+          "Rare",
+          "{@book 9|BMT|8|Bow of Conflagration}"
+        ],
+        [
+          "{@item Bow of Melodies|BMT}",
+          "Very rare",
+          "{@book 9|BMT|8|Bow of Melodies}"
+        ],
+        [
+          "{@item Breastplate of Balance|BMT}",
+          "Rare",
+          "{@book 5|BMT|4|Breastplate of Balance}"
+        ],
+        [
+          "{@item Card Sharp's Deck|BMT}",
+          "Uncommon",
+          "{@book 6|BMT|5|Card Sharp's Deck}"
+        ],
+        [
+          "{@item Clockwork Armor|BMT}",
+          "Very rare",
+          "{@book 9|BMT|8|Clockwork Armor}"
+        ],
+        [
+          "{@item Crown of Whirling Comets|BMT}",
+          "Very rare",
+          "{@book 5|BMT|4|Crown of Whirling Comets}"
+        ],
+        [
+          "{@item Deck of Dimensions|BMT}",
+          "Very rare",
+          "{@book 6|BMT|5|Deck of Dimensions}"
+        ],
+        [
+          "{@item Deck of Many More Things|BMT}",
+          "Legendary",
+          "{@book 7|BMT|6|Deck of Many More Things}"
+        ],
+        [
+          "{@item Deck of Miscellany|BMT}",
+          "Uncommon",
+          "{@book 6|BMT|5|Deck of Miscellany}"
+        ],
+        [
+          "{@item Deck of Oracles|BMT}",
+          "Rare",
+          "{@book 8|BMT|7|Deck of Oracles}"
+        ],
+        [
+          "{@item Deck of Wild Cards|BMT}",
+          "Very rare",
+          "{@book 6|BMT|5|Deck of Wild Cards}"
+        ],
+        [
+          "{@item Deck of Wonder|BMT}",
+          "Uncommon",
+          "{@book 7|BMT|6|Deck of Wonder}"
+        ],
+        [
+          "{@item Donjon's Sundering Sphere|BMT}",
+          "Rare",
+          "{@book 5|BMT|4|Donjon's Sundering Sphere}"
+        ],
+        [
+          "{@item Dried Leech|BMT}",
+          "Uncommon",
+          "{@book 9|BMT|8|Dried Leech}"
+        ],
+        [
+          "{@item Euryale's Aegis|BMT}",
+          "Legendary",
+          "{@book 5|BMT|4|Euryale's Aegis}"
+        ],
+        [
+          "{@item Fabulist Gem|BMT}",
+          "Uncommon",
+          "{@book 5|BMT|4|Fabulist Gem}"
+        ],
+        [
+          "{@item Fate Cutter Shears|BMT}",
+          "Very rare",
+          "{@book 8|BMT|7|Fate Cutter Shears}"
+        ],
+        [
+          "{@item +1 Fate Dealer's Deck|BMT|Fate Dealer's Deck}",
+          "Varies",
+          "{@book 8|BMT|7|Fate Dealer's Deck}"
+        ],
+        [
+          "{@item Feywrought Armor|BMT}",
+          "Rare",
+          "{@book 9|BMT|8|Feywrought Armor}"
+        ],
+        [
+          "{@item Fool's Blade|BMT}",
+          "Very rare",
+          "{@book 5|BMT|4|Fool's Blade}"
+        ],
+        [
+          "{@item Forcebreaker Weapon|BMT}",
+          "Very rare",
+          "{@book 9|BMT|8|Forcebreaker Weapon}"
+        ],
+        [
+          "{@item Glimmering Moonbow|BMT}",
+          "Rare",
+          "{@book 5|BMT|4|Glimmering Moonbow}"
+        ],
+        [
+          "{@item Gloomwrought Armor|BMT}",
+          "Rare",
+          "{@book 9|BMT|8|Gloomwrought Armor}"
+        ],
+        [
+          "{@item Grasping Whip|BMT}",
+          "Rare",
+          "{@book 9|BMT|8|Grasping Whip}"
+        ],
+        [
+          "{@item Hammer of Runic Focus|BMT}",
+          "Very rare",
+          "{@book 9|BMT|8|Hammer of Runic Focus}"
+        ],
+        [
+          "{@item House of Cards|BMT}",
+          "Uncommon",
+          "{@book 8|BMT|7|House of Cards}"
+        ],
+        [
+          "{@item Jester's Mask|BMT}",
+          "Legendary",
+          "{@book 5|BMT|4|Jester's Mask}"
+        ],
+        [
+          "{@item Plate of Knight's Fellowship|BMT}",
+          "Uncommon",
+          "{@book 5|BMT|4|Plate of Knight's Fellowship}"
+        ],
+        [
+          "{@item Ring of Puzzler's Wit|BMT}",
+          "Uncommon",
+          "{@book 5|BMT|4|Ring of Puzzler's Wit}"
+        ],
+        [
+          "{@item Rod of Hellish Flames|BMT}",
+          "Very rare",
+          "{@book 5|BMT|4|Rod of Hellish Flames}"
+        ],
+        [
+          "{@item Rogue's Mantle|BMT}",
+          "Rare",
+          "{@book 5|BMT|4|Rogue's Mantle}"
+        ],
+        [
+          "{@item Ruinous Flail|BMT}",
+          "Rare",
+          "{@book 5|BMT|4|Ruinous Flail}"
+        ],
+        [
+          "{@item Sage's Signet|BMT}",
+          "Varies",
+          "{@book 5|BMT|4|Sage's Signet}"
+        ],
+        [
+          "{@item Shield of the Tortoise|BMT}",
+          "Uncommon",
+          "{@book 9|BMT|8|Shield of the Tortoise}"
+        ],
+        [
+          "{@item Shrieking Greaves|BMT}",
+          "Rare",
+          "{@book 20|BMT|19|Shrieking Greaves}"
+        ],
+        [
+          "{@item Skull Helm|BMT}",
+          "Very rare",
+          "{@book 5|BMT|4|Skull Helm}"
+        ],
+        [
+          "{@item Sling of Giant Felling|BMT}",
+          "Uncommon",
+          "{@book 9|BMT|8|Sling of Giant Felling}"
+        ],
+        [
+          "{@item Spindle of Fate|BMT}",
+          "Legendary",
+          "{@book 5|BMT|4|Spindle of Fate}"
+        ],
+        [
+          "{@item Starshot Crossbow|BMT}",
+          "Rare",
+          "{@book 5|BMT|4|Antimagic Armor}"
+        ],
+        [
+          "{@item Stonemaker War Pick|BMT}",
+          "Very rare",
+          "{@book 9|BMT|8|Stonemaker War Pick}"
+        ],
+        [
+          "{@item Sun Staff|BMT}",
+          "Rare",
+          "{@book 5|BMT|4|Sun Staff}"
+        ],
+        [
+          "{@item Sword of the Planes|BMT}",
+          "Legendary",
+          "{@book 9|BMT|8|Sword of the Planes}"
+        ],
+        [
+          "{@item Telescopic Transporter|BMT}",
+          "Legendary",
+          "{@book 13|BMT|12|Telescopic Transporter}"
+        ],
+        [
+          "{@item Tidecaller Trident|BMT}",
+          "Very rare",
+          "{@book 9|BMT|8|Tidecaller Trident}"
+        ],
+        [
+          "{@item Voidwalker Armor|BMT}",
+          "Rare",
+          "{@book 5|BMT|4|Voidwalker Armor}"
+        ],
+        [
+          "{@item Warrior's Passkey|BMT}",
+          "Rare",
+          "{@book 5|BMT|4|Warrior's Passkey}"
+        ],
+        [
+          "{@item Weapon of Throne's Command|BMT}",
+          "Very rare",
+          "{@book 5|BMT|4|Weapon of Throne's Command}"
+        ],
+        [
+          "{@item Winged Ammunition|BMT}",
+          "Uncommon",
+          "{@book 9|BMT|8|Winged Ammunition}"
+        ],
+        [
+          "{@item +1 Wraps of Unarmed Prowess|BMT|Wraps of Unarmed Prowess}",
+          "Varies",
+          "{@book 9|BMT|8|Wraps of Unarmed Prowess}"
+        ]
+      ],
+      "name": "Magic Items in This Book; Magic Items by Name",
+      "page": 32,
+      "source": "BMT",
+      "chapter": {
+        "name": "Gem",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 4
+      }
+    }
+  ]
+}

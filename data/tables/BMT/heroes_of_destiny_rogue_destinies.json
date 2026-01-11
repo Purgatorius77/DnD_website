@@ -1,0 +1,248 @@
+{
+  "table": [
+    {
+      "caption": "Rogue Destinies",
+      "colLabels": [
+        "{@dice 1d22|Card}",
+        "Heroic Tie"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 1
+            },
+            "entry": "Balance"
+          },
+          "Your family is connected to an organization that seeks justice and opposes tyranny."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 2
+            },
+            "entry": "Comet"
+          },
+          "A powerful member of a thieves' guild or spy network opposes you at every turn."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 3
+            },
+            "entry": "Donjon"
+          },
+          "Someone important to you is imprisoned, but you believe they're innocent."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 4
+            },
+            "entry": "Euryale"
+          },
+          "You committed a terrible trespass and have a bounty on your head."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 5
+            },
+            "entry": "Fates"
+          },
+          "An important individual owes you a favor; what did you do to earn it?"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 6
+            },
+            "entry": "Flames"
+          },
+          "A Fiend threatens someone dear to you."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 7
+            },
+            "entry": "Fool"
+          },
+          "Your friend since childhood is optimistic to a fault and often conned or exploited."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 8
+            },
+            "entry": "Gem"
+          },
+          "Someone searches for the same treasure you do, and disaster will strike if they find it first."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 9
+            },
+            "entry": "Jester"
+          },
+          "Hardships bring out your optimism—which is lucky, since you seem to attract unfortunate events!"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 10
+            },
+            "entry": "Key"
+          },
+          "You've had an unexpected crisis. Did you solve it quickly, or did you hesitate and risk doom?"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 11
+            },
+            "entry": "Knight"
+          },
+          "An ally who is a member of a helpful organization passes you information or exerts influence on your behalf in subtle ways."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 12
+            },
+            "entry": "Moon"
+          },
+          "Your life is an idyllic story, except for something that makes you wonder if any of it is true."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 13
+            },
+            "entry": "Puzzle"
+          },
+          "You have part of a riddle that leads to a great treasure or momentous secret."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 14
+            },
+            "entry": "Rogue"
+          },
+          "Someone important to you isn't who you think they are."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 15
+            },
+            "entry": "Ruin"
+          },
+          "You lived a life of luxury until someone in power took it away. Will you get revenge?"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 16
+            },
+            "entry": "Sage"
+          },
+          "A mage or magical creature takes an interest in you, offering you advice—for a price."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 17
+            },
+            "entry": "Skull"
+          },
+          "You've defied certain death so many times that it doesn't seem like coincidence anymore."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 18
+            },
+            "entry": "Star"
+          },
+          "You overcame a hardship imposed by your life circumstances, transforming your position entirely or turning the situation to your benefit."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 19
+            },
+            "entry": "Sun"
+          },
+          "A divine spellcaster or divine emissary provides you with guidance, whether you want it or not."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 20
+            },
+            "entry": "Talons"
+          },
+          "A precious object was stolen from you."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 21
+            },
+            "entry": "Throne"
+          },
+          "You are secretly the heir to great power, but those who usurped that power want you dead."
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 22
+            },
+            "entry": "Void"
+          },
+          "Someone you care for is lost; although others have written them off, you believe they're still alive somewhere."
+        ]
+      ],
+      "name": "Heroes of Destiny; Rogue Destinies",
+      "page": 42,
+      "source": "BMT",
+      "chapter": {
+        "name": "Rogue",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

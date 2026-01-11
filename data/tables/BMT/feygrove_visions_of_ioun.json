@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Visions of Ioun",
+      "colLabels": [
+        "1d6",
+        "Vision"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Minotaurs dig beneath the hill and build a temple to Bahamut and other gods."
+        ],
+        [
+          "2",
+          "Minotaurs clad in the garb of a bestial cult summon demons and slay other minotaur priests in a horrific bloodbath."
+        ],
+        [
+          "3",
+          "Monks and knights travel to the hill and construct the abbey at its summit."
+        ],
+        [
+          "4",
+          "Knights defeat a hobgoblin warlord and bring back a {@item Deck of Many Things} and other trophies."
+        ],
+        [
+          "5",
+          "As an army besieges the abbey, a knight draws the Skull card from a {@item Deck of Many Things}. Skull-headed Undead appear and massacre everyone they see."
+        ],
+        [
+          "6",
+          "A huge red dragon emerges from the catacombs beneath the abbey to make his lair atop the hill. Among his treasures is a {@item Deck of Many Things}."
+        ]
+      ],
+      "name": "Feygrove; Visions of Ioun",
+      "page": 126,
+      "source": "BMT",
+      "chapter": {
+        "name": "Ruin",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 16
+        },
+        "index": 15
+      }
+    }
+  ]
+}

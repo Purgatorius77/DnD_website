@@ -1,0 +1,72 @@
+{
+  "table": [
+    {
+      "caption": "Summoned Underlings",
+      "colLabels": [
+        "Archdevil",
+        "Underlings Summoned"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@creature Asmodeus|CoA}",
+          "Any devil, including another archdevil"
+        ],
+        [
+          "{@creature Baalzebul|CoA}",
+          "{@dice 1d6} allied {@creature horned devil||horned devils}, {@dice 1d4} allied {@creature ice devil||ice devils}, or 1 allied {@creature pit fiend}"
+        ],
+        [
+          "{@creature Bel|CoA}",
+          "{@dice 1d6} {@creature bearded devil||bearded devils}"
+        ],
+        [
+          "{@creature Belial|CoA}",
+          "{@dice 1d2} {@creature bone devil||bone devils}"
+        ],
+        [
+          "{@creature Dispater|CoA}",
+          "1 {@creature pit fiend}"
+        ],
+        [
+          "{@creature Fierna|CoA}",
+          "{@dice 1d6} {@creature bearded devil||bearded devils}"
+        ],
+        [
+          "{@creature Glasya|CoA}",
+          "{@dice 1d2} {@creature erinyes}"
+        ],
+        [
+          "{@creature Levistus|CoA}",
+          "1 {@creature pit fiend}"
+        ],
+        [
+          "{@creature Mammon|CoA}",
+          "{@dice 1d2} {@creature bone devil||bone devils}"
+        ],
+        [
+          "{@creature Mephistopheles|CoA}",
+          "{@dice 1d4} {@creature ice devil||ice devils}"
+        ],
+        [
+          "{@creature Zariel|CoA}",
+          "{@dice 1d6} {@creature bearded devil||bearded devils}"
+        ]
+      ],
+      "name": "Archdevil Lair Action List; Summoned Underlings",
+      "page": 214,
+      "source": "CoA",
+      "chapter": {
+        "name": "Lords of the Nine",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "A"
+        },
+        "index": 13
+      }
+    }
+  ]
+}

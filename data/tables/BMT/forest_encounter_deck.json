@@ -1,0 +1,287 @@
+{
+  "table": [
+    {
+      "caption": "Forest Encounter Deck",
+      "colLabels": [
+        "{@dice 1d21|Card}",
+        "Creature",
+        "Challenge",
+        "Group"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-6",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 1
+            },
+            "entry": "A ♠"
+          },
+          "{@creature Young green dragon}",
+          "8",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 2
+            },
+            "entry": "A ♣"
+          },
+          "{@creature Druid} (friend)",
+          "—",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 3
+            },
+            "entry": "K ♠"
+          },
+          "{@creature Bandit captain}",
+          "2",
+          "Bandits"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 4
+            },
+            "entry": "K ♣"
+          },
+          "{@creature Bandit} ×4",
+          "1/8",
+          "Bandits"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 5
+            },
+            "entry": "K {@color ♥|#ff0000}"
+          },
+          "{@creature Bandit} ×4",
+          "1/8",
+          "Bandits"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 6
+            },
+            "entry": "Q ♠"
+          },
+          "{@creature Owlbear}",
+          "3",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 7
+            },
+            "entry": "Q ♣"
+          },
+          "{@creature Owlbear}",
+          "3",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 8
+            },
+            "entry": "J ♠"
+          },
+          "{@creature Ettercap}",
+          "2",
+          "Spiders"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 9
+            },
+            "entry": "J ♣"
+          },
+          "{@creature Swarm of Spiders||Swarm of insects (spiders)}",
+          "2",
+          "Spiders"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 10
+            },
+            "entry": "J {@color ♥|#ff0000}"
+          },
+          "{@creature Giant spider} ×2",
+          "1",
+          "Spiders"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 11
+            },
+            "entry": "J {@color ♦|#ff0000}"
+          },
+          "{@creature Giant spider} ×2",
+          "1",
+          "Spiders"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 12
+            },
+            "entry": "9 ♣"
+          },
+          "{@creature Giant boar}",
+          "2",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 13
+            },
+            "entry": "8 ♣"
+          },
+          "{@creature Ankheg} (lurker)",
+          "2",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 14
+            },
+            "entry": "7 ♠"
+          },
+          "{@creature Displacer beast} (twin)",
+          "3",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 15
+            },
+            "entry": "7 ♣"
+          },
+          "{@creature Displacer beast} (twin)",
+          "3",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 16
+            },
+            "entry": "6 ♠"
+          },
+          "{@creature Worg} ×2 (lurker)",
+          "1/2",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 17
+            },
+            "entry": "5 ♠"
+          },
+          "{@creature Pegasus}",
+          "2",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 18
+            },
+            "entry": "5 ♣"
+          },
+          "{@creature Pegasus}",
+          "2",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 19
+            },
+            "entry": "4 ♠"
+          },
+          "{@creature Shambling mound}",
+          "5",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 20
+            },
+            "entry": "3 ♠"
+          },
+          "{@creature Vampiric mist|MPMM}*",
+          "3",
+          "—"
+        ],
+        [
+          {
+            "type": "cell",
+            "roll": {
+              "exact": 21
+            },
+            "entry": "2 ♠"
+          },
+          "Draw two",
+          "—",
+          "—"
+        ]
+      ],
+      "footnotes": [
+        "*This monster appears in {@book Mordenkainen Presents: Monsters of the Multiverse|MPMM}. Omit this card if you don't have that book."
+      ],
+      "name": "Forest Encounter Deck",
+      "page": 23,
+      "source": "BMT",
+      "chapter": {
+        "name": "Balance",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

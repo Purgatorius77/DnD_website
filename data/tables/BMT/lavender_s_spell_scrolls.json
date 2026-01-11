@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Lavender's Spell Scrolls",
+      "colLabels": [
+        "Spell Level",
+        "Spell Scroll"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1st",
+          "{@spell Cure Wounds}, {@spell Faerie Fire}"
+        ],
+        [
+          "2nd",
+          "{@spell Moonbeam}, {@spell Protection from Poison}"
+        ],
+        [
+          "3rd",
+          "{@spell Antagonize|BMT}*"
+        ]
+      ],
+      "footnotes": [
+        "*This spell appears in {@book chapter 7|BMT|6|Antagonize}."
+      ],
+      "name": "Lavender's Spell Scrolls",
+      "page": 109,
+      "source": "BMT",
+      "chapter": {
+        "name": "Jester",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 14
+        },
+        "index": 13
+      }
+    }
+  ]
+}

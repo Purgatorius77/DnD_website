@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Solar Bastion Member Roles",
+      "colLabels": [
+        "Role",
+        "Backgrounds"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Counselor",
+          "{@background Charlatan}, {@background entertainer}, {@background noble}"
+        ],
+        [
+          "Curse-breaker",
+          "{@background Acolyte}, {@background folk hero}, {@background hermit}, {@background soldier}"
+        ],
+        [
+          "Investigator",
+          "{@background Variant Criminal (Spy)||Criminal}, {@background sage}, {@background sailor}"
+        ],
+        [
+          "Researcher",
+          "{@background Variant Guild Artisan (Guild Merchant)||Guild artisan}, {@background sage}"
+        ],
+        [
+          "Tracker",
+          "{@background Outlander}, {@background urchin}"
+        ]
+      ],
+      "name": "Solar Bastion Specialists; Solar Bastion Member Roles",
+      "page": 79,
+      "source": "BMT",
+      "chapter": {
+        "name": "Sun",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 10
+        },
+        "index": 9
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "table": [
+    {
+      "caption": "Common Zodiac Associations",
+      "colLabels": [
+        "Sign",
+        "Nickname",
+        "Prominence",
+        "Birthstone",
+        "Creature",
+        "Color",
+        "Ability Score"
+      ],
+      "colStyles": [
+        "col-1-8",
+        "col-1-7",
+        "col-1-7",
+        "col-1-7",
+        "col-1-7",
+        "col-1-7",
+        "col-1-7"
+      ],
+      "rows": [
+        [
+          "{@book Skull|BMT|12|Skull}",
+          "The Watcher",
+          "Midwinter",
+          "Onyx",
+          "Imp",
+          "Black, white",
+          "Constitution"
+        ],
+        [
+          "{@book Balance|BMT|12|Balance}",
+          "The Merchant",
+          "Late winter",
+          "Quartz",
+          "Fish",
+          "Orange",
+          "Intelligence"
+        ],
+        [
+          "{@book Sage|BMT|12|Sage}",
+          "The Wise One",
+          "Early spring",
+          "Garnet",
+          "Sphinx",
+          "Purple",
+          "Intelligence"
+        ],
+        [
+          "{@book Throne|BMT|12|Throne}",
+          "The Everlasting",
+          "Midspring",
+          "Ruby",
+          "Dragon",
+          "Gold",
+          "Charisma"
+        ],
+        [
+          "{@book Key|BMT|12|Key}",
+          "The Child",
+          "Late spring",
+          "Opal",
+          "Cat",
+          "Silver",
+          "Wisdom"
+        ],
+        [
+          "{@book Flames|BMT|12|Flames}",
+          "The Lovers",
+          "Early summer",
+          "Moonstone",
+          "Unicorn",
+          "Pink",
+          "Charisma"
+        ],
+        [
+          "{@book Knight|BMT|12|Knight}",
+          "The Dragon Slayer",
+          "Midsummer",
+          "Diamond",
+          "Griffon",
+          "Blue",
+          "Strength"
+        ],
+        [
+          "{@book Euryale|BMT|12|Euryale}",
+          "The Gardener",
+          "Late summer",
+          "Emerald",
+          "Basilisk",
+          "Green",
+          "Wisdom"
+        ],
+        [
+          "{@book Rogue|BMT|12|Rogue}",
+          "Night's Edge",
+          "Early autumn",
+          "Jet",
+          "Rat",
+          "Black",
+          "Dexterity"
+        ],
+        [
+          "{@book Gem|BMT|12|Gem}",
+          "The Genie",
+          "Midautumn",
+          "Blue sapphire",
+          "Whale",
+          "Indigo",
+          "Strength"
+        ],
+        [
+          "{@book Talons|BMT|12|Talons}",
+          "The Elder",
+          "Late autumn",
+          "Jade",
+          "Owlbear",
+          "Yellow",
+          "Constitution"
+        ],
+        [
+          "{@book Jester|BMT|12|Jester}",
+          "The Nilbog",
+          "Early winter",
+          "Pearl",
+          "Goose",
+          "Red",
+          "Dexterity"
+        ]
+      ],
+      "name": "Common Zodiac Associations",
+      "page": 101,
+      "source": "BMT",
+      "chapter": {
+        "name": "Star",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 13
+        },
+        "index": 12
+      }
+    }
+  ]
+}
