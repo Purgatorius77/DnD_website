@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Pharika's Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature druid} seeds deadly herbs into a village's fields, coaxing the plants to resemble farmers' crops."
+        ],
+        [
+          "2",
+          "The life of a tyrant ({@creature knight}) is central to one of Pharika's experiments in mortal suffering, so the god resurrects the tyrant whenever enemies kill him."
+        ],
+        [
+          "3",
+          "Legend tells of a hydra with alchemical lore scribed upon its bones. When an alchemist ({@creature mage}) begins poisoning the beasts, Nylea sends dozens of {@creature Hydra||hydras} to seek revenge, catching innocents in the fray."
+        ],
+        [
+          "4",
+          "A town suffering from a plague seeks a cure from a {@creature cult fanatic} of Pharika engaged in warlike research. The researcher's blessing alleviates the pox but leaves the survivors delusional and violent."
+        ],
+        [
+          "5",
+          "After the characters witness a miracle, an apothecary ({@creature mage}) seeks their blood as a medicinal ingredient."
+        ],
+        [
+          "6",
+          "An {@creature archmage} devotee of Pharika manages to shrink monsters to a size so small that they effectively behave as viruses."
+        ]
+      ],
+      "name": "Pharika's Villains",
+      "page": 160,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Omens of Karametra",
+      "colLabels": [
+        "d6",
+        "d100",
+        "Omen of Karametra"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-1 text-right",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "1",
+          "35",
+          "Patterns form in fallen leaves or in the scattered leavings of grain in a field."
+        ],
+        [
+          "2",
+          "36",
+          "Rustling plants produce sounds that resemble words."
+        ],
+        [
+          "3",
+          "37",
+          "Fruit begins mewling and giggling like delighted infants."
+        ],
+        [
+          "4",
+          "38",
+          "Hearth fires blaze or small fires start up, attracting small creatures to curl up in front of them."
+        ],
+        [
+          "5",
+          "39",
+          "Wild animals act domesticated."
+        ],
+        [
+          "6",
+          "40",
+          "Food multiplies or heals when bitten."
+        ]
+      ],
+      "name": "Omens of Karametra",
+      "page": 111,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

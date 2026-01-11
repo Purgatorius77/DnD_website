@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Standard Languages",
+      "colLabels": [
+        "Language",
+        "Typical Speakers",
+        "Script"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-4 text-center",
+        "col-4 text-center"
+      ],
+      "rows": [
+        [
+          "{@language Common|MOT}",
+          "Humans",
+          "Common"
+        ],
+        [
+          "{@language Giant|MOT}",
+          "Cyclopes, giants",
+          "Minotaur"
+        ],
+        [
+          "{@language Leonin|MOT}",
+          "Leonin",
+          "Common"
+        ],
+        [
+          "{@language Primordial|MOT}",
+          "Tritons",
+          "Common"
+        ],
+        [
+          "{@language Minotaur|MOT}",
+          "Minotaurs",
+          "Minotaur"
+        ],
+        [
+          "{@language Sylvan|MOT}",
+          "Centaurs, satyrs",
+          "Elvish"
+        ]
+      ],
+      "name": "Standard Languages",
+      "page": 9,
+      "source": "MOT",
+      "chapter": {
+        "name": "Welcome to Theros",
+        "index": 0
+      }
+    }
+  ]
+}

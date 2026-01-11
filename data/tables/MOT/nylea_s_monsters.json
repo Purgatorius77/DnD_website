@@ -1,0 +1,75 @@
+{
+  "table": [
+    {
+      "caption": "Nylea's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "{@creature Scout}"
+        ],
+        [
+          "1",
+          "{@creature Dryad}"
+        ],
+        [
+          "1",
+          "Nyxborn {@creature brown bear}*"
+        ],
+        [
+          "2",
+          "Nyxborn {@creature saber-toothed tiger}*"
+        ],
+        [
+          "2",
+          "{@creature Satyr thornbearer|MOT}"
+        ],
+        [
+          "3",
+          "{@creature Archer|VGM}"
+        ],
+        [
+          "5",
+          "{@creature Shambling mound}"
+        ],
+        [
+          "5",
+          "{@creature Unicorn}*"
+        ],
+        [
+          "9",
+          "{@creature Treant}"
+        ],
+        [
+          "12",
+          "{@creature Ironscale hydra|MOT}"
+        ],
+        [
+          "19",
+          "{@creature Polukranos|MOT}"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6} for details about these creatures in Theros."
+      ],
+      "name": "Nylea's Monsters",
+      "page": 157,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

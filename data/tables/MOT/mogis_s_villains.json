@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Mogis's Villains",
+      "colLabels": [
+        "d8",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A petty tyrant ({@creature gladiator}) rules his populace through threats and intimidation. His favorite pastime is forcing unwilling subjects to fight in gladiatorial blood sports."
+        ],
+        [
+          "2",
+          "A band of {@creature Minotaur||minotaurs} directed by a champion of Mogis forges a trail of devastation through the countryside."
+        ],
+        [
+          "3",
+          "A serial killer ({@creature assassin}) stalks the streets of the polis, taking lives seemingly at random."
+        ],
+        [
+          "4",
+          "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) of Mogis marches into town and predicts doom on the populace within a fortnight."
+        ],
+        [
+          "5",
+          "Priests of Iroas and Heliod are being murdered by unknown assailants and their temples desecrated."
+        ],
+        [
+          "6",
+          "An {@creature archmage} is corrupted by Mogis and begins summoning demons to savage the population."
+        ],
+        [
+          "7",
+          "A badly wounded caravan guard ({@creature bandit captain}) accuses the characters of murder and banditry."
+        ],
+        [
+          "8",
+          "A cabal of Mogis's {@creature Cult Fanatic||cult fanatics} have almost succeeded in finding a way to summon Mogis's warhound to their service."
+        ]
+      ],
+      "name": "Mogis's Villains",
+      "page": 152,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

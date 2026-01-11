@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Underworld Crossings Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature Returned palamnite|MOT} (see {@book chapter 6|MOT|6|Returned Palamnite}) seeks to destroy all Underworld crossings so the dead can freely enter the mortal world."
+        ],
+        [
+          "2",
+          "A conquering general captures a number of {@creature Underworld Cerberus|MOT|Underworld cerberi} (see {@book chapter 6|MOT|6|Underworld Cerberus}), plotting to unleash the terrifying beasts during a war."
+        ],
+        [
+          "3",
+          "A greedy {@creature priest} of Erebos steals coins from the dead before they are buried, thereby filling a crossing with stranded souls."
+        ],
+        [
+          "4",
+          "A {@creature nightmare shepherd|MOT} (see {@book chapter 6|MOT|6|Nightmare Shepherd}) takes over a crossing and doesn't allow souls to pass into the Underworld. As a result, they become {@creature Specter||specters} that harass the living in the mortal world."
+        ],
+        [
+          "5",
+          "A {@creature priest} of Athreos becomes annoyed with the dead returning and sends armies of clergy to secure the mortal side of the crossing."
+        ],
+        [
+          "6",
+          "A {@creature satyr reveler|MOT} (see {@book chapter 6|MOT|6|Satyr Reveler}) seeks to throw an eternal revel! By stealing coins from the dead, the satyr traps souls at his morbid, Tartyx-side bacchanal."
+        ]
+      ],
+      "name": "Underworld Crossings Villains",
+      "page": 118,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

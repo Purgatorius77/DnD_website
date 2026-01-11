@@ -1,0 +1,71 @@
+{
+  "table": [
+    {
+      "caption": "Thassa's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "{@creature Hippocamp|MOT}"
+        ],
+        [
+          "1",
+          "Siren ({@creature harpy})*"
+        ],
+        [
+          "2",
+          "{@creature Naiad|MOT}"
+        ],
+        [
+          "2",
+          "{@creature Triton shorestalker|MOT}"
+        ],
+        [
+          "5",
+          "{@creature Water elemental}"
+        ],
+        [
+          "8",
+          "{@creature Triton master of waves|MOT}"
+        ],
+        [
+          "13",
+          "{@creature Storm giant}"
+        ],
+        [
+          "17",
+          "{@creature Dragon turtle}"
+        ],
+        [
+          "23",
+          "{@creature Kraken}*"
+        ],
+        [
+          "26",
+          "{@creature Tromokratis|MOT}"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6} for details about these creatures in Theros."
+      ],
+      "name": "Thassa's Monsters",
+      "page": 172,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

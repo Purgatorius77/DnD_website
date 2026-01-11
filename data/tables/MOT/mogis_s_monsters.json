@@ -1,0 +1,67 @@
+{
+  "table": [
+    {
+      "caption": "Mogis's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Death dog}"
+        ],
+        [
+          "2",
+          "{@creature Berserker}"
+        ],
+        [
+          "3",
+          "{@creature Fleecemane lion|MOT}"
+        ],
+        [
+          "3",
+          "{@creature Manticore}"
+        ],
+        [
+          "3",
+          "{@creature Minotaur}"
+        ],
+        [
+          "5",
+          "{@creature Catoblepas|VGM}*"
+        ],
+        [
+          "6",
+          "{@creature Cyclops}*"
+        ],
+        [
+          "7",
+          "{@creature Theran chimera|MOT}"
+        ],
+        [
+          "8",
+          "{@creature Blackguard|VGM}"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6|Classic Monsters} for details about these creatures in Theros."
+      ],
+      "name": "Mogis's Monsters",
+      "page": 152,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

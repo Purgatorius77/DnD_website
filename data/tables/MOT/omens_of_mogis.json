@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Omens of Mogis",
+      "colLabels": [
+        "d6",
+        "d100",
+        "Omen of Mogis"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-1 text-right",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "1",
+          "59",
+          "A creature spontaneously starts bleeding, their blood pooling in a bull shape."
+        ],
+        [
+          "2",
+          "60",
+          "Normally harmless animals turn aggressive—the smaller, the angrier."
+        ],
+        [
+          "3",
+          "61",
+          "Water (a stream, pool, rain, or a liquid in a container) turns to boiling blood."
+        ],
+        [
+          "4",
+          "62",
+          "A bestial roar erupts from over the horizon or deep within the earth."
+        ],
+        [
+          "5",
+          "63",
+          "The stars turn red."
+        ],
+        [
+          "6",
+          "64",
+          "A character develops a ravenous hunger for raw meat."
+        ]
+      ],
+      "name": "Omens of Mogis",
+      "page": 111,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

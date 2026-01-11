@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Karametra's Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The head of an orphanage ({@creature commoner}) believes she can care for the city's children better than their parents and works to have the other adults arrested."
+        ],
+        [
+          "2",
+          "A {@creature priest} begins imposing restrictive lifestyle rules on a nearby population in order to \"civilize\" them."
+        ],
+        [
+          "3",
+          "A local leader ({@creature Setessan hoplite|MOT}; see {@book chapter 6|MOT|6|Hoplites}) imposes harsh penalties on the poor, claiming their poverty is a sign they have invited the gods' wrath."
+        ],
+        [
+          "4",
+          "The head of a prominent family ({@creature noble}) continues to exert abusive control over their adult children, citing their role as matriarch or patriarch to justify it."
+        ],
+        [
+          "5",
+          "A local leader ({@creature druid}) forces marriages between widows and widowers to increase the population."
+        ],
+        [
+          "6",
+          "A polis leader ({@creature soldier|GGR}) begins doing sweeps of the surrounding countryside to round up non-citizens and put them to work supporting the community."
+        ]
+      ],
+      "name": "Karametra's Villains",
+      "page": 136,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

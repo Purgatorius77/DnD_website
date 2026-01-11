@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Nyxborn Traits",
+      "colLabels": [
+        "d6",
+        "Trait"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Magic Resistance}. The creature's Nyxborn nature gives it advantage on saving throws against spells and other magical effects."
+        ],
+        [
+          "2",
+          "{@b Light Sensitivity}. A creature of the night sky, the Nyxborn has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight, while it is in bright light."
+        ],
+        [
+          "3",
+          "{@b Immutable Form}. The Nyxborn creature is the philosophical ideal of its kind. It is immune to any spell or effect that would alter its form."
+        ],
+        [
+          "4",
+          "{@b Magic Weapons}. The Nyxborn creature's weapon attacks are magical."
+        ],
+        [
+          "5",
+          "{@b Nyx Step}. The Nyxborn can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@dice 1d10}) force damage if it ends its turn inside an object."
+        ],
+        [
+          "6",
+          "{@b Starlight Form}. The Nyxborn glows with the soft light of the night sky, shedding dim light in a 15-foot radius."
+        ]
+      ],
+      "name": "Nyxborn Statistics; Nyxborn Traits",
+      "page": 203,
+      "source": "MOT",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

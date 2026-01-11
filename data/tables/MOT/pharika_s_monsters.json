@@ -1,0 +1,71 @@
+{
+  "table": [
+    {
+      "caption": "Pharika's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/4",
+          "Nyxborn {@creature giant poisonous snake}*"
+        ],
+        [
+          "1/2",
+          "{@creature Amphisbaena|GoS}"
+        ],
+        [
+          "1/2",
+          "{@creature Cockatrice}"
+        ],
+        [
+          "2",
+          "{@creature Swarm of poisonous snakes}"
+        ],
+        [
+          "3",
+          "{@creature Basilisk}*"
+        ],
+        [
+          "6",
+          "{@creature Medusa}*"
+        ],
+        [
+          "8",
+          "{@creature Assassin}"
+        ],
+        [
+          "8",
+          "{@creature Hydra}"
+        ],
+        [
+          "8",
+          "{@creature Spirit naga}"
+        ],
+        [
+          "17",
+          "{@creature Hythonia|MOT}"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6} for details about these creatures in Theros."
+      ],
+      "name": "Pharika's Monsters",
+      "page": 160,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

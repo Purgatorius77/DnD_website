@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Volcano Temple Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature adult red dragon} tries to make its nest inside the temple, attacking the artisans and priests within."
+        ],
+        [
+          "2",
+          "A {@creature priest} of Mogis infiltrates the volcano and mars its ornate halls, hoping to draw Purphoros's ire and thus cause the volcano to erupt at an unexpected time, killing everyone in the temple."
+        ],
+        [
+          "3",
+          "A obsessed {@creature cult fanatic} is never satisfied with her apprentices' creations and works them to death."
+        ],
+        [
+          "4",
+          "A unit of defeated and desperate {@b hoplites} (see {@book chapter 6|MOT|6|Hoplites}) raid the temple, steal magical weapons, and prepare to avenge their fallen companions."
+        ],
+        [
+          "5",
+          "An apprentice artisan summons {@creature Fire Elemental||fire elementals} that he can't control to murder his cruel master."
+        ],
+        [
+          "6",
+          "An {@creature iron golem} forged in the temple breaks free of its maker's control and goes on a killing spree."
+        ]
+      ],
+      "name": "Volcano Temple Villains",
+      "page": 170,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

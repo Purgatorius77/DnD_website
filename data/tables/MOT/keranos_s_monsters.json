@@ -1,0 +1,67 @@
+{
+  "table": [
+    {
+      "caption": "Keranos's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "2",
+          "{@creature Centaur}"
+        ],
+        [
+          "3",
+          "{@creature Akroan hoplite|MOT}"
+        ],
+        [
+          "3",
+          "{@creature Blue dragon wyrmling}*"
+        ],
+        [
+          "5",
+          "{@creature Air elemental}"
+        ],
+        [
+          "7",
+          "{@creature Theran chimera|MOT}"
+        ],
+        [
+          "9",
+          "{@creature Young blue dragon}*"
+        ],
+        [
+          "13",
+          "{@creature Storm giant}"
+        ],
+        [
+          "16",
+          "{@creature Adult blue dragon}*"
+        ],
+        [
+          "23",
+          "{@creature Ancient blue dragon}*"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6|Blue Dragons} for details about these creatures in Theros."
+      ],
+      "name": "Keranos's Monsters",
+      "page": 140,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

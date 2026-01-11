@@ -1,0 +1,67 @@
+{
+  "table": [
+    {
+      "caption": "Kruphix's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/4",
+          "{@creature Blink dog}"
+        ],
+        [
+          "1/2",
+          "{@creature Cockatrice}"
+        ],
+        [
+          "2",
+          "{@creature Nothic}"
+        ],
+        [
+          "3",
+          "{@creature Phase spider}"
+        ],
+        [
+          "6",
+          "{@creature Invisible stalker}"
+        ],
+        [
+          "7",
+          "{@creature Theran chimera|MOT}"
+        ],
+        [
+          "11",
+          "{@creature Gynosphinx}*"
+        ],
+        [
+          "12",
+          "{@creature Archmage}"
+        ],
+        [
+          "17",
+          "{@creature Androsphinx}*"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6|Sphinx} for details about these creatures in Theros."
+      ],
+      "name": "Kruphix's Monsters",
+      "page": 148,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

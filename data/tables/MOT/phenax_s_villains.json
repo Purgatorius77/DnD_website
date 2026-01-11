@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Phenax's Villains",
+      "colLabels": [
+        "d8",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A charismatic crime boss ({@creature bandit captain}) unites local gangs in a bid to seize control of the polis."
+        ],
+        [
+          "2",
+          "A {@creature Returned palamnite|MOT} (see {@book chapter 6|MOT|6|Returned Palamnite}) wreaks havoc across the countryside in Phenax's name."
+        ],
+        [
+          "3",
+          "The lies of a government functionary ({@creature noble}) start a trade war between struggling settlements."
+        ],
+        [
+          "4",
+          "Phenax {@creature Cultist||cultists} establish a fake cult of Ephara in a bid to start a sectarian civil war in Meletis."
+        ],
+        [
+          "5",
+          "An information broker ({@creature spy}) holds damaging secrets about important folk and is blackmailing them."
+        ],
+        [
+          "6",
+          "A group of vocal iconoclasts ({@creature Noble||nobles}) are fomenting social upheaval that threatens to turn to violence."
+        ],
+        [
+          "7",
+          "A champion ({@creature veteran}) of Heliod is threatening to torch a section of the polis in her hunt for a Phenax-worshiping oath breaker."
+        ],
+        [
+          "8",
+          "Folk go missing then turn up with no memory of their disappearance. Phenax {@creature Cult Fanatic||cult fanatics} are brainwashing these souls for use as sleeper agents."
+        ]
+      ],
+      "name": "Phenax's Villains",
+      "page": 164,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

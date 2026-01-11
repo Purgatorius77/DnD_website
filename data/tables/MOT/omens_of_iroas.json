@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Omens of Iroas",
+      "colLabels": [
+        "d6",
+        "d100",
+        "Omen of Iroas"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-1 text-right",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "1",
+          "29",
+          "The rousing blare of distant trumpets drowns out other sounds."
+        ],
+        [
+          "2",
+          "30",
+          "Clouds limned by sunlight take a form that resembles Iroas."
+        ],
+        [
+          "3",
+          "31",
+          "A character's weapon or shield shatters dramatically, then repairs itself."
+        ],
+        [
+          "4",
+          "32",
+          "A four-winged bird circles overhead."
+        ],
+        [
+          "5",
+          "33",
+          "The sun or moon appears to have four glowing wings."
+        ],
+        [
+          "6",
+          "34",
+          "Water or wind sounds like cheering."
+        ]
+      ],
+      "name": "Omens of Iroas",
+      "page": 111,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

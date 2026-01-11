@@ -1,0 +1,71 @@
+{
+  "table": [
+    {
+      "caption": "Karametra's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Awakened shrub}"
+        ],
+        [
+          "1",
+          "{@creature Alseid|MOT}"
+        ],
+        [
+          "1",
+          "{@creature Dryad}"
+        ],
+        [
+          "2",
+          "{@creature Awakened tree}"
+        ],
+        [
+          "2",
+          "{@creature Druid}"
+        ],
+        [
+          "4",
+          "{@creature Setessan hoplite|MOT}"
+        ],
+        [
+          "5",
+          "{@creature Earth elemental}"
+        ],
+        [
+          "5",
+          "{@creature Unicorn}*"
+        ],
+        [
+          "9",
+          "{@creature Treant}"
+        ],
+        [
+          "12",
+          "{@creature Archdruid|VGM}"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6|Unicorn} for details about these creatures in Theros."
+      ],
+      "name": "Karametra's Monsters",
+      "page": 136,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

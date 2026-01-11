@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Nyxborn Monster Origin",
+      "colLabels": [
+        "d6",
+        "Origin"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A god created the creature to serve as an emissary."
+        ],
+        [
+          "2",
+          "The creature formed as the side effect of some other divine action."
+        ],
+        [
+          "3",
+          "The creature escaped from the Underworld."
+        ],
+        [
+          "4",
+          "The creature took shape from the tales told about it."
+        ],
+        [
+          "5",
+          "A god made the creature to serve as a pet or mount."
+        ],
+        [
+          "6",
+          "The creature took shape from dreams or nightmares."
+        ]
+      ],
+      "name": "Nyxborn Creatures; Nyxborn Monster Origin",
+      "page": 203,
+      "source": "MOT",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

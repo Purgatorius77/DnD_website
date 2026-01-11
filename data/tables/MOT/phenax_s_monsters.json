@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Phenax's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Returned sentry|MOT}"
+        ],
+        [
+          "3",
+          "{@creature Leucrotta|VGM}"
+        ],
+        [
+          "3",
+          "{@creature Slithering tracker|VGM}"
+        ],
+        [
+          "4",
+          "{@creature Returned palamnite|MOT}"
+        ],
+        [
+          "5",
+          "{@creature Ghostblade eidolon|MOT}"
+        ],
+        [
+          "5",
+          "{@creature Master thief|VGM}"
+        ],
+        [
+          "8",
+          "{@creature Assassin}"
+        ],
+        [
+          "16",
+          "{@creature Phoenix|MTF}"
+        ]
+      ],
+      "name": "Phenax's Monsters",
+      "page": 164,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

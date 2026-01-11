@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Oracular Conflux Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A bitter {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) who has foreseen her imminent death gives false predictions to worshipers so they will share her misery."
+        ],
+        [
+          "2",
+          "A {@creature storm giant} pretends to be an avatar of Keranos and takes over the shrine, making its worshipers his subjects."
+        ],
+        [
+          "3",
+          "A {@creature revenant} who died due to a misinterpreted prophecy comes back for revenge against the oracle who issued it."
+        ],
+        [
+          "4",
+          "A {@creature cult fanatic} from a rival shrine gets the temple's animals drunk on fermented fruit, throwing off their predictions."
+        ],
+        [
+          "5",
+          "An angry athlete ({@creature gladiator}) takes the conflux's oracles hostage, demanding they alter the future after predicting his defeat in an upcoming match."
+        ],
+        [
+          "6",
+          "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) makes false predictions to convince nobles to give him money and lavish gifts."
+        ]
+      ],
+      "name": "Oracular Conflux Villains",
+      "page": 142,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

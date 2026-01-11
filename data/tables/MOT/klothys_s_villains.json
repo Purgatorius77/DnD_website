@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Klothys's Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A single-minded Nyxborn {@creature assassin} of Klothys hunts a hero who was raised from the dead."
+        ],
+        [
+          "2",
+          "Believing in the holiness of a terrible beast, Klothys's {@creature Acolyte||acolytes} murder heroes sent to deal with it."
+        ],
+        [
+          "3",
+          "Certain that civilization offends fate, a {@creature priest} raises a herd of {@creature Typhon|MOT|typhons} to release on a city."
+        ],
+        [
+          "4",
+          "Insulted {@creature Satyr Reveler|MOT|satyr revelers} (see {@book chapter 6|MOT|6|Satyr}) channel Klothys's magic to drive a polis's priests into embarrassing debauchery."
+        ],
+        [
+          "5",
+          "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) knows it is a character's destiny to serve Klothys. The seer manufactures tragedy for the individual to provoke this revelation."
+        ],
+        [
+          "6",
+          "A {@creature cult fanatic} of Klothys believes that the characters' deeds mark them as servants of the titans, destined to free one of those ancient terrors."
+        ]
+      ],
+      "name": "Klothys's Villains",
+      "page": 144,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

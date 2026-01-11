@@ -1,0 +1,71 @@
+{
+  "table": [
+    {
+      "caption": "Klothys's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Satyr reveler|MOT}"
+        ],
+        [
+          "2",
+          "{@creature Satyr thornbearer|MOT}"
+        ],
+        [
+          "3",
+          "{@creature Green hag}"
+        ],
+        [
+          "4",
+          "{@creature Oracle|MOT}"
+        ],
+        [
+          "6",
+          "{@creature Annis hag|VGM}"
+        ],
+        [
+          "6",
+          "{@creature Cyclops}*"
+        ],
+        [
+          "6",
+          "{@creature Underworld cerberus|MOT}"
+        ],
+        [
+          "7",
+          "{@creature Woe strider|MOT}"
+        ],
+        [
+          "9",
+          "{@creature Phylaskia|MOT}"
+        ],
+        [
+          "15",
+          "{@creature Typhon|MOT}"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6|Cyclops} for details about these creatures in Theros."
+      ],
+      "name": "Klothys's Monsters",
+      "page": 144,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

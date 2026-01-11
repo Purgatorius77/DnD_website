@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Omens of Pharika",
+      "colLabels": [
+        "d6",
+        "d100",
+        "Omen of Pharika"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-1 text-right",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "1",
+          "73",
+          "Hundreds of snakes, spiders, or centipedes crawl from the ground."
+        ],
+        [
+          "2",
+          "74",
+          "A strong chemical smell follows a character."
+        ],
+        [
+          "3",
+          "75",
+          "A character exhibits a disease's symptoms."
+        ],
+        [
+          "4",
+          "76",
+          "Leaves shrivel and turn black, while flowers pour acidic nectar."
+        ],
+        [
+          "5",
+          "77",
+          "A snakeskin wraps around a way marker or personal possession."
+        ],
+        [
+          "6",
+          "78",
+          "Patterns of clouds or stars slither away, moving with an audible susurrus."
+        ]
+      ],
+      "name": "Omens of Pharika",
+      "page": 111,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

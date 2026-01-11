@@ -1,0 +1,75 @@
+{
+  "table": [
+    {
+      "caption": "Purphoros's Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "{@creature Anvilwrought raptor|MOT}"
+        ],
+        [
+          "1",
+          "{@creature Bronze sable|MOT}"
+        ],
+        [
+          "2",
+          "{@creature Burnished hart|MOT}"
+        ],
+        [
+          "4",
+          "{@creature Oread|MOT}"
+        ],
+        [
+          "5",
+          "{@creature Gold-forged sentinel|MOT}"
+        ],
+        [
+          "5",
+          "{@creature Fire elemental}"
+        ],
+        [
+          "6",
+          "{@creature Cyclops}*"
+        ],
+        [
+          "9",
+          "{@creature Fire giant}"
+        ],
+        [
+          "16",
+          "{@creature Iron golem}"
+        ],
+        [
+          "17",
+          "{@creature Adult red dragon}*"
+        ],
+        [
+          "24",
+          "{@creature Ancient red dragon}*"
+        ]
+      ],
+      "footnotes": [
+        "* See {@book chapter 6|MOT|6|Classic Monsters} for details about these creatures in Theros."
+      ],
+      "name": "Purphoros's Monsters",
+      "page": 168,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

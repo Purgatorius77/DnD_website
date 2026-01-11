@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Sun Temple Villains",
+      "colLabels": [
+        "d6",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A once-heroic {@creature veteran} seeking to regain his youthful strength tries to burn attendees at a dawn banquet as a sacrifice to Heliod."
+        ],
+        [
+          "2",
+          "A secret cabal of Phenax {@creature Cult Fanatic||cult fanatics} infiltrates the temple and uses details learned in private counseling sessions to blackmail worshipers."
+        ],
+        [
+          "3",
+          "An {@creature adult blue dragon}, scarred by a champion of Heliod, seeks to destroy all sun temples in the hopes of bringing about everlasting night."
+        ],
+        [
+          "4",
+          "A corrupt {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) of Heliod sells counterfeit heroic artifacts to those he can't see as being destined for greatness."
+        ],
+        [
+          "5",
+          "A lazy {@creature priest} of Heliod risks bringing the god's wrath down upon the entire temple."
+        ],
+        [
+          "6",
+          "An {@creature archmage} devoted to Heliod has created a second sun, one which endlessly illuminates the land and burns those she considers wicked."
+        ]
+      ],
+      "name": "Sun Temple Villains",
+      "page": 130,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

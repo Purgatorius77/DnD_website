@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Watchtower Villains",
+      "colLabels": [
+        "d8",
+        "Villain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A disguised {@creature abhorrent overlord|MOT} (see {@book chapter 6|MOT|6|Abhorrent Overlord}) convinces the soldiers in a watchtower to rise up against the officers."
+        ],
+        [
+          "2",
+          "A {@creature medusa} takes over a watchtower and conducts experiments on the soldiers she captures."
+        ],
+        [
+          "3",
+          "{@creature Siren|TftYP|Sirens} (see the harpies entry in {@book chapter 6|MOT|6|Harpies}) call soldiers to the top of the watchtower, then entice them over the edge so they can feast on the corpses."
+        ],
+        [
+          "4",
+          "A flight of {@creature Griffon||griffons} attacks a watchtower after soldiers steal the creatures' eggs to train the hatchlings to serve as mounts."
+        ],
+        [
+          "5",
+          "A {@creature cyclops} attacks a watchtower, eager to devour the animals within."
+        ],
+        [
+          "6",
+          "A {@creature druid} of Nylea, angered by the construction of a watchtower in the forest, attracts a mythic beast to the area to destroy the structure."
+        ],
+        [
+          "7",
+          "{@creature Blood-Toll Harpy|MOT|Blood-toll harpies} (see {@book chapter 6|MOT|6|Harpies}) take over a watchtower and light its beacon to bring more victims to the place."
+        ],
+        [
+          "8",
+          "A {@creature spy} in a watchtower poisons the tower's food supply in advance of an upcoming attack."
+        ]
+      ],
+      "name": "Watchtower Villains",
+      "page": 138,
+      "source": "MOT",
+      "chapter": {
+        "name": "Creating Theros Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}
