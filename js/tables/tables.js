@@ -1,31 +1,26 @@
 // /js/tables/tables.js
-import { initTableFilters } from "../filters/tablesfilter.js";
+// /js/tables/tables.js
 import { loadJSON } from "../data/dataloader.js";
 
 export async function initTables() {
-  // Load index.json
-  const tablePaths = await loadJSON("/DnD_website/data/index.json");
-
+  const tablePaths = await loadJSON("../data/index.json");  // For github this should be /DnD_website/data/index.json
   const tables = [];
 
   for (const path of tablePaths) {
     try {
       const data = await loadJSON(path);
-      // flatten each "table" entry
+      if (!data?.table) continue;
+
       data.table.forEach(t => tables.push(t));
     } catch (err) {
       console.warn("Failed to load table", path, err);
     }
   }
 
-  console.log("Loaded tables:", tables);
-  initTableFilters(tables);
-
-  // Listen for table selection
-  document.addEventListener("tableSelected", e => {
-    renderTableStatblock(e.detail);
-  });
+  console.log("initTables(): returning", tables.length, "tables");
+  return tables;   // 🔥 THIS is the missing piece
 }
+
 
 function renderTableStatblock(table) {
   const container = document.getElementById("tables-statblock");
@@ -46,8 +41,3 @@ function renderTableStatblock(table) {
     </table>
   `;
 }
-
-
-
-
-
