@@ -1,0 +1,209 @@
+{
+  "table": [
+    {
+      "name": "Swamp Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 105,
+      "caption": "Swamp Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "{@dice 1d4} {@creature poisonous snake||poisonous snakes}"
+        ],
+        [
+          "02-05",
+          "{@dice 3d6} {@creature rat||rats}"
+        ],
+        [
+          "06-10",
+          "{@dice 2d8} {@creature raven||ravens}"
+        ],
+        [
+          "11-12",
+          "{@dice 3d6} {@creature giant rat||giant rats}"
+        ],
+        [
+          "13",
+          "{@dice 1d10 + 5} {@creature tribal warrior||tribal warriors}"
+        ],
+        [
+          "14-15",
+          "{@dice 1d8 + 1} {@creature giant lizard||giant lizards}"
+        ],
+        [
+          "16-17",
+          "1 {@creature crocodile}"
+        ],
+        [
+          "18-19",
+          "1 {@creature swarm of insects}"
+        ],
+        [
+          "20",
+          "1 {@creature giant spider}"
+        ],
+        [
+          "21-22",
+          "{@dice 1d4 + 1} mud huts partially sunken in murky water"
+        ],
+        [
+          "23-25",
+          "{@dice 2d8 + 1} {@creature kobold||kobolds}"
+        ],
+        [
+          "26",
+          "{@dice 2d4} {@creature mud mephit||mud mephits}"
+        ],
+        [
+          "27-29",
+          "{@dice 1d6 + 2} {@creature giant poisonous snake||giant poisonous snakes}"
+        ],
+        [
+          "30",
+          "{@dice 2d4} {@creature winged kobold||winged kobolds}"
+        ],
+        [
+          "31-32",
+          "1 {@creature scout}"
+        ],
+        [
+          "33-34",
+          "The corpse of an adventurer tangled in the weeds. Looting the body turns up an {@item explorer's pack|phb} and perhaps (50% chance) a random common magic item."
+        ],
+        [
+          "35-38",
+          "1 {@creature giant toad}"
+        ],
+        [
+          "39-41",
+          "{@dice 1d6 + 2} {@creature constrictor snake||constrictor snakes}"
+        ],
+        [
+          "42-44",
+          "{@dice 2d4} {@creature giant frog||giant frogs}"
+        ],
+        [
+          "45",
+          "{@dice 1d8 + 1} {@creature swarm of rats||swarms of rats} or {@dice 1d6 + 2} {@creature swarm of ravens||swarms of ravens}"
+        ],
+        [
+          "46-48",
+          "{@dice 2d10} {@creature stirge||stirges}"
+        ],
+        [
+          "49-52",
+          "{@dice 2d6 + 3} {@creature bullywug||bullywugs}"
+        ],
+        [
+          "53-54",
+          "{@dice 1d8 + 1} {@creature orc||orcs}"
+        ],
+        [
+          "55-56",
+          "{@dice 1d4} {@creature yuan-ti pureblood||yuan-ti purebloods}"
+        ],
+        [
+          "57",
+          "1 {@creature druid}"
+        ],
+        [
+          "58-59",
+          "1 yuan-ti malison: {@creature yuan-ti malison (type 1)||type 1}, {@creature yuan-ti malison (type 2)||type 2}, {@creature yuan-ti malison (type 3)||type 3}"
+        ],
+        [
+          "60-62",
+          "1 {@creature giant constrictor snake}"
+        ],
+        [
+          "63-64",
+          "A high-pitched shriek that lasts for {@dice 1d4} minutes"
+        ],
+        [
+          "65-67",
+          "{@dice 2d4} {@creature lizardfolk}"
+        ],
+        [
+          "68-69",
+          "{@dice 1d4} {@creature ghoul||ghouls}"
+        ],
+        [
+          "70-71",
+          "1 {@creature will-o'-wisp}"
+        ],
+        [
+          "72",
+          "1 {@creature wight}"
+        ],
+        [
+          "73",
+          "1 {@creature ghast}"
+        ],
+        [
+          "74-75",
+          "1 {@creature swarm of poisonous snakes}"
+        ],
+        [
+          "76-77",
+          "A foul stench bubbling up from brackish waters"
+        ],
+        [
+          "78-80",
+          "{@dice 1d4 + 2} {@creature ogre||ogres}"
+        ],
+        [
+          "81-83",
+          "1 {@creature shambling mound}"
+        ],
+        [
+          "84-86",
+          "1 {@creature lizardfolk shaman} with {@dice 1d6} {@creature giant lizard||giant lizards} and {@dice 2d10} {@creature lizardfolk}"
+        ],
+        [
+          "87",
+          "1 {@creature troll}"
+        ],
+        [
+          "88-89",
+          "{@dice 1d4} {@creature green hag||green hags}"
+        ],
+        [
+          "90-91",
+          "1 {@creature revenant}"
+        ],
+        [
+          "92-93",
+          "1 {@creature giant crocodile}"
+        ],
+        [
+          "94-95",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 1d3} {@creature orog||orogs} and {@dice 2d6 + 3} {@creature orc||orcs}"
+        ],
+        [
+          "96-97",
+          "1 {@creature young black dragon}"
+        ],
+        [
+          "98",
+          "1 {@creature yuan-ti abomination}"
+        ],
+        [
+          "99",
+          "{@dice 1d4} {@creature water elemental||water elementals}"
+        ],
+        [
+          "00",
+          "1 {@creature hydra}"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Spell Equivalent by Level",
+      "colLabels": [
+        "Character Level",
+        "Moderate",
+        "Dangerous",
+        "Deadly"
+      ],
+      "colStyles": [
+        "col-3 text-center",
+        "col-3 text-center",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "Cantrip",
+          "1st",
+          "2nd"
+        ],
+        [
+          "5-10",
+          "1st",
+          "3rd",
+          "6th"
+        ],
+        [
+          "11-16",
+          "3rd",
+          "6th",
+          "9th"
+        ],
+        [
+          "17-20",
+          "6th",
+          "9th",
+          "9th + 5th"
+        ]
+      ],
+      "name": "Level and Lethality; Spell Equivalent by Level",
+      "page": 116,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

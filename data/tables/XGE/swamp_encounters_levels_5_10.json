@@ -1,0 +1,169 @@
+{
+  "table": [
+    {
+      "name": "Swamp Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 105,
+      "caption": "Swamp Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01",
+          "1 {@creature green hag}"
+        ],
+        [
+          "02-03",
+          "{@dice 2d4} {@creature giant lizard||giant lizards} or {@dice 2d4} {@creature giant poisonous snake||giant poisonous snakes}"
+        ],
+        [
+          "04-05",
+          "{@dice 2d8} {@creature winged kobold||winged kobolds}"
+        ],
+        [
+          "06-07",
+          "{@dice 1d10 + 1} {@creature bullywug||bullywugs} with {@dice 1d8 + 1} {@creature giant frog||giant frogs}"
+        ],
+        [
+          "08-09",
+          "1 {@creature druid}"
+        ],
+        [
+          "10",
+          "{@dice 1d8 + 1} {@creature swarm of insects||swarms of insects}"
+        ],
+        [
+          "11-13",
+          "{@dice 1d12} {@creature ghoul||ghouls}"
+        ],
+        [
+          "14-16",
+          "{@dice 2d8} {@creature scout||scouts}"
+        ],
+        [
+          "17-19",
+          "{@dice 2d10} {@creature orc||orcs}"
+        ],
+        [
+          "20-22",
+          "{@dice 2d4} {@creature giant spider||giant spiders}"
+        ],
+        [
+          "23-24",
+          "Tainted water that exposes creatures that move through it to {@disease sight rot} (see \"{@book Diseases|DMG|8|Diseases}\" in chapter 8 of the {@italic Dungeon Master's Guide})"
+        ],
+        [
+          "25-27",
+          "{@dice 1d6 + 2} {@creature giant toad||giant toads}"
+        ],
+        [
+          "28-30",
+          "{@dice 3d6} {@creature lizardfolk}"
+        ],
+        [
+          "31-33",
+          "{@dice 1d8 + 1} {@creature yuan-ti pureblood||yuan-ti purebloods}"
+        ],
+        [
+          "34-36",
+          "{@dice 1d4 + 1} {@creature swarm of poisonous snakes||swarms of poisonous snakes}"
+        ],
+        [
+          "37-38",
+          "A bloated humanoid corpse floating facedown in the water"
+        ],
+        [
+          "39-41",
+          "1 {@creature shambling mound}"
+        ],
+        [
+          "42-44",
+          "{@dice 1d4 + 1} {@creature will-o'-wisp||will-o'-wisps}"
+        ],
+        [
+          "45-47",
+          "{@dice 2d6} {@creature crocodile||crocodiles}"
+        ],
+        [
+          "48-50",
+          "{@dice 1d4 + 1} {@creature giant constrictor snake||giant constrictor snakes}"
+        ],
+        [
+          "51-54",
+          "1 {@creature lizardfolk shaman} with {@dice 1d3} {@creature swarm of poisonous snakes||swarms of poisonous snakes} and {@dice 1d8 + 2} {@creature lizardfolk}"
+        ],
+        [
+          "55-58",
+          "{@dice 1d8 + 1} {@creature ogre||ogres}"
+        ],
+        [
+          "59-62",
+          "{@dice 2d4} {@creature ghast||ghasts}"
+        ],
+        [
+          "63-65",
+          "An altar partially sunk into the mud, devoted to a god that is part human and part frog"
+        ],
+        [
+          "66-69",
+          "1 {@creature giant crocodile}"
+        ],
+        [
+          "70-73",
+          "1 {@creature shambling mound}"
+        ],
+        [
+          "74-77",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 1d3} {@creature ogre||ogres} and {@dice 2d10 + 5} {@creature orc||orcs}"
+        ],
+        [
+          "78-80",
+          "A torrential rain that lasts {@dice 1d6} minutes and puts out all unprotected flames within 1 mile"
+        ],
+        [
+          "81-82",
+          "1 {@creature young black dragon}"
+        ],
+        [
+          "83-84",
+          "{@dice 1d4} {@creature green hag||green hags} with {@dice 1d6 + 1} {@creature ogre||ogres}"
+        ],
+        [
+          "85-86",
+          "1 {@creature yuan-ti abomination}"
+        ],
+        [
+          "87-88",
+          "{@dice 1d4 + 1} {@creature wight||wights}"
+        ],
+        [
+          "89-90",
+          "{@dice 1d6 + 1} yuan-ti malisons: {@creature yuan-ti malison (type 1)||type 1}, {@creature yuan-ti malison (type 2)||type 2}, {@creature yuan-ti malison (type 3)||type 3}"
+        ],
+        [
+          "91-93",
+          "{@dice 1d4 + 1} {@creature troll||trolls}"
+        ],
+        [
+          "94-96",
+          "{@dice 1d10} {@creature revenant||revenants}"
+        ],
+        [
+          "97-99",
+          "{@dice 1d8 + 1} {@creature water elemental||water elementals}"
+        ],
+        [
+          "00",
+          "{@dice 1d3} {@creature hydra||hydras}"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Number of Siblings",
+      "colLabels": [
+        "d10",
+        "Siblings"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-2",
+          "None"
+        ],
+        [
+          "3-4",
+          "{@dice 1d3}"
+        ],
+        [
+          "5-6",
+          "{@dice 1d4+1}"
+        ],
+        [
+          "7-8",
+          "{@dice 1d6+2}"
+        ],
+        [
+          "9-10",
+          "{@dice 1d8+3}"
+        ]
+      ],
+      "name": "Number of Siblings",
+      "page": 62,
+      "source": "XGE",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

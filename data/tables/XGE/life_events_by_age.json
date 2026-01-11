@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Life Events by Age",
+      "colLabels": [
+        "d100",
+        "Current Age",
+        "Life Events"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1-20",
+          "20 years or younger",
+          "1"
+        ],
+        [
+          "21-59",
+          "21-30 years",
+          "{@dice 1d4}"
+        ],
+        [
+          "60-69",
+          "31-40 years",
+          "{@dice 1d6}"
+        ],
+        [
+          "70-89",
+          "41-50 years",
+          "{@dice 1d8}"
+        ],
+        [
+          "90-99",
+          "51-60 years",
+          "{@dice 1d10}"
+        ],
+        [
+          "100",
+          "61 years or older",
+          "{@dice 1d12}"
+        ]
+      ],
+      "name": "Life Events by Age",
+      "page": 69,
+      "source": "XGE",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

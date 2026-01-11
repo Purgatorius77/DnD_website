@@ -1,0 +1,36 @@
+{
+  "table": [
+    {
+      "caption": "Parents",
+      "colLabels": [
+        "d100",
+        "Parents"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-95",
+          "You know who your parents are or were."
+        ],
+        [
+          "96-100",
+          "You do not know who your parents were."
+        ]
+      ],
+      "name": "Parents",
+      "page": 62,
+      "source": "XGE",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

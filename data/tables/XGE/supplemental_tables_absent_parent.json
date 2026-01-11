@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Absent Parent",
+      "colLabels": [
+        "d4",
+        "Fate"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Your parent died (roll on the Cause of Death supplemental table)."
+        ],
+        [
+          "2",
+          "Your parent was imprisoned, enslaved, or otherwise taken away."
+        ],
+        [
+          "3",
+          "Your parent abandoned you"
+        ],
+        [
+          "4",
+          "Your parent disappeared to an unknown fate."
+        ]
+      ],
+      "name": "Supplemental Tables; Absent Parent",
+      "page": 63,
+      "source": "XGE",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

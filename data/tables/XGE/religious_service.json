@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Religious Service",
+      "colLabels": [
+        "Check Total",
+        "Result"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1—10",
+          "No effect. Your efforts fail to make a lasting impression."
+        ],
+        [
+          "11—20",
+          "You earn one favor."
+        ],
+        [
+          "21+",
+          "You earn two favors."
+        ]
+      ],
+      "name": "Religious Service",
+      "page": 131,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

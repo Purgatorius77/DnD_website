@@ -1,0 +1,121 @@
+{
+  "table": [
+    {
+      "name": "Mountain Encounters (Levels 11—16)",
+      "type": "table",
+      "source": "XGE",
+      "page": 104,
+      "caption": "Mountain Encounters (Levels 11—16)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-02",
+          "{@dice 1d8 + 1} {@creature basilisk||basilisks}"
+        ],
+        [
+          "03-04",
+          "{@dice 2d4} {@creature hell hound||hell hounds}"
+        ],
+        [
+          "05-06",
+          "{@dice 1d3} {@creature chimera||chimeras}"
+        ],
+        [
+          "07-08",
+          "1 {@creature galeb duhr}"
+        ],
+        [
+          "09-10",
+          "{@dice 2d6} {@creature veteran||veterans}"
+        ],
+        [
+          "11-15",
+          "1 {@creature young silver dragon}"
+        ],
+        [
+          "16-20",
+          "{@dice 2d4} {@creature troll||trolls}"
+        ],
+        [
+          "21-25",
+          "1 red dragon gliding through the sky above the highest mountaintops"
+        ],
+        [
+          "26-30",
+          "{@dice 1d8 + 1} {@creature manticore||manticores}"
+        ],
+        [
+          "31-35",
+          "{@dice 1d4} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "36-40",
+          "Heavy snowfall that lasts for {@dice 1d6} hours"
+        ],
+        [
+          "41-45",
+          "{@dice 1d10} {@creature air elemental||air elementals}"
+        ],
+        [
+          "46-50",
+          "{@dice 1d6 + 2} {@creature bulette||bulettes}"
+        ],
+        [
+          "51-55",
+          "{@dice 1d4} {@creature stone giant||stone giants}"
+        ],
+        [
+          "56-60",
+          "1 {@creature fire giant}"
+        ],
+        [
+          "61-65",
+          "2 {@creature stone giant||stone giants} playing catch with a boulder a few hundred feet away"
+        ],
+        [
+          "66-70",
+          "{@dice 1d8 + 1} {@creature ettin||ettins}"
+        ],
+        [
+          "71-75",
+          "{@dice 1d3} {@creature frost giant||frost giants}"
+        ],
+        [
+          "76-80",
+          "A wide crevasse, its depths shrouded in mist"
+        ],
+        [
+          "81-85",
+          "{@dice 1d4} {@creature cloud giant||cloud giants}"
+        ],
+        [
+          "86-90",
+          "1 {@creature adult silver dragon}"
+        ],
+        [
+          "91-96",
+          "1 {@creature adult red dragon}"
+        ],
+        [
+          "97-98",
+          "{@dice 1d4} {@creature roc||rocs}"
+        ],
+        [
+          "99",
+          "1 {@creature ancient silver dragon}"
+        ],
+        [
+          "00",
+          "1 {@creature ancient red dragon}"
+        ]
+      ]
+    }
+  ]
+}

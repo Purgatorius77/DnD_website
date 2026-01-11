@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Pit Fighting Results",
+      "colLabels": [
+        "Result",
+        "Value"
+      ],
+      "colStyles": [
+        "col-5",
+        "col-7"
+      ],
+      "rows": [
+        [
+          "0 successes",
+          "Lose your bouts, earning nothing."
+        ],
+        [
+          "1 success",
+          "Win 50 gp."
+        ],
+        [
+          "2 successes",
+          "Win 100 gp."
+        ],
+        [
+          "3 successes",
+          "Win 200 gp."
+        ]
+      ],
+      "name": "Pit Fighting Results",
+      "page": 131,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

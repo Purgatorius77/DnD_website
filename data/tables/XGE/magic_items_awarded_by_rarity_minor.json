@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items Awarded by Rarity - Minor",
+      "colLabels": [
+        "Level/CR",
+        "Common",
+        "Uncommon",
+        "Rare",
+        "Very Rare",
+        "Legendary"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-2",
+        "col-2",
+        "col-1",
+        "col-2",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "6",
+          "2",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "5-10",
+          "10",
+          "12",
+          "5",
+          "1",
+          "0"
+        ],
+        [
+          "11-16",
+          "3",
+          "6",
+          "9",
+          "5",
+          "1"
+        ],
+        [
+          "17+",
+          "0",
+          "0",
+          "4",
+          "9",
+          "6"
+        ],
+        [
+          "Total",
+          "19",
+          "20",
+          "19",
+          "15",
+          "7"
+        ]
+      ],
+      "name": "Magic Items Awarded by Rarity - Minor",
+      "page": 135,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "table": [
+    {
+      "name": "Mountain Encounters (Levels 1—4)",
+      "type": "table",
+      "source": "XGE",
+      "page": 104,
+      "caption": "Mountain Encounters (Levels 1—4)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-02",
+          "1 {@creature eagle}"
+        ],
+        [
+          "03-05",
+          "{@dice 1d3} {@creature swarm of bats||swarms of bats}"
+        ],
+        [
+          "06-08",
+          "{@dice 1d6} {@creature goat||goats}"
+        ],
+        [
+          "09-11",
+          "{@dice 1d10 + 5} {@creature tribal warrior||tribal warriors}"
+        ],
+        [
+          "12-14",
+          "{@dice 1d6 + 3} {@creature pteranodon||pteranodons}"
+        ],
+        [
+          "15-17",
+          "{@dice 1d8 + 1} {@creature winged kobold||winged kobolds}"
+        ],
+        [
+          "18-20",
+          "1 {@creature lion}"
+        ],
+        [
+          "21-24",
+          "Stairs chiseled into the side of the mountain that climb {@dice 3d20 + 40} feet before ending abruptly"
+        ],
+        [
+          "25-27",
+          "{@dice 2d10} {@creature stirge||stirges}"
+        ],
+        [
+          "28-30",
+          "{@dice 2d4} {@creature aarakocra}"
+        ],
+        [
+          "31-33",
+          "{@dice 2d6} dwarf soldiers ({@creature guard||guards}) with {@dice 1d6} {@creature mule||mules} laden with iron ore"
+        ],
+        [
+          "34-36",
+          "1 {@creature giant eagle}"
+        ],
+        [
+          "37-38",
+          "A small shrine dedicated to a lawful neutral god, perched on a stone outcropping"
+        ],
+        [
+          "39-41",
+          "{@dice 2d8 + 1} {@creature blood hawk||blood hawks}"
+        ],
+        [
+          "42-44",
+          "1 {@creature giant goat}"
+        ],
+        [
+          "45-47",
+          "{@dice 3d4} {@creature kobold||kobolds}"
+        ],
+        [
+          "48-50",
+          "1 {@creature half-ogre (ogrillon)||half-ogre}"
+        ],
+        [
+          "51-53",
+          "1 {@creature berserker}"
+        ],
+        [
+          "54-55",
+          "1 {@creature orog}"
+        ],
+        [
+          "56",
+          "1 {@creature hell hound}"
+        ],
+        [
+          "57",
+          "1 {@creature druid}"
+        ],
+        [
+          "58-59",
+          "1 {@creature peryton}"
+        ],
+        [
+          "60-61",
+          "{@dice 1d2} {@creature hippogriff||hippogriffs}"
+        ],
+        [
+          "62",
+          "1 {@creature manticore}"
+        ],
+        [
+          "63-64",
+          "{@dice 1d6 + 2} {@creature scout||scouts}"
+        ],
+        [
+          "65-67",
+          "Enormous footprints left by a giant, which head into the mountain peaks"
+        ],
+        [
+          "68-73",
+          "{@dice 2d4} {@creature orc||orcs}"
+        ],
+        [
+          "74-75",
+          "1 {@creature giant elk}"
+        ],
+        [
+          "76-77",
+          "1 {@creature veteran}"
+        ],
+        [
+          "78-79",
+          "1 {@creature orc Eye of Gruumsh}"
+        ],
+        [
+          "80",
+          "{@dice 1d4} {@creature harpy||harpies}"
+        ],
+        [
+          "81",
+          "1 {@creature ogre}"
+        ],
+        [
+          "82",
+          "1 {@creature griffon}"
+        ],
+        [
+          "83",
+          "1 {@creature basilisk}"
+        ],
+        [
+          "84-85",
+          "1 {@creature saber-toothed tiger}"
+        ],
+        [
+          "86-90",
+          "A sparkling stream of water spilling from a crevice"
+        ],
+        [
+          "91",
+          "{@dice 1d2} {@creature ettin||ettins}"
+        ],
+        [
+          "92",
+          "1 {@creature cyclops}"
+        ],
+        [
+          "93",
+          "1 {@creature troll}"
+        ],
+        [
+          "94",
+          "1 {@creature galeb duhr}"
+        ],
+        [
+          "95",
+          "1 {@creature air elemental}"
+        ],
+        [
+          "96",
+          "1 {@creature bulette}"
+        ],
+        [
+          "97",
+          "1 {@creature chimera}"
+        ],
+        [
+          "98",
+          "1 {@creature wyvern}"
+        ],
+        [
+          "99",
+          "1 {@creature stone giant}"
+        ],
+        [
+          "00",
+          "1 {@creature frost giant}"
+        ]
+      ]
+    }
+  ]
+}

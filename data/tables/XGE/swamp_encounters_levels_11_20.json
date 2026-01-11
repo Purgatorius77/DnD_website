@@ -1,0 +1,89 @@
+{
+  "table": [
+    {
+      "name": "Swamp Encounters (Levels 11—20)",
+      "type": "table",
+      "source": "XGE",
+      "page": 105,
+      "caption": "Swamp Encounters (Levels 11—20)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-10",
+          "{@dice 1d4} {@creature giant crocodile||giant crocodiles}"
+        ],
+        [
+          "11-15",
+          "{@dice 1d3} {@creature yuan-ti abomination||yuan-ti abominations}"
+        ],
+        [
+          "16-20",
+          "{@dice 1d6 + 1} {@creature green hag||green hags}"
+        ],
+        [
+          "21-25",
+          "A large, spreading tree from which {@dice 2d6} armored knights hang by the neck"
+        ],
+        [
+          "26-30",
+          "{@dice 2d4} {@creature wight||wights}"
+        ],
+        [
+          "31-35",
+          "{@dice 1d8 + 1} yuan-ti malisons: {@creature yuan-ti malison (type 1)||type 1}, {@creature yuan-ti malison (type 2)||type 2}, {@creature yuan-ti malison (type 3)||type 3}"
+        ],
+        [
+          "36-40",
+          "Fog that rolls across the terrain, making the area within {@dice 1d3} miles heavily obscured for {@dice 1d4} hours"
+        ],
+        [
+          "41-45",
+          "{@dice 1d4} {@creature revenant||revenants}"
+        ],
+        [
+          "46-50",
+          "{@dice 1d6} {@creature shambling mound||shambling mounds}"
+        ],
+        [
+          "51-55",
+          "{@dice 1d10} {@creature water elemental||water elementals}"
+        ],
+        [
+          "56-60",
+          "{@dice 1d4} {@creature young black dragon||young black dragons}"
+        ],
+        [
+          "61-65",
+          "An eerie, bat-headed idol almost completely covered by vines"
+        ],
+        [
+          "66-70",
+          "{@dice 1d8 + 2} {@creature troll||trolls}"
+        ],
+        [
+          "71-75",
+          "{@dice 1d3} {@creature hydra||hydras}"
+        ],
+        [
+          "76-80",
+          "The sound of drums beating several miles away"
+        ],
+        [
+          "81-96",
+          "1 {@creature adult black dragon}"
+        ],
+        [
+          "97-00",
+          "1 {@creature ancient black dragon}"
+        ]
+      ]
+    }
+  ]
+}

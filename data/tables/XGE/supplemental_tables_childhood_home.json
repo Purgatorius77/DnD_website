@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Childhood Home",
+      "colLabels": [
+        "{@dice d100 + #$prompt_number:title=Enter Lifestyle Modifier$#}",
+        "Home"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "On the streets"
+        ],
+        [
+          "1-20",
+          "Rundown shack"
+        ],
+        [
+          "21-30",
+          "No permanent residence"
+        ],
+        [
+          "31-40",
+          "Encampment or village in the wilderness"
+        ],
+        [
+          "41-50",
+          "Apartment in a rundown neighborhood"
+        ],
+        [
+          "51-70",
+          "Small house"
+        ],
+        [
+          "71-90",
+          "Large house"
+        ],
+        [
+          "91-110",
+          "Mansion"
+        ],
+        [
+          "111-140",
+          "Palace or castle"
+        ]
+      ],
+      "name": "Supplemental Tables; Childhood Home",
+      "page": 63,
+      "source": "XGE",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

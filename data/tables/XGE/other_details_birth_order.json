@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Birth Order",
+      "colLabels": [
+        "2d6",
+        "Birth Order"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "2",
+          "Twin, triplet, or quadruplet"
+        ],
+        [
+          "3-7",
+          "Older"
+        ],
+        [
+          "8-12",
+          "Younger"
+        ]
+      ],
+      "name": "Other Details; Birth Order",
+      "page": 62,
+      "source": "XGE",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Crime",
+      "colLabels": [
+        "d8",
+        "Crime"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Murder"
+        ],
+        [
+          "2",
+          "Theft"
+        ],
+        [
+          "3",
+          "Burglary"
+        ],
+        [
+          "4",
+          "Assault"
+        ],
+        [
+          "5",
+          "Smuggling"
+        ],
+        [
+          "6",
+          "Kidnapping"
+        ],
+        [
+          "7",
+          "Extortion"
+        ],
+        [
+          "8",
+          "Counterfeiting"
+        ]
+      ],
+      "name": "Secondary Tables; Crime",
+      "page": 70,
+      "source": "XGE",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "table": [
+    {
+      "caption": "Racial Feats",
+      "colLabels": [
+        "Race",
+        "Feat"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-8"
+      ],
+      "rows": [
+        [
+          "Dragonborn",
+          "{@feat Dragon Fear|xge}"
+        ],
+        [
+          "Dragonborn",
+          "{@feat Dragon Hide|xge}"
+        ],
+        [
+          "Dwarf",
+          "{@feat Dwarven Fortitude|xge}"
+        ],
+        [
+          "Dwarf",
+          "{@feat Squat Nimbleness|xge}"
+        ],
+        [
+          "Elf",
+          "{@feat Elven Accuracy|xge}"
+        ],
+        [
+          "Elf (drow)",
+          "{@feat Drow High Magic|xge}"
+        ],
+        [
+          "Elf (high)",
+          "{@feat Fey Teleportation|xge}"
+        ],
+        [
+          "Elf (wood)",
+          "{@feat Wood Elf Magic|xge}"
+        ],
+        [
+          "Gnome",
+          "{@feat Fade Away|xge}"
+        ],
+        [
+          "Gnome",
+          "{@feat Squat Nimbleness|xge}"
+        ],
+        [
+          "Half-elf",
+          "{@feat Elven Accuracy|xge}"
+        ],
+        [
+          "Half-elf",
+          "{@feat Prodigy|xge}"
+        ],
+        [
+          "Half-orc",
+          "{@feat Orcish Fury|xge}"
+        ],
+        [
+          "Half-orc",
+          "{@feat Prodigy|xge}"
+        ],
+        [
+          "Halfling",
+          "{@feat Bountiful Luck|xge}"
+        ],
+        [
+          "Halfling",
+          "{@feat Second Chance|xge}"
+        ],
+        [
+          "Halfling",
+          "{@feat Squat Nimbleness|xge}"
+        ],
+        [
+          "Human",
+          "{@feat Prodigy|xge}"
+        ],
+        [
+          "Tiefling",
+          "{@feat Flames of Phlegethos|xge}"
+        ],
+        [
+          "Tiefling",
+          "{@feat Infernal Constitution|xge}"
+        ]
+      ],
+      "name": "Racial Feats",
+      "page": 73,
+      "source": "XGE",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

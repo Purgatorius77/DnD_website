@@ -1,0 +1,63 @@
+{
+  "table": [
+    {
+      "caption": "Middle-Class Carousing Complications",
+      "colLabels": [
+        "d8",
+        "Complication"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "You accidentally insulted a guild master, and only a public apology will let you do business with the guild again.*"
+        ],
+        [
+          "2",
+          "You swore to complete some quest on behalf of a temple or a guild."
+        ],
+        [
+          "3",
+          "A social gaffe has made you the talk of the town.*"
+        ],
+        [
+          "4",
+          "A particularly obnoxious person has taken an intense romantic interest in you.*"
+        ],
+        [
+          "5",
+          "You have made a foe out of a local spellcaster.*"
+        ],
+        [
+          "6",
+          "You have been recruited to help run a local festival, play, or similar event."
+        ],
+        [
+          "7",
+          "You made a drunken toast that scandalized the locals."
+        ],
+        [
+          "8",
+          "You spent an additional 100 gp trying to impress people."
+        ]
+      ],
+      "footnotes": [
+        "*Might involve a rival"
+      ],
+      "name": "Middle-Class Carousing Complications",
+      "page": 128,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

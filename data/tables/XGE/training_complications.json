@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Training Complications",
+      "colLabels": [
+        "d6",
+        "Complication"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Your instructor disappears, forcing you to spend one workweek finding a new one.*"
+        ],
+        [
+          "2",
+          "Your teacher instructs you in rare, archaic methods, which draw comments from others."
+        ],
+        [
+          "3",
+          "Your teacher is a spy sent to learn your plans.*"
+        ],
+        [
+          "4",
+          "Your teacher is a wanted criminal."
+        ],
+        [
+          "5",
+          "Your teacher is a cruel taskmaster."
+        ],
+        [
+          "6",
+          "Your teacher asks for help dealing with a threat."
+        ]
+      ],
+      "footnotes": [
+        "*Might involve a rival"
+      ],
+      "name": "Training Complications",
+      "page": 134,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

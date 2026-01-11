@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Spell Scrolls for Sale",
+      "colLabels": [
+        "Spell Level",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-4 text-center",
+        "col-4 text-center"
+      ],
+      "rows": [
+        [
+          "Cantrip",
+          "25 gp"
+        ],
+        [
+          "1st",
+          "75 gp"
+        ],
+        [
+          "2nd",
+          "150 gp"
+        ],
+        [
+          "3rd",
+          "300 gp"
+        ],
+        [
+          "4th",
+          "500 gp"
+        ],
+        [
+          "5th",
+          "1,000 gp"
+        ]
+      ],
+      "name": "Spell Scrolls for Sale",
+      "source": "XGE",
+      "parentEntity": {
+        "prop": "variantrule",
+        "uid": "Shared Campaign Variant Rules|XGE"
+      }
+    }
+  ]
+}

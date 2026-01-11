@@ -1,0 +1,157 @@
+{
+  "table": [
+    {
+      "name": "Mountain Encounters (Levels 5—10)",
+      "type": "table",
+      "source": "XGE",
+      "page": 104,
+      "caption": "Mountain Encounters (Levels 5—10)",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-02",
+          "{@dice 2d8 + 1} {@creature aarakocra}"
+        ],
+        [
+          "03-04",
+          "1 {@creature lion} or 1 {@creature saber-toothed tiger}"
+        ],
+        [
+          "05-06",
+          "{@dice 1d8 + 1} {@creature giant goat||giant goats}"
+        ],
+        [
+          "07-08",
+          "{@dice 1d4 + 3} dwarf trailblazers ({@creature scout||scouts})"
+        ],
+        [
+          "09-10",
+          "{@dice 1d6 + 2} {@creature orc||orcs}"
+        ],
+        [
+          "11-15",
+          "{@dice 1d10} {@creature giant eagle||giant eagles}"
+        ],
+        [
+          "16-20",
+          "{@dice 1d8 + 1} {@creature hippogriff||hippogriffs}"
+        ],
+        [
+          "21-25",
+          "{@dice 1d8} fissures venting steam that partially obscures a 20-foot cube above each fissure"
+        ],
+        [
+          "26-30",
+          "1 {@creature basilisk}"
+        ],
+        [
+          "31-35",
+          "{@dice 1d12} {@creature half-ogre (ogrillon)||half-ogres}"
+        ],
+        [
+          "36-40",
+          "A ravine blocked by a 100-foot-high wall, which has an opening in the center where a gate used to be"
+        ],
+        [
+          "41-45",
+          "1 {@creature manticore}"
+        ],
+        [
+          "46-50",
+          "{@dice 2d4} {@creature harpy||harpies}"
+        ],
+        [
+          "51-52",
+          "1 {@creature galeb duhr}"
+        ],
+        [
+          "53-54",
+          "1 {@creature bulette}"
+        ],
+        [
+          "55-56",
+          "{@dice 1d10} {@creature berserker||berserkers}"
+        ],
+        [
+          "57-58",
+          "{@dice 1d3} {@creature hell hound||hell hounds}"
+        ],
+        [
+          "59-60",
+          "{@dice 1d8 + 1} {@creature veteran||veterans}"
+        ],
+        [
+          "61-65",
+          "A distant mountain whose peak resembles a tooth"
+        ],
+        [
+          "66-69",
+          "{@dice 1d4} {@creature ettin||ettins}"
+        ],
+        [
+          "70-73",
+          "1 {@creature wyvern}"
+        ],
+        [
+          "74-75",
+          "1 {@creature orc Eye of Gruumsh} with {@dice 1d6} {@creature orog||orogs} and {@dice 3d6 + 10} {@creature orc||orcs}"
+        ],
+        [
+          "76-80",
+          "A row of {@dice 1d10 + 40} stakes upon which the bodies of kobolds, dwarves, or orcs are impaled"
+        ],
+        [
+          "81-83",
+          "1 {@creature fire giant}"
+        ],
+        [
+          "84-85",
+          "1 {@creature young silver dragon}"
+        ],
+        [
+          "86-87",
+          "{@dice 1d4} {@creature air elemental||air elementals}"
+        ],
+        [
+          "88-90",
+          "{@dice 1d4} {@creature troll||trolls}"
+        ],
+        [
+          "91-92",
+          "{@dice 1d3 + 1} {@creature cyclops||cyclopes}"
+        ],
+        [
+          "93-94",
+          "{@dice 1d4} {@creature chimera||chimeras}"
+        ],
+        [
+          "95-96",
+          "1 {@creature cloud giant}"
+        ],
+        [
+          "97",
+          "1 {@creature roc}"
+        ],
+        [
+          "98",
+          "{@dice 1d4} {@creature stone giant||stone giants}"
+        ],
+        [
+          "99",
+          "1 {@creature young red dragon}"
+        ],
+        [
+          "00",
+          "{@dice 1d4} {@creature frost giant||frost giants}"
+        ]
+      ]
+    }
+  ]
+}

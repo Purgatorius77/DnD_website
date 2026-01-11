@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Scribe a Scroll Complications",
+      "colLabels": [
+        "d6",
+        "Complication"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "You bought up the last of the rare ink used to craft scrolls, angering a wizard in town."
+        ],
+        [
+          "2",
+          "The priest of a temple of good accuses you of trafficking in dark magic.*"
+        ],
+        [
+          "3",
+          "A wizard eager to collect one of your spells in a book presses you to sell the scroll."
+        ],
+        [
+          "4",
+          "Due to a strange error in creating the scroll, it is instead a random spell of the same level."
+        ],
+        [
+          "5",
+          "The rare parchment you bought for your scroll has a barely visible map on it."
+        ],
+        [
+          "6",
+          "A thief attempts to break into your workroom.*"
+        ]
+      ],
+      "footnotes": [
+        "*Might involve a rival"
+      ],
+      "name": "Scribe a Scroll Complications",
+      "page": 133,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

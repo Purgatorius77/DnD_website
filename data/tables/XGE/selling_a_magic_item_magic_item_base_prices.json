@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Magic Item Base Prices",
+      "colLabels": [
+        "Rarity",
+        "Base Price*"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "Common",
+          "100 gp"
+        ],
+        [
+          "Uncommon",
+          "400 gp"
+        ],
+        [
+          "Rare",
+          "4,000 gp"
+        ],
+        [
+          "Very rare",
+          "40,000 gp"
+        ],
+        [
+          "Legendary",
+          "200,000 gp"
+        ]
+      ],
+      "footnotes": [
+        "*Halved for a consumable item like a potion or scroll"
+      ],
+      "name": "Selling a Magic Item; Magic Item Base Prices",
+      "page": 133,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

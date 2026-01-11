@@ -1,0 +1,69 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items Awarded by Rarity - Major",
+      "colLabels": [
+        "Level/CR",
+        "Uncommon",
+        "Rare",
+        "Very Rare",
+        "Legendary"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "5-10",
+          "5",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "11-16",
+          "1",
+          "2",
+          "2",
+          "1"
+        ],
+        [
+          "17+",
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        [
+          "Total",
+          "8",
+          "4",
+          "4",
+          "4"
+        ]
+      ],
+      "name": "Magic Items Awarded by Rarity - Major",
+      "page": 135,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

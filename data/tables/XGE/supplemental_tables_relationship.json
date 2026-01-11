@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Relationship",
+      "colLabels": [
+        "3d4",
+        "Attitude"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3-4",
+          "Hostile"
+        ],
+        [
+          "5-10",
+          "Friendly"
+        ],
+        [
+          "11-12",
+          "Indifferent"
+        ]
+      ],
+      "name": "Supplemental Tables; Relationship",
+      "page": 72,
+      "source": "XGE",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

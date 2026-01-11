@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Research Complications",
+      "colLabels": [
+        "d6",
+        "Complication"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "You accidentally damage a rare book."
+        ],
+        [
+          "2",
+          "You offend a sage, who demands an extravagant gift.*"
+        ],
+        [
+          "3",
+          "If you had known that book was cursed, you never would have opened it."
+        ],
+        [
+          "4",
+          "A sage becomes obsessed with convincing you of a number of strange theories about reality.*"
+        ],
+        [
+          "5",
+          "Your actions cause you to be banned from a library until you make reparations.*"
+        ],
+        [
+          "6",
+          "You uncovered useful lore, but only by promising to complete a dangerous task in return."
+        ]
+      ],
+      "footnotes": [
+        "*Might involve a rival"
+      ],
+      "name": "Research Complications",
+      "page": 132,
+      "source": "XGE",
+      "chapter": {
+        "name": "Dungeon Master's Tools",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}
