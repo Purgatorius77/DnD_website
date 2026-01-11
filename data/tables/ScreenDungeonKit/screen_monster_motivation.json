@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Monster Motivation",
+      "colLabels": [
+        "d20",
+        "Goal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–2",
+          "Find a sanctuary"
+        ],
+        [
+          "3–5",
+          "Conquer the dungeon"
+        ],
+        [
+          "6–8",
+          "Seek an item"
+        ],
+        [
+          "9–11",
+          "Slay a rival"
+        ],
+        [
+          "12–13",
+          "Hide from enemies"
+        ],
+        [
+          "14–15",
+          "Recover from a battle"
+        ],
+        [
+          "16–17",
+          "Avoid danger"
+        ],
+        [
+          "18–20",
+          "Seek wealth"
+        ]
+      ],
+      "name": "Screen; Monster Motivation",
+      "source": "ScreenDungeonKit",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

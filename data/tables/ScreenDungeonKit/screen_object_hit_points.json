@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Object Hit Points",
+      "colLabels": [
+        "Size",
+        "Fragile",
+        "Resilient"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Tiny ({@item glass bottle|phb|bottle}, {@item lock|phb})",
+          "2 ({@dice 1d4})",
+          "5 ({@dice 2d4})"
+        ],
+        [
+          "Small ({@item chest|phb}, {@item lute|phb})",
+          "3 ({@dice 1d6})",
+          "10 ({@dice 3d6})"
+        ],
+        [
+          "Medium ({@item barrel|phb}, chandelier)",
+          "4 ({@dice 1d8})",
+          "18 ({@dice 4d8})"
+        ],
+        [
+          "Large ({@item cart|phb}, 10-ft.-by-10-ft. window)",
+          "5 ({@dice 1d10})",
+          "27 ({@dice 5d10})"
+        ]
+      ],
+      "name": "Screen; Object Hit Points",
+      "source": "ScreenDungeonKit",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

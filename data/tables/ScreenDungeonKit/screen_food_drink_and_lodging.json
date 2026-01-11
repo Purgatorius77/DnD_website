@@ -1,0 +1,183 @@
+{
+  "table": [
+    {
+      "caption": "Food, Drink, and Lodging",
+      "colLabels": [
+        "Item",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6 text-right"
+      ],
+      "rows": [
+        [
+          "{@i Ale}",
+          ""
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Ale (Gallon)|PHB|Gallon}",
+            "2 sp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Ale (mug)|phb|Mug}",
+            "4 cp"
+          ]
+        },
+        [
+          "Banquet (per person)",
+          "10 gp"
+        ],
+        [
+          "{@item loaf of bread|phb|Bread, loaf}",
+          "2 cp"
+        ],
+        [
+          "{@item hunk of cheese|phb|Cheese, hunk}",
+          "1 sp"
+        ],
+        [
+          "{@i Inn stay (per day)}",
+          ""
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Squalid",
+            "7 cp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Poor",
+            "1 sp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Modest",
+            "5 sp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Comfortable",
+            "8 sp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Wealthy",
+            "2 gp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Aristocratic",
+            "4 gp"
+          ]
+        },
+        [
+          "{@i Meals (per day)}",
+          ""
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Squalid",
+            "3 cp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Poor",
+            "6 cp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Modest",
+            "3 sp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Comfortable",
+            "5 sp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Wealthy",
+            "8 sp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "Aristocratic",
+            "2 gp"
+          ]
+        },
+        [
+          "{@item chunk of meat|phb|Meat, chunk}",
+          "3 sp"
+        ],
+        [
+          "{@i Wine}",
+          ""
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item common wine (pitcher)|phb|Common (pitcher)}",
+            "2 sp"
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item fine wine (bottle)|phb|Fine (bottle)}",
+            "10 gp"
+          ]
+        }
+      ],
+      "name": "Screen; Food, Drink, and Lodging",
+      "source": "ScreenDungeonKit",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

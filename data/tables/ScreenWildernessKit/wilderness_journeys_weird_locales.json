@@ -1,0 +1,87 @@
+{
+  "table": [
+    {
+      "caption": "Weird Locales",
+      "colLabels": [
+        "d20",
+        "Locale"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1-2",
+          "Dead magic zone (similar to an antimagic field)"
+        ],
+        [
+          "3",
+          "Wild magic zone (roll on the {@table Wild Magic Surge|PHB} table in the Player's Handbook whenever a spell is cast within the zone)"
+        ],
+        [
+          "4",
+          "Boulder carved with talking faces"
+        ],
+        [
+          "5",
+          "Crystal cave that mystically answers questions"
+        ],
+        [
+          "6",
+          "Ancient tree containing a trapped spirit"
+        ],
+        [
+          "7-8",
+          "Battlefield where lingering fog occasionally assumes humanoid forms"
+        ],
+        [
+          "9-10",
+          "A portal to another plane of existence"
+        ],
+        [
+          "11",
+          "Wishing well"
+        ],
+        [
+          "12",
+          "Giant crystal shard protruding from the ground"
+        ],
+        [
+          "13",
+          "Wrecked ship, even if water is nowhere nearby"
+        ],
+        [
+          "14-15",
+          "Haunted hill or barrow mound"
+        ],
+        [
+          "16",
+          "River ferry guided by a skeletal captain"
+        ],
+        [
+          "17",
+          "Field of {@condition petrified} soldiers or other creatures"
+        ],
+        [
+          "18",
+          "Forest of {@condition petrified} or {@creature awakened tree||awakened trees}"
+        ],
+        [
+          "19",
+          "Canyon containing a dragons' graveyard"
+        ],
+        [
+          "20",
+          "Floating earth mote with a tower on it"
+        ]
+      ],
+      "name": "Wilderness Journeys; Weird Locales",
+      "source": "ScreenWildernessKit",
+      "chapter": {
+        "name": "Wilderness Journeys",
+        "index": 0
+      }
+    }
+  ]
+}

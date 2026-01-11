@@ -1,0 +1,35 @@
+{
+  "table": [
+    {
+      "caption": "Foraging DCs",
+      "colLabels": [
+        "Food and Water Availability",
+        "DC"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Abundant food and water sources",
+          "10"
+        ],
+        [
+          "Limited food and water sources",
+          "15"
+        ],
+        [
+          "Very little, if any, food and water sources",
+          "20"
+        ]
+      ],
+      "name": "Screen; Foraging DCs",
+      "source": "ScreenDungeonKit",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

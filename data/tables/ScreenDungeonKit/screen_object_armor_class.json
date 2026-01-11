@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Object Armor Class",
+      "colLabels": [
+        "Substance",
+        "AC"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Cloth, paper, rope",
+          "11"
+        ],
+        [
+          "Crystal, glass, ice",
+          "13"
+        ],
+        [
+          "Wood, bone",
+          "15"
+        ],
+        [
+          "Stone",
+          "17"
+        ],
+        [
+          "Iron, steel",
+          "19"
+        ],
+        [
+          "Mithral",
+          "21"
+        ],
+        [
+          "Adamantine",
+          "23"
+        ]
+      ],
+      "name": "Screen; Object Armor Class",
+      "source": "ScreenDungeonKit",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

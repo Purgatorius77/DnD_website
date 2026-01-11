@@ -1,0 +1,81 @@
+{
+  "table": [
+    {
+      "caption": "Skills and Associated Abilities",
+      "colLabels": [
+        "Skill",
+        "Ability",
+        "Skill",
+        "Ability"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3",
+        "col-3",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "{@skill Acrobatics}",
+          "Dexterity",
+          "{@skill Medicine}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Animal Handling}",
+          "Wisdom",
+          "{@skill Nature}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Arcana}",
+          "Intelligence",
+          "{@skill Perception}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Athletics}",
+          "Strength",
+          "{@skill Performance}",
+          "Charisma"
+        ],
+        [
+          "{@skill Deception}",
+          "Charisma",
+          "{@skill Persuasion}",
+          "Charisma"
+        ],
+        [
+          "{@skill History}",
+          "Intelligence",
+          "{@skill Religion}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Insight}",
+          "Wisdom",
+          "{@skill Sleight of Hand}",
+          "Dexterity"
+        ],
+        [
+          "{@skill Intimidation}",
+          "Charisma",
+          "{@skill Stealth}",
+          "Dexterity"
+        ],
+        [
+          "{@skill Investigation}",
+          "Intelligence",
+          "{@skill Survival}",
+          "Wisdom"
+        ]
+      ],
+      "name": "Skills and Associated Abilities",
+      "source": "ScreenSpelljammer",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

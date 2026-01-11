@@ -1,0 +1,34 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Distance",
+        "Notes"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "250 feet",
+          "Long range for {@object ballista||ballistae}, {@object Mangonel||mangonels}, {@item shortbow|phb|shortbows}, {@item longbow|phb|longbows}, {@item light crossbow|phb|light crossbows}, and {@item heavy crossbow|phb|heavy crossbows}"
+        ],
+        [
+          "500 feet",
+          "Long range for {@item longbow|phb|longbows} and {@object Mangonel||mangonels}; beyond the range of {@object ballista||ballistae} and crossbows"
+        ],
+        [
+          "1,000 feet",
+          "Beyond the range of most ranged weapons"
+        ]
+      ],
+      "name": "Ship-to-Ship Starting Distance",
+      "source": "ScreenSpelljammer",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

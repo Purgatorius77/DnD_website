@@ -1,0 +1,35 @@
+{
+  "table": [
+    {
+      "caption": "Audible Distance",
+      "colLabels": [
+        "Noise",
+        "Distance"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Trying to be quiet",
+          "{@dice 2d6 × 5} feet"
+        ],
+        [
+          "Normal noise level",
+          "{@dice 2d6 × 10} feet"
+        ],
+        [
+          "Very loud",
+          "{@dice 2d6 × 50} feet"
+        ]
+      ],
+      "name": "Screen; Audible Distance",
+      "source": "ScreenDungeonKit",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

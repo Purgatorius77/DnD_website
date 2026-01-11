@@ -1,0 +1,95 @@
+{
+  "table": [
+    {
+      "caption": "Skills and Associated Abilities",
+      "colLabels": [
+        "Skill",
+        "Ability"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@skill Acrobatics}",
+          "Dexterity"
+        ],
+        [
+          "{@skill Animal Handling}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Arcana}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Athletics}",
+          "Strength"
+        ],
+        [
+          "{@skill Deception}",
+          "Charisma"
+        ],
+        [
+          "{@skill History}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Insight}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Intimidation}",
+          "Charisma"
+        ],
+        [
+          "{@skill Investigation}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Medicine}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Nature}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Perception}",
+          "Wisdom"
+        ],
+        [
+          "{@skill Performance}",
+          "Charisma"
+        ],
+        [
+          "{@skill Persuasion}",
+          "Charisma"
+        ],
+        [
+          "{@skill Religion}",
+          "Intelligence"
+        ],
+        [
+          "{@skill Sleight of Hand}",
+          "Dexterity"
+        ],
+        [
+          "{@skill Stealth}",
+          "Dexterity"
+        ],
+        [
+          "{@skill Survival}",
+          "Wisdom"
+        ]
+      ],
+      "name": "Screen; Skills and Associated Abilities",
+      "source": "ScreenDungeonKit",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

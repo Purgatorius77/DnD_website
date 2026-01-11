@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Travel Pace",
+      "colLabels": [
+        "Pace",
+        "Distance Traveled per Minute",
+        "Distance Traveled per Hour",
+        "Distance Traveled per Day",
+        "Effect"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "Fast",
+          "400 feet",
+          "4 miles",
+          "30 miles",
+          "-5 penalty to passive Wisdom ({@skill Perception}) scores"
+        ],
+        [
+          "Normal",
+          "300 feet",
+          "3 miles",
+          "24 miles",
+          "-"
+        ],
+        [
+          "Slow",
+          "200 feet",
+          "2 miles",
+          "18 miles",
+          "Able to use stealth"
+        ]
+      ],
+      "name": "Screen; Travel Pace",
+      "source": "ScreenDungeonKit",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

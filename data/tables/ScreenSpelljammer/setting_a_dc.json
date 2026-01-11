@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "caption": "Setting a DC",
+      "colLabels": [
+        "Difficulty",
+        "DC",
+        "Difficulty",
+        "DC"
+      ],
+      "colStyles": [
+        "col-5",
+        "col-1 text-center",
+        "col-5",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "Very easy",
+          "5",
+          "Hard",
+          "20"
+        ],
+        [
+          "Easy",
+          "10",
+          "Very hard",
+          "25"
+        ],
+        [
+          "Moderate",
+          "15",
+          "Nearly impossible",
+          "30"
+        ]
+      ],
+      "name": "Setting a DC",
+      "source": "ScreenSpelljammer",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}

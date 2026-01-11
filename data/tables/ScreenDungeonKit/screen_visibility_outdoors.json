@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "caption": "Visibility Outdoors",
+      "colLabels": [
+        "Environment",
+        "Distance"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Clear day, no obstructions",
+          "2 miles"
+        ],
+        [
+          "Rain",
+          "1 mile"
+        ],
+        [
+          "Fog",
+          "100 to 300 feet"
+        ],
+        [
+          "From a height",
+          "× 20"
+        ]
+      ],
+      "name": "Screen; Visibility Outdoors",
+      "source": "ScreenDungeonKit",
+      "chapter": {
+        "name": "Screen",
+        "index": 0
+      }
+    }
+  ]
+}
