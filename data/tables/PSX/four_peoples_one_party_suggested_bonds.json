@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Bonds",
+      "colLabels": [
+        "d6",
+        "Bond"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "I left behind a family (living or dead) when I set out on my journey of exploration."
+        ],
+        [
+          "2",
+          "I have ties to the imperial line."
+        ],
+        [
+          "3",
+          "I come from a noble family, and have kin who live as hostages in the imperial capital."
+        ],
+        [
+          "4",
+          "I have fallen in love with a member of a pirate crew."
+        ],
+        [
+          "5",
+          "I discovered an ancient ruin in the jungle, but I keep it a secret."
+        ],
+        [
+          "6",
+          "I will one day find the Immortal Sun and restore the empire's ancient glory"
+        ]
+      ],
+      "name": "Four Peoples, One Party; Suggested Bonds",
+      "page": 5,
+      "source": "PSX",
+      "chapter": {
+        "name": "The World of Ixalan",
+        "index": 1
+      }
+    }
+  ]
+}

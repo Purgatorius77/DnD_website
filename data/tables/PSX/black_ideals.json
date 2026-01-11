@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Black Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Power.} Power is the only way to guarantee your ability to control your life—and thus your happiness."
+        ],
+        [
+          "2",
+          "{@b Self-Interest.} If I don't look out for myself, no one else is going to."
+        ],
+        [
+          "3",
+          "Strength. Helping the weak is merely delaying their inevitable failure."
+        ],
+        [
+          "4",
+          "{@b Freedom.} If I need something, I'm a fool if I let laws or morality stand in my way."
+        ],
+        [
+          "5",
+          "{@b Greed.} The clearest way to get ahead in this world is with money."
+        ],
+        [
+          "6",
+          "{@b Independence.} No one tells me what to do."
+        ]
+      ],
+      "name": "Black Ideals",
+      "page": 45,
+      "source": "PSX",
+      "chapter": {
+        "name": "The Colors of Magic",
+        "ordinal": {
+          "type": "appendix"
+        },
+        "index": 5
+      }
+    }
+  ]
+}

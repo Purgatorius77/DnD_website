@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Blue Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Perfection.} The goal of a life of study is to constantly improve oneself."
+        ],
+        [
+          "2",
+          "{@b Education.} Information can change the world only when it is widely shared."
+        ],
+        [
+          "3",
+          "{@b Knowledge.} The path to power and self-improvement comes through mastery of what can be known."
+        ],
+        [
+          "4",
+          "{@b Change.} The world is in constant flux, and we must be ready to change with it."
+        ],
+        [
+          "5",
+          "{@b Logic.} Emotions must not cloud our clear thinking."
+        ],
+        [
+          "6",
+          "{@b Self-Knowledge.} If you know yourself, there's nothing left to know."
+        ]
+      ],
+      "name": "Blue Ideals",
+      "page": 44,
+      "source": "PSX",
+      "chapter": {
+        "name": "The Colors of Magic",
+        "ordinal": {
+          "type": "appendix"
+        },
+        "index": 5
+      }
+    }
+  ]
+}

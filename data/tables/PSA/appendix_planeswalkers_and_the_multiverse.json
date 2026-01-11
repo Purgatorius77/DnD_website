@@ -1,0 +1,203 @@
+{
+  "table": [
+    {
+      "page": 39,
+      "isStriped": false,
+      "colStyles": [
+        "col-4 text-enter",
+        "col-8"
+      ],
+      "rows": [
+        [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "book/PSA/017.webp"
+            },
+            "credit": "Jonas De Ro",
+            "width": 155,
+            "height": 153
+          },
+          {
+            "type": "entries",
+            "name": "Amonkhet",
+            "entries": [
+              "Five deadly trials await the people of this plane as they hope for a glorious death—and eternal glory in the afterlife. But their true fate lies in the hands of the sinister Nicol Bolas."
+            ],
+            "id": "014"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "book/PSA/018.webp"
+            },
+            "credit": "James Paick",
+            "width": 137,
+            "height": 137
+          },
+          {
+            "type": "entries",
+            "name": "Dominaria",
+            "entries": [
+              "Home to the volcanic continent of Shiv, the time-shattered isle of Tolaria, and the cold mountains of Keld, Dominaria is the setting for brutal conflicts and home to powerful mages."
+            ],
+            "id": "015"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "book/PSA/019.webp"
+            },
+            "credit": "Jung Park",
+            "width": 151,
+            "height": 151
+          },
+          {
+            "type": "entries",
+            "name": "Innistrad",
+            "entries": [
+              "For centuries, the archangel Avacyn and her hosts protected the humans of Innistrad from the terrors of the night. But then she turned on the people she was supposed to protect as an alien madness seized the plane."
+            ],
+            "id": "016"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "book/PSA/020.webp"
+            },
+            "credit": "Daniel Ljunggren",
+            "width": 150,
+            "height": 150
+          },
+          {
+            "type": "entries",
+            "name": "Kaladesh",
+            "entries": [
+              "Kaladesh is a vibrant, beautiful land in the midst of an inventors' renaissance, teeming with creativity and optimism."
+            ],
+            "id": "017"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "book/PSA/021.webp"
+            },
+            "credit": "Tomasz Jedruszek",
+            "width": 151,
+            "height": 151
+          },
+          {
+            "type": "entries",
+            "name": "New Phyrexia",
+            "entries": [
+              "Once known as Mirrodin, this metallic plane has been transformed by the vile Phyrexian corruption. Its natives fought and lost the war for their world, and now struggle to survive each day."
+            ],
+            "id": "018"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "book/PSA/022.webp"
+            },
+            "credit": "Richard Wright",
+            "width": 152,
+            "height": 150
+          },
+          {
+            "type": "entries",
+            "name": "Ravnica",
+            "entries": [
+              "This worldwide cityscape holds countless grand halls, decrepit slums, and ancient ruins. Ten guilds maintain an uneasy peace in governing the various aspects of life in the majestic city."
+            ],
+            "id": "019"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "book/PSA/023.webp"
+            },
+            "credit": "John Severin Brassell",
+            "width": 150,
+            "height": 151
+          },
+          {
+            "type": "entries",
+            "name": "Shandalar",
+            "entries": [
+              "Rich with mana, Shandalar is a place where magic flows freely. Planeswalkers seek out this plane for its plentiful, powerful magic."
+            ],
+            "id": "01a"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "book/PSA/024.webp"
+            },
+            "credit": "Jung Park",
+            "width": 151,
+            "height": 150
+          },
+          {
+            "type": "entries",
+            "name": "Theros",
+            "entries": [
+              "Theros is ruled by an awe-inspiring pantheon of gods. Mortals tremble before them, feel the sting of their petty whims, and live in terror of their wrath."
+            ],
+            "id": "01b"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "book/PSA/025.webp"
+            },
+            "credit": "Sam Burley",
+            "width": 151,
+            "height": 151
+          },
+          {
+            "type": "entries",
+            "name": "Zendikar",
+            "entries": [
+              "This land of primal mana is slowly recovering from the unnatural disaster of colossal predators from the Aether rampaging across the plane."
+            ],
+            "id": "01c"
+          }
+        ]
+      ],
+      "name": "Appendix: Planeswalkers and the Multiverse",
+      "source": "PSA",
+      "chapter": {
+        "name": "Planeswalkers and the Multiverse",
+        "ordinal": {
+          "type": "appendix"
+        },
+        "index": 5
+      }
+    }
+  ]
+}

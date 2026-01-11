@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Bonds",
+      "colLabels": [
+        "d6",
+        "Bond"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "My family has been feuding with another noble family for seven hundred years."
+        ],
+        [
+          "2",
+          "I became friends with a merfolk shaman I captured."
+        ],
+        [
+          "3",
+          "I am a knight of the Bloodstained order, and have forsaken all other bonds since the day I slaughtered my own family."
+        ],
+        [
+          "4",
+          "I carry a relic of one of the vampire saints known as the Venerables, counting it as my dearest possession."
+        ],
+        [
+          "5",
+          "I would do anything for the soldiers in my company."
+        ],
+        [
+          "6",
+          "I will one day find the Immortal Sun and use its power to supplant the queen."
+        ]
+      ],
+      "name": "Legion of Dusk; Suggested Bonds",
+      "page": 8,
+      "source": "PSX",
+      "chapter": {
+        "name": "The World of Ixalan",
+        "index": 1
+      }
+    }
+  ]
+}

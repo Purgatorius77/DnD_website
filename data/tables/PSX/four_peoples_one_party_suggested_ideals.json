@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Nation.} The invaders must be driven out and the ancient capital of Orazca reclaimed."
+        ],
+        [
+          "2",
+          "{@b Glory.} I wish to earn great glory in battle—ideally, by making my foes surrender."
+        ],
+        [
+          "3",
+          "{@b Poetry.} Beauty is to be found in all things, from creation to destruction, and it should all be recorded in words."
+        ],
+        [
+          "4",
+          "{@b Zeal.} I am devoted to the Threefold Sun and the commands of the priests."
+        ],
+        [
+          "5",
+          "{@b History.} I seek to understand the empire's history so I can better chart a course for its future."
+        ],
+        [
+          "6",
+          "{@b Peace.} I would like to believe that peace can be forged among the peoples of this land."
+        ]
+      ],
+      "name": "Four Peoples, One Party; Suggested Ideals",
+      "page": 5,
+      "source": "PSX",
+      "chapter": {
+        "name": "The World of Ixalan",
+        "index": 1
+      }
+    }
+  ]
+}

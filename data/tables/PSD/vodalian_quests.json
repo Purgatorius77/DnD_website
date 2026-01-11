@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Vodalian Quests",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Retrieve an artifact from ancient Vodalia that is kept in a Tolarian museum."
+        ],
+        [
+          "2",
+          "Sabotage a Cabal port on Walassa, where ships set sail for Aerona carrying Cabal cultists."
+        ],
+        [
+          "3",
+          "Protect a peripatetic member of the Society of the Conch on a journey to learn about your native culture."
+        ],
+        [
+          "4",
+          "Defend a surface port loyal to Vodalia from a land-based attack."
+        ],
+        [
+          "5",
+          "Find a pirate captain who slaughtered a group of merfolk, but who has not been seen in the Voda Sea since."
+        ],
+        [
+          "6",
+          "Retrieve an item of historical significance from a Keldon fortress."
+        ]
+      ],
+      "name": "Vodalian Quests",
+      "page": 13,
+      "source": "PSD",
+      "chapter": {
+        "name": "Merfolk of Vodalia",
+        "index": 5
+      }
+    }
+  ]
+}

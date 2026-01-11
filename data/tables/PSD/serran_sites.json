@@ -1,0 +1,64 @@
+{
+  "table": [
+    {
+      "caption": "Serran Sites",
+      "colLabels": [
+        "d10",
+        "Adventure Site"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "A majestic Serran cathedral floating in the air (perhaps above Benalia City)"
+        ],
+        [
+          "2",
+          "A small monastery surrounded by pastoral farmland or quiet woods"
+        ],
+        [
+          "3",
+          "A remote temple maintained and inhabited by an order of knights"
+        ],
+        [
+          "4",
+          "An ancient ruin preserving some foreign aspect of Serra worship (such as Otarian devotion to the Ancestor)"
+        ],
+        [
+          "5",
+          "A sacred cave where a new angel was (or is about to be) birthed"
+        ],
+        [
+          "6",
+          "An abandoned missionary post destroyed by hostile natives of the area"
+        ],
+        [
+          "7",
+          "A chapel within a castle or palace beset by intrigue"
+        ],
+        [
+          "8",
+          "A roadside shrine where miracles have occurred lately"
+        ],
+        [
+          "9",
+          "A community devoted to the spiritual path of the artistic life"
+        ],
+        [
+          "10",
+          "The scorched site of an angel's death"
+        ]
+      ],
+      "name": "Serran Sites",
+      "page": 9,
+      "source": "PSD",
+      "chapter": {
+        "name": "Church of Serra",
+        "index": 3
+      }
+    }
+  ]
+}

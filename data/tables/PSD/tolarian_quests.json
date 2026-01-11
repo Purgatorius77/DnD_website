@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Tolarian Quests",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Retrieve a unique magical device from the ruins of a catastrophe—but be careful, because the device might well have been what caused the catastrophe."
+        ],
+        [
+          "2",
+          "Copy a spell from the spellbook of a mysterious or hostile wizard."
+        ],
+        [
+          "3",
+          "Find a way to reverse the effect of a disastrous magical experiment."
+        ],
+        [
+          "4",
+          "Decide what to do with a notebook you found, which is full of forbidden research into Phyrexian transformation."
+        ],
+        [
+          "5",
+          "Steal a magical object that's on display in a museum on campus in order to uncover its secrets or harness the energy it holds."
+        ],
+        [
+          "6",
+          "Try to reproduce the research of a wizard who has gone missing, without ending up missing yourself."
+        ]
+      ],
+      "name": "Tolarian Quests",
+      "page": 11,
+      "source": "PSD",
+      "chapter": {
+        "name": "Tolarian Academy",
+        "index": 4
+      }
+    }
+  ]
+}

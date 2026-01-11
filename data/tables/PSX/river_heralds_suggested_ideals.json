@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Ideals",
+      "colLabels": [
+        "{@dice 1d6}",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Harmony.}. The peoples of this world should strive for the same harmony that exists between air and water."
+        ],
+        [
+          "2",
+          "{@b Nature.} In the midst of war, it is often the forest that suffers most—unless we protect it."
+        ],
+        [
+          "3",
+          "{@b Knowledge.} True understanding of one's self and the world is the highest good."
+        ],
+        [
+          "4",
+          "{@b Reverence.} The wisdom of the shamans and elders is our best guide in the world."
+        ],
+        [
+          "5",
+          "{@b Cleverness.} The best way to defeat your opponents is to outsmart them."
+        ],
+        [
+          "6",
+          "{@b Defense.} The golden city must remain hidden, and its power kept from those who would abuse it."
+        ]
+      ],
+      "name": "River Heralds; Suggested Ideals",
+      "page": 7,
+      "source": "PSX",
+      "chapter": {
+        "name": "The World of Ixalan",
+        "index": 1
+      }
+    }
+  ]
+}

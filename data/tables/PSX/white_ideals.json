@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "White Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Harmony.} I long for a world in which everyone gets along."
+        ],
+        [
+          "2",
+          "{@b Community.} It is the duty of all civilized people to strengthen the bonds of community and the security of civilization."
+        ],
+        [
+          "3",
+          "{@b Peace.} It is each person's responsibility to make the most happiness for the whole community."
+        ],
+        [
+          "4",
+          "{@b Solidarity.} Working together, we are stronger than any of us alone."
+        ],
+        [
+          "5",
+          "{@b Law and Order.} We all must obey those in authority and follow laws, or society will devolve into chaos."
+        ],
+        [
+          "6",
+          "{@b Honor.} If I dishonor myself, I undermine the foundation of my community."
+        ]
+      ],
+      "name": "White Ideals",
+      "page": 43,
+      "source": "PSX",
+      "chapter": {
+        "name": "The Colors of Magic",
+        "ordinal": {
+          "type": "appendix"
+        },
+        "index": 5
+      }
+    }
+  ]
+}

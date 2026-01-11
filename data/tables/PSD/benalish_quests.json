@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Benalish Quests",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Defend a mining settlement in the Red Iron Mountains from the raids of Crookshank kobolds."
+        ],
+        [
+          "2",
+          "Establish trade or negotiate a treaty with minotaurs in the Hurloon Mountains."
+        ],
+        [
+          "3",
+          "Help settle a dispute between two of the Great Houses."
+        ],
+        [
+          "4",
+          "Convince the Council of Seven to send military aid to one of the seven houses."
+        ],
+        [
+          "5",
+          "Establish a trading colony in an inhospitable land."
+        ],
+        [
+          "6",
+          "Uncover a traitor or Cabal cultist among the Seven Great Houses."
+        ]
+      ],
+      "name": "Benalish Quests",
+      "page": 7,
+      "source": "PSD",
+      "chapter": {
+        "name": "Seven Pillars of Benalia",
+        "index": 2
+      }
+    }
+  ]
+}

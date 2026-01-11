@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Ideals",
+      "colLabels": [
+        "d6",
+        "ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Self-Reliance.} I don't wear or use anything I haven't made myself. You can't count on anyone else in this world."
+        ],
+        [
+          "2",
+          "{@b Future.} I believe a true Twilight still awaits the Keldon faithful, when our fallen heroes will rise up to fight alongside us as we conquer the world."
+        ],
+        [
+          "3",
+          "{@b Pragmatism.} No ancestors are coming to save us—we are our only hope."
+        ],
+        [
+          "4",
+          "{@b Coin.} I will happily fight for those too weak to defend themselves, if they pay me enough."
+        ],
+        [
+          "5",
+          "{@b Freedom.} The so-called \"new Keld\" is too safe, too controlled. The fire in Keldon blood demands warfare and pillage."
+        ],
+        [
+          "6",
+          "{@b Keld.} I am Keldon, and that is all that matters. I seek the glory and prosperity of my people above all else."
+        ]
+      ],
+      "name": "Bard or Cleric; Suggested Ideals",
+      "page": 18,
+      "source": "PSD",
+      "chapter": {
+        "name": "Warhosts of Keld",
+        "index": 7
+      }
+    }
+  ]
+}

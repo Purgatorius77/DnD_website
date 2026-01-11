@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Challenge Rating",
+        "Item Rarity"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "0–2",
+          "Common"
+        ],
+        [
+          "3–5",
+          "Uncommon"
+        ],
+        [
+          "6–10",
+          "Rare"
+        ],
+        [
+          "11–16",
+          "Very rare"
+        ],
+        [
+          "17+",
+          "Legendary"
+        ]
+      ],
+      "name": "Automatons and Vehicles",
+      "page": 12,
+      "source": "PSK",
+      "chapter": {
+        "name": "The World of Kaladesh",
+        "index": 1
+      }
+    }
+  ]
+}

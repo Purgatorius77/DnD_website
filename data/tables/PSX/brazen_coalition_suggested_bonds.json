@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Bonds",
+      "colLabels": [
+        "d6",
+        "Bond"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "My captain is dearer to me than any other person or possession."
+        ],
+        [
+          "2",
+          "My greatest dream is to return across the sea to the land my ancestors left."
+        ],
+        [
+          "3",
+          "I abandoned a child to be fostered in a city somewhere."
+        ],
+        [
+          "4",
+          "I was shipwrecked on an island with a vampire, and we became good friends."
+        ],
+        [
+          "5",
+          "I buried a great treasure somewhere... and lost the map."
+        ],
+        [
+          "6",
+          "I have one piece of a treasure map, and no idea where the other pieces are."
+        ]
+      ],
+      "name": "Brazen Coalition; Suggested Bonds",
+      "page": 9,
+      "source": "PSX",
+      "chapter": {
+        "name": "The World of Ixalan",
+        "index": 1
+      }
+    }
+  ]
+}

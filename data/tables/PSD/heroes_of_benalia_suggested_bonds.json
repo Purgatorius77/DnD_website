@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Bonds",
+      "colLabels": [
+        "d6",
+        "Bond"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "I am connected to one of the Seven Great Houses, and I place its interests above all others."
+        ],
+        [
+          "2",
+          "I have closer ties among my Star-Clan than in my blood family."
+        ],
+        [
+          "3",
+          "I own a weapon or a piece of armor used by a renowned ancestor."
+        ],
+        [
+          "4",
+          "I am in love with a member of a different great house."
+        ],
+        [
+          "5",
+          "I believe I am the last heir of a great house that was lost."
+        ],
+        [
+          "6",
+          "My family's estate lies in ruins, and I want to rebuild it."
+        ]
+      ],
+      "name": "Heroes of Benalia; Suggested Bonds",
+      "page": 5,
+      "source": "PSD",
+      "chapter": {
+        "name": "Seven Pillars of Benalia",
+        "index": 2
+      }
+    }
+  ]
+}

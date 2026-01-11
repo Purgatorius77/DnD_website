@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Bonds",
+      "colLabels": [
+        "d6",
+        "Bond"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "I fight to prove myself worthy of my glorious ancestors."
+        ],
+        [
+          "2",
+          "Even away from Keld, my loyalty is to my warlord and the rest of my warhost."
+        ],
+        [
+          "3",
+          "I'm inexplicably drawn to the sacred peak called the Mountain."
+        ],
+        [
+          "4",
+          "My favorite weapon is one I forged from the broken weapons of my enemies."
+        ],
+        [
+          "5",
+          "I want to be a warlord someday, and I won't stop there."
+        ],
+        [
+          "6",
+          "I had a dear mentor from another nation who taught me my skills."
+        ]
+      ],
+      "name": "Bard or Cleric; Suggested Bonds",
+      "page": 18,
+      "source": "PSD",
+      "chapter": {
+        "name": "Warhosts of Keld",
+        "index": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Keld Quests",
+      "colLabels": [
+        "d6",
+        "Quest"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "Persuade a Benalish house to abandon a colony newly established on Keld's soil."
+        ],
+        [
+          "2",
+          "Carry an urgent message from one warlord to another across a dangerous area."
+        ],
+        [
+          "3",
+          "Convince a wayward warlord to obey an overseer's orders before the situation escalates into full-on rebellion."
+        ],
+        [
+          "4",
+          "Undermine the loyalty of a rebellious warlord's warhost, thus depriving the warlord of power."
+        ],
+        [
+          "5",
+          "Kill a monster lurking in the mountains."
+        ],
+        [
+          "6",
+          "Fend off attacks by frost giants from the north."
+        ]
+      ],
+      "name": "Keld Quests",
+      "page": 20,
+      "source": "PSD",
+      "chapter": {
+        "name": "Warhosts of Keld",
+        "index": 7
+      }
+    }
+  ]
+}

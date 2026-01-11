@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Bonds",
+      "colLabels": [
+        "d6",
+        "Bond"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "I have a former student I'm convinced will do great things—for good or for evil."
+        ],
+        [
+          "2",
+          "I bought a cheap curio from a secondhand store, and I was expelled when it caused a magical accident."
+        ],
+        [
+          "3",
+          "I've gotten tangled up with illegal research by way of the Shadow Academy, which uses interdimensional spaces to facilitate communication."
+        ],
+        [
+          "4",
+          "By virtue of a parent who is emeritus faculty, I have the rare privilege of citizenship in one of the Academies."
+        ],
+        [
+          "5",
+          "One of my old teachers has a knack for contacting me at the strangest times."
+        ],
+        [
+          "6",
+          "I believe that my genetic makeup was manipulated for some unknown purpose."
+        ]
+      ],
+      "name": "Heroes of Tolaria; Suggested Bonds",
+      "page": 10,
+      "source": "PSD",
+      "chapter": {
+        "name": "Tolarian Academy",
+        "index": 4
+      }
+    }
+  ]
+}

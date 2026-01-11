@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Teaching.} Tolaria is a school where the world's most promising wizards can learn from masters of their craft."
+        ],
+        [
+          "2",
+          "{@b Restoration.} Every day, lost knowledge is regained and devastated lands are renewed. It's our duty to use our magic to help this effort continue."
+        ],
+        [
+          "3",
+          "{@b Responsibility.} Following the philosophy of the Academy's original headmaster, Barrin, I am dedicated to keeping powerful magic out of the hands of those who would abuse it."
+        ],
+        [
+          "4",
+          "{@b Innovation.} Like the ancient artificer Urza, I believe progress comes through bold and radical new design."
+        ],
+        [
+          "5",
+          "{@b Progress.} Like the kind Tolarian chancellor Rayne, I believe progress comes through careful iteration and measured experimentation."
+        ],
+        [
+          "6",
+          "{@b Self-Improvement.} Like Urza's brother Mishra, I believe that the improvement of the body through genetic and artificial modification leads to the general improvement of humanity."
+        ]
+      ],
+      "name": "Heroes of Tolaria; Suggested Ideals",
+      "page": 10,
+      "source": "PSD",
+      "chapter": {
+        "name": "Tolarian Academy",
+        "index": 4
+      }
+    }
+  ]
+}

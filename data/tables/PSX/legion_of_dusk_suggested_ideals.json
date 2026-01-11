@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Conquest.} The destiny of my people is to rule the world."
+        ],
+        [
+          "2",
+          "{@b Order.} The purpose of our conquest is to establish law and order in the lands we rule."
+        ],
+        [
+          "3",
+          "{@b Devotion.} Following the tenets of the church is the only way to earn eternal life in the coming age of ever-flowing blood."
+        ],
+        [
+          "4",
+          "{@b Slaughter.} I love the feeling of warm blood running down my chin."
+        ],
+        [
+          "5",
+          "{@b Glory.} Those who prove their worth in battle will win eternal life."
+        ],
+        [
+          "6",
+          "{@b Strength.} In life as in war, the stronger force wins."
+        ]
+      ],
+      "name": "Legion of Dusk; Suggested Ideals",
+      "page": 8,
+      "source": "PSX",
+      "chapter": {
+        "name": "The World of Ixalan",
+        "index": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Law.} \"Law must be upheld. If the knots of order are loosened, chaos will spill through.\" ({@i Song of All}, Canto 167)"
+        ],
+        [
+          "2",
+          "{@b Grace.} \"Grace must be preserved. If the strands of Grace are unraveled, its design will be lost, and the people with it.\" ({@i Song of All}, Canto 167)"
+        ],
+        [
+          "3",
+          "{@b Duty.} \"Duty must be obeyed. If the frame of Duty is broken, none shall weave life's fabric.\" ({@i Song of All}, Canto 167)"
+        ],
+        [
+          "4",
+          "{@b Reason.} \"Reason must be retained. If the web of Reason comes unwoven, madness will escape.\" ({@i Song of All}, Canto 167)"
+        ],
+        [
+          "5",
+          "{@b Truth.} \"Truth must be set free. If the wings of Truth are clipped, the voices will fall silent.\" ({@i Song of All}, Canto 167)"
+        ],
+        [
+          "6",
+          "{@b The Four Virtues.} Art, discourse, freedom, and peace are the life of the spirit, as the spirit is the life of the body."
+        ]
+      ],
+      "name": "Heroes of Serra; Suggested Ideals",
+      "page": 8,
+      "source": "PSD",
+      "chapter": {
+        "name": "Church of Serra",
+        "index": 3
+      }
+    }
+  ]
+}

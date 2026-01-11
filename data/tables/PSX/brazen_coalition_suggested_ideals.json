@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Wealth.} Money can buy anything."
+        ],
+        [
+          "2",
+          "{@b Freedom.} The sea is the freedom to go anywhere and do anything."
+        ],
+        [
+          "3",
+          "{@b Knowledge.} I'm as greedy for secrets and lore as others are for treasure."
+        ],
+        [
+          "4",
+          "{@b Pillage.} It's not the having, it's the taking that shows who's strongest."
+        ],
+        [
+          "5",
+          "{@b Crew.} I'm committed to my crewmates, not to ideals."
+        ],
+        [
+          "6",
+          "{@b Coalition.} I believe we're not just stronger but also better when we join forces in unity."
+        ]
+      ],
+      "name": "Brazen Coalition; Suggested Ideals",
+      "page": 9,
+      "source": "PSX",
+      "chapter": {
+        "name": "The World of Ixalan",
+        "index": 1
+      }
+    }
+  ]
+}

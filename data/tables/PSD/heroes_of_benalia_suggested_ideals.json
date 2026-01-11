@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Suggested Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Nation.} I am devoted to the restoration of Benalia's empire."
+        ],
+        [
+          "2",
+          "{@b Peace.} Life can truly thrive only when war and strife are stilled."
+        ],
+        [
+          "3",
+          "{@b Protection.} I will also protect the less fortunate from the depredations of the rich and strong."
+        ],
+        [
+          "4",
+          "{@b Hope.} The world is emerging from a long despair, and needs every shred of inspiration we can offer."
+        ],
+        [
+          "5",
+          "{@b Honor.} If I dishonor myself, I bring dishonor on my deity, my nation, and my family."
+        ],
+        [
+          "6",
+          "{@b Solidarity.} Together, we are stronger than any of us alone."
+        ]
+      ],
+      "name": "Heroes of Benalia; Suggested Ideals",
+      "page": 5,
+      "source": "PSD",
+      "chapter": {
+        "name": "Seven Pillars of Benalia",
+        "index": 2
+      }
+    }
+  ]
+}

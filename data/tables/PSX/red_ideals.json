@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "caption": "Red Ideals",
+      "colLabels": [
+        "d6",
+        "Ideal"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-11"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@b Freedom.} Everyone should be free to pursue their own dreams."
+        ],
+        [
+          "2",
+          "{@b Emotion.} My heart tells me what it needs. All I have to do is listen and act accordingly."
+        ],
+        [
+          "3",
+          "{@b Adventure.} Life is an adventure, and it's up to each individual to experience it."
+        ],
+        [
+          "4",
+          "{@b Relationships.} Part of life is embracing the passion, loyalty, and camaraderie that ties us to others."
+        ],
+        [
+          "5",
+          "{@b Creativity.} The world is in need of new ideas and bold action."
+        ],
+        [
+          "6",
+          "{@b Sincerity.} No one should pretend to be something they're not."
+        ]
+      ],
+      "name": "Red Ideals",
+      "page": 46,
+      "source": "PSX",
+      "chapter": {
+        "name": "The Colors of Magic",
+        "ordinal": {
+          "type": "appendix"
+        },
+        "index": 5
+      }
+    }
+  ]
+}
