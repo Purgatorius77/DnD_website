@@ -1,0 +1,112 @@
+{
+  "table": [
+    {
+      "caption": "Any Habitat Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Commoner|XMM}, {@creature Crawling Claw|XMM}, {@creature Homunculus|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Bandit|XMM}, {@creature Cultist|XMM}, {@creature Guard|XMM}, {@creature Noble|XMM}, {@creature Warrior Infantry|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Priest Acolyte|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Performer|XMM}, {@creature Scout|XMM}, {@creature Tough|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Empyrean Iota|XMM}, {@creature Imp|XMM}, {@creature Pirate|XMM}, {@creature Spy|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Bandit Captain|XMM}, {@creature Berserker|XMM}, {@creature Cultist Fanatic|XMM}, {@creature Druid|XMM}, {@creature Mage Apprentice|XMM}, {@creature Priest|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Knight|XMM}, {@creature Scout Captain|XMM}, {@creature Swarm of Crawling Claws|XMM}, {@creature Warrior Veteran|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Banshee|XMM}, {@creature Guard Captain|XMM}, {@creature Helmed Horror|XMM}, {@creature Tough Boss|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Cambion|XMM}, {@creature Flesh Golem|XMM}, {@creature Gladiator|XMM}, {@creature Half-Dragon|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Mage|XMM}, {@creature Performer Maestro|XMM}, {@creature Pirate Captain|XMM}"
+        ],
+        [
+          "7",
+          "{@creature Bandit Deceiver|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Aberrant Cultist|XMM}, {@creature Assassin|XMM}, {@creature Berserker Commander|XMM}, {@creature Death Cultist|XMM}, {@creature Elemental Cultist|XMM}, {@creature Fiend Cultist|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Cultist Hierophant|XMM}, {@creature Noble Prodigy|XMM}, {@creature Performer Legend|XMM}, {@creature Spy Master|XMM}, {@creature Stone Golem|XMM}, {@creature Warrior Commander|XMM}"
+        ],
+        [
+          "11",
+          "{@creature Bandit Crime Lord|XMM}, {@creature Death Knight Aspirant|XMM}"
+        ],
+        [
+          "12",
+          "{@creature Archmage|XMM}, {@creature Archpriest|XMM}, {@creature Pirate Admiral|XMM}, {@creature Questing Knight|XMM}"
+        ],
+        [
+          "16",
+          "{@creature Iron Golem|XMM}"
+        ],
+        [
+          "17",
+          "{@creature Death Knight|XMM}, {@creature Dracolich|XMM}"
+        ],
+        [
+          "18",
+          "{@creature Demilich|XMM}"
+        ],
+        [
+          "21",
+          "{@creature Arch-hag|XMM}, {@creature Lich|XMM}"
+        ],
+        [
+          "23",
+          "{@creature Blob of Annihilation|XMM}, {@creature Empyrean|XMM}"
+        ],
+        [
+          "25",
+          "{@creature Colossus|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Any Habitat Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

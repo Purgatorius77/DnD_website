@@ -1,0 +1,104 @@
+{
+  "table": [
+    {
+      "caption": "Mountain Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Bat|XMM}, {@creature Eagle|XMM}, {@creature Goat|XMM}, {@creature Hawk|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Blood Hawk|XMM}, {@creature Kobold Warrior|XMM}, {@creature Stirge|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Aarakocra Skirmisher|XMM}, {@creature Giant Bat|XMM}, {@creature Pseudodragon|XMM}, {@creature Pteranodon|XMM}, {@creature Swarm of Bats|XMM}, {@creature Winged Kobold|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Giant Goat|XMM}, {@creature Hobgoblin Warrior|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Giant Eagle|XMM}, {@creature Harpy|XMM}, {@creature Hippogriff|XMM}, {@creature Lion|XMM}, {@creature Ogrillon Ogre|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Azer Sentinel|XMM}, {@creature Bulette Pup|XMM}, {@creature Griffon|XMM}, {@creature Ogre|XMM}, {@creature Peryton|XMM}, {@creature Saber-Toothed Tiger|XMM}, {@creature Silver Dragon Wyrmling|XMM}, {@creature Swarm of Stirges|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Basilisk|XMM}, {@creature Hell Hound|XMM}, {@creature Hobgoblin Captain|XMM}, {@creature Manticore|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Aarakocra Aeromancer|XMM}, {@creature Ettin|XMM}, {@creature Red Dragon Wyrmling|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Air Elemental|XMM}, {@creature Bulette|XMM}, {@creature Earth Elemental|XMM}, {@creature Troll|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Azer Pyromancer|XMM}, {@creature Chimera|XMM}, {@creature Cyclops Sentry|XMM}, {@creature Galeb Duhr|XMM}, {@creature Hobgoblin Warlord|XMM}, {@creature Wyvern|XMM}"
+        ],
+        [
+          "7",
+          "{@creature Stone Giant|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Frost Giant|XMM}"
+        ],
+        [
+          "9",
+          "{@creature Cloud Giant|XMM}, {@creature Fire Giant|XMM}, {@creature Young Silver Dragon|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Cyclops Oracle|XMM}, {@creature Young Red Dragon|XMM}"
+        ],
+        [
+          "11",
+          "{@creature Roc|XMM}"
+        ],
+        [
+          "16",
+          "{@creature Adult Silver Dragon|XMM}"
+        ],
+        [
+          "17",
+          "{@creature Adult Red Dragon|XMM}"
+        ],
+        [
+          "23",
+          "{@creature Ancient Silver Dragon|XMM}"
+        ],
+        [
+          "24",
+          "{@creature Ancient Red Dragon|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Mountain Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

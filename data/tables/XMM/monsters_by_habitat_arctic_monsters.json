@@ -1,0 +1,84 @@
+{
+  "table": [
+    {
+      "caption": "Arctic Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Hawk|XMM}, {@creature Owl|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Blood Hawk|XMM}, {@creature Kobold Warrior|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Axe Beak|XMM}, {@creature Giant Owl|XMM}, {@creature Winged Kobold|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Ice Mephit|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Brown Bear|XMM}, {@creature Ogrillon Ogre|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Griffon|XMM}, {@creature Ogre|XMM}, {@creature Polar Bear|XMM}, {@creature Saber-Toothed Tiger|XMM}, {@creature White Dragon Wyrmling|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Manticore|XMM}, {@creature Winter Wolf|XMM}, {@creature Yeti|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Giant Axe Beak|XMM}, {@creature Troll|XMM}, {@creature Werebear|XMM}, {@creature Young Remorhaz|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Mammoth|XMM}, {@creature Young White Dragon|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Frost Giant|XMM}"
+        ],
+        [
+          "9",
+          "{@creature Abominable Yeti|XMM}"
+        ],
+        [
+          "11",
+          "{@creature Remorhaz|XMM}, {@creature Roc|XMM}"
+        ],
+        [
+          "13",
+          "{@creature Adult White Dragon|XMM}"
+        ],
+        [
+          "20",
+          "{@creature Ancient White Dragon|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Arctic Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

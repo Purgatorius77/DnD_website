@@ -1,0 +1,112 @@
+{
+  "table": [
+    {
+      "caption": "Desert Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Cat|XMM}, {@creature Hyena|XMM}, {@creature Jackal|XMM}, {@creature Lizard|XMM}, {@creature Scorpion|XMM}, {@creature Spider|XMM}, {@creature Vulture|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Camel|XMM}, {@creature Flying Snake|XMM}, {@creature Kobold Warrior|XMM}, {@creature Mule|XMM}, {@creature Stirge|XMM}, {@creature Venomous Snake|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Constrictor Snake|XMM}, {@creature Giant Lizard|XMM}, {@creature Giant Venomous Snake|XMM}, {@creature Giant Wolf Spider|XMM}, {@creature Pseudodragon|XMM}, {@creature Winged Kobold|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Dust Mephit|XMM}, {@creature Gnoll Warrior|XMM}, {@creature Hobgoblin Warrior|XMM}, {@creature Jackalwere|XMM}, {@creature Swarm of Insects|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Brass Dragon Wyrmling|XMM}, {@creature Death Dog|XMM}, {@creature Giant Hyena|XMM}, {@creature Giant Spider|XMM}, {@creature Giant Vulture|XMM}, {@creature Lion|XMM}, {@creature Ogrillon Ogre|XMM}, {@creature Sphinx of Wonder|XMM}, {@creature Thri-kreen Marauder|XMM}, {@creature Yuan-ti Infiltrator|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Giant Constrictor Snake|XMM}, {@creature Gnoll Pack Lord|XMM}, {@creature Ogre|XMM}, {@creature Swarm of Stirges|XMM}, {@creature Swarm of Venomous Snakes|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Blue Dragon Wyrmling|XMM}, {@creature Giant Scorpion|XMM}, {@creature Hobgoblin Captain|XMM}, {@creature Mummy|XMM}, {@creature Phase Spider|XMM}, {@creature Wight|XMM}, {@creature Yuan-ti Malison (Type 1)|XMM}/{@creature Yuan-ti Malison (Type 2)|XMM}/{@creature Yuan-ti Malison (Type 3)|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Couatl|XMM}, {@creature Gnoll Fang of Yeenoghu|XMM}, {@creature Lamia|XMM}, {@creature Weretiger|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Air Elemental|XMM}, {@creature Fire Elemental|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Cyclops Sentry|XMM}, {@creature Hobgoblin Warlord|XMM}, {@creature Medusa|XMM}, {@creature Young Brass Dragon|XMM}"
+        ],
+        [
+          "7",
+          "{@creature Yuan-ti Abomination|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Gnoll Demoniac|XMM}, {@creature Sphinx of Secrets|XMM}, {@creature Thri-kreen Psion|XMM}"
+        ],
+        [
+          "9",
+          "{@creature Young Blue Dragon|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Cyclops Oracle|XMM}, {@creature Guardian Naga|XMM}"
+        ],
+        [
+          "11",
+          "{@creature Efreeti|XMM}, {@creature Roc|XMM}, {@creature Sphinx of Lore|XMM}"
+        ],
+        [
+          "13",
+          "{@creature Adult Brass Dragon|XMM}"
+        ],
+        [
+          "15",
+          "{@creature Mummy Lord|XMM}, {@creature Purple Worm|XMM}"
+        ],
+        [
+          "16",
+          "{@creature Adult Blue Dragon|XMM}"
+        ],
+        [
+          "17",
+          "{@creature Sphinx of Valor|XMM}"
+        ],
+        [
+          "20",
+          "{@creature Ancient Brass Dragon|XMM}"
+        ],
+        [
+          "23",
+          "{@creature Ancient Blue Dragon|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Desert Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

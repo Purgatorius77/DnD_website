@@ -1,0 +1,264 @@
+{
+  "table": [
+    {
+      "caption": "Stat Block Conversions",
+      "colLabels": [
+        "2014 Stat Block",
+        "2025 Equivalent"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@creature Aarakocra|MM}",
+          "{@creature Aarakocra Skirmisher|XMM}"
+        ],
+        [
+          "{@creature Acolyte|MM}",
+          "{@creature Priest Acolyte|XMM}"
+        ],
+        [
+          "{@creature Adult Blue Dracolich|MM}",
+          "{@creature Dracolich|XMM}"
+        ],
+        [
+          "{@creature Androsphinx|MM}",
+          "{@creature Sphinx of Valor|XMM}"
+        ],
+        [
+          "{@creature Azer|MM}",
+          "{@creature Azer Sentinel|XMM}"
+        ],
+        [
+          "{@creature Bugbear|MM}",
+          "{@creature Bugbear Warrior|XMM}"
+        ],
+        [
+          "{@creature Bullywug|MM}",
+          "{@creature Bullywug Warrior|XMM}"
+        ],
+        [
+          "{@creature Centaur|MM}",
+          "{@creature Centaur Trooper|XMM}"
+        ],
+        [
+          "{@creature Cult Fanatic|MM}",
+          "{@creature Cultist Fanatic|XMM}"
+        ],
+        [
+          "{@creature Cyclops|MM}",
+          "{@creature Cyclops Sentry|XMM}"
+        ],
+        [
+          "{@creature Deep Gnome (Svirfneblin)|MM|Deep Gnome}",
+          "{@creature Scout|XMM}"
+        ],
+        [
+          "{@creature Drow|MM}",
+          "{@creature Priest Acolyte|XMM}"
+        ],
+        [
+          "{@creature Drow Elite Warrior|MM}",
+          "{@creature Gladiator|XMM}"
+        ],
+        [
+          "{@creature Drow Mage|MM}",
+          "{@creature Bandit Deceiver|XMM}"
+        ],
+        [
+          "{@creature Drow Priestess of Lolth|MM}",
+          "{@creature Fiend Cultist|XMM}"
+        ],
+        [
+          "{@creature Duergar|MM}",
+          "{@creature Spy|XMM}"
+        ],
+        [
+          "{@creature Duodrone|MM}",
+          "{@creature Modron Duodrone|XMM}"
+        ],
+        [
+          "{@creature Faerie Dragon (Green)|MM|Faerie Dragon (if green, blue, indigo, or violet)}",
+          "{@creature Faerie Dragon Adult|XMM}"
+        ],
+        [
+          "{@creature Faerie Dragon (Red)|MM|Faerie Dragon (if red, orange, or yellow)}",
+          "{@creature Faerie Dragon Youth|XMM}"
+        ],
+        [
+          "{@creature Fire Snake|MM}",
+          "{@creature Salamander Fire Snake|XMM}"
+        ],
+        [
+          "{@creature Flying Sword|MM}",
+          "{@creature Animated Flying Sword|XMM}"
+        ],
+        [
+          "{@creature Gas Spore|MM}",
+          "{@creature Gas Spore Fungus|XMM}"
+        ],
+        [
+          "{@creature Giant Poisonous Snake|MM}",
+          "{@creature Giant Venomous Snake|XMM}"
+        ],
+        [
+          "{@creature Gnoll|MM}",
+          "{@creature Gnoll Warrior|XMM}"
+        ],
+        [
+          "{@creature Goblin|MM}",
+          "{@creature Goblin Warrior|XMM}"
+        ],
+        [
+          "{@creature Grick Alpha|MM}",
+          "{@creature Grick Ancient|XMM}"
+        ],
+        [
+          "{@creature Gynosphinx|MM}",
+          "{@creature Sphinx of Lore|XMM}"
+        ],
+        [
+          "{@creature Half-Ogre (Ogrillon)|MM}",
+          "{@creature Ogrillon Ogre|XMM}"
+        ],
+        [
+          "{@creature Half-Red Dragon Veteran|MM}",
+          "{@creature Half-Dragon|XMM}"
+        ],
+        [
+          "{@creature Hobgoblin|MM}",
+          "{@creature Hobgoblin Warrior|XMM}"
+        ],
+        [
+          "{@creature Kobold|MM}",
+          "{@creature Kobold Warrior|XMM}"
+        ],
+        [
+          "{@creature Lizardfolk|MM}",
+          "{@creature Scout|XMM}"
+        ],
+        [
+          "{@creature Lizardfolk Shaman|MM}",
+          "{@creature Lizardfolk Geomancer|XMM}"
+        ],
+        [
+          "{@creature Lizard King|MM}/{@creature Lizard Queen|MM|Queen}",
+          "{@creature Lizardfolk Sovereign|XMM}"
+        ],
+        [
+          "{@creature Merfolk|MM}",
+          "{@creature Merfolk Skirmisher|XMM}"
+        ],
+        [
+          "{@creature Minotaur|MM}",
+          "{@creature Minotaur of Baphomet|XMM}"
+        ],
+        [
+          "{@creature Monodrone|MM}",
+          "{@creature Modron Monodrone|XMM}"
+        ],
+        [
+          "{@creature Orc|MM}",
+          "{@creature Tough|XMM}"
+        ],
+        [
+          "{@creature Orc Eye of Gruumsh|MM}",
+          "{@creature Cultist Fanatic|XMM}"
+        ],
+        [
+          "{@creature Orc War Chief|MM}",
+          "{@creature Tough Boss|XMM}"
+        ],
+        [
+          "{@creature Orog|MM}",
+          "{@creature Berserker|XMM}"
+        ],
+        [
+          "{@creature Pentadrone|MM}",
+          "{@creature Modron Pentadrone|XMM}"
+        ],
+        [
+          "{@creature Poisonous Snake|MM}",
+          "{@creature Venomous Snake|XMM}"
+        ],
+        [
+          "{@creature Quadrone|MM}",
+          "{@creature Modron Quadrone|XMM}"
+        ],
+        [
+          "{@creature Quaggoth Spore Servant|MM}",
+          "{@creature Myconid Spore Servant|XMM}"
+        ],
+        [
+          "{@creature Quipper|MM}",
+          "{@creature Piranha|XMM}"
+        ],
+        [
+          "{@creature Rug of Smothering|MM}",
+          "{@creature Animated Rug of Smothering|XMM}"
+        ],
+        [
+          "{@creature Sahuagin|MM}",
+          "{@creature Sahuagin Warrior|XMM}"
+        ],
+        [
+          "{@creature Sahuagin Priestess|MM}",
+          "{@creature Sahuagin Priest|XMM}"
+        ],
+        [
+          "{@creature Shrieker|MM}",
+          "{@creature Shrieker Fungus|XMM}"
+        ],
+        [
+          "{@creature Swarm of Poisonous Snakes|MM}",
+          "{@creature Swarm of Venomous Snakes|XMM}"
+        ],
+        [
+          "{@creature Swarm of Quippers|MM}",
+          "{@creature Swarm of Piranhas|XMM}"
+        ],
+        [
+          "{@creature Thri-kreen|MM}",
+          "{@creature Thri-kreen Marauder|XMM}"
+        ],
+        [
+          "{@creature Thug|MM}",
+          "{@creature Tough|XMM}"
+        ],
+        [
+          "{@creature Tribal Warrior|MM}",
+          "{@creature Warrior Infantry|XMM}"
+        ],
+        [
+          "{@creature Tridrone|MM}",
+          "{@creature Modron Tridrone|XMM}"
+        ],
+        [
+          "{@creature Veteran|MM}",
+          "{@creature Warrior Veteran|XMM}"
+        ],
+        [
+          "{@creature Young Red Shadow Dragon|MM}",
+          "{@creature Shadow Dragon|XMM}"
+        ],
+        [
+          "{@creature Yuan-ti Pureblood|MM}",
+          "{@creature Yuan-ti Infiltrator|XMM}"
+        ]
+      ],
+      "name": "Monster Conversions; Stat Block Conversions",
+      "page": 374,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

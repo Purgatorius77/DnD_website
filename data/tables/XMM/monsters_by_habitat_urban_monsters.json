@@ -1,0 +1,104 @@
+{
+  "table": [
+    {
+      "caption": "Urban Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Bat|XMM}, {@creature Cat|XMM}, {@creature Goat|XMM}, {@creature Rat|XMM}, {@creature Raven|XMM}, {@creature Spider|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Giant Rat|XMM}, {@creature Kobold Warrior|XMM}, {@creature Mastiff|XMM}, {@creature Mule|XMM}, {@creature Pony|XMM}, {@creature Stirge|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Animated Broom|XMM}, {@creature Animated Flying Sword|XMM}, {@creature Draft Horse|XMM}, {@creature Giant Centipede|XMM}, {@creature Kenku|XMM}, {@creature Pseudodragon|XMM}, {@creature Riding Horse|XMM}, {@creature Skeleton|XMM}, {@creature Swarm of Bats|XMM}, {@creature Swarm of Rats|XMM}, {@creature Swarm of Ravens|XMM}, {@creature Winged Kobold|XMM}, {@creature Zombie|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Crocodile|XMM}, {@creature Giant Wasp|XMM}, {@creature Shadow|XMM}, {@creature Swarm of Insects|XMM}, {@creature Warhorse|XMM}, {@creature Warhorse Skeleton|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Animated Armor|XMM}, {@creature Ghoul|XMM}, {@creature Giant Spider|XMM}, {@creature Lacedon Ghoul|XMM}, {@creature Specter|XMM}, {@creature Yuan-ti Infiltrator|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Animated Rug of Smothering|XMM}, {@creature Carrion Crawler|XMM}, {@creature Gargoyle|XMM}, {@creature Ghast|XMM}, {@creature Mimic|XMM}, {@creature Minotaur Skeleton|XMM}, {@creature Ogre Zombie|XMM}, {@creature Poltergeist|XMM}, {@creature Silver Dragon Wyrmling|XMM}, {@creature Swarm of Stirges|XMM}, {@creature Wererat|XMM}, {@creature Will-o'-Wisp|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Doppelganger|XMM}, {@creature Flaming Skeleton|XMM}, {@creature Phase Spider|XMM}, {@creature Vampire Familiar|XMM}, {@creature Water Weird|XMM}, {@creature Wight|XMM}, {@creature Yuan-ti Malison (Type 1)|XMM}/{@creature Yuan-ti Malison (Type 2)|XMM}/{@creature Yuan-ti Malison (Type 3)|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Couatl|XMM}, {@creature Ghost|XMM}, {@creature Incubus|XMM}, {@creature Succubus|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Beholder Zombie|XMM}, {@creature Revenant|XMM}, {@creature Vampire Spawn|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Ghast Gravecaller|XMM}, {@creature Invisible Stalker|XMM}"
+        ],
+        [
+          "7",
+          "{@creature Graveyard Revenant|XMM}, {@creature Oni|XMM}, {@creature Shield Guardian|XMM}, {@creature Yuan-ti Abomination|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Vampire Nightbringer|XMM}"
+        ],
+        [
+          "9",
+          "{@creature Clay Golem|XMM}, {@creature Young Silver Dragon|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Haunting Revenant|XMM}"
+        ],
+        [
+          "13",
+          "{@creature Rakshasa|XMM}, {@creature Vampire|XMM}"
+        ],
+        [
+          "15",
+          "{@creature Vampire Umbral Lord|XMM}"
+        ],
+        [
+          "16",
+          "{@creature Adult Silver Dragon|XMM}"
+        ],
+        [
+          "23",
+          "{@creature Ancient Silver Dragon|XMM}"
+        ],
+        [
+          "30",
+          "{@creature Tarrasque|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Urban Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

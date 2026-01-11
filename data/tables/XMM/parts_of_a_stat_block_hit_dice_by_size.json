@@ -1,0 +1,58 @@
+{
+  "table": [
+    {
+      "caption": "Hit Dice by Size",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Monster Size",
+        "Hit Die",
+        "Average HP per Die"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-4 text-center",
+        "col-4 text-center"
+      ],
+      "rows": [
+        [
+          "Tiny",
+          "{@dice d4}",
+          "2½"
+        ],
+        [
+          "Small",
+          "{@dice d6}",
+          "3½"
+        ],
+        [
+          "Medium",
+          "{@dice d8}",
+          "4½"
+        ],
+        [
+          "Large",
+          "{@dice d10}",
+          "5½"
+        ],
+        [
+          "Huge",
+          "{@dice d12}",
+          "6½"
+        ],
+        [
+          "Gargantuan",
+          "{@dice d20}",
+          "10½"
+        ]
+      ],
+      "name": "Parts of a Stat Block; Hit Dice by Size",
+      "page": 6,
+      "source": "XMM",
+      "chapter": {
+        "name": "Introduction",
+        "index": 0
+      }
+    }
+  ]
+}

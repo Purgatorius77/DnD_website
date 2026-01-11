@@ -1,0 +1,108 @@
+{
+  "table": [
+    {
+      "caption": "Coastal Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Crab|XMM}, {@creature Eagle|XMM}, {@creature Hawk|XMM}, {@creature Lizard|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Blood Hawk|XMM}, {@creature Giant Crab|XMM}, {@creature Kobold Warrior|XMM}, {@creature Merfolk Skirmisher|XMM}, {@creature Venomous Snake|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Giant Lizard|XMM}, {@creature Giant Venomous Snake|XMM}, {@creature Giant Wolf Spider|XMM}, {@creature Kuo-toa|XMM}, {@creature Pseudodragon|XMM}, {@creature Pteranodon|XMM}, {@creature Winged Kobold|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Crocodile|XMM}, {@creature Sahuagin Warrior|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Giant Eagle|XMM}, {@creature Giant Toad|XMM}, {@creature Harpy|XMM}, {@creature Kuo-toa Whip|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Bronze Dragon Wyrmling|XMM}, {@creature Griffon|XMM}, {@creature Merrow|XMM}, {@creature Plesiosaurus|XMM}, {@creature Sahuagin Priest|XMM}, {@creature Sea Hag|XMM}, {@creature Swarm of Venomous Snakes|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Blue Dragon Wyrmling|XMM}, {@creature Kuo-toa Monitor|XMM}, {@creature Manticore|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Chuul|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Giant Crocodile|XMM}, {@creature Sahuagin Baron|XMM}, {@creature Water Elemental|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Cyclops Sentry|XMM}, {@creature Kuo-toa Archpriest|XMM}, {@creature Merfolk Wavebender|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Hydra|XMM}, {@creature Young Bronze Dragon|XMM}"
+        ],
+        [
+          "9",
+          "{@creature Young Blue Dragon|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Cyclops Oracle|XMM}"
+        ],
+        [
+          "11",
+          "{@creature Djinni|XMM}, {@creature Marid|XMM}, {@creature Roc|XMM}"
+        ],
+        [
+          "13",
+          "{@creature Storm Giant|XMM}"
+        ],
+        [
+          "15",
+          "{@creature Adult Bronze Dragon|XMM}"
+        ],
+        [
+          "16",
+          "{@creature Adult Blue Dragon|XMM}"
+        ],
+        [
+          "17",
+          "{@creature Dragon Turtle|XMM}"
+        ],
+        [
+          "22",
+          "{@creature Ancient Bronze Dragon|XMM}"
+        ],
+        [
+          "23",
+          "{@creature Ancient Blue Dragon|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Coastal Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

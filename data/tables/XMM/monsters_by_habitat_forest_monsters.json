@@ -1,0 +1,104 @@
+{
+  "table": [
+    {
+      "caption": "Forest Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Awakened Shrub|XMM}, {@creature Baboon|XMM}, {@creature Badger|XMM}, {@creature Bat|XMM}, {@creature Cat|XMM}, {@creature Deer|XMM}, {@creature Frog|XMM}, {@creature Hawk|XMM}, {@creature Hyena|XMM}, {@creature Lizard|XMM}, {@creature Owl|XMM}, {@creature Rat|XMM}, {@creature Spider|XMM}, {@creature Weasel|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Blood Hawk|XMM}, {@creature Flying Snake|XMM}, {@creature Giant Rat|XMM}, {@creature Giant Weasel|XMM}, {@creature Goblin Minion|XMM}, {@creature Kobold Warrior|XMM}, {@creature Mastiff|XMM}, {@creature Stirge|XMM}, {@creature Twig Blight|XMM}, {@creature Venomous Snake|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Blink Dog|XMM}, {@creature Boar|XMM}, {@creature Constrictor Snake|XMM}, {@creature Elk|XMM}, {@creature Giant Badger|XMM}, {@creature Giant Bat|XMM}, {@creature Giant Frog|XMM}, {@creature Giant Lizard|XMM}, {@creature Giant Owl|XMM}, {@creature Giant Venomous Snake|XMM}, {@creature Giant Wolf Spider|XMM}, {@creature Goblin Warrior|XMM}, {@creature Kenku|XMM}, {@creature Needle Blight|XMM}, {@creature Panther|XMM}, {@creature Pixie|XMM}, {@creature Pseudodragon|XMM}, {@creature Sprite|XMM}, {@creature Swarm of Bats|XMM}, {@creature Swarm of Rats|XMM}, {@creature Winged Kobold|XMM}, {@creature Wolf|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Ape|XMM}, {@creature Black Bear|XMM}, {@creature Giant Wasp|XMM}, {@creature Gnoll Warrior|XMM}, {@creature Hobgoblin Warrior|XMM}, {@creature Satyr|XMM}, {@creature Swarm of Insects|XMM}, {@creature Vine Blight|XMM}, {@creature Worg|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Brown Bear|XMM}, {@creature Bugbear Warrior|XMM}, {@creature Dire Wolf|XMM}, {@creature Dryad|XMM}, {@creature Faerie Dragon Youth|XMM}, {@creature Giant Hyena|XMM}, {@creature Giant Spider|XMM}, {@creature Giant Toad|XMM}, {@creature Goblin Boss|XMM}, {@creature Harpy|XMM}, {@creature Ogrillon Ogre|XMM}, {@creature Tiger|XMM}, {@creature Yuan-ti Infiltrator|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Ankheg|XMM}, {@creature Awakened Tree|XMM}, {@creature Centaur Trooper|XMM}, {@creature Ettercap|XMM}, {@creature Faerie Dragon Adult|XMM}, {@creature Giant Boar|XMM}, {@creature Giant Constrictor Snake|XMM}, {@creature Giant Elk|XMM}, {@creature Gnoll Pack Lord|XMM}, {@creature Green Dragon Wyrmling|XMM}, {@creature Grick|XMM}, {@creature Lizardfolk Geomancer|XMM}, {@creature Ogre|XMM}, {@creature Pegasus|XMM}, {@creature Swarm of Stirges|XMM}, {@creature Swarm of Venomous Snakes|XMM}, {@creature Wererat|XMM}, {@creature Will-o'-Wisp|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Bugbear Stalker|XMM}, {@creature Displacer Beast|XMM}, {@creature Goblin Hexer|XMM}, {@creature Gold Dragon Wyrmling|XMM}, {@creature Green Hag|XMM}, {@creature Hobgoblin Captain|XMM}, {@creature Owlbear|XMM}, {@creature Phase Spider|XMM}, {@creature Werewolf|XMM}, {@creature Yuan-ti Malison (Type 1)|XMM}/{@creature Yuan-ti Malison (Type 2)|XMM}/{@creature Yuan-ti Malison (Type 3)|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Couatl|XMM}, {@creature Gnoll Fang of Yeenoghu|XMM}, {@creature Hippopotamus|XMM}, {@creature Lizardfolk Sovereign|XMM}, {@creature Wereboar|XMM}, {@creature Weretiger|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Gorgon|XMM}, {@creature Pixie Wonderbringer|XMM}, {@creature Revenant|XMM}, {@creature Shambling Mound|XMM}, {@creature Troll|XMM}, {@creature Unicorn|XMM}, {@creature Werebear|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Drider|XMM}, {@creature Hobgoblin Warlord|XMM}, {@creature Satyr Revelmaster|XMM}"
+        ],
+        [
+          "7",
+          "{@creature Centaur Warden|XMM}, {@creature Giant Ape|XMM}, {@creature Graveyard Revenant|XMM}, {@creature Grick Ancient|XMM}, {@creature Oni|XMM}, {@creature Primeval Owlbear|XMM}, {@creature Tree Blight|XMM}, {@creature Yuan-ti Abomination|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Gnoll Demoniac|XMM}, {@creature Young Green Dragon|XMM}"
+        ],
+        [
+          "9",
+          "{@creature Brazen Gorgon|XMM}, {@creature Treant|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Dire Worg|XMM}, {@creature Guardian Naga|XMM}, {@creature Haunting Revenant|XMM}, {@creature Young Gold Dragon|XMM}"
+        ],
+        [
+          "15",
+          "{@creature Adult Green Dragon|XMM}"
+        ],
+        [
+          "16",
+          "{@creature Gulthias Blight|XMM}"
+        ],
+        [
+          "17",
+          "{@creature Adult Gold Dragon|XMM}"
+        ],
+        [
+          "22",
+          "{@creature Ancient Green Dragon|XMM}"
+        ],
+        [
+          "24",
+          "{@creature Ancient Gold Dragon|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Forest Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

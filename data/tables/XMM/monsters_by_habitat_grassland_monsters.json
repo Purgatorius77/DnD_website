@@ -1,0 +1,92 @@
+{
+  "table": [
+    {
+      "caption": "Grassland Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Cat|XMM}, {@creature Deer|XMM}, {@creature Eagle|XMM}, {@creature Goat|XMM}, {@creature Hawk|XMM}, {@creature Hyena|XMM}, {@creature Jackal|XMM}, {@creature Vulture|XMM}, {@creature Weasel|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Blood Hawk|XMM}, {@creature Flying Snake|XMM}, {@creature Giant Weasel|XMM}, {@creature Goblin Minion|XMM}, {@creature Pony|XMM}, {@creature Stirge|XMM}, {@creature Venomous Snake|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Axe Beak|XMM}, {@creature Boar|XMM}, {@creature Elk|XMM}, {@creature Giant Venomous Snake|XMM}, {@creature Giant Wolf Spider|XMM}, {@creature Goblin Warrior|XMM}, {@creature Panther|XMM}, {@creature Pteranodon|XMM}, {@creature Riding Horse|XMM}, {@creature Wolf|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Cockatrice|XMM}, {@creature Giant Goat|XMM}, {@creature Giant Wasp|XMM}, {@creature Gnoll Warrior|XMM}, {@creature Hobgoblin Warrior|XMM}, {@creature Jackalwere|XMM}, {@creature Swarm of Insects|XMM}, {@creature Worg|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Bugbear Warrior|XMM}, {@creature Giant Eagle|XMM}, {@creature Giant Hyena|XMM}, {@creature Giant Vulture|XMM}, {@creature Goblin Boss|XMM}, {@creature Hippogriff|XMM}, {@creature Lion|XMM}, {@creature Ogrillon Ogre|XMM}, {@creature Scarecrow|XMM}, {@creature Thri-kreen Marauder|XMM}, {@creature Tiger|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Allosaurus|XMM}, {@creature Ankheg|XMM}, {@creature Bulette Pup|XMM}, {@creature Centaur Trooper|XMM}, {@creature Giant Boar|XMM}, {@creature Giant Elk|XMM}, {@creature Gnoll Pack Lord|XMM}, {@creature Griffon|XMM}, {@creature Ogre|XMM}, {@creature Pegasus|XMM}, {@creature Rhinoceros|XMM}, {@creature Swarm of Stirges|XMM}, {@creature Swarm of Venomous Snakes|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Ankylosaurus|XMM}, {@creature Bugbear Stalker|XMM}, {@creature Goblin Hexer|XMM}, {@creature Gold Dragon Wyrmling|XMM}, {@creature Hobgoblin Captain|XMM}, {@creature Manticore|XMM}, {@creature Phase Spider|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Couatl|XMM}, {@creature Elephant|XMM}, {@creature Gnoll Fang of Yeenoghu|XMM}, {@creature Hippopotamus|XMM}, {@creature Wereboar|XMM}, {@creature Weretiger|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Bulette|XMM}, {@creature Giant Axe Beak|XMM}, {@creature Gorgon|XMM}, {@creature Triceratops|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Chimera|XMM}, {@creature Cyclops Sentry|XMM}, {@creature Hobgoblin Warlord|XMM}"
+        ],
+        [
+          "7",
+          "{@creature Centaur Warden|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Cockatrice Regent|XMM}, {@creature Gnoll Demoniac|XMM}, {@creature Thri-kreen Psion|XMM}, {@creature Tyrannosaurus Rex|XMM}"
+        ],
+        [
+          "9",
+          "{@creature Brazen Gorgon|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Cyclops Oracle|XMM}, {@creature Dire Worg|XMM}, {@creature Young Gold Dragon|XMM}"
+        ],
+        [
+          "17",
+          "{@creature Adult Gold Dragon|XMM}"
+        ],
+        [
+          "24",
+          "{@creature Ancient Gold Dragon|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Grassland Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

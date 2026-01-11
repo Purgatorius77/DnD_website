@@ -1,0 +1,100 @@
+{
+  "table": [
+    {
+      "caption": "Underdark Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Bat|XMM}, {@creature Giant Fire Beetle|XMM}, {@creature Lizard|XMM}, {@creature Myconid Sprout|XMM}, {@creature Rat|XMM}, {@creature Shrieker Fungus|XMM}, {@creature Spider|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Flumph|XMM}, {@creature Giant Rat|XMM}, {@creature Goblin Minion|XMM}, {@creature Kobold Warrior|XMM}, {@creature Stirge|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Giant Bat|XMM}, {@creature Giant Centipede|XMM}, {@creature Giant Lizard|XMM}, {@creature Goblin Warrior|XMM}, {@creature Grimlock|XMM}, {@creature Kuo-toa|XMM}, {@creature Skeleton|XMM}, {@creature Swarm of Bats|XMM}, {@creature Swarm of Rats|XMM}, {@creature Troglodyte|XMM}, {@creature Violet Fungus|XMM}, {@creature Winged Kobold|XMM}, {@creature Zombie|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Darkmantle|XMM}, {@creature Gas Spore Fungus|XMM}, {@creature Gray Ooze|XMM}, {@creature Hobgoblin Warrior|XMM}, {@creature Myconid Adult|XMM}, {@creature Piercer|XMM}, {@creature Rust Monster|XMM}, {@creature Shadow|XMM}, {@creature Swarm of Insects|XMM}, {@creature Warhorse Skeleton|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Bugbear Warrior|XMM}, {@creature Ghoul|XMM}, {@creature Giant Spider|XMM}, {@creature Giant Toad|XMM}, {@creature Goblin Boss|XMM}, {@creature Kuo-toa Whip|XMM}, {@creature Lacedon Ghoul|XMM}, {@creature Myconid Spore Servant|XMM}, {@creature Ogrillon Ogre|XMM}, {@creature Psychic Gray Ooze|XMM}, {@creature Salamander Fire Snake|XMM}, {@creature Specter|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Carrion Crawler|XMM}, {@creature Gargoyle|XMM}, {@creature Gelatinous Cube|XMM}, {@creature Ghast|XMM}, {@creature Gibbering Mouther|XMM}, {@creature Grick|XMM}, {@creature Intellect Devourer|XMM}, {@creature Mimic|XMM}, {@creature Minotaur Skeleton|XMM}, {@creature Myconid Sovereign|XMM}, {@creature Nothic|XMM}, {@creature Ochre Jelly|XMM}, {@creature Ogre|XMM}, {@creature Ogre Zombie|XMM}, {@creature Poltergeist|XMM}, {@creature Quaggoth|XMM}, {@creature Swarm of Stirges|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Basilisk|XMM}, {@creature Bugbear Stalker|XMM}, {@creature Doppelganger|XMM}, {@creature Flaming Skeleton|XMM}, {@creature Goblin Hexer|XMM}, {@creature Grell|XMM}, {@creature Hell Hound|XMM}, {@creature Hobgoblin Captain|XMM}, {@creature Hook Horror|XMM}, {@creature Kuo-toa Monitor|XMM}, {@creature Minotaur of Baphomet|XMM}, {@creature Phase Spider|XMM}, {@creature Quaggoth Thonot|XMM}, {@creature Spectator|XMM}, {@creature Vampire Familiar|XMM}, {@creature Water Weird|XMM}, {@creature Wight|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Black Pudding|XMM}, {@creature Bone Naga|XMM}, {@creature Chuul|XMM}, {@creature Ettin|XMM}, {@creature Flameskull|XMM}, {@creature Ghost|XMM}, {@creature Juvenile Shadow Dragon|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Beholder Zombie|XMM}, {@creature Earth Elemental|XMM}, {@creature Otyugh|XMM}, {@creature Roper|XMM}, {@creature Salamander|XMM}, {@creature Troll|XMM}, {@creature Umber Hulk|XMM}, {@creature Vampire Spawn|XMM}, {@creature Wraith|XMM}, {@creature Xorn|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Cyclops Sentry|XMM}, {@creature Drider|XMM}, {@creature Ghast Gravecaller|XMM}, {@creature Hobgoblin Warlord|XMM}, {@creature Kuo-toa Archpriest|XMM}"
+        ],
+        [
+          "7",
+          "{@creature Grick Ancient|XMM}, {@creature Mind Flayer|XMM}, {@creature Stone Giant|XMM}, {@creature Violet Fungus Necrohulk|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Cloaker|XMM}, {@creature Fomorian|XMM}, {@creature Spirit Naga|XMM}, {@creature Vampire Nightbringer|XMM}"
+        ],
+        [
+          "9",
+          "{@creature Fire Giant|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Aboleth|XMM}, {@creature Cyclops Oracle|XMM}"
+        ],
+        [
+          "11",
+          "{@creature Behir|XMM}, {@creature Dao|XMM}, {@creature Mind Flayer Arcanist|XMM}"
+        ],
+        [
+          "13",
+          "{@creature Beholder|XMM}, {@creature Shadow Dragon|XMM}, {@creature Vampire|XMM}"
+        ],
+        [
+          "14",
+          "{@creature Death Tyrant|XMM}"
+        ],
+        [
+          "15",
+          "{@creature Purple Worm|XMM}, {@creature Salamander Inferno Master|XMM}, {@creature Vampire Umbral Lord|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Underdark Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

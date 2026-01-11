@@ -1,0 +1,88 @@
+{
+  "table": [
+    {
+      "caption": "Underwater Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Crab|XMM}, {@creature Octopus|XMM}, {@creature Piranha|XMM}, {@creature Seahorse|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Giant Crab|XMM}, {@creature Merfolk Skirmisher|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Constrictor Snake|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Giant Seahorse|XMM}, {@creature Reef Shark|XMM}, {@creature Sahuagin Warrior|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Giant Octopus|XMM}, {@creature Swarm of Piranhas|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Giant Constrictor Snake|XMM}, {@creature Hunter Shark|XMM}, {@creature Merrow|XMM}, {@creature Plesiosaurus|XMM}, {@creature Sahuagin Priest|XMM}, {@creature Sea Hag|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Killer Whale|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Archelon|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Giant Shark|XMM}, {@creature Sahuagin Baron|XMM}, {@creature Water Elemental|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Giant Squid|XMM}, {@creature Merfolk Wavebender|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Aboleth|XMM}"
+        ],
+        [
+          "11",
+          "{@creature Marid|XMM}"
+        ],
+        [
+          "13",
+          "{@creature Storm Giant|XMM}"
+        ],
+        [
+          "17",
+          "{@creature Dragon Turtle|XMM}"
+        ],
+        [
+          "23",
+          "{@creature Kraken|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Underwater Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

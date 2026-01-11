@@ -1,0 +1,104 @@
+{
+  "table": [
+    {
+      "caption": "Hill Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Baboon|XMM}, {@creature Eagle|XMM}, {@creature Goat|XMM}, {@creature Hawk|XMM}, {@creature Hyena|XMM}, {@creature Owl|XMM}, {@creature Raven|XMM}, {@creature Vulture|XMM}, {@creature Weasel|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Blood Hawk|XMM}, {@creature Giant Weasel|XMM}, {@creature Goblin Minion|XMM}, {@creature Kobold Warrior|XMM}, {@creature Mastiff|XMM}, {@creature Mule|XMM}, {@creature Stirge|XMM}, {@creature Venomous Snake|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Axe Beak|XMM}, {@creature Boar|XMM}, {@creature Elk|XMM}, {@creature Giant Owl|XMM}, {@creature Giant Venomous Snake|XMM}, {@creature Giant Wolf Spider|XMM}, {@creature Goblin Warrior|XMM}, {@creature Panther|XMM}, {@creature Pseudodragon|XMM}, {@creature Swarm of Ravens|XMM}, {@creature Winged Kobold|XMM}, {@creature Wolf|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Giant Goat|XMM}, {@creature Gnoll Warrior|XMM}, {@creature Hobgoblin Warrior|XMM}, {@creature Swarm of Insects|XMM}, {@creature Worg|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Brown Bear|XMM}, {@creature Copper Dragon Wyrmling|XMM}, {@creature Dire Wolf|XMM}, {@creature Giant Eagle|XMM}, {@creature Giant Hyena|XMM}, {@creature Giant Vulture|XMM}, {@creature Goblin Boss|XMM}, {@creature Harpy|XMM}, {@creature Hippogriff|XMM}, {@creature Lion|XMM}, {@creature Ogrillon Ogre|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Bulette Pup|XMM}, {@creature Giant Boar|XMM}, {@creature Giant Elk|XMM}, {@creature Gnoll Pack Lord|XMM}, {@creature Griffon|XMM}, {@creature Ogre|XMM}, {@creature Pegasus|XMM}, {@creature Peryton|XMM}, {@creature Saber-Toothed Tiger|XMM}, {@creature Swarm of Stirges|XMM}, {@creature Swarm of Venomous Snakes|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Goblin Hexer|XMM}, {@creature Green Hag|XMM}, {@creature Hobgoblin Captain|XMM}, {@creature Manticore|XMM}, {@creature Phase Spider|XMM}, {@creature Werewolf|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Ettin|XMM}, {@creature Gnoll Fang of Yeenoghu|XMM}, {@creature Red Dragon Wyrmling|XMM}, {@creature Wereboar|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Bulette|XMM}, {@creature Giant Axe Beak|XMM}, {@creature Gorgon|XMM}, {@creature Hill Giant|XMM}, {@creature Troll|XMM}, {@creature Werebear|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Chimera|XMM}, {@creature Cyclops Sentry|XMM}, {@creature Galeb Duhr|XMM}, {@creature Hobgoblin Warlord|XMM}, {@creature Wyvern|XMM}"
+        ],
+        [
+          "7",
+          "{@creature Stone Giant|XMM}, {@creature Young Copper Dragon|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Gnoll Demoniac|XMM}"
+        ],
+        [
+          "9",
+          "{@creature Brazen Gorgon|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Cyclops Oracle|XMM}, {@creature Dire Worg|XMM}, {@creature Young Red Dragon|XMM}"
+        ],
+        [
+          "11",
+          "{@creature Roc|XMM}"
+        ],
+        [
+          "14",
+          "{@creature Adult Copper Dragon|XMM}"
+        ],
+        [
+          "17",
+          "{@creature Adult Red Dragon|XMM}"
+        ],
+        [
+          "21",
+          "{@creature Ancient Copper Dragon|XMM}"
+        ],
+        [
+          "24",
+          "{@creature Ancient Red Dragon|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Hill Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}

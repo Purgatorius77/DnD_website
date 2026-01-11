@@ -1,0 +1,58 @@
+{
+  "table": [
+    {
+      "caption": "Proficiency Bonus by Challenge Rating",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "CR",
+        "PB"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "0–4",
+          "+2"
+        ],
+        [
+          "5–8",
+          "+3"
+        ],
+        [
+          "9–12",
+          "+4"
+        ],
+        [
+          "13–16",
+          "+5"
+        ],
+        [
+          "17–20",
+          "+6"
+        ],
+        [
+          "21–24",
+          "+7"
+        ],
+        [
+          "25–28",
+          "+8"
+        ],
+        [
+          "29–30",
+          "+9"
+        ]
+      ],
+      "name": "Proficiency Bonus by Challenge Rating",
+      "page": 8,
+      "source": "XMM",
+      "chapter": {
+        "name": "Introduction",
+        "index": 0
+      }
+    }
+  ]
+}

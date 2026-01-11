@@ -1,0 +1,92 @@
+{
+  "table": [
+    {
+      "caption": "Swamp Monsters",
+      "colLabels": [
+        "CR",
+        "Monsters"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Frog|XMM}, {@creature Lizard|XMM}, {@creature Rat|XMM}, {@creature Raven|XMM}, {@creature Spider|XMM}"
+        ],
+        [
+          "1/8",
+          "{@creature Giant Rat|XMM}, {@creature Kobold Warrior|XMM}, {@creature Stirge|XMM}, {@creature Venomous Snake|XMM}"
+        ],
+        [
+          "1/4",
+          "{@creature Bullywug Warrior|XMM}, {@creature Constrictor Snake|XMM}, {@creature Giant Frog|XMM}, {@creature Giant Lizard|XMM}, {@creature Giant Venomous Snake|XMM}, {@creature Mud Mephit|XMM}, {@creature Swarm of Rats|XMM}, {@creature Swarm of Ravens|XMM}, {@creature Winged Kobold|XMM}"
+        ],
+        [
+          "1/2",
+          "{@creature Crocodile|XMM}, {@creature Swarm of Insects|XMM}"
+        ],
+        [
+          "1",
+          "{@creature Ghoul|XMM}, {@creature Giant Spider|XMM}, {@creature Giant Toad|XMM}, {@creature Lacedon Ghoul|XMM}, {@creature Ogrillon Ogre|XMM}, {@creature Yuan-ti Infiltrator|XMM}"
+        ],
+        [
+          "2",
+          "{@creature Black Dragon Wyrmling|XMM}, {@creature Ghast|XMM}, {@creature Giant Constrictor Snake|XMM}, {@creature Lizardfolk Geomancer|XMM}, {@creature Ogre|XMM}, {@creature Swarm of Stirges|XMM}, {@creature Swarm of Venomous Snakes|XMM}, {@creature Will-o'-Wisp|XMM}"
+        ],
+        [
+          "3",
+          "{@creature Green Hag|XMM}, {@creature Mummy|XMM}, {@creature Wight|XMM}, {@creature Yuan-ti Malison (Type 1)|XMM}/{@creature Yuan-ti Malison (Type 2)|XMM}/{@creature Yuan-ti Malison (Type 3)|XMM}"
+        ],
+        [
+          "4",
+          "{@creature Bullywug Bog Sage|XMM}, {@creature Chuul|XMM}, {@creature Hippopotamus|XMM}, {@creature Lizardfolk Sovereign|XMM}"
+        ],
+        [
+          "5",
+          "{@creature Giant Crocodile|XMM}, {@creature Revenant|XMM}, {@creature Shambling Mound|XMM}, {@creature Troll|XMM}, {@creature Water Elemental|XMM}"
+        ],
+        [
+          "6",
+          "{@creature Ghast Gravecaller|XMM}"
+        ],
+        [
+          "7",
+          "{@creature Graveyard Revenant|XMM}, {@creature Young Black Dragon|XMM}, {@creature Yuan-ti Abomination|XMM}"
+        ],
+        [
+          "8",
+          "{@creature Hydra|XMM}"
+        ],
+        [
+          "10",
+          "{@creature Haunting Revenant|XMM}"
+        ],
+        [
+          "14",
+          "{@creature Adult Black Dragon|XMM}"
+        ],
+        [
+          "15",
+          "{@creature Mummy Lord|XMM}"
+        ],
+        [
+          "21",
+          "{@creature Ancient Black Dragon|XMM}"
+        ]
+      ],
+      "name": "Monsters by Habitat; Swamp Monsters",
+      "page": 375,
+      "source": "XMM",
+      "chapter": {
+        "name": "Monster Lists",
+        "ordinal": {
+          "type": "appendix",
+          "identifier": "B"
+        },
+        "index": 3
+      }
+    }
+  ]
+}
