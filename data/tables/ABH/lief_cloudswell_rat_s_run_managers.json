@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Rat's Run Managers",
+      "colLabels": [
+        "1d4",
+        "Name",
+        "Description",
+        "Stat Block"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2",
+        "col-4",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "1",
+          "Kyral Blacksteel",
+          "Dwarf retired assassin's guild lieutenant; cruel",
+          "(Medium, Neutral Evil {@creature Assassin|XMM})"
+        ],
+        [
+          "2",
+          "Dirk \"Scarbrow\" Jenkins",
+          "Human retired sailor; sadistic",
+          "(Medium, Chaotic Evil {@creature Pirate|XMM})"
+        ],
+        [
+          "3",
+          "Yerna Goldtooth",
+          "Orc retired pirate; joyful",
+          "(Medium, Chaotic Neutral {@creature Pirate|XMM})"
+        ],
+        [
+          "4",
+          "Gerry Undretide",
+          "Black-scaled dragonborn retired sailor; wise",
+          "(Medium, Chaotic Neutral {@creature Tough Boss|XMM})"
+        ]
+      ],
+      "name": "Lief Cloudswell; Rat's Run Managers",
+      "source": "ABH",
+      "chapter": {
+        "name": "Adventures with Astarion",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

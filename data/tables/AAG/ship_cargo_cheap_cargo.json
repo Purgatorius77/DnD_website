@@ -1,0 +1,71 @@
+{
+  "table": [
+    {
+      "caption": "Cheap Cargo",
+      "colLabels": [
+        "d12",
+        "Cargo"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Trunk containing ten outfits of {@item traveler's clothes|PHB} (2 gp each)"
+        ],
+        [
+          "2",
+          "Crate containing one hundred bars of soap (2 cp each)"
+        ],
+        [
+          "3",
+          "Twenty ballista bolts (5 gp each)"
+        ],
+        [
+          "4",
+          "Coop containing fifty live chickens (2 cp each)"
+        ],
+        [
+          "5",
+          "Crate containing twenty wheels of cheese (5 sp each)"
+        ],
+        [
+          "6",
+          "Locked cage containing one friendly Beast of your choice"
+        ],
+        [
+          "7",
+          "Ten 40-gallon barrels of fresh water"
+        ],
+        [
+          "8",
+          "Ten crates, each containing fifty days of rations (25 gp per crate)"
+        ],
+        [
+          "9",
+          "Locked cage containing one hostile Beast of your choice"
+        ],
+        [
+          "10",
+          "Chest containing fifty {@item Perfume (vial)|PHB|vials of perfume} (2 gp each)"
+        ],
+        [
+          "11",
+          "Crate containing fifty loaves of bread (2 cp each)"
+        ],
+        [
+          "12",
+          "Ten 40-gallon barrels of ale (4 gp each)"
+        ]
+      ],
+      "name": "Ship Cargo; Cheap Cargo",
+      "source": "AAG",
+      "chapter": {
+        "name": "Additional Spelljammer Tables",
+        "index": 4
+      }
+    }
+  ]
+}

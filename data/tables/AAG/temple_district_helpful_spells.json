@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Helpful Spells",
+      "colLabels": [
+        "Spell",
+        "Donation"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@spell Commune}",
+          "1,000 gp"
+        ],
+        [
+          "{@spell Legend lore}",
+          "1,500 gp"
+        ],
+        [
+          "{@spell Lesser restoration}",
+          "150 gp"
+        ],
+        [
+          "{@spell Raise dead}",
+          "2,000 gp"
+        ],
+        [
+          "{@spell Remove curse}",
+          "250 gp"
+        ],
+        [
+          "{@spell Scrying}",
+          "1,000 gp"
+        ]
+      ],
+      "name": "Temple District; Helpful Spells",
+      "page": 61,
+      "source": "AAG",
+      "chapter": {
+        "name": "The Rock of Bral",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

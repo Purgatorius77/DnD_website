@@ -1,0 +1,43 @@
+{
+  "table": [
+    {
+      "caption": "Rat's Run Plots",
+      "colLabels": [
+        "1d4",
+        "Astarion..."
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Realizes several regular Rat's Run customers have disappeared recently. The culprit is Celia (Medium {@creature Vampire Nightbringer|XMM}), who is Cazador Szarr's enemy. Celia was once a human."
+        ],
+        [
+          "2",
+          "Wants to hire the gnome Braig Littletoe (Small {@creature Bandit|XMM}) to source a powerful magic item Astarion believes will temporarily free him from Cazador's control."
+        ],
+        [
+          "3",
+          "Has hired a pair of human vampire hunters named Tarena and Tali (Medium {@creature Bandit Captain|XMM|Bandit Captains}) to assassinate Violet. Unfortunately, Violet has discovered this plan and has turned the vampire hunters on Astarion."
+        ],
+        [
+          "4",
+          "Has lured too many customers to their death, and the manager of Rat's Run has placed a bounty on Astarion. Astarion visits the tavern with the characters and doesn't know the regulars plan to kill him."
+        ]
+      ],
+      "name": "Rat's Run Adventures; Rat's Run Plots",
+      "source": "ABH",
+      "chapter": {
+        "name": "Adventures with Astarion",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

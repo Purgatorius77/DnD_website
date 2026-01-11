@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Air Envelopes of Creatures",
+      "colLabels": [
+        "Creature's Size",
+        "Air Envelope"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Tiny",
+          "2½-foot cube"
+        ],
+        [
+          "Small or Medium",
+          "5-foot cube"
+        ],
+        [
+          "Large",
+          "10-foot cube"
+        ],
+        [
+          "Huge",
+          "15-foot cube"
+        ],
+        [
+          "Gargantuan",
+          "20-foot cube"
+        ]
+      ],
+      "name": "Air Envelopes of Creatures",
+      "page": 17,
+      "source": "AAG",
+      "chapter": {
+        "name": "Astral Adventuring",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

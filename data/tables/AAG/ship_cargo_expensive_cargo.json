@@ -1,0 +1,71 @@
+{
+  "table": [
+    {
+      "caption": "Expensive Cargo",
+      "colLabels": [
+        "d12",
+        "Cargo"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Crate containing fifty blank {@item Spellbook|PHB|spellbooks} (50 gp each)"
+        ],
+        [
+          "2",
+          "Crate containing one hundred {@item Ink (1-ounce bottle)|PHB|1-ounce bottles of ink} (10 gp each) and one thousand sheets of {@item Parchment (one sheet)|PHB|parchment} (1 sp each)"
+        ],
+        [
+          "3",
+          "Crate containing twenty {@item Potion of Healing||potions of healing}, {@item Alchemist's Fire (flask)|PHB|flasks of alchemist's fire}, or {@item Antitoxin (vial)|PHB|vials of antitoxin} (50 gp each)"
+        ],
+        [
+          "4",
+          "Crate containing one hundred bottles of exquisite wine (25 gp each)"
+        ],
+        [
+          "5",
+          "Set of exquisitely crafted furniture (2,500 gp)"
+        ],
+        [
+          "6",
+          "Locked trunk containing five unloaded {@item Pistol||pistols} (250 gp each) and a box of 100 bullets"
+        ],
+        [
+          "7",
+          "Locked case containing an exquisite Dragonchess set made of crystal or ivory (2,500 gp)"
+        ],
+        [
+          "8",
+          "Locked trunk containing ten {@item Bomb||bombs} (150 gp each; see \"{@book Explosives|DMG|9|Explosives}\" in the {@book Dungeon Master's Guide|DMG})"
+        ],
+        [
+          "9",
+          "Crate containing one hundred fireworks (25 gp each)"
+        ],
+        [
+          "10",
+          "Crate containing five unloaded {@item Musket||muskets} (500 gp each) and a box of 100 bullets"
+        ],
+        [
+          "11",
+          "Locked case containing five {@item Spyglass|PHB|spyglasses} (1,000 gp each)"
+        ],
+        [
+          "12",
+          "Ten 20-pound {@item Gunpowder Keg||kegs of gunpowder} (250 gp each; see \"{@book Explosives|DMG|9|Explosives}\" in the {@book Dungeon Master's Guide|DMG})"
+        ]
+      ],
+      "name": "Ship Cargo; Expensive Cargo",
+      "source": "AAG",
+      "chapter": {
+        "name": "Additional Spelljammer Tables",
+        "index": 4
+      }
+    }
+  ]
+}
