@@ -1,0 +1,110 @@
+{
+  "table": [
+    {
+      "caption": "Dark Fantasy Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "1/8",
+          "{@creature Gremishka|VRGR}",
+          "VGR"
+        ],
+        [
+          "1/4",
+          "{@creature Goblin}",
+          "{@book MM|MM}"
+        ],
+        [
+          "1/4",
+          "{@creature Sprite}",
+          "{@book MM|MM}"
+        ],
+        [
+          "3",
+          "{@creature Displacer beast}",
+          "{@book MM|MM}"
+        ],
+        [
+          "4",
+          "{@creature Shadow demon}",
+          "{@book MM|MM}"
+        ],
+        [
+          "5",
+          "{@creature Umber hulk}",
+          "{@book MM|MM}"
+        ],
+        [
+          "6",
+          "{@creature Drider}",
+          "{@book MM|MM}"
+        ],
+        [
+          "7",
+          "{@creature Necrichor|VRGR}",
+          "VGR"
+        ],
+        [
+          "8",
+          "{@creature Fomorian}",
+          "{@book MM|MM}"
+        ],
+        [
+          "8",
+          "{@creature Inquisitor of the Mind Fire|VRGR}",
+          "VGR"
+        ],
+        [
+          "10",
+          "{@creature Yochlol}",
+          "{@book MM|MM}"
+        ],
+        [
+          "13",
+          "{@creature Beholder}",
+          "{@book MM|MM}"
+        ],
+        [
+          "15",
+          "{@creature Purple worm}",
+          "{@book MM|MM}"
+        ],
+        [
+          "17",
+          "{@creature Death knight}",
+          "{@book MM|MM}"
+        ],
+        [
+          "17",
+          "{@creature Adult blue dracolich}",
+          "{@book MM|MM}"
+        ],
+        [
+          "21",
+          "{@creature Lich}",
+          "{@book MM|MM}"
+        ]
+      ],
+      "name": "Dark Fantasy Monsters",
+      "page": 50,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Creating Domains of Dread",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "table": [
+    {
+      "caption": "Cosmic Horror Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "1/4",
+          "{@creature Kuo-toa}",
+          "{@book MM|MM}"
+        ],
+        [
+          "2",
+          "{@creature Intellect devourer}",
+          "{@book MM|MM}"
+        ],
+        [
+          "2",
+          "{@creature Pentadrone}",
+          "{@book MM|MM}"
+        ],
+        [
+          "3",
+          "{@creature Brain in a jar|VRGR}",
+          "VGR"
+        ],
+        [
+          "3",
+          "{@creature Githyanki warrior}",
+          "{@book MM|MM}"
+        ],
+        [
+          "3",
+          "{@creature Grell}",
+          "{@book MM|MM}"
+        ],
+        [
+          "5",
+          "{@creature Vampiric mind flayer|VRGR}",
+          "VGR"
+        ],
+        [
+          "7",
+          "{@creature Bodytaker plant|VRGR}",
+          "VGR"
+        ],
+        [
+          "7",
+          "{@creature Mind flayer}",
+          "{@book MM|MM}"
+        ],
+        [
+          "7",
+          "{@creature Yuan-ti abomination}",
+          "{@book MM|MM}"
+        ],
+        [
+          "8",
+          "{@creature Unspeakable horror|VRGR}",
+          "VGR"
+        ],
+        [
+          "10",
+          "{@creature Aboleth}",
+          "{@book MM|MM}"
+        ],
+        [
+          "13",
+          "{@creature Beholder}",
+          "{@book MM|MM}"
+        ],
+        [
+          "19",
+          "{@creature Lesser star spawn emissary|VRGR}",
+          "VGR"
+        ],
+        [
+          "21",
+          "{@creature Greater star spawn emissary|VRGR}",
+          "VGR"
+        ],
+        [
+          "23",
+          "{@creature Kraken}",
+          "{@book MM|MM}"
+        ]
+      ],
+      "name": "Cosmic Horror Monsters",
+      "page": 48,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Creating Domains of Dread",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

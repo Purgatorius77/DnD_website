@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Noble Families and Estates",
+      "colLabels": [
+        "Noble Family",
+        "Estate Name"
+      ],
+      "colStyles": [
+        "col-6 text-center",
+        "col-6 text-center"
+      ],
+      "rows": [
+        [
+          "Boritsi",
+          "Misericordia"
+        ],
+        [
+          "Dilisnya",
+          "Degravo"
+        ],
+        [
+          "Eris",
+          "Coairdeiador"
+        ],
+        [
+          "Ivliskova",
+          "Abreptoro"
+        ],
+        [
+          "Nobriskov",
+          "Cubratdis"
+        ],
+        [
+          "Nuikin",
+          "Esecklae"
+        ],
+        [
+          "Ocrotire",
+          "Sanctesalat"
+        ],
+        [
+          "Olzanik",
+          "Kinisaradia"
+        ],
+        [
+          "Piechota",
+          "Alieselti"
+        ],
+        [
+          "Pretorius",
+          "Mundorhova"
+        ],
+        [
+          "Ritter",
+          "Vetistiqua"
+        ],
+        [
+          "Tatenna",
+          "Fulchighora"
+        ]
+      ],
+      "name": "Misericordia and Other Noble Estates; Noble Families and Estates",
+      "page": 77,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Domains of Ravenloft",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

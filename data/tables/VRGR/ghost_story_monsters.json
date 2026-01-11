@@ -1,0 +1,85 @@
+{
+  "table": [
+    {
+      "caption": "Ghost Story Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "{@creature Death's head|VRGR}",
+          "VGR"
+        ],
+        [
+          "1",
+          "{@creature Animated armor}",
+          "{@book MM|MM}"
+        ],
+        [
+          "1",
+          "{@creature Death dog}",
+          "{@book MM|MM}"
+        ],
+        [
+          "1",
+          "{@creature Scarecrow}",
+          "{@book MM|MM}"
+        ],
+        [
+          "2",
+          "{@creature Specter} ({@creature poltergeist})",
+          "{@book MM|MM}"
+        ],
+        [
+          "4",
+          "{@creature Banshee}",
+          "{@book MM|MM}"
+        ],
+        [
+          "4",
+          "{@creature Ghost}",
+          "{@book MM|MM}"
+        ],
+        [
+          "5",
+          "{@creature Revenant}",
+          "{@book MM|MM}"
+        ],
+        [
+          "6",
+          "{@creature Gallows Speaker|VRGR|Gallow speaker}",
+          "VGR"
+        ],
+        [
+          "9",
+          "{@creature Treant}",
+          "{@book MM|MM}"
+        ],
+        [
+          "10",
+          "{@creature Dullahan|VRGR}",
+          "VGR"
+        ]
+      ],
+      "name": "Ghost Story Monsters",
+      "page": 54,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Creating Domains of Dread",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

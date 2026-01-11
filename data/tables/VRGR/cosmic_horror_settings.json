@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Cosmic Horror Settings",
+      "colLabels": [
+        "d8",
+        "Setting"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A wind-blasted dimension of indigo sand and eyeless statues"
+        ],
+        [
+          "2",
+          "A world with slowly vanishing land masses being consumed by an obsidian sea"
+        ],
+        [
+          "3",
+          "A kingdom of rusting spires ruled by oblivious academics"
+        ],
+        [
+          "4",
+          "A land possessed by fear of the colossi that move only during dawn and dusk"
+        ],
+        [
+          "5",
+          "A red ocean that manifested without warning"
+        ],
+        [
+          "6",
+          "An ambulatory forest riddled with glowing eyes"
+        ],
+        [
+          "7",
+          "A kingdom of undying monarchs who outnumber their frightened subjects"
+        ],
+        [
+          "8",
+          "A dimension of featureless white, broken up only by the eyes that blink across the landscape"
+        ]
+      ],
+      "name": "Cosmic Horror Settings",
+      "page": 49,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Creating Domains of Dread",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

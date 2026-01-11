@@ -1,0 +1,90 @@
+{
+  "table": [
+    {
+      "caption": "Body Horror Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-7 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@creature Carrionette|VRGR}",
+          "VGR"
+        ],
+        [
+          "2",
+          "{@creature Gibbering mouther}",
+          "{@book MM|MM}"
+        ],
+        [
+          "3",
+          "{@creature Carrion stalker|VRGR}",
+          "VGR"
+        ],
+        [
+          "3",
+          "{@creature Doppelganger}",
+          "{@book MM|MM}"
+        ],
+        [
+          "4",
+          "{@creature Black pudding}",
+          "{@book MM|MM}"
+        ],
+        [
+          "4",
+          "{@creature Strigoi|VRGR}",
+          "VGR"
+        ],
+        [
+          "5",
+          "{@creature Flesh golem}",
+          "{@book MM|MM}"
+        ],
+        [
+          "5",
+          "{@creature Red slaad}",
+          "{@book MM|MM}"
+        ],
+        [
+          "6",
+          "{@creature Medusa}",
+          "{@book MM|MM}"
+        ],
+        [
+          "6",
+          "{@creature Zombie clot|VRGR}",
+          "VGR"
+        ],
+        [
+          "8",
+          "{@creature Chain devil}",
+          "{@book MM|MM}"
+        ],
+        [
+          "10",
+          "{@creature Aboleth}",
+          "{@book MM|MM}"
+        ]
+      ],
+      "name": "Body Horror Monsters",
+      "page": 45,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Creating Domains of Dread",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

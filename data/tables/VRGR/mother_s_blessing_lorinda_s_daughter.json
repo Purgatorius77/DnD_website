@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Lorinda's Daughter",
+      "colLabels": [
+        "d6",
+        "Laoirse's Form",
+        "Statistics",
+        "CR"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-4",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "Giant upright-walking ram",
+          "{@creature Minotaur}",
+          "3"
+        ],
+        [
+          "2",
+          "Humanoid made of wicker",
+          "{@creature Shambling mound}",
+          "5"
+        ],
+        [
+          "3",
+          "Dozens of stitched together corpses",
+          "{@creature Zombie clot|VRGR}*",
+          "6"
+        ],
+        [
+          "4",
+          "Shivering, hairless, rabbit-bear",
+          "{@creature Abominable yeti}",
+          "9"
+        ],
+        [
+          "5",
+          "Bipedal wolf-elk",
+          "{@creature Loup garou|VRGR}*",
+          "13"
+        ],
+        [
+          "6",
+          "Giant, shrieking, bipedal sheep",
+          "{@creature Goristro}",
+          "17"
+        ]
+      ],
+      "name": "Mother's Blessing; Lorinda's Daughter",
+      "page": 161,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Domains of Ravenloft",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

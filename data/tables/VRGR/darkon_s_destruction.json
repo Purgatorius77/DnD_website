@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Darkon's Destruction",
+      "colLabels": [
+        "d4",
+        "Destruction"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "With Azalin gone, Darkon has no purpose. The Shadowfell is reabsorbing the demiplane."
+        ],
+        [
+          "2",
+          "Darkon is being consumed to fuel magic funneling power from Castle Avernus into the King's Tear."
+        ],
+        [
+          "3",
+          "The Hour of Ascension was an attack. Invaders are using the Shroud to disguise their assault."
+        ],
+        [
+          "4",
+          "The {@creature Priest of Osybus|VRGR|priests of Osybus} (see {@book chapter 5|VRGR|5|Priests of Osybus}) are draining life from Darkon to empower the imprisoned vestige of a wicked deity."
+        ]
+      ],
+      "name": "Darkon's Destruction",
+      "page": 92,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Domains of Ravenloft",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

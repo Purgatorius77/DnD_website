@@ -1,0 +1,188 @@
+{
+  "table": [
+    {
+      "caption": "Domains of Ravenloft",
+      "colLabels": [
+        "d100",
+        "Domain"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–04",
+          "{@book Barovia|VRGR|3}*"
+        ],
+        [
+          "05–06",
+          "{@book Bluetspur|VRGR|3}*"
+        ],
+        [
+          "07–09",
+          "{@book Borca|VRGR|3}*"
+        ],
+        [
+          "10–12",
+          "{@book Carnival|VRGR|3}*"
+        ],
+        [
+          "13–14",
+          "{@book Cyre 1313|VRGR|3|Cyre 1313, The Mourning Rail}"
+        ],
+        [
+          "15–18",
+          "{@book Darkon|VRGR|3}*"
+        ],
+        [
+          "19–21",
+          "{@book Dementlieu|VRGR|3}*"
+        ],
+        [
+          "22–24",
+          "{@book Falkovnia|VRGR|3}*"
+        ],
+        [
+          "25–26",
+          "{@book Forlorn|VRGR|3|Forlorn}"
+        ],
+        [
+          "27–28",
+          "{@book Ghastria|VRGR|3|Ghastria}"
+        ],
+        [
+          "29–30",
+          "{@book G'henna|VRGR|3|G'henna}"
+        ],
+        [
+          "31–33",
+          "{@book Har'Akir|VRGR|3}*"
+        ],
+        [
+          "34–36",
+          "{@book Hazlan|VRGR|3}*"
+        ],
+        [
+          "37–39",
+          "{@book I'Cath|VRGR|3}*"
+        ],
+        [
+          "40–41",
+          "{@book Invidia|VRGR|3|Invidia}"
+        ],
+        [
+          "42–44",
+          "{@book Kalakeri|VRGR|3}*"
+        ],
+        [
+          "45–47",
+          "{@book Kartakass|VRGR|3}*"
+        ],
+        [
+          "48–49",
+          "{@book Keening|VRGR|3|Keening}"
+        ],
+        [
+          "50–51",
+          "{@book Klorr|VRGR|3|Klorr}"
+        ],
+        [
+          "52–54",
+          "{@book Lamordia|VRGR|3}*"
+        ],
+        [
+          "55–56",
+          "{@book Markovia|VRGR|3|Markovia}"
+        ],
+        [
+          "57–59",
+          "{@book Mordent|VRGR|3}*"
+        ],
+        [
+          "60–62",
+          "{@book Nightmare Lands|VRGR|3|The Nightmare Lands}"
+        ],
+        [
+          "63–64",
+          "{@book Niranjan|VRGR|3|Niranjan}"
+        ],
+        [
+          "65–66",
+          "{@book Nova Vaasa|VRGR|3|Nova Vaasa}"
+        ],
+        [
+          "67–69",
+          "{@book Odaire|VRGR|3|Odaire}"
+        ],
+        [
+          "70–71",
+          "{@book Rider's Bridge|VRGR|3|The Rider's Bridge}"
+        ],
+        [
+          "72–74",
+          "{@book Richemulot|VRGR|3}*"
+        ],
+        [
+          "75–76",
+          "{@book Risibilos|VRGR|3|Risibilos}"
+        ],
+        [
+          "77–78",
+          "{@book Scaena|VRGR|3|Scaena}"
+        ],
+        [
+          "79–81",
+          "{@book Sea of Sorrows|VRGR|3|Sea of Sorrows}"
+        ],
+        [
+          "82–83",
+          "{@book Shadowlands|VRGR|3|The Shadowlands}"
+        ],
+        [
+          "84–85",
+          "{@book Souragne|VRGR|3|Souragne}"
+        ],
+        [
+          "86–87",
+          "{@book Staunton Bluffs|VRGR|3|Staunton Bluffs}"
+        ],
+        [
+          "88–90",
+          "{@book Tepest|VRGR|3}*"
+        ],
+        [
+          "91–92",
+          "{@book Tovag|VRGR|3|Tovag}"
+        ],
+        [
+          "93–95",
+          "{@book Valachan|VRGR|3}*"
+        ],
+        [
+          "96–97",
+          "{@book Vhage Agency|VRGR|3|Vhage Agency}"
+        ],
+        [
+          "98–99",
+          "{@book Zherisia|VRGR|3|Zherisia}"
+        ],
+        [
+          "100",
+          "DM's design"
+        ]
+      ],
+      "name": "Domains of Ravenloft",
+      "page": 168,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Domains of Ravenloft",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

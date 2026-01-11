@@ -1,0 +1,156 @@
+{
+  "table": [
+    {
+      "caption": "Creatures by Challenge Rating",
+      "colLabels": [
+        "CR",
+        "Creature"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1/8",
+          "{@creature Gremishka|VRGR}"
+        ],
+        [
+          "1/2",
+          "{@creature Death's head|VRGR}"
+        ],
+        [
+          "1/2",
+          "{@creature Podling|VRGR}"
+        ],
+        [
+          "1",
+          "{@creature Boneless|VRGR}"
+        ],
+        [
+          "1",
+          "{@creature Carrionette|VRGR}"
+        ],
+        [
+          "1",
+          "{@creature Swarm of zombie limbs|VRGR}"
+        ],
+        [
+          "2",
+          "{@creature Swarm of gremishkas|VRGR}"
+        ],
+        [
+          "2",
+          "{@creature Swarm of maggots|VRGR}"
+        ],
+        [
+          "2",
+          "{@creature Wereraven|VRGR}"
+        ],
+        [
+          "3",
+          "{@creature Brain in a jar|VRGR}"
+        ],
+        [
+          "3",
+          "{@creature Carrion stalker|VRGR}"
+        ],
+        [
+          "3",
+          "{@creature Swarm of scarabs|VRGR}"
+        ],
+        [
+          "4",
+          "{@creature Strigoi|VRGR}"
+        ],
+        [
+          "4",
+          "{@creature Zombie plague spreader|VRGR}"
+        ],
+        [
+          "5",
+          "{@creature Vampiric mind flayer|VRGR}"
+        ],
+        [
+          "6",
+          "{@creature Gallows speaker|VRGR}"
+        ],
+        [
+          "6",
+          "{@creature Priest of Osybus|VRGR}"
+        ],
+        [
+          "6",
+          "{@creature Zombie clot|VRGR}"
+        ],
+        [
+          "7",
+          "{@creature Bodytaker plant|VRGR}"
+        ],
+        [
+          "7",
+          "{@creature Necrichor|VRGR}"
+        ],
+        [
+          "8",
+          "{@creature Inquisitor of the Mind Fire|VRGR}"
+        ],
+        [
+          "8",
+          "{@creature Inquisitor of the Sword|VRGR}"
+        ],
+        [
+          "8",
+          "{@creature Inquisitor of the Tome|VRGR}"
+        ],
+        [
+          "8",
+          "{@creature Nosferatu|VRGR}"
+        ],
+        [
+          "8",
+          "{@creature Relentless slasher|VRGR}"
+        ],
+        [
+          "8",
+          "{@creature Unspeakable horror|VRGR}"
+        ],
+        [
+          "9",
+          "{@creature Jiangshi|VRGR}"
+        ],
+        [
+          "10",
+          "{@creature Dullahan|VRGR}"
+        ],
+        [
+          "12",
+          "{@creature Relentless juggernaut|VRGR}"
+        ],
+        [
+          "13",
+          "{@creature Loup garou|VRGR}"
+        ],
+        [
+          "19",
+          "{@creature Lesser star spawn emissary|VRGR}"
+        ],
+        [
+          "21",
+          "{@creature Greater star spawn emissary|VRGR}"
+        ]
+      ],
+      "name": "Bestiary; Creatures by Challenge Rating",
+      "page": 226,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Monsters of Ravenloft",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

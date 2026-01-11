@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Darkon's Salvation",
+      "colLabels": [
+        "d6",
+        "Method"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Find or restore Azalin and return him to Darkon."
+        ],
+        [
+          "2",
+          "Present the Dark Powers a worthy new Darklord."
+        ],
+        [
+          "3",
+          "Bestow a symbol of rule upon a new Darklord."
+        ],
+        [
+          "4",
+          "Free Darkon from the Shadowfell."
+        ],
+        [
+          "5",
+          "Merge Darkon with another domain."
+        ],
+        [
+          "6",
+          "Trick another Darklord into entering Darkon."
+        ]
+      ],
+      "name": "Darkon's Salvation",
+      "page": 92,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Domains of Ravenloft",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

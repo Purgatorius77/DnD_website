@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Aberrant Evidence",
+      "colLabels": [
+        "d6",
+        "Evidence"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A needle-like device buried under someone's skin"
+        ],
+        [
+          "2",
+          "An inexplicable crater or circle of scorched crops"
+        ],
+        [
+          "3",
+          "A stable full of exploded livestock"
+        ],
+        [
+          "4",
+          "An {@item antimatter rifle} (detailed in the {@book Dungeon Master's Guide|DMG})"
+        ],
+        [
+          "5",
+          "A missing person or otherworldly being transformed into a {@creature brain in a jar|VRGR} (see {@book chapter 5|VRGR|5|Brain in a Jar})"
+        ],
+        [
+          "6",
+          "The damaged corpse of a {@creature vampiric mind flayer|VRGR} (see {@book chapter 5|VRGR|5|Vampiric Mind Flayer})"
+        ]
+      ],
+      "name": "Alien Artifacts; Aberrant Evidence",
+      "page": 75,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Domains of Ravenloft",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

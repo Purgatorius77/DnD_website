@@ -1,0 +1,75 @@
+{
+  "table": [
+    {
+      "caption": "Folk Horror Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-7 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "1/2",
+          "{@creature Myconid adult}",
+          "{@book MM|MM}"
+        ],
+        [
+          "2",
+          "{@creature Awakened tree}",
+          "{@book MM|MM}"
+        ],
+        [
+          "2",
+          "{@creature Cult fanatic}",
+          "{@book MM|MM}"
+        ],
+        [
+          "2",
+          "{@creature Will-o'-wisp}",
+          "{@book MM|MM}"
+        ],
+        [
+          "3",
+          "{@creature Green hag}",
+          "{@book MM|MM}"
+        ],
+        [
+          "3",
+          "{@creature Werewolf}",
+          "{@book MM|MM}"
+        ],
+        [
+          "5",
+          "{@creature Shambling mound}",
+          "{@book MM|MM}"
+        ],
+        [
+          "7",
+          "{@creature Bodytaker plant|VRGR}",
+          "VGR"
+        ],
+        [
+          "9",
+          "{@creature Jiangshi|VRGR}",
+          "VGR"
+        ]
+      ],
+      "name": "Folk Horror Monsters",
+      "page": 52,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Creating Domains of Dread",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

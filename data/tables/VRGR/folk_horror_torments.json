@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Folk Horror Torments",
+      "colLabels": [
+        "d6",
+        "Torment"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The Darklord can't commune with the spirit they worship. They offer ever greater sacrifices in hopes of proving their worthiness."
+        ],
+        [
+          "2",
+          "The Darklord constantly, uncontrollably speaks prophecies."
+        ],
+        [
+          "3",
+          "The Darklord is haunted by the judgmental spirits of their predecessors."
+        ],
+        [
+          "4",
+          "The Darklord is the only one who adheres to an ancient faith and desperately works to convert nonbelievers."
+        ],
+        [
+          "5",
+          "The Darklord seeks to transform their body into a vessel or gate for the subject of their belief."
+        ],
+        [
+          "6",
+          "The Darklord knows the community's beliefs are false but keeps up the facade to maintain power."
+        ]
+      ],
+      "name": "Folk Horror Torments",
+      "page": 53,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Creating Domains of Dread",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

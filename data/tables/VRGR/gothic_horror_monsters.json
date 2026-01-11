@@ -1,0 +1,85 @@
+{
+  "table": [
+    {
+      "caption": "Gothic Horror Monsters",
+      "colLabels": [
+        "Challenge",
+        "Creature",
+        "Source"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-7 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "1/4",
+          "{@creature Zombie}",
+          "{@book MM|MM}"
+        ],
+        [
+          "1",
+          "{@creature Ghoul}",
+          "{@book MM|MM}"
+        ],
+        [
+          "2",
+          "{@creature Gargoyle}",
+          "{@book MM|MM}"
+        ],
+        [
+          "2",
+          "{@creature Wereraven|VRGR}",
+          "VGR"
+        ],
+        [
+          "3",
+          "{@creature Green hag}",
+          "{@book MM|MM}"
+        ],
+        [
+          "3",
+          "{@creature Werewolf}",
+          "{@book MM|MM}"
+        ],
+        [
+          "4",
+          "{@creature Succubus}/ {@creature incubus}",
+          "{@book MM|MM}"
+        ],
+        [
+          "8",
+          "{@creature Nosferatu|VRGR}",
+          "VGR"
+        ],
+        [
+          "11",
+          "{@creature Efreeti}",
+          "{@book MM|MM}"
+        ],
+        [
+          "13",
+          "{@creature Loup garou|VRGR}",
+          "VGR"
+        ],
+        [
+          "13",
+          "{@creature Vampire}",
+          "{@book MM|MM}"
+        ]
+      ],
+      "name": "Gothic Horror Monsters",
+      "page": 56,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Creating Domains of Dread",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

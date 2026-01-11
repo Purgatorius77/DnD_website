@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Darkon Rivals",
+      "colLabels": [
+        "d6",
+        "Rival"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Alcio Metus and the Kargat"
+        ],
+        [
+          "2",
+          "Darcalus Rex and the Eternal Order"
+        ],
+        [
+          "3",
+          "Madame Talisveri Eris and the Family"
+        ],
+        [
+          "4",
+          "Ebbasheyth, Azalin's black shadow dragon advisor"
+        ],
+        [
+          "5",
+          "A cursed artifact held within an Order of the Guardians monastery"
+        ],
+        [
+          "6",
+          "Azalin's shadow, an echo of the Darklord"
+        ]
+      ],
+      "name": "Darkon Rivals",
+      "page": 92,
+      "source": "VRGR",
+      "chapter": {
+        "name": "Domains of Ravenloft",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}
