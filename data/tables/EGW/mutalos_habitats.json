@@ -1,0 +1,59 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "d8",
+        "Habitat"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Arctic"
+        ],
+        [
+          "2",
+          "Desert"
+        ],
+        [
+          "3",
+          "Forest"
+        ],
+        [
+          "4",
+          "Grassland"
+        ],
+        [
+          "5",
+          "Hill"
+        ],
+        [
+          "6",
+          "Mountain"
+        ],
+        [
+          "7",
+          "Ocean"
+        ],
+        [
+          "8",
+          "Swamp"
+        ]
+      ],
+      "name": "Mutalos Habitats",
+      "page": 128,
+      "source": "EGW",
+      "chapter": {
+        "name": "Wildemount Gazetteer",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 4
+      }
+    }
+  ]
+}

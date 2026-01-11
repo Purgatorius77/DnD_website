@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Greying Wildlands Settlements",
+      "colLabels": [
+        "d100",
+        "Settlement Name",
+        "Type"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "01–03",
+          "Boroftkrah",
+          "Town"
+        ],
+        [
+          "04–06",
+          "Palebank Village",
+          "Village"
+        ],
+        [
+          "07–30",
+          "Shadycreek Run",
+          "City"
+        ],
+        [
+          "31–00",
+          "Uthodurn",
+          "City"
+        ]
+      ],
+      "name": "Backstory; Greying Wildlands Settlements",
+      "page": 191,
+      "source": "EGW",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 5
+      }
+    }
+  ]
+}

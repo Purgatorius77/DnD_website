@@ -1,0 +1,196 @@
+{
+  "table": [
+    {
+      "caption": "Social Status Relationships",
+      "colLabels": [
+        "d20",
+        "Background",
+        "Clovis Concord",
+        "Dwendalian Empire",
+        "Greying Wildlands",
+        "Kryn Dynasty"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@background Acolyte}",
+          "1 ally",
+          "1 ally (legal faith) or 1 rival (illegal faith)",
+          "1 rival",
+          "1 ally"
+        ],
+        [
+          "2",
+          "{@background Luxonborn (Acolyte)|EGW|Acolyte (Luxonborn)}",
+          "—",
+          "1 rival",
+          "—",
+          "1 ally"
+        ],
+        [
+          "3",
+          "{@background Charlatan}",
+          "1 ally",
+          "1 rival",
+          "1 ally",
+          "1 rival"
+        ],
+        [
+          "4",
+          "{@background Variant Criminal (Spy)||Criminal}",
+          "1 rival",
+          "1 rival",
+          "1 ally",
+          "1 rival"
+        ],
+        [
+          "5",
+          "{@background Myriad Operative (Criminal)|EGW|Criminal (Myriad operative)}",
+          "1 rival",
+          "1 ally",
+          "1 rival",
+          "—"
+        ],
+        [
+          "6",
+          "{@background Entertainer}",
+          "1 ally",
+          "1 ally",
+          "1 rival",
+          "1 ally"
+        ],
+        [
+          "7",
+          "{@background Folk Hero}",
+          "1 ally",
+          "1 rival",
+          "1 rival",
+          "1 ally"
+        ],
+        [
+          "8",
+          "{@background Grinner|EGW}",
+          "1 ally",
+          "1 rival",
+          "—",
+          "—"
+        ],
+        [
+          "9",
+          "{@background Variant Guild Artisan (Guild Merchant)||Guild Artisan}",
+          "1 rival",
+          "1 ally",
+          "—",
+          "1 ally"
+        ],
+        [
+          "10",
+          "{@background Hermit}",
+          "—",
+          "1 rival",
+          "1 ally",
+          "1 ally"
+        ],
+        [
+          "11",
+          "{@background Noble}",
+          "1 ally",
+          "1 ally and 1 rival",
+          "1 rival",
+          "1 ally and 1 rival"
+        ],
+        [
+          "12",
+          "{@background Outlander}",
+          "—",
+          "—",
+          "1 ally",
+          "—"
+        ],
+        [
+          "13",
+          "{@background Sage}",
+          "1 rival",
+          "1 rival",
+          "—",
+          "1 ally"
+        ],
+        [
+          "14",
+          "{@background Cobalt Scholar (Sage)|EGW|Sage (Cobalt Scholar)}",
+          "1 ally",
+          "1 ally and 1 rival",
+          "1 ally",
+          "1 rival"
+        ],
+        [
+          "15",
+          "{@background Sailor}",
+          "1 ally and 1 rival",
+          "—",
+          "1 rival",
+          "1 ally"
+        ],
+        [
+          "16",
+          "{@background Revelry Pirate (Sailor)|EGW|Sailor (Revelry pirate)}",
+          "1 ally and 1 rival",
+          "—",
+          "1 ally",
+          "—"
+        ],
+        [
+          "17",
+          "{@background Soldier}",
+          "1 ally",
+          "1 ally and 1 rival",
+          "1 rival",
+          "1 ally and 1 rival"
+        ],
+        [
+          "18",
+          "{@background Augen Trust (Spy)|EGW|Spy (Augen Trust)}",
+          "—",
+          "1 ally",
+          "—",
+          "1 rival"
+        ],
+        [
+          "19",
+          "{@background Urchin}",
+          "1 ally",
+          "1 rival",
+          "1 rival",
+          "1 rival"
+        ],
+        [
+          "20",
+          "{@background Volstrucker Agent|EGW}",
+          "—",
+          "1 ally",
+          "—",
+          "1 rival"
+        ]
+      ],
+      "name": "Heroic Chronicle; Social Status Relationships",
+      "page": 190,
+      "source": "EGW",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 5
+      }
+    }
+  ]
+}

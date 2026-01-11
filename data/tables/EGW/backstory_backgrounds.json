@@ -1,0 +1,130 @@
+{
+  "table": [
+    {
+      "caption": "Backgrounds",
+      "colLabels": [
+        "d20",
+        "Background",
+        "Reference"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-9",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@background Acolyte}",
+          "PH"
+        ],
+        [
+          "2",
+          "{@background Luxonborn (Acolyte)|EGW|Acolyte (Luxonborn)}",
+          "EGW"
+        ],
+        [
+          "3",
+          "{@background Charlatan}",
+          "PH"
+        ],
+        [
+          "4",
+          "{@background Variant Criminal (Spy)||Criminal}",
+          "PH"
+        ],
+        [
+          "5",
+          "{@background Myriad Operative (Criminal)|EGW|Criminal (Myriad operative)}",
+          "EGW"
+        ],
+        [
+          "6",
+          "{@background Entertainer}",
+          "PH"
+        ],
+        [
+          "7",
+          "{@background Folk Hero}",
+          "PH"
+        ],
+        [
+          "8",
+          "{@background Grinner|EGW}",
+          "EGW"
+        ],
+        [
+          "9",
+          "{@background Variant Guild Artisan (Guild Merchant)||Guild Artisan}",
+          "PH"
+        ],
+        [
+          "10",
+          "{@background Hermit}",
+          "PH"
+        ],
+        [
+          "11",
+          "{@background Noble}",
+          "PH"
+        ],
+        [
+          "12",
+          "{@background Outlander}",
+          "PH"
+        ],
+        [
+          "13",
+          "{@background Sage}",
+          "PH"
+        ],
+        [
+          "14",
+          "{@background Cobalt Scholar (Sage)|EGW|Sage (Cobalt Scholar)}",
+          "EGW"
+        ],
+        [
+          "15",
+          "{@background Sailor}",
+          "PH"
+        ],
+        [
+          "16",
+          "{@background Revelry Pirate (Sailor)|EGW|Sailor (Revelry pirate)}",
+          "EGW"
+        ],
+        [
+          "17",
+          "{@background Soldier}",
+          "PH"
+        ],
+        [
+          "18",
+          "{@background Augen Trust (Spy)|EGW|Spy (Augen Trust)}",
+          "EGW"
+        ],
+        [
+          "19",
+          "{@background Urchin}",
+          "PH"
+        ],
+        [
+          "20",
+          "{@background Volstrucker Agent|EGW}",
+          "EGW"
+        ]
+      ],
+      "name": "Backstory; Backgrounds",
+      "page": 191,
+      "source": "EGW",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 5
+      }
+    }
+  ]
+}

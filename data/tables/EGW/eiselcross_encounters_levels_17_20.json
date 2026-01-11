@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Eiselcross Encounters: Levels 17–20",
+      "colLabels": [
+        "d8",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The characters find the buried top of an Aeorian tower that crashed into the ice. Ice fills the lower levels of the tower, and {@dice 1d4 + 1} {@creature Aeorian Nullifier|EGW|Aeorian nullifiers} (see {@book chapter 7|EGW|8|Aeorian Nullifier}) are frozen in the ice."
+        ],
+        [
+          "2",
+          "The characters encounter {@dice 2d6} gladiator wormkin (see \"{@book Tomb of the Worm|EGW|4|Tomb of the Worm}\" later in this chapter) attempting to force-feed a group of {@dice 3d6} wildfolk {@creature Commoner||commoners} the meat of the Undermaw."
+        ],
+        [
+          "3",
+          "The characters find a humanoid skull frozen in the ice. If they free the skull, it comes alive, revealing its true form as a {@creature demilich}."
+        ],
+        [
+          "4",
+          "The characters encounter two {@creature Mage||mages} from Balenpost planning to steal an Aeorian item from a camp of {@dice 3d6} {@creature Frost Giant||frost giants} and their tamed {@creature frost worm|EGW} (see {@book chapter 7|EGW|8|Frost Worm}) The mages ask for the characters' help with the heist."
+        ],
+        [
+          "5",
+          "The characters encounter the {@creature ghost} of an Aeorian citizen. If the characters are kind to the ghost, the undead might be able to share the history of the crashed city with the characters."
+        ],
+        [
+          "6",
+          "The characters encounter {@dice 2d6} {@creature Frost Giant Zombie|EGW|frost giant zombies} (see {@book chapter 7|EGW|8|Frost Giant Zombie}). These zombies did not come from the Fortress of the Dead Jarl. Their origin is up to you."
+        ],
+        [
+          "7",
+          "The characters cross over an area of thin ice. A {@creature kraken} obsessed with Aeor floats beneath the ice and orders the characters to share any knowledge they have of the place or face its wrath."
+        ],
+        [
+          "8",
+          "An {@creature ancient white dragon} ambushes the characters."
+        ]
+      ],
+      "name": "Eiselcross Encounters: Levels 17–20",
+      "page": 122,
+      "source": "EGW",
+      "chapter": {
+        "name": "Wildemount Gazetteer",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 4
+      }
+    }
+  ]
+}

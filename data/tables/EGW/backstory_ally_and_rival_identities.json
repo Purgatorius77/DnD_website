@@ -1,0 +1,124 @@
+{
+  "table": [
+    {
+      "caption": "Ally and Rival Identities",
+      "colLabels": [
+        "d100",
+        "Stat Block"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–05",
+          "{@creature Commoner} (MM)"
+        ],
+        [
+          "06–10",
+          "{@creature Acolyte} (MM)"
+        ],
+        [
+          "11–15",
+          "{@creature Bandit} (MM)"
+        ],
+        [
+          "16–20",
+          "{@creature Bandit captain} (MM)"
+        ],
+        [
+          "21–25",
+          "{@creature Berserker} (MM)"
+        ],
+        [
+          "26–30",
+          "{@creature Cultist} (MM)"
+        ],
+        [
+          "31–35",
+          "{@creature Cult fanatic} (MM); gain one fateful moment"
+        ],
+        [
+          "36–40",
+          "{@creature Druid} (MM)"
+        ],
+        [
+          "41–45",
+          "{@creature Gladiator} (MM); gain one fateful moment"
+        ],
+        [
+          "46–50",
+          "{@creature Guard} (MM)"
+        ],
+        [
+          "51–55",
+          "{@creature Knight} (MM)"
+        ],
+        [
+          "56–60",
+          "{@creature Priest} (MM)"
+        ],
+        [
+          "61–65",
+          "{@creature Scout} (MM)"
+        ],
+        [
+          "66–70",
+          "{@creature Spy} (MM)"
+        ],
+        [
+          "71–75",
+          "{@creature Tribal warrior} (MM)"
+        ],
+        [
+          "76–80",
+          "{@creature Veteran} (MM)"
+        ],
+        [
+          "81–84",
+          "{@creature Mage} (MM); gain one fateful moment"
+        ],
+        [
+          "85–88",
+          "{@creature Noble} (MM); gain one fateful moment"
+        ],
+        [
+          "89–92",
+          "{@creature Assassin} (MM); gain one fateful moment"
+        ],
+        [
+          "93–94",
+          "{@creature Blood hunter|EGW} (EGW); gain one fateful moment"
+        ],
+        [
+          "95–96",
+          "Good or neutral {@creature werebear} or {@creature weretiger} (DM's choice; MM); gain one fateful moment"
+        ],
+        [
+          "97–98",
+          "Evil {@creature wereboar}, {@creature wererat}, or {@creature werewolf} (DM's choice; MM); gain one fateful moment"
+        ],
+        [
+          "99",
+          "{@creature Archmage} (MM); gain one fateful moment"
+        ],
+        [
+          "00",
+          "{@creature Adult gold dragon} or {@creature adult red dragon} (DM's choice; MM); gain one fateful moment"
+        ]
+      ],
+      "name": "Backstory; Ally and Rival Identities",
+      "page": 191,
+      "source": "EGW",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Eiselcross Encounters: Levels 5–10",
+      "colLabels": [
+        "d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The characters encounter {@dice 1d4 + 1} {@creature Mammoth||mammoths} being hunted by {@dice 2d6} wildfolk {@creature Scout||scouts}."
+        ],
+        [
+          "2",
+          "An {@creature abominable yeti} and {@dice 1d4} {@creature Yeti||yetis} stalk the characters."
+        ],
+        [
+          "3",
+          "The characters encounter {@dice 2d4} {@creature Allowak Yeti|EGW|yetis from Allowak's Sanctuary} (see \"{@book Allowak's Sanctuary Yeti Statistics|EGW|4|Allowak's Sanctuary Yeti Statistics}\" later in this chapter). The yetis attempt to scare the characters away but do not wish to do harm."
+        ],
+        [
+          "4",
+          "The characters pass an Aeorian building that crashed nearby. The building contains {@dice 1d4 + 4} {@creature Wight||wights}."
+        ],
+        [
+          "5",
+          "An {@creature Aeorian absorber|EGW} (see {@book chapter 7|EGW|8|Aeorian Absorber}) ambushes the characters."
+        ],
+        [
+          "6",
+          "The characters encounter a large herd of elk. If the characters scare the elk, {@dice 1d6} {@creature elk} attack while the rest of the herd flees. During the combat, a {@creature remorhaz} bursts out of the snow and attacks indiscriminately."
+        ]
+      ],
+      "name": "Eiselcross Encounters: Levels 5–10",
+      "page": 122,
+      "source": "EGW",
+      "chapter": {
+        "name": "Wildemount Gazetteer",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 4
+      }
+    }
+  ]
+}

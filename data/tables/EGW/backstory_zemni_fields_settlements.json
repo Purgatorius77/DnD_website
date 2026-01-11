@@ -1,0 +1,85 @@
+{
+  "table": [
+    {
+      "caption": "Zemni Fields Settlements",
+      "colLabels": [
+        "d100",
+        "Settlement Name",
+        "Type"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "01",
+          "Blumenthal",
+          "Town"
+        ],
+        [
+          "02–07",
+          "Bysaes Tyl",
+          "City"
+        ],
+        [
+          "08–11",
+          "Druvenlode",
+          "City"
+        ],
+        [
+          "12–13",
+          "Icehaven",
+          "Town"
+        ],
+        [
+          "14–18",
+          "Nogvurot",
+          "City"
+        ],
+        [
+          "19–20",
+          "Odessloe",
+          "City"
+        ],
+        [
+          "21–26",
+          "Pride's Call",
+          "City"
+        ],
+        [
+          "27–96",
+          "Rexxentrum",
+          "City"
+        ],
+        [
+          "97–98",
+          "Rockguard Garrison",
+          "Military outpost"
+        ],
+        [
+          "99",
+          "Velvin Thicket",
+          "Nomadic diaspora"
+        ],
+        [
+          "00",
+          "Yrrosa",
+          "Town"
+        ]
+      ],
+      "name": "Backstory; Zemni Fields Settlements",
+      "page": 191,
+      "source": "EGW",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 5
+      }
+    }
+  ]
+}

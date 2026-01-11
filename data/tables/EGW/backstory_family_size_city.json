@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Family Size (City)",
+      "colLabels": [
+        "d100",
+        "Number of Parents",
+        "Number of Siblings"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2"
+      ],
+      "rows": [
+        [
+          "01–05",
+          "3 or more",
+          "{@dice 2d4 + 2}"
+        ],
+        [
+          "06–60",
+          "2",
+          "{@dice 2d4}"
+        ],
+        [
+          "61–80",
+          "1",
+          "{@dice 1d4}"
+        ],
+        [
+          "81–00",
+          "0",
+          "0"
+        ]
+      ],
+      "name": "Backstory; Family Size (City)",
+      "page": 191,
+      "source": "EGW",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 5
+      }
+    }
+  ]
+}
