@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Space Increase",
+        "Cost",
+        "Time Required"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4 text-right",
+        "col-4 text-right"
+      ],
+      "rows": [
+        [
+          "Cramped to Roomy",
+          "500 GP",
+          "25 days"
+        ],
+        [
+          "Roomy to Vast",
+          "2,000 GP",
+          "80 days"
+        ]
+      ],
+      "name": "Enlarging Basic Facilities",
+      "page": 335,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Bastions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 8
+        },
+        "index": 7
+      }
+    }
+  ]
+}

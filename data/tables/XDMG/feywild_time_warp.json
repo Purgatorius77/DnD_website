@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Feywild Time Warp",
+      "colLabels": [
+        "1d20",
+        "Result"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–2",
+          "Days become minutes"
+        ],
+        [
+          "3–6",
+          "Days become hours"
+        ],
+        [
+          "7–13",
+          "No change"
+        ],
+        [
+          "14–17",
+          "Days become weeks"
+        ],
+        [
+          "18–19",
+          "Days become months"
+        ],
+        [
+          "20",
+          "Days become years"
+        ]
+      ],
+      "name": "Feywild Time Warp",
+      "page": 196,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

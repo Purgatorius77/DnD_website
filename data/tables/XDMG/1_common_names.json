@@ -1,0 +1,91 @@
+{
+  "table": [
+    {
+      "caption": "1: Common Names",
+      "isNameGenerator": true,
+      "colLabels": [
+        "1d12",
+        "Common Given Name",
+        "Common Surname"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Adrik",
+          "Brightsun"
+        ],
+        [
+          "2",
+          "Alvyn",
+          "Dundragon"
+        ],
+        [
+          "3",
+          "Aurora",
+          "Frostbeard"
+        ],
+        [
+          "4",
+          "Eldeth",
+          "Garrick"
+        ],
+        [
+          "5",
+          "Eldon",
+          "Goodbarrel"
+        ],
+        [
+          "6",
+          "Farris",
+          "Greycastle"
+        ],
+        [
+          "7",
+          "Kathra",
+          "Ironfist"
+        ],
+        [
+          "8",
+          "Kellen",
+          "Jaerin"
+        ],
+        [
+          "9",
+          "Lily",
+          "Merryweather"
+        ],
+        [
+          "10",
+          "Nissa",
+          "Redthorn"
+        ],
+        [
+          "11",
+          "Xinli",
+          "Stormriver"
+        ],
+        [
+          "12",
+          "Zorra",
+          "Wren"
+        ]
+      ],
+      "name": "1: Common Names",
+      "page": 84,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

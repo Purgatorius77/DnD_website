@@ -1,0 +1,91 @@
+{
+  "table": [
+    {
+      "caption": "6: Whimsical Names",
+      "isNameGenerator": true,
+      "colLabels": [
+        "1d12",
+        "Whimsical Given Name",
+        "Whimsical Surname"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Cricket",
+          "Borogove"
+        ],
+        [
+          "2",
+          "Daisy",
+          "Goldjoy"
+        ],
+        [
+          "3",
+          "Dimble",
+          "Hoddypeak"
+        ],
+        [
+          "4",
+          "Ellywick",
+          "Huddle"
+        ],
+        [
+          "5",
+          "Erky",
+          "Jollywind"
+        ],
+        [
+          "6",
+          "Fiddlestyx",
+          "Oneshoe"
+        ],
+        [
+          "7",
+          "Fonkin",
+          "Scramblewise"
+        ],
+        [
+          "8",
+          "Golly",
+          "Sunnyhill"
+        ],
+        [
+          "9",
+          "Mimsy",
+          "Tallgrass"
+        ],
+        [
+          "10",
+          "Pumpkin",
+          "Timbers"
+        ],
+        [
+          "11",
+          "Quarrel",
+          "Underbough"
+        ],
+        [
+          "12",
+          "Sybilwick",
+          "Wimbly"
+        ]
+      ],
+      "name": "6: Whimsical Names",
+      "page": 84,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

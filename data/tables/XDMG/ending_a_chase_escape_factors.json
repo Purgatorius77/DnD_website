@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Escape Factors",
+      "colLabels": [
+        "Factor",
+        "Check Has..."
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "Many things to hide behind",
+          "Advantage"
+        ],
+        [
+          "A very crowded area",
+          "Advantage"
+        ],
+        [
+          "Few things to hide behind",
+          "Disadvantage"
+        ],
+        [
+          "An uncrowded area",
+          "Disadvantage"
+        ]
+      ],
+      "name": "Ending a Chase; Escape Factors",
+      "page": 53,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

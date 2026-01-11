@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "50 GP Gemstones",
+      "colLabels": [
+        "1d12",
+        "Stone"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Bloodstone|XDMG} (dark gray with red flecks)"
+        ],
+        [
+          "2",
+          "{@item Carnelian|XDMG} (orange to red brown)"
+        ],
+        [
+          "3",
+          "{@item Chalcedony|XDMG} (white)"
+        ],
+        [
+          "4",
+          "{@item Chrysoprase|XDMG} (green)"
+        ],
+        [
+          "5",
+          "{@item Citrine|XDMG} (pale yellow brown)"
+        ],
+        [
+          "6",
+          "{@item Jasper|XDMG} (blue, black, or brown)"
+        ],
+        [
+          "7",
+          "{@item Moonstone|XDMG} (white with pale-blue glow)"
+        ],
+        [
+          "8",
+          "{@item Onyx|XDMG} (bands of black and white, or pure black or white)"
+        ],
+        [
+          "9",
+          "{@item Quartz|XDMG} (white, smoky gray, or yellow)"
+        ],
+        [
+          "10",
+          "{@item Sardonyx|XDMG} (bands of red and white)"
+        ],
+        [
+          "11",
+          "{@item Star rose quartz|XDMG} (rosy stone with white star-shaped center)"
+        ],
+        [
+          "12",
+          "{@item Zircon|XDMG} (pale blue green)"
+        ]
+      ],
+      "name": "50 GP Gemstones",
+      "page": 214,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

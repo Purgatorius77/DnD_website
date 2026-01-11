@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "10 GP Gemstones",
+      "colLabels": [
+        "1d12",
+        "Stone"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Azurite|XDMG} (mottled deep blue)"
+        ],
+        [
+          "2",
+          "{@item Banded agate|XDMG} (striped brown, blue, white, or red)"
+        ],
+        [
+          "3",
+          "{@item Blue quartz|XDMG} (pale blue)"
+        ],
+        [
+          "4",
+          "{@item Eye agate|XDMG} (circles of gray, white, brown, blue, or green)"
+        ],
+        [
+          "5",
+          "{@item Hematite|XDMG} (gray black)"
+        ],
+        [
+          "6",
+          "{@item Lapis lazuli|XDMG} (light and dark blue with yellow flecks)"
+        ],
+        [
+          "7",
+          "{@item Malachite|XDMG} (striated light and dark green)"
+        ],
+        [
+          "8",
+          "{@item Moss agate|XDMG} (pink or yellow white with mossy gray or green markings)"
+        ],
+        [
+          "9",
+          "{@item Obsidian|XDMG} (black)"
+        ],
+        [
+          "10",
+          "{@item Rhodochrosite|XDMG} (light pink)"
+        ],
+        [
+          "11",
+          "{@item Tiger eye|XDMG} (brown with golden center)"
+        ],
+        [
+          "12",
+          "{@item Turquoise|XDMG} (light blue green)"
+        ]
+      ],
+      "name": "10 GP Gemstones",
+      "page": 214,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

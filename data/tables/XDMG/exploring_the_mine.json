@@ -1,0 +1,51 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d6",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Four {@creature Violet Fungus|XMM|Violet Fungi} and one {@creature Rust Monster|XMM}"
+        ],
+        [
+          "2",
+          "One {@creature Giant Spider|XMM} and two {@creature Swarm of Insects|XMM|Swarms of Insects} (spiders)"
+        ],
+        [
+          "3",
+          "One {@creature Darkmantle|XMM} and three {@creature Piercer|XMM|Piercers}"
+        ],
+        [
+          "4",
+          "A patch of {@book yellow mold|XDMG|2|Yellow Mold} (see \"{@book Hazards|XDMG|2|Hazards}\" in {@book chapter 3|XDMG|2}) on a miner's remains"
+        ],
+        [
+          "5",
+          "One {@creature Gelatinous Cube|XMM}"
+        ],
+        [
+          "6",
+          "Sounds of Terror (see below)"
+        ]
+      ],
+      "name": "Exploring the Mine",
+      "page": 123,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "1d8",
+        "Details"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Accident reports are way down."
+        ],
+        [
+          "2",
+          "The leak in the roof has been fixed."
+        ],
+        [
+          "3",
+          "No vermin infestations to report."
+        ],
+        [
+          "4",
+          "You-Know-Who lost their spectacles again."
+        ],
+        [
+          "5",
+          "One of your hirelings adopted a stray dog."
+        ],
+        [
+          "6",
+          "You received a lovely letter from a friend."
+        ],
+        [
+          "7",
+          "Some practical joker has been putting rotten eggs in people's boots."
+        ],
+        [
+          "8",
+          "Someone thought they saw a ghost."
+        ]
+      ],
+      "name": "All Is Well",
+      "page": 350,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Bastions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 8
+        },
+        "index": 7
+      }
+    }
+  ]
+}

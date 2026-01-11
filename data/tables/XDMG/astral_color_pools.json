@@ -1,0 +1,125 @@
+{
+  "table": [
+    {
+      "caption": "Astral Color Pools",
+      "colLabels": [
+        "1d20",
+        "Plane",
+        "Pool Color"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Abyss",
+          "Amethyst"
+        ],
+        [
+          "2",
+          "Acheron",
+          "Flame red"
+        ],
+        [
+          "3",
+          "Arborea",
+          "Sapphire blue"
+        ],
+        [
+          "4",
+          "Arcadia",
+          "Saffron"
+        ],
+        [
+          "5",
+          "Beastlands",
+          "Emerald green"
+        ],
+        [
+          "6",
+          "Bytopia",
+          "Amber"
+        ],
+        [
+          "7",
+          "Carceri",
+          "Olive"
+        ],
+        [
+          "8",
+          "Elysium",
+          "Orange"
+        ],
+        [
+          "9",
+          "Ethereal Plane",
+          "Spiraling white"
+        ],
+        [
+          "10",
+          "Gehenna",
+          "Russet"
+        ],
+        [
+          "11",
+          "Hades",
+          "Rust"
+        ],
+        [
+          "12",
+          "Limbo",
+          "Jet black"
+        ],
+        [
+          "13–14",
+          "Material Plane",
+          "Silver"
+        ],
+        [
+          "15",
+          "Mechanus",
+          "Diamond blue"
+        ],
+        [
+          "16",
+          "Mount Celestia",
+          "Gold"
+        ],
+        [
+          "17",
+          "Nine Hells",
+          "Ruby"
+        ],
+        [
+          "18",
+          "Outlands",
+          "Leather brown"
+        ],
+        [
+          "19",
+          "Pandemonium",
+          "Magenta"
+        ],
+        [
+          "20",
+          "Ysgard",
+          "Indigo"
+        ]
+      ],
+      "name": "Astral Color Pools",
+      "page": 184,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

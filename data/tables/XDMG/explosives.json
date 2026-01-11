@@ -1,0 +1,65 @@
+{
+  "table": [
+    {
+      "caption": "Explosives",
+      "colLabels": [
+        "Item",
+        "Cost",
+        "Weight"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-2 text-right",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@item Bomb|XDMG}",
+          "100 GP",
+          "1 lb."
+        ],
+        [
+          "{@item Dynamite Stick|XDMG}",
+          "—",
+          "1 lb."
+        ],
+        [
+          "{@item Fragmentation Grenade|XDMG|Grenade, Fragmentation}",
+          "—",
+          "1 lb."
+        ],
+        [
+          "{@item Grenade Launcher|XDMG}",
+          "—",
+          "7 lb."
+        ],
+        [
+          "{@item Smoke Grenade|XDMG|Grenade, Smoke}",
+          "50 GP",
+          "2 lb."
+        ],
+        [
+          "{@item Gunpowder (keg)|XDMG}",
+          "250 GP",
+          "20 lb."
+        ],
+        [
+          "{@item Gunpowder (powder horn)|XDMG}",
+          "35 GP",
+          "2 lb."
+        ]
+      ],
+      "name": "Explosives",
+      "page": 72,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

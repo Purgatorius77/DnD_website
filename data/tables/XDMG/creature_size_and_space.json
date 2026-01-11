@@ -1,0 +1,62 @@
+{
+  "table": [
+    {
+      "caption": "Creature Size and Space",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Size",
+        "Space in Squares",
+        "Space in Hexes"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "Tiny",
+          "4 per square",
+          "4 per hex"
+        ],
+        [
+          "Small",
+          "1 square",
+          "1 hex"
+        ],
+        [
+          "Medium",
+          "1 square",
+          "1 hex"
+        ],
+        [
+          "Large",
+          "4 squares (2 by 2)",
+          "3 hexes"
+        ],
+        [
+          "Huge",
+          "9 squares (3 by 3)",
+          "7 hexes"
+        ],
+        [
+          "Gargantuan",
+          "16 squares (4 by 4) or more",
+          "12 hexes or more"
+        ]
+      ],
+      "name": "Creature Size and Space",
+      "page": 44,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Running the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

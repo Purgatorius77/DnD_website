@@ -1,0 +1,54 @@
+{
+  "table": [
+    {
+      "caption": "Typical DCs",
+      "srd52": true,
+      "basicRules2024": true,
+      "colLabels": [
+        "Task",
+        "DC"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Very easy",
+          "5"
+        ],
+        [
+          "Easy",
+          "10"
+        ],
+        [
+          "Moderate",
+          "15"
+        ],
+        [
+          "Hard",
+          "20"
+        ],
+        [
+          "Very hard",
+          "25"
+        ],
+        [
+          "Nearly impossible",
+          "30"
+        ]
+      ],
+      "name": "Difficulty Class; Typical DCs",
+      "page": 29,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Running the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

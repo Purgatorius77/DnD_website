@@ -1,0 +1,91 @@
+{
+  "table": [
+    {
+      "caption": "5: Sinister Names",
+      "isNameGenerator": true,
+      "colLabels": [
+        "1d12",
+        "Sinister Given Name",
+        "Sinister Surname"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Arachne",
+          "Doomwhisper"
+        ],
+        [
+          "2",
+          "Axyss",
+          "Dreadfield"
+        ],
+        [
+          "3",
+          "Carrion",
+          "Gallows"
+        ],
+        [
+          "4",
+          "Grinnus",
+          "Hellstryke"
+        ],
+        [
+          "5",
+          "Melkhis",
+          "Killraven"
+        ],
+        [
+          "6",
+          "Morthos",
+          "Nightblade"
+        ],
+        [
+          "7",
+          "Nadir",
+          "Norixius"
+        ],
+        [
+          "8",
+          "Scandal",
+          "Shadowfang"
+        ],
+        [
+          "9",
+          "Skellendyre",
+          "Valtar"
+        ],
+        [
+          "10",
+          "Thaltus",
+          "Winterspell"
+        ],
+        [
+          "11",
+          "Valkora",
+          "Xandros"
+        ],
+        [
+          "12",
+          "Vexander",
+          "Zarkynzorn"
+        ]
+      ],
+      "name": "5: Sinister Names",
+      "page": 84,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "table": [
+    {
+      "caption": "Implements - Common",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–02",
+          "{@item Bead of Nourishment|XDMG}"
+        ],
+        [
+          "03–04",
+          "{@item Bead of Refreshment|XDMG}"
+        ],
+        [
+          "05–06",
+          "{@item Boots of False Tracks|XDMG}"
+        ],
+        [
+          "07–08",
+          "{@item Candle of the Deep|XDMG}"
+        ],
+        [
+          "09–10",
+          "{@item Charlatan's Die|XDMG}"
+        ],
+        [
+          "11–13",
+          "{@item Cloak of Many Fashions|XDMG}"
+        ],
+        [
+          "14–15",
+          "{@item Clockwork Amulet|XDMG}"
+        ],
+        [
+          "16–17",
+          "{@item Ear Horn of Hearing|XDMG}"
+        ],
+        [
+          "18–19",
+          "{@item Ersatz Eye|XDMG}"
+        ],
+        [
+          "20–21",
+          "{@item Heward's Handy Spice Pouch|XDMG}"
+        ],
+        [
+          "22–23",
+          "{@item Horn of Silent Alarm|XDMG}"
+        ],
+        [
+          "24–25",
+          "{@item Instrument of Illusions|XDMG}"
+        ],
+        [
+          "26–27",
+          "{@item Instrument of Scribing|XDMG}"
+        ],
+        [
+          "28–29",
+          "{@item Lock of Trickery|XDMG}"
+        ],
+        [
+          "30–32",
+          "{@item Moon-Touched Sword|XDMG}"
+        ],
+        [
+          "33–34",
+          "{@item Mystery Key|XDMG}"
+        ],
+        [
+          "35–36",
+          "{@item Orb of Direction|XDMG}"
+        ],
+        [
+          "37–38",
+          "{@item Orb of Time|XDMG}"
+        ],
+        [
+          "39–40",
+          "{@item Perfume of Bewitching|XDMG}"
+        ],
+        [
+          "41–42",
+          "{@item Pipe of Smoke Monsters|XDMG}"
+        ],
+        [
+          "43–44",
+          "{@item Pole of Angling|XDMG}"
+        ],
+        [
+          "45–46",
+          "{@item Pole of Collapsing|XDMG}"
+        ],
+        [
+          "47–52",
+          "{@item Potion of Climbing|XDMG}"
+        ],
+        [
+          "53–58",
+          "{@item Potion of Comprehension|XDMG}"
+        ],
+        [
+          "59–74",
+          "{@item Potion of Healing|XDMG}"
+        ],
+        [
+          "75–76",
+          "{@item Prosthetic Limb|XDMG}"
+        ],
+        [
+          "77–78",
+          "{@item Rope of Mending|XDMG}"
+        ],
+        [
+          "79–80",
+          "{@item Staff of Birdcalls|XDMG}"
+        ],
+        [
+          "81–82",
+          "{@item Sylvan Talon|XDMG}"
+        ],
+        [
+          "83–84",
+          "{@item Talking Doll|XDMG}"
+        ],
+        [
+          "85–86",
+          "{@item Tankard of Sobriety|XDMG}"
+        ],
+        [
+          "87–90",
+          "{@item Veteran's Cane|XDMG}"
+        ],
+        [
+          "91–92",
+          "{@item Walloping Ammunition|XDMG}"
+        ],
+        [
+          "93–94",
+          "{@item Wand of Conducting|XDMG}"
+        ],
+        [
+          "95–97",
+          "{@item Wand of Enemy Detection|XDMG}"
+        ],
+        [
+          "98–00",
+          "{@item Wand of Pyrotechnics|XDMG}"
+        ]
+      ],
+      "name": "Implements - Common",
+      "page": 329,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

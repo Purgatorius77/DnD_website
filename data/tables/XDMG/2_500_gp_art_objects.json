@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "2,500 GP Art Objects",
+      "colLabels": [
+        "1d10",
+        "Object"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Fine gold chain set with a fire opal|XDMG}"
+        ],
+        [
+          "2",
+          "{@item Old masterpiece painting|XDMG}"
+        ],
+        [
+          "3",
+          "{@item Embroidered silk and velvet mantle set with numerous moonstones|XDMG}"
+        ],
+        [
+          "4",
+          "{@item Platinum bracelet set with an emerald|XDMG}"
+        ],
+        [
+          "5",
+          "{@item Embroidered glove set with jewel chips|XDMG}"
+        ],
+        [
+          "6",
+          "{@item Jeweled anklet|XDMG}"
+        ],
+        [
+          "7",
+          "{@item Gold music box|XDMG}"
+        ],
+        [
+          "8",
+          "{@item Gold circlet set with four aquamarines|XDMG}"
+        ],
+        [
+          "9",
+          "{@item Eye patch decorated with tiny blue sapphires and moonstones|XDMG}"
+        ],
+        [
+          "10",
+          "A {@item necklace string of small pink pearls|XDMG}"
+        ]
+      ],
+      "name": "2,500 GP Art Objects",
+      "page": 215,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

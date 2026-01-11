@@ -1,0 +1,172 @@
+{
+  "table": [
+    {
+      "caption": "Arcana - Common",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–02",
+          "{@item Bead of Nourishment|XDMG}"
+        ],
+        [
+          "03–04",
+          "{@item Bead of Refreshment|XDMG}"
+        ],
+        [
+          "05–07",
+          "{@item Candle of the Deep|XDMG}"
+        ],
+        [
+          "08–10",
+          "{@item Cloak of Billowing|XDMG}"
+        ],
+        [
+          "11–13",
+          "{@item Cloak of Many Fashions|XDMG}"
+        ],
+        [
+          "14–15",
+          "{@item Clothes of Mending|XDMG}"
+        ],
+        [
+          "16–17",
+          "{@item Dark Shard Amulet|XDMG}"
+        ],
+        [
+          "18–19",
+          "{@item Enduring Spellbook|XDMG}"
+        ],
+        [
+          "20–21",
+          "{@item Ersatz Eye|XDMG}"
+        ],
+        [
+          "22–24",
+          "{@item Hat of Vermin|XDMG}"
+        ],
+        [
+          "25–27",
+          "{@item Hat of Wizardry|XDMG}"
+        ],
+        [
+          "28–29",
+          "{@item Heward's Handy Spice Pouch|XDMG}"
+        ],
+        [
+          "30–31",
+          "{@item Horn of Silent Alarm|XDMG}"
+        ],
+        [
+          "32–33",
+          "{@item Instrument of Illusions|XDMG}"
+        ],
+        [
+          "34–35",
+          "{@item Instrument of Scribing|XDMG}"
+        ],
+        [
+          "36–37",
+          "{@item Lock of Trickery|XDMG}"
+        ],
+        [
+          "38–40",
+          "{@item Mystery Key|XDMG}"
+        ],
+        [
+          "41–42",
+          "{@item Orb of Direction|XDMG}"
+        ],
+        [
+          "43–44",
+          "{@item Orb of Time|XDMG}"
+        ],
+        [
+          "45–46",
+          "{@item Perfume of Bewitching|XDMG}"
+        ],
+        [
+          "47–49",
+          "{@item Pipe of Smoke Monsters|XDMG}"
+        ],
+        [
+          "50–52",
+          "{@item Potion of Climbing|XDMG}"
+        ],
+        [
+          "53–55",
+          "{@item Potion of Comprehension|XDMG}"
+        ],
+        [
+          "56–58",
+          "{@item Pot of Awakening|XDMG}"
+        ],
+        [
+          "59–60",
+          "{@item Prosthetic Limb|XDMG}"
+        ],
+        [
+          "61–64",
+          "{@item Rival Coin|XDMG}"
+        ],
+        [
+          "65–66",
+          "{@item Rope of Mending|XDMG}"
+        ],
+        [
+          "67–68",
+          "{@item Ruby of the War Mage|XDMG}"
+        ],
+        [
+          "69–82",
+          "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Cantrip)|XDMG|cantrip} or {@item Spell Scroll (Level 1)|XDMG|level 1} spell)"
+        ],
+        [
+          "83–84",
+          "{@item Staff of Adornment|XDMG}"
+        ],
+        [
+          "85–86",
+          "{@item Staff of Birdcalls|XDMG}"
+        ],
+        [
+          "87–89",
+          "{@item Staff of Flowers|XDMG}"
+        ],
+        [
+          "90–92",
+          "{@item Talking Doll|XDMG}"
+        ],
+        [
+          "93–94",
+          "{@item Tankard of Sobriety|XDMG}"
+        ],
+        [
+          "95–97",
+          "{@item Wand of Conducting|XDMG}"
+        ],
+        [
+          "98–00",
+          "{@item Wand of Pyrotechnics|XDMG}"
+        ]
+      ],
+      "name": "Arcana - Common",
+      "page": 326,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "table": [
+    {
+      "caption": "Armaments - Rare",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–03",
+          "{@item +2 Ammunition|XDMG|Ammunition, +2}"
+        ],
+        [
+          "04–07",
+          "{@item +1 Armor|XDMG|Armor, +1}"
+        ],
+        [
+          "08–10",
+          "{@item Armor of Resistance|XDMG}"
+        ],
+        [
+          "11–13",
+          "{@item Armor of Vulnerability|XDMG}"
+        ],
+        [
+          "14–15",
+          "{@item Arrow-Catching Shield|XDMG}"
+        ],
+        [
+          "16–18",
+          "{@item Belt of Hill Giant Strength|XDMG|Belt of Giant Strength (hill)}"
+        ],
+        [
+          "19–20",
+          "{@item Berserker Axe|XDMG}"
+        ],
+        [
+          "21–22",
+          "{@item Daern's Instant Fortress|XDMG}"
+        ],
+        [
+          "23–25",
+          "{@item Dagger of Venom|XDMG}"
+        ],
+        [
+          "26–28",
+          "{@item Dragon Slayer|XDMG}"
+        ],
+        [
+          "29–31",
+          "{@item Elven Chain|XDMG}"
+        ],
+        [
+          "32–34",
+          "{@item Enspelled Armor|XDMG} (level 2 or 3 spell)"
+        ],
+        [
+          "35–37",
+          "{@item Enspelled Weapon|XDMG} (level 2 or 3 spell)"
+        ],
+        [
+          "38–40",
+          "{@item Flame Tongue|XDMG}"
+        ],
+        [
+          "41–43",
+          "{@item Giant Slayer|XDMG}"
+        ],
+        [
+          "44–46",
+          "{@item Horn of Blasting|XDMG}"
+        ],
+        [
+          "47–48",
+          "{@item Horn of Valhalla|XDMG} ({@item Horn of Valhalla, Brass|XDMG|brass} or {@item Horn of Valhalla, Silver|XDMG|silver})"
+        ],
+        [
+          "49–51",
+          "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Protection|XDMG|protection})"
+        ],
+        [
+          "52–54",
+          "{@item Mace of Disruption|XDMG}"
+        ],
+        [
+          "55–57",
+          "{@item Mace of Smiting|XDMG}"
+        ],
+        [
+          "58–60",
+          "{@item Mace of Terror|XDMG}"
+        ],
+        [
+          "61–63",
+          "{@item Potion of Fire Giant Strength|XDMG|Potion of Giant Strength (fire)}"
+        ],
+        [
+          "64–66",
+          "{@item Potion of Giant Strength|XDMG} ({@item Potion of Frost Giant Strength|XDMG|frost} or {@item Potion of Stone Giant Strength|XDMG|stone})"
+        ],
+        [
+          "67–69",
+          "{@item Potion of Heroism|XDMG}"
+        ],
+        [
+          "70–72",
+          "{@item Potion of Invulnerability|XDMG}"
+        ],
+        [
+          "73–75",
+          "{@item Ring of Protection|XDMG}"
+        ],
+        [
+          "76–78",
+          "{@item Ring of the Ram|XDMG}"
+        ],
+        [
+          "79–81",
+          "{@item +2 Shield|XDMG|Shield, +2}"
+        ],
+        [
+          "82–84",
+          "{@item Shield of Missile Attraction|XDMG}"
+        ],
+        [
+          "85–86",
+          "{@item Sun Blade|XDMG}"
+        ],
+        [
+          "87–88",
+          "{@item Sword of Life Stealing|XDMG}"
+        ],
+        [
+          "89–90",
+          "{@item Sword of Wounding|XDMG}"
+        ],
+        [
+          "91–92",
+          "{@item Tentacle Rod|XDMG}"
+        ],
+        [
+          "93–94",
+          "{@item Vicious Weapon|XDMG}"
+        ],
+        [
+          "95–97",
+          "{@item +2 Weapon|XDMG|Weapon, +2}"
+        ],
+        [
+          "98–00",
+          "{@item +2 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +2}"
+        ]
+      ],
+      "name": "Armaments - Rare",
+      "page": 328,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

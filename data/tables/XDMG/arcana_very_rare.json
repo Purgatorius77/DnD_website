@@ -1,0 +1,188 @@
+{
+  "table": [
+    {
+      "caption": "Arcana - Very Rare",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–02",
+          "{@item Amulet of the Planes|XDMG}"
+        ],
+        [
+          "03–04",
+          "{@item Bag of Devouring|XDMG}"
+        ],
+        [
+          "05–06",
+          "{@item Carpet of Flying|XDMG}"
+        ],
+        [
+          "07–08",
+          "{@item Cauldron of Rebirth|XDMG}"
+        ],
+        [
+          "09–10",
+          "{@item Cloak of Arachnida|XDMG}"
+        ],
+        [
+          "11–12",
+          "{@item Crystal Ball|XDMG}"
+        ],
+        [
+          "13",
+          "{@item Dancing Sword|XDMG}"
+        ],
+        [
+          "14",
+          "{@item Efreeti Bottle|XDMG}"
+        ],
+        [
+          "15–16",
+          "{@item Enspelled Staff|XDMG} (level 4 or 5 spell)"
+        ],
+        [
+          "17–18",
+          "{@item Figurine of Wondrous Power, Obsidian Steed|XDMG|Figurine of Wondrous Power (obsidian steed)}"
+        ],
+        [
+          "19–20",
+          "{@item Hat of Many Spells|XDMG}"
+        ],
+        [
+          "21–22",
+          "{@item Helm of Brilliance|XDMG}"
+        ],
+        [
+          "23–24",
+          "{@item Horseshoes of a Zephyr|XDMG}"
+        ],
+        [
+          "25–26",
+          "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Absorption|XDMG|absorption}, {@item Ioun Stone, Fortitude|XDMG|fortitude}, {@item Ioun Stone, Intellect|XDMG|intellect}, or {@item Ioun Stone, Leadership|XDMG|leadership})"
+        ],
+        [
+          "27–28",
+          "{@item Manual of Golems|XDMG} ({@item Manual of Clay Golems|XDMG|clay}, {@item Manual of Flesh Golems|XDMG|flesh}, {@item Manual of Iron Golems|XDMG|iron}, or {@item Manual of Stone Golems|XDMG|stone})"
+        ],
+        [
+          "29",
+          "{@item Mirror of Life Trapping|XDMG}"
+        ],
+        [
+          "30–31",
+          "{@item Nolzur's Marvelous Pigments|XDMG}"
+        ],
+        [
+          "32–34",
+          "{@item Oil of Sharpness|XDMG}"
+        ],
+        [
+          "35–38",
+          "{@item Potion of Flying|XDMG}"
+        ],
+        [
+          "39–42",
+          "{@item Potion of Cloud Giant Strength|XDMG|Potion of Giant Strength (cloud)}"
+        ],
+        [
+          "43–46",
+          "{@item Potion of Greater Invisibility|XDMG}"
+        ],
+        [
+          "47–49",
+          "{@item Potion of Longevity|XDMG}"
+        ],
+        [
+          "50–53",
+          "{@item Potion of Speed|XDMG}"
+        ],
+        [
+          "54–57",
+          "{@item Potion of Vitality|XDMG}"
+        ],
+        [
+          "58–59",
+          "{@item Ring of Regeneration|XDMG}"
+        ],
+        [
+          "60–61",
+          "{@item Ring of Shooting Stars|XDMG}"
+        ],
+        [
+          "62–63",
+          "{@item Ring of Telekinesis|XDMG}"
+        ],
+        [
+          "64–65",
+          "{@item Robe of Scintillating Colors|XDMG}"
+        ],
+        [
+          "66–67",
+          "{@item Robe of Stars|XDMG}"
+        ],
+        [
+          "68–69",
+          "{@item Rod of Absorption|XDMG}"
+        ],
+        [
+          "70–71",
+          "{@item Rod of Security|XDMG}"
+        ],
+        [
+          "72–73",
+          "{@item +3 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper, +3}"
+        ],
+        [
+          "74–85",
+          "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 6)|XDMG|level 6}, {@item Spell Scroll (Level 7)|XDMG|level 7}, or {@item Spell Scroll (Level 8)|XDMG|level 8} spell)"
+        ],
+        [
+          "86–87",
+          "{@item Staff of Fire|XDMG}"
+        ],
+        [
+          "88–89",
+          "{@item Staff of Frost|XDMG}"
+        ],
+        [
+          "90",
+          "{@item Staff of Power|XDMG}"
+        ],
+        [
+          "91–92",
+          "{@item Staff of Thunder and Lightning|XDMG}"
+        ],
+        [
+          "93–94",
+          "{@item Tome of Clear Thought|XDMG}"
+        ],
+        [
+          "95–97",
+          "{@item Wand of Polymorph|XDMG}"
+        ],
+        [
+          "98–00",
+          "{@item +3 Wand of the War Mage|XDMG|Wand of the War Mage, +3}"
+        ]
+      ],
+      "name": "Arcana - Very Rare",
+      "page": 326,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Maintenance Costs",
+      "colLabels": [
+        "Fortification",
+        "Cost per Day"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "Fortified outpost or watchtower",
+          "50 GP"
+        ],
+        [
+          "Keep or small castle",
+          "100 GP"
+        ],
+        [
+          "Large castle or fortress",
+          "400 GP"
+        ]
+      ],
+      "name": "Fortifications; Maintenance Costs",
+      "page": 80,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

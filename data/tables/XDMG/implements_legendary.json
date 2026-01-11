@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Implements - Legendary",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–17",
+          "{@item Enspelled Weapon|XDMG} (level 6, 7, or 8 spell)"
+        ],
+        [
+          "18–34",
+          "{@item Instrument of the Bards|XDMG} ({@item Instrument of the Bards, Ollamh Harp|XDMG|Ollamh harp})"
+        ],
+        [
+          "35–54",
+          "{@item Sovereign Glue|XDMG}"
+        ],
+        [
+          "55–70",
+          "{@item Sphere of Annihilation|XDMG}"
+        ],
+        [
+          "71–83",
+          "{@item Talisman of the Sphere|XDMG}"
+        ],
+        [
+          "84–00",
+          "{@item Universal Solvent|XDMG}"
+        ]
+      ],
+      "name": "Implements - Legendary",
+      "page": 329,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

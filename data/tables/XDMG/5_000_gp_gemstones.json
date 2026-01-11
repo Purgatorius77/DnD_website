@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "5,000 GP Gemstones",
+      "colLabels": [
+        "1d4",
+        "Stone"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Black sapphire|XDMG} (lustrous black with glowing highlights)"
+        ],
+        [
+          "2",
+          "{@item Diamond|XDMG} (blue white, canary, pink, brown, or blue)"
+        ],
+        [
+          "3",
+          "{@item Jacinth|XDMG} (fiery orange)"
+        ],
+        [
+          "4",
+          "{@item Ruby|XDMG} (clear red to deep crimson)"
+        ]
+      ],
+      "name": "5,000 GP Gemstones",
+      "page": 214,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

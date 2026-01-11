@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "7,500 GP Art Objects",
+      "colLabels": [
+        "1d10",
+        "Object"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Jeweled gold crown|XDMG}"
+        ],
+        [
+          "2",
+          "{@item Jeweled platinum ring|XDMG}"
+        ],
+        [
+          "3",
+          "{@item Gold statuette set with rubies|XDMG}"
+        ],
+        [
+          "4",
+          "{@item Gold cup set with emeralds|XDMG}"
+        ],
+        [
+          "5",
+          "{@item Gold jewelry box with platinum filigree|XDMG}"
+        ],
+        [
+          "6",
+          "{@item Set of gold nesting dolls|XDMG}"
+        ],
+        [
+          "7",
+          "{@item Jade game board with gold playing pieces|XDMG}"
+        ],
+        [
+          "8",
+          "{@item Bejeweled ivory drinking horn with gold filigree|XDMG}"
+        ],
+        [
+          "9",
+          "{@item Gilded royal coach or funeral barge|XDMG}"
+        ],
+        [
+          "10",
+          "{@item Ceremonial gold armor with black pearls|XDMG}"
+        ]
+      ],
+      "name": "7,500 GP Art Objects",
+      "page": 215,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

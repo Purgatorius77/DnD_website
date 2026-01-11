@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "100 GP Gemstones",
+      "colLabels": [
+        "1d10",
+        "Stone"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Amber|XDMG} (watery gold to rich gold)"
+        ],
+        [
+          "2",
+          "{@item Amethyst|XDMG} (deep purple)"
+        ],
+        [
+          "3",
+          "{@item Chrysoberyl|XDMG} (yellow green to pale green)"
+        ],
+        [
+          "4",
+          "{@item Coral|XDMG} (crimson)"
+        ],
+        [
+          "5",
+          "{@item Garnet|XDMG} (red, brown green, or violet)"
+        ],
+        [
+          "6",
+          "{@item Jade|XDMG} (light green, deep green, or white)"
+        ],
+        [
+          "7",
+          "{@item Jet|XDMG} (deep black)"
+        ],
+        [
+          "8",
+          "{@item Pearl|XDMG} (lustrous white, yellow, or pink)"
+        ],
+        [
+          "9",
+          "{@item Spinel|XDMG} (red, red brown, or deep green)"
+        ],
+        [
+          "10",
+          "{@item Tourmaline|XDMG} (pale green, blue, brown, or red)"
+        ]
+      ],
+      "name": "100 GP Gemstones",
+      "page": 214,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

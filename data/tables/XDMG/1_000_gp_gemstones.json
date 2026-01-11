@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "1,000 GP Gemstones",
+      "colLabels": [
+        "1d8",
+        "Stone"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Black opal|XDMG} (dark green with black mottling and golden flecks)"
+        ],
+        [
+          "2",
+          "{@item Blue sapphire|XDMG} (medium blue)"
+        ],
+        [
+          "3",
+          "{@item Emerald|XDMG} (deep bright green)"
+        ],
+        [
+          "4",
+          "{@item Fire opal|XDMG} (fiery red)"
+        ],
+        [
+          "5",
+          "{@item Opal|XDMG} (pale blue with green and golden mottling)"
+        ],
+        [
+          "6",
+          "{@item Star ruby|XDMG} (ruby with white star-shaped center)"
+        ],
+        [
+          "7",
+          "{@item Star sapphire|XDMG} (blue sapphire with white star-shaped center)"
+        ],
+        [
+          "8",
+          "{@item Yellow sapphire|XDMG} (fiery yellow or yellow green)"
+        ]
+      ],
+      "name": "1,000 GP Gemstones",
+      "page": 214,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

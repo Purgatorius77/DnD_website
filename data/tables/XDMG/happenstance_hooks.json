@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Happenstance Hooks",
+      "colLabels": [
+        "1d6",
+        "Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The characters find a letter describing the adventure situation."
+        ],
+        [
+          "2",
+          "The characters are on an unrelated quest, such as searching for a particular magic item, that leads them into the adventure situation."
+        ],
+        [
+          "3",
+          "The adventure situation disrupts a festival or ceremony that the characters are attending."
+        ],
+        [
+          "4",
+          "A magical mishap places the characters in the adventure situation."
+        ],
+        [
+          "5",
+          "While traveling in a caravan or aboard a ship, the characters befriend an NPC who has news about the adventure situation."
+        ],
+        [
+          "6",
+          "The characters are attacked after being mistaken for another group of adventurers. They learn about the adventure situation from a clue left behind by their attackers."
+        ]
+      ],
+      "name": "Happenstance Hooks",
+      "page": 111,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Creating Adventures",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 3
+      }
+    }
+  ]
+}

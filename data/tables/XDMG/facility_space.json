@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Facility Space",
+      "colLabels": [
+        "Space",
+        "Maximum Area"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Cramped",
+          "4 squares"
+        ],
+        [
+          "Roomy",
+          "16 squares"
+        ],
+        [
+          "Vast",
+          "36 squares"
+        ]
+      ],
+      "name": "Facility Space",
+      "page": 335,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Bastions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 8
+        },
+        "index": 7
+      }
+    }
+  ]
+}

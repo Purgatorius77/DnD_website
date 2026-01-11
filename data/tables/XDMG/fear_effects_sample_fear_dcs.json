@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Sample Fear DCs",
+      "colLabels": [
+        "Example",
+        "Save DC"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "When the characters open a sarcophagus, a harmless yet terrifying apparition appears.",
+          "10"
+        ],
+        [
+          "A character triggers a magical trap that creates an illusory manifestation of that character's worst fears, visible only to that character.",
+          "15"
+        ],
+        [
+          "A portal to the Abyss opens, revealing a nightmarish realm of torment and slaughter.",
+          "20"
+        ]
+      ],
+      "name": "Fear Effects; Sample Fear DCs",
+      "page": 70,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

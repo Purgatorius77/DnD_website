@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "States of Ruin",
+      "colLabels": [
+        "1d6",
+        "Features"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Perilous. The area is dangerously worn and prone to collapse. Any impacts or damage to the structure, including from spells and other areas of effect, have a 50 percent chance of causing a collapse."
+        ],
+        [
+          "2",
+          "Crumbling. Areas within the dungeon section are choked with rubble and have a 50 percent chance of being {@variantrule Difficult Terrain|XPHB}. {@table Cover|XPHB|Half Cover} and hiding places are plentiful."
+        ],
+        [
+          "3",
+          "Neglected. One dungeon hazard—such as {@book brown mold|XDMG|2|Brown Mold}, {@book green slime|XDMG|2|Green Slime}, or {@book yellow mold|XDMG|2|Yellow Mold} (see \"{@book Hazards|XDMG|2|Hazards}\" in this chapter)—is abundant."
+        ],
+        [
+          "4",
+          "Abandoned. Most of the dungeon is deserted. Dexterity ({@skill Stealth|XPHB}) checks have {@variantrule Disadvantage|XPHB} because any sounds stand out as unusual."
+        ],
+        [
+          "5",
+          "Secure. Ability checks made to break down doors, open locks, or carry out similar activities have Disadvantage."
+        ],
+        [
+          "6",
+          "Thriving. The dungeon is heavily populated. Any loud noises draw the attention of nearby creatures."
+        ]
+      ],
+      "name": "Dungeon Decay; States of Ruin",
+      "page": 67,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

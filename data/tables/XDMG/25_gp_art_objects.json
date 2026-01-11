@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "25 GP Art Objects",
+      "colLabels": [
+        "1d10",
+        "Object"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Silver ewer|XDMG}"
+        ],
+        [
+          "2",
+          "{@item Carved bone statuette|XDMG}"
+        ],
+        [
+          "3",
+          "{@item Gold bracelet|XDMG}"
+        ],
+        [
+          "4",
+          "{@item Cloth-of-gold vestments|XDMG}"
+        ],
+        [
+          "5",
+          "{@item Black velvet mask stitched with silver thread|XDMG}"
+        ],
+        [
+          "6",
+          "{@item Copper chalice with silver filigree|XDMG}"
+        ],
+        [
+          "7",
+          "{@item Pair of engraved bone dice|XDMG}"
+        ],
+        [
+          "8",
+          "{@item Handheld mirror set in a painted wooden frame|XDMG}"
+        ],
+        [
+          "9",
+          "{@item Embroidered silk handkerchief|XDMG}"
+        ],
+        [
+          "10",
+          "{@item Gold locket with a painted portrait inside|XDMG}"
+        ]
+      ],
+      "name": "25 GP Art Objects",
+      "page": 215,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

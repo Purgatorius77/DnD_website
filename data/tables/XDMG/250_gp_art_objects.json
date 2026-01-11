@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "250 GP Art Objects",
+      "colLabels": [
+        "1d10",
+        "Object"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Gold ring set with bloodstones|XDMG}"
+        ],
+        [
+          "2",
+          "{@item Carved ivory statuette|XDMG}"
+        ],
+        [
+          "3",
+          "{@item Bejeweled gold bracelet|XDMG}"
+        ],
+        [
+          "4",
+          "{@item Silver necklace with a gemstone pendant|XDMG}"
+        ],
+        [
+          "5",
+          "{@item Bronze crown|XDMG}"
+        ],
+        [
+          "6",
+          "{@item Silk vestments with gold embroidery|XDMG}"
+        ],
+        [
+          "7",
+          "{@item Well-made tapestry that is 10 feet by 10 feet|XDMG}"
+        ],
+        [
+          "8",
+          "{@item Brass mug with jade inlay|XDMG}"
+        ],
+        [
+          "9",
+          "{@item Box of turquoise animal figurines|XDMG}"
+        ],
+        [
+          "10",
+          "{@item Gold birdcage with electrum filigree|XDMG}"
+        ]
+      ],
+      "name": "250 GP Art Objects",
+      "page": 215,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

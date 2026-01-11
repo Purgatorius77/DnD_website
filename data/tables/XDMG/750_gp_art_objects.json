@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "750 GP Art Objects",
+      "colLabels": [
+        "1d10",
+        "Object"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Silver chalice set with moonstones|XDMG}"
+        ],
+        [
+          "2",
+          "{@item Bundle of sheet music representing the lost dirges of a famous composer|XDMG}"
+        ],
+        [
+          "3",
+          "{@item Carved wooden harp with ivory inlay and zircon gems|XDMG}"
+        ],
+        [
+          "4",
+          "{@item Gold idol|XDMG}"
+        ],
+        [
+          "5",
+          "{@item Gold comb shaped like a dragon with red garnets as eyes|XDMG}"
+        ],
+        [
+          "6",
+          "{@item Bottle stopper cork embossed with gold leaf and set with amethysts|XDMG}"
+        ],
+        [
+          "7",
+          "{@item Detailed, life-sized dragonborn skull cast in electrum|XDMG}"
+        ],
+        [
+          "8",
+          "{@item Silver and gold brooch|XDMG}"
+        ],
+        [
+          "9",
+          "{@item Obsidian statuette with gold fittings and inlay|XDMG}"
+        ],
+        [
+          "10",
+          "{@item Painted gold war mask|XDMG}"
+        ]
+      ],
+      "name": "750 GP Art Objects",
+      "page": 215,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

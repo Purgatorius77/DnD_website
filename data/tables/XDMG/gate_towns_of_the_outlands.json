@@ -1,0 +1,92 @@
+{
+  "table": [
+    {
+      "caption": "Gate-Towns of the Outlands",
+      "colLabels": [
+        "Town",
+        "Gate Destination"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "Automata",
+          "Mechanus"
+        ],
+        [
+          "Bedlam",
+          "Pandemonium"
+        ],
+        [
+          "Curst",
+          "Carceri"
+        ],
+        [
+          "Ecstasy",
+          "Elysium"
+        ],
+        [
+          "Excelsior",
+          "Mount Celestia"
+        ],
+        [
+          "Faunel",
+          "Beastlands"
+        ],
+        [
+          "Fortitude",
+          "Arcadia"
+        ],
+        [
+          "Glorium",
+          "Ysgard"
+        ],
+        [
+          "Hopeless",
+          "Hades"
+        ],
+        [
+          "Plague-Mort",
+          "Abyss"
+        ],
+        [
+          "Ribcage",
+          "Nine Hells"
+        ],
+        [
+          "Rigus",
+          "Acheron"
+        ],
+        [
+          "Sylvania",
+          "Arborea"
+        ],
+        [
+          "Torch",
+          "Gehenna"
+        ],
+        [
+          "Tradegate",
+          "Bytopia"
+        ],
+        [
+          "Xaos",
+          "Limbo"
+        ]
+      ],
+      "name": "Gate-Towns of the Outlands",
+      "page": 205,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Cosmology",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 5
+      }
+    }
+  ]
+}

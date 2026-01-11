@@ -1,0 +1,72 @@
+{
+  "table": [
+    {
+      "caption": "Bastion Events",
+      "colLabels": [
+        "1d100",
+        "Event"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–50",
+          "{@book All Is Well|XDMG|7|All Is Well}"
+        ],
+        [
+          "51–55",
+          "{@book Attack|XDMG|7|Attack}"
+        ],
+        [
+          "56–58",
+          "{@book Criminal Hireling|XDMG|7|Criminal Hireling}"
+        ],
+        [
+          "59–63",
+          "{@book Extraordinary Opportunity|XDMG|7|Extraordinary Opportunity}"
+        ],
+        [
+          "64–72",
+          "{@book Friendly Visitors|XDMG|7|Friendly Visitors}"
+        ],
+        [
+          "73–76",
+          "{@book Guest|XDMG|7|Guest}"
+        ],
+        [
+          "77–79",
+          "{@book Lost Hirelings|XDMG|7|Lost Hirelings}"
+        ],
+        [
+          "80–83",
+          "{@book Magical Discovery|XDMG|7|Magical Discovery}"
+        ],
+        [
+          "84–91",
+          "{@book Refugees|XDMG|7|Refugees}"
+        ],
+        [
+          "92–98",
+          "{@book Request for Aid|XDMG|7|Request for Aid}"
+        ],
+        [
+          "99–00",
+          "{@book Treasure|XDMG|7|Chapter 7: Treasure}"
+        ]
+      ],
+      "name": "Bastion Events",
+      "page": 350,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Bastions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 8
+        },
+        "index": 7
+      }
+    }
+  ]
+}

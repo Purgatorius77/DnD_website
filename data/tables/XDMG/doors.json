@@ -1,0 +1,56 @@
+{
+  "table": [
+    {
+      "caption": "Doors",
+      "colLabels": [
+        "Door",
+        "AC",
+        "HP",
+        "DC to Open"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3 text-center",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Glass door",
+          "13",
+          "4",
+          "10"
+        ],
+        [
+          "Metal door",
+          "19",
+          "72",
+          "25"
+        ],
+        [
+          "Stone door",
+          "17",
+          "40",
+          "20"
+        ],
+        [
+          "Wooden door",
+          "15",
+          "18",
+          "15"
+        ]
+      ],
+      "name": "Doors",
+      "page": 64,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

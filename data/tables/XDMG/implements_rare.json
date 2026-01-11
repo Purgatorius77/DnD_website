@@ -1,0 +1,124 @@
+{
+  "table": [
+    {
+      "caption": "Implements - Rare",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–04",
+          "{@item +2 Ammunition|XDMG|Ammunition, +2}"
+        ],
+        [
+          "05–08",
+          "{@item Bag of Beans|XDMG}"
+        ],
+        [
+          "09–12",
+          "{@item Belt of Dwarvenkind|XDMG}"
+        ],
+        [
+          "13–16",
+          "{@item Boots of Levitation|XDMG}"
+        ],
+        [
+          "17–20",
+          "{@item Boots of Speed|XDMG}"
+        ],
+        [
+          "21–24",
+          "{@item Chime of Opening|XDMG}"
+        ],
+        [
+          "25–28",
+          "{@item Dimensional Shackles|XDMG}"
+        ],
+        [
+          "29–32",
+          "{@item Enspelled Weapon|XDMG} (level 2 or 3 spell)"
+        ],
+        [
+          "33–36",
+          "{@item Folding Boat|XDMG}"
+        ],
+        [
+          "37–40",
+          "{@item Glamoured Studded Leather|XDMG}"
+        ],
+        [
+          "41–44",
+          "{@item Heward's Handy Haversack|XDMG}"
+        ],
+        [
+          "45–48",
+          "{@item Horseshoes of Speed|XDMG}"
+        ],
+        [
+          "49–52",
+          "{@item Instrument of the Bards|XDMG} ({@item Instrument of the Bards, Canaith Mandolin|XDMG|Canaith mandolin} or {@item Instrument of the Bards, Cli Lyre|XDMG|Cli lyre})"
+        ],
+        [
+          "53–56",
+          "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Awareness|XDMG|awareness})"
+        ],
+        [
+          "57–60",
+          "{@item Portable Hole|XDMG}"
+        ],
+        [
+          "61–64",
+          "{@item Potion of Diminution|XDMG}"
+        ],
+        [
+          "65–68",
+          "{@item Potion of Gaseous Form|XDMG}"
+        ],
+        [
+          "69–76",
+          "{@item Potion of Superior Healing|XDMG|Potion of Healing (superior)}"
+        ],
+        [
+          "77–80",
+          "{@item Quaal's Feather Token|XDMG} ({@item Quaal's Feather Token, Bird|XDMG|bird}, {@item Quaal's Feather Token, Swan Boat|XDMG|swan boat}, or {@item Quaal's Feather Token, Whip|XDMG|whip})"
+        ],
+        [
+          "81–84",
+          "{@item Ring of Evasion|XDMG}"
+        ],
+        [
+          "85–88",
+          "{@item Ring of Free Action|XDMG}"
+        ],
+        [
+          "89–92",
+          "{@item Rope of Entanglement|XDMG}"
+        ],
+        [
+          "93–96",
+          "{@item Staff of Healing|XDMG}"
+        ],
+        [
+          "97–00",
+          "{@item Wand of Enemy Detection|XDMG}"
+        ]
+      ],
+      "name": "Implements - Rare",
+      "page": 329,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

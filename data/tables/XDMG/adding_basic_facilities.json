@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Facility Space",
+        "Cost",
+        "Time Required"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4 text-right",
+        "col-4 text-right"
+      ],
+      "rows": [
+        [
+          "Cramped",
+          "500 GP",
+          "20 days"
+        ],
+        [
+          "Roomy",
+          "1,000 GP",
+          "45 days"
+        ],
+        [
+          "Vast",
+          "3,000 GP",
+          "125 days"
+        ]
+      ],
+      "name": "Adding Basic Facilities",
+      "page": 335,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Bastions",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 8
+        },
+        "index": 7
+      }
+    }
+  ]
+}

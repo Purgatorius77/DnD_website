@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Armaments - Common",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–10",
+          "{@item Armor of Gleaming|XDMG}"
+        ],
+        [
+          "11–20",
+          "{@item Cast-Off Armor|XDMG}"
+        ],
+        [
+          "21–30",
+          "{@item Dread Helm|XDMG}"
+        ],
+        [
+          "31–40",
+          "{@item Moon-Touched Sword|XDMG}"
+        ],
+        [
+          "41–50",
+          "{@item Shield of Expression|XDMG}"
+        ],
+        [
+          "51–60",
+          "{@item Silvered Weapon|XDMG}"
+        ],
+        [
+          "61–70",
+          "{@item Smoldering Armor|XDMG}"
+        ],
+        [
+          "71–80",
+          "{@item Sylvan Talon|XDMG}"
+        ],
+        [
+          "81–90",
+          "{@item Veteran's Cane|XDMG}"
+        ],
+        [
+          "91–00",
+          "{@item Walloping Ammunition|XDMG}"
+        ]
+      ],
+      "name": "Armaments - Common",
+      "page": 328,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

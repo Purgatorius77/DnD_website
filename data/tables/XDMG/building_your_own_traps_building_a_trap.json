@@ -1,0 +1,91 @@
+{
+  "table": [
+    {
+      "caption": "Building a Trap",
+      "colLabelRows": [
+        [
+          "",
+          {
+            "type": "cellHeader",
+            "width": 3,
+            "entry": "Nuisance Traps",
+            "style": "th-skewer"
+          },
+          {
+            "type": "cellHeader",
+            "width": 3,
+            "entry": "Deadly Traps",
+            "style": "th-skewer"
+          }
+        ],
+        [
+          "Levels",
+          "Attack Bonus",
+          "Save DC",
+          "Damage",
+          "Attack Bonus",
+          "Save DC",
+          "Damage"
+        ]
+      ],
+      "colStyles": [
+        "col-1-8 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center"
+      ],
+      "rows": [
+        [
+          "1–4",
+          "{@hit 4}",
+          "10–12",
+          "5 ({@dice 1d10})",
+          "{@hit 8}",
+          "13–15",
+          "11 ({@dice 2d10})"
+        ],
+        [
+          "5–10",
+          "{@hit 4}",
+          "12–14",
+          "11 ({@dice 2d10})",
+          "{@hit 8}",
+          "15–17",
+          "22 ({@dice 4d10})"
+        ],
+        [
+          "11–16",
+          "{@hit 4}",
+          "14–16",
+          "22 ({@dice 4d10})",
+          "{@hit 8}",
+          "17–19",
+          "55 ({@dice 10d10})"
+        ],
+        [
+          "17–20",
+          "{@hit 4}",
+          "16–18",
+          "55 ({@dice 10d10})",
+          "{@hit 8}",
+          "19–21",
+          "99 ({@dice 18d10})"
+        ]
+      ],
+      "name": "Building Your Own Traps; Building a Trap",
+      "page": 103,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

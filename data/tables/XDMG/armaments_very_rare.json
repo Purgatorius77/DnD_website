@@ -1,0 +1,160 @@
+{
+  "table": [
+    {
+      "caption": "Armaments - Very Rare",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–03",
+          "{@item +3 Ammunition|XDMG|Ammunition, +3}"
+        ],
+        [
+          "04–06",
+          "{@item Ammunition of Slaying|XDMG}"
+        ],
+        [
+          "07–09",
+          "{@item Animated Shield|XDMG}"
+        ],
+        [
+          "10–12",
+          "{@item +2 Armor|XDMG|Armor, +2}"
+        ],
+        [
+          "13–14",
+          "{@item Belt of Fire Giant Strength|XDMG|Belt of Giant Strength (fire)}"
+        ],
+        [
+          "15–17",
+          "{@item Belt of Giant Strength|XDMG} ({@item Belt of Frost Giant Strength|XDMG|frost} or {@item Belt of Stone Giant Strength|XDMG|stone})"
+        ],
+        [
+          "18–19",
+          "{@item Dancing Sword|XDMG}"
+        ],
+        [
+          "20–22",
+          "{@item Demon Armor|XDMG}"
+        ],
+        [
+          "23–25",
+          "{@item Dragon Scale Mail|XDMG}"
+        ],
+        [
+          "26–28",
+          "{@item Dwarven Plate|XDMG}"
+        ],
+        [
+          "29–31",
+          "{@item Dwarven Thrower|XDMG}"
+        ],
+        [
+          "32–34",
+          "{@item Energy Bow|XDMG}"
+        ],
+        [
+          "35–37",
+          "{@item Enspelled Armor|XDMG} (level 4 or 5 spell)"
+        ],
+        [
+          "38–40",
+          "{@item Enspelled Weapon|XDMG} (level 4 or 5 spell)"
+        ],
+        [
+          "41–43",
+          "{@item Executioner's Axe|XDMG}"
+        ],
+        [
+          "44–46",
+          "{@item Frost Brand|XDMG}"
+        ],
+        [
+          "47–49",
+          "{@item Horn of Valhalla, Bronze|XDMG|Horn of Valhalla (bronze)}"
+        ],
+        [
+          "50–52",
+          "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Strength|XDMG|strength})"
+        ],
+        [
+          "53–55",
+          "{@item Lute of Thunderous Thumping|XDMG}"
+        ],
+        [
+          "56–58",
+          "{@item Manual of Gainful Exercise|XDMG}"
+        ],
+        [
+          "59–61",
+          "{@item Nine Lives Stealer|XDMG}"
+        ],
+        [
+          "62–64",
+          "{@item Oathbow|XDMG}"
+        ],
+        [
+          "65–68",
+          "{@item Oil of Sharpness|XDMG}"
+        ],
+        [
+          "69–72",
+          "{@item Potion of Cloud Giant Strength|XDMG|Potion of Giant Strength (cloud)}"
+        ],
+        [
+          "73–75",
+          "{@item Quarterstaff of the Acrobat|XDMG}"
+        ],
+        [
+          "76–78",
+          "{@item Scimitar of Speed|XDMG}"
+        ],
+        [
+          "79–82",
+          "{@item +3 Shield|XDMG|Shield, +3}"
+        ],
+        [
+          "83–85",
+          "{@item Shield of the Cavalier|XDMG}"
+        ],
+        [
+          "86–88",
+          "{@item Spellguard Shield|XDMG}"
+        ],
+        [
+          "89–91",
+          "{@item Sword of Sharpness|XDMG}"
+        ],
+        [
+          "92–94",
+          "{@item Thunderous Greatclub|XDMG}"
+        ],
+        [
+          "95–97",
+          "{@item +3 Weapon|XDMG|Weapon, +3}"
+        ],
+        [
+          "98–00",
+          "{@item +3 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +3}"
+        ]
+      ],
+      "name": "Armaments - Very Rare",
+      "page": 328,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

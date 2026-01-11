@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "500 GP Gemstones",
+      "colLabels": [
+        "1d6",
+        "Stone"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "{@item Alexandrite|XDMG} (dark green)"
+        ],
+        [
+          "2",
+          "{@item Aquamarine|XDMG} (pale blue green)"
+        ],
+        [
+          "3",
+          "{@item Black pearl|XDMG} (pure black)"
+        ],
+        [
+          "4",
+          "{@item Blue spinel|XDMG} (deep blue)"
+        ],
+        [
+          "5",
+          "{@item Peridot|XDMG} (rich olive green)"
+        ],
+        [
+          "6",
+          "{@item Topaz|XDMG} (golden yellow)"
+        ]
+      ],
+      "name": "500 GP Gemstones",
+      "page": 214,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}

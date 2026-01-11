@@ -1,0 +1,91 @@
+{
+  "table": [
+    {
+      "caption": "2: Guttural Names",
+      "isNameGenerator": true,
+      "colLabels": [
+        "1d12",
+        "Guttural Given Name",
+        "Guttural Surname"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Abzug",
+          "Burska"
+        ],
+        [
+          "2",
+          "Bajok",
+          "Gruuthok"
+        ],
+        [
+          "3",
+          "Bharash",
+          "Hrondl"
+        ],
+        [
+          "4",
+          "Grovis",
+          "Jarzzok"
+        ],
+        [
+          "5",
+          "Gruuna",
+          "Kraltus"
+        ],
+        [
+          "6",
+          "Hokrun",
+          "Shamog"
+        ],
+        [
+          "7",
+          "Mardred",
+          "Skrangval"
+        ],
+        [
+          "8",
+          "Rhogar",
+          "Ungart"
+        ],
+        [
+          "9",
+          "Skuldark",
+          "Uuthrakt"
+        ],
+        [
+          "10",
+          "Thokk",
+          "Vrakir"
+        ],
+        [
+          "11",
+          "Urzul",
+          "Yuldra"
+        ],
+        [
+          "12",
+          "Varka",
+          "Zulrax"
+        ]
+      ],
+      "name": "2: Guttural Names",
+      "page": 84,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Improvising Damage",
+      "colLabels": [
+        "Damage",
+        "Examples"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "{@damage 1d10}",
+          "Burned by coals, hit by a falling bookcase, pricked by a poison needle"
+        ],
+        [
+          "{@damage 2d10}",
+          "Struck by lightning, stumbling into a firepit"
+        ],
+        [
+          "{@damage 4d10}",
+          "Hit by falling rubble in a collapsing tunnel, tumbling into a vat of acid"
+        ],
+        [
+          "{@damage 10d10}",
+          "Crushed by compacting walls, hit by whirling steel blades, wading through lava"
+        ],
+        [
+          "{@damage 18d10}",
+          "Submerged in lava, hit by a crashing flying fortress"
+        ],
+        [
+          "{@damage 24d10}",
+          "Tumbling into a vortex of fire on the {@book Elemental Plane of Fire|XDMG|5|Elemental Plane of Fire}, crushed in the jaws of a godlike creature or a moon-size monster"
+        ]
+      ],
+      "name": "Improvising Damage",
+      "page": 30,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Running the Game",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 1
+      }
+    }
+  ]
+}

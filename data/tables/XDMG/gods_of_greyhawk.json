@@ -1,0 +1,198 @@
+{
+  "table": [
+    {
+      "caption": "Gods of Greyhawk",
+      "colLabels": [
+        "Name and Epithet",
+        "Home Plane",
+        "Typical Worshipers",
+        "Symbol"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3",
+        "col-3",
+        "col-3"
+      ],
+      "rows": [
+        [
+          "{@deity Beory|Greyhawk|XDMG}, Heart of Oerth*",
+          "{@book Material Plane|XDMG|5|Material Plane}",
+          "Farmers, herders",
+          "Green disk"
+        ],
+        [
+          "{@deity Berei|Greyhawk|XDMG} of the Hearth",
+          "{@book Bytopia|XDMG|5|Bytopia}",
+          "Families, farmers",
+          "Sheaf of wheat stalks"
+        ],
+        [
+          "{@deity Boccob|Greyhawk|XDMG} the Uncaring, Archmage of the Gods*",
+          "{@book Outlands|XDMG|5|Outlands}",
+          "Sages, spellcasters, seers",
+          "Eye within a pentagram"
+        ],
+        [
+          "{@deity Celestian|Greyhawk|XDMG}, the Far Wanderer",
+          "{@book Astral Plane|XDMG|5|Astral Plane}",
+          "Wanderers, astronomers",
+          "Arc of seven stars inside a circle"
+        ],
+        [
+          "{@deity Cuthbert|Greyhawk|XDMG} of the Cudgel",
+          "{@book Arcadia|XDMG|5|Arcadia}",
+          "Practical, honest folk",
+          "Circle at the center of a starburst of lines"
+        ],
+        [
+          "{@deity Ehlonna|Greyhawk|XDMG} of the Forests",
+          "{@book Beastlands|XDMG|5|Beastlands}",
+          "Hunters, foragers",
+          "Unicorn horn"
+        ],
+        [
+          "{@deity Erythnul|Greyhawk|XDMG}, the Many",
+          "{@book Pandemonium|XDMG|5|Pandemonium}",
+          "Raiders, bandits, berserkers",
+          "Blood drop"
+        ],
+        [
+          "{@deity Fharlanghn|Greyhawk|XDMG}, the Dweller on the Horizon",
+          "{@book Outlands|XDMG|5|Outlands}",
+          "Travelers",
+          "Circle crossed by a curved horizon line"
+        ],
+        [
+          "{@deity Heironeous|Greyhawk|XDMG} the Invincible",
+          "{@book Mount Celestia|XDMG|5|Mount Celestia}",
+          "Knights, soldiers",
+          "Lightning bolt"
+        ],
+        [
+          "{@deity Hextor|Greyhawk|XDMG}, Scourge of Battle",
+          "{@book Acheron|XDMG|5|Acheron}",
+          "Soldiers, tyrants",
+          "Six down-pointing arrows in a fan"
+        ],
+        [
+          "{@deity Incabulos|Greyhawk|XDMG}, the Black Rider*",
+          "{@book Hades|XDMG|5|Hades}",
+          "Necromancers, those who seek to ward off illness",
+          "Reptilian eye within a horizontal diamond"
+        ],
+        [
+          "{@deity Istus|Greyhawk|XDMG}, Weaver of Our Fate*",
+          "{@book Mechanus|XDMG|5|Mechanus}",
+          "Seers, advisers",
+          "Spindle with three strands"
+        ],
+        [
+          "{@deity Iuz|Greyhawk|XDMG} the Evil†",
+          "{@book Material Plane|XDMG|5|Material Plane}",
+          "His subjects and allies",
+          "Grinning human skull"
+        ],
+        [
+          "{@deity Kord|Greyhawk|XDMG}, the Brawler",
+          "{@book Ysgard|XDMG|5|Ysgard}",
+          "Athletes, berserkers",
+          "Spears and maces radiating from a point"
+        ],
+        [
+          "{@deity Nerull|Greyhawk|XDMG}, the Reaper*",
+          "{@book Carceri|XDMG|5|Carceri}",
+          "Murderers, necromancers",
+          "Skull with a scythe"
+        ],
+        [
+          "{@deity Obad-Hai|Greyhawk|XDMG}, the Shalm",
+          "{@book Outlands|XDMG|5|Outlands}",
+          "Hunters, gatherers, hermits",
+          "Oak leaf and acorn"
+        ],
+        [
+          "{@deity Olidammara|Greyhawk|XDMG}, the Laughing Rogue",
+          "{@book Ysgard|XDMG|5|Ysgard}",
+          "Revelers, gamblers, pranksters",
+          "Laughing mask"
+        ],
+        [
+          "{@deity Pelor|Greyhawk|XDMG}, the Radiant Sun*",
+          "{@book Elysium|XDMG|5|Elysium}",
+          "Healers, the compassionate",
+          "Sun"
+        ],
+        [
+          "{@deity Pholtus|Greyhawk|XDMG} of the Blinding Light",
+          "{@book Arcadia|XDMG|5|Arcadia}",
+          "Judges, lawyers, arbiters",
+          "Silver sun partially eclipsed by a crescent moon"
+        ],
+        [
+          "{@deity Ralishaz|Greyhawk|XDMG}, the Unlooked For",
+          "{@book Limbo|XDMG|5|Limbo}",
+          "Gamblers",
+          "Three bone fate-casting sticks"
+        ],
+        [
+          "{@deity Rao|Greyhawk|XDMG}, the Mediator*",
+          "{@book Mount Celestia|XDMG|5|Mount Celestia}",
+          "Mediators, sages, scientists",
+          "White heart"
+        ],
+        [
+          "{@deity Syrul|Greyhawk|XDMG} Oathbreaker",
+          "{@book Gehenna|XDMG|5|Gehenna}",
+          "Liars, charlatans, traitors",
+          "Forked tongue"
+        ],
+        [
+          "{@deity Tharizdun|Greyhawk|XDMG}, the Eater of Worlds",
+          "Imprisoned in a demiplane",
+          "Nihilistic cultists",
+          "Spiral rune"
+        ],
+        [
+          "{@deity Trithereon|Greyhawk|XDMG}, the Summoner",
+          "{@book Arborea|XDMG|5|Arborea}",
+          "Rebels, individualists",
+          "Triskelion"
+        ],
+        [
+          "{@deity Ulaa|Greyhawk|XDMG}, the Bejeweled",
+          "{@book Arcadia|XDMG|5|Arcadia}",
+          "Miners, jewelers, quarriers",
+          "Ruby-hearted mountain"
+        ],
+        [
+          "{@deity Vecna|Greyhawk|XDMG}, the Whispered One",
+          "Unknown",
+          "Necromancers, undead, those who keep or unearth secrets",
+          "An eye in the palm of a left hand"
+        ],
+        [
+          "{@deity Wee Jas|Greyhawk|XDMG}, the Witch",
+          "{@book Acheron|XDMG|5|Acheron}",
+          "Spellcasters, advisers",
+          "Red skull in front of fireball"
+        ]
+      ],
+      "footnotes": [
+        "*Greater god",
+        "†Demigod"
+      ],
+      "name": "Gods of Greyhawk",
+      "page": 149,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Creating Campaigns",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 4
+      }
+    }
+  ]
+}

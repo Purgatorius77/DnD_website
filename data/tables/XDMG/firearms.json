@@ -1,0 +1,96 @@
+{
+  "table": [
+    {
+      "caption": "Firearms",
+      "colLabels": [
+        "Modern Item",
+        "Damage",
+        "Properties",
+        "Mastery",
+        "Weight"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-2",
+        "col-5-4",
+        "col-1-3 text-center",
+        "col-1-3 text-center"
+      ],
+      "rows": [
+        [
+          {
+            "type": "cell",
+            "width": 5,
+            "entry": "{@i Martial Ranged Weapons}"
+          }
+        ],
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Automatic Rifle|XDMG}",
+            "{@dice 2d8} Piercing",
+            "{@itemProperty AF|XDMG|Ammunition} (Range 80/240; Bullet), {@itemProperty BF|XDMG|Burst Fire}, {@itemProperty RLD|XDMG|Reload} (30 shots), {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Slow}",
+            "8 lb."
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Hunting Rifle|XDMG}",
+            "{@dice 2d10} Piercing",
+            "{@itemProperty AF|XDMG|Ammunition} (Range 80/240; Bullet), {@itemProperty RLD|XDMG|Reload} (5 shots), {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Slow}",
+            "8 lb."
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Revolver|XDMG}",
+            "{@dice 2d8} Piercing",
+            "{@itemProperty AF|XDMG|Ammunition} (Range 40/120; Bullet), {@itemProperty RLD|XDMG|Reload} (6 shots)",
+            "{@itemMastery Sap}",
+            "3 lb."
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Semiautomatic Pistol|XDMG}",
+            "{@dice 2d6} Piercing",
+            "{@itemProperty AF|XDMG|Ammunition} (Range 50/150; Bullet), {@itemProperty RLD|XDMG|Reload} (15 shots)",
+            "{@itemMastery Vex}",
+            "3 lb."
+          ]
+        },
+        {
+          "type": "row",
+          "style": "row-indent-first",
+          "row": [
+            "{@item Shotgun|XDMG}",
+            "{@dice 2d8} Piercing",
+            "{@itemProperty AF|XDMG|Ammunition} (Range 30/90; Bullet), {@itemProperty RLD|XDMG|Reload} (2 shots), {@itemProperty 2H|XPHB|Two-Handed}",
+            "{@itemMastery Push}",
+            "7 lb."
+          ]
+        }
+      ],
+      "name": "Firearms",
+      "page": 72,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

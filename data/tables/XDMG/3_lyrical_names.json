@@ -1,0 +1,91 @@
+{
+  "table": [
+    {
+      "caption": "3: Lyrical Names",
+      "isNameGenerator": true,
+      "colLabels": [
+        "1d12",
+        "Lyrical Given Name",
+        "Lyrical Surname"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Arannis",
+          "Arvannis"
+        ],
+        [
+          "2",
+          "Damaia",
+          "Brawnanvil"
+        ],
+        [
+          "3",
+          "Darsis",
+          "Daardendrian"
+        ],
+        [
+          "4",
+          "Dweomer",
+          "Drachedandion"
+        ],
+        [
+          "5",
+          "Evabeth",
+          "Endryss"
+        ],
+        [
+          "6",
+          "Jhessail",
+          "Meliamne"
+        ],
+        [
+          "7",
+          "Keyleth",
+          "Mishann"
+        ],
+        [
+          "8",
+          "Netheria",
+          "Silverfrond"
+        ],
+        [
+          "9",
+          "Orianna",
+          "Snowmantle"
+        ],
+        [
+          "10",
+          "Sorcyl",
+          "Summerbreeze"
+        ],
+        [
+          "11",
+          "Umarion",
+          "Thunderfoot"
+        ],
+        [
+          "12",
+          "Velissa",
+          "Zashir"
+        ]
+      ],
+      "name": "3: Lyrical Names",
+      "page": 84,
+      "source": "XDMG",
+      "chapter": {
+        "name": "DM's Toolbox",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

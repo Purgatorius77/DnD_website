@@ -1,0 +1,84 @@
+{
+  "table": [
+    {
+      "caption": "Implements - Very Rare",
+      "colLabels": [
+        "1d100",
+        "Item"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01–07",
+          "{@item +3 Ammunition|XDMG|Ammunition, +3}"
+        ],
+        [
+          "08–14",
+          "{@item Bag of Devouring|XDMG}"
+        ],
+        [
+          "15–21",
+          "{@item Carpet of Flying|XDMG}"
+        ],
+        [
+          "22–28",
+          "{@item Enspelled Weapon|XDMG} (level 4 or 5 spell)"
+        ],
+        [
+          "29–35",
+          "{@item Horseshoes of a Zephyr|XDMG}"
+        ],
+        [
+          "36–42",
+          "{@item Instrument of the Bards, Anstruth Harp|XDMG|Instrument of the Bards (Anstruth harp)}"
+        ],
+        [
+          "43–49",
+          "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Agility|XDMG|agility})"
+        ],
+        [
+          "50–56",
+          "{@item Lute of Thunderous Thumping|XDMG}"
+        ],
+        [
+          "57–63",
+          "{@item Manual of Quickness of Action|XDMG}"
+        ],
+        [
+          "64–70",
+          "{@item Nolzur's Marvelous Pigments|XDMG}"
+        ],
+        [
+          "71–77",
+          "{@item Potion of Flying|XDMG}"
+        ],
+        [
+          "78–86",
+          "{@item Potion of Supreme Healing|XDMG|Potion of Healing (supreme)}"
+        ],
+        [
+          "87–93",
+          "{@item Potion of Speed|XDMG}"
+        ],
+        [
+          "94–00",
+          "{@item Tome of Leadership and Influence|XDMG}"
+        ]
+      ],
+      "name": "Implements - Very Rare",
+      "page": 329,
+      "source": "XDMG",
+      "chapter": {
+        "name": "Treasure",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 6
+      }
+    }
+  ]
+}
