@@ -1162,20 +1162,6 @@
   "/DnD_website/data/tables/PSX/river_heralds_suggested_ideals.json",
   "/DnD_website/data/tables/PSX/white_ideals.json",
   "/DnD_website/data/tables/PSX/white_personality_traits.json",
-  "/DnD_website/data/tables/RMR/ability_scores_and_modifiers.json",
-  "/DnD_website/data/tables/RMR/critical_hits.json",
-  "/DnD_website/data/tables/RMR/heavy_armor.json",
-  "/DnD_website/data/tables/RMR/light_armor.json",
-  "/DnD_website/data/tables/RMR/marital_emotional_weapons.json",
-  "/DnD_website/data/tables/RMR/martial_melee_weapons.json",
-  "/DnD_website/data/tables/RMR/martial_ranged_weapons.json",
-  "/DnD_website/data/tables/RMR/medium_armor.json",
-  "/DnD_website/data/tables/RMR/rewards.json",
-  "/DnD_website/data/tables/RMR/shields.json",
-  "/DnD_website/data/tables/RMR/simple_melee_weapons.json",
-  "/DnD_website/data/tables/RMR/simple_ranged_weapons.json",
-  "/DnD_website/data/tables/RMR/surprise.json",
-  "/DnD_website/data/tables/RMR/tack_and_harness.json",
   "/DnD_website/data/tables/SAC/how_do_i_know_which_ability_modifier_to_use_with_an_attack_roll_and_its_damage_roll.json",
   "/DnD_website/data/tables/SatO/automata_adventures.json",
   "/DnD_website/data/tables/SatO/bedlam_adventures.json",
@@ -1947,3 +1933,4 @@
 
 
 ]
+
