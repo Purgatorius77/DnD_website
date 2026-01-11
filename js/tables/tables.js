@@ -22,7 +22,7 @@ export async function initTables() {
 }
 
 
-function renderTableStatblock(table) {
+export function renderTableStatblock(table) {
   const container = document.getElementById("tables-statblock");
   container.style.display = "block";
 
@@ -41,3 +41,4 @@ function renderTableStatblock(table) {
     </table>
   `;
 }
+
