@@ -1,0 +1,35 @@
+{
+  "table": [
+    {
+      "caption": "Heralds of Dust Spellcasting Fees",
+      "colLabels": [
+        "Spell",
+        "Price"
+      ],
+      "colStyles": [
+        "col-11",
+        "col-2 text-right"
+      ],
+      "rows": [
+        [
+          "{@spell Identify}, {@spell illusory script}",
+          "25 gp"
+        ],
+        [
+          "{@spell Darkvision}, {@spell gentle repose}",
+          "50 gp"
+        ],
+        [
+          "{@spell Animate dead}, {@spell feign death}, {@spell speak with dead}",
+          "100 gp"
+        ]
+      ],
+      "name": "Heralds of Dust Spellcasting Fees",
+      "source": "AATM",
+      "chapter": {
+        "name": "Adventure Atlas: The Mortuary",
+        "index": 0
+      }
+    }
+  ]
+}

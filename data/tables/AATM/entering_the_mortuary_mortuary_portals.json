@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Mortuary Portals",
+      "colLabels": [
+        "d6",
+        "Portal Anchor",
+        "Portal Key"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5 text-center",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "1",
+          "Body bag",
+          "Vial of embalming fluid"
+        ],
+        [
+          "2",
+          "Bone-filled ossuary",
+          "Mourning dance"
+        ],
+        [
+          "3",
+          "Funerary urn",
+          "Spoken eulogy"
+        ],
+        [
+          "4",
+          "Eye of a giant's skull",
+          "Two gold coins"
+        ],
+        [
+          "5",
+          "Open casket",
+          "Flower from a grave"
+        ],
+        [
+          "6",
+          "Pile of ashes",
+          "Dead creature's keepsake"
+        ]
+      ],
+      "name": "Entering the Mortuary; Mortuary Portals",
+      "source": "AATM",
+      "chapter": {
+        "name": "Adventure Atlas: The Mortuary",
+        "index": 0
+      }
+    }
+  ]
+}
