@@ -104,21 +104,41 @@ export function initTableFilters(tables) {
     document.dispatchEvent(new CustomEvent("tableSelected", { detail: tables[index] }));
   });
 
-  function buildSourceCheckboxes() {
-    const usedSources = [...new Set(tables.map(t => t.source))].sort();
-    sourceDiv.innerHTML = "";
+function buildSourceCheckboxes() {
+  // Get unique source codes from the tables
+  const usedSources = [...new Set(tables.map(t => t.source))];
 
-    usedSources.forEach(code => {
-      const labelText = tableSourceNames[code] ?? code;
-      const label = document.createElement("label");
-      const cb = document.createElement("input");
-      cb.type = "checkbox";
-      cb.value = code;
-      cb.checked = false; // default: unchecked
-      label.append(cb, labelText);
-      sourceDiv.appendChild(label);
+  // Define priority sources (fixed order)
+  const priority = ["XDMG", "XPHB", "XMM"]; // DMG 2014, PHB 2014, MM 2024
+
+  // Split into priority sources and the rest
+  const topSources = priority.filter(code => usedSources.includes(code));
+  const otherSources = usedSources
+    .filter(code => !priority.includes(code))
+    .sort((a, b) => {
+      const nameA = tableSourceNames[a] ?? a;
+      const nameB = tableSourceNames[b] ?? b;
+      return nameA.localeCompare(nameB);
     });
-  }
+
+  // Combine them
+  const finalSources = [...topSources, ...otherSources];
+
+  // Clear the container
+  sourceDiv.innerHTML = "";
+
+  // Build checkboxes
+  finalSources.forEach(code => {
+    const labelText = tableSourceNames[code] ?? code;
+    const label = document.createElement("label");
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.value = code;
+    cb.checked = false; // default: unchecked
+    label.append(cb, labelText);
+    sourceDiv.appendChild(label);
+  });
+}
 
 
   
@@ -170,4 +190,5 @@ resetBtn.addEventListener("click", () => {
     }
   }
 }
+export { tableSourceNames };
 
