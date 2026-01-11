@@ -7,7 +7,7 @@ export async function initTables() {
   const tablePaths = await loadJSON("/DnD_website/data/index.json");
 
   const tables = [];
-window.allTables = tables;
+
   for (const path of tablePaths) {
     try {
       const data = await loadJSON(path);
@@ -46,6 +46,7 @@ function renderTableStatblock(table) {
     </table>
   `;
 }
+
 
 
 
