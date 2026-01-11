@@ -28,6 +28,8 @@ import { initArmaments} from "./items/armaments.js"
 import { initImplements} from "./items/implements.js"
 import { initArt} from "./items/art.js"
 
+
+
 document.addEventListener("DOMContentLoaded", async () => {
   // Load all your data
   const { monsters, spells, monsterFluff } = await loadAllData();
@@ -80,5 +82,7 @@ const layout = document.querySelector(".layout");
 toggleBtn.addEventListener("click", () => {
   layout.classList.toggle("tracker-collapsed");
 });
+
+
 
 
