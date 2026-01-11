@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "caption": "Travel",
+      "colLabels": [
+        "Service",
+        "Catalog",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-4",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Black coach ride in Baldur's Gate",
+          "Baldur's Gate Wares",
+          "1 GP/trip"
+        ],
+        [
+          "Sled services",
+          "Icewind Dale Wares",
+          "4 GP/day"
+        ]
+      ],
+      "name": "Travel",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Aurora's Whole Realms Catalog",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

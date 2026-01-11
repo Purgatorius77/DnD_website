@@ -1,0 +1,55 @@
+{
+  "table": [
+    {
+      "caption": "Faction Backgrounds",
+      "colLabels": [
+        "Background",
+        "Faction"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@background Dragon Cultist|FRHoF}",
+          "{@area Cult of the Dragon|339|x}"
+        ],
+        [
+          "{@background Emerald Enclave Caretaker|FRHoF}",
+          "{@area Emerald Enclave|34d|x}"
+        ],
+        [
+          "{@background Harper|FRHoF}",
+          "{@area Harpers|35f|x}"
+        ],
+        [
+          "{@background Knight of the Gauntlet|FRHoF}",
+          "{@area Knights of the Gauntlet|38e|x}"
+        ],
+        [
+          "{@background Lords' Alliance Vassal|FRHoF}",
+          "{@area Lords' Alliance|371|x}"
+        ],
+        [
+          "{@background Purple Dragon Squire|FRHoF}",
+          "{@area Purple Dragon Knights|39f|x}"
+        ],
+        [
+          "{@background Zhentarim Mercenary|FRHoF}",
+          "{@area Zhentarim|3c0|x}"
+        ]
+      ],
+      "name": "Faction Backgrounds",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

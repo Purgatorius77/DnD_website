@@ -1,0 +1,59 @@
+{
+  "table": [
+    {
+      "caption": "Red Wizards Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "You know the locations of Thayan enclaves around Faerûn and can enter and stay in them, providing you a {@book Comfortable|XPHB|6|Lifestyle Expenses} lifestyle for free."
+        ],
+        [
+          "5+",
+          "You can buy the following kinds of adventuring gear from Thayan merchants at half cost: Arcane Focus, Ink, Ink Pen, Paper, Parchment, {@item Potion of Healing|XDMG}, and {@item Spell Scroll|XDMG} (cantrip or level 1)."
+        ],
+        [
+          "10",
+          "The first time your Renown Score reaches 10, the Red Wizards give you an Uncommon magic item from the Rod, Staff, or Wand category."
+        ],
+        [
+          "15+",
+          "You have Advantage on ability checks made to influence a creature while bartering to buy or sell a magic item."
+        ],
+        [
+          "25+",
+          "You gain access to a tattoo artist who can ink {@item Thayan Spell Tattoo|FRHoF|Thayan Spell Tattoos} on your body (see {@area \"Tattoo Magic\"|3ba|x} below)."
+        ],
+        [
+          "30",
+          "The first time your Renown Score reaches 30, the Red Wizards give you a Rare magic item from the Rod, Staff, Wand, or Wondrous Item category."
+        ],
+        [
+          "40+",
+          "When preparing to cast a Circle spell (see {@area chapter 5|2f4|x}) in a town or larger settlement, you can recruit {@dice 1d4} {@creature Mage|XMM|Mages} to assist you for free. The mages arrive in {@dice 1d10} days. Once you use this reward, you can't do so again until your Renown Score increases."
+        ],
+        [
+          "50",
+          "The first time your Renown Score reaches 50, the Red Wizards give you a Very Rare magic item from the Rod, Staff, Wand, or Wondrous Item category."
+        ]
+      ],
+      "name": "Red Wizards Renown",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Factions of the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

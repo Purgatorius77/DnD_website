@@ -1,0 +1,49 @@
+{
+  "table": [
+    {
+      "caption": "Tools",
+      "colLabels": [
+        "Item",
+        "Catalog",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@item Bandore|FRHoF}",
+          "Moonshae Isles Wares",
+          "3 lb.",
+          "65 GP"
+        ],
+        [
+          "{@item Cittern|FRHoF}",
+          "Moonshae Isles Wares",
+          "2 lb.",
+          "65 GP"
+        ],
+        [
+          "{@item Yarting|FRHoF}",
+          "Moonshae Isles Wares",
+          "2 lb.",
+          "40 GP"
+        ]
+      ],
+      "name": "Tools",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Aurora's Whole Realms Catalog",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

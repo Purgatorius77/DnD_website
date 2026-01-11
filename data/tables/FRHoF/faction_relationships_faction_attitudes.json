@@ -1,0 +1,129 @@
+{
+  "table": [
+    {
+      "caption": "Faction Attitudes",
+      "colLabels": [
+        "",
+        "Cult of the Dragon",
+        "Emerald Enclave",
+        "Harpers",
+        "Lords' Alliance",
+        "Order of the Gauntlet",
+        "Purple Dragon Knights",
+        "Red Wizards",
+        "Zhentarim"
+      ],
+      "colStyles": [
+        "col-1-6",
+        "col-1-3 text-center",
+        "col-1-3 text-center",
+        "col-1-3 text-center",
+        "col-1-3 text-center",
+        "col-1-3 text-center",
+        "col-1-3 text-center",
+        "col-1-3 text-center",
+        "col-1-3 text-center"
+      ],
+      "rows": [
+        [
+          "Cult of the Dragon",
+          "F",
+          "H",
+          "H",
+          "H",
+          "H",
+          "H",
+          "I",
+          "F"
+        ],
+        [
+          "Emerald Enclave",
+          "H",
+          "F",
+          "F",
+          "I",
+          "F",
+          "I",
+          "H",
+          "H"
+        ],
+        [
+          "Harpers",
+          "H",
+          "F",
+          "F",
+          "F",
+          "F",
+          "I",
+          "H",
+          "H"
+        ],
+        [
+          "Lords' Alliance",
+          "H",
+          "I",
+          "F",
+          "F",
+          "F",
+          "F",
+          "H",
+          "H"
+        ],
+        [
+          "Order of the Gauntlet",
+          "H",
+          "F",
+          "F",
+          "F",
+          "F",
+          "F",
+          "H",
+          "H"
+        ],
+        [
+          "Purple Dragon Knights",
+          "H",
+          "I",
+          "I",
+          "F",
+          "F",
+          "F",
+          "H",
+          "I"
+        ],
+        [
+          "Red Wizards",
+          "I",
+          "H",
+          "H",
+          "H",
+          "H",
+          "H",
+          "I",
+          "F"
+        ],
+        [
+          "Zhentarim",
+          "F",
+          "H",
+          "H",
+          "H",
+          "H",
+          "I",
+          "F",
+          "F"
+        ]
+      ],
+      "name": "Faction Relationships; Faction Attitudes",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Factions of the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

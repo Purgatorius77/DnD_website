@@ -1,0 +1,67 @@
+{
+  "table": [
+    {
+      "caption": "Regional Backgrounds",
+      "colLabels": [
+        "Background",
+        "Region"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-6"
+      ],
+      "rows": [
+        [
+          "{@background Chondathan Freebooter|FRHoF}",
+          "{@area Vilhon Reach|256|x}"
+        ],
+        [
+          "{@background Dead Magic Dweller|FRHoF}",
+          "{@area Anauroch|150|x}"
+        ],
+        [
+          "{@background Flaming Fist Mercenary|FRHoF}",
+          "{@area Sword Coast|219|x}"
+        ],
+        [
+          "{@background Genie Touched|FRHoF}",
+          "{@area Lands of Intrigue|1c4|x}"
+        ],
+        [
+          "{@background Ice Fisher|FRHoF}",
+          "{@area The North|1e6|x}"
+        ],
+        [
+          "{@background Moonwell Pilgrim|FRHoF}",
+          "{@area Trackless Sea|236|x}"
+        ],
+        [
+          "{@background Mulhorandi Tomb Raider|FRHoF}",
+          "{@area Old Empires|204|x}"
+        ],
+        [
+          "{@background Mythalkeeper|FRHoF}",
+          "{@area Heartlands|1a4|x}"
+        ],
+        [
+          "{@background Rashemi Wanderer|FRHoF}",
+          "{@area Arcane Empires|16f|x}"
+        ],
+        [
+          "{@background Shadowmasters Exile|FRHoF}",
+          "{@area Forgotten Lands|18b|x}"
+        ]
+      ],
+      "name": "Regional Backgrounds",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

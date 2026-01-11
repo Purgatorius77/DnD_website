@@ -1,0 +1,37 @@
+{
+  "table": [
+    {
+      "caption": "Vehicles",
+      "colLabels": [
+        "Item",
+        "Catalog",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@item Covered Wagon|FRHoF}",
+          "Daleland Wares",
+          "1,300 lb.",
+          "250 GP"
+        ]
+      ],
+      "name": "Vehicles",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Aurora's Whole Realms Catalog",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

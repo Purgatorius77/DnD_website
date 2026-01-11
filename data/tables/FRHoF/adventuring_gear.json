@@ -1,0 +1,103 @@
+{
+  "table": [
+    {
+      "caption": "Adventuring Gear",
+      "colLabels": [
+        "Item",
+        "Catalog",
+        "Weight",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-4",
+        "col-2 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@item Adventurer's Ring|FRHoF}",
+          "Dalelands Wares",
+          "—",
+          "250 GP"
+        ],
+        [
+          "{@item Bright Fungal Cloak|FRHoF}",
+          "Icewind Dale Wares",
+          "4 lb.",
+          "25 GP"
+        ],
+        [
+          "{@item Desert Clothing|FRHoF}",
+          "Calimshan Wares",
+          "4 lb.",
+          "10 GP"
+        ],
+        [
+          "{@item Devil Mask|FRHoF}",
+          "Baldur's Gate Wares",
+          "—",
+          "25 GP"
+        ],
+        [
+          "{@item Garb of Light and Shadow|FRHoF}",
+          "Moonshae Isles Wares",
+          "6 lb.",
+          "50 GP"
+        ],
+        [
+          "{@item Genie Robe|FRHoF}",
+          "Calimshan Wares",
+          "6 lb.",
+          "50 GP"
+        ],
+        [
+          "{@item Locking Spellbook|FRHoF}",
+          "Dalelands Wares",
+          "3 lb.",
+          "35 GP"
+        ],
+        [
+          "{@item Monster Camouflage|FRHoF}",
+          "Icewind Dale Wares",
+          "6 lb.",
+          "50 GP"
+        ],
+        [
+          "{@item Prosthetic Limb|FRHoF}",
+          "Calimshan Wares",
+          "—",
+          "—"
+        ],
+        [
+          "{@item Warm Fungal Clothing|FRHoF}",
+          "Icewind Dale Wares",
+          "4 lb.",
+          "15 GP"
+        ],
+        [
+          "{@item Windskiff|FRAiF}",
+          "Moonshae Isles Wares",
+          "—",
+          "4,000 GP"
+        ],
+        [
+          "{@item Winter Camouflage|FRHoF}",
+          "Icewind Dale Wares",
+          "4 lb.",
+          "50 GP"
+        ]
+      ],
+      "name": "Adventuring Gear",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Aurora's Whole Realms Catalog",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}

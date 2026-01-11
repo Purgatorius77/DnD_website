@@ -1,0 +1,41 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Secondary Casters",
+        "The Spell Increases Duration By..."
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1–3",
+          "1 hour"
+        ],
+        [
+          "4–6",
+          "8 hours"
+        ],
+        [
+          "7+",
+          "24 hours"
+        ]
+      ],
+      "data": {
+        "tableIgnore": true
+      },
+      "name": "Prolong",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Magic of Faerûn",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 5
+        },
+        "index": 5
+      }
+    }
+  ]
+}

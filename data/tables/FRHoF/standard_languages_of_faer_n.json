@@ -1,0 +1,164 @@
+{
+  "table": [
+    {
+      "caption": "Standard Languages of Faerûn",
+      "colLabels": [
+        "1d100",
+        "Language",
+        "Origin"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-5",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "—",
+          "{@language Common|XPHB}",
+          "Sigil"
+        ],
+        [
+          "01–03",
+          "{@language Aglarondan|FRHoF}",
+          "Aglarond"
+        ],
+        [
+          "04–06",
+          "{@language Alzhedo|FRHoF}",
+          "Calimshan"
+        ],
+        [
+          "07–09",
+          "{@language Bothii|FRHoF}",
+          "Uthgardt nomads"
+        ],
+        [
+          "10–12",
+          "{@language Chessentan|FRHoF}",
+          "Chessenta"
+        ],
+        [
+          "13–15",
+          "{@language Chondathan|FRHoF}",
+          "Chondath"
+        ],
+        [
+          "16–18",
+          "{@language Common Sign Language|XPHB}",
+          "Sigil"
+        ],
+        [
+          "19–21",
+          "{@language Damaran|FRHoF}",
+          "Damara"
+        ],
+        [
+          "22–26",
+          "{@language Draconic|XPHB}",
+          "Dragons"
+        ],
+        [
+          "27–33",
+          "{@language Dwarvish|XPHB}",
+          "Dwarves"
+        ],
+        [
+          "34–40",
+          "{@language Elvish|XPHB}",
+          "Elves"
+        ],
+        [
+          "41–45",
+          "{@language Giant|XPHB}",
+          "Giants"
+        ],
+        [
+          "46–50",
+          "{@language Gnomish|XPHB}",
+          "Gnomes"
+        ],
+        [
+          "51–55",
+          "{@language Goblin|XPHB}",
+          "Goblinoids"
+        ],
+        [
+          "56–62",
+          "{@language Halfling|XPHB}",
+          "Halflings"
+        ],
+        [
+          "63–65",
+          "{@language Illuskan|FRHoF}",
+          "The North"
+        ],
+        [
+          "66–68",
+          "{@language Lantanese|FRHoF}",
+          "Lantan"
+        ],
+        [
+          "69–71",
+          "{@language Midani|FRHoF}",
+          "Bedine nomads"
+        ],
+        [
+          "72–74",
+          "{@language Mulhorandi|FRHoF}",
+          "Mulhorand"
+        ],
+        [
+          "75–77",
+          "{@language Netherese|FRHoF}",
+          "Netheril"
+        ],
+        [
+          "78–82",
+          "{@language Orc|XPHB}",
+          "Orcs"
+        ],
+        [
+          "83–85",
+          "{@language Rashemi|FRHoF}",
+          "Rashemen"
+        ],
+        [
+          "86–88",
+          "{@language Reghedjic|FRHoF}",
+          "Reghed nomads"
+        ],
+        [
+          "89–91",
+          "{@language Sespech|FRHoF}",
+          "Sespech"
+        ],
+        [
+          "92–94",
+          "{@language Thayan|FRHoF}",
+          "Thay"
+        ],
+        [
+          "95–97",
+          "{@language Turmic|FRHoF}",
+          "Turmish"
+        ],
+        [
+          "98–00",
+          "{@language Untheric|FRHoF}",
+          "Unther"
+        ]
+      ],
+      "name": "Standard Languages of Faerûn",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "A Guide to the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

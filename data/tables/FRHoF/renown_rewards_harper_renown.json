@@ -1,0 +1,59 @@
+{
+  "table": [
+    {
+      "caption": "Harper Renown",
+      "colLabels": [
+        "Renown Score",
+        "Reward"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "3+",
+          "You can stay in any Harper stronghold. While there, the Harpers provide you a {@book Modest lifestyle|XPHB|6|Lifestyle Expenses} for free."
+        ],
+        [
+          "5+",
+          "You can buy Common potions and scrolls at Harper strongholds."
+        ],
+        [
+          "10",
+          "The first time your Renown Score reaches 10, you learn one persona from the Harper Personas table."
+        ],
+        [
+          "15+",
+          "You receive a 15 percent discount when you buy potions, scrolls, and adventuring gear at Harper strongholds."
+        ],
+        [
+          "25",
+          "The first time your Renown Score reaches 25, you receive a {@item Harper Pin|FRAiF} (silver) and learn an additional persona from the {@area Harper Personas|367|x} table."
+        ],
+        [
+          "30+",
+          "When you enter a settlement for the first time, local Harpers freely share any notable rumors and important intel with you."
+        ],
+        [
+          "40",
+          "The first time your Renown Score reaches 40, you receive a {@item Harper Pin|FRAiF} (golden) and learn an additional persona from the Harper Personas table."
+        ],
+        [
+          "50+",
+          "You can request a single audience with the High Harpers. Once you use this reward, you can't do so again."
+        ]
+      ],
+      "name": "Renown Rewards; Harper Renown",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Factions of the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 6
+        },
+        "index": 6
+      }
+    }
+  ]
+}

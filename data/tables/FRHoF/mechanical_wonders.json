@@ -1,0 +1,34 @@
+{
+  "table": [
+    {
+      "caption": "Mechanical Wonders",
+      "colLabels": [
+        "Item",
+        "Catalog",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-4",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@item Mechanical Wonder (domestic)|FRAiF}",
+          "Calimshan Wares",
+          "400 GP"
+        ]
+      ],
+      "name": "Mechanical Wonders",
+      "source": "FRHoF",
+      "chapter": {
+        "name": "Aurora's Whole Realms Catalog",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 4
+        },
+        "index": 4
+      }
+    }
+  ]
+}
