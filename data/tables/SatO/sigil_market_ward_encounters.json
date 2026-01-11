@@ -1,0 +1,53 @@
+{
+  "table": [
+    {
+      "name": "Sigil Market Ward Encounters",
+      "type": "table",
+      "source": "SatO",
+      "page": 59,
+      "caption": "Sigil Market Ward Encounters",
+      "colLabels": [
+        "{@dice d8}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature Transcendent Order instinct|MPP} (see {@book Morte's Planar Parade|MPP}) asks to spar with the characters, promising a reward if the character wins the fight."
+        ],
+        [
+          "2",
+          "A neutral good {@creature manticore} acupuncturist brushes past the characters, accidentally poking one of them with its spiny tail. As a token of apology, the manticore gifts the party a voucher for one free spa treatment at the Flame Pits (see the \"{@book Market Ward Locations|SatO|2|Market Ward Locations}\" section)."
+        ],
+        [
+          "3",
+          "Wheeze Whistletooth, a {@creature night hag} with a persistent hacking cough, offers the party free samples of her famous mystery meat pies."
+        ],
+        [
+          "4",
+          "Clearly troubled, a human {@creature commoner} in the Free League asks the party which faction, if any, they believe is right about the truths of the multiverse."
+        ],
+        [
+          "5",
+          "Two {@creature Harmonium Peacekeeper|MPP|Harmonium peacekeepers} (see {@book Morte's Planar Parade|MPP}) question the characters about the whereabouts of a red-furred bariaur who reportedly stole a {@item potion of invisibility} from an alchemical shop."
+        ],
+        [
+          "6",
+          "A tiny copper soldier fashioned by a {@creature pentadrone} toymaker marches up to the party, salutes them, and then stops functioning."
+        ],
+        [
+          "7",
+          "A {@creature hill giant} stumbles toward the characters, pointing at his throat in worry but not saying a word. He's choking on an entire spit-roasted hog."
+        ],
+        [
+          "8",
+          "Disguised as Rowan Darkwood, a {@creature barlgura} mastermind attempts to recruit the characters with a lucrative opportunity: robbing the Bank of Abbathor (see the \"{@book Market Ward Locations|SatO|2|Market Ward Locations}\" section)."
+        ]
+      ]
+    }
+  ]
+}

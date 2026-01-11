@@ -1,0 +1,68 @@
+{
+  "table": [
+    {
+      "caption": "Sigil Adventure Hooks",
+      "colLabels": [
+        "d10",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A lost soul asks the party to escort them to the home of their deity—who no one's ever heard of."
+        ],
+        [
+          "2",
+          "A barrister begs the characters to serve as witnesses during a trial in the {@book High Courts|SatO|2|High Courts}, but the characters have no memory of witnessing a crime."
+        ],
+        [
+          "3",
+          "A {@creature cranium rat squeaker|MPP} (see {@book Morte's Planar Parade|MPP}) with an important secret needs help avoiding foes and finding its swarm elsewhere in Sigil."
+        ],
+        [
+          "4",
+          "Refugees entreat the characters to help them find a safe new home in Sigil."
+        ],
+        [
+          "5",
+          "The characters learn that a terrifying war machine is being transported through Sigil for use in conquering a Material Plane world."
+        ],
+        [
+          "6",
+          "A shop or tavern owner hires the characters to track down a deadbeat patron—a {@creature solar}, a {@creature pit fiend}, a {@creature death knight}, or other powerful being."
+        ],
+        [
+          "7",
+          "A group tries to kidnap a character, as the character is the key to a portal the group plans to use."
+        ],
+        [
+          "8",
+          "A villain looks remarkably like one of the characters, enough so that a {@creature kolyarut|MPP} or {@creature cuprilach rilmani|MPP} (both detailed in {@book Morte's Planar Parade|MPP}) mistakes the character for the scoundrel."
+        ],
+        [
+          "9",
+          "An {@creature archmage} new to the city offers to reward the characters with a magic item if they serve as their touts and sedan chair carriers for a day."
+        ],
+        [
+          "10",
+          "A {@creature dabus|MPP} (see {@book Morte's Planar Parade|MPP}) requests the characters' aid in removing someone or someplace from Sigil before the Lady of Pain learns of it."
+        ]
+      ],
+      "name": "Sigil Adventure Hooks",
+      "page": 58,
+      "source": "SatO",
+      "chapter": {
+        "name": "Sigil, the City of Doors",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

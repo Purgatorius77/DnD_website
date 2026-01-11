@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Sylvania Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature vampire} bachelorette invites the characters to a costumed ball at the {@book Yearning Timbers|SatO|3|Yearning Timbers}, hoping to enlist their help in choosing her next partner."
+        ],
+        [
+          "2",
+          "A jolly halfling invites the characters to a tea party at their woodland cottage. The halfling is actually a {@creature green hag} intent on eating her guests."
+        ],
+        [
+          "3",
+          "A {@creature blink dog} gobbles up King Ewren III. As the kingdom descends into chaos, a {@creature pixie} messenger asks the characters to help determine the next monarch."
+        ],
+        [
+          "4",
+          "One of the Seven Spiritors (use the {@creature ghost} stat block) possesses a {@creature satyr} and involves the characters in a scandal that must be remedied."
+        ]
+      ],
+      "name": "Sylvania Adventures",
+      "page": 87,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

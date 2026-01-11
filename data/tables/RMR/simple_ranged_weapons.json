@@ -1,0 +1,47 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Name",
+        "Cost",
+        "Damage",
+        "Weight",
+        "Properties"
+      ],
+      "colStyles": [
+        "col-2",
+        "col-1 text-center",
+        "col-2 text-center",
+        "col-2 text-center",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "Crossbow, light",
+          "25 gp",
+          "{@dice 1d8} piercing",
+          "5 lb.",
+          "Ammunition (range 80/320), loading, two-handed"
+        ],
+        [
+          "Shortbow",
+          "25 gp",
+          "{@dice 1d6} piercing",
+          "2 lb.",
+          "Ammunition (range 80/320), two-handed"
+        ]
+      ],
+      "name": "Simple Ranged Weapons",
+      "page": 39,
+      "source": "RMR",
+      "chapter": {
+        "name": "Adventuring",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

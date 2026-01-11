@@ -1,0 +1,164 @@
+{
+  "table": [
+    {
+      "name": "Sigil General Encounters",
+      "type": "table",
+      "source": "SatO",
+      "page": 59,
+      "caption": "Sigil General Encounters",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "01-03",
+          "1 {@creature noble} pedestrian distractedly talking to 1 {@creature cranium rat squeaker|MPP}*"
+        ],
+        [
+          "04-07",
+          "{@dice 1d4} {@creature dabus|MPP}*"
+        ],
+        [
+          "08-10",
+          "1 {@creature scout} tumbling through a portal from the Material Plane"
+        ],
+        [
+          "11-14",
+          "{@dice 1d4} {@creature Nightmare||nightmares} recklessly pulling a sedan chair"
+        ],
+        [
+          "15-17",
+          "{@dice 1d10} {@creature Bariaur Wanderer|MPP|bariaur wanderers}*"
+        ],
+        [
+          "18-22",
+          "{@dice 1d6} {@creature Harmonium Peacekeeper|MPP|Harmonium peacekeepers}* on patrol"
+        ],
+        [
+          "23-25",
+          "{@dice 1d6} {@creature dust mephit} messengers"
+        ],
+        [
+          "26-28",
+          "{@dice 1d4} {@creature Razorvine Blight|MPP|razorvine blights}*"
+        ],
+        [
+          "29-32",
+          "{@dice 1d4} {@creature Society of Sensation Muse|MPP|Society of Sensation muses}*"
+        ],
+        [
+          "33-36",
+          "{@dice 1d6} {@creature Quadrone||quadrones}"
+        ],
+        [
+          "37-39",
+          "{@dice 1d4} {@creature Cranium Rat Squeaker Swarm|MPP|cranium rat squeaker swarms}*"
+        ],
+        [
+          "40-43",
+          "1 {@creature Heralds of Dust Remnant|MPP|Herald of Dust remnant}* and {@dice 1d4} {@creature Zombie||zombies} collecting bodies"
+        ],
+        [
+          "44-46",
+          "1 {@creature young copper dragon} sightseer"
+        ],
+        [
+          "47-49",
+          "1 {@creature Mind's Eye matter smith|MPP}* carrying a rare gizmo"
+        ],
+        [
+          "50-54",
+          "1 {@creature night hag} street vendor"
+        ],
+        [
+          "55-57",
+          "{@dice 1d8} {@creature Bleak Cabal Void Soother|MPP|Bleak Cabal void soothers}* assisting locals"
+        ],
+        [
+          "58-60",
+          "{@dice 1d4} {@creature Vrock||vrocks} on a shopping trip"
+        ],
+        [
+          "61-63",
+          "{@dice 1d6} {@creature Equinal Guardinal|MPP|equinal guardinals}*"
+        ],
+        [
+          "64-66",
+          "{@dice 1d6} {@creature Transcendent Order Instinct|MPP|Transcendent Order instincts}* parkouring through the crowd"
+        ],
+        [
+          "67-69",
+          "{@dice 1d4} {@creature green slaad}"
+        ],
+        [
+          "70-72",
+          "{@dice 1d4} {@creature Fated Shaker|MPP|Fated shakers}* collecting taxes"
+        ],
+        [
+          "73-74",
+          "1 {@creature bone devil} late for a meeting"
+        ],
+        [
+          "75-76",
+          "1 {@creature mage} who's overwhelmed, having just arrived from the Material Plane"
+        ],
+        [
+          "77-79",
+          "{@dice 1d4} {@creature Mercykiller Bloodhound|MPP|Mercykiller bloodhounds}* tracking a criminal"
+        ],
+        [
+          "80-81",
+          "{@dice 1d8} {@creature Githzerai Traveler|MPP|githzerai travelers}*"
+        ],
+        [
+          "82-83",
+          "{@dice 1d4} {@creature maelephant|MPP}* mercenaries"
+        ],
+        [
+          "84-85",
+          "{@dice 1d6} {@creature Doomguard rot blade|MPP}* monster hunters"
+        ],
+        [
+          "86-87",
+          "1 {@creature planetar} looking for a shop"
+        ],
+        [
+          "88-89",
+          "1 {@creature cuprilach rilmani|MPP}* spying on a target"
+        ],
+        [
+          "90-91",
+          "1 {@creature Fraternity of Order law bender|MPP}*"
+        ],
+        [
+          "92-93",
+          "{@dice 1d4} {@creature Cloud Giant||cloud giants} who've become lost"
+        ],
+        [
+          "94-95",
+          "1 {@creature aboleth} in an aquarium sedan chair"
+        ],
+        [
+          "96-97",
+          "1 {@creature kolyarut|MPP}*"
+        ],
+        [
+          "98-99",
+          "A famous {@creature archmage}, like Bigby, Evard, Mordenkainen, or Tasha"
+        ],
+        [
+          "100",
+          "The Lady of Pain and {@dice 2d4} {@creature dabus|MPP}*"
+        ]
+      ],
+      "footnotes": [
+        "Creatures marked with an asterisk (*) appear in {@book Morte's Planar Parade|MPP}, while the rest are described in the {@book Monster Manual|MM}. Most creatures are initially indifferent to characters."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Student NPC Stat Blocks",
+      "colLabels": [
+        "Year",
+        "Stat Block"
+      ],
+      "colStyles": [
+        "col-5 text-center",
+        "col-7 text-center"
+      ],
+      "rows": [
+        [
+          "First",
+          "{@creature First-Year Student|SCC}"
+        ],
+        [
+          "Second",
+          "[College] Apprentice"
+        ],
+        [
+          "Third or Later",
+          "[College] Pledgemage"
+        ]
+      ],
+      "name": "Student NPC Stat Blocks",
+      "page": 50,
+      "source": "SCC",
+      "chapter": {
+        "name": "School Is in Session",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

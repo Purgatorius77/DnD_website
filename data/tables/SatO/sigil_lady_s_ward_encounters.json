@@ -1,0 +1,53 @@
+{
+  "table": [
+    {
+      "name": "Sigil Lady's Ward Encounters",
+      "type": "table",
+      "source": "SatO",
+      "page": 59,
+      "caption": "Sigil Lady's Ward Encounters",
+      "colLabels": [
+        "{@dice d8}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A tiefling wastrel ({@creature noble}) flicks a gambling chip from {@book Fortune's Wheel|SatO|2|Fortune's Wheel} at the party, lamenting, \"May your luck be better than mine.\""
+        ],
+        [
+          "2",
+          "A deluxe sedan chair carried by four {@creature Veteran||veterans} stops in front of the characters. A gloved Humanoid hand parts its privacy curtain, extending them an invitation to a masked ball."
+        ],
+        [
+          "3",
+          "A cheery {@creature drider} skitters toward the party. A cultist of Lolth, the drider hands the party a pamphlet advertising an upcoming ritual at the {@book Infinite Well|SatO|2|Infinite Well} (see the \"{@book Lady's Ward Locations|SatO|2|Lady's Ward Locations}\" section)."
+        ],
+        [
+          "4",
+          "A desperate {@creature commoner} from a faction of your choice has an impending trial in the {@book High Courts of Sigil|SatO|2|High Courts} (see the \"{@book Lady's Ward Locations|SatO|2|Lady's Ward Locations}\" section). Unable to secure an advocate, they plead with the characters to represent them in court."
+        ],
+        [
+          "5",
+          "When the coast is clear, a shady-looking {@creature Doomguard rot blade|MPP} (see {@book Morte's Planar Parade|MPP}) opens their long overcoat in front of the characters to reveal a slew of finely crafted weapons available for purchase."
+        ],
+        [
+          "6",
+          "Three {@creature Harmonium Peacekeeper|MPP|Harmonium peacekeepers} escort a manacled {@creature githzerai uniter|MPP} to the {@book Prison|SatO|2|Prison} (both stat blocks are in {@book Morte's Planar Parade|MPP}). As they pass the characters, the githzerai drops a crumpled note asserting their innocence."
+        ],
+        [
+          "7",
+          "A character spots a notice from the Mercykillers for an escaped prisoner who bears an uncanny resemblance to someone in the party."
+        ],
+        [
+          "8",
+          "Atop a low building, a {@creature githyanki warrior} proselytizes furiously to the characters about Aoskar, the Keeper of Gateways, claiming to have seen the dead god alive and well on the Astral Plane. As Harmonium officers move to arrest the githyanki, he mysteriously vanishes."
+        ]
+      ]
+    }
+  ]
+}

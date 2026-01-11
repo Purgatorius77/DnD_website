@@ -1,0 +1,37 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Armor",
+        "Cost",
+        "Armor Class (AC)",
+        "Weight"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3 text-right",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Shield",
+          "10 gp",
+          "+2",
+          "6 lb."
+        ]
+      ],
+      "name": "Shields",
+      "page": 37,
+      "source": "RMR",
+      "chapter": {
+        "name": "Adventuring",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

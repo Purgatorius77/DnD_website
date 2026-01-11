@@ -1,0 +1,236 @@
+{
+  "table": [
+    {
+      "caption": "Planar Portals",
+      "colLabelRows": [
+        [
+          "",
+          "",
+          {
+            "type": "cellHeader",
+            "width": 2,
+            "entry": "Destination",
+            "style": "th-skewer"
+          },
+          ""
+        ],
+        [
+          "d100",
+          "Portal Anchor",
+          "Sigil",
+          "Other Plane",
+          "Sample Keys"
+        ]
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2",
+        "col-2",
+        "col-2",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "01–03",
+          "Carved wooden arch",
+          "{@book Bottle and Jug|SatO|2|Bottle and Jug}",
+          "{@book Ysgard|DMG|2|Ysgard}",
+          "Stein, war horn"
+        ],
+        [
+          "04–06",
+          "Revolving door",
+          "{@book Face of Gith|SatO|2|Face of Gith}",
+          "{@book Limbo|DMG|2|Limbo}",
+          "Melting ice, red slaad egg"
+        ],
+        [
+          "07–09",
+          "Shattered window",
+          "{@book Nowhere|SatO|2|Nowhere}",
+          "{@book Pandemonium|DMG|2|Pandemonium}",
+          "Brick from an infirmary, tattered paper fan"
+        ],
+        [
+          "10–12",
+          "Sewer pipe",
+          "{@book Infinite Well|SatO|2|Infinite Well}",
+          "{@book The Abyss|DMG|2|The Abyss}",
+          "Celestial blood, demon ichor"
+        ],
+        [
+          "13–15",
+          "Cell door",
+          "{@book Prison|SatO|2|Prison}",
+          "{@book Carceri|DMG|2|Carceri}",
+          "Broken key, length of chain"
+        ],
+        [
+          "16–18",
+          "Open grave",
+          "{@book Dead Nations|SatO|2|Dead Nations}",
+          "{@book Hades|DMG|2|Hades}",
+          "Faceless mask, scrap of gray cloth"
+        ],
+        [
+          "19–21",
+          "Trapdoor",
+          "{@book Grease Pit|SatO|2|Grease Pit}",
+          "{@book Gehenna|DMG|2|Gehenna}",
+          "Bloody knife, lava rock"
+        ],
+        [
+          "22–24",
+          "Furnace door",
+          "{@book Bank of Abbathor|SatO|2|Bank of Abbathor Inc.}",
+          "{@book The Nine Hells|DMG|2|The Nine Hells}",
+          "Pinch of sulfur, signed contract"
+        ],
+        [
+          "25–27",
+          "Iron gate",
+          "{@book Armory|SatO|2|Armory}",
+          "{@book Acheron|DMG|2|Acheron}",
+          "Broken blade, medal"
+        ],
+        [
+          "28–30",
+          "Clock tower face",
+          "{@book High Courts|SatO|2|High Courts}",
+          "{@book Mechanus|DMG|2|Mechanus}",
+          "Metal cog, perfectly balanced scales"
+        ],
+        [
+          "31–33",
+          "Razorvine trellis",
+          "{@book Great Foundry|SatO|2|Great Foundry}",
+          "{@book Arcadia|DMG|2|Arcadia}",
+          "Rune-inscribed ingot, sprig of grapes"
+        ],
+        [
+          "34–36",
+          "Temple window",
+          "{@book Heart's Fire|SatO|2|Heart's Fire}",
+          "{@book Mount Celestia|DMG|2|Mount Celestia}",
+          "Angel feather, holy water"
+        ],
+        [
+          "37–39",
+          "Ornate mirror",
+          "{@book Hall of Speakers|SatO|2|Hall of Speakers}",
+          "{@book Bytopia|DMG|2|Bytopia}",
+          "Garden trowel, pair of twins"
+        ],
+        [
+          "40–42",
+          "Reflecting pool",
+          "{@book Gatehouse|SatO|2|Gatehouse}",
+          "{@book Elysium|DMG|2|Elysium}",
+          "Tears of joy, white lily"
+        ],
+        [
+          "43–45",
+          "Stable gate",
+          "{@book Flame Pits|SatO|2|Flame Pits}",
+          "{@book The Beastlands|DMG|2|The Beastlands}",
+          "Animal tooth, fresh wildflower"
+        ],
+        [
+          "46–48",
+          "Garden arch",
+          "{@book Civic Festhall|SatO|2|Civic Festhall}",
+          "{@book Arborea|DMG|2|Arborea}",
+          "Boisterous laughter, pinprick from a thorn"
+        ],
+        [
+          "49–58",
+          "Courtyard gate",
+          "{@book Fortune's Wheel|SatO|2|Fortune's Wheel}",
+          "{@book The Outlands|DMG|2|The Outlands and Sigil}",
+          "Stone from the Spire, spoked wheel"
+        ],
+        [
+          "59–63",
+          "Bedroom closet",
+          "{@book Planar Energy Cooperative|SatO|2|Planar Energy Cooperative}",
+          "{@book Ethereal Plane|DMG|2|Ethereal Plane}",
+          "Burial shroud, phase spider mandible"
+        ],
+        [
+          "64–68",
+          "Skylight",
+          "{@book Shattered Temple|SatO|2|Shattered Temple}",
+          "{@book Astral Plane|DMG|2|Astral Plane}",
+          "Scrap of githyanki armor, silver sphere"
+        ],
+        [
+          "69–71",
+          "Chimney",
+          "{@book Great Bazaar|SatO|2|Great Bazaar}",
+          "{@book Elemental Plane of Air|DMG|2|Plane of Air}",
+          "Incense smoke, silken scarf"
+        ],
+        [
+          "72–74",
+          "Cellar door",
+          "{@book Tower Sorcerous|SatO|2|Tower Sorcerous}",
+          "{@book Elemental Plane of Earth|DMG|2|Plane of Earth}",
+          "Granite cube, metal ore"
+        ],
+        [
+          "75–77",
+          "Blazing hearth",
+          "{@book Smoldering Corpse Bar|SatO|2|Smoldering Corpse Bar}",
+          "{@book Elemental Plane of Fire|DMG|2|Plane of Fire}",
+          "Brass brazier, burning coal"
+        ],
+        [
+          "78–80",
+          "Crumbling well",
+          "{@book The Ditch|SatO|2|The Ditch}",
+          "{@book Elemental Plane of Water|DMG|2|Plane of Water}",
+          "Pearl, pure water"
+        ],
+        [
+          "81–90",
+          "Mausoleum entrance",
+          "{@book Mortuary|SatO|2|Mortuary}",
+          "{@book Shadowfell|DMG|2|Shadowfell}",
+          "Grave dirt, mourner's veil"
+        ],
+        [
+          "91–94",
+          "Yew wardrobe",
+          "{@book Parted Veil|SatO|2|Parted Veil}",
+          "{@book Feywild|DMG|2|Feywild}",
+          "Book of limericks, toadstool"
+        ],
+        [
+          "95–98",
+          "Human-shaped hole",
+          "{@book Gastrognome|SatO|2|Gastrognome}",
+          "{@book Far Realm|DMG|2|The Far Realm}",
+          "Alien fossil, bezoar"
+        ],
+        [
+          "99–00",
+          "Inn room door",
+          "{@book Ubiquitous Wayfarer|SatO|2|Ubiquitous Wayfarer}",
+          "{@book Material Plane|DMG|2|Known Worlds of the Material Plane}",
+          "Childhood toy, map scroll"
+        ]
+      ],
+      "name": "Planar Portals",
+      "page": 18,
+      "source": "SatO",
+      "chapter": {
+        "name": "Sigil, the City of Doors",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

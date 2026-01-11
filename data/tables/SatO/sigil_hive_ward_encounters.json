@@ -1,0 +1,53 @@
+{
+  "table": [
+    {
+      "name": "Sigil Hive Ward Encounters",
+      "type": "table",
+      "source": "SatO",
+      "page": 59,
+      "caption": "Sigil Hive Ward Encounters",
+      "colLabels": [
+        "{@dice d8}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature Hands of Havoc fire starter|MPP} (see {@book Morte's Planar Parade|MPP}), flame in hand and a wild look in their eyes, stands outside an abandoned building. \"Care to help?\" they ask the characters."
+        ],
+        [
+          "2",
+          "A {@creature kelubar demodand|MPP} (see {@book Morte's Planar Parade|MPP}) street food vendor pushes a rusty cart down a nearby alley. Charred, sausage-link manacles dangle from the cart's torn awning. The demodand offers the characters anything on the cart for 5 cp."
+        ],
+        [
+          "3",
+          "Two chaotic neutral {@creature Troll||trolls} in sleeveless vests strut up to the characters, eager to show off their matching tattoos, courtesy of the dabus Fell."
+        ],
+        [
+          "4",
+          "Pugdug, a kind-eyed orc {@creature Bleak Cabal void soother|MPP} (see {@book Morte's Planar Parade|MPP}), offers to heal the characters, asking only that they pay the deed forward."
+        ],
+        [
+          "5",
+          "Two out-of-breath githzerai ratcatchers ({@creature Guard||guards}) in pink skullcaps chase a nimble {@creature cranium rat squeaker|MPP} (see {@book Morte's Planar Parade|MPP}). \"Get 'em!\" they cry as the rat darts toward the characters."
+        ],
+        [
+          "6",
+          "A droopy-eyed corpse collector (dwarf {@creature commoner}) in tattered clothing dumps a rotten body into the back of a wooden wagon. \"If ye need a ride to the Mortuary, there's room in the back!\" he laughs."
+        ],
+        [
+          "7",
+          "A thieving {@creature musteval guardinal|MPP} (see {@book Morte's Planar Parade|MPP}) snatches a bag from a desperate human {@creature commoner} and flees into a nearby alley. The victim cries for help from the characters."
+        ],
+        [
+          "8",
+          "Two {@creature Ettercap||ettercaps} hiss at the characters from an abandoned tenement building cocooned in thick webbing. The building belongs to the Spite Spinners, a gang of arachnid bandits and their boss, a {@creature darkweaver|MPP} (see {@book Morte's Planar Parade|MPP})."
+        ]
+      ]
+    }
+  ]
+}

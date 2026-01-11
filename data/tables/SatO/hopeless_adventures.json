@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Hopeless Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The party is caught red-handed after a mean-spirited {@creature goblin} makeup artist ambushes them with a splash of magic paint. Two {@creature Beholder||beholders} demand the characters perform at the {@book Gallows|SatO|3|Gallows} or be disintegrated where they stand."
+        ],
+        [
+          "2",
+          "Commanded by its superiors in Hades, a {@creature nycaloth} bubbles up through the Wishless Well and begins hunting members of the resistance in Hopeless."
+        ],
+        [
+          "3",
+          "High Cardinal Thingol hires the characters to catch the Jester, a costumed vigilante ({@creature mage}) in possession of a wand that spreads joy."
+        ],
+        [
+          "4",
+          "A {@creature baernaloth|MPP} (see {@book Morte's Planar Parade|MPP}) whispers to the characters through the Wishless Well, offering to trade ancient secrets for the Maiden of Misery's true identity."
+        ]
+      ],
+      "name": "Hopeless Adventures",
+      "page": 79,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

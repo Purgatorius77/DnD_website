@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Faunel Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Mick Mangehide ({@creature gnoll fang of Yeenoghu}) and his band of {@creature Gnoll||gnolls} set out to claim the hides of Faunel's three pack leaders."
+        ],
+        [
+          "2",
+          "Commanded by a general in Rigus, a {@creature hobgoblin warlord} attempts to capture {@book Camp Greenbriar|SatO|3|Camp Greenbriar} and convert it into a logging camp."
+        ],
+        [
+          "3",
+          "A {@creature musteval guardinal|MPP} (see {@book Morte's Planar Parade|MPP}) explorer hires the characters to join an expedition to recover a lost treasure from Old Faunel."
+        ],
+        [
+          "4",
+          "An irate {@creature roc} assails Eagles' Aerie, gobbling up its inhabitants and destroying their nests in search of its egg, which was stolen by the Vile Hunt."
+        ]
+      ],
+      "name": "Faunel Adventures",
+      "page": 73,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

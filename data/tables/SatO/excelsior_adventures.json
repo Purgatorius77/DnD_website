@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Excelsior Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "An {@creature androsphinx} arrives in Excelsior and declares itself the new high chancellor. Forough petitions the characters to help cement her authority."
+        ],
+        [
+          "2",
+          "The {@creature empyrean} Tygrant receives a prophecy that he can return to Mount Celestia only if he is humbled through defeat. He challenges all of Excelsior, including the characters, to wrestling matches in his tower."
+        ],
+        [
+          "3",
+          "Allowed into the {@book forum|SatO|3|Forum} on an ancient contract, a silver-tongued {@creature pit fiend} invites Excelsior's orators to debate the worth of a soul. An angel asks the characters to take the podium."
+        ],
+        [
+          "4",
+          "The faith of a divine champion ({@creature gladiator}) begins to waver in the {@book Chandelier|SatO|3|Chandelier}, causing their cloud keep to shudder. A {@creature lantern archon|MPP} (see {@book Morte's Planar Parade|MPP}) asks the characters to erase the warrior's doubt before their fortress falls from the sky."
+        ]
+      ],
+      "name": "Excelsior Adventures",
+      "page": 71,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Plague-Mort Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Disguised as a cleric of a sun god, a {@creature deva} from Excelsior begins proselytizing among hopeful townsfolk in secret. Archlector Bex commands the characters to capture the missionary and deliver them to the Pit."
+        ],
+        [
+          "2",
+          "A farmer pays the characters to prune a patch of pustules from a field before the harvest is spoiled. Dozens of {@creature Zombie||zombies} lurk within the maze of stalks."
+        ],
+        [
+          "3",
+          "Armed with a forked spear, the vindictive Martari Mayhem (lawful evil, tiefling {@creature gladiator}) plans to storm {@book Blightsteel Keep|SatO|3|Blightsteel Keep}. At the {@book Razed Altar|SatO|3|Razed Altar}, she hires the characters to infiltrate the stronghold and report on its defenses."
+        ],
+        [
+          "4",
+          "Alorio Nightriddle (chaotic evil, human {@creature mage}) invites the characters to a clandestine meeting at A Pinch of Salt, a rundown tavern with a {@creature glabrezu} proprietor. Alorio wants their help to oust the archlector."
+        ]
+      ],
+      "name": "Plague-Mort Adventures",
+      "page": 81,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

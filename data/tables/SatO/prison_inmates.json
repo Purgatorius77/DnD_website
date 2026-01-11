@@ -1,0 +1,76 @@
+{
+  "table": [
+    {
+      "caption": "Prison Inmates",
+      "colLabels": [
+        "d12",
+        "Inmate"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A chaotic evil {@creature storm giant} conquerer who darkened Sigil's skies with storm clouds"
+        ],
+        [
+          "2",
+          "A disheveled wizard named Gifad (chaotic neutral, human {@creature mage}) who claims to hail from the future"
+        ],
+        [
+          "3",
+          "Koe, a fiery-winged, chaotic neutral {@creature deva} imprisoned for smuggling weapons forged on Mount Celestia to Fiends on both sides of the Blood War"
+        ],
+        [
+          "4",
+          "A clone of Manshoon (lawful evil, human {@creature archmage}), an infamous masked archwizard from the world of Toril, who insists he has been framed"
+        ],
+        [
+          "5",
+          "A {@creature cuprilach rilmani|MPP} (see {@book Morte's Planar Parade|MPP}) that killed a former factol to preserve the Balance"
+        ],
+        [
+          "6",
+          "A malevolent cosmic force manifesting as a {@creature planar incarnate|MPP} (see {@book Morte's Planar Parade|MPP}) that feeds on entire realities"
+        ],
+        [
+          "7",
+          "A nameless, chaotic evil {@creature doppelganger} who has impersonated every factol in Sigil"
+        ],
+        [
+          "8",
+          "A supernatural {@creature assassin} who targets only former mortals"
+        ],
+        [
+          "9",
+          "A world-destroying Construct (use the {@creature kolyarut|MPP} stat block) whose creator is still at large"
+        ],
+        [
+          "10",
+          "A {@creature decaton modron|MPP} (see {@book Morte's Planar Parade|MPP}) that turned itself in after a {@creature pentadrone} under its command malfunctioned and abandoned its post"
+        ],
+        [
+          "11",
+          "A {@creature darkweaver|MPP} guilty of trying to eat a {@creature dabus|MPP} (both stat blocks are in {@book Morte's Planar Parade|MPP})"
+        ],
+        [
+          "12",
+          "A {@creature kraken} that briefly drowned one of Sigil's wards by using portals to aquatic planes"
+        ]
+      ],
+      "name": "Prison Inmates",
+      "page": 45,
+      "source": "SatO",
+      "chapter": {
+        "name": "Sigil, the City of Doors",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

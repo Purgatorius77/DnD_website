@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Bedlam Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The winds puppeteer the contents of an armory in the Bleakheights. A {@creature goblin} shopkeep pays the characters to defend their shop's wind chimes from rampaging suits of {@creature animated armor}."
+        ],
+        [
+          "2",
+          "Each night, a {@creature darkweaver|MPP} (see {@book Morte's Planar Parade|MPP}) snatches a resident of Midtown and drags them into the {@book Wailing Hollows|SatO|3|Wailing Hollows}. Gatekeeper Cirrus calls for the creature's capture or extermination."
+        ],
+        [
+          "3",
+          "Orbys Bumblewing asks the characters to test a dubious new flying machine. During their flight, Nimbus Knife {@creature Bandit||bandits} attempt to steal it."
+        ],
+        [
+          "4",
+          "A wave of murder sweeps through Midtown, caused by a malevolent breeze (use the {@creature ghost} stat block) that possesses the townsfolk."
+        ]
+      ],
+      "name": "Bedlam Adventures",
+      "page": 65,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

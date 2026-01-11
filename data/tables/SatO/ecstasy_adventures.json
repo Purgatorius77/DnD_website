@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ecstasy Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A convincing petitioner (chaotic neutral {@creature ghost}) pretends to be the long-lost relative of a character. The spirit aims to possess the character and live life to the fullest."
+        ],
+        [
+          "2",
+          "The Lightcaller holds a peace banquet in {@book Solrise Tower|SatO|3|Solrise Tower}, inviting powerful devils and demons in hopes of ending the Blood War. A {@creature solar} requests the characters attend in case things turn ugly."
+        ],
+        [
+          "3",
+          "A {@creature green hag} poisons Ecstasy's orchards daily at twilight, outside the jurisdiction of either monarch. After a string of illnesses at {@book Revelhome|SatO|3|Revelhome}, Madame Millani hires the characters to investigate."
+        ],
+        [
+          "4",
+          "Three evenings have passed since the gates of {@book Moondark Tower|SatO|3|Moondark Tower} last opened. An owl-like {@creature avoral guardinal|MPP} (see {@book Morte's Planar Parade|MPP}) night merchant asks the party to solve the mystery."
+        ]
+      ],
+      "name": "Ecstasy Adventures",
+      "page": 69,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

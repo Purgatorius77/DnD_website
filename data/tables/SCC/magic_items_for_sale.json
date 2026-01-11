@@ -1,0 +1,80 @@
+{
+  "table": [
+    {
+      "caption": "Magic Items for Sale",
+      "colLabels": [
+        "Item",
+        "Rarity",
+        "Cost"
+      ],
+      "colStyles": [
+        "col-9",
+        "col-2 text-center",
+        "col-1 text-right"
+      ],
+      "rows": [
+        [
+          "{@item Bottle of Boundless Coffee|SCC}",
+          "Common",
+          "100 gp"
+        ],
+        [
+          "{@item Cuddly Strixhaven Mascot|SCC}",
+          "Common",
+          "100 gp"
+        ],
+        [
+          "{@item Lorehold Primer|SCC}",
+          "Uncommon",
+          "300 gp"
+        ],
+        [
+          "{@item Prismari Primer|SCC}",
+          "Uncommon",
+          "300 gp"
+        ],
+        [
+          "{@item Quandrix Primer|SCC}",
+          "Uncommon",
+          "300 gp"
+        ],
+        [
+          "{@item Silverquill Primer|SCC}",
+          "Uncommon",
+          "300 gp"
+        ],
+        [
+          "{@item Spell Scroll (1st Level)||Spell Scroll} (1st-Level Spell; {@book DMG|DMG})",
+          "Common",
+          "50 gp"
+        ],
+        [
+          "{@item Strixhaven Pennant|SCC}",
+          "Common",
+          "100 gp"
+        ],
+        [
+          "{@item +1 Weapon||Weapon, +1} ({@book DMG|DMG})",
+          "Uncommon",
+          "300 gp"
+        ],
+        [
+          "{@item Witherbloom Primer|SCC}",
+          "Uncommon",
+          "300 gp"
+        ]
+      ],
+      "name": "Magic Items for Sale",
+      "page": 38,
+      "source": "SCC",
+      "chapter": {
+        "name": "Character Options",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Xaos Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A team of four {@creature Quadrone||quadrones} recruits the party on a rescue mission into the {@book Cube|SatO|3|The Cube}."
+        ],
+        [
+          "2",
+          "Lazethon, a {@creature githzerai uniter|MPP} (see {@book Morte's Planar Parade|MPP}), recruits the characters to defend the embassy from an approaching githyanki warship."
+        ],
+        [
+          "3",
+          "A merciless {@creature githyanki knight} arrives in Xaos on the back of a {@creature young red dragon}. He asks the characters to help him sniff out members of the Sha'sal Khou on behalf of Vlaakith the Lich-Queen."
+        ],
+        [
+          "4",
+          "Slaadi flock to their nest in Xaos for a ritual that occurs once every century. Afraid of becoming hosts for {@creature Slaad Tadpole||slaad tadpoles}, townsfolk beseech the characters for aid."
+        ]
+      ],
+      "name": "Xaos Adventures",
+      "page": 93,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

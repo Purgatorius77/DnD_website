@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Spells for Sale",
+      "colLabels": [
+        "Spell",
+        "Cost per Spell"
+      ],
+      "colStyles": [
+        "col-10",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "{@spell Comprehend languages}, {@spell detect magic}, {@spell disguise self}, {@spell feather fall}, {@spell illusory script}, {@spell protection from evil and good}, {@spell shield}, {@spell Tenser's floating disk}",
+          "25 gp"
+        ],
+        [
+          "{@spell Arcane lock}, {@spell darkvision}, {@spell detect thoughts}, {@spell hold person}, {@spell invisibility}, {@spell knock}, {@spell Nystul's magic aura}, {@spell warp sense|SatO}*",
+          "75 gp"
+        ],
+        [
+          "{@spell Dispel magic}, {@spell fly}, {@spell glyph of warding}, {@spell magic circle}, {@spell sending}, {@spell tongues}",
+          "150 gp"
+        ],
+        [
+          "{@spell Dimension door}, {@spell fabricate}, {@spell gate seal|SatO},* {@spell locate creature}",
+          "300 gp"
+        ],
+        [
+          "{@spell Contact other plane}, {@spell legend lore}, {@spell planar binding}, {@spell Rary's telepathic bond}",
+          "750 gp"
+        ]
+      ],
+      "name": "Spells for Sale",
+      "page": 50,
+      "source": "SatO",
+      "chapter": {
+        "name": "Sigil, the City of Doors",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Deity",
+        "Alignment",
+        "Domains",
+        "Symbol"
+      ],
+      "colStyles": [
+        "col-4",
+        "col-1 text-center",
+        "col-2",
+        "col-5"
+      ],
+      "rows": [
+        [
+          "Eilistraee, goddess of song and moonlight",
+          "CG",
+          "Light, Nature",
+          "Sword-wielding dancing drow female silhouetted against the full moon"
+        ],
+        [
+          "Kiaransalee, goddess of necromancy",
+          "CE",
+          "Arcana",
+          "Female drow hand wearing many silver rings"
+        ],
+        [
+          "Lolth, goddess of spiders",
+          "CE",
+          "Trickery",
+          "Spider"
+        ],
+        [
+          "Selvetarm, god of warriors",
+          "CE",
+          "War",
+          "Spider over crossed sword-and-mace"
+        ],
+        [
+          "Vhaeraun, god of thieves",
+          "CE",
+          "Trickery",
+          "Black mask with blue glass lenses inset over eyes"
+        ]
+      ],
+      "name": "The Drow Pantheon",
+      "page": 23,
+      "source": "SCAG",
+      "chapter": {
+        "name": "Welcome to the Realms",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

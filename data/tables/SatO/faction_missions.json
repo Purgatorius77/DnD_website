@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Faction Missions",
+      "colLabels": [
+        "d6",
+        "Mission"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A factol hires the characters to dig up dirt on a rival faction leader."
+        ],
+        [
+          "2",
+          "The characters must infiltrate another faction's headquarters and steal a priceless item."
+        ],
+        [
+          "3",
+          "A faction leader hires the characters as bodyguards for an important city event at the {@book Hall of Speakers|SatO|2|Hall of Speakers}."
+        ],
+        [
+          "4",
+          "Suspicious of their own ranks, a factol hires the characters to root out a spy."
+        ],
+        [
+          "5",
+          "A factotum secretly offers the characters a hefty reward to break someone out of the {@book Prison|SatO|2|Prison}."
+        ],
+        [
+          "6",
+          "After a public spat with another faction leader, a factol goes missing. Their second-in-command hires the characters to investigate."
+        ]
+      ],
+      "name": "Faction Missions",
+      "page": 58,
+      "source": "SatO",
+      "chapter": {
+        "name": "Sigil, the City of Doors",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

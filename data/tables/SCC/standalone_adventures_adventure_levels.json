@@ -1,0 +1,50 @@
+{
+  "table": [
+    {
+      "caption": "Adventure Levels",
+      "colLabels": [
+        "Adventure",
+        "Starting Level",
+        "Chapter"
+      ],
+      "colStyles": [
+        "col-6",
+        "col-4 text-center",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "Campus Kerfuffle",
+          "1st",
+          "{@adventure 3|SCC-CK|0}"
+        ],
+        [
+          "Hunt for Mage Tower",
+          "4th",
+          "{@adventure 4|SCC-HfMT|0}"
+        ],
+        [
+          "The Magister's Masquerade",
+          "6th",
+          "{@adventure 5|SCC-TMM|0}"
+        ],
+        [
+          "A Reckoning in Ruins",
+          "8th",
+          "{@adventure 6|SCC-ARiR|0}"
+        ]
+      ],
+      "name": "Standalone Adventures; Adventure Levels",
+      "page": 41,
+      "source": "SCC",
+      "chapter": {
+        "name": "School Is in Session",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

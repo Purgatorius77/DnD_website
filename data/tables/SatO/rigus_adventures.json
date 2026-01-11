@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Rigus Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The {@creature arcanaloth} Fetchtatter pays the characters to steal an infernal war machine from {@book Ribcage|SatO|3|Ribcage} so it can be sold to a general in Rigus."
+        ],
+        [
+          "2",
+          "The avatar of an evil deity of war (use the {@creature planar incarnate|MPP} stat block from {@book Morte's Planar Parade|MPP}) emerges from the {@book Lion's Gate|SatO|3|Gate} to destroy Rigus."
+        ],
+        [
+          "3",
+          "A {@creature mummy lord} in the {@book Crown|SatO|3|Crown} commands General Braahg to implement an outdated strategy. Risking treason, the hobgoblin hires the characters to lay his superior to rest."
+        ],
+        [
+          "4",
+          "The {@creature ghost} of a fallen warrior asks the party to investigate why their name isn't on the {@book Final Procession|SatO|3|Final Procession}. The culprit is a petty Crown General who took credit for the warrior's heroism."
+        ]
+      ],
+      "name": "Rigus Adventures",
+      "page": 85,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

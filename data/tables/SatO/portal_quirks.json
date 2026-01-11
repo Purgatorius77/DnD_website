@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Portal Quirks",
+      "colLabels": [
+        "d6",
+        "Portal Quirk"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "One-Way. The portal functions only one way, either into or out of Sigil. The portal isn't visible or detectable from the exit side."
+        ],
+        [
+          "2",
+          "Shifting. One end of the portal moves in a pattern between different locations in Sigil or the destination plane."
+        ],
+        [
+          "3",
+          "Slow. After a creature enters the portal, {@dice 2d4} days pass before the creature appears at its destination, during which time the creature is trapped in a stasis and is unaware of the passage of time."
+        ],
+        [
+          "4",
+          "Taxing. The portal's energy is unstable. A creature that passes through the portal must succeed on a {@dc 10} Constitution saving throw or gain 1 level of {@condition exhaustion}."
+        ],
+        [
+          "5",
+          "Temporary. The portal allows only {@dice 1d6 + 6} travelers to pass through in either direction, then vanishes."
+        ],
+        [
+          "6",
+          "Tumbling Lock. Every time the portal is opened, it requires a different portal key."
+        ]
+      ],
+      "name": "Portal Quirks",
+      "page": 18,
+      "source": "SatO",
+      "chapter": {
+        "name": "Sigil, the City of Doors",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

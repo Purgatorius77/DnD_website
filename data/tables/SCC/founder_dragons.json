@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Founder Dragons",
+      "colLabels": [
+        "College",
+        "Founder"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-8 text-center"
+      ],
+      "rows": [
+        [
+          "Lorehold",
+          "{@creature Velomachus Lorehold|SCC}"
+        ],
+        [
+          "Prismari",
+          "{@creature Galazeth Prismari|SCC}"
+        ],
+        [
+          "Quandrix",
+          "{@creature Tanazir Quandrix|SCC}"
+        ],
+        [
+          "Silverquill",
+          "{@creature Shadrix Silverquill|SCC}"
+        ],
+        [
+          "Witherbloom",
+          "{@creature Beledros Witherbloom|SCC}"
+        ]
+      ],
+      "name": "Founder Dragons",
+      "page": 6,
+      "source": "SCC",
+      "chapter": {
+        "name": "Welcome to Strixhaven",
+        "index": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "table": [
+    {
+      "caption": "Starting Relationship Points",
+      "colLabels": [
+        "Person",
+        "Relationship Points"
+      ],
+      "colStyles": [
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Friend",
+          "2"
+        ],
+        [
+          "Beloved",
+          "3"
+        ],
+        [
+          "Rival",
+          "−2"
+        ]
+      ],
+      "name": "Relationships; Starting Relationship Points",
+      "page": 42,
+      "source": "SCC",
+      "chapter": {
+        "name": "School Is in Session",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

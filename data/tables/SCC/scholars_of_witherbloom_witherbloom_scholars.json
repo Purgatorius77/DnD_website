@@ -1,0 +1,70 @@
+{
+  "table": [
+    {
+      "caption": "Witherbloom Scholars",
+      "colLabels": [
+        "d8",
+        "Scholar",
+        "Principle"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-9",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "1",
+          "Banelock, using concoctions of noxious ingredients for withering magic",
+          "Decay"
+        ],
+        [
+          "2",
+          "Bleed doctor, drain the essence of living creatures to fuel sinister spells",
+          "Decay"
+        ],
+        [
+          "3",
+          "Boon witch, brewing drafts to empower the living",
+          "Growth"
+        ],
+        [
+          "4",
+          "Boughcaller, summoning creatures from bogs",
+          "Growth"
+        ],
+        [
+          "5",
+          "Dreadbones, infusing dead tissue with magic to create Undead servants",
+          "Decay"
+        ],
+        [
+          "6",
+          "Earthcroucher, connecting directly with the land to power nature magic",
+          "Growth"
+        ],
+        [
+          "7",
+          "Leafbinder, using medicinal herbs to soothe wounds",
+          "Growth"
+        ],
+        [
+          "8",
+          "Pestcatcher, harvesting life energy from the pests of the bayou",
+          "Decay"
+        ]
+      ],
+      "name": "Scholars of Witherbloom; Witherbloom Scholars",
+      "page": 25,
+      "source": "SCC",
+      "chapter": {
+        "name": "Life at Strixhaven",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

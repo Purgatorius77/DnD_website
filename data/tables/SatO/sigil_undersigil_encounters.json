@@ -1,0 +1,45 @@
+{
+  "table": [
+    {
+      "name": "Sigil Undersigil Encounters",
+      "type": "table",
+      "source": "SatO",
+      "page": 59,
+      "caption": "Sigil Undersigil Encounters",
+      "colLabels": [
+        "{@dice d6}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A {@creature vargouille reflection|MPP} (see {@book Morte's Planar Parade|MPP}) sprouts from a nearby corpse."
+        ],
+        [
+          "2",
+          "Putrice, a {@creature night hag}, cackles as she fishes a wriggling {@creature larva|DMG} (see the {@book Dungeon Master's Guide|DMG}) from a vent underneath a fiend-owned restaurant."
+        ],
+        [
+          "3",
+          "Two {@creature Cranium Rat Squeaker|MPP|cranium rat squeakers} (see {@book Morte's Planar Parade|MPP}) gnaw on the bones of a {@creature skeleton}, which reaches out toward the characters for help."
+        ],
+        [
+          "4",
+          "Two {@creature dabus|MPP} (see {@book Morte's Planar Parade|MPP}) prune back a mass of razorvine that has spread through a barred grate to the busy street above. As they trim its barbed branches, something shudders within."
+        ],
+        [
+          "5",
+          "Three {@creature sahuagin} emerge from a wide pipe. \"Polluters!\" shouts one of them, addressing the characters."
+        ],
+        [
+          "6",
+          "A warm sponge cake cools on a dusty stone ledge. Its sweet, strawberry aroma wafts through the otherwise dingy passage. A note reading \"DO NOT EAT\" rests below its porcelain serving dish."
+        ]
+      ]
+    }
+  ]
+}

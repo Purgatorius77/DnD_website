@@ -1,0 +1,39 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Attack Type",
+        "Attack Roll",
+        "Damage Roll"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-5 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Melee weapon attack",
+          "Strength mod.*",
+          "Strength mod."
+        ],
+        [
+          "Ranged weapon attack",
+          "Dexterity mod.*",
+          "Dexterity mod."
+        ],
+        [
+          "Spell attack",
+          "Spellcasting ability mod.**",
+          "Depends on effect"
+        ]
+      ],
+      "name": "How do I know which ability modifier to use with an attack roll and its damage roll?",
+      "source": "SAC",
+      "chapter": {
+        "name": "Sage Advice Compendium",
+        "index": 0
+      }
+    }
+  ]
+}

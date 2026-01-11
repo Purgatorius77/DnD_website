@@ -1,0 +1,250 @@
+{
+  "table": [
+    {
+      "caption": "Strixhaven Creatures",
+      "colLabels": [
+        "Creature",
+        "Creature Type",
+        "CR"
+      ],
+      "colStyles": [
+        "col-8",
+        "col-3 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "{@creature Archaic|SCC}",
+          "Celestial",
+          "18"
+        ],
+        [
+          "{@creature Art Elemental Mascot|SCC}",
+          "Elemental",
+          "1/4"
+        ],
+        [
+          "{@creature Beledros Witherbloom|SCC}",
+          "Dragon",
+          "24"
+        ],
+        [
+          "{@creature Brackish Trudge|SCC}",
+          "Plant",
+          "3"
+        ],
+        [
+          "{@creature Cogwork Archivist|SCC}",
+          "Construct",
+          "4"
+        ],
+        [
+          "{@creature Daemogoth|SCC}",
+          "Fiend",
+          "10"
+        ],
+        [
+          "{@creature Daemogoth Titan|SCC}",
+          "Fiend",
+          "16"
+        ],
+        [
+          "{@creature First-Year Student|SCC}",
+          "Humanoid",
+          "1/2"
+        ],
+        [
+          "{@creature Fractal Mascot|SCC}",
+          "Construct",
+          "1/4"
+        ],
+        [
+          "{@creature Galazeth Prismari|SCC}",
+          "Dragon",
+          "23"
+        ],
+        [
+          "{@creature Groff|SCC}",
+          "Plant",
+          "4"
+        ],
+        [
+          "{@creature Inkling Mascot|SCC}",
+          "Ooze",
+          "1/4"
+        ],
+        [
+          "{@creature Lorehold Apprentice|SCC}",
+          "Humanoid",
+          "2"
+        ],
+        [
+          "{@creature Lorehold Pledgemage|SCC}",
+          "Humanoid",
+          "4"
+        ],
+        [
+          "{@creature Lorehold Professor of Chaos|SCC}",
+          "Humanoid",
+          "7"
+        ],
+        [
+          "{@creature Lorehold Professor of Order|SCC}",
+          "Humanoid",
+          "7"
+        ],
+        [
+          "{@creature Mage Hunter|SCC}",
+          "Monstrosity",
+          "5"
+        ],
+        [
+          "{@creature Oracle of Strixhaven|SCC}",
+          "Humanoid",
+          "15"
+        ],
+        [
+          "{@creature Oriq Blood Mage|SCC}",
+          "Humanoid",
+          "9"
+        ],
+        [
+          "{@creature Oriq Recruiter|SCC}",
+          "Humanoid",
+          "4"
+        ],
+        [
+          "{@creature Pest Mascot|SCC}",
+          "Monstrosity",
+          "1/4"
+        ],
+        [
+          "{@creature Prismari Apprentice|SCC}",
+          "Humanoid",
+          "2"
+        ],
+        [
+          "{@creature Prismari Pledgemage|SCC}",
+          "Humanoid",
+          "4"
+        ],
+        [
+          "{@creature Prismari Professor of Expression|SCC}",
+          "Humanoid",
+          "7"
+        ],
+        [
+          "{@creature Prismari Professor of Perfection|SCC}",
+          "Humanoid",
+          "7"
+        ],
+        [
+          "{@creature Quandrix Apprentice|SCC}",
+          "Humanoid",
+          "2"
+        ],
+        [
+          "{@creature Quandrix Pledgemage|SCC}",
+          "Humanoid",
+          "4"
+        ],
+        [
+          "{@creature Quandrix Professor of Substance|SCC}",
+          "Humanoid",
+          "7"
+        ],
+        [
+          "{@creature Quandrix Professor of Theory|SCC}",
+          "Humanoid",
+          "7"
+        ],
+        [
+          "{@creature Relic Sloth|SCC}",
+          "Beast",
+          "2"
+        ],
+        [
+          "{@creature Ruin Grinder|SCC}",
+          "Construct",
+          "5"
+        ],
+        [
+          "{@creature Shadrix Silverquill|SCC}",
+          "Dragon",
+          "22"
+        ],
+        [
+          "{@creature Silverquill Apprentice|SCC}",
+          "Humanoid",
+          "2"
+        ],
+        [
+          "{@creature Silverquill Pledgemage|SCC}",
+          "Humanoid",
+          "4"
+        ],
+        [
+          "{@creature Silverquill Professor of Radiance|SCC}",
+          "Humanoid",
+          "7"
+        ],
+        [
+          "{@creature Silverquill Professor of Shadow|SCC}",
+          "Humanoid",
+          "7"
+        ],
+        [
+          "{@creature Spirit Statue Mascot|SCC}",
+          "Construct",
+          "1/4"
+        ],
+        [
+          "{@creature Strixhaven Campus Guide|SCC}",
+          "Construct",
+          "1"
+        ],
+        [
+          "{@creature Tanazir Quandrix|SCC}",
+          "Dragon",
+          "24"
+        ],
+        [
+          "{@creature Velomachus Lorehold|SCC}",
+          "Dragon",
+          "25"
+        ],
+        [
+          "{@creature Witherbloom Apprentice|SCC}",
+          "Humanoid",
+          "2"
+        ],
+        [
+          "{@creature Witherbloom Pledgemage|SCC}",
+          "Humanoid",
+          "4"
+        ],
+        [
+          "{@creature Witherbloom Professor of Decay|SCC}",
+          "Humanoid",
+          "7"
+        ],
+        [
+          "{@creature Witherbloom Professor of Growth|SCC}",
+          "Humanoid",
+          "7"
+        ]
+      ],
+      "name": "Friends and Foes; Strixhaven Creatures",
+      "page": 183,
+      "source": "SCC",
+      "chapter": {
+        "name": "Friends and Foes",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 7
+        },
+        "index": 8
+      }
+    }
+  ]
+}

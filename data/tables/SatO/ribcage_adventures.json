@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Ribcage Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "One of the character's loved ones pledges their soul in an infernal contract. To win it back, the party must argue their case before a {@creature pit fiend} judge in the Court of Cinders."
+        ],
+        [
+          "2",
+          "Commanded by a fallen angel (lawful evil {@creature planetar}) who runs a rival tavern, a gaggle of {@creature Imp||imps} begins vandalizing the {@book Bleeding Horn|SatO|3|Bleeding Horn}. The {@creature ice devil} Sparax pays characters to deal with the situation."
+        ],
+        [
+          "3",
+          "Thalamra Vanthampur, a deceased duke of Baldur's Gate, claws her way out of the depths of Avernus and emerges in Ribcage as a {@creature death knight}. A vengeful conqueror, she calls on the characters to help topple Duchess Zurkbane and her cronies."
+        ],
+        [
+          "4",
+          "Duchess Zurkbane hires the characters to capture a supposedly dangerous criminal, who turns out to be an innocent {@creature commoner} who saw Zurkbane's true form."
+        ]
+      ],
+      "name": "Ribcage Adventures",
+      "page": 83,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

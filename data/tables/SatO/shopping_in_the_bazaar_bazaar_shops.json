@@ -1,0 +1,60 @@
+{
+  "table": [
+    {
+      "caption": "Bazaar Shops",
+      "colLabels": [
+        "d8",
+        "Vendor"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Boastful human hunter ({@creature assassin}) who sells hides and armors made from creatures she has slain—such as ankheg breastplates, angel-feathered cloaks, and horned gorgon shields"
+        ],
+        [
+          "2",
+          "Celestial-owned bookstall carrying holy texts, illuminated manuscripts, and divine stationary"
+        ],
+        [
+          "3",
+          "Boutique where a {@creature darkweaver|MPP} (see {@book Morte's Planar Parade|MPP}) with an eye for fashion weaves the latest styles out of pure shadow"
+        ],
+        [
+          "4",
+          "Food stall catering to creatures of a specific type"
+        ],
+        [
+          "5",
+          "Sweltering iron shack where a {@creature fire giant} blacksmith and his two {@creature magmin} helpers craft sturdy weapons with harmlessly smoldering pommels"
+        ],
+        [
+          "6",
+          "Pawn shop that specializes in portal keys"
+        ],
+        [
+          "7",
+          "Souvenir shop full of chintzy planar trinkets that might all be Tiny {@creature Mimic||mimics}"
+        ],
+        [
+          "8",
+          "Contractor hiring monsters to defend dungeons on other worlds"
+        ]
+      ],
+      "name": "Shopping in the Bazaar; Bazaar Shops",
+      "page": 53,
+      "source": "SatO",
+      "chapter": {
+        "name": "Sigil, the City of Doors",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}

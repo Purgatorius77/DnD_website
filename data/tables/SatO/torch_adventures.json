@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Torch Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "When a buyer stiffs the Stolen Glance, Zephesta hires the characters to collect the debt and \"rough him up a little bit.\" She fails to mention the buyer is a {@creature cloud giant}."
+        ],
+        [
+          "2",
+          "A {@creature death tyrant} claiming to be the deceased founder of the Xanathar's Guild on Toril hires the party to obtain an invitation to the Family on its behalf—or be destroyed."
+        ],
+        [
+          "3",
+          "The {@book Bank of Abbathor|SatO|3|Bank of Abbathor} hires the characters as security. The very same day, two {@creature Maelephant|MPP|maelephants} (see {@book Morte's Planar Parade|MPP}) attempt to rob the bank."
+        ],
+        [
+          "4",
+          "{@creature Doppelganger||Doppelgangers} in the Lookalikes gang take on the characters' appearances and go on a crime spree, creating problems for the party at multiple locations."
+        ]
+      ],
+      "name": "Torch Adventures",
+      "page": 89,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

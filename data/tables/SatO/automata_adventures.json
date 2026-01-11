@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Automata Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Fleeing interplanar bounty hunters, a three-horned tiefling named Romerillo (chaotic good, tiefling {@creature spy}) seeks refuge on one of the Upper Planes. Romerillo asks the characters to sneak them aboard the Concordant Express."
+        ],
+        [
+          "2",
+          "Disguised as Serafil, a {@creature shator demodand|MPP} (see {@book Morte's Planar Parade|MPP}) assumes the council member's position and has the \"impostor\" arrested. Serafil's disheveled secretary beseeches the characters for aid."
+        ],
+        [
+          "3",
+          "A chaotic evil {@creature quadrone} tampers with the street numbers at night, causing widespread gridlock as modrons leave for work each morning. The Council of Order asks the characters to investigate."
+        ],
+        [
+          "4",
+          "A {@creature marid} fruit vendor is arrested in the Inverse for color-coordinating the produce in their stall. The genie petitions the characters to defend them in the nonsensical courts of the Hall of Discord."
+        ]
+      ],
+      "name": "Automata Adventures",
+      "page": 63,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

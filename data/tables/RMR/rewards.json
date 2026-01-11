@@ -1,0 +1,54 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Experience Points",
+        "Level",
+        "Proficiency Bonus"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-2 text-right",
+        "col-8 text-right"
+      ],
+      "rows": [
+        [
+          "0",
+          "1",
+          "+2"
+        ],
+        [
+          "300",
+          "2",
+          "+2"
+        ],
+        [
+          "900",
+          "3",
+          "+2"
+        ],
+        [
+          "2,700",
+          "4",
+          "+2"
+        ],
+        [
+          "6,500",
+          "5",
+          "+3"
+        ]
+      ],
+      "name": "Rewards",
+      "page": 35,
+      "source": "RMR",
+      "chapter": {
+        "name": "Adventuring",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

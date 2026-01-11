@@ -1,0 +1,53 @@
+{
+  "table": [
+    {
+      "name": "Sigil Lower Ward Encounters",
+      "type": "table",
+      "source": "SatO",
+      "page": 59,
+      "caption": "Sigil Lower Ward Encounters",
+      "colLabels": [
+        "{@dice d8}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A thunder-voiced {@creature Mind's Eye matter smith|MPP} (see {@book Morte's Planar Parade|MPP}) admonishes passersby to realize the power inside themselves. As a demonstration, the matter smith reshapes material around one of the characters."
+        ],
+        [
+          "2",
+          "Two {@creature Wererat||wererats} in human form approach the characters, offering to sell them various junkyard baubles, while a third wererat uses the distraction to pick a character's pocket."
+        ],
+        [
+          "3",
+          "A {@creature bariaur wanderer|MPP} (see {@book Morte's Planar Parade|MPP}) wearing a gold monocle and an embroidered vest asks the characters to pick up an order for him at a nearby pawnshop. He offers to pay them 10 gp for their trouble (and their discretion)."
+        ],
+        [
+          "4",
+          "Two {@creature minotaur} smiths argue with a {@creature goristro} over the price of an expertly forged greataxe, turning to the characters to settle the debate."
+        ],
+        [
+          "5",
+          "An {@creature Athar null|MPP} (see {@book Morte's Planar Parade|MPP}) warmly greets the characters and offers to show them to their destination—while subtly pitching Athar philosophy to them."
+        ],
+        [
+          "6",
+          "The {@creature ghost} of a factory worker appears to the characters and asks them to retrieve its skull from the {@book Bones of the Night|SatO|2|Bones of the Night} (see the \"{@book Lower Ward Locations|SatO|2|Lower Ward Locations}\" section) so it can finally be laid to rest."
+        ],
+        [
+          "7",
+          "Two {@creature Githzerai Monk||githzerai monks} approach the characters, searching for a dangerous {@creature blue slaad} that stole a mote of primordial chaos from the {@book Face of Gith|SatO|2|Face of Gith} tavern (see the \"{@book Lower Ward Locations|SatO|2|Lower Ward Locations}\" section)."
+        ],
+        [
+          "8",
+          "A soot-stained goblin {@creature mage} uses fire magic to repair a damaged {@creature iron golem} in the street. She tells the characters she needs two hundred pounds of iron to replace the construct's missing arm—even scrap will do."
+        ]
+      ]
+    }
+  ]
+}

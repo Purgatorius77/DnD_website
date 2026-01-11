@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Tradegate Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "While the characters are shopping, several hostile {@creature xorn} attack the {@book Trademill Mint|SatO|3|Trademill Mint}."
+        ],
+        [
+          "2",
+          "During a demonstration for the characters, a gnome inventor's latest creation (use the {@creature iron golem} stat block) runs amok, wreaking havoc."
+        ],
+        [
+          "3",
+          "Melvin Manyroads (chaotic good, gnome {@creature mage}) asks the characters to help map one of the many sites in the Outlands (see the \"{@book Other Realms|SatO|3|Other Realms}\" section later in this chapter)."
+        ],
+        [
+          "4",
+          "A local beekeeper wants to sell a special planar honey in the {@book Everything Emporium|SatO|3|Everything Emporium}. To help her get started, the beekeeper asks the characters to capture {@dice 1d10} live {@creature Sunfly|MPP|sunflies} (see {@book Morte's Planar Parade|MPP})."
+        ]
+      ],
+      "name": "Tradegate Adventures",
+      "page": 91,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

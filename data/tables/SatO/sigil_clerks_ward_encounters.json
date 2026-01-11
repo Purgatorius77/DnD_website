@@ -1,0 +1,53 @@
+{
+  "table": [
+    {
+      "name": "Sigil Clerks' Ward Encounters",
+      "type": "table",
+      "source": "SatO",
+      "page": 59,
+      "caption": "Sigil Clerks' Ward Encounters",
+      "colLabels": [
+        "{@dice d8}",
+        "Encounter"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A cocky {@creature bariaur wanderer|MPP} (see {@book Morte's Planar Parade|MPP}) offers their services to the party as a tout."
+        ],
+        [
+          "2",
+          "A stiff-necked Fated tax collector ({@creature noble}), flanked by two {@creature Guard||guards}, smugly informs the characters they must each pay a \"promenade toll\" of 1 sp to proceed in their current direction."
+        ],
+        [
+          "3",
+          "Out of breath and clearly hiding something on their person, a teenage tiefling {@creature spy} begs the characters to help them avoid two oncoming {@creature Harmonium Peacekeeper|MPP|Harmonium peacekeepers} (see {@book Morte's Planar Parade|MPP})."
+        ],
+        [
+          "4",
+          "A drunk elf {@creature commoner} stumbles out of an onion-shaped cab pulled by a sweet and gullible {@creature unicorn} named Corny. The unicorn asks the characters if they need a ride."
+        ],
+        [
+          "5",
+          "A wizened, purple-robed Incantifer ({@creature archmage}) passes through the streets, eliciting nervous whispers from a crowd of onlookers."
+        ],
+        [
+          "6",
+          "A {@creature Society of Sensation Muse|MPP} (see {@book Morte's Planar Parade|MPP}) dazzles the characters with a street-side performance."
+        ],
+        [
+          "7",
+          "Olga, a bookish {@creature frost giant}, trips before the characters as she hurries to the {@book Hall of Records|SatO|2|Hall of Records}, sending a stack of titanic papers into the air."
+        ],
+        [
+          "8",
+          "An obnoxious {@creature equinal guardinal|MPP} (see {@book Morte's Planar Parade|MPP}) brays atop a street-side soapbox. They attempt to goad a character into a cynical debate about the future of Sigil."
+        ]
+      ]
+    }
+  ]
+}

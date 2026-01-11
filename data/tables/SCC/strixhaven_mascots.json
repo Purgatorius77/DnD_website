@@ -1,0 +1,48 @@
+{
+  "table": [
+    {
+      "caption": "Strixhaven Mascots",
+      "colLabels": [
+        "College",
+        "Mascot"
+      ],
+      "colStyles": [
+        "col-4 text-center",
+        "col-8 text-center"
+      ],
+      "rows": [
+        [
+          "Lorehold",
+          "{@creature Spirit Statue Mascot|SCC}"
+        ],
+        [
+          "Prismari",
+          "{@creature Art Elemental Mascot|SCC}"
+        ],
+        [
+          "Quandrix",
+          "{@creature Fractal Mascot|SCC}"
+        ],
+        [
+          "Silverquill",
+          "{@creature Inkling Mascot|SCC}"
+        ],
+        [
+          "Witherbloom",
+          "{@creature Pest Mascot|SCC}"
+        ]
+      ],
+      "name": "Strixhaven Mascots",
+      "page": 10,
+      "source": "SCC",
+      "chapter": {
+        "name": "Life at Strixhaven",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 1
+        },
+        "index": 1
+      }
+    }
+  ]
+}

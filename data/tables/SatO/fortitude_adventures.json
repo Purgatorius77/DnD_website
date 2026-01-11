@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Fortitude Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "A local politician (dwarf {@creature noble}) pays the characters to dig up dirt on an opponent."
+        ],
+        [
+          "2",
+          "After a series of guilty admissions, {@creature Black Pudding||black puddings} begin to slither from the {@book Pavilion of Purity|SatO|3|Pavilion of Purity} at night, slaying their confessors one by one. The Spotless Seven hires the party to scrub the black puddings from the town."
+        ],
+        [
+          "3",
+          "One of the Storm Lords falls ill with a supernatural cold, plunging Fortitude into a sudden brutal winter. The remaining three elemental beings ask the characters to enter the gate in search of a cure."
+        ],
+        [
+          "4",
+          "A popular candidate for the Spotless Seven convinces several citizens that to achieve inner harmony, they must indulge themselves in one night of unchecked mayhem."
+        ]
+      ],
+      "name": "Fortitude Adventures",
+      "page": 75,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

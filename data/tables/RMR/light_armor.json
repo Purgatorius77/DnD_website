@@ -1,0 +1,46 @@
+{
+  "table": [
+    {
+      "colLabels": [
+        "Armor",
+        "Cost",
+        "Armor Class (AC)",
+        "Weight"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-3 text-right",
+        "col-3 text-center",
+        "col-3 text-center"
+      ],
+      "rows": [
+        [
+          "Leather",
+          "10 gp",
+          "11*",
+          "10 lb."
+        ],
+        [
+          "Studded leather",
+          "45 gp",
+          "12*",
+          "13 lb."
+        ]
+      ],
+      "footnotes": [
+        "*You add your Dexterity modifier to your Armor Class when you wear this armor."
+      ],
+      "name": "Light Armor",
+      "page": 37,
+      "source": "RMR",
+      "chapter": {
+        "name": "Adventuring",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 2
+      }
+    }
+  ]
+}

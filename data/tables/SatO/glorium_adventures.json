@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Glorium Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "The town's deceased warriors rise to fight again as {@creature Ghost||ghosts}, but their resurgence creates headaches when the spirit of Flatnose Grim expects to be reinstated as the town's ruler."
+        ],
+        [
+          "2",
+          "After an argument with Tyrza, Jek Thanol refuses to shield Glorium from the armies of Gzemnid. With their treaty shattered, a {@creature death tyrant} attacks the gate-town."
+        ],
+        [
+          "3",
+          "A {@creature frost giant} jarl learns of the entrance to the World Tree within {@book Serpent's Rise|SatO|3|Serpent's Rise}. Rather than attack Glorium, he sets out to find the root and use it to conquer untold worlds."
+        ],
+        [
+          "4",
+          "A {@creature sea hag} in the {@book Sacred Well|SatO|3|Sacred Well} tells one of the characters they will die at the hand of Gzemnid in five days."
+        ]
+      ],
+      "name": "Glorium Adventures",
+      "page": 77,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

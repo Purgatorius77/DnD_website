@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "caption": "Curst Adventures",
+      "colLabels": [
+        "d4",
+        "Adventure Hook"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-10"
+      ],
+      "rows": [
+        [
+          "1",
+          "Dolores ({@creature green hag}) pays the characters to remove a group of {@creature Bandit||bandits} from her junkyard."
+        ],
+        [
+          "2",
+          "A disgraced {@creature githzerai uniter|MPP} (see {@book Morte's Planar Parade|MPP}) in the {@book Traitor's Gate|SatO|3|Traitor's Gate} pays the characters to free Tovus Gilaf from the burgomaster's estate."
+        ],
+        [
+          "3",
+          "A {@creature Mercykiller bloodhound|MPP} (see {@book Morte's Planar Parade|MPP}) arrives in town, searching for a fugitive who looks exactly like one of the characters."
+        ],
+        [
+          "4",
+          "The gate to Carceri briefly ruptures, releasing a host of destructive {@creature Fomorian||fomorians} on Curst."
+        ]
+      ],
+      "name": "Curst Adventures",
+      "page": 67,
+      "source": "SatO",
+      "chapter": {
+        "name": "The Outlands",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 3
+        },
+        "index": 3
+      }
+    }
+  ]
+}

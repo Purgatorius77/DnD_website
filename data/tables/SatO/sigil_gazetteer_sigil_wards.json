@@ -1,0 +1,52 @@
+{
+  "table": [
+    {
+      "caption": "Sigil Wards",
+      "colLabels": [
+        "Ward",
+        "Prominent Factions"
+      ],
+      "colStyles": [
+        "col-3",
+        "col-9"
+      ],
+      "rows": [
+        [
+          "{@book Clerks' Ward|SatO|2|Clerks' Ward}",
+          "{@book Fated|SatO|2|Fated}, {@book Incanterium|SatO|2|Incanterium},* {@book Society of Sensation|SatO|2|Society of Sensation}"
+        ],
+        [
+          "{@book Hive Ward|SatO|2|Hive Ward}",
+          "{@book Bleak Cabal|SatO|2|Bleak Cabal}, {@book Hands of Havoc|SatO|2|Hands of Havoc}, {@book Heralds of Dust|SatO|2|Heralds of Dust}"
+        ],
+        [
+          "{@book Lady's Ward|SatO|2|Lady's Ward}",
+          "{@book Doomguard|SatO|2|Doomguard}, {@book Fraternity of Order|SatO|2|Fraternity of Order}, {@book Harmonium|SatO|2|Harmonium}, {@book Mercykillers|SatO|2|Mercykillers}"
+        ],
+        [
+          "{@book Lower Ward|SatO|2|Lower Ward}",
+          "{@book Athar|SatO|2|Athar}, {@book Ring Givers|SatO|2|Ring Givers},* {@book Mind's Eye|SatO|2|Mind's Eye}"
+        ],
+        [
+          "{@book Market Ward|SatO|2|Market Ward}",
+          "{@book Free League|SatO|2|Free League},* {@book Transcendent Order|SatO|2|Transcendent Order}"
+        ],
+        [
+          "{@book Undersigil|SatO|2|Undersigil}",
+          "Coterie of Cakes,* Revolutionary League,* Undivided* (see the \"{@book Undersigil|SatO|2|Undersigil}\" section later in this chapter for these factions)"
+        ]
+      ],
+      "name": "Sigil Gazetteer; Sigil Wards",
+      "page": 29,
+      "source": "SatO",
+      "chapter": {
+        "name": "Sigil, the City of Doors",
+        "ordinal": {
+          "type": "chapter",
+          "identifier": 2
+        },
+        "index": 2
+      }
+    }
+  ]
+}
