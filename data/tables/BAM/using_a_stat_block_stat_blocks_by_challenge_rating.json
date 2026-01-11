@@ -1,0 +1,386 @@
+{
+  "table": [
+    {
+      "caption": "Stat Blocks by Challenge Rating",
+      "colLabels": [
+        "CR",
+        "Stat Block Name",
+        "Creature Type"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-6",
+        "col-4"
+      ],
+      "rows": [
+        [
+          "0",
+          "{@creature Chwinga astronaut|BAM}",
+          "Elemental"
+        ],
+        [
+          "0",
+          "{@creature Dohwar|BAM}",
+          "Fey"
+        ],
+        [
+          "0",
+          "{@creature Space guppy|BAM}",
+          "Beast"
+        ],
+        [
+          "0",
+          "{@creature Space mollymawk|BAM}",
+          "Beast"
+        ],
+        [
+          "1/8",
+          "{@creature Hadozee shipmate|BAM}",
+          "Humanoid"
+        ],
+        [
+          "1/4",
+          "{@creature Giant space hamster|BAM}",
+          "Beast"
+        ],
+        [
+          "1/4",
+          "{@creature Gray scavver|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "1/4",
+          "{@creature Plasmoid explorer|BAM}",
+          "Ooze"
+        ],
+        [
+          "1/4",
+          "{@creature Space hamster|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "1/4",
+          "{@creature Space swine|BAM}",
+          "Beast"
+        ],
+        [
+          "1/2",
+          "{@creature Hadozee warrior|BAM}",
+          "Humanoid"
+        ],
+        [
+          "1/2",
+          "{@creature Space eel|BAM}",
+          "Beast"
+        ],
+        [
+          "1/2",
+          "{@creature Ssurran poisoner|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "1",
+          "{@creature Jammer leech|BAM}",
+          "Plant"
+        ],
+        [
+          "1",
+          "{@creature Psurlon ringer|BAM}",
+          "Aberration"
+        ],
+        [
+          "2",
+          "{@creature Aartuk starhorror|BAM}",
+          "Plant"
+        ],
+        [
+          "2",
+          "{@creature Aartuk weedling|BAM}",
+          "Plant"
+        ],
+        [
+          "2",
+          "{@creature Autognome|BAM}",
+          "Construct"
+        ],
+        [
+          "2",
+          "{@creature Hadozee explorer|BAM}",
+          "Humanoid"
+        ],
+        [
+          "2",
+          "{@creature Lunar dragon wyrmling|BAM}",
+          "Dragon"
+        ],
+        [
+          "2",
+          "{@creature Psurlon|BAM}",
+          "Aberration"
+        ],
+        [
+          "2",
+          "{@creature Space clown|BAM}",
+          "Fiend"
+        ],
+        [
+          "2",
+          "{@creature Thri-kreen hunter|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "2",
+          "{@creature Vampirate|BAM}",
+          "Undead"
+        ],
+        [
+          "3",
+          "{@creature Aartuk elder|BAM}",
+          "Plant"
+        ],
+        [
+          "3",
+          "{@creature Astral elf warrior|BAM}",
+          "Humanoid"
+        ],
+        [
+          "3",
+          "{@creature Giff shipmate|BAM}",
+          "Humanoid"
+        ],
+        [
+          "3",
+          "{@creature Githyanki buccaneer|BAM}",
+          "Humanoid"
+        ],
+        [
+          "3",
+          "{@creature Neogi hatchling swarm|BAM}",
+          "Aberration"
+        ],
+        [
+          "3",
+          "{@creature Neogi pirate|BAM}",
+          "Aberration"
+        ],
+        [
+          "3",
+          "{@creature Plasmoid warrior|BAM}",
+          "Ooze"
+        ],
+        [
+          "3",
+          "{@creature Solar dragon wyrmling|BAM}",
+          "Dragon"
+        ],
+        [
+          "3",
+          "{@creature Ssurran defiler|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "4",
+          "{@creature Brown scavver|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "4",
+          "{@creature Gaj|BAM}",
+          "Aberration"
+        ],
+        [
+          "4",
+          "{@creature Neh-thalggu|BAM}",
+          "Aberration"
+        ],
+        [
+          "4",
+          "{@creature Neogi void hunter|BAM}",
+          "Aberration"
+        ],
+        [
+          "4",
+          "{@creature Plasmoid boss|BAM}",
+          "Ooze"
+        ],
+        [
+          "5",
+          "{@creature Astral elf honor guard|BAM}",
+          "Humanoid"
+        ],
+        [
+          "5",
+          "{@creature Astral elf star priest|BAM}",
+          "Humanoid"
+        ],
+        [
+          "5",
+          "{@creature Feyr|BAM}",
+          "Aberration"
+        ],
+        [
+          "5",
+          "{@creature Mercane|BAM}",
+          "Giant"
+        ],
+        [
+          "5",
+          "{@creature Murder comet|BAM}",
+          "Elemental"
+        ],
+        [
+          "5",
+          "{@creature Night scavver|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "5",
+          "{@creature Starlight apparition|BAM}",
+          "Celestial"
+        ],
+        [
+          "5",
+          "{@creature Thri-kreen mystic|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "5",
+          "{@creature Vampirate mage|BAM}",
+          "Undead"
+        ],
+        [
+          "6",
+          "{@creature B'rohg|BAM}",
+          "Giant"
+        ],
+        [
+          "6",
+          "{@creature Giff shock trooper|BAM}",
+          "Humanoid"
+        ],
+        [
+          "6",
+          "{@creature Psurlon leader|BAM}",
+          "Aberration"
+        ],
+        [
+          "6",
+          "{@creature Vampirate captain|BAM}",
+          "Undead"
+        ],
+        [
+          "7",
+          "{@creature Astral elf commander|BAM}",
+          "Humanoid"
+        ],
+        [
+          "7",
+          "{@creature Githyanki star seer|BAM}",
+          "Humanoid"
+        ],
+        [
+          "7",
+          "{@creature Kindori|BAM}",
+          "Celestial"
+        ],
+        [
+          "7",
+          "{@creature Thri-kreen gladiator|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "7",
+          "{@creature Young lunar dragon|BAM}",
+          "Dragon"
+        ],
+        [
+          "8",
+          "{@creature Astral elf aristocrat|BAM}",
+          "Humanoid"
+        ],
+        [
+          "8",
+          "{@creature Reigar|BAM}",
+          "Celestial"
+        ],
+        [
+          "9",
+          "{@creature Braxat|BAM}",
+          "Giant"
+        ],
+        [
+          "9",
+          "{@creature Githyanki xenomancer|BAM}",
+          "Humanoid"
+        ],
+        [
+          "9",
+          "{@creature Young solar dragon|BAM}",
+          "Dragon"
+        ],
+        [
+          "10",
+          "{@creature Eye monger|BAM}",
+          "Aberration"
+        ],
+        [
+          "10",
+          "{@creature Giff warlord|BAM}",
+          "Humanoid"
+        ],
+        [
+          "11",
+          "{@creature Megapede|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "11",
+          "{@creature Void scavver|BAM}",
+          "Monstrosity"
+        ],
+        [
+          "12",
+          "{@creature Esthetic|BAM}",
+          "Aberration"
+        ],
+        [
+          "13",
+          "{@creature Adult lunar dragon|BAM}",
+          "Dragon"
+        ],
+        [
+          "14",
+          "{@creature Adult solar dragon|BAM}",
+          "Dragon"
+        ],
+        [
+          "16",
+          "{@creature Zodar|BAM}",
+          "Aberration"
+        ],
+        [
+          "18",
+          "{@creature Cosmic horror|BAM}",
+          "Aberration"
+        ],
+        [
+          "19",
+          "{@creature Ancient lunar dragon|BAM}",
+          "Dragon"
+        ],
+        [
+          "21",
+          "{@creature Ancient solar dragon|BAM}",
+          "Dragon"
+        ]
+      ],
+      "name": "Using a Stat Block; Stat Blocks by Challenge Rating",
+      "page": 4,
+      "source": "BAM",
+      "chapter": {
+        "name": "Introduction",
+        "index": 0
+      }
+    }
+  ]
+}

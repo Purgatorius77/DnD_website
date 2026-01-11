@@ -1,0 +1,141 @@
+{
+  "table": [
+    {
+      "name": "Wildspace Encounters",
+      "type": "table",
+      "source": "BAM",
+      "page": 6,
+      "caption": "Wildspace Encounters",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter",
+        "Attitude"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "01-03",
+          "{@dice 1d4} {@creature Chwinga Astronaut|BAM|chwinga astronauts},* each mounted on 1 {@creature space guppy|BAM}*",
+          "{@dice 1d6 + 4}"
+        ],
+        [
+          "04",
+          "1 {@creature cosmic horror|BAM}* (30 percent chance it is asleep)",
+          "{@dice 1d6}"
+        ],
+        [
+          "05",
+          "1 {@creature esthetic|BAM}* piloted by 1 {@creature reigar|BAM}*†",
+          "{@dice 1d12}"
+        ],
+        [
+          "06-07",
+          "1 {@creature eye monger|BAM}*",
+          "{@dice 1d6}"
+        ],
+        [
+          "08-11",
+          "1 {@creature feyr|BAM}*",
+          "{@dice 1d6}"
+        ],
+        [
+          "12-13",
+          "1 {@creature giant octopus} that has a flying speed of 60 feet and doesn't need to breathe air",
+          "{@dice 1d10}"
+        ],
+        [
+          "14-17",
+          "{@dice 1d6} {@creature Jammer Leech|BAM|jammer leeches}*",
+          "{@dice 1d8}"
+        ],
+        [
+          "18-23",
+          "{@dice 1d4} {@creature kindori|BAM}*",
+          "{@dice 1d6 + 3}"
+        ],
+        [
+          "24-25",
+          "1 {@creature kindori|BAM}* with 1 {@creature druid}† living in a hut on its back",
+          "{@dice 2d6 + 3}"
+        ],
+        [
+          "26",
+          "1 {@creature kraken} that has a flying speed of 60 feet and doesn't need to breathe air",
+          "{@dice 1d6}"
+        ],
+        [
+          "27",
+          "1 lunar dragon* (your choice of {@creature Young Lunar Dragon|BAM|young}, {@creature Adult Lunar Dragon|BAM|adult}, or {@creature Ancient Lunar Dragon|BAM|ancient})",
+          "{@dice 1d10}"
+        ],
+        [
+          "28-35",
+          "A tavern or inn built on an asteroid, with docks where ships can berth",
+          "—"
+        ],
+        [
+          "36-39",
+          "{@dice 1d6} {@creature Murder Comet|BAM|murder comets}*",
+          "{@dice 1d6}"
+        ],
+        [
+          "40-44",
+          "{@dice 1d4} {@creature Brown Scavver|BAM|brown scavvers}*",
+          "{@dice 1d8}"
+        ],
+        [
+          "45-48",
+          "1 {@creature night scavver|BAM}* and {@dice 2d6} {@creature Gray Scavver|BAM|gray scavvers}*",
+          "{@dice 1d8}"
+        ],
+        [
+          "49-50",
+          "1 {@creature void scavver|BAM}*",
+          "{@dice 1d6}"
+        ],
+        [
+          "51-52",
+          "A shipwreck that might still have treasure or creatures aboard it (choose a ship from {@book chapter 2|AAG|2|Spelljammer Vessels} of the {@book Astral Adventurer's Guide|AAG})",
+          "—"
+        ],
+        [
+          "53-54",
+          "1 solar dragon* (your choice of {@creature Young Solar Dragon|BAM|young}, {@creature Adult Solar Dragon|BAM|adult}, or {@creature Ancient Solar Dragon|BAM|ancient})",
+          "{@dice 2d6}"
+        ],
+        [
+          "55-59",
+          "{@dice 1d6} {@creature Space Eel|BAM|space eels}*",
+          "{@dice 1d10}"
+        ],
+        [
+          "60",
+          "1 {@creature starlight apparition|BAM}*",
+          "{@dice 2d6 + 2}"
+        ],
+        [
+          "61-64",
+          "{@dice 3d6} {@creature Stirge||stirges} that don't need to breathe air",
+          "{@dice 1d6}"
+        ],
+        [
+          "65-70",
+          "{@dice 1d6} {@creature Will-o'-Wisp||will-o'-wisps}",
+          "{@dice 1d10}"
+        ],
+        [
+          "71-00",
+          "1 spelljamming ship (roll on the {@book Ship Encounters table|BAM|0|Ship Encounters})",
+          "—"
+        ]
+      ],
+      "footnotes": [
+        "Creatures marked with an asterisk (*) appear in this book; the rest are described in the {@book Monster Manual|MM}. Any creature marked with a dagger (†) can serve as a spelljammer because it is a spellcaster."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "table": [
+    {
+      "name": "Astral Sea Encounters",
+      "type": "table",
+      "source": "BAM",
+      "page": 6,
+      "caption": "Astral Sea Encounters",
+      "colLabels": [
+        "{@dice d100}",
+        "Encounter",
+        "Attitude"
+      ],
+      "colStyles": [
+        "col-2 text-center",
+        "col-8",
+        "col-2 text-center"
+      ],
+      "rows": [
+        [
+          "01-02",
+          "1 {@creature aartuk starhorror|BAM}*† and {@dice 2d4} {@creature Aartuk Weedling|BAM|aartuk weedlings}*",
+          "{@dice 1d12}"
+        ],
+        [
+          "03-09",
+          "1 {@creature archmage}† using the {@spell astral projection} spell",
+          "{@dice 1d10 + 3}"
+        ],
+        [
+          "10-11",
+          "1 {@creature braxat|BAM}*",
+          "{@dice 1d8}"
+        ],
+        [
+          "12",
+          "1 {@creature cosmic horror|BAM}* (70 percent chance it is asleep)",
+          "{@dice 1d6}"
+        ],
+        [
+          "13-15",
+          "{@dice 1d4} {@creature Deva||devas}† on a divine errand",
+          "{@dice 1d12 + 3}"
+        ],
+        [
+          "16-28",
+          "1 {@creature githyanki knight}† and {@dice 1d6} {@creature Githyanki Warrior||githyanki warriors}†",
+          "{@dice 1d10}"
+        ],
+        [
+          "29-31",
+          "1 {@creature githyanki knight}† mounted on a {@creature young red dragon}",
+          "{@dice 1d8}"
+        ],
+        [
+          "32",
+          "1 {@creature githzerai zerth}† being hunted by githyanki",
+          "{@dice 1d6 + 6}"
+        ],
+        [
+          "33-38",
+          "{@dice 1d4} {@creature kindori|BAM}*",
+          "{@dice 1d6 + 3}"
+        ],
+        [
+          "39",
+          "1 {@creature mercane|BAM}*† and 1 {@creature beholder} bodyguard",
+          "{@dice 1d8 + 4}"
+        ],
+        [
+          "40",
+          "1 {@creature neh-thalggu|BAM}*† looking for a portal to the Far Realm",
+          "{@dice 1d10}"
+        ],
+        [
+          "41-42",
+          "1 {@creature pentadrone}",
+          "{@dice 1d6 + 3}"
+        ],
+        [
+          "43-44",
+          "1 {@creature planetar}† from a nearby astral dominion",
+          "{@dice 1d12 + 3}"
+        ],
+        [
+          "45-47",
+          "{@dice 2d4} {@creature Psurlon|BAM|psurlons}*†",
+          "{@dice 1d8}"
+        ],
+        [
+          "48-50",
+          "Gargantuan floating crystal obelisk of mysterious origin",
+          "—"
+        ],
+        [
+          "51-52",
+          "{@dice 4d4} {@creature Quadrone||quadrones}",
+          "{@dice 1d6 + 3}"
+        ],
+        [
+          "53",
+          "1 {@creature monodrone} that has gone rogue",
+          "{@dice 2d6 + 3}"
+        ],
+        [
+          "54-56",
+          "{@dice 1d4} {@creature Gray Slaad||gray slaadi}† in Humanoid form",
+          "{@dice 1d10}"
+        ],
+        [
+          "57-58",
+          "1 {@creature green slaad}†",
+          "{@dice 1d12}"
+        ],
+        [
+          "59-63",
+          "{@dice 3d6} {@creature Gray Scavver|BAM|gray scavvers}*",
+          "{@dice 1d8}"
+        ],
+        [
+          "64",
+          "1 {@creature solar}† watching over a dead god that drifts nearby",
+          "{@dice 1d12 + 3}"
+        ],
+        [
+          "65-66",
+          "1 solar dragon* (your choice of {@creature Young Solar Dragon|BAM|young}, {@creature Adult Solar Dragon|BAM|adult}, or {@creature Ancient Solar Dragon|BAM|ancient})",
+          "{@dice 2d6}"
+        ],
+        [
+          "67",
+          "1 {@creature starlight apparition|BAM}*",
+          "{@dice 2d6 + 2}"
+        ],
+        [
+          "68-70",
+          "{@dice 1d8} {@creature Unicorn||unicorns} galloping merrily across the Astral Sea",
+          "{@dice 1d6 + 6}"
+        ],
+        [
+          "71-00",
+          "1 spelljamming ship (roll on the Ship Encounters table)",
+          "—"
+        ]
+      ],
+      "footnotes": [
+        "Creatures marked with an asterisk (*) appear in this book; the rest are described in the {@book Monster Manual|MM}. Any creature marked with a dagger (†) can serve as a spelljammer because it is a spellcaster."
+      ]
+    }
+  ]
+}
