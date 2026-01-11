@@ -4,7 +4,7 @@ import { loadJSON } from "../data/dataloader.js";
 
 export async function initTables() {
   // Load index.json
-  const tablePaths = await loadJSON("./data/index.json");
+  const tablePaths = await loadJSON("../data/index.json");
 
   const tables = [];
 
@@ -46,4 +46,5 @@ function renderTableStatblock(table) {
     </table>
   `;
 }
+
 
