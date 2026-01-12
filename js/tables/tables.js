@@ -51,6 +51,10 @@ export function cleanText(text) {
     // @dice
   text = text.replace(/\{@dice ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
+    // @deity
+  text = text.replace(/\{@deity ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
+  
   return text;
 }
 
@@ -103,5 +107,6 @@ const rowsHtml = table.rows
     </table>
   `;
 }
+
 
 
