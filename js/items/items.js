@@ -438,14 +438,14 @@ function formatPropertyTooltip(props, item) {
   }).join(", ");
 }
 
-function enableItemTooltips() {
+export function enableItemTooltips() {
   const tooltip = document.getElementById("tooltip");
   let tooltipTimer;
 
-  document.querySelectorAll(".items-table-wrap [title]").forEach(el => {
-    const text = el.getAttribute("title");
+  // Select all item cells that have a tooltip
+  document.querySelectorAll(".items-table-wrap [data-tooltip]").forEach(el => {
+    const text = el.dataset.tooltip;
     if (!text) return;
-    el.removeAttribute("title"); // prevent native tooltip
 
     // --- Desktop hover ---
     el.addEventListener("mouseenter", () => {
@@ -460,21 +460,21 @@ function enableItemTooltips() {
       clearTimeout(tooltipTimer);
     });
 
-    // --- Pointer events for touch and mouse ---
+    // --- Touch / iPad ---
     el.addEventListener("pointerdown", e => {
-      e.preventDefault(); // prevent accidental clicks/scroll
+      e.preventDefault(); // prevents accidental scroll
       clearTimeout(tooltipTimer);
+
       tooltip.textContent = text;
       tooltip.classList.add("show");
       positionTooltip(el);
 
-      // auto-hide after 5 seconds
+      // hide after 5 seconds
       tooltipTimer = setTimeout(() => {
         tooltip.classList.remove("show");
       }, 5000);
     });
 
-    // optional: hide on pointer cancel (e.g., touch canceled by scrolling)
     el.addEventListener("pointercancel", () => {
       clearTimeout(tooltipTimer);
       tooltip.classList.remove("show");
@@ -484,6 +484,7 @@ function enableItemTooltips() {
   function positionTooltip(el) {
     const rect = el.getBoundingClientRect();
     const tipRect = tooltip.getBoundingClientRect();
+
     let left = rect.left + rect.width / 2 - tipRect.width / 2;
     let top = rect.top - tipRect.height - 10;
 
@@ -494,7 +495,6 @@ function enableItemTooltips() {
     tooltip.style.top = top + "px";
   }
 }
-
 
 
 function formatAttachedSpells(attached) {
@@ -993,11 +993,6 @@ export async function initItems() {
     loadMagicItemsTable()
   );
 }
-
-
-
-
-
 
 
 
