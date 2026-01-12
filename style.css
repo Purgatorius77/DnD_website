@@ -1125,7 +1125,8 @@ button {
 }
 
 .items-table-wrap table {
-  min-width: 1750px;    /* 👈 makes columns wider & readable */
+  min-width: 1750px;
+  table-layout: fixed;
 }
 
 .items-table-wrap th {
@@ -1141,8 +1142,8 @@ button {
   padding: 10px 14px;
   max-width: 260px;        /* 👈 prevents infinite stretching */
   white-space: normal;    /* 👈 allow wrapping */
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  word-wrap: normal;
+  overflow-wrap: normal;
 }
 
 .items-table-wrap td.other-details-cell {
