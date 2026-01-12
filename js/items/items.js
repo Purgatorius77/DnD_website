@@ -429,12 +429,13 @@ function formatPropertyTooltip(props, item) {
     // Reload
     if (key === "RLD" && item?.reload) label += ` (${item.reload} shots)`;
 
-    const tooltip = PROPERTY_TOOLTIPS[key] ? ` title="${PROPERTY_TOOLTIPS[key]}"` : "";
-    const style = tooltip
+    const tooltipText = PROPERTY_TOOLTIPS[key] || "";
+    const style = tooltipText
       ? "style='text-decoration: underline dotted; cursor: help; color: #0645AD'"
       : "";
 
-    return `<span${tooltip} ${style}>${label}</span>`;
+    // ✅ Use data-tooltip instead of title
+    return `<span data-tooltip="${tooltipText}" ${style}>${label}</span>`;
   }).join(", ");
 }
 
@@ -522,13 +523,14 @@ function formatMasteryTooltip(mastery) {
 
   return mastery.map(m => {
     const key = (typeof m === "string" ? m : m?.type ?? String(m)).split("|")[0];
-    const tooltip = MASTERY_TOOLTIPS[key] ? ` title="${MASTERY_TOOLTIPS[key]}"` : "";
-    const style = tooltip
+    const tooltipText = MASTERY_TOOLTIPS[key] || "";
+    const style = tooltipText
       ? "style='text-decoration: underline dotted; cursor: help; color: #0645AD'"
       : "";
-    return `<span${tooltip} ${style}>${key}</span>`;
+    return `<span data-tooltip="${tooltipText}" ${style}>${key}</span>`;
   }).join(", ");
 }
+
 
 function formatDamageType(type) {
   if (!type) return "—";
@@ -902,7 +904,7 @@ async function loadItems(fetchFn, itemsArray) {
     statblock.innerHTML = `<div class="tabs">${tabHeaders}</div>${tabContents}`;
     setupTabs();
     Object.entries(categories).forEach(([cat, items]) => setupFilters(cat, items));
-
+enableItemTooltips();
     statblock.style.display = "block";
   } catch(err) {
     console.error(err);
@@ -963,7 +965,7 @@ async function loadMagicItemsTable() {
 
     setupTabs();
     Object.entries(categories).forEach(([cat, items]) => setupFilters(cat, items));
-
+enableItemTooltips();
   } catch (err) {
     console.error(err);
     statblock.innerHTML = "<p>Error loading magical items.</p>";
