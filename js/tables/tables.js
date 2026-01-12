@@ -54,6 +54,11 @@ export function cleanText(text) {
     // @deity
   text = text.replace(/\{@deity ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
+      // @spell
+  text = text.replace(/\{@spell ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
+      // @vehicle
+  text = text.replace(/\{@vehicle ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
   
   return text;
 }
@@ -107,6 +112,7 @@ const rowsHtml = table.rows
     </table>
   `;
 }
+
 
 
 
