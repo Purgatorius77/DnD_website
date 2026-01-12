@@ -47,6 +47,9 @@ export function cleanText(text) {
 
   // @condition
   text = text.replace(/\{@condition ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+  
+    // @dice
+  text = text.replace(/\{@dice ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
   return text;
 }
@@ -100,4 +103,5 @@ const rowsHtml = table.rows
     </table>
   `;
 }
+
 
