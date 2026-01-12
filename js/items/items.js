@@ -441,63 +441,62 @@ function formatPropertyTooltip(props, item) {
 function enableItemTooltips() {
   const tooltip = document.getElementById("tooltip");
   let tooltipTimer;
-  let longPressTimer;
 
-  // Query all current items with a data-tooltip attribute
   document.querySelectorAll(".items-table-wrap [title]").forEach(el => {
     const text = el.getAttribute("title");
     if (!text) return;
-
-    // Remove native title to prevent default browser tooltip
-    el.removeAttribute("title");
-
-    // Function to show tooltip
-    function showTooltip() {
-      if (!text) return;
-
-      tooltip.textContent = text;
-      tooltip.classList.add("show");
-
-      const rect = el.getBoundingClientRect();
-      const tipRect = tooltip.getBoundingClientRect();
-
-      let left = rect.left + rect.width / 2 - tipRect.width / 2;
-      let top = rect.top - tipRect.height - 10;
-
-      left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
-      if (top < 8) top = rect.bottom + 10;
-
-      tooltip.style.left = left + "px";
-      tooltip.style.top = top + "px";
-
-      clearTimeout(tooltipTimer);
-      tooltipTimer = setTimeout(() => tooltip.classList.remove("show"), 5000);
-    }
-
-    function hideTooltip() {
-      clearTimeout(tooltipTimer);
-      tooltip.classList.remove("show");
-    }
+    el.removeAttribute("title"); // prevent native tooltip
 
     // --- Desktop hover ---
-    el.addEventListener("mouseenter", showTooltip);
-    el.addEventListener("mouseleave", hideTooltip);
-
-    // --- Touch / iPad ---
-    el.addEventListener("touchstart", e => {
-      e.preventDefault(); // stop Safari from interpreting as scroll
-      longPressTimer = setTimeout(() => showTooltip(), 600); // long-press = 600ms
+    el.addEventListener("mouseenter", () => {
+      clearTimeout(tooltipTimer);
+      tooltip.textContent = text;
+      tooltip.classList.add("show");
+      positionTooltip(el);
     });
 
-    el.addEventListener("touchend", () => {
-      clearTimeout(longPressTimer);
+    el.addEventListener("mouseleave", () => {
+      tooltip.classList.remove("show");
+      clearTimeout(tooltipTimer);
+    });
+
+    // --- Touch ---
+    el.addEventListener("touchstart", e => {
+      e.preventDefault(); // prevent accidental clicks
+      clearTimeout(tooltipTimer);
+      tooltip.textContent = text;
+      tooltip.classList.add("show");
+      positionTooltip(el);
+
+      // auto-hide after 5 seconds
+      tooltipTimer = setTimeout(() => {
+        tooltip.classList.remove("show");
+      }, 5000);
+    });
+
+    el.addEventListener("touchend", e => {
+      e.preventDefault(); // optional: prevent click event
     });
 
     el.addEventListener("touchcancel", () => {
-      clearTimeout(longPressTimer);
-      hideTooltip();
+      clearTimeout(tooltipTimer);
+      tooltip.classList.remove("show");
     });
   });
+
+  // Helper function to position tooltip
+  function positionTooltip(el) {
+    const rect = el.getBoundingClientRect();
+    const tipRect = tooltip.getBoundingClientRect();
+    let left = rect.left + rect.width / 2 - tipRect.width / 2;
+    let top = rect.top - tipRect.height - 10;
+
+    left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+    if (top < 8) top = rect.bottom + 10;
+
+    tooltip.style.left = left + "px";
+    tooltip.style.top = top + "px";
+  }
 }
 
 
@@ -997,6 +996,7 @@ export async function initItems() {
     loadMagicItemsTable()
   );
 }
+
 
 
 
