@@ -474,31 +474,35 @@ function enableItemTooltips() {
     });
 
     // --- Touch long-press ---
-    el.addEventListener("touchstart", e => {
-      e.preventDefault(); // prevent immediate click
-      longPressTimer = setTimeout(() => {
-        tooltip.textContent = text;
-        tooltip.classList.add("show");
+// --- Touch long-press ---
+el.addEventListener("touchstart", e => {
+  longPressTimer = setTimeout(() => {
+    tooltip.textContent = text;
+    tooltip.classList.add("show");
 
-        const rect = el.getBoundingClientRect();
-        const tipRect = tooltip.getBoundingClientRect();
+    const rect = el.getBoundingClientRect();
+    const tipRect = tooltip.getBoundingClientRect();
 
-        let left = rect.left + rect.width / 2 - tipRect.width / 2;
-        let top = rect.top - tipRect.height - 10;
+    let left = rect.left + rect.width / 2 - tipRect.width / 2;
+    let top = rect.top - tipRect.height - 10;
 
-        left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
-        if (top < 8) top = rect.bottom + 10;
+    left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+    if (top < 8) top = rect.bottom + 10;
 
-        tooltip.style.left = left + "px";
-        tooltip.style.top = top + "px";
-      }, 600); // long press = 600ms
-    });
+    tooltip.style.left = left + "px";
+    tooltip.style.top = top + "px";
+  }, 500);
+});
 
-    el.addEventListener("touchend", () => {
-      clearTimeout(longPressTimer);
-      tooltip.classList.remove("show");
-    });
-  });
+el.addEventListener("touchend", () => {
+  clearTimeout(longPressTimer);
+  tooltip.classList.remove("show");
+});
+
+el.addEventListener("touchcancel", () => {
+  clearTimeout(longPressTimer);
+  tooltip.classList.remove("show");
+});
 }
 
 
@@ -998,6 +1002,7 @@ export async function initItems() {
     loadMagicItemsTable()
   );
 }
+
 
 
 
