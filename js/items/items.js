@@ -460,9 +460,9 @@ function enableItemTooltips() {
       clearTimeout(tooltipTimer);
     });
 
-    // --- Touch ---
-    el.addEventListener("touchstart", e => {
-      e.preventDefault(); // prevent accidental clicks
+    // --- Pointer events for touch and mouse ---
+    el.addEventListener("pointerdown", e => {
+      e.preventDefault(); // prevent accidental clicks/scroll
       clearTimeout(tooltipTimer);
       tooltip.textContent = text;
       tooltip.classList.add("show");
@@ -474,17 +474,13 @@ function enableItemTooltips() {
       }, 5000);
     });
 
-    el.addEventListener("touchend", e => {
-      e.preventDefault(); // optional: prevent click event
-    });
-
-    el.addEventListener("touchcancel", () => {
+    // optional: hide on pointer cancel (e.g., touch canceled by scrolling)
+    el.addEventListener("pointercancel", () => {
       clearTimeout(tooltipTimer);
       tooltip.classList.remove("show");
     });
   });
 
-  // Helper function to position tooltip
   function positionTooltip(el) {
     const rect = el.getBoundingClientRect();
     const tipRect = tooltip.getBoundingClientRect();
@@ -498,6 +494,7 @@ function enableItemTooltips() {
     tooltip.style.top = top + "px";
   }
 }
+
 
 
 function formatAttachedSpells(attached) {
@@ -996,6 +993,7 @@ export async function initItems() {
     loadMagicItemsTable()
   );
 }
+
 
 
 
