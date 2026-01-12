@@ -1125,13 +1125,13 @@ button {
 }
 
 .items-table-wrap table {
-  min-width: 1500px;    /* 👈 makes columns wider & readable */
+  min-width: 1750px;    /* 👈 makes columns wider & readable */
 }
 
 .items-table-wrap th {
   padding: 10px 14px;
   max-width: none;        /* 👈 prevents infinite stretching */
-  white-space: normal;    /* 👈 allow wrapping */
+  white-space: nowrap;    /* 👈 allow wrapping */
   word-wrap: normal;
   overflow-wrap: normal;
 }
