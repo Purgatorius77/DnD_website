@@ -428,6 +428,10 @@ html, body {
 #tooltip.show {
   opacity: 1;
 }
+.tooltip-target, 
+.items-table-wrap span {
+  -webkit-touch-callout: none;
+}
 
 
 /* =========================
@@ -1435,4 +1439,5 @@ button {
 /* Last column remove right border */
 #tables-statblock td:last-child {
   border-right: none;
+
 }
