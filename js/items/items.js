@@ -440,14 +440,14 @@ function formatPropertyTooltip(props, item) {
 
 function enableItemTooltips() {
   const tooltip = document.getElementById("tooltip");
-  let tooltipTimer;
-  let longPressTimer;
+  let activeElement = null;
+  let hideTimer = null;
 
   document.querySelectorAll(".items-table-wrap [title]").forEach(function(el) {
     const text = el.getAttribute("title");
     if (!text) return;
 
-    // Remove native title (so it doesn't conflict)
+    // Remove native title
     el.removeAttribute("title");
 
     // --- Desktop hover ---
@@ -469,39 +469,51 @@ function enableItemTooltips() {
     });
 
     el.addEventListener("mouseleave", function() {
-      clearTimeout(tooltipTimer);
       tooltip.classList.remove("show");
     });
 
-    // --- Touch long-press ---
-    el.addEventListener("touchstart", function(e) {
-      longPressTimer = setTimeout(function() {
-        tooltip.textContent = text;
-        tooltip.classList.add("show");
+    // --- Touch / iPad ---
+    el.addEventListener("touchend", function(e) {
+      e.preventDefault(); // Prevent scrolling/click
+      if (activeElement === el) {
+        // Tap again closes it
+        tooltip.classList.remove("show");
+        activeElement = null;
+        return;
+      }
 
-        const rect = el.getBoundingClientRect();
-        const tipRect = tooltip.getBoundingClientRect();
+      activeElement = el;
+      tooltip.textContent = text;
+      tooltip.classList.add("show");
 
-        let left = rect.left + rect.width / 2 - tipRect.width / 2;
-        let top = rect.top - tipRect.height - 10;
+      const rect = el.getBoundingClientRect();
+      const tipRect = tooltip.getBoundingClientRect();
 
-        left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
-        if (top < 8) top = rect.bottom + 10;
+      let left = rect.left + rect.width / 2 - tipRect.width / 2;
+      let top = rect.top - tipRect.height - 10;
 
-        tooltip.style.left = left + "px";
-        tooltip.style.top = top + "px";
-      }, 500);
+      left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+      if (top < 8) top = rect.bottom + 10;
+
+      tooltip.style.left = left + "px";
+      tooltip.style.top = top + "px";
+
+      // Hide after 3 seconds
+      clearTimeout(hideTimer);
+      hideTimer = setTimeout(() => {
+        tooltip.classList.remove("show");
+        activeElement = null;
+      }, 3000);
     });
+  });
 
-    el.addEventListener("touchend", function() {
-      clearTimeout(longPressTimer);
+  // Hide tooltip if user taps elsewhere
+  document.addEventListener("touchstart", function(e) {
+    if (!e.target.closest(".items-table-wrap")) {
       tooltip.classList.remove("show");
-    });
-
-    el.addEventListener("touchcancel", function() {
-      clearTimeout(longPressTimer);
-      tooltip.classList.remove("show");
-    });
+      activeElement = null;
+      clearTimeout(hideTimer);
+    }
   });
 }
 
@@ -1002,6 +1014,7 @@ export async function initItems() {
     loadMagicItemsTable()
   );
 }
+
 
 
 
