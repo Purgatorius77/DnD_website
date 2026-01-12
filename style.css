@@ -1111,7 +1111,7 @@ button {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 1.5em;
-  table-layout: fixed;
+  table-layout: auto;
   max-width: 100%;
   word-wrap: break-word;
 }
@@ -1125,19 +1125,28 @@ button {
 }
 
 .items-table-wrap table {
-  min-width: 1300px;    /* 👈 makes columns wider & readable */
+  min-width: 1500px;    /* 👈 makes columns wider & readable */
 }
 
-.items-table-wrap th,
+.items-table-wrap th {
+  padding: 10px 14px;
+  max-width: none;        /* 👈 prevents infinite stretching */
+  white-space: normal;    /* 👈 allow wrapping */
+  word-wrap: break-word;
+  overflow-wrap: normal;
+}
+
+
 .items-table-wrap td {
-  padding: 8px 12px;
+  padding: 10px 14px;
   max-width: 260px;        /* 👈 prevents infinite stretching */
   white-space: normal;    /* 👈 allow wrapping */
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
+
 .items-table-wrap td.other-details-cell {
-  max-width: 420px;
+  max-width: 500px;
 }
 
 
