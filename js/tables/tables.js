@@ -30,26 +30,9 @@ export function cleanText(text) {
   // @item NAME (optional source)
   text = text.replace(/\{@item ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-  // @creature NAME
+  // @creature NAME (optional source)
   text = text.replace(/\{@creature ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-  // @variantrule NAME
-  text = text.replace(/\{@variantrule ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
-
-  // @action NAME
-  text = text.replace(/\{@action ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
-
-  // @skill NAME
-  text = text.replace(/\{@skill ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
-
-  // @condition NAME
-  text = text.replace(/\{@condition ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
-
-  // @dice VALUE
-  text = text.replace(/\{@dice ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
-
-  // @deity NAME
-  text = text.replace(/\{@deity ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
   // 🧩 FIX: @table NAME|SRC|DISPLAY
   text = text.replace(/\{@table ([^|}]+)(?:\|[^|}]+)?(?:\|([^}]+))?\}/g, (_, name, display) => display || name);
@@ -57,8 +40,35 @@ export function cleanText(text) {
   // 🧩 FIX: @book NAME|SRC
   text = text.replace(/\{@book ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
+  // @variantrule
+  text = text.replace(/\{@variantrule ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
+  // @action
+  text = text.replace(/\{@action ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
+  // @skill
+  text = text.replace(/\{@skill ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
+  // @condition
+  text = text.replace(/\{@condition ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
+      // @dice
+  text = text.replace(/\{@dice ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
+
+    // @deity
+  text = text.replace(/\{@deity ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
+
+      // @spell
+  text = text.replace(/\{@spell ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
+      // @vehicle
+  text = text.replace(/\{@vehicle ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+  
   return text;
 }
+
 
 
 
@@ -110,6 +120,7 @@ const rowsHtml = table.rows
     </table>
   `;
 }
+
 
 
 
