@@ -443,44 +443,43 @@ export function enableItemTooltips() {
   const tooltip = document.getElementById("tooltip");
   let tooltipTimer;
 
-  // Select all item cells that have a tooltip
+  // Hide tooltip function
+  function hideTooltip() {
+    tooltip.classList.remove("show");
+    clearTimeout(tooltipTimer);
+  }
+
+  // Handle all item cells
   document.querySelectorAll(".items-table-wrap [data-tooltip]").forEach(el => {
     const text = el.dataset.tooltip;
     if (!text) return;
 
     // --- Desktop hover ---
     el.addEventListener("mouseenter", () => {
-      clearTimeout(tooltipTimer);
       tooltip.textContent = text;
       tooltip.classList.add("show");
       positionTooltip(el);
     });
 
-    el.addEventListener("mouseleave", () => {
-      tooltip.classList.remove("show");
-      clearTimeout(tooltipTimer);
-    });
+    el.addEventListener("mouseleave", hideTooltip);
 
     // --- Touch / iPad ---
     el.addEventListener("pointerdown", e => {
-      e.preventDefault(); // prevents accidental scroll
-      clearTimeout(tooltipTimer);
+      e.stopPropagation();  // prevent bubbling
+      e.preventDefault();   // prevent accidental scroll
 
       tooltip.textContent = text;
       tooltip.classList.add("show");
       positionTooltip(el);
 
-      // hide after 5 seconds
-      tooltipTimer = setTimeout(() => {
-        tooltip.classList.remove("show");
-      }, 5000);
-    });
-
-    el.addEventListener("pointercancel", () => {
+      // Hide after 5 seconds
       clearTimeout(tooltipTimer);
-      tooltip.classList.remove("show");
+      tooltipTimer = setTimeout(hideTooltip, 5000);
     });
   });
+
+  // Tap anywhere outside to hide tooltip
+  document.addEventListener("pointerdown", hideTooltip);
 
   function positionTooltip(el) {
     const rect = el.getBoundingClientRect();
