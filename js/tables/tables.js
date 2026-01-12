@@ -30,38 +30,36 @@ export function cleanText(text) {
   // @item NAME (optional source)
   text = text.replace(/\{@item ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-  // @creature NAME (optional source)
+  // @creature NAME
   text = text.replace(/\{@creature ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-  // @book NAME (optional source, optional page, optional title)
-  text = text.replace(/\{@book ([^|}]+)(?:\|[^|}]*\|[^|}]*\|?([^}]*))?\}/g, "$2");
-
-  // @variantrule
+  // @variantrule NAME
   text = text.replace(/\{@variantrule ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-  // @action
+  // @action NAME
   text = text.replace(/\{@action ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-  // @skill
+  // @skill NAME
   text = text.replace(/\{@skill ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-  // @condition
+  // @condition NAME
   text = text.replace(/\{@condition ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
-  
-    // @dice
+
+  // @dice VALUE
   text = text.replace(/\{@dice ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-    // @deity
+  // @deity NAME
   text = text.replace(/\{@deity ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-      // @spell
-  text = text.replace(/\{@spell ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+  // 🧩 FIX: @table NAME|SRC|DISPLAY
+  text = text.replace(/\{@table ([^|}]+)(?:\|[^|}]+)?(?:\|([^}]+))?\}/g, (_, name, display) => display || name);
 
-      // @vehicle
-  text = text.replace(/\{@vehicle ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
-  
+  // 🧩 FIX: @book NAME|SRC
+  text = text.replace(/\{@book ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
+
   return text;
 }
+
 
 
 
@@ -112,6 +110,7 @@ const rowsHtml = table.rows
     </table>
   `;
 }
+
 
 
 
