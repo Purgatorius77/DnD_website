@@ -1132,7 +1132,7 @@ button {
   padding: 10px 14px;
   max-width: none;        /* 👈 prevents infinite stretching */
   white-space: normal;    /* 👈 allow wrapping */
-  word-wrap: break-word;
+  word-wrap: normal;
   overflow-wrap: normal;
 }
 
