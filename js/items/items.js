@@ -744,7 +744,7 @@ function renderMagicItemsTable(items) {
 
   let html = `
     <div class="items-table-wrap">
-      <table border="1" style="border-collapse:collapse; min-width:1000px">
+      <table border="1">
         <thead>
           <tr>
             <th>Name</th>
