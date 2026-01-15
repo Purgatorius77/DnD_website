@@ -50,7 +50,7 @@
         ],
         [
           "56-60",
-          "{@item +2 Weapon||Weapon, +2}—any simple or martial (ranged)",
+          "{@item +2 Weapon||Weapon, +2}\u2014any simple or martial (ranged)",
           "9,000 gp"
         ],
         [
@@ -60,7 +60,7 @@
         ],
         [
           "66-70",
-          "{@item +2 Weapon||Weapon, +2}—any martial",
+          "{@item +2 Weapon||Weapon, +2}\u2014any martial",
           "12,500 gp"
         ],
         [
@@ -85,7 +85,7 @@
         ],
         [
           "90-91",
-          "{@item +3 Weapon||Weapon, +3}—heavy crossbow, rapier or morningstar",
+          "{@item +3 Weapon||Weapon, +3}\u2014heavy crossbow, rapier or morningstar",
           "60,000 gp"
         ],
         [
@@ -116,5 +116,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Magic Items",
+  "tags": [
+    "Trade Center",
+    "Random Items",
+    "Rare Magic Items",
+    "Cost",
+    "Hometowns"
   ]
 }

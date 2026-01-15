@@ -32,12 +32,12 @@
           "Roving outlaws (five to ten {@creature Thug||Thugs} led by a {@creature Bandit Captain}) heading to the monastery to join its ranks are hopelessly lost in the tunnels. In gratitude for being rescued, they offer to help the characters in their quest, but betray them at the first opportunity."
         ],
         [
-          "6–7",
+          "6\u20137",
           "Six prisoners ({@creature Commoner||Commoners}) escaping from the monastery look to the characters for aid. They are pursued by monks (five {@creature Cultist||Cultists} led by a {@creature Cult Fanatic}). If the prisoners are aided, they can supply some knowledge of the monastery before making their own way safely out of the mountains."
         ],
         [
-          "8–10",
-          "A monastery work party—six humanoid prisoners ({@creature Commoner||Commoners}) watched by five {@creature Cultist||Cultists} and a {@creature Cult Fanatic}—is seen collecting ore to fuel the monastery's engines. If the prisoners are rescued, they can supply some knowledge of the monastery before fleeing the mountains."
+          "8\u201310",
+          "A monastery work party\u2014six humanoid prisoners ({@creature Commoner||Commoners}) watched by five {@creature Cultist||Cultists} and a {@creature Cult Fanatic}\u2014is seen collecting ore to fuel the monastery's engines. If the prisoners are rescued, they can supply some knowledge of the monastery before fleeing the mountains."
         ]
       ],
       "name": "Cavern Encounters",
@@ -52,5 +52,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Random Encounters",
+  "tags": [
+    "Cavern",
+    "Monsters",
+    "Encounters",
+    "Dungeon Master Tools",
+    "Adventure Planning"
   ]
 }

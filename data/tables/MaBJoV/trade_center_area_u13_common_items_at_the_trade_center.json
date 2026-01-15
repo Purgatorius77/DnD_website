@@ -20,7 +20,7 @@
           "40 gp"
         ],
         [
-          "{@item +1 Ammunition||Ammunition, +1}—{@item +1 Arrow||arrows} (10), {@item +1 Crossbow Bolt||bolts} (10) or {@item +1 sling bullet||sling bullets} (20)",
+          "{@item +1 Ammunition||Ammunition, +1}\u2014{@item +1 Arrow||arrows} (10), {@item +1 Crossbow Bolt||bolts} (10) or {@item +1 sling bullet||sling bullets} (20)",
           "100 gp"
         ],
         [
@@ -36,7 +36,7 @@
           "300 gp"
         ],
         [
-          "{@item +1 weapon||Weapon, +1}—any simple or martial",
+          "{@item +1 weapon||Weapon, +1}\u2014any simple or martial",
           "400 gp"
         ],
         [
@@ -76,5 +76,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Trade & Commerce",
+  "tags": [
+    "Magic Items",
+    "Cost",
+    "Trade Center",
+    "Common Items",
+    "Hometowns"
   ]
 }

@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Open Water Encounters (Levels 5—10)",
+      "name": "Open Water Encounters (Levels 5\u201410)",
       "type": "table",
       "source": "GoS",
       "page": 207,
-      "caption": "Open Water Encounters (Levels 5—10)",
+      "caption": "Open Water Encounters (Levels 5\u201410)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -121,5 +121,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Open Water",
+    "Levels 5-10",
+    "Creatures",
+    "Random Encounters",
+    "D100"
   ]
 }

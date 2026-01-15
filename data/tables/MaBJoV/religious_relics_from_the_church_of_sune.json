@@ -18,7 +18,7 @@
         [
           "{@item Gem of brightness}",
           "None",
-          "–",
+          "\u2013",
           "600 gp"
         ],
         [
@@ -136,5 +136,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Religious Relics",
+  "tags": [
+    "Church of Sune",
+    "Religious Service",
+    "Required Level",
+    "Cost",
+    "Equipment"
   ]
 }

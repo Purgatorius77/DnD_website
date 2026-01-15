@@ -15,27 +15,27 @@
       "rows": [
         [
           "{@item Dust of disappearance}",
-          "–",
+          "\u2013",
           "100 gp"
         ],
         [
           "{@item Potion of growth}",
-          "–",
+          "\u2013",
           "100 gp"
         ],
         [
           "Wizard {@item Spell Scroll (1st Level)||scroll (1st level)}",
-          "–",
+          "\u2013",
           "100 gp"
         ],
         [
           "{@item Potion of fire breath}",
-          "–",
+          "\u2013",
           "150 gp"
         ],
         [
           "{@item Alchemy jug}",
-          "–",
+          "\u2013",
           "200 gp"
         ],
         [
@@ -74,17 +74,17 @@
           "9,000 gp"
         ],
         [
-          "{@item spell scroll (6th level)||Wizard scroll}—{@spell Globe of Invulnerability}",
+          "{@item spell scroll (6th level)||Wizard scroll}\u2014{@spell Globe of Invulnerability}",
           "10",
           "10,000 gp"
         ],
         [
-          "{@item spell scroll (6th level)||Wizard scroll}—{@spell True Seeing}",
+          "{@item spell scroll (6th level)||Wizard scroll}\u2014{@spell True Seeing}",
           "10",
           "10,000 gp"
         ],
         [
-          "{@item spell scroll (7th level)||Wizard scroll}—{@spell Mordenkainen's Magnificent Mansion}",
+          "{@item spell scroll (7th level)||Wizard scroll}\u2014{@spell Mordenkainen's Magnificent Mansion}",
           "10",
           "15,000 gp"
         ],
@@ -106,5 +106,13 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Magic Items",
+  "tags": [
+    "Sorcerous Sundries",
+    "Magic Item",
+    "Cost",
+    "Required Level"
   ]
 }

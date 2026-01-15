@@ -40,7 +40,7 @@
         ],
         [
           "Ducal Palace in Baldur's Gate",
-          "{@item Figurine of wondrous power}—obsidian steed",
+          "{@item Figurine of wondrous power}\u2014obsidian steed",
           "15,000 gp in platinum ingots",
           "twelve {@creature knight||knights}, two {@creature mage||mages}",
           "25"
@@ -65,5 +65,15 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Heists",
+  "tags": [
+    "Heist Targets",
+    "Heist Details",
+    "Group Patrons",
+    "Magical Treasure",
+    "Guardians",
+    "Lock DC"
   ]
 }

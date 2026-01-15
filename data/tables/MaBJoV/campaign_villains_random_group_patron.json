@@ -85,7 +85,7 @@
           "Shadow Thieves",
           "{@creature Imoen|MaBJoV}, {@creature Montaron and the Laughing Skull|MaBJoV|Montaron}",
           "Urban",
-          "The oldest and most dangerous thief's guild in Faerûn, the Shadow Thieves have long ago grown beyond simple thievery."
+          "The oldest and most dangerous thief's guild in Faer\u00fbn, the Shadow Thieves have long ago grown beyond simple thievery."
         ]
       ],
       "name": "Campaign Villains; Random Group Patron",
@@ -96,5 +96,15 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "Villains & Patrons",
+  "tags": [
+    "Group Patron",
+    "Contacts",
+    "Themes",
+    "Overview",
+    "Campaign Villains",
+    "Heroic Stories"
   ]
 }

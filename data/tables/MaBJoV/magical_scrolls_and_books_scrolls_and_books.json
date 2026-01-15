@@ -14,37 +14,37 @@
       ],
       "rows": [
         [
-          "{@item Spell scroll (1st level)||Spell scroll—1st level wizard spells}",
+          "{@item Spell scroll (1st level)||Spell scroll\u20141st level wizard spells}",
           "1",
           "100 gp"
         ],
         [
-          "{@item Spell scroll (2nd level)||Spell scroll—2nd level wizard spells}",
+          "{@item Spell scroll (2nd level)||Spell scroll\u20142nd level wizard spells}",
           "1",
           "200 gp"
         ],
         [
-          "{@item Spell scroll (3rd level)||Spell scroll—3rd level wizard spells}",
+          "{@item Spell scroll (3rd level)||Spell scroll\u20143rd level wizard spells}",
           "3",
           "500 gp"
         ],
         [
-          "{@item Spell scroll (4th level)||Spell scroll—4th level wizard spells}",
+          "{@item Spell scroll (4th level)||Spell scroll\u20144th level wizard spells}",
           "3",
           "900 gp"
         ],
         [
-          "{@item Spell scroll (5th level)||Spell scroll—5th level wizard spells}",
+          "{@item Spell scroll (5th level)||Spell scroll\u20145th level wizard spells}",
           "9",
           "2,000 gp"
         ],
         [
-          "{@item Spell scroll (6th level)||Spell scroll—6th level wizard spells}",
+          "{@item Spell scroll (6th level)||Spell scroll\u20146th level wizard spells}",
           "12",
           "4,000 gp"
         ],
         [
-          "{@item Spell scroll (7th level)||Spell scroll—7th level wizard spells}",
+          "{@item Spell scroll (7th level)||Spell scroll\u20147th level wizard spells}",
           "12",
           "7,500 gp"
         ],
@@ -54,12 +54,12 @@
           "1,500 gp"
         ],
         [
-          "{@item Manual of Clay Golems||Manual of golems—clay}",
+          "{@item Manual of Clay Golems||Manual of golems\u2014clay}",
           "12",
           "5,000 gp"
         ],
         [
-          "{@item Manual of flesh Golems||Manual of golems—flesh}",
+          "{@item Manual of flesh Golems||Manual of golems\u2014flesh}",
           "9",
           "5,000 gp"
         ]
@@ -76,5 +76,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Magical Items",
+  "tags": [
+    "Scrolls",
+    "Books",
+    "Magic",
+    "Cost",
+    "Level Requirement"
   ]
 }
