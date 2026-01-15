@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Gith Names – Githyanki, Male",
+      "name": "Gith Names \u2013 Githyanki, Male",
       "type": "table",
       "source": "MTF",
       "page": 97,
-      "caption": "Gith Names – Githyanki, Male",
+      "caption": "Gith Names \u2013 Githyanki, Male",
       "colLabels": [
         "{@dice d10}",
         "Name"
@@ -57,5 +57,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Monsters",
+  "sub_category": "Monster Names",
+  "tags": [
+    "Githyanki",
+    "Names",
+    "Character Creation",
+    "NPCs",
+    "Roleplay"
   ]
 }

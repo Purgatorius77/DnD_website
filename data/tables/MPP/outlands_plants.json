@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "A resident of the gate-town of {@book Ecstasy|SatO|3|Ecstasy} is missing. His garden of {@creature Twig Blight||twig blights}—influenced by {@book Elysium|MPP|0|Elysium} to resemble topiary sculptures—haven't been fed and now sow chaos in town."
+          "A resident of the gate-town of {@book Ecstasy|SatO|3|Ecstasy} is missing. His garden of {@creature Twig Blight||twig blights}\u2014influenced by {@book Elysium|MPP|0|Elysium} to resemble topiary sculptures\u2014haven't been fed and now sow chaos in town."
         ]
       ],
       "name": "Outlands Plants",
@@ -36,5 +36,15 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Outlands",
+    "Plants",
+    "Creatures",
+    "Encounters",
+    "Roleplay",
+    "Environment"
   ]
 }

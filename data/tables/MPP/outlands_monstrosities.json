@@ -36,5 +36,15 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Outlands",
+    "Monstrosities",
+    "Encounter Table",
+    "Rust Monster",
+    "Sprite",
+    "Mimic"
   ]
 }
