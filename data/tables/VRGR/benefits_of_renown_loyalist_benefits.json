@@ -16,57 +16,57 @@
         [
           "1",
           "Moving unimpeded through loyalist-controlled territory",
-          "—"
+          "\u2014"
         ],
         [
           "1",
           "Learning the location of the bulk of Ramya's armies",
-          "—"
+          "\u2014"
         ],
         [
           "3",
           "Learning where a particular skull is in the Tower of Traitors",
-          "–1"
+          "\u20131"
         ],
         [
           "3",
           "Learning where a specific soldier in Ramya's army is stationed",
-          "—"
+          "\u2014"
         ],
         [
           "5",
           "Gaining an audience with Maharani Ramya",
-          "—"
+          "\u2014"
         ],
         [
           "10",
           "Pardoning someone accused of being a traitor",
-          "–2"
+          "\u20132"
         ],
         [
           "10",
           "Gaining command of a contingent of Undead soldiers to fulfill a mission",
-          "–2"
+          "\u20132"
         ],
         [
           "15",
           "Convincing the faction to heed advice",
-          "–2"
+          "\u20132"
         ],
         [
           "15",
           "Convincing Ramya to relinquish a skull from the Tower of Traitors or dismiss a soldier from her army",
-          "–2"
+          "\u20132"
         ],
         [
           "20",
           "Convincing the faction to heed advice seemingly counter to its interests",
-          "–5"
+          "\u20135"
         ],
         [
           "25",
           "Convincing Ramya to leave Jadurai",
-          "–5"
+          "\u20135"
         ]
       ],
       "name": "Benefits of Renown; Loyalist Benefits",
@@ -81,5 +81,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Factions & Reputation",
+  "tags": [
+    "Renown",
+    "Loyalist Benefits",
+    "Domains of Ravenloft",
+    "Reputation",
+    "Factions"
   ]
 }

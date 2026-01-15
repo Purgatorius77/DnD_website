@@ -12,159 +12,159 @@
       ],
       "rows": [
         [
-          "01–04",
+          "01\u201304",
           "{@book Barovia|VRGR|3}*"
         ],
         [
-          "05–06",
+          "05\u201306",
           "{@book Bluetspur|VRGR|3}*"
         ],
         [
-          "07–09",
+          "07\u201309",
           "{@book Borca|VRGR|3}*"
         ],
         [
-          "10–12",
+          "10\u201312",
           "{@book Carnival|VRGR|3}*"
         ],
         [
-          "13–14",
+          "13\u201314",
           "{@book Cyre 1313|VRGR|3|Cyre 1313, The Mourning Rail}"
         ],
         [
-          "15–18",
+          "15\u201318",
           "{@book Darkon|VRGR|3}*"
         ],
         [
-          "19–21",
+          "19\u201321",
           "{@book Dementlieu|VRGR|3}*"
         ],
         [
-          "22–24",
+          "22\u201324",
           "{@book Falkovnia|VRGR|3}*"
         ],
         [
-          "25–26",
+          "25\u201326",
           "{@book Forlorn|VRGR|3|Forlorn}"
         ],
         [
-          "27–28",
+          "27\u201328",
           "{@book Ghastria|VRGR|3|Ghastria}"
         ],
         [
-          "29–30",
+          "29\u201330",
           "{@book G'henna|VRGR|3|G'henna}"
         ],
         [
-          "31–33",
+          "31\u201333",
           "{@book Har'Akir|VRGR|3}*"
         ],
         [
-          "34–36",
+          "34\u201336",
           "{@book Hazlan|VRGR|3}*"
         ],
         [
-          "37–39",
+          "37\u201339",
           "{@book I'Cath|VRGR|3}*"
         ],
         [
-          "40–41",
+          "40\u201341",
           "{@book Invidia|VRGR|3|Invidia}"
         ],
         [
-          "42–44",
+          "42\u201344",
           "{@book Kalakeri|VRGR|3}*"
         ],
         [
-          "45–47",
+          "45\u201347",
           "{@book Kartakass|VRGR|3}*"
         ],
         [
-          "48–49",
+          "48\u201349",
           "{@book Keening|VRGR|3|Keening}"
         ],
         [
-          "50–51",
+          "50\u201351",
           "{@book Klorr|VRGR|3|Klorr}"
         ],
         [
-          "52–54",
+          "52\u201354",
           "{@book Lamordia|VRGR|3}*"
         ],
         [
-          "55–56",
+          "55\u201356",
           "{@book Markovia|VRGR|3|Markovia}"
         ],
         [
-          "57–59",
+          "57\u201359",
           "{@book Mordent|VRGR|3}*"
         ],
         [
-          "60–62",
+          "60\u201362",
           "{@book Nightmare Lands|VRGR|3|The Nightmare Lands}"
         ],
         [
-          "63–64",
+          "63\u201364",
           "{@book Niranjan|VRGR|3|Niranjan}"
         ],
         [
-          "65–66",
+          "65\u201366",
           "{@book Nova Vaasa|VRGR|3|Nova Vaasa}"
         ],
         [
-          "67–69",
+          "67\u201369",
           "{@book Odaire|VRGR|3|Odaire}"
         ],
         [
-          "70–71",
+          "70\u201371",
           "{@book Rider's Bridge|VRGR|3|The Rider's Bridge}"
         ],
         [
-          "72–74",
+          "72\u201374",
           "{@book Richemulot|VRGR|3}*"
         ],
         [
-          "75–76",
+          "75\u201376",
           "{@book Risibilos|VRGR|3|Risibilos}"
         ],
         [
-          "77–78",
+          "77\u201378",
           "{@book Scaena|VRGR|3|Scaena}"
         ],
         [
-          "79–81",
+          "79\u201381",
           "{@book Sea of Sorrows|VRGR|3|Sea of Sorrows}"
         ],
         [
-          "82–83",
+          "82\u201383",
           "{@book Shadowlands|VRGR|3|The Shadowlands}"
         ],
         [
-          "84–85",
+          "84\u201385",
           "{@book Souragne|VRGR|3|Souragne}"
         ],
         [
-          "86–87",
+          "86\u201387",
           "{@book Staunton Bluffs|VRGR|3|Staunton Bluffs}"
         ],
         [
-          "88–90",
+          "88\u201390",
           "{@book Tepest|VRGR|3}*"
         ],
         [
-          "91–92",
+          "91\u201392",
           "{@book Tovag|VRGR|3|Tovag}"
         ],
         [
-          "93–95",
+          "93\u201395",
           "{@book Valachan|VRGR|3}*"
         ],
         [
-          "96–97",
+          "96\u201397",
           "{@book Vhage Agency|VRGR|3|Vhage Agency}"
         ],
         [
-          "98–99",
+          "98\u201399",
           "{@book Zherisia|VRGR|3|Zherisia}"
         ],
         [
@@ -184,5 +184,16 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Domains",
+  "tags": [
+    "Ravenloft",
+    "Domains",
+    "Barovia",
+    "Bluetspur",
+    "Borca",
+    "Carnival",
+    "Cyre 1313"
   ]
 }

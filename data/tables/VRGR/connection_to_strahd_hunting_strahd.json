@@ -41,7 +41,7 @@
         ],
         [
           "8",
-          "The incarnation feels the weight of their past lives and seeks a way to end their cycle of rebirth by freeing Barovia from the Mists—or destroying it."
+          "The incarnation feels the weight of their past lives and seeks a way to end their cycle of rebirth by freeing Barovia from the Mists\u2014or destroying it."
         ],
         [
           "9",
@@ -64,5 +64,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "Domains of Ravenloft",
+  "tags": [
+    "Strahd",
+    "Hunting Methods",
+    "Campaign Strategies",
+    "Player Resources",
+    "Ravenloft"
   ]
 }

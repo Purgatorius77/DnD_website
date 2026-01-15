@@ -37,7 +37,7 @@
         ],
         [
           "7",
-          "A farmer hires the characters to protect his family, whom he believes—without evidence—are being abducted and returned every night."
+          "A farmer hires the characters to protect his family, whom he believes\u2014without evidence\u2014are being abducted and returned every night."
         ],
         [
           "8",
@@ -56,5 +56,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Hooks",
+  "tags": [
+    "Bluetspur",
+    "Domains of Ravenloft",
+    "Adventure Ideas",
+    "Campaign",
+    "Dungeons & Dragons"
   ]
 }

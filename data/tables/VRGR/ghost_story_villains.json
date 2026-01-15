@@ -45,7 +45,7 @@
         ],
         [
           "9",
-          "A ghost hunter who inflicts hauntings on unwitting clients—and then charges to remove the undead"
+          "A ghost hunter who inflicts hauntings on unwitting clients\u2014and then charges to remove the undead"
         ],
         [
           "10",
@@ -64,5 +64,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Campaigns",
+  "tags": [
+    "Villains",
+    "Ghost Stories",
+    "Domains of Dread",
+    "Storytelling",
+    "NPCs"
   ]
 }

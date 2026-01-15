@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "A pack of zombie animals—predominantly wolves, ravens, and cattle—attacks work bands from Lekar and survivors upon the roads. The characters are enlisted to serve as guards."
+          "A pack of zombie animals\u2014predominantly wolves, ravens, and cattle\u2014attacks work bands from Lekar and survivors upon the roads. The characters are enlisted to serve as guards."
         ],
         [
           "5",
@@ -64,5 +64,15 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Campaigns",
+  "tags": [
+    "Falkovnia",
+    "Domains of Ravenloft",
+    "Zombies",
+    "Lycanthropy",
+    "Plague",
+    "Adventure Hooks"
   ]
 }
