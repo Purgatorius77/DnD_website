@@ -33,7 +33,7 @@
         ],
         [
           "6",
-          "The entire family tree of every royal line, extant or lost, in Faerûn"
+          "The entire family tree of every royal line, extant or lost, in Faer\u00fbn"
         ],
         [
           "7",
@@ -56,5 +56,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Franchise Management",
+  "tags": [
+    "Whisper Jar",
+    "Recordings",
+    "Roleplay",
+    "Franchise",
+    "Acquisitions Incorporated"
   ]
 }

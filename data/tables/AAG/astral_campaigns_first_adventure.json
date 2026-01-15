@@ -37,7 +37,7 @@
         ],
         [
           "7",
-          "A {@creature hadozee explorer|BAM} (see {@book Boo's Astral Menagerie|BAM}) needs the characters' help to slay a white {@creature kindori|BAM} (see {@book Boo's Astral Menagerie|BAM}) that keeps attacking her {@vehicle flying fish ship|AAG} (see {@book chapter 2|AAG|2|Flying Fish Ship}). The hadozee can't tell whether the kindori is mean-spirited or amorous. Perhaps it has mistaken the ship for a rival—or a mate!"
+          "A {@creature hadozee explorer|BAM} (see {@book Boo's Astral Menagerie|BAM}) needs the characters' help to slay a white {@creature kindori|BAM} (see {@book Boo's Astral Menagerie|BAM}) that keeps attacking her {@vehicle flying fish ship|AAG} (see {@book chapter 2|AAG|2|Flying Fish Ship}). The hadozee can't tell whether the kindori is mean-spirited or amorous. Perhaps it has mistaken the ship for a rival\u2014or a mate!"
         ],
         [
           "8",
@@ -60,5 +60,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "Astral Campaigns",
+  "tags": [
+    "Adventure Seeds",
+    "Spelljamming Helm",
+    "Rock of Bral",
+    "Scorpion Ship",
+    "Wildspace"
   ]
 }

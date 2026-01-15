@@ -13,7 +13,7 @@
       "rows": [
         [
           "Tiny",
-          "2½-foot cube"
+          "2\u00bd-foot cube"
         ],
         [
           "Small or Medium",
@@ -44,5 +44,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Astral Adventuring",
+  "tags": [
+    "Creatures",
+    "Air Envelopes",
+    "Creature's Size",
+    "Astral Plane",
+    "Travel"
   ]
 }

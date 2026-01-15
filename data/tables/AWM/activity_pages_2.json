@@ -3,7 +3,7 @@
     {
       "page": 14,
       "colLabels": [
-        "{@dice d6|🎲}",
+        "{@dice d6|\ud83c\udfb2}",
         "Animal Personality"
       ],
       "colStyles": [
@@ -43,5 +43,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Role-Playing",
+  "tags": [
+    "Activity Pages",
+    "Animal Personality",
+    "Role-Playing",
+    "Creatures",
+    "NPCs"
   ]
 }

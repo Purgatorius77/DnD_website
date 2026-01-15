@@ -37,7 +37,7 @@
         ],
         [
           "7",
-          "An early model airship. Very early. The balloon is mostly patches at this point—a motley assortment of ship sails, cloaks, and animal skins."
+          "An early model airship. Very early. The balloon is mostly patches at this point\u2014a motley assortment of ship sails, cloaks, and animal skins."
         ],
         [
           "8",
@@ -64,5 +64,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Locations",
+  "tags": [
+    "Acquisitions Incorporated",
+    "Headquarters",
+    "Franchise Generator",
+    "Dungeons & Dragons",
+    "Table"
   ]
 }

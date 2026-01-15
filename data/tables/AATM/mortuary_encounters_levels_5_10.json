@@ -1,10 +1,10 @@
 {
   "table": [
     {
-      "name": "Mortuary Encounters (Levels 5—10)",
+      "name": "Mortuary Encounters (Levels 5\u201410)",
       "type": "table",
       "source": "AATM",
-      "caption": "Mortuary Encounters (Levels 5—10)",
+      "caption": "Mortuary Encounters (Levels 5\u201410)",
       "colLabels": [
         "{@dice d10}",
         "Encounter"
@@ -40,25 +40,35 @@
         ],
         [
           "7",
-          "A passing {@creature animated coffin|AATM}* exhales a hostile cloud of {@creature vampiric mist|MPMM}† with an audible wheeze."
+          "A passing {@creature animated coffin|AATM}* exhales a hostile cloud of {@creature vampiric mist|MPMM}\u2020 with an audible wheeze."
         ],
         [
           "8",
-          "{@dice 1d6 + 2} {@creature Vargouille|MPMM|vargouilles}† fly through the halls, looking for their next meal. The vargouilles attack the characters on sight."
+          "{@dice 1d6 + 2} {@creature Vargouille|MPMM|vargouilles}\u2020 fly through the halls, looking for their next meal. The vargouilles attack the characters on sight."
         ],
         [
           "9",
-          "{@dice 1d4} {@creature Spawn of Kyuss|MPMM|spawns of Kyuss}† shamble through the Mortuary, infecting its corpses. A lawful neutral {@creature wight} shouts for the party's aid in curbing the infestation."
+          "{@dice 1d4} {@creature Spawn of Kyuss|MPMM|spawns of Kyuss}\u2020 shamble through the Mortuary, infecting its corpses. A lawful neutral {@creature wight} shouts for the party's aid in curbing the infestation."
         ],
         [
           "10",
-          "Two {@creature lost sorrowsworn|MPMM},† manifestations of those who never reached the afterlife, wander aimlessly. The sorrowsworn ask the characters to guide them to the great beyond. If the characters refuse the sorrowsworn attack in panicked fury."
+          "Two {@creature lost sorrowsworn|MPMM},\u2020 manifestations of those who never reached the afterlife, wander aimlessly. The sorrowsworn ask the characters to guide them to the great beyond. If the characters refuse the sorrowsworn attack in panicked fury."
         ]
       ],
       "footnotes": [
-        "†Monsters marked with a dagger (†) appear in {@book Monsters of the Multiverse|MPMM}. Roll a {@dice d6} if you don't have that book.",
+        "\u2020Monsters marked with a dagger (\u2020) appear in {@book Monsters of the Multiverse|MPMM}. Roll a {@dice d6} if you don't have that book.",
         "*See {@book the appendix|AATM|Appendix: Mortuary Creatures}."
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Mortuary",
+    "Levels 5-10",
+    "Ghosts",
+    "Ghouls",
+    "Skeletons",
+    "Planetar"
   ]
 }

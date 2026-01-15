@@ -12,15 +12,15 @@
       ],
       "rows": [
         [
-          "1–2",
+          "1\u20132",
           "Tiny, inedible fish (a creature that consumes it is {@condition poisoned} for 1 hour)"
         ],
         [
-          "3–5",
+          "3\u20135",
           "Tiny, edible fish (feeds one person)"
         ],
         [
-          "6–8",
+          "6\u20138",
           "Small, edible fish (feeds up to four people)"
         ],
         [
@@ -44,5 +44,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Astral Adventuring",
+  "tags": [
+    "Fishing",
+    "Creatures",
+    "Food",
+    "Conditions",
+    "Random Events"
   ]
 }

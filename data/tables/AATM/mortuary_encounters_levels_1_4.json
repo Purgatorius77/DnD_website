@@ -1,10 +1,10 @@
 {
   "table": [
     {
-      "name": "Mortuary Encounters (Levels 1—4)",
+      "name": "Mortuary Encounters (Levels 1\u20144)",
       "type": "table",
       "source": "AATM",
-      "caption": "Mortuary Encounters (Levels 1—4)",
+      "caption": "Mortuary Encounters (Levels 1\u20144)",
       "colLabels": [
         "{@dice d10}",
         "Encounter"
@@ -40,25 +40,35 @@
         ],
         [
           "7",
-          "{@dice 1d4} {@creature Zombie||zombies}, bloated and riddled with holes, shuffle up to the characters and each expel a {@creature swarm of rot grubs|MPMM}† at their feet. All the creatures are hostile toward the characters."
+          "{@dice 1d4} {@creature Zombie||zombies}, bloated and riddled with holes, shuffle up to the characters and each expel a {@creature swarm of rot grubs|MPMM}\u2020 at their feet. All the creatures are hostile toward the characters."
         ],
         [
           "8",
-          "A {@creature Heralds of Dust exorcist|AATM}* works to expel a {@creature dybbuk|MPMM}† from a corpse. The exorcist asks the characters to help in dispatch the Fiend."
+          "A {@creature Heralds of Dust exorcist|AATM}* works to expel a {@creature dybbuk|MPMM}\u2020 from a corpse. The exorcist asks the characters to help in dispatch the Fiend."
         ],
         [
           "9",
-          "Two {@creature Bard|MPMM|bards}† in the Heralds of Dust approach the characters and sing a ballad honoring the dead. If the characters interrupt or otherwise ruin the tune, {@dice 1d4} irascible {@creature Specter||specters} emerge from the walls and attack, causing the bards to flee."
+          "Two {@creature Bard|MPMM|bards}\u2020 in the Heralds of Dust approach the characters and sing a ballad honoring the dead. If the characters interrupt or otherwise ruin the tune, {@dice 1d4} irascible {@creature Specter||specters} emerge from the walls and attack, causing the bards to flee."
         ],
         [
           "10",
-          "Three {@creature skeleton} farmers quietly tend to corpse-white grave flowers in an underground garden. Four {@creature Stench Kow|MPMM|stench kows}† graze nearby and protect the farmers, who attack if the characters pluck any flowers or interfere with their work."
+          "Three {@creature skeleton} farmers quietly tend to corpse-white grave flowers in an underground garden. Four {@creature Stench Kow|MPMM|stench kows}\u2020 graze nearby and protect the farmers, who attack if the characters pluck any flowers or interfere with their work."
         ]
       ],
       "footnotes": [
-        "†Monsters marked with a dagger (†) appear in {@book Monsters of the Multiverse|MPMM}. Roll a {@dice d6} if you don't have that book.",
+        "\u2020Monsters marked with a dagger (\u2020) appear in {@book Monsters of the Multiverse|MPMM}. Roll a {@dice d6} if you don't have that book.",
         "*See {@book the appendix|AATM|Appendix: Mortuary Creatures}."
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Mortuary",
+    "Levels 1-4",
+    "Zombie",
+    "Will-o'-Wisp",
+    "Wight",
+    "Death Dog"
   ]
 }

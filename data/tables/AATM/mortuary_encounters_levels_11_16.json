@@ -1,10 +1,10 @@
 {
   "table": [
     {
-      "name": "Mortuary Encounters (Levels 11—16)",
+      "name": "Mortuary Encounters (Levels 11\u201416)",
       "type": "table",
       "source": "AATM",
-      "caption": "Mortuary Encounters (Levels 11—16)",
+      "caption": "Mortuary Encounters (Levels 11\u201416)",
       "colLabels": [
         "{@dice d10}",
         "Encounter"
@@ -40,25 +40,34 @@
         ],
         [
           "7",
-          "A {@creature cadaver collector|MPMM}† emerges from a portal to Acheron, dragging a cart of corpses behind it."
+          "A {@creature cadaver collector|MPMM}\u2020 emerges from a portal to Acheron, dragging a cart of corpses behind it."
         ],
         [
           "8",
-          "A {@creature deathlock mastermind|MPMM}† leads four {@creature Deathlock|MPMM|deathlocks}† in an unholy ritual dedicated to the powers of death. To complete the ritual, the deathlocks require a living sacrifice—one of the characters would be perfect."
+          "A {@creature deathlock mastermind|MPMM}\u2020 leads four {@creature Deathlock|MPMM|deathlocks}\u2020 in an unholy ritual dedicated to the powers of death. To complete the ritual, the deathlocks require a living sacrifice\u2014one of the characters would be perfect."
         ],
         [
           "9",
-          "Four {@creature Minotaur Skeleton||minotaur skeletons} carry a palanquin of bones supporting a hostile {@creature skull lord|MPMM}.†"
+          "Four {@creature Minotaur Skeleton||minotaur skeletons} carry a palanquin of bones supporting a hostile {@creature skull lord|MPMM}.\u2020"
         ],
         [
           "10",
-          "A {@creature narzugon|MPMM}† astride a {@creature nightmare} patrols a stretch of catacombs as part of an archdevil's errand. The narzugon attacks any non-Undead, eager to add their souls to archdevil's growing collection."
+          "A {@creature narzugon|MPMM}\u2020 astride a {@creature nightmare} patrols a stretch of catacombs as part of an archdevil's errand. The narzugon attacks any non-Undead, eager to add their souls to archdevil's growing collection."
         ]
       ],
       "footnotes": [
-        "†Monsters marked with a dagger (†) appear in {@book Monsters of the Multiverse|MPMM}. Roll a {@dice d6} if you don't have that book.",
+        "\u2020Monsters marked with a dagger (\u2020) appear in {@book Monsters of the Multiverse|MPMM}. Roll a {@dice d6} if you don't have that book.",
         "*See {@book the appendix|AATM|Appendix: Mortuary Creatures}."
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Mortuary",
+    "Levels 11-16",
+    "Creatures",
+    "Roleplay",
+    "Combat"
   ]
 }
