@@ -56,5 +56,15 @@
         "uid": "Wild Magic|Barbarian||TCE"
       }
     }
+  ],
+  "top_category": "Spells",
+  "sub_category": "Spells",
+  "tags": [
+    "Magic Effects",
+    "d8",
+    "Constitution Saving Throw",
+    "Dexterity Saving Throw",
+    "Force Damage",
+    "Necrotic Damage"
   ]
 }

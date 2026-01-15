@@ -53,7 +53,7 @@
         ],
         [
           "11",
-          "The body of a human—from the waist up. Signs show that the explorer crawled a considerable distance after being bitten in half by a tyrannosaurus. (A Flaming Fist charter found on the corpse identifies it as Lord Onovan IV, of the Dales.)"
+          "The body of a human\u2014from the waist up. Signs show that the explorer crawled a considerable distance after being bitten in half by a tyrannosaurus. (A Flaming Fist charter found on the corpse identifies it as Lord Onovan IV, of the Dales.)"
         ],
         [
           "12",
@@ -104,5 +104,14 @@
         "index": 7
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Random Encounters",
+  "tags": [
+    "Dead Explorers",
+    "Encounter Tables",
+    "Dungeon Master Resources",
+    "Adventure Hooks",
+    "NPC Death"
   ]
 }
