@@ -189,6 +189,36 @@ roundInput.addEventListener("change", e => {
 });
 
 
+    // COUNT +/-
+
+    const countInput = div.querySelector(".groupCount");
+
+    div.querySelector(".count-minus").addEventListener("click", ()=>{
+
+      if(group.count>1){ group.count--; group.hp.pop(); renderCombatTracker(); }
+
+    });
+
+    div.querySelector(".count-plus").addEventListener("click", ()=>{
+
+      group.count++; group.hp.push({ hp: monster.hp?.average||0, conditions: [] }); renderCombatTracker();
+
+    });
+
+    countInput.addEventListener("change", e=>{
+
+      const newCount = Math.max(1, Number(e.target.value));
+
+      while(group.hp.length<newCount) group.hp.push({ hp: monster.hp?.average||0, conditions: [] });
+
+      group.hp = group.hp.slice(0,newCount);
+
+      group.count = newCount;
+
+      renderCombatTracker();
+
+    });
+
       // HP + Conditions
     const hpList = div.querySelector(".hp-list");
 group.hp.forEach((m, i) => {
