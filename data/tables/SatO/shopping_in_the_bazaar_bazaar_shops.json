@@ -56,5 +56,15 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Locations",
+  "tags": [
+    "Bazaar",
+    "Shopping",
+    "Sigil",
+    "City of Doors",
+    "Vendors",
+    "NPCs"
   ]
 }

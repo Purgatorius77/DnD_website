@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "A warrior chieftain claims to have converted to Serra worship and launches a crusade in the church's name—but this is a thinly veiled excuse to conquer a neighboring territory."
+          "A warrior chieftain claims to have converted to Serra worship and launches a crusade in the church's name\u2014but this is a thinly veiled excuse to conquer a neighboring territory."
         ],
         [
           "5",
@@ -37,7 +37,7 @@
         ],
         [
           "7",
-          "An old priest grows bitter with grief and frustration, convinced that their life's work has been a waste—and turns to the pursuit of revenge."
+          "An old priest grows bitter with grief and frustration, convinced that their life's work has been a waste\u2014and turns to the pursuit of revenge."
         ],
         [
           "8",
@@ -52,5 +52,15 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Church of Serra",
+  "tags": [
+    "Villains",
+    "Serra",
+    "Church",
+    "Priest",
+    "Angel",
+    "Aven"
   ]
 }

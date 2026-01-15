@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "A laboratory where research was once conducted—or still is conducted—on living monsters"
+          "A laboratory where research was once conducted\u2014or still is conducted\u2014on living monsters"
         ],
         [
           "5",
@@ -60,5 +60,15 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Locations",
+  "tags": [
+    "Tolarian Academy",
+    "Adventure Sites",
+    "Dungeons",
+    "Ruins",
+    "Towers",
+    "Laboratories"
   ]
 }

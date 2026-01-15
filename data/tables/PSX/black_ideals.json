@@ -13,7 +13,7 @@
       "rows": [
         [
           "1",
-          "{@b Power.} Power is the only way to guarantee your ability to control your life—and thus your happiness."
+          "{@b Power.} Power is the only way to guarantee your ability to control your life\u2014and thus your happiness."
         ],
         [
           "2",
@@ -47,5 +47,14 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Magic",
+  "tags": [
+    "Black Ideals",
+    "Magic Colors",
+    "Character Development",
+    "Roleplay",
+    "Ideals"
   ]
 }

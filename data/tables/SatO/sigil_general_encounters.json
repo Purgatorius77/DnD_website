@@ -160,5 +160,14 @@
         "Creatures marked with an asterisk (*) appear in {@book Morte's Planar Parade|MPP}, while the rest are described in the {@book Monster Manual|MM}. Most creatures are initially indifferent to characters."
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Sigil",
+    "General Encounters",
+    "Creatures",
+    "Random Encounters",
+    "Planescape"
   ]
 }

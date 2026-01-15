@@ -33,7 +33,7 @@
         ],
         [
           "6",
-          "Retrieve as much artwork as possible from a ruined Serran church—whether an ancient site or one that was only recently destroyed."
+          "Retrieve as much artwork as possible from a ruined Serran church\u2014whether an ancient site or one that was only recently destroyed."
         ]
       ],
       "name": "Serran Quests",
@@ -44,5 +44,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Quests",
+  "tags": [
+    "Serra",
+    "Church of Serra",
+    "Quests",
+    "Roleplay",
+    "Campaign"
   ]
 }

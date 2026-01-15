@@ -21,7 +21,7 @@
         ],
         [
           "3",
-          "{@b Pragmatism.} No ancestors are coming to save us—we are our only hope."
+          "{@b Pragmatism.} No ancestors are coming to save us\u2014we are our only hope."
         ],
         [
           "4",
@@ -44,5 +44,14 @@
         "index": 7
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Character Development",
+  "tags": [
+    "Bard",
+    "Cleric",
+    "Ideals",
+    "Warhosts of Keld",
+    "Role-playing"
   ]
 }

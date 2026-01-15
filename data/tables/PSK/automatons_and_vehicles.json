@@ -11,19 +11,19 @@
       ],
       "rows": [
         [
-          "0–2",
+          "0\u20132",
           "Common"
         ],
         [
-          "3–5",
+          "3\u20135",
           "Uncommon"
         ],
         [
-          "6–10",
+          "6\u201310",
           "Rare"
         ],
         [
-          "11–16",
+          "11\u201316",
           "Very rare"
         ],
         [
@@ -39,5 +39,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Monsters",
+  "sub_category": "Automatons and Vehicles",
+  "tags": [
+    "Kaladesh",
+    "Challenge Rating",
+    "Item Rarity",
+    "Automatons",
+    "Vehicles"
   ]
 }

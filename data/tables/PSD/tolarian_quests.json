@@ -13,7 +13,7 @@
       "rows": [
         [
           "1",
-          "Retrieve a unique magical device from the ruins of a catastrophe—but be careful, because the device might well have been what caused the catastrophe."
+          "Retrieve a unique magical device from the ruins of a catastrophe\u2014but be careful, because the device might well have been what caused the catastrophe."
         ],
         [
           "2",
@@ -44,5 +44,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Quests",
+  "tags": [
+    "Tolarian Academy",
+    "Magic",
+    "Quests",
+    "Adventure Hooks",
+    "Campaign"
   ]
 }

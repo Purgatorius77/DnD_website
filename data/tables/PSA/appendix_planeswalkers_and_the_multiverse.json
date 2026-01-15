@@ -23,7 +23,7 @@
             "type": "entries",
             "name": "Amonkhet",
             "entries": [
-              "Five deadly trials await the people of this plane as they hope for a glorious death—and eternal glory in the afterlife. But their true fate lies in the hands of the sinister Nicol Bolas."
+              "Five deadly trials await the people of this plane as they hope for a glorious death\u2014and eternal glory in the afterlife. But their true fate lies in the hands of the sinister Nicol Bolas."
             ],
             "id": "014"
           }
@@ -199,5 +199,16 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Planeswalkers and the Multiverse",
+  "tags": [
+    "Planeswalkers",
+    "Multiverse",
+    "Amonkhet",
+    "Dominaria",
+    "Innistrad",
+    "Kaladesh",
+    "New Phyrexia"
   ]
 }

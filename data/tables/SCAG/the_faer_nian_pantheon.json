@@ -225,7 +225,7 @@
           "Crystal ball containing many kinds of eyes"
         ],
         [
-          "Selûne, goddess of the moon",
+          "Sel\u00fbne, goddess of the moon",
           "CG",
           "Knowledge, Life",
           "Pair of eyes surrounded by seven stars"
@@ -303,7 +303,7 @@
           "Upright coin with Waukeen's profile facing left"
         ]
       ],
-      "name": "The Faerûnian Pantheon",
+      "name": "The Faer\u00fbnian Pantheon",
       "page": 21,
       "source": "SCAG",
       "chapter": {
@@ -315,5 +315,15 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Deities",
+  "tags": [
+    "Faer\u00fbn",
+    "Pantheon",
+    "Deity",
+    "Alignment",
+    "Domains",
+    "Symbol"
   ]
 }

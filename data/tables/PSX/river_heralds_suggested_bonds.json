@@ -29,7 +29,7 @@
         ],
         [
           "5",
-          "I aspire to become the leader of my band—either as a shaman, or by supplanting the shaman as a war leader."
+          "I aspire to become the leader of my band\u2014either as a shaman, or by supplanting the shaman as a war leader."
         ],
         [
           "6",
@@ -44,5 +44,15 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Character Backgrounds",
+  "tags": [
+    "River Heralds",
+    "Bonds",
+    "Ixalan",
+    "Character Creation",
+    "Roleplay",
+    "Background"
   ]
 }

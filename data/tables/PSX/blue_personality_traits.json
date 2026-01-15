@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "I believe that anything worth doing is worth doing right. I can't help it—I'm a perfectionist."
+          "I believe that anything worth doing is worth doing right. I can't help it\u2014I'm a perfectionist."
         ],
         [
           "5",
@@ -55,5 +55,13 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Character Creation",
+  "tags": [
+    "Personality Traits",
+    "Character Development",
+    "Role-playing",
+    "Blue Magic"
   ]
 }

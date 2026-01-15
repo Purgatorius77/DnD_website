@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "A professor of temporal studies seeks to hasten the process of rebirth and renewal—by shifting the entire world backward in time to its \"glory days.\""
+          "A professor of temporal studies seeks to hasten the process of rebirth and renewal\u2014by shifting the entire world backward in time to its \"glory days.\""
         ],
         [
           "5",
@@ -52,5 +52,15 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "NPCs",
+  "tags": [
+    "Tolarian Academy",
+    "Villains",
+    "NPCs",
+    "Campaign",
+    "Storytelling",
+    "Roleplay"
   ]
 }

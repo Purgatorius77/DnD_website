@@ -35,5 +35,15 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Rules",
+  "sub_category": "Combat Mechanics",
+  "tags": [
+    "Attack Roll",
+    "Damage Roll",
+    "Ability Modifier",
+    "Melee Weapon",
+    "Ranged Weapon",
+    "Spellcasting"
   ]
 }

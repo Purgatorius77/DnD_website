@@ -33,7 +33,7 @@
         ],
         [
           "5",
-          "An {@creature Athar null|MPP} (see {@book Morte's Planar Parade|MPP}) warmly greets the characters and offers to show them to their destination—while subtly pitching Athar philosophy to them."
+          "An {@creature Athar null|MPP} (see {@book Morte's Planar Parade|MPP}) warmly greets the characters and offers to show them to their destination\u2014while subtly pitching Athar philosophy to them."
         ],
         [
           "6",
@@ -45,9 +45,18 @@
         ],
         [
           "8",
-          "A soot-stained goblin {@creature mage} uses fire magic to repair a damaged {@creature iron golem} in the street. She tells the characters she needs two hundred pounds of iron to replace the construct's missing arm—even scrap will do."
+          "A soot-stained goblin {@creature mage} uses fire magic to repair a damaged {@creature iron golem} in the street. She tells the characters she needs two hundred pounds of iron to replace the construct's missing arm\u2014even scrap will do."
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Sigil",
+    "Lower Ward",
+    "Urban Encounters",
+    "Planar",
+    "NPC Interaction"
   ]
 }

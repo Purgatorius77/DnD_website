@@ -17,7 +17,7 @@
         ],
         [
           "2",
-          "{@b Glory.} I wish to earn great glory in battle—ideally, by making my foes surrender."
+          "{@b Glory.} I wish to earn great glory in battle\u2014ideally, by making my foes surrender."
         ],
         [
           "3",
@@ -44,5 +44,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "World of Ixalan",
+  "tags": [
+    "Ideals",
+    "Character Creation",
+    "Role-Playing",
+    "Campaign Setting",
+    "Ixalan"
   ]
 }
