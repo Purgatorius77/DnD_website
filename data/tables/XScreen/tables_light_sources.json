@@ -49,5 +49,14 @@
       "name": "Tables; Light Sources",
       "source": "XScreen"
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Light Sources",
+  "tags": [
+    "Light",
+    "Duration",
+    "Bright Light",
+    "Dim Light",
+    "Source"
   ]
 }

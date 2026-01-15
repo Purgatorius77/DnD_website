@@ -218,5 +218,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Armor & Weapons",
+  "tags": [
+    "Armor Class",
+    "Strength",
+    "Stealth",
+    "Weight",
+    "Cost"
   ]
 }

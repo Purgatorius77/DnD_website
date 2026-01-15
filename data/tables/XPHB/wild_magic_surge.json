@@ -124,5 +124,14 @@
         "uid": "Wild Magic|Sorcerer|XPHB|XPHB"
       }
     }
+  ],
+  "top_category": "Spells",
+  "sub_category": "Spells",
+  "tags": [
+    "Magic Surge",
+    "Spell Effects",
+    "Random Effects",
+    "Wild Magic Table",
+    "D100 Table"
   ]
 }

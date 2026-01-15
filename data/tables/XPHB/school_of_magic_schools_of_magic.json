@@ -58,5 +58,14 @@
         "index": 7
       }
     }
+  ],
+  "top_category": "Spells",
+  "sub_category": "Spells",
+  "tags": [
+    "Abjuration",
+    "Conjuration",
+    "Divination",
+    "Enchantment",
+    "Evocation"
   ]
 }

@@ -63,5 +63,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Spells and  Scrolls",
+  "tags": [
+    "Spells",
+    "Cost",
+    "Availability",
+    "Services",
+    "Spell Level"
   ]
 }

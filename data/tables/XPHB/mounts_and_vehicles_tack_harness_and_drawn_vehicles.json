@@ -99,7 +99,7 @@
           "style": "row-indent-first",
           "row": [
             "Stabling per day",
-            "—",
+            "\u2014",
             "5 SP"
           ]
         },
@@ -125,5 +125,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Mounts and Vehicles",
+  "tags": [
+    "Tack",
+    "Harness",
+    "Drawn Vehicles",
+    "Weight",
+    "Cost"
   ]
 }

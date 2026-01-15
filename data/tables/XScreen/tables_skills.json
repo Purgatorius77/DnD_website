@@ -87,5 +87,14 @@
       "name": "Tables; Skills",
       "source": "XScreen"
     }
+  ],
+  "top_category": "Rules",
+  "sub_category": "Character Creation",
+  "tags": [
+    "Acrobatics",
+    "Animal Handling",
+    "Arcana",
+    "Athletics",
+    "Deception"
   ]
 }

@@ -183,5 +183,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Food, Drink, and Lodging",
+  "tags": [
+    "Cost",
+    "Item",
+    "Lodging",
+    "Food",
+    "Drink"
   ]
 }

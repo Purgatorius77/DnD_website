@@ -27,5 +27,13 @@
       "name": "Tables; Cover",
       "source": "XScreen"
     }
+  ],
+  "top_category": "Rules",
+  "sub_category": "Combat",
+  "tags": [
+    "Cover",
+    "AC Bonus",
+    "Dexterity Saving Throws",
+    "Targeting"
   ]
 }

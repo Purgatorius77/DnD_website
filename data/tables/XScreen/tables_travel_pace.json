@@ -54,5 +54,14 @@
       "name": "Tables; Travel Pace",
       "source": "XScreen"
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Travel",
+  "tags": [
+    "Travel Pace",
+    "Movement",
+    "Survival",
+    "Stealth",
+    "Perception"
   ]
 }

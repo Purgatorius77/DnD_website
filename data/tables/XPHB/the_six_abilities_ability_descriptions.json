@@ -50,5 +50,16 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Rules",
+  "sub_category": "Game Mechanics",
+  "tags": [
+    "Abilities",
+    "Character Stats",
+    "Strength",
+    "Dexterity",
+    "Constitution",
+    "Intelligence",
+    "Wisdom"
   ]
 }

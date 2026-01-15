@@ -151,5 +151,14 @@
       "name": "Tables; Food, Drink, and Lodging",
       "source": "XScreen"
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Travel",
+  "tags": [
+    "Food",
+    "Drink",
+    "Lodging",
+    "Cost",
+    "Equipment"
   ]
 }

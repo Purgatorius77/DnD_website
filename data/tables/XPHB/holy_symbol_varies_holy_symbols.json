@@ -22,7 +22,7 @@
         ],
         [
           "{@item Emblem|XPHB} (borne on fabric or a Shield)",
-          "—",
+          "\u2014",
           "5 GP"
         ],
         [
@@ -43,5 +43,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Religious Items",
+  "tags": [
+    "Holy Symbols",
+    "Religious Equipment",
+    "Cost",
+    "Weight",
+    "Cleric"
   ]
 }

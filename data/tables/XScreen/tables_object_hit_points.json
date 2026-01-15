@@ -37,5 +37,14 @@
       "name": "Tables; Object Hit Points",
       "source": "XScreen"
     }
+  ],
+  "top_category": "DM Tools",
+  "sub_category": "Game Mechanics",
+  "tags": [
+    "Object Hit Points",
+    "Damage",
+    "Game Mechanics",
+    "Interactions",
+    "Objects"
   ]
 }

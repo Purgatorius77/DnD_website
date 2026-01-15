@@ -27,5 +27,14 @@
       "name": "Tables; Visibility Outdoors",
       "source": "XScreen"
     }
+  ],
+  "top_category": "DM Tools",
+  "sub_category": "Game Mechanics",
+  "tags": [
+    "Visibility",
+    "Outdoors",
+    "Conditions",
+    "Distance",
+    "Weather"
   ]
 }
