@@ -26,7 +26,7 @@
         [
           "{@language Sphinx|MOT}",
           "Sphinxes",
-          "—"
+          "\u2014"
         ]
       ],
       "name": "Exotic Languages",
@@ -37,5 +37,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Languages",
+  "tags": [
+    "Exotic Languages",
+    "Theros",
+    "Gods",
+    "Dragons",
+    "Sphinxes"
   ]
 }
