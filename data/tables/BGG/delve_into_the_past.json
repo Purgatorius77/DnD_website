@@ -33,7 +33,7 @@
         ],
         [
           "6",
-          "Characters exploring a strange ruin accidentally trigger magic that causes seven flying castles—including the one the characters are in—to rise into the sky from where they had fallen."
+          "Characters exploring a strange ruin accidentally trigger magic that causes seven flying castles\u2014including the one the characters are in\u2014to rise into the sky from where they had fallen."
         ]
       ],
       "name": "Delve into the Past",
@@ -48,5 +48,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Hooks",
+  "tags": [
+    "Giant Adventures",
+    "Expeditions",
+    "Artifacts",
+    "Monsters",
+    "Ruins"
   ]
 }

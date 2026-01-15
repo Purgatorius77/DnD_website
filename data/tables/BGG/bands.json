@@ -29,11 +29,11 @@
         ],
         [
           "5",
-          "A band of hunting giants has driven its prey—enormous beasts—into pastureland. The local farmers seek help."
+          "A band of hunting giants has driven its prey\u2014enormous beasts\u2014into pastureland. The local farmers seek help."
         ],
         [
           "6",
-          "Devout giants live a monastic life at a sacred site with vast magical power—power the adventurers require to deal with a cosmic threat."
+          "Devout giants live a monastic life at a sacred site with vast magical power\u2014power the adventurers require to deal with a cosmic threat."
         ]
       ],
       "name": "Bands",
@@ -48,5 +48,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Hooks",
+  "tags": [
+    "Giants",
+    "Campaigns",
+    "Quests",
+    "NPCs",
+    "Encounters"
   ]
 }

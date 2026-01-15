@@ -12,15 +12,15 @@
       ],
       "rows": [
         [
-          "1–4",
+          "1\u20134",
           "A planar portal leading to the Frostfell"
         ],
         [
-          "5–8",
+          "5\u20138",
           "A planar portal leading to Pandemonium"
         ],
         [
-          "9–10",
+          "9\u201310",
           "The cavern where the Frostfell Shard rests"
         ]
       ],
@@ -36,5 +36,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Locations",
+  "tags": [
+    "Giant Enclaves",
+    "Howling Iceberg Tunnels",
+    "Planar Portals",
+    "Frostfell Shard",
+    "Dungeons"
   ]
 }

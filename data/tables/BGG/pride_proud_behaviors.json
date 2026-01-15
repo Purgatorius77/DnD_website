@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "The giant's first reaction to smaller creatures—even when threatened or presented with a terrible problem—is laughter."
+          "The giant's first reaction to smaller creatures\u2014even when threatened or presented with a terrible problem\u2014is laughter."
         ],
         [
           "5",
@@ -56,5 +56,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Monsters",
+  "sub_category": "Giants",
+  "tags": [
+    "Behavior",
+    "Roleplay",
+    "NPC Interaction",
+    "Character Traits",
+    "Giants in Play"
   ]
 }

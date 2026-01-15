@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "A city's legends claim the neighboring landscape is the work of some ancient giant sculptor or rampaging titanic beast—or is itself a sleeping giant. You seek to discover the truth of the land's origin."
+          "A city's legends claim the neighboring landscape is the work of some ancient giant sculptor or rampaging titanic beast\u2014or is itself a sleeping giant. You seek to discover the truth of the land's origin."
         ],
         [
           "5",
@@ -48,5 +48,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Backstory",
+  "tags": [
+    "Tall Tales",
+    "Character Background",
+    "Roleplay",
+    "Storytelling",
+    "Legends"
   ]
 }

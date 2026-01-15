@@ -19,12 +19,12 @@
       "rows": [
         [
           "01-02",
-          "1 {@creature aartuk starhorror|BAM}*† and {@dice 2d4} {@creature Aartuk Weedling|BAM|aartuk weedlings}*",
+          "1 {@creature aartuk starhorror|BAM}*\u2020 and {@dice 2d4} {@creature Aartuk Weedling|BAM|aartuk weedlings}*",
           "{@dice 1d12}"
         ],
         [
           "03-09",
-          "1 {@creature archmage}† using the {@spell astral projection} spell",
+          "1 {@creature archmage}\u2020 using the {@spell astral projection} spell",
           "{@dice 1d10 + 3}"
         ],
         [
@@ -39,22 +39,22 @@
         ],
         [
           "13-15",
-          "{@dice 1d4} {@creature Deva||devas}† on a divine errand",
+          "{@dice 1d4} {@creature Deva||devas}\u2020 on a divine errand",
           "{@dice 1d12 + 3}"
         ],
         [
           "16-28",
-          "1 {@creature githyanki knight}† and {@dice 1d6} {@creature Githyanki Warrior||githyanki warriors}†",
+          "1 {@creature githyanki knight}\u2020 and {@dice 1d6} {@creature Githyanki Warrior||githyanki warriors}\u2020",
           "{@dice 1d10}"
         ],
         [
           "29-31",
-          "1 {@creature githyanki knight}† mounted on a {@creature young red dragon}",
+          "1 {@creature githyanki knight}\u2020 mounted on a {@creature young red dragon}",
           "{@dice 1d8}"
         ],
         [
           "32",
-          "1 {@creature githzerai zerth}† being hunted by githyanki",
+          "1 {@creature githzerai zerth}\u2020 being hunted by githyanki",
           "{@dice 1d6 + 6}"
         ],
         [
@@ -64,12 +64,12 @@
         ],
         [
           "39",
-          "1 {@creature mercane|BAM}*† and 1 {@creature beholder} bodyguard",
+          "1 {@creature mercane|BAM}*\u2020 and 1 {@creature beholder} bodyguard",
           "{@dice 1d8 + 4}"
         ],
         [
           "40",
-          "1 {@creature neh-thalggu|BAM}*† looking for a portal to the Far Realm",
+          "1 {@creature neh-thalggu|BAM}*\u2020 looking for a portal to the Far Realm",
           "{@dice 1d10}"
         ],
         [
@@ -79,18 +79,18 @@
         ],
         [
           "43-44",
-          "1 {@creature planetar}† from a nearby astral dominion",
+          "1 {@creature planetar}\u2020 from a nearby astral dominion",
           "{@dice 1d12 + 3}"
         ],
         [
           "45-47",
-          "{@dice 2d4} {@creature Psurlon|BAM|psurlons}*†",
+          "{@dice 2d4} {@creature Psurlon|BAM|psurlons}*\u2020",
           "{@dice 1d8}"
         ],
         [
           "48-50",
           "Gargantuan floating crystal obelisk of mysterious origin",
-          "—"
+          "\u2014"
         ],
         [
           "51-52",
@@ -104,12 +104,12 @@
         ],
         [
           "54-56",
-          "{@dice 1d4} {@creature Gray Slaad||gray slaadi}† in Humanoid form",
+          "{@dice 1d4} {@creature Gray Slaad||gray slaadi}\u2020 in Humanoid form",
           "{@dice 1d10}"
         ],
         [
           "57-58",
-          "1 {@creature green slaad}†",
+          "1 {@creature green slaad}\u2020",
           "{@dice 1d12}"
         ],
         [
@@ -119,7 +119,7 @@
         ],
         [
           "64",
-          "1 {@creature solar}† watching over a dead god that drifts nearby",
+          "1 {@creature solar}\u2020 watching over a dead god that drifts nearby",
           "{@dice 1d12 + 3}"
         ],
         [
@@ -140,12 +140,21 @@
         [
           "71-00",
           "1 spelljamming ship (roll on the Ship Encounters table)",
-          "—"
+          "\u2014"
         ]
       ],
       "footnotes": [
-        "Creatures marked with an asterisk (*) appear in this book; the rest are described in the {@book Monster Manual|MM}. Any creature marked with a dagger (†) can serve as a spelljammer because it is a spellcaster."
+        "Creatures marked with an asterisk (*) appear in this book; the rest are described in the {@book Monster Manual|MM}. Any creature marked with a dagger (\u2020) can serve as a spelljammer because it is a spellcaster."
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Astral Sea",
+    "Creatures",
+    "Encounter Tables",
+    "Random Encounters",
+    "Astral Projection"
   ]
 }

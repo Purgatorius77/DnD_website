@@ -25,11 +25,11 @@
         ],
         [
           "4",
-          "An adventurer receives an exclusive invitation to study a topic of interest (perhaps giants' sagas or religion), but the invitation seems suspicious—demanding secrecy, traveling to a remote place, and so on. The teacher is a giant living near a city who is trying not to attract attention."
+          "An adventurer receives an exclusive invitation to study a topic of interest (perhaps giants' sagas or religion), but the invitation seems suspicious\u2014demanding secrecy, traveling to a remote place, and so on. The teacher is a giant living near a city who is trying not to attract attention."
         ],
         [
           "5",
-          "A group of adventurers—supplied with superior equipment and information by their giant patron—pursues the same goal as the characters."
+          "A group of adventurers\u2014supplied with superior equipment and information by their giant patron\u2014pursues the same goal as the characters."
         ],
         [
           "6",
@@ -48,5 +48,15 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Hooks",
+  "tags": [
+    "Giants",
+    "Exiles",
+    "City",
+    "Criminal Gang",
+    "Cult",
+    "Patron"
   ]
 }

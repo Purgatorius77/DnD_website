@@ -16,7 +16,7 @@
           "Hostile"
         ],
         [
-          "5–8",
+          "5\u20138",
           "Indifferent"
         ],
         [
@@ -36,5 +36,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "NPC Interactions",
+  "tags": [
+    "Attitudes",
+    "Giant Adventures",
+    "NPC",
+    "Roleplay",
+    "Interactions"
   ]
 }

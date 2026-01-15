@@ -19,77 +19,77 @@
       "rows": [
         [
           "01-07",
-          "{@vehicle Bombard|AAG} Leviathan, captained by Myrtle Hunt ({@creature giff warlord|BAM}*) and crewed by 8 {@creature Giff Shipmate|BAM|giff shipmates}* and 3 {@creature Mage||mages}†",
+          "{@vehicle Bombard|AAG} Leviathan, captained by Myrtle Hunt ({@creature giff warlord|BAM}*) and crewed by 8 {@creature Giff Shipmate|BAM|giff shipmates}* and 3 {@creature Mage||mages}\u2020",
           "{@dice 1d10 + 2}"
         ],
         [
           "08-16",
-          "{@vehicle Damselfly ship|AAG} Voidwinder, captained by Krig Kalu ({@creature hadozee explorer|BAM}*) and crewed by 1 {@creature drow}† and 7 {@creature Hadozee Shipmate|BAM|hadozee shipmates}*",
+          "{@vehicle Damselfly ship|AAG} Voidwinder, captained by Krig Kalu ({@creature hadozee explorer|BAM}*) and crewed by 1 {@creature drow}\u2020 and 7 {@creature Hadozee Shipmate|BAM|hadozee shipmates}*",
           "{@dice 2d6 + 3}"
         ],
         [
           "17-23",
-          "{@vehicle Flying fish ship|AAG} Horizon, captained by Thaal Vod (renegade {@creature mind flayer arcanist}†) and crewed by 9 {@creature Plasmoid Warrior|BAM|plasmoid warriors}*",
+          "{@vehicle Flying fish ship|AAG} Horizon, captained by Thaal Vod (renegade {@creature mind flayer arcanist}\u2020) and crewed by 9 {@creature Plasmoid Warrior|BAM|plasmoid warriors}*",
           "{@dice 1d12}"
         ],
         [
           "24-31",
-          "{@vehicle Hammerhead ship|AAG} Jander Sunstar, captained by Veluna Valderak ({@creature vampirate captain|BAM}*) and crewed by 13 {@creature Vampirate|BAM|vampirates}* and 1 {@creature priest}†",
+          "{@vehicle Hammerhead ship|AAG} Jander Sunstar, captained by Veluna Valderak ({@creature vampirate captain|BAM}*) and crewed by 13 {@creature Vampirate|BAM|vampirates}* and 1 {@creature priest}\u2020",
           "{@dice 1d12}"
         ],
         [
           "32-36",
-          "{@vehicle Lamprey ship|AAG} Astral Prize, crewed by 15 {@creature Psurlon Ringer|BAM|psurlon ringers},*† including Captain Uscath",
+          "{@vehicle Lamprey ship|AAG} Astral Prize, crewed by 15 {@creature Psurlon Ringer|BAM|psurlon ringers},*\u2020 including Captain Uscath",
           "{@dice 1d12}"
         ],
         [
           "37-39",
-          "{@vehicle Living ship|AAG} Eldervine, captained by Queth ({@creature aartuk elder|BAM}*) and crewed by 2 {@creature Aartuk Starhorror|BAM|aartuk starhorrors},*† 8 {@creature Aartuk Weedling|BAM|aartuk weedlings},* and Eldervine ({@creature treant})",
+          "{@vehicle Living ship|AAG} Eldervine, captained by Queth ({@creature aartuk elder|BAM}*) and crewed by 2 {@creature Aartuk Starhorror|BAM|aartuk starhorrors},*\u2020 8 {@creature Aartuk Weedling|BAM|aartuk weedlings},* and Eldervine ({@creature treant})",
           "{@dice 1d10}"
         ],
         [
           "40-45",
-          "{@vehicle Nautiloid|AAG} Neurophage, crewed by 4 {@creature Mind Flayer||mind flayers}† and 16 {@creature kuo-toa}, with {@dice 1d6} {@creature Grell||grells} and {@dice 1d6} {@creature Intellect Devourer||intellect devourers} as passengers",
+          "{@vehicle Nautiloid|AAG} Neurophage, crewed by 4 {@creature Mind Flayer||mind flayers}\u2020 and 16 {@creature kuo-toa}, with {@dice 1d6} {@creature Grell||grells} and {@dice 1d6} {@creature Intellect Devourer||intellect devourers} as passengers",
           "{@dice 1d6}"
         ],
         [
           "46-50",
-          "{@vehicle Nightspider|AAG} Malevolence, captained by Yeshk ({@creature neogi void hunter|BAM}*†) and crewed by 24 {@creature Neogi Pirate|BAM|neogi pirates}* and 5 {@creature Umber Hulk||umber hulks}",
+          "{@vehicle Nightspider|AAG} Malevolence, captained by Yeshk ({@creature neogi void hunter|BAM}*\u2020) and crewed by 24 {@creature Neogi Pirate|BAM|neogi pirates}* and 5 {@creature Umber Hulk||umber hulks}",
           "{@dice 1d6}"
         ],
         [
           "51-55",
-          "{@vehicle Scorpion ship|AAG} Claws of Huraj, captained by Huraj ({@creature hobgoblin captain}) and crewed by 1 {@creature bugbear} (first mate), 8 {@creature Hobgoblin||hobgoblins}, and 2 hobgoblin {@creature Priest||priests}†",
+          "{@vehicle Scorpion ship|AAG} Claws of Huraj, captained by Huraj ({@creature hobgoblin captain}) and crewed by 1 {@creature bugbear} (first mate), 8 {@creature Hobgoblin||hobgoblins}, and 2 hobgoblin {@creature Priest||priests}\u2020",
           "{@dice 1d12}"
         ],
         [
           "56-61",
-          "{@vehicle Shrike ship|AAG} Fedifensor, captained by Yaj ({@creature githyanki xenomancer|BAM}*†) and crewed by 10 {@creature Githyanki Buccaneer|BAM|githyanki buccaneers}*†",
+          "{@vehicle Shrike ship|AAG} Fedifensor, captained by Yaj ({@creature githyanki xenomancer|BAM}*\u2020) and crewed by 10 {@creature Githyanki Buccaneer|BAM|githyanki buccaneers}*\u2020",
           "{@dice 1d12}"
         ],
         [
           "62-66",
-          "{@vehicle Space galleon|AAG} Eleventh, captained by Xorpha Eleven-Eyes ({@creature beholder}) and crewed by 1 {@creature spectator} (first mate), 3 {@creature Cult Fanatic||cult fanatics},† and 16 {@creature Cultist||cultists}",
+          "{@vehicle Space galleon|AAG} Eleventh, captained by Xorpha Eleven-Eyes ({@creature beholder}) and crewed by 1 {@creature spectator} (first mate), 3 {@creature Cult Fanatic||cult fanatics},\u2020 and 16 {@creature Cultist||cultists}",
           "{@dice 1d12}"
         ],
         [
           "67-72",
-          "{@vehicle Space galleon|AAG} Great Kindori, captained by Mystan the Mighty ({@creature djinni}†) and crewed by 1 {@creature invisible stalker} (first mate), 1 {@creature couatl},† 17 {@creature aarakocra}, and 1 {@creature rug of smothering}",
+          "{@vehicle Space galleon|AAG} Great Kindori, captained by Mystan the Mighty ({@creature djinni}\u2020) and crewed by 1 {@creature invisible stalker} (first mate), 1 {@creature couatl},\u2020 17 {@creature aarakocra}, and 1 {@creature rug of smothering}",
           "{@dice 2d6 + 2}"
         ],
         [
           "73-78",
-          "{@vehicle Squid ship|AAG} Syken's Reach, captained by the pirate Arviglas Syken (human {@creature bandit captain}) and crewed by 1 {@creature cambion}† (Syken's daughter, Tenebra) and 11 {@creature Thug||thugs}",
+          "{@vehicle Squid ship|AAG} Syken's Reach, captained by the pirate Arviglas Syken (human {@creature bandit captain}) and crewed by 1 {@creature cambion}\u2020 (Syken's daughter, Tenebra) and 11 {@creature Thug||thugs}",
           "{@dice 1d12}"
         ],
         [
           "79-84",
-          "{@vehicle Star moth|AAG} Apex, captained by Xaleen ({@creature astral elf commander|BAM}*†) and crewed by 11 {@creature Astral Elf Warrior|BAM|astral elf warriors}* and 1 {@creature astral elf aristocrat|BAM}*†",
+          "{@vehicle Star moth|AAG} Apex, captained by Xaleen ({@creature astral elf commander|BAM}*\u2020) and crewed by 11 {@creature Astral Elf Warrior|BAM|astral elf warriors}* and 1 {@creature astral elf aristocrat|BAM}*\u2020",
           "{@dice 1d12}"
         ],
         [
           "85-90",
-          "{@vehicle Turtle ship|AAG} Snorkel, captained by Shelby Norkel (gnome {@creature mage}†) and crewed by 15 {@creature Autognome|BAM|autognomes}*",
+          "{@vehicle Turtle ship|AAG} Snorkel, captained by Shelby Norkel (gnome {@creature mage}\u2020) and crewed by 15 {@creature Autognome|BAM|autognomes}*",
           "{@dice 1d10 + 3}"
         ],
         [
@@ -100,12 +100,21 @@
         [
           "95-00",
           "{@vehicle Wasp ship|AAG} Adventure, abandoned and adrift (25 percent chance that its {@item spelljamming helm|AAG} is still aboard)",
-          "—"
+          "\u2014"
         ]
       ],
       "footnotes": [
-        "Creatures marked with an asterisk (*) appear in this book; the rest are described in the {@book Monster Manual|MM}. Any creature marked with a dagger (†) can serve as a spelljammer because it is a spellcaster."
+        "Creatures marked with an asterisk (*) appear in this book; the rest are described in the {@book Monster Manual|MM}. Any creature marked with a dagger (\u2020) can serve as a spelljammer because it is a spellcaster."
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Ship",
+    "Encounter",
+    "Creatures",
+    "Dice",
+    "Vehicle"
   ]
 }

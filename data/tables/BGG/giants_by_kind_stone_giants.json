@@ -32,7 +32,7 @@
           "7"
         ],
         [
-          "{@creature Stone giant dreamwalker|MPMM}†",
+          "{@creature Stone giant dreamwalker|MPMM}\u2020",
           "10"
         ],
         [
@@ -56,5 +56,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Monsters",
+  "sub_category": "Bestiary",
+  "tags": [
+    "Giants",
+    "Stone Giants",
+    "Creature Rating",
+    "Bestiary",
+    "Monsters"
   ]
 }

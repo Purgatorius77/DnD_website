@@ -24,7 +24,7 @@
           "15"
         ],
         [
-          "{@creature Dire troll|MPMM}†",
+          "{@creature Dire troll|MPMM}\u2020",
           "13"
         ],
         [
@@ -72,27 +72,27 @@
           "2"
         ],
         [
-          "{@creature Ogre battering ram|MPMM}†",
+          "{@creature Ogre battering ram|MPMM}\u2020",
           "4"
         ],
         [
-          "{@creature Ogre bolt launcher|MPMM}†",
+          "{@creature Ogre bolt launcher|MPMM}\u2020",
           "2"
         ],
         [
-          "{@creature Ogre chain brute|MPMM}†",
+          "{@creature Ogre chain brute|MPMM}\u2020",
           "3"
         ],
         [
-          "{@creature Ogre howdah|MPMM}†",
+          "{@creature Ogre howdah|MPMM}\u2020",
           "2"
         ],
         [
-          "{@creature Rot troll|MPMM}†",
+          "{@creature Rot troll|MPMM}\u2020",
           "9"
         ],
         [
-          "{@creature Spirit troll|MPMM}†",
+          "{@creature Spirit troll|MPMM}\u2020",
           "11"
         ],
         [
@@ -108,7 +108,7 @@
           "7"
         ],
         [
-          "{@creature Venom troll|MPMM}†",
+          "{@creature Venom troll|MPMM}\u2020",
           "7"
         ]
       ],
@@ -124,5 +124,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Monsters",
+  "sub_category": "Bestiary",
+  "tags": [
+    "Giants",
+    "Creature Rating",
+    "Bestiary",
+    "Monsters",
+    "Dungeons & Dragons 5e"
   ]
 }

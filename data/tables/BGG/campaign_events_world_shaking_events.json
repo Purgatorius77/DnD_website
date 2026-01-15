@@ -41,7 +41,7 @@
         ],
         [
           "8",
-          "A small but growing number of giants believe the adventurers might be the fulfillment of an ancient prophecy that means they will bring about the return of Annam—and either the downfall or the resurgence of the giants."
+          "A small but growing number of giants believe the adventurers might be the fulfillment of an ancient prophecy that means they will bring about the return of Annam\u2014and either the downfall or the resurgence of the giants."
         ]
       ],
       "name": "Campaign Events; World-Shaking Events",
@@ -56,5 +56,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "Giant Adventures",
+  "tags": [
+    "Campaign Events",
+    "World-Shaking Events",
+    "Giants",
+    "Adventures",
+    "Storytelling"
   ]
 }

@@ -37,7 +37,7 @@
         ],
         [
           "6",
-          "1 {@creature revenant} (attitude: {@dice 1d10}) bent on revenging itself on its killer—a death giant"
+          "1 {@creature revenant} (attitude: {@dice 1d10}) bent on revenging itself on its killer\u2014a death giant"
         ],
         [
           "7",
@@ -57,5 +57,15 @@
         ]
       ]
     }
+  ],
+  "top_category": "Monsters",
+  "sub_category": "Encounters",
+  "tags": [
+    "Death Giant",
+    "Skeleton",
+    "Wraith",
+    "Stone Giant",
+    "Ghost",
+    "Encounter Table"
   ]
 }

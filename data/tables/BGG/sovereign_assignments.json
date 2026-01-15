@@ -17,7 +17,7 @@
         ],
         [
           "2",
-          "Weaken or remove a rival to the sovereign's rule—an ambitious general, fanatical priest, or jealous sibling."
+          "Weaken or remove a rival to the sovereign's rule\u2014an ambitious general, fanatical priest, or jealous sibling."
         ],
         [
           "3",
@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "Bring gifts to a powerful dragon—and convince it not to destroy the settlement of giants."
+          "Bring gifts to a powerful dragon\u2014and convince it not to destroy the settlement of giants."
         ],
         [
           "5",
@@ -48,5 +48,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Quests & Assignments",
+  "tags": [
+    "Giant Adventures",
+    "Sovereign Assignments",
+    "Quests",
+    "Assignments",
+    "Adventure Hooks"
   ]
 }

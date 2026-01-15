@@ -29,7 +29,7 @@
         ],
         [
           "05",
-          "1 {@creature esthetic|BAM}* piloted by 1 {@creature reigar|BAM}*†",
+          "1 {@creature esthetic|BAM}* piloted by 1 {@creature reigar|BAM}*\u2020",
           "{@dice 1d12}"
         ],
         [
@@ -59,7 +59,7 @@
         ],
         [
           "24-25",
-          "1 {@creature kindori|BAM}* with 1 {@creature druid}† living in a hut on its back",
+          "1 {@creature kindori|BAM}* with 1 {@creature druid}\u2020 living in a hut on its back",
           "{@dice 2d6 + 3}"
         ],
         [
@@ -75,7 +75,7 @@
         [
           "28-35",
           "A tavern or inn built on an asteroid, with docks where ships can berth",
-          "—"
+          "\u2014"
         ],
         [
           "36-39",
@@ -100,7 +100,7 @@
         [
           "51-52",
           "A shipwreck that might still have treasure or creatures aboard it (choose a ship from {@book chapter 2|AAG|2|Spelljammer Vessels} of the {@book Astral Adventurer's Guide|AAG})",
-          "—"
+          "\u2014"
         ],
         [
           "53-54",
@@ -130,12 +130,21 @@
         [
           "71-00",
           "1 spelljamming ship (roll on the {@book Ship Encounters table|BAM|0|Ship Encounters})",
-          "—"
+          "\u2014"
         ]
       ],
       "footnotes": [
-        "Creatures marked with an asterisk (*) appear in this book; the rest are described in the {@book Monster Manual|MM}. Any creature marked with a dagger (†) can serve as a spelljammer because it is a spellcaster."
+        "Creatures marked with an asterisk (*) appear in this book; the rest are described in the {@book Monster Manual|MM}. Any creature marked with a dagger (\u2020) can serve as a spelljammer because it is a spellcaster."
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Wildspace",
+    "Creatures",
+    "Random Encounters",
+    "Space",
+    "D100"
   ]
 }

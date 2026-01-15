@@ -21,7 +21,7 @@
         ],
         [
           "3",
-          "The characters find a giant-crafted sword—a magical masterpiece; when word of their find gets out, the artisan's descendants come looking for the sword."
+          "The characters find a giant-crafted sword\u2014a magical masterpiece; when word of their find gets out, the artisan's descendants come looking for the sword."
         ],
         [
           "4",
@@ -48,5 +48,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Hooks",
+  "tags": [
+    "Giants",
+    "Fire Giant",
+    "Adventure",
+    "Quests",
+    "The Ordning"
   ]
 }

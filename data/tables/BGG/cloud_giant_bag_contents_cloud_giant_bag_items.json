@@ -57,7 +57,7 @@
         ],
         [
           "12",
-          "A large platinum mask worth 200 gp, which can depict two expressions—one of grand joy and one of deep sorrow—depending on its orientation"
+          "A large platinum mask worth 200 gp, which can depict two expressions\u2014one of grand joy and one of deep sorrow\u2014depending on its orientation"
         ]
       ],
       "name": "Cloud Giant Bag Contents; Cloud Giant Bag Items",
@@ -72,5 +72,14 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Giant Treasures",
+  "tags": [
+    "Cloud Giant",
+    "Bag Contents",
+    "Items",
+    "Loot",
+    "Treasure"
   ]
 }

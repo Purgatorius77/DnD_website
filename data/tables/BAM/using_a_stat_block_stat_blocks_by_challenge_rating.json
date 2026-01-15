@@ -382,5 +382,12 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "DM Tools",
+  "sub_category": "Game Mechanics",
+  "tags": [
+    "Challenge Rating",
+    "Creature Type",
+    "Stat Block Name"
   ]
 }
