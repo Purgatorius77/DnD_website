@@ -18,66 +18,66 @@
       ],
       "rows": [
         [
-          "01–34",
-          "01–21",
-          "01–06",
-          "—",
+          "01\u201334",
+          "01\u201321",
+          "01\u201306",
+          "\u2014",
           "Common minor item ({@table Magic Item Table A}*)"
         ],
         [
-          "35–61",
-          "22–49",
-          "07–18",
-          "—",
+          "35\u201361",
+          "22\u201349",
+          "07\u201318",
+          "\u2014",
           "Uncommon minor item ({@table Magic Item Table B}*)"
         ],
         [
-          "62–77",
-          "50–64",
-          "19–41",
-          "01–12",
+          "62\u201377",
+          "50\u201364",
+          "19\u201341",
+          "01\u201312",
           "Rare minor item ({@table Magic Item Table C}*)"
         ],
         [
-          "—",
-          "65–72",
-          "42–64",
-          "13–56",
+          "\u2014",
+          "65\u201372",
+          "42\u201364",
+          "13\u201356",
           "Very rare minor item ({@table Magic Item Table D}*)"
         ],
         [
-          "—",
-          "—",
-          "65–69",
-          "57–67",
+          "\u2014",
+          "\u2014",
+          "65\u201369",
+          "57\u201367",
           "Legendary minor item ({@table Magic Item Table E}*)"
         ],
         [
-          "78–96",
-          "73–91",
-          "70–72",
-          "—",
+          "78\u201396",
+          "73\u201391",
+          "70\u201372",
+          "\u2014",
           "Uncommon major item ({@table Magic Item Table F}*)"
         ],
         [
-          "97–00",
-          "92–97",
-          "73–80",
-          "68–73",
+          "97\u201300",
+          "92\u201397",
+          "73\u201380",
+          "68\u201373",
           "Rare major item ({@table Magic Item Table G}*)"
         ],
         [
-          "—",
-          "98–00",
-          "81–91",
-          "74–82",
+          "\u2014",
+          "98\u201300",
+          "81\u201391",
+          "74\u201382",
           "Very rare major item ({@table Magic Item Table H}*)"
         ],
         [
-          "—",
-          "—",
-          "92–00",
-          "83–00",
+          "\u2014",
+          "\u2014",
+          "92\u201300",
+          "83\u201300",
           "Legendary major item ({@table Magic Item Table I}*)"
         ]
       ],
@@ -96,5 +96,16 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Magic Items",
+  "tags": [
+    "Hoard",
+    "Lairs",
+    "Magic Items",
+    "Wyrmling",
+    "Young",
+    "Adult",
+    "Ancient"
   ]
 }
