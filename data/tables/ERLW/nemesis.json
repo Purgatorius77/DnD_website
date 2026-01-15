@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "{@b Colossus}. You were among those who survived an encounter with a warforged colossus. Cyre or House Cannith—whoever was responsible for such a nightmare—deserves whatever evil fate comes their way."
+          "{@b Colossus}. You were among those who survived an encounter with a warforged colossus. Cyre or House Cannith\u2014whoever was responsible for such a nightmare\u2014deserves whatever evil fate comes their way."
         ],
         [
           "5",
@@ -48,5 +48,13 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Group Patrons",
+  "tags": [
+    "Nemesis",
+    "Backstory",
+    "Roleplay",
+    "Character Development"
   ]
 }

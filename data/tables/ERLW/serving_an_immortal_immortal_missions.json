@@ -33,11 +33,11 @@
         ],
         [
           "6",
-          "Defeat a dragon-blooded sorcerer who is doing the bidding of the Chamber—and wreaking havoc in Darguun in the process."
+          "Defeat a dragon-blooded sorcerer who is doing the bidding of the Chamber\u2014and wreaking havoc in Darguun in the process."
         ],
         [
           "7",
-          "Destroy an eldritch machine, created by a rogue Cannith artificer, that is drawing on the energy of an imprisoned rakshasa—and that will, unknown to the inventor, lead to the rakshasa's release."
+          "Destroy an eldritch machine, created by a rogue Cannith artificer, that is drawing on the energy of an imprisoned rakshasa\u2014and that will, unknown to the inventor, lead to the rakshasa's release."
         ],
         [
           "8",
@@ -56,5 +56,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Character Creation",
+  "tags": [
+    "Group Patrons",
+    "Immortal Missions",
+    "Roleplay",
+    "Quests",
+    "Storytelling"
   ]
 }

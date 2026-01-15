@@ -21,7 +21,7 @@
         ],
         [
           "3",
-          "In this sun-dappled field, children—as well as free-spirited, childlike folk—find themselves able to fly for 1 hour."
+          "In this sun-dappled field, children\u2014as well as free-spirited, childlike folk\u2014find themselves able to fly for 1 hour."
         ],
         [
           "4",
@@ -40,5 +40,14 @@
         "index": 10
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Eberron Adventures",
+  "tags": [
+    "Syrania",
+    "Manifest Zone",
+    "Features",
+    "Building Eberron Adventures",
+    "The Last War"
   ]
 }

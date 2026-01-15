@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "A bitter, more experienced inquisitive spends a lot of time telling you who you could have talked to ten years ago—if that person hadn't died—but still knows a lot about the city's inner workings."
+          "A bitter, more experienced inquisitive spends a lot of time telling you who you could have talked to ten years ago\u2014if that person hadn't died\u2014but still knows a lot about the city's inner workings."
         ],
         [
           "5",
@@ -72,5 +72,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Group Patrons",
+  "tags": [
+    "Patron Benefits",
+    "Contacts",
+    "Roleplay",
+    "NPCs",
+    "Campaign Resources"
   ]
 }

@@ -29,7 +29,7 @@
         ],
         [
           "5",
-          "{@b Crime}. You work with police and inquisitives—or do some inquisitive work yourselves—to report on criminal activity."
+          "{@b Crime}. You work with police and inquisitives\u2014or do some inquisitive work yourselves\u2014to report on criminal activity."
         ],
         [
           "6",
@@ -64,5 +64,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Group Patrons",
+  "tags": [
+    "Journalistic Focus",
+    "Reporting",
+    "Roleplay",
+    "Backgrounds",
+    "Character Development"
   ]
 }

@@ -41,7 +41,7 @@
         ],
         [
           "8",
-          "Handle a prisoner exchange—one captured criminal for one captured Sharn Watch officer."
+          "Handle a prisoner exchange\u2014one captured criminal for one captured Sharn Watch officer."
         ]
       ],
       "name": "Sharn Watch Assignments",
@@ -56,5 +56,14 @@
         "index": 11
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Quests & Assignments",
+  "tags": [
+    "Sharn",
+    "Eberron",
+    "Watch Assignments",
+    "City Adventures",
+    "Law Enforcement"
   ]
 }

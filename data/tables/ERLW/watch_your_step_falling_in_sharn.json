@@ -17,23 +17,23 @@
         ],
         [
           "2",
-          "You fall {@dice 3d6 × 10} feet before striking a bridge. A major bridge in an upper or a middle ward will have a {@spell feather fall} enchantment; otherwise, it's going to be a hard landing."
+          "You fall {@dice 3d6 \u00d7 10} feet before striking a bridge. A major bridge in an upper or a middle ward will have a {@spell feather fall} enchantment; otherwise, it's going to be a hard landing."
         ],
         [
           "3",
-          "You fall {@dice 2d4 × 10} feet and land in a passing skycoach, possibly injuring a passenger."
+          "You fall {@dice 2d4 \u00d7 10} feet and land in a passing skycoach, possibly injuring a passenger."
         ],
         [
           "4",
-          "You fall {@dice 4d4 × 5} feet and strike an outcropping, flagpole, or projecting statue. If you survive, you're still precariously perched on the edge of a tower or bridge."
+          "You fall {@dice 4d4 \u00d7 5} feet and strike an outcropping, flagpole, or projecting statue. If you survive, you're still precariously perched on the edge of a tower or bridge."
         ],
         [
           "5",
-          "You fall past a {@creature hippogriff}—make a successful {@dc 15} Dexterity ({@skill Acrobatics}) check to catch its leg!"
+          "You fall past a {@creature hippogriff}\u2014make a successful {@dc 15} Dexterity ({@skill Acrobatics}) check to catch its leg!"
         ],
         [
           "6",
-          "A {@creature gargoyle} or {@creature giant owl} catches you—then threatens to drop you if it doesn't get a reward."
+          "A {@creature gargoyle} or {@creature giant owl} catches you\u2014then threatens to drop you if it doesn't get a reward."
         ],
         [
           "7",
@@ -56,5 +56,14 @@
         "index": 8
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Hazards & Traps",
+  "tags": [
+    "Falling",
+    "Sharn",
+    "City of Towers",
+    "Hazards",
+    "Traps"
   ]
 }

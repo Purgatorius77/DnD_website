@@ -29,7 +29,7 @@
         ],
         [
           "5",
-          "{@b Assassination}. Your work involves killing prominent people—the sort who have numerous bodyguards and elaborate security systems to circumvent."
+          "{@b Assassination}. Your work involves killing prominent people\u2014the sort who have numerous bodyguards and elaborate security systems to circumvent."
         ],
         [
           "6",
@@ -48,5 +48,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Character Creation",
+  "tags": [
+    "Group Patrons",
+    "Syndicate Crimes",
+    "Roleplay",
+    "Backgrounds",
+    "Storytelling"
   ]
 }

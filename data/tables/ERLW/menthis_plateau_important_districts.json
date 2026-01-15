@@ -39,7 +39,7 @@
         ],
         [
           "Everbright",
-          "This district is a source of magical goods and services. Exotic components, magewrights for hire, common or uncommon magic items—all of these and more can be found here.",
+          "This district is a source of magical goods and services. Exotic components, magewrights for hire, common or uncommon magic items\u2014all of these and more can be found here.",
           "Middle Menthis"
         ],
         [
@@ -85,5 +85,14 @@
         "index": 8
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Locations",
+  "tags": [
+    "Sharn",
+    "City of Towers",
+    "Menthis Plateau",
+    "Districts",
+    "Eberron"
   ]
 }

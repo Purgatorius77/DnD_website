@@ -12,11 +12,11 @@
       ],
       "rows": [
         [
-          "1–3",
+          "1\u20133",
           "{@b Official}. You hold an official position and are recognized as attached to your patron. You can expect the head of state's support, but you must also ensure your actions avoid staining your patron's reputation."
         ],
         [
-          "4–5",
+          "4\u20135",
           "{@b Shadow}. You can expect no official, public recognition of your work, but the head of state you work for does acknowledge you in private and provide help."
         ],
         [
@@ -36,5 +36,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Group Patrons",
+  "tags": [
+    "Status",
+    "State Status",
+    "Official",
+    "Shadow",
+    "Double"
   ]
 }
