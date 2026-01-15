@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Underwater Encounters (Levels 11—20)",
+      "name": "Underwater Encounters (Levels 11\u201420)",
       "type": "table",
       "source": "XGE",
       "page": 109,
-      "caption": "Underwater Encounters (Levels 11—20)",
+      "caption": "Underwater Encounters (Levels 11\u201420)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -61,5 +61,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Underwater",
+    "Levels 11-20",
+    "Creatures",
+    "Encounter Tables",
+    "High Level"
   ]
 }

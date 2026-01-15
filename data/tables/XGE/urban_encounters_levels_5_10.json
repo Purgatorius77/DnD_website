@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Urban Encounters (Levels 5—10)",
+      "name": "Urban Encounters (Levels 5\u201410)",
       "type": "table",
       "source": "XGE",
       "page": 110,
-      "caption": "Urban Encounters (Levels 5—10)",
+      "caption": "Urban Encounters (Levels 5\u201410)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -221,5 +221,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Urban",
+    "Levels 5-10",
+    "Creatures",
+    "Random Encounter",
+    "D100"
   ]
 }

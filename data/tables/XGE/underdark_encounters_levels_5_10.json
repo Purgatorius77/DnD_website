@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Underdark Encounters (Levels 5—10)",
+      "name": "Underdark Encounters (Levels 5\u201410)",
       "type": "table",
       "source": "XGE",
       "page": 106,
-      "caption": "Underdark Encounters (Levels 5—10)",
+      "caption": "Underdark Encounters (Levels 5\u201410)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -333,5 +333,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Underdark",
+    "Levels 5-10",
+    "Creatures",
+    "Random Encounters",
+    "Dungeon Master Tools"
   ]
 }

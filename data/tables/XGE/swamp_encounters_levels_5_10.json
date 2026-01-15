@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Swamp Encounters (Levels 5—10)",
+      "name": "Swamp Encounters (Levels 5\u201410)",
       "type": "table",
       "source": "XGE",
       "page": 105,
-      "caption": "Swamp Encounters (Levels 5—10)",
+      "caption": "Swamp Encounters (Levels 5\u201410)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -165,5 +165,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Swamp",
+    "Levels 5-10",
+    "Creatures",
+    "Encounter Table",
+    "D100"
   ]
 }

@@ -52,5 +52,15 @@
         "uid": "Shared Campaign Variant Rules|XGE"
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Potions",
+  "tags": [
+    "Shopping",
+    "Healing",
+    "Climbing",
+    "Animal Friendship",
+    "Greater Healing",
+    "Water Breathing"
   ]
 }

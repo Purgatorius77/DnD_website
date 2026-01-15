@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Urban Encounters (Levels 17—20)",
+      "name": "Urban Encounters (Levels 17\u201420)",
       "type": "table",
       "source": "XGE",
       "page": 110,
-      "caption": "Urban Encounters (Levels 17—20)",
+      "caption": "Urban Encounters (Levels 17\u201420)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -117,5 +117,13 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Urban",
+    "High Level",
+    "Monsters",
+    "Random Encounters"
   ]
 }

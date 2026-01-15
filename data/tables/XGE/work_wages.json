@@ -16,11 +16,11 @@
           "Poor lifestyle for the week"
         ],
         [
-          "10—14",
+          "10\u201414",
           "Modest lifestyle for the week"
         ],
         [
-          "15—20",
+          "15\u201420",
           "Comfortable lifestyle for the week"
         ],
         [
@@ -40,5 +40,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "DM Tools",
+  "sub_category": "Economy",
+  "tags": [
+    "Work",
+    "Wages",
+    "Lifestyle",
+    "Earnings",
+    "Dungeon Master's Tools"
   ]
 }

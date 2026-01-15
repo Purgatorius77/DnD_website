@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Mountain Encounters (Levels 11—16)",
+      "name": "Mountain Encounters (Levels 11\u201416)",
       "type": "table",
       "source": "XGE",
       "page": 104,
-      "caption": "Mountain Encounters (Levels 11—16)",
+      "caption": "Mountain Encounters (Levels 11\u201416)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -117,5 +117,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Mountain",
+    "Levels 11\u201416",
+    "Creatures",
+    "Random Encounters",
+    "D100"
   ]
 }
