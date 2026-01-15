@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Rumors—Precinct Two",
+      "caption": "Rumors\u2014Precinct Two",
       "colLabels": [
         "d6",
         "Rumor"
@@ -36,7 +36,7 @@
           "\"Did you hear about that lawmage who went crazy? They had to send two squads of arresters to bring him down. He kept telling them 'A homunculus made me do it.' I don't want to know what 'it' is.\""
         ]
       ],
-      "name": "Rumors—Precinct Two",
+      "name": "Rumors\u2014Precinct Two",
       "page": 108,
       "source": "GGR",
       "chapter": {
@@ -48,5 +48,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Rumors & Gossip",
+  "tags": [
+    "Rumors",
+    "City",
+    "NPC Interaction",
+    "Story Hooks",
+    "Urban Adventure"
   ]
 }

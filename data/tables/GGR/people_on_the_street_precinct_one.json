@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "People on the Street—Precinct One",
+      "caption": "People on the Street\u2014Precinct One",
       "colLabels": [
         "d12",
         "Description"
@@ -60,7 +60,7 @@
           "Translator, feeding some birds"
         ]
       ],
-      "name": "People on the Street—Precinct One",
+      "name": "People on the Street\u2014Precinct One",
       "page": 105,
       "source": "GGR",
       "chapter": {
@@ -72,5 +72,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "NPCs",
+  "tags": [
+    "People",
+    "Street",
+    "Precinct One",
+    "NPC",
+    "The Tenth District"
   ]
 }

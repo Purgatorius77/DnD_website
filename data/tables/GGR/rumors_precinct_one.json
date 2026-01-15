@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Rumors—Precinct One",
+      "caption": "Rumors\u2014Precinct One",
       "colLabels": [
         "d6",
         "Rumor"
@@ -36,7 +36,7 @@
           "\"I still can't believe that crazy old Orzhov syndic just handing out zinos near the plaza, muttering 'The end is near.' She'll invite nothing but undesirables sniffing for free coin.\""
         ]
       ],
-      "name": "Rumors—Precinct One",
+      "name": "Rumors\u2014Precinct One",
       "page": 105,
       "source": "GGR",
       "chapter": {
@@ -48,5 +48,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Rumors & Plot Hooks",
+  "tags": [
+    "Rumors",
+    "Plot Hooks",
+    "Urban Adventure",
+    "Roleplay",
+    "Storytelling"
   ]
 }

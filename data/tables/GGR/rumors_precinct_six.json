@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Rumors—Precinct Six",
+      "caption": "Rumors\u2014Precinct Six",
       "colLabels": [
         "d6",
         "Rumor"
@@ -36,7 +36,7 @@
           "\"One of the warehouses out in Medori Park had an intense red glow shining through its windows yesterday. Smelled of sulfur. No one wants to go near it.\""
         ]
       ],
-      "name": "Rumors—Precinct Six",
+      "name": "Rumors\u2014Precinct Six",
       "page": 121,
       "source": "GGR",
       "chapter": {
@@ -48,5 +48,15 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Rumors & Plot Hooks",
+  "tags": [
+    "Rumors",
+    "Plot Hooks",
+    "Urban Adventure",
+    "NPC Interactions",
+    "Storytelling",
+    "Campaign Development"
   ]
 }

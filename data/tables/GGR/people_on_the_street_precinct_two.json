@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "People on the Street—Precinct Two",
+      "caption": "People on the Street\u2014Precinct Two",
       "colLabels": [
         "d12",
         "Description"
@@ -60,7 +60,7 @@
           "Tourist, heading to the Millennial Platform"
         ]
       ],
-      "name": "People on the Street—Precinct Two",
+      "name": "People on the Street\u2014Precinct Two",
       "page": 108,
       "source": "GGR",
       "chapter": {
@@ -72,5 +72,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "NPCs",
+  "tags": [
+    "People",
+    "Street",
+    "Precinct Two",
+    "Tenth District",
+    "NPC descriptions"
   ]
 }

@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "Hussars—Azorius {@creature Soldier|GGR|soldiers}  mounted on {@creature Griffon||griffons}—declare martial law in a neighborhood and enforce their harsh authority on the citizenry."
+          "Hussars\u2014Azorius {@creature Soldier|GGR|soldiers}  mounted on {@creature Griffon||griffons}\u2014declare martial law in a neighborhood and enforce their harsh authority on the citizenry."
         ],
         [
           "5",
@@ -48,5 +48,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Hooks",
+  "tags": [
+    "Azorius",
+    "Adventure Creation",
+    "Campaign Ideas",
+    "Storytelling",
+    "DM Tools"
   ]
 }

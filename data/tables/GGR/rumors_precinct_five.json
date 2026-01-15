@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Rumors—Precinct Five",
+      "caption": "Rumors\u2014Precinct Five",
       "colLabels": [
         "d6",
         "Rumor"
@@ -36,7 +36,7 @@
           "\"Sila has a new stock of exotic components. She says they can enhance spells in a way other components cannot.\""
         ]
       ],
-      "name": "Rumors—Precinct Five",
+      "name": "Rumors\u2014Precinct Five",
       "page": 118,
       "source": "GGR",
       "chapter": {
@@ -48,5 +48,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Rumors & Lore",
+  "tags": [
+    "Rumors",
+    "Precinct Five",
+    "The Tenth District",
+    "Storytelling",
+    "Roleplay"
   ]
 }

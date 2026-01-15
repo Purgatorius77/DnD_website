@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "People on the Street—Precinct Four",
+      "caption": "People on the Street\u2014Precinct Four",
       "colLabels": [
         "d12",
         "Description"
@@ -60,7 +60,7 @@
           "Transient, looking for a good place to sleep"
         ]
       ],
-      "name": "People on the Street—Precinct Four",
+      "name": "People on the Street\u2014Precinct Four",
       "page": 114,
       "source": "GGR",
       "chapter": {
@@ -72,5 +72,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "NPCs",
+  "tags": [
+    "Urban",
+    "NPCs",
+    "Random Tables",
+    "Roleplay",
+    "City"
   ]
 }

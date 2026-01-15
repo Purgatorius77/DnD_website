@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Rumors—Precinct Four",
+      "caption": "Rumors\u2014Precinct Four",
       "colLabels": [
         "d6",
         "Rumor"
@@ -36,7 +36,7 @@
           "\"I saw an angel and a demon having what looked like a polite conversation. I couldn't believe my eyes!\""
         ]
       ],
-      "name": "Rumors—Precinct Four",
+      "name": "Rumors\u2014Precinct Four",
       "page": 114,
       "source": "GGR",
       "chapter": {
@@ -48,5 +48,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Rumors & Information",
+  "tags": [
+    "Rumors",
+    "City",
+    "NPCs",
+    "Information Gathering",
+    "Urban Adventure"
   ]
 }

@@ -15,14 +15,14 @@
           "6'0\"",
           "+{@dice 1d10}",
           "600 lb.",
-          "× ({@dice 2d12}) lb."
+          "\u00d7 ({@dice 2d12}) lb."
         ],
         [
           "Goblin",
           "3'5\"",
           "+{@dice 2d4}",
           "35 lb.",
-          "× 1 lb."
+          "\u00d7 1 lb."
         ],
         [
           "Simic hybrid",
@@ -36,21 +36,21 @@
           "6'7\"",
           "+{@dice 2d10}",
           "295 lb.",
-          "× ({@dice 2d4}) lb."
+          "\u00d7 ({@dice 2d4}) lb."
         ],
         [
           "Minotaur",
           "5'4\"",
           "+{@dice 2d8}",
           "175 lb.",
-          "× ({@dice 2d6}) lb."
+          "\u00d7 ({@dice 2d6}) lb."
         ],
         [
           "Vedalken",
           "5'4\"",
           "+{@dice 2d10}",
           "110 lb.",
-          "× ({@dice 2d4}) lb."
+          "\u00d7 ({@dice 2d4}) lb."
         ]
       ],
       "footnotes": [
@@ -68,5 +68,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Physical Attributes",
+  "tags": [
+    "Height",
+    "Weight",
+    "Race",
+    "Modifiers",
+    "Randomization"
   ]
 }

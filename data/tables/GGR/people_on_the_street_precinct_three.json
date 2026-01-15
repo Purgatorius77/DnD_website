@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "People on the Street—Precinct Three",
+      "caption": "People on the Street\u2014Precinct Three",
       "colLabels": [
         "d12",
         "Description"
@@ -60,7 +60,7 @@
           "Woodcarver, whistling a familiar song"
         ]
       ],
-      "name": "People on the Street—Precinct Three",
+      "name": "People on the Street\u2014Precinct Three",
       "page": 111,
       "source": "GGR",
       "chapter": {
@@ -72,5 +72,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "NPCs",
+  "tags": [
+    "People",
+    "Street",
+    "Precinct Three",
+    "NPC",
+    "Descriptions"
   ]
 }

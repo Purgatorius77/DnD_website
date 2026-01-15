@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "People on the Street—Precinct Five",
+      "caption": "People on the Street\u2014Precinct Five",
       "colLabels": [
         "d12",
         "Description"
@@ -60,7 +60,7 @@
           "Vampire mind drinker, heading to the library"
         ]
       ],
-      "name": "People on the Street—Precinct Five",
+      "name": "People on the Street\u2014Precinct Five",
       "page": 118,
       "source": "GGR",
       "chapter": {
@@ -72,5 +72,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "NPCs",
+  "tags": [
+    "People",
+    "Street",
+    "Precinct Five",
+    "Tenth District",
+    "NPCs"
   ]
 }

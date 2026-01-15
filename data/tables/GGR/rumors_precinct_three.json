@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Rumors—Precinct Three",
+      "caption": "Rumors\u2014Precinct Three",
       "colLabels": [
         "d6",
         "Rumor"
@@ -36,7 +36,7 @@
           "\"We should go find that loxodon priest and see if she's still having visions. I'll bet we can get her to tell us our future!\""
         ]
       ],
-      "name": "Rumors—Precinct Three",
+      "name": "Rumors\u2014Precinct Three",
       "page": 111,
       "source": "GGR",
       "chapter": {
@@ -48,5 +48,15 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Rumors & Clues",
+  "tags": [
+    "Rumors",
+    "Precinct Three",
+    "The Tenth District",
+    "Storytelling",
+    "Campaign Development",
+    "NPC Dialogue"
   ]
 }
