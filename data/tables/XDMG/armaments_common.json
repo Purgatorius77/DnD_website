@@ -12,43 +12,43 @@
       ],
       "rows": [
         [
-          "01–10",
+          "01\u201310",
           "{@item Armor of Gleaming|XDMG}"
         ],
         [
-          "11–20",
+          "11\u201320",
           "{@item Cast-Off Armor|XDMG}"
         ],
         [
-          "21–30",
+          "21\u201330",
           "{@item Dread Helm|XDMG}"
         ],
         [
-          "31–40",
+          "31\u201340",
           "{@item Moon-Touched Sword|XDMG}"
         ],
         [
-          "41–50",
+          "41\u201350",
           "{@item Shield of Expression|XDMG}"
         ],
         [
-          "51–60",
+          "51\u201360",
           "{@item Silvered Weapon|XDMG}"
         ],
         [
-          "61–70",
+          "61\u201370",
           "{@item Smoldering Armor|XDMG}"
         ],
         [
-          "71–80",
+          "71\u201380",
           "{@item Sylvan Talon|XDMG}"
         ],
         [
-          "81–90",
+          "81\u201390",
           "{@item Veteran's Cane|XDMG}"
         ],
         [
-          "91–00",
+          "91\u201300",
           "{@item Walloping Ammunition|XDMG}"
         ]
       ],
@@ -64,5 +64,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Armaments",
+  "tags": [
+    "Common Items",
+    "Armor",
+    "Weapons",
+    "Shield",
+    "Treasure"
   ]
 }

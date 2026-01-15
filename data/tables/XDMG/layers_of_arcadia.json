@@ -17,7 +17,7 @@
         ],
         [
           "Buxenus",
-          "Military forces gather their strength, amid pleasant valleys and orchards, to reclaim the lost layer of Menausus—now part of Mechanus."
+          "Military forces gather their strength, amid pleasant valleys and orchards, to reclaim the lost layer of Menausus\u2014now part of Mechanus."
         ]
       ],
       "name": "Layers of Arcadia",
@@ -32,5 +32,15 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Cosmology",
+  "tags": [
+    "Arcadia",
+    "Layers",
+    "Planar",
+    "Cosmic",
+    "Locations",
+    "Descriptions"
   ]
 }

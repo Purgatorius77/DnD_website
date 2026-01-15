@@ -12,23 +12,23 @@
       ],
       "rows": [
         [
-          "1–2",
+          "1\u20132",
           "Days become minutes"
         ],
         [
-          "3–6",
+          "3\u20136",
           "Days become hours"
         ],
         [
-          "7–13",
+          "7\u201313",
           "No change"
         ],
         [
-          "14–17",
+          "14\u201317",
           "Days become weeks"
         ],
         [
-          "18–19",
+          "18\u201319",
           "Days become months"
         ],
         [
@@ -48,5 +48,14 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Cosmology",
+  "tags": [
+    "Feywild",
+    "Time Warp",
+    "Table",
+    "1d20",
+    "Result"
   ]
 }

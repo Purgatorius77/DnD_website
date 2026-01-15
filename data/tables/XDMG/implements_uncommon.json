@@ -12,47 +12,47 @@
       ],
       "rows": [
         [
-          "01–02",
+          "01\u201302",
           "{@item Alchemy Jug|XDMG}"
         ],
         [
-          "03–06",
+          "03\u201306",
           "{@item +1 Ammunition|XDMG|Ammunition, +1}"
         ],
         [
-          "07–10",
+          "07\u201310",
           "{@item Bag of Holding|XDMG}"
         ],
         [
-          "11–12",
+          "11\u201312",
           "{@item Boots of Elvenkind|XDMG}"
         ],
         [
-          "13–14",
+          "13\u201314",
           "{@item Boots of Striding and Springing|XDMG}"
         ],
         [
-          "15–16",
+          "15\u201316",
           "{@item Boots of the Winterlands|XDMG}"
         ],
         [
-          "17–18",
+          "17\u201318",
           "{@item Broom of Flying|XDMG}"
         ],
         [
-          "19–20",
+          "19\u201320",
           "{@item Cap of Water Breathing|XDMG}"
         ],
         [
-          "21–22",
+          "21\u201322",
           "{@item Cloak of Elvenkind|XDMG}"
         ],
         [
-          "23–24",
+          "23\u201324",
           "{@item Cloak of Protection|XDMG}"
         ],
         [
-          "25–26",
+          "25\u201326",
           "{@item Cloak of the Manta Ray|XDMG}"
         ],
         [
@@ -60,47 +60,47 @@
           "{@item Decanter of Endless Water|XDMG}"
         ],
         [
-          "28–30",
+          "28\u201330",
           "{@item Driftglobe|XDMG}"
         ],
         [
-          "31–32",
+          "31\u201332",
           "{@item Dust of Disappearance|XDMG}"
         ],
         [
-          "33–34",
+          "33\u201334",
           "{@item Dust of Dryness|XDMG}"
         ],
         [
-          "35–36",
+          "35\u201336",
           "{@item Dust of Sneezing and Choking|XDMG}"
         ],
         [
-          "37–38",
+          "37\u201338",
           "{@item Enspelled Weapon|XDMG} (cantrip or level 1 spell)"
         ],
         [
-          "39–40",
+          "39\u201340",
           "{@item Eyes of Minute Seeing|XDMG}"
         ],
         [
-          "41–42",
+          "41\u201342",
           "{@item Eyes of the Eagle|XDMG}"
         ],
         [
-          "43–44",
+          "43\u201344",
           "{@item Gloves of Missile Snaring|XDMG}"
         ],
         [
-          "45–46",
+          "45\u201346",
           "{@item Gloves of Swimming and Climbing|XDMG}"
         ],
         [
-          "47–48",
+          "47\u201348",
           "{@item Gloves of Thievery|XDMG}"
         ],
         [
-          "49–50",
+          "49\u201350",
           "{@item Goggles of Night|XDMG}"
         ],
         [
@@ -108,7 +108,7 @@
           "{@item Hag Eye|XDMG}"
         ],
         [
-          "52–54",
+          "52\u201354",
           "{@item Helm of Comprehending Languages|XDMG}"
         ],
         [
@@ -116,71 +116,71 @@
           "{@item Immovable Rod|XDMG}"
         ],
         [
-          "56–57",
+          "56\u201357",
           "{@item Instrument of the Bards|XDMG} ({@item Instrument of the Bards, Doss Lute|XDMG|Doss lute}, {@item Instrument of the Bards, Fochlucan Bandore|XDMG|Fochlucan bandore}, or {@item Instrument of the Bards, Mac-Fuirmidh Cittern|XDMG|Mac-Fuirmidh cittern})"
         ],
         [
-          "58–59",
+          "58\u201359",
           "{@item Lantern of Revealing|XDMG}"
         ],
         [
-          "60–61",
+          "60\u201361",
           "{@item Nature's Mantle|XDMG}"
         ],
         [
-          "62–63",
+          "62\u201363",
           "{@item Oil of Slipperiness|XDMG}"
         ],
         [
-          "64–65",
+          "64\u201365",
           "{@item Pipes of Haunting|XDMG}"
         ],
         [
-          "66–67",
+          "66\u201367",
           "{@item Pipes of the Sewers|XDMG}"
         ],
         [
-          "68–71",
+          "68\u201371",
           "{@item Potion of Growth|XDMG}"
         ],
         [
-          "72–80",
+          "72\u201380",
           "{@item Potion of Greater Healing|XDMG|Potion of Healing (greater)}"
         ],
         [
-          "81–84",
+          "81\u201384",
           "{@item Potion of Water Breathing|XDMG}"
         ],
         [
-          "85–86",
+          "85\u201386",
           "{@item Quaal's Feather Token|XDMG} ({@item Quaal's Feather Token, Anchor|XDMG|anchor}, {@item Quaal's Feather Token, Fan|XDMG|fan}, or {@item Quaal's Feather Token, Tree|XDMG|tree})"
         ],
         [
-          "87–88",
+          "87\u201388",
           "{@item Ring of Jumping|XDMG}"
         ],
         [
-          "89–90",
+          "89\u201390",
           "{@item Ring of Swimming|XDMG}"
         ],
         [
-          "91–92",
+          "91\u201392",
           "{@item Ring of Warmth|XDMG}"
         ],
         [
-          "93–94",
+          "93\u201394",
           "{@item Robe of Useful Items|XDMG}"
         ],
         [
-          "95–96",
+          "95\u201396",
           "{@item Rope of Climbing|XDMG}"
         ],
         [
-          "97–98",
+          "97\u201398",
           "{@item Stone of Good Luck|XDMG}"
         ],
         [
-          "99–00",
+          "99\u201300",
           "{@item Wand of Secrets|XDMG}"
         ]
       ],
@@ -196,5 +196,15 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Implements",
+  "tags": [
+    "Uncommon Items",
+    "Alchemy Jug",
+    "Ammunition",
+    "Bag of Holding",
+    "Boots of Elvenkind",
+    "Boots of Striding and Springing"
   ]
 }

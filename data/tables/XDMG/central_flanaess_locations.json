@@ -45,7 +45,7 @@
         ],
         [
           "Nyr Dyv",
-          "—",
+          "\u2014",
           "The Lake of Unknown Depths; home to barge dwellers"
         ],
         [
@@ -55,7 +55,7 @@
         ],
         [
           "Pomarj, the",
-          "—",
+          "\u2014",
           "Lawless peninsula; home to bandits and marauders"
         ],
         [
@@ -91,5 +91,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "World Building",
+  "tags": [
+    "Locations",
+    "Rulers",
+    "Campaign Creation",
+    "Flanaess",
+    "World Lore"
   ]
 }

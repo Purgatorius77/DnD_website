@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Levels 1–4 Adventure Situations",
+      "caption": "Levels 1\u20134 Adventure Situations",
       "colLabels": [
         "1d20",
         "Situation"
@@ -85,14 +85,14 @@
         ],
         [
           "19",
-          "The ruins on the hill near the village lie under a curse, so people don't go there—except a scholar who wants to study the ruins."
+          "The ruins on the hill near the village lie under a curse, so people don't go there\u2014except a scholar who wants to study the ruins."
         ],
         [
           "20",
           "A new captain has taken charge of a band of pirates or bandits and started raiding more frequently."
         ]
       ],
-      "name": "Levels 1–4: Local Heroes; Levels 1–4 Adventure Situations",
+      "name": "Levels 1\u20134: Local Heroes; Levels 1\u20134 Adventure Situations",
       "page": 106,
       "source": "XDMG",
       "chapter": {
@@ -104,5 +104,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Creation",
+  "tags": [
+    "Adventure Situations",
+    "Local Heroes",
+    "Levels 1-4",
+    "Adventure Ideas",
+    "Campaign Planning"
   ]
 }

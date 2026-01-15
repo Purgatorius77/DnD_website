@@ -12,39 +12,39 @@
       ],
       "rows": [
         [
-          "01–20",
+          "01\u201320",
           "While attuned to the Artifact, you gain proficiency in one skill of the DM's choice."
         ],
         [
-          "21–30",
+          "21\u201330",
           "While attuned to the Artifact, you have Immunity to the {@condition Poisoned|XPHB} condition."
         ],
         [
-          "31–40",
+          "31\u201340",
           "While attuned to the Artifact, you have Immunity to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions."
         ],
         [
-          "41–50",
+          "41\u201350",
           "While attuned to the Artifact, you have Resistance to one damage type of the DM's choice."
         ],
         [
-          "51–60",
+          "51\u201360",
           "While attuned to the Artifact, you can cast one cantrip (chosen by the DM) from it."
         ],
         [
-          "61–70",
-          "While attuned to the Artifact, you can cast one level 1 spell (chosen by the DM) from it. After you cast the spell, roll {@dice 1d6}. On a roll of 1–5, you can't cast it again in this way until the next dawn."
+          "61\u201370",
+          "While attuned to the Artifact, you can cast one level 1 spell (chosen by the DM) from it. After you cast the spell, roll {@dice 1d6}. On a roll of 1\u20135, you can't cast it again in this way until the next dawn."
         ],
         [
-          "71–80",
-          "As 61–70 above, except the spell is level 2."
+          "71\u201380",
+          "As 61\u201370 above, except the spell is level 2."
         ],
         [
-          "81–90",
-          "As 61–70 above, except the spell is level 3."
+          "81\u201390",
+          "As 61\u201370 above, except the spell is level 3."
         ],
         [
-          "91–00",
+          "91\u201300",
           "While attuned to the Artifact, you gain a +1 bonus to Armor Class."
         ]
       ],
@@ -60,5 +60,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Artifacts",
+  "tags": [
+    "Artifact Properties",
+    "Beneficial Properties",
+    "DM Tools",
+    "Loot",
+    "Magic Items"
   ]
 }

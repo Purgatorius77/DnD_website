@@ -37,7 +37,7 @@
         ],
         [
           "The Death Dells",
-          "Yeenoghu and his gnoll servants prowl layer 422—a cruel, desolate realm."
+          "Yeenoghu and his gnoll servants prowl layer 422\u2014a cruel, desolate realm."
         ],
         [
           "The Endless Maze",
@@ -56,5 +56,14 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Cosmology",
+  "tags": [
+    "Abyss",
+    "Planes",
+    "Demons",
+    "Locations",
+    "Dungeons & Dragons"
   ]
 }

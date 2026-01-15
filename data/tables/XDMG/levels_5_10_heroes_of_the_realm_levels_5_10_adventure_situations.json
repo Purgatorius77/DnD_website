@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Levels 5–10 Adventure Situations",
+      "caption": "Levels 5\u201310 Adventure Situations",
       "colLabels": [
         "1d20",
         "Situation"
@@ -92,7 +92,7 @@
           "A renowned group of adventurers never returned from an expedition to a famous ruin."
         ]
       ],
-      "name": "Levels 5–10: Heroes of the Realm; Levels 5–10 Adventure Situations",
+      "name": "Levels 5\u201310: Heroes of the Realm; Levels 5\u201310 Adventure Situations",
       "page": 106,
       "source": "XDMG",
       "chapter": {
@@ -104,5 +104,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Creation",
+  "tags": [
+    "Levels 5-10",
+    "Heroes of the Realm",
+    "Adventure Situations",
+    "DM Tools",
+    "Campaign Planning"
   ]
 }

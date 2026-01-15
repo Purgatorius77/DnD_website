@@ -20,11 +20,11 @@
           "{@item Baba Yaga's Dancing Broom|XDMG}"
         ],
         [
-          "03–05",
+          "03\u201305",
           "{@item Bag of Holding|XDMG}"
         ],
         [
-          "06–07",
+          "06\u201307",
           "{@item Bag of Tricks|XDMG}"
         ],
         [
@@ -44,7 +44,7 @@
           "{@item Circlet of Blasting|XDMG}"
         ],
         [
-          "12–13",
+          "12\u201313",
           "{@item Cloak of Protection|XDMG}"
         ],
         [
@@ -60,11 +60,11 @@
           "{@item Deck of Illusions|XDMG}"
         ],
         [
-          "17–18",
+          "17\u201318",
           "{@item Driftglobe|XDMG}"
         ],
         [
-          "19–20",
+          "19\u201320",
           "{@item Dust of Disappearance|XDMG}"
         ],
         [
@@ -76,7 +76,7 @@
           "{@item Dust of Sneezing and Choking|XDMG}"
         ],
         [
-          "23–24",
+          "23\u201324",
           "{@item Elemental Gem|XDMG}"
         ],
         [
@@ -96,7 +96,7 @@
           "{@item Eyes of Minute Seeing|XDMG}"
         ],
         [
-          "29–30",
+          "29\u201330",
           "{@item Figurine of Wondrous Power, Silver Raven|XDMG|Figurine of Wondrous Power (silver raven)}"
         ],
         [
@@ -140,7 +140,7 @@
           "{@item Mithral Armor|XDMG}"
         ],
         [
-          "41–42",
+          "41\u201342",
           "{@item Necklace of Adaptation|XDMG}"
         ],
         [
@@ -156,35 +156,35 @@
           "{@item Periapt of Health|XDMG}"
         ],
         [
-          "46–47",
+          "46\u201347",
           "{@item Philter of Love|XDMG}"
         ],
         [
-          "48–49",
+          "48\u201349",
           "{@item Potion of Animal Friendship|XDMG}"
         ],
         [
-          "50–51",
+          "50\u201351",
           "{@item Potion of Fire Breath|XDMG}"
         ],
         [
-          "52–53",
+          "52\u201353",
           "{@item Potion of Hill Giant Strength|XDMG|Potion of Giant Strength (hill)}"
         ],
         [
-          "54–55",
+          "54\u201355",
           "{@item Potion of Growth|XDMG}"
         ],
         [
-          "56–57",
+          "56\u201357",
           "{@item Potion of Poison|XDMG}"
         ],
         [
-          "58–59",
+          "58\u201359",
           "{@item Potion of Resistance|XDMG}"
         ],
         [
-          "60–61",
+          "60\u201361",
           "{@item Potion of Water Breathing|XDMG}"
         ],
         [
@@ -196,15 +196,15 @@
           "{@item Ring of Mind Shielding|XDMG}"
         ],
         [
-          "64–65",
+          "64\u201365",
           "{@item Robe of Useful Items|XDMG}"
         ],
         [
-          "66–67",
+          "66\u201367",
           "{@item Rod of the Pact Keeper|XDMG}"
         ],
         [
-          "68–69",
+          "68\u201369",
           "{@item Rope of Climbing|XDMG}"
         ],
         [
@@ -212,15 +212,15 @@
           "{@item Saddle of the Cavalier|XDMG}"
         ],
         [
-          "71–72",
+          "71\u201372",
           "{@item Sending Stones|XDMG}"
         ],
         [
-          "73–74",
+          "73\u201374",
           "{@item Slippers of Spider Climbing|XDMG}"
         ],
         [
-          "75–82",
+          "75\u201382",
           "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 2)|XDMG|level 2} or {@item Spell Scroll (Level 3)|XDMG|level 3} spell)"
         ],
         [
@@ -232,27 +232,27 @@
           "{@item Staff of the Python|XDMG}"
         ],
         [
-          "85–88",
+          "85\u201388",
           "{@item Wand of Magic Detection|XDMG}"
         ],
         [
-          "89–91",
+          "89\u201391",
           "{@item Wand of Magic Missiles|XDMG}"
         ],
         [
-          "92–93",
+          "92\u201393",
           "{@item Wand of Secrets|XDMG}"
         ],
         [
-          "94–95",
+          "94\u201395",
           "{@item +1 Wand of the War Mage|XDMG|Wand of the War Mage, +1}"
         ],
         [
-          "96–97",
+          "96\u201397",
           "{@item Wand of Web|XDMG}"
         ],
         [
-          "98–99",
+          "98\u201399",
           "{@item Wind Fan|XDMG}"
         ],
         [
@@ -272,5 +272,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Arcana",
+  "tags": [
+    "Uncommon items",
+    "Magic items",
+    "Loot",
+    "Treasure",
+    "Arcana"
   ]
 }

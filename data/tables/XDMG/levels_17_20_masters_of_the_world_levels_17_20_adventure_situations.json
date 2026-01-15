@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Levels 17–20 Adventure Situations",
+      "caption": "Levels 17\u201320 Adventure Situations",
       "colLabels": [
         "1d10",
         "Situation"
@@ -52,7 +52,7 @@
           "Five ancient metallic dragons lair in the Pillars of Creation. If all these dragons are killed, the world will collapse into chaos. One has just been slain."
         ]
       ],
-      "name": "Levels 17–20: Masters of the World; Levels 17–20 Adventure Situations",
+      "name": "Levels 17\u201320: Masters of the World; Levels 17\u201320 Adventure Situations",
       "page": 106,
       "source": "XDMG",
       "chapter": {
@@ -64,5 +64,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Creation",
+  "tags": [
+    "Levels 17-20",
+    "Adventure Situations",
+    "Creating Adventures",
+    "DM Tools",
+    "Campaign Planning"
   ]
 }

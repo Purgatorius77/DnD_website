@@ -12,135 +12,135 @@
       ],
       "rows": [
         [
-          "01–03",
+          "01\u201303",
           "{@item +3 Ammunition|XDMG|Ammunition, +3}"
         ],
         [
-          "04–06",
+          "04\u201306",
           "{@item Ammunition of Slaying|XDMG}"
         ],
         [
-          "07–09",
+          "07\u201309",
           "{@item Animated Shield|XDMG}"
         ],
         [
-          "10–12",
+          "10\u201312",
           "{@item +2 Armor|XDMG|Armor, +2}"
         ],
         [
-          "13–14",
+          "13\u201314",
           "{@item Belt of Fire Giant Strength|XDMG|Belt of Giant Strength (fire)}"
         ],
         [
-          "15–17",
+          "15\u201317",
           "{@item Belt of Giant Strength|XDMG} ({@item Belt of Frost Giant Strength|XDMG|frost} or {@item Belt of Stone Giant Strength|XDMG|stone})"
         ],
         [
-          "18–19",
+          "18\u201319",
           "{@item Dancing Sword|XDMG}"
         ],
         [
-          "20–22",
+          "20\u201322",
           "{@item Demon Armor|XDMG}"
         ],
         [
-          "23–25",
+          "23\u201325",
           "{@item Dragon Scale Mail|XDMG}"
         ],
         [
-          "26–28",
+          "26\u201328",
           "{@item Dwarven Plate|XDMG}"
         ],
         [
-          "29–31",
+          "29\u201331",
           "{@item Dwarven Thrower|XDMG}"
         ],
         [
-          "32–34",
+          "32\u201334",
           "{@item Energy Bow|XDMG}"
         ],
         [
-          "35–37",
+          "35\u201337",
           "{@item Enspelled Armor|XDMG} (level 4 or 5 spell)"
         ],
         [
-          "38–40",
+          "38\u201340",
           "{@item Enspelled Weapon|XDMG} (level 4 or 5 spell)"
         ],
         [
-          "41–43",
+          "41\u201343",
           "{@item Executioner's Axe|XDMG}"
         ],
         [
-          "44–46",
+          "44\u201346",
           "{@item Frost Brand|XDMG}"
         ],
         [
-          "47–49",
+          "47\u201349",
           "{@item Horn of Valhalla, Bronze|XDMG|Horn of Valhalla (bronze)}"
         ],
         [
-          "50–52",
+          "50\u201352",
           "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Strength|XDMG|strength})"
         ],
         [
-          "53–55",
+          "53\u201355",
           "{@item Lute of Thunderous Thumping|XDMG}"
         ],
         [
-          "56–58",
+          "56\u201358",
           "{@item Manual of Gainful Exercise|XDMG}"
         ],
         [
-          "59–61",
+          "59\u201361",
           "{@item Nine Lives Stealer|XDMG}"
         ],
         [
-          "62–64",
+          "62\u201364",
           "{@item Oathbow|XDMG}"
         ],
         [
-          "65–68",
+          "65\u201368",
           "{@item Oil of Sharpness|XDMG}"
         ],
         [
-          "69–72",
+          "69\u201372",
           "{@item Potion of Cloud Giant Strength|XDMG|Potion of Giant Strength (cloud)}"
         ],
         [
-          "73–75",
+          "73\u201375",
           "{@item Quarterstaff of the Acrobat|XDMG}"
         ],
         [
-          "76–78",
+          "76\u201378",
           "{@item Scimitar of Speed|XDMG}"
         ],
         [
-          "79–82",
+          "79\u201382",
           "{@item +3 Shield|XDMG|Shield, +3}"
         ],
         [
-          "83–85",
+          "83\u201385",
           "{@item Shield of the Cavalier|XDMG}"
         ],
         [
-          "86–88",
+          "86\u201388",
           "{@item Spellguard Shield|XDMG}"
         ],
         [
-          "89–91",
+          "89\u201391",
           "{@item Sword of Sharpness|XDMG}"
         ],
         [
-          "92–94",
+          "92\u201394",
           "{@item Thunderous Greatclub|XDMG}"
         ],
         [
-          "95–97",
+          "95\u201397",
           "{@item +3 Weapon|XDMG|Weapon, +3}"
         ],
         [
-          "98–00",
+          "98\u201300",
           "{@item +3 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +3}"
         ]
       ],
@@ -156,5 +156,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Armaments",
+  "tags": [
+    "Very Rare",
+    "Equipment",
+    "Weapons",
+    "Armor",
+    "Magic Items"
   ]
 }

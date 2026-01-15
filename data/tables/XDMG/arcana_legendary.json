@@ -12,27 +12,27 @@
       ],
       "rows": [
         [
-          "01–04",
+          "01\u201304",
           "{@item Apparatus of Kwalish|XDMG}"
         ],
         [
-          "05–08",
+          "05\u201308",
           "{@item Cloak of Invisibility|XDMG}"
         ],
         [
-          "09–12",
+          "09\u201312",
           "{@item Crystal Ball of Mind Reading|XDMG}"
         ],
         [
-          "13–16",
+          "13\u201316",
           "{@item Crystal Ball of Telepathy|XDMG}"
         ],
         [
-          "17–20",
+          "17\u201320",
           "{@item Crystal Ball of True Seeing|XDMG}"
         ],
         [
-          "21–22",
+          "21\u201322",
           "{@item Cubic Gate|XDMG}"
         ],
         [
@@ -40,35 +40,35 @@
           "{@item Deck of Many Things|XDMG}"
         ],
         [
-          "24–27",
+          "24\u201327",
           "{@item Enspelled Staff|XDMG} (level 6, 7, or 8 spell)"
         ],
         [
-          "28–31",
+          "28\u201331",
           "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Greater Absorption|XDMG|greater absorption}, {@item Ioun Stone, Mastery|XDMG|mastery}, or {@item Ioun Stone, Regeneration|XDMG|regeneration})"
         ],
         [
-          "32–33",
+          "32\u201333",
           "{@item Iron Flask|XDMG}"
         ],
         [
-          "34–41",
+          "34\u201341",
           "{@item Potion of Storm Giant Strength|XDMG|Potion of Storm Giant Strength (storm)}"
         ],
         [
-          "42–45",
+          "42\u201345",
           "{@item Ring of Djinni Summoning|XDMG}"
         ],
         [
-          "46–49",
+          "46\u201349",
           "{@item Ring of Elemental Command|XDMG} ({@item Ring of Elemental Command (Air)|XDMG|air}, {@item Ring of Elemental Command (Earth)|XDMG|earth}, {@item Ring of Elemental Command (Fire)|XDMG|fire}, or {@item Ring of Elemental Command (Water)|XDMG|water})"
         ],
         [
-          "50–53",
+          "50\u201353",
           "{@item Ring of Invisibility|XDMG}"
         ],
         [
-          "54–57",
+          "54\u201357",
           "{@item Ring of Spell Turning|XDMG}"
         ],
         [
@@ -80,15 +80,15 @@
           "{@item Robe of the Archmagi|XDMG}"
         ],
         [
-          "60–61",
+          "60\u201361",
           "{@item Scroll of Titan Summoning|XDMG}"
         ],
         [
-          "62–65",
+          "62\u201365",
           "{@item Sovereign Glue|XDMG}"
         ],
         [
-          "66–83",
+          "66\u201383",
           "{@item Spell Scroll (Level 9)|XDMG|Spell Scroll (level 9} spell)"
         ],
         [
@@ -100,19 +100,19 @@
           "{@item Staff of the Magi|XDMG}"
         ],
         [
-          "86–88",
+          "86\u201388",
           "{@item Talisman of the Sphere|XDMG}"
         ],
         [
-          "89–92",
+          "89\u201392",
           "{@item Tome of the Stilled Tongue|XDMG}"
         ],
         [
-          "93–96",
+          "93\u201396",
           "{@item Universal Solvent|XDMG}"
         ],
         [
-          "97–00",
+          "97\u201300",
           "{@item Well of Many Worlds|XDMG}"
         ]
       ],
@@ -128,5 +128,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Arcana",
+  "tags": [
+    "Legendary Items",
+    "Magic Items",
+    "Loot Tables",
+    "Treasure",
+    "Arcana"
   ]
 }

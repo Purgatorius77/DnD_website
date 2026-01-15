@@ -74,7 +74,7 @@
           "Jet black"
         ],
         [
-          "13–14",
+          "13\u201314",
           "Material Plane",
           "Silver"
         ],
@@ -121,5 +121,14 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Cosmology",
+  "tags": [
+    "Astral Color Pools",
+    "Planes",
+    "Colors",
+    "Table",
+    "Cosmology"
   ]
 }

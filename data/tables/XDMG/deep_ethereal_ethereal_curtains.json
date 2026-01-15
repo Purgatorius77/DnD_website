@@ -14,7 +14,7 @@
       ],
       "rows": [
         [
-          "1–2",
+          "1\u20132",
           "Material Plane",
           "Turquoise"
         ],
@@ -81,5 +81,15 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Cosmology",
+  "tags": [
+    "Ethereal Plane",
+    "Material Plane",
+    "Shadowfell",
+    "Feywild",
+    "Elemental Planes",
+    "Plane Travel"
   ]
 }

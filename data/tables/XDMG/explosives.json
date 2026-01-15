@@ -61,5 +61,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Armor & Weapons",
+  "tags": [
+    "Explosives",
+    "Cost",
+    "Weight",
+    "Equipment",
+    "DMG"
   ]
 }

@@ -12,147 +12,147 @@
       ],
       "rows": [
         [
-          "01–02",
+          "01\u201302",
           "{@item Bead of Nourishment|XDMG}"
         ],
         [
-          "03–04",
+          "03\u201304",
           "{@item Bead of Refreshment|XDMG}"
         ],
         [
-          "05–07",
+          "05\u201307",
           "{@item Candle of the Deep|XDMG}"
         ],
         [
-          "08–10",
+          "08\u201310",
           "{@item Cloak of Billowing|XDMG}"
         ],
         [
-          "11–13",
+          "11\u201313",
           "{@item Cloak of Many Fashions|XDMG}"
         ],
         [
-          "14–15",
+          "14\u201315",
           "{@item Clothes of Mending|XDMG}"
         ],
         [
-          "16–17",
+          "16\u201317",
           "{@item Dark Shard Amulet|XDMG}"
         ],
         [
-          "18–19",
+          "18\u201319",
           "{@item Enduring Spellbook|XDMG}"
         ],
         [
-          "20–21",
+          "20\u201321",
           "{@item Ersatz Eye|XDMG}"
         ],
         [
-          "22–24",
+          "22\u201324",
           "{@item Hat of Vermin|XDMG}"
         ],
         [
-          "25–27",
+          "25\u201327",
           "{@item Hat of Wizardry|XDMG}"
         ],
         [
-          "28–29",
+          "28\u201329",
           "{@item Heward's Handy Spice Pouch|XDMG}"
         ],
         [
-          "30–31",
+          "30\u201331",
           "{@item Horn of Silent Alarm|XDMG}"
         ],
         [
-          "32–33",
+          "32\u201333",
           "{@item Instrument of Illusions|XDMG}"
         ],
         [
-          "34–35",
+          "34\u201335",
           "{@item Instrument of Scribing|XDMG}"
         ],
         [
-          "36–37",
+          "36\u201337",
           "{@item Lock of Trickery|XDMG}"
         ],
         [
-          "38–40",
+          "38\u201340",
           "{@item Mystery Key|XDMG}"
         ],
         [
-          "41–42",
+          "41\u201342",
           "{@item Orb of Direction|XDMG}"
         ],
         [
-          "43–44",
+          "43\u201344",
           "{@item Orb of Time|XDMG}"
         ],
         [
-          "45–46",
+          "45\u201346",
           "{@item Perfume of Bewitching|XDMG}"
         ],
         [
-          "47–49",
+          "47\u201349",
           "{@item Pipe of Smoke Monsters|XDMG}"
         ],
         [
-          "50–52",
+          "50\u201352",
           "{@item Potion of Climbing|XDMG}"
         ],
         [
-          "53–55",
+          "53\u201355",
           "{@item Potion of Comprehension|XDMG}"
         ],
         [
-          "56–58",
+          "56\u201358",
           "{@item Pot of Awakening|XDMG}"
         ],
         [
-          "59–60",
+          "59\u201360",
           "{@item Prosthetic Limb|XDMG}"
         ],
         [
-          "61–64",
+          "61\u201364",
           "{@item Rival Coin|XDMG}"
         ],
         [
-          "65–66",
+          "65\u201366",
           "{@item Rope of Mending|XDMG}"
         ],
         [
-          "67–68",
+          "67\u201368",
           "{@item Ruby of the War Mage|XDMG}"
         ],
         [
-          "69–82",
+          "69\u201382",
           "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Cantrip)|XDMG|cantrip} or {@item Spell Scroll (Level 1)|XDMG|level 1} spell)"
         ],
         [
-          "83–84",
+          "83\u201384",
           "{@item Staff of Adornment|XDMG}"
         ],
         [
-          "85–86",
+          "85\u201386",
           "{@item Staff of Birdcalls|XDMG}"
         ],
         [
-          "87–89",
+          "87\u201389",
           "{@item Staff of Flowers|XDMG}"
         ],
         [
-          "90–92",
+          "90\u201392",
           "{@item Talking Doll|XDMG}"
         ],
         [
-          "93–94",
+          "93\u201394",
           "{@item Tankard of Sobriety|XDMG}"
         ],
         [
-          "95–97",
+          "95\u201397",
           "{@item Wand of Conducting|XDMG}"
         ],
         [
-          "98–00",
+          "98\u201300",
           "{@item Wand of Pyrotechnics|XDMG}"
         ]
       ],
@@ -168,5 +168,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Arcana",
+  "tags": [
+    "Common Items",
+    "Magic Items",
+    "Loot",
+    "Treasure",
+    "Arcana"
   ]
 }

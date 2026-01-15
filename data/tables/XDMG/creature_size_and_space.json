@@ -58,5 +58,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "DM Tools",
+  "sub_category": "Game Mechanics",
+  "tags": [
+    "Creature Size",
+    "Space in Squares",
+    "Space in Hexes",
+    "Game Mechanics",
+    "Table"
   ]
 }

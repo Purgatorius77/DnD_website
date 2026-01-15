@@ -30,17 +30,17 @@
         ],
         [
           "Bone March, the",
-          "—",
+          "\u2014",
           "Fallen territory of the Great Kingdom, now held by armies from Almor and Nyrond"
         ],
         [
           "Celadon Forest",
-          "—",
+          "\u2014",
           "Ancient forest protected by druidic circles and fey"
         ],
         [
           "Flinty Hills and Gamboge Forest",
-          "—",
+          "\u2014",
           "Home to several independent communities with no great love for Nyrond or the Pale"
         ],
         [
@@ -125,7 +125,7 @@
         ],
         [
           "Vast Swamp, the",
-          "—",
+          "\u2014",
           "Morass separating the Tilvanot Peninsula and Shar from the rest of the East"
         ]
       ],
@@ -141,5 +141,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "Creating Campaigns",
+  "tags": [
+    "Locations",
+    "Rulers",
+    "Descriptions",
+    "Eastern Flanaess",
+    "Campaign Building"
   ]
 }

@@ -12,59 +12,59 @@
       ],
       "rows": [
         [
-          "01–07",
+          "01\u201307",
           "{@item +3 Ammunition|XDMG|Ammunition, +3}"
         ],
         [
-          "08–14",
+          "08\u201314",
           "{@item Bag of Devouring|XDMG}"
         ],
         [
-          "15–21",
+          "15\u201321",
           "{@item Carpet of Flying|XDMG}"
         ],
         [
-          "22–28",
+          "22\u201328",
           "{@item Enspelled Weapon|XDMG} (level 4 or 5 spell)"
         ],
         [
-          "29–35",
+          "29\u201335",
           "{@item Horseshoes of a Zephyr|XDMG}"
         ],
         [
-          "36–42",
+          "36\u201342",
           "{@item Instrument of the Bards, Anstruth Harp|XDMG|Instrument of the Bards (Anstruth harp)}"
         ],
         [
-          "43–49",
+          "43\u201349",
           "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Agility|XDMG|agility})"
         ],
         [
-          "50–56",
+          "50\u201356",
           "{@item Lute of Thunderous Thumping|XDMG}"
         ],
         [
-          "57–63",
+          "57\u201363",
           "{@item Manual of Quickness of Action|XDMG}"
         ],
         [
-          "64–70",
+          "64\u201370",
           "{@item Nolzur's Marvelous Pigments|XDMG}"
         ],
         [
-          "71–77",
+          "71\u201377",
           "{@item Potion of Flying|XDMG}"
         ],
         [
-          "78–86",
+          "78\u201386",
           "{@item Potion of Supreme Healing|XDMG|Potion of Healing (supreme)}"
         ],
         [
-          "87–93",
+          "87\u201393",
           "{@item Potion of Speed|XDMG}"
         ],
         [
-          "94–00",
+          "94\u201300",
           "{@item Tome of Leadership and Influence|XDMG}"
         ]
       ],
@@ -80,5 +80,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Implements",
+  "tags": [
+    "Very Rare",
+    "Items",
+    "Equipment",
+    "Magic Items",
+    "Dungeon Master Resources"
   ]
 }

@@ -12,147 +12,147 @@
       ],
       "rows": [
         [
-          "01–02",
+          "01\u201302",
           "{@item Bead of Nourishment|XDMG}"
         ],
         [
-          "03–04",
+          "03\u201304",
           "{@item Bead of Refreshment|XDMG}"
         ],
         [
-          "05–06",
+          "05\u201306",
           "{@item Boots of False Tracks|XDMG}"
         ],
         [
-          "07–08",
+          "07\u201308",
           "{@item Candle of the Deep|XDMG}"
         ],
         [
-          "09–10",
+          "09\u201310",
           "{@item Charlatan's Die|XDMG}"
         ],
         [
-          "11–13",
+          "11\u201313",
           "{@item Cloak of Many Fashions|XDMG}"
         ],
         [
-          "14–15",
+          "14\u201315",
           "{@item Clockwork Amulet|XDMG}"
         ],
         [
-          "16–17",
+          "16\u201317",
           "{@item Ear Horn of Hearing|XDMG}"
         ],
         [
-          "18–19",
+          "18\u201319",
           "{@item Ersatz Eye|XDMG}"
         ],
         [
-          "20–21",
+          "20\u201321",
           "{@item Heward's Handy Spice Pouch|XDMG}"
         ],
         [
-          "22–23",
+          "22\u201323",
           "{@item Horn of Silent Alarm|XDMG}"
         ],
         [
-          "24–25",
+          "24\u201325",
           "{@item Instrument of Illusions|XDMG}"
         ],
         [
-          "26–27",
+          "26\u201327",
           "{@item Instrument of Scribing|XDMG}"
         ],
         [
-          "28–29",
+          "28\u201329",
           "{@item Lock of Trickery|XDMG}"
         ],
         [
-          "30–32",
+          "30\u201332",
           "{@item Moon-Touched Sword|XDMG}"
         ],
         [
-          "33–34",
+          "33\u201334",
           "{@item Mystery Key|XDMG}"
         ],
         [
-          "35–36",
+          "35\u201336",
           "{@item Orb of Direction|XDMG}"
         ],
         [
-          "37–38",
+          "37\u201338",
           "{@item Orb of Time|XDMG}"
         ],
         [
-          "39–40",
+          "39\u201340",
           "{@item Perfume of Bewitching|XDMG}"
         ],
         [
-          "41–42",
+          "41\u201342",
           "{@item Pipe of Smoke Monsters|XDMG}"
         ],
         [
-          "43–44",
+          "43\u201344",
           "{@item Pole of Angling|XDMG}"
         ],
         [
-          "45–46",
+          "45\u201346",
           "{@item Pole of Collapsing|XDMG}"
         ],
         [
-          "47–52",
+          "47\u201352",
           "{@item Potion of Climbing|XDMG}"
         ],
         [
-          "53–58",
+          "53\u201358",
           "{@item Potion of Comprehension|XDMG}"
         ],
         [
-          "59–74",
+          "59\u201374",
           "{@item Potion of Healing|XDMG}"
         ],
         [
-          "75–76",
+          "75\u201376",
           "{@item Prosthetic Limb|XDMG}"
         ],
         [
-          "77–78",
+          "77\u201378",
           "{@item Rope of Mending|XDMG}"
         ],
         [
-          "79–80",
+          "79\u201380",
           "{@item Staff of Birdcalls|XDMG}"
         ],
         [
-          "81–82",
+          "81\u201382",
           "{@item Sylvan Talon|XDMG}"
         ],
         [
-          "83–84",
+          "83\u201384",
           "{@item Talking Doll|XDMG}"
         ],
         [
-          "85–86",
+          "85\u201386",
           "{@item Tankard of Sobriety|XDMG}"
         ],
         [
-          "87–90",
+          "87\u201390",
           "{@item Veteran's Cane|XDMG}"
         ],
         [
-          "91–92",
+          "91\u201392",
           "{@item Walloping Ammunition|XDMG}"
         ],
         [
-          "93–94",
+          "93\u201394",
           "{@item Wand of Conducting|XDMG}"
         ],
         [
-          "95–97",
+          "95\u201397",
           "{@item Wand of Enemy Detection|XDMG}"
         ],
         [
-          "98–00",
+          "98\u201300",
           "{@item Wand of Pyrotechnics|XDMG}"
         ]
       ],
@@ -168,5 +168,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Implements",
+  "tags": [
+    "Common Items",
+    "Treasure",
+    "Loot",
+    "Equipment",
+    "Random Table"
   ]
 }

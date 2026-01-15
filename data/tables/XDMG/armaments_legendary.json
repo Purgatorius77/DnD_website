@@ -12,75 +12,75 @@
       ],
       "rows": [
         [
-          "01–06",
+          "01\u201306",
           "{@item +3 Armor|XDMG|Armor, +3}"
         ],
         [
-          "07–12",
+          "07\u201312",
           "{@item Armor of Invulnerability|XDMG}"
         ],
         [
-          "13–18",
+          "13\u201318",
           "{@item Belt of Cloud Giant Strength|XDMG|Belt of Giant Strength (cloud)}"
         ],
         [
-          "19–21",
+          "19\u201321",
           "{@item Belt of Storm Giant Strength|XDMG|Belt of Giant Strength (storm)}"
         ],
         [
-          "22–27",
+          "22\u201327",
           "{@item Defender|XDMG}"
         ],
         [
-          "28–33",
+          "28\u201333",
           "{@item Efreeti Chain|XDMG}"
         ],
         [
-          "34–39",
+          "34\u201339",
           "{@item Enspelled Armor|XDMG} (level 6, 7, or 8 spell)"
         ],
         [
-          "40–45",
+          "40\u201345",
           "{@item Enspelled Weapon|XDMG} (level 6, 7, or 8 spell)"
         ],
         [
-          "46–51",
+          "46\u201351",
           "{@item Hammer of Thunderbolts|XDMG}"
         ],
         [
-          "52–56",
+          "52\u201356",
           "{@item Holy Avenger|XDMG}"
         ],
         [
-          "57–62",
+          "57\u201362",
           "{@item Horn of Valhalla, Iron|XDMG|Horn of Valhalla (iron)}"
         ],
         [
-          "63–68",
+          "63\u201368",
           "{@item Luck Blade|XDMG}"
         ],
         [
-          "69–72",
+          "69\u201372",
           "{@item Moonblade|XDMG}"
         ],
         [
-          "73–78",
+          "73\u201378",
           "{@item Plate Armor of Etherealness|XDMG}"
         ],
         [
-          "79–87",
+          "79\u201387",
           "{@item Potion of Storm Giant Strength|XDMG|Potion of Giant Strength (storm)}"
         ],
         [
-          "88–90",
+          "88\u201390",
           "{@item Rod of Lordly Might|XDMG}"
         ],
         [
-          "91–95",
+          "91\u201395",
           "{@item Sword of Answering|XDMG}"
         ],
         [
-          "96–00",
+          "96\u201300",
           "{@item Vorpal Sword|XDMG}"
         ]
       ],
@@ -96,5 +96,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Legendary Items",
+  "tags": [
+    "Armaments",
+    "Legendary",
+    "Equipment",
+    "Magic Items",
+    "Treasure"
   ]
 }

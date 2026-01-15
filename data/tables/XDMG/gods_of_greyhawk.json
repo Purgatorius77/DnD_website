@@ -88,7 +88,7 @@
           "Spindle with three strands"
         ],
         [
-          "{@deity Iuz|Greyhawk|XDMG} the Evil†",
+          "{@deity Iuz|Greyhawk|XDMG} the Evil\u2020",
           "{@book Material Plane|XDMG|5|Material Plane}",
           "His subjects and allies",
           "Grinning human skull"
@@ -180,7 +180,7 @@
       ],
       "footnotes": [
         "*Greater god",
-        "†Demigod"
+        "\u2020Demigod"
       ],
       "name": "Gods of Greyhawk",
       "page": 149,
@@ -194,5 +194,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Deities",
+  "tags": [
+    "Greyhawk",
+    "Campaign Creation",
+    "Gods",
+    "Worshipers",
+    "Symbols"
   ]
 }
