@@ -13,7 +13,7 @@
       "rows": [
         [
           "1",
-          "The ghost hopes to be reunited with another ghost—the spirit of someone they loved in life."
+          "The ghost hopes to be reunited with another ghost\u2014the spirit of someone they loved in life."
         ],
         [
           "2",
@@ -56,5 +56,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Story Elements",
+  "tags": [
+    "Romance",
+    "Ghosts",
+    "Ravenloft",
+    "Storytelling",
+    "Roleplay"
   ]
 }

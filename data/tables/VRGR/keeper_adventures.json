@@ -13,7 +13,7 @@
       "rows": [
         [
           "1",
-          "Keepers invite the characters to a social gathering where fortunes are told and attendees sample rare imported mumia—powdered mummy."
+          "Keepers invite the characters to a social gathering where fortunes are told and attendees sample rare imported mumia\u2014powdered mummy."
         ],
         [
           "2",
@@ -21,7 +21,7 @@
         ],
         [
           "3",
-          "Orphir Brindletop, a Kalakeri gnome occultist, is surprised to meet one of the characters, as he received a message for them in a séance long ago."
+          "Orphir Brindletop, a Kalakeri gnome occultist, is surprised to meet one of the characters, as he received a message for them in a s\u00e9ance long ago."
         ],
         [
           "4",
@@ -48,5 +48,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Hooks",
+  "tags": [
+    "Domains of Ravenloft",
+    "Keeper Adventures",
+    "Adventure Ideas",
+    "Campaigns",
+    "Storytelling"
   ]
 }

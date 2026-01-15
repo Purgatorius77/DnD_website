@@ -17,7 +17,7 @@
         ],
         [
           "2",
-          "{@book Ez d'Avenir|VRGR|3|Ez d'Avenir},* vampire slayer and protégé of Rudolph van Richten"
+          "{@book Ez d'Avenir|VRGR|3|Ez d'Avenir},* vampire slayer and prot\u00e9g\u00e9 of Rudolph van Richten"
         ],
         [
           "3",
@@ -56,5 +56,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Domains of Ravenloft",
+  "tags": [
+    "Tatyana",
+    "Incarnation",
+    "Ravenloft",
+    "Characters",
+    "NPCs"
   ]
 }

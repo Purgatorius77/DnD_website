@@ -12,31 +12,31 @@
       ],
       "rows": [
         [
-          "01–20",
+          "01\u201320",
           "Characters emerge in a domain of your choosing."
         ],
         [
-          "21–40",
+          "21\u201340",
           "Characters wander the Mists for another {@dice 1d6} hours, then roll on this table again."
         ],
         [
-          "41–65",
+          "41\u201365",
           "Characters emerge from the Mists on stable ground {@dice 1d100} feet away from where they entered."
         ],
         [
-          "66–75",
+          "66\u201375",
           "Characters emerge on stable ground a mile from where they entered the Mists at midnight of the night after they entered the Mists."
         ],
         [
-          "76–85",
+          "76\u201385",
           "Characters emerge from the Mists inside a structure somewhere within the domain they tried to leave, perhaps a cave, crypt, shed, or closet."
         ],
         [
-          "86–95",
+          "86\u201395",
           "Other creatures appear within the Mists. Roll any die. If you roll an even number, a lost and terrified {@creature commoner} appears. If you roll an odd number, {@dice 2d6} {@creature Skeleton||skeletons} or 1 {@creature unspeakable horror|VRGR} (see {@book chapter 5|VRGR|5}) appears. After the encounter, another {@dice 1d6} hours pass, then roll on this table again."
         ],
         [
-          "96–99",
+          "96\u201399",
           "Characters emerge from the Mists where they entered to find the domain changed. Perhaps someone the characters knew is gone, and no one has any knowledge of them ever existing."
         ],
         [
@@ -56,5 +56,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Travel",
+  "tags": [
+    "Ravenloft",
+    "Mists",
+    "Domains",
+    "Wandering",
+    "Effects"
   ]
 }

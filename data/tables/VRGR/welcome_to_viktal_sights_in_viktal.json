@@ -21,7 +21,7 @@
         ],
         [
           "3",
-          "Villagers harvest wings and chrysalises from caged moths, which are powdered and used to make \"shift spice\"—a pervasive ingredient in local dishes."
+          "Villagers harvest wings and chrysalises from caged moths, which are powdered and used to make \"shift spice\"\u2014a pervasive ingredient in local dishes."
         ],
         [
           "4",
@@ -56,5 +56,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Locations",
+  "tags": [
+    "Ravenloft",
+    "Viktal",
+    "Sights",
+    "Local Culture",
+    "Domains of Ravenloft"
   ]
 }

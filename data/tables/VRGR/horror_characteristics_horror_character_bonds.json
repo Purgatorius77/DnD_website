@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "I've seen great darkness, and I'm committed to being a light against it—the light of all lights."
+          "I've seen great darkness, and I'm committed to being a light against it\u2014the light of all lights."
         ],
         [
           "5",
@@ -72,5 +72,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Horror Characters",
+  "tags": [
+    "Horror",
+    "Character Bonds",
+    "Characteristics",
+    "Roleplay",
+    "Backstory"
   ]
 }

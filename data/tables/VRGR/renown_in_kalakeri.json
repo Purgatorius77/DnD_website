@@ -74,32 +74,32 @@
           "Either"
         ],
         [
-          "–1",
+          "\u20131",
           "Being accused of treachery",
           "Either"
         ],
         [
-          "–2",
+          "\u20132",
           "Being caught aiding a rival faction's agenda",
           "Either"
         ],
         [
-          "–2",
+          "\u20132",
           "Failing at an assignment",
           "Either"
         ],
         [
-          "–2",
+          "\u20132",
           "Offending Arijani's ego",
           "Rebels"
         ],
         [
-          "–3",
+          "\u20133",
           "Discovering a faction leader's true form",
           "Either"
         ],
         [
-          "–5",
+          "\u20135",
           "Openly betraying the faction",
           "Either"
         ]
@@ -116,5 +116,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "Domains of Ravenloft",
+  "tags": [
+    "Renown",
+    "Kalakeri",
+    "Factions",
+    "Activities",
+    "Ravenloft"
   ]
 }

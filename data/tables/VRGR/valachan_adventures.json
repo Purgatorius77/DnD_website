@@ -37,7 +37,7 @@
         ],
         [
           "7",
-          "The merchant ship Zodiac runs aground on Kiru Island. The sailors seek help salvaging other shipwrecks and escaping back to sea—preferably before Chakuna notices them."
+          "The merchant ship Zodiac runs aground on Kiru Island. The sailors seek help salvaging other shipwrecks and escaping back to sea\u2014preferably before Chakuna notices them."
         ],
         [
           "8",
@@ -56,5 +56,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Campaigns",
+  "tags": [
+    "Domains of Ravenloft",
+    "Valachan",
+    "Adventure Hooks",
+    "Creatures",
+    "Magic Items"
   ]
 }

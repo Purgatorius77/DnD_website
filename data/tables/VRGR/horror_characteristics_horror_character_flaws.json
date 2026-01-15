@@ -45,7 +45,7 @@
         ],
         [
           "9",
-          "I've seen the evil of a type of place—like forests, cities, or graveyards—and resist going there."
+          "I've seen the evil of a type of place\u2014like forests, cities, or graveyards\u2014and resist going there."
         ],
         [
           "10",
@@ -72,5 +72,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Horror Characters",
+  "tags": [
+    "Horror",
+    "Character Flaws",
+    "Characteristics",
+    "Role-playing",
+    "Traits"
   ]
 }

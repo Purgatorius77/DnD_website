@@ -41,7 +41,7 @@
         ],
         [
           "8",
-          "An individual or a group of competitors—{@creature Gladiator||gladiators}, {@creature Scout||scouts}, or {@creature Tribal Warrior||tribal warriors}—attempts to ambush the party."
+          "An individual or a group of competitors\u2014{@creature Gladiator||gladiators}, {@creature Scout||scouts}, or {@creature Tribal Warrior||tribal warriors}\u2014attempts to ambush the party."
         ],
         [
           "9",
@@ -80,7 +80,7 @@
           "The party chooses one character who must succeed on a {@dc 16} Wisdom ({@skill Survival}) check. On a failed check, the party becomes lost. It takes the characters 1 hour to realize they are {@dice 1d4} miles away from their assumed location in a disadvantageous direction."
         ],
         [
-          "18–20",
+          "18\u201320",
           "No complication"
         ]
       ],
@@ -96,5 +96,15 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Complications",
+  "tags": [
+    "Valachan",
+    "Hunt",
+    "Domains of Ravenloft",
+    "Chakuna",
+    "Traps",
+    "Encounters"
   ]
 }

@@ -33,7 +33,7 @@
         ],
         [
           "6",
-          "A {@creature jiangshi|VRGR} approaches the characters and asks them to locate one or more of her lost family members within the dream city. She's worried about what's become of her family—their bodies should be in the city, but she's lost track of them."
+          "A {@creature jiangshi|VRGR} approaches the characters and asks them to locate one or more of her lost family members within the dream city. She's worried about what's become of her family\u2014their bodies should be in the city, but she's lost track of them."
         ],
         [
           "7",
@@ -49,7 +49,7 @@
         ],
         [
           "10",
-          "All but one of Tsien Chiang's daughters have gone missing—and the remaining daughter is either Tsien Seu-Mei or Tsien Lei-An, neither of whom can speak. This daughter crosses the party's path and silently begs for help."
+          "All but one of Tsien Chiang's daughters have gone missing\u2014and the remaining daughter is either Tsien Seu-Mei or Tsien Lei-An, neither of whom can speak. This daughter crosses the party's path and silently begs for help."
         ]
       ],
       "name": "I'Cath Adventures",
@@ -64,5 +64,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Adventure Hooks",
+  "tags": [
+    "I'Cath",
+    "Domains of Ravenloft",
+    "Adventure Ideas",
+    "Quests",
+    "NPC Interactions"
   ]
 }

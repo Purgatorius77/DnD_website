@@ -33,7 +33,7 @@
         ],
         [
           "6",
-          "A scholar named Radaga seeks the characters' aid in recovering a mysterious relic—an ancient crown—from a skeleton-haunted canyon in the Martello Hills."
+          "A scholar named Radaga seeks the characters' aid in recovering a mysterious relic\u2014an ancient crown\u2014from a skeleton-haunted canyon in the Martello Hills."
         ],
         [
           "7",
@@ -41,7 +41,7 @@
         ],
         [
           "8",
-          "A brewer in Harmonia hires the party to deliver a cart of meekulbrau—a local berry wine that soothes the throat and improves vocal performances. A band of thieves hijacked the last two deliveries, and the brewer wants to make sure this latest delivery reaches its buyer, Harkon Lukas."
+          "A brewer in Harmonia hires the party to deliver a cart of meekulbrau\u2014a local berry wine that soothes the throat and improves vocal performances. A band of thieves hijacked the last two deliveries, and the brewer wants to make sure this latest delivery reaches its buyer, Harkon Lukas."
         ]
       ],
       "name": "Kartakass Adventures",
@@ -56,5 +56,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Campaigns",
+  "tags": [
+    "Domains of Ravenloft",
+    "Kartakass",
+    "Adventure Hooks",
+    "Ravenloft",
+    "Dungeons & Dragons 5e"
   ]
 }
