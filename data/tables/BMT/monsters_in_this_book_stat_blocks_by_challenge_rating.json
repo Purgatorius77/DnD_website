@@ -238,5 +238,12 @@
         "index": 20
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Challenge Rating",
+    "Creature Type",
+    "Book Reference"
   ]
 }

@@ -19,28 +19,28 @@
           "10 gp"
         ],
         [
-          "10–14",
+          "10\u201314",
           "22 ({@dice 4d10})",
           "50 gp"
         ],
         [
-          "15–19",
+          "15\u201319",
           "11 ({@dice 2d10})",
           "100 gp"
         ],
         [
-          "20–24",
+          "20\u201324",
           "5 ({@dice 1d10})",
           "500 gp"
         ],
         [
-          "25–29",
-          "—",
+          "25\u201329",
+          "\u2014",
           "1,000 gp"
         ],
         [
           "30 or higher",
-          "—",
+          "\u2014",
           "5,000 gp"
         ]
       ],
@@ -56,5 +56,14 @@
         "index": 17
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Gemstones",
+  "tags": [
+    "Gem Shards",
+    "Void",
+    "Attack Roll",
+    "Thunder Damage",
+    "Gemstone Value"
   ]
 }

@@ -21,11 +21,11 @@
             "roll": {
               "exact": 1
             },
-            "entry": "A ♠"
+            "entry": "A \u2660"
           },
           "{@creature Young green dragon}",
           "8",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -33,11 +33,11 @@
             "roll": {
               "exact": 2
             },
-            "entry": "A ♣"
+            "entry": "A \u2663"
           },
           "{@creature Druid} (friend)",
-          "—",
-          "—"
+          "\u2014",
+          "\u2014"
         ],
         [
           {
@@ -45,7 +45,7 @@
             "roll": {
               "exact": 3
             },
-            "entry": "K ♠"
+            "entry": "K \u2660"
           },
           "{@creature Bandit captain}",
           "2",
@@ -57,9 +57,9 @@
             "roll": {
               "exact": 4
             },
-            "entry": "K ♣"
+            "entry": "K \u2663"
           },
-          "{@creature Bandit} ×4",
+          "{@creature Bandit} \u00d74",
           "1/8",
           "Bandits"
         ],
@@ -69,9 +69,9 @@
             "roll": {
               "exact": 5
             },
-            "entry": "K {@color ♥|#ff0000}"
+            "entry": "K {@color \u2665|#ff0000}"
           },
-          "{@creature Bandit} ×4",
+          "{@creature Bandit} \u00d74",
           "1/8",
           "Bandits"
         ],
@@ -81,11 +81,11 @@
             "roll": {
               "exact": 6
             },
-            "entry": "Q ♠"
+            "entry": "Q \u2660"
           },
           "{@creature Owlbear}",
           "3",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -93,11 +93,11 @@
             "roll": {
               "exact": 7
             },
-            "entry": "Q ♣"
+            "entry": "Q \u2663"
           },
           "{@creature Owlbear}",
           "3",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -105,7 +105,7 @@
             "roll": {
               "exact": 8
             },
-            "entry": "J ♠"
+            "entry": "J \u2660"
           },
           "{@creature Ettercap}",
           "2",
@@ -117,7 +117,7 @@
             "roll": {
               "exact": 9
             },
-            "entry": "J ♣"
+            "entry": "J \u2663"
           },
           "{@creature Swarm of Spiders||Swarm of insects (spiders)}",
           "2",
@@ -129,9 +129,9 @@
             "roll": {
               "exact": 10
             },
-            "entry": "J {@color ♥|#ff0000}"
+            "entry": "J {@color \u2665|#ff0000}"
           },
-          "{@creature Giant spider} ×2",
+          "{@creature Giant spider} \u00d72",
           "1",
           "Spiders"
         ],
@@ -141,9 +141,9 @@
             "roll": {
               "exact": 11
             },
-            "entry": "J {@color ♦|#ff0000}"
+            "entry": "J {@color \u2666|#ff0000}"
           },
-          "{@creature Giant spider} ×2",
+          "{@creature Giant spider} \u00d72",
           "1",
           "Spiders"
         ],
@@ -153,11 +153,11 @@
             "roll": {
               "exact": 12
             },
-            "entry": "9 ♣"
+            "entry": "9 \u2663"
           },
           "{@creature Giant boar}",
           "2",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -165,11 +165,11 @@
             "roll": {
               "exact": 13
             },
-            "entry": "8 ♣"
+            "entry": "8 \u2663"
           },
           "{@creature Ankheg} (lurker)",
           "2",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -177,11 +177,11 @@
             "roll": {
               "exact": 14
             },
-            "entry": "7 ♠"
+            "entry": "7 \u2660"
           },
           "{@creature Displacer beast} (twin)",
           "3",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -189,11 +189,11 @@
             "roll": {
               "exact": 15
             },
-            "entry": "7 ♣"
+            "entry": "7 \u2663"
           },
           "{@creature Displacer beast} (twin)",
           "3",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -201,11 +201,11 @@
             "roll": {
               "exact": 16
             },
-            "entry": "6 ♠"
+            "entry": "6 \u2660"
           },
-          "{@creature Worg} ×2 (lurker)",
+          "{@creature Worg} \u00d72 (lurker)",
           "1/2",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -213,11 +213,11 @@
             "roll": {
               "exact": 17
             },
-            "entry": "5 ♠"
+            "entry": "5 \u2660"
           },
           "{@creature Pegasus}",
           "2",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -225,11 +225,11 @@
             "roll": {
               "exact": 18
             },
-            "entry": "5 ♣"
+            "entry": "5 \u2663"
           },
           "{@creature Pegasus}",
           "2",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -237,11 +237,11 @@
             "roll": {
               "exact": 19
             },
-            "entry": "4 ♠"
+            "entry": "4 \u2660"
           },
           "{@creature Shambling mound}",
           "5",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -249,11 +249,11 @@
             "roll": {
               "exact": 20
             },
-            "entry": "3 ♠"
+            "entry": "3 \u2660"
           },
           "{@creature Vampiric mist|MPMM}*",
           "3",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -261,11 +261,11 @@
             "roll": {
               "exact": 21
             },
-            "entry": "2 ♠"
+            "entry": "2 \u2660"
           },
           "Draw two",
-          "—",
-          "—"
+          "\u2014",
+          "\u2014"
         ]
       ],
       "footnotes": [
@@ -283,5 +283,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Forest",
+    "Creatures",
+    "Challenge",
+    "Group",
+    "Encounter Deck"
   ]
 }

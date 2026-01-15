@@ -56,5 +56,15 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Spells",
+  "sub_category": "Spells",
+  "tags": [
+    "Level",
+    "Spell",
+    "School",
+    "Concentration",
+    "Ritual",
+    "Class"
   ]
 }

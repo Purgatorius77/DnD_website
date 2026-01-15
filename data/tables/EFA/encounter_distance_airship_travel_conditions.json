@@ -40,7 +40,7 @@
         ],
         [
           "Night, heavy precipitation",
-          "{@dice 6d6 × 10} ft.",
+          "{@dice 6d6 \u00d7 10} ft.",
           "20"
         ]
       ],
@@ -55,5 +55,14 @@
         "index": 7
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Travel",
+  "tags": [
+    "Airship",
+    "Encounter Distance",
+    "Travel Conditions",
+    "Navigation",
+    "Elemental Airships"
   ]
 }

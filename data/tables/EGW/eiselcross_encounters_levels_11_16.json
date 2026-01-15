@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Eiselcross Encounters: Levels 11–16",
+      "caption": "Eiselcross Encounters: Levels 11\u201316",
       "colLabels": [
         "d6",
         "Encounter"
@@ -36,7 +36,7 @@
           "The characters are ambushed by {@dice 1d8 + 1} {@creature Frost Giant||frost giants}."
         ]
       ],
-      "name": "Eiselcross Encounters: Levels 11–16",
+      "name": "Eiselcross Encounters: Levels 11\u201316",
       "page": 122,
       "source": "EGW",
       "chapter": {
@@ -48,5 +48,15 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Eiselcross",
+    "Levels 11-16",
+    "Wildemount",
+    "Monsters",
+    "Combat",
+    "Roleplay"
   ]
 }

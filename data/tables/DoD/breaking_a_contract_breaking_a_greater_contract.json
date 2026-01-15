@@ -16,15 +16,15 @@
           "You can't speak or cast spells with verbal components. Whenever you try to speak, you bray like a donkey instead."
         ],
         [
-          "2–3",
+          "2\u20133",
           "You magically transform into an owl. You retain your languages, your ability to speak, and your mental ability scores (Intelligence, Wisdom, and Charisma). You otherwise have the statistics of an owl."
         ],
         [
-          "4–5",
+          "4\u20135",
           "You can't attune to magic items. If you are currently attuned to one or more magic items, your attunement to those items ends immediately."
         ],
         [
-          "6–7",
+          "6\u20137",
           "You are {@condition petrified}."
         ],
         [
@@ -44,5 +44,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Feywild Encounters",
+  "tags": [
+    "Contracts",
+    "Penalties",
+    "Feywild",
+    "Magic Effects",
+    "Conditions"
   ]
 }

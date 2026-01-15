@@ -12,7 +12,7 @@
       ],
       "rows": [
         [
-          "1–2",
+          "1\u20132",
           "{@dice 1d6} {@creature Quadrone Detention Drone|BMT|quadrones}"
         ],
         [
@@ -20,7 +20,7 @@
           "{@dice 1d4} suits of {@creature Animated Armor Detention Drone|BMT|animated armor}"
         ],
         [
-          "4–5",
+          "4\u20135",
           "2 {@creature Helmed Horror Detention Drone|BMT|helmed horrors}"
         ],
         [
@@ -40,5 +40,14 @@
         "index": 16
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Donjon",
+    "Drones",
+    "Patrols",
+    "Creatures",
+    "Encounter Tables"
   ]
 }

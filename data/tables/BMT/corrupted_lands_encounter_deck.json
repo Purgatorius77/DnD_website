@@ -21,11 +21,11 @@
             "roll": {
               "exact": 1
             },
-            "entry": " A {@color ♦|#ff0000}"
+            "entry": "\u2007A {@color \u2666|#ff0000}"
           },
           "{@creature Shoosuva|MPMM}*",
           "8",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -33,11 +33,11 @@
             "roll": {
               "exact": 2
             },
-            "entry": " A {@color ♥|#ff0000}"
+            "entry": "\u2007A {@color \u2665|#ff0000}"
           },
           "{@creature Gold dragon wyrmling} (friend)",
-          "—",
-          "—"
+          "\u2014",
+          "\u2014"
         ],
         [
           {
@@ -45,11 +45,11 @@
             "roll": {
               "exact": 3
             },
-            "entry": " K {@color ♦|#ff0000}"
+            "entry": "\u2007K {@color \u2666|#ff0000}"
           },
           "{@creature Ochre jelly} (lurker)",
           "2",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -57,11 +57,11 @@
             "roll": {
               "exact": 4
             },
-            "entry": " Q {@color ♥|#ff0000}"
+            "entry": "\u2007Q {@color \u2665|#ff0000}"
           },
           "{@creature Nothic} (twin)",
           "2",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -69,11 +69,11 @@
             "roll": {
               "exact": 5
             },
-            "entry": " Q {@color ♦|#ff0000}"
+            "entry": "\u2007Q {@color \u2666|#ff0000}"
           },
           "{@creature Nothic} (twin)",
           "2",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -81,7 +81,7 @@
             "roll": {
               "exact": 6
             },
-            "entry": "10 ♠"
+            "entry": "10 \u2660"
           },
           "{@creature Cult fanatic}",
           "2",
@@ -93,7 +93,7 @@
             "roll": {
               "exact": 7
             },
-            "entry": "10 ♣"
+            "entry": "10 \u2663"
           },
           "{@creature Veteran}",
           "3",
@@ -105,9 +105,9 @@
             "roll": {
               "exact": 8
             },
-            "entry": "10 {@color ♥|#ff0000}"
+            "entry": "10 {@color \u2665|#ff0000}"
           },
-          "{@creature Cultist} ×4",
+          "{@creature Cultist} \u00d74",
           "1/8",
           "Cultists"
         ],
@@ -117,7 +117,7 @@
             "roll": {
               "exact": 9
             },
-            "entry": "10 {@color ♦|#ff0000}"
+            "entry": "10 {@color \u2666|#ff0000}"
           },
           "{@creature Maw demon|MPMM}*",
           "1",
@@ -129,7 +129,7 @@
             "roll": {
               "exact": 10
             },
-            "entry": " 9 ♠"
+            "entry": "\u20079 \u2660"
           },
           "{@creature Gnoll fang of Yeenoghu}",
           "4",
@@ -141,7 +141,7 @@
             "roll": {
               "exact": 11
             },
-            "entry": " 9 {@color ♥|#ff0000}"
+            "entry": "\u20079 {@color \u2665|#ff0000}"
           },
           "{@creature Gnoll pack lord}",
           "2",
@@ -153,7 +153,7 @@
             "roll": {
               "exact": 12
             },
-            "entry": " 9 {@color ♦|#ff0000}"
+            "entry": "\u20079 {@color \u2666|#ff0000}"
           },
           "{@creature Gnoll}",
           "1/2",
@@ -165,11 +165,11 @@
             "roll": {
               "exact": 13
             },
-            "entry": " 8 {@color ♥|#ff0000}"
+            "entry": "\u20078 {@color \u2665|#ff0000}"
           },
           "{@creature Vrock}",
           "6",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -177,11 +177,11 @@
             "roll": {
               "exact": 14
             },
-            "entry": " 7 {@color ♥|#ff0000}"
+            "entry": "\u20077 {@color \u2665|#ff0000}"
           },
           "{@creature Harpy}",
           "1",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -189,11 +189,11 @@
             "roll": {
               "exact": 15
             },
-            "entry": " 7 {@color ♦|#ff0000}"
+            "entry": "\u20077 {@color \u2666|#ff0000}"
           },
           "{@creature Harpy}",
           "1",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -201,11 +201,11 @@
             "roll": {
               "exact": 16
             },
-            "entry": " 6 {@color ♥|#ff0000}"
+            "entry": "\u20076 {@color \u2665|#ff0000}"
           },
           "{@creature Manticore}",
           "3",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -213,11 +213,11 @@
             "roll": {
               "exact": 17
             },
-            "entry": " 5 {@color ♥|#ff0000}"
+            "entry": "\u20075 {@color \u2665|#ff0000}"
           },
           "{@creature Deathlock|MPMM}* (twin)",
           "4",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -225,11 +225,11 @@
             "roll": {
               "exact": 18
             },
-            "entry": " 5 {@color ♦|#ff0000}"
+            "entry": "\u20075 {@color \u2666|#ff0000}"
           },
-          "{@creature Ghoul} ×2 (twin)",
+          "{@creature Ghoul} \u00d72 (twin)",
           "1",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -237,11 +237,11 @@
             "roll": {
               "exact": 19
             },
-            "entry": " 4 {@color ♥|#ff0000}"
+            "entry": "\u20074 {@color \u2665|#ff0000}"
           },
           "{@creature Gibbering mouther} (lurker)",
           "2",
-          "—"
+          "\u2014"
         ],
         [
           {
@@ -249,11 +249,11 @@
             "roll": {
               "exact": 20
             },
-            "entry": " 3 {@color ♥|#ff0000}"
+            "entry": "\u20073 {@color \u2665|#ff0000}"
           },
           "{@creature Treant} (noncombat encounter)",
-          "—",
-          "—"
+          "\u2014",
+          "\u2014"
         ],
         [
           {
@@ -261,11 +261,11 @@
             "roll": {
               "exact": 21
             },
-            "entry": " 2 {@color ♦|#ff0000}"
+            "entry": "\u20072 {@color \u2666|#ff0000}"
           },
           "Draw two",
-          "—",
-          "—"
+          "\u2014",
+          "\u2014"
         ]
       ],
       "footnotes": [
@@ -283,5 +283,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Corrupted Lands",
+    "Encounter Deck",
+    "Creatures",
+    "Challenges",
+    "Groups"
   ]
 }

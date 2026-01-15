@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "Fog rolls in and plays harmless tricks on the characters, giving them fog mustaches, fog eyebrows, and fog wigs of many styles—perhaps even fog cloaks or fog companions."
+          "Fog rolls in and plays harmless tricks on the characters, giving them fog mustaches, fog eyebrows, and fog wigs of many styles\u2014perhaps even fog cloaks or fog companions."
         ],
         [
           "5",
@@ -56,5 +56,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Feywild",
+  "tags": [
+    "Weather",
+    "Environment",
+    "Feywild",
+    "Table",
+    "Roleplay"
   ]
 }

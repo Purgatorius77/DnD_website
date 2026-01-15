@@ -29,7 +29,7 @@
         ],
         [
           "5",
-          "Lawkeepers. A Deneith Fighter, a Deneith Paladin, a Lyrandar Sorcerer, and a Medani Rogue enforce the law—particularly the terms of the Treaty of Thronehold, which governs international law."
+          "Lawkeepers. A Deneith Fighter, a Deneith Paladin, a Lyrandar Sorcerer, and a Medani Rogue enforce the law\u2014particularly the terms of the Treaty of Thronehold, which governs international law."
         ],
         [
           "6",
@@ -51,5 +51,13 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Party Composition",
+  "tags": [
+    "Party Building",
+    "Dragonmarked Houses",
+    "Character Roles",
+    "Campaign Ideas"
   ]
 }

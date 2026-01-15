@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Eiselcross Encounters: Levels 17–20",
+      "caption": "Eiselcross Encounters: Levels 17\u201320",
       "colLabels": [
         "d8",
         "Encounter"
@@ -44,7 +44,7 @@
           "An {@creature ancient white dragon} ambushes the characters."
         ]
       ],
-      "name": "Eiselcross Encounters: Levels 17–20",
+      "name": "Eiselcross Encounters: Levels 17\u201320",
       "page": 122,
       "source": "EGW",
       "chapter": {
@@ -56,5 +56,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Eiselcross",
+    "Levels 17-20",
+    "Wildemount",
+    "Aeorian",
+    "Encounter Table"
   ]
 }

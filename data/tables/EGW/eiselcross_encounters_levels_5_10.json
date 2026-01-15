@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Eiselcross Encounters: Levels 5–10",
+      "caption": "Eiselcross Encounters: Levels 5\u201310",
       "colLabels": [
         "d6",
         "Encounter"
@@ -36,7 +36,7 @@
           "The characters encounter a large herd of elk. If the characters scare the elk, {@dice 1d6} {@creature elk} attack while the rest of the herd flees. During the combat, a {@creature remorhaz} bursts out of the snow and attacks indiscriminately."
         ]
       ],
-      "name": "Eiselcross Encounters: Levels 5–10",
+      "name": "Eiselcross Encounters: Levels 5\u201310",
       "page": 122,
       "source": "EGW",
       "chapter": {
@@ -48,5 +48,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Eiselcross",
+    "Levels 5-10",
+    "Wildemount",
+    "Monsters",
+    "Random Encounters"
   ]
 }
