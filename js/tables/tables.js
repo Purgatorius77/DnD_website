@@ -5,7 +5,7 @@ import { loadJSON } from "../data/dataloader.js";
 // For github this should be /DnD_website/data/index.json
 
 export async function initTables() {
-  const tablePaths = await loadJSON("../data/index.json");
+  const tablePaths = await loadJSON("/DnD_website/data/index.json");
   const tables = [];
 
   for (const path of tablePaths) {
@@ -177,3 +177,4 @@ if (table.sub_category) catSub.push(`Subcategory: ${table.sub_category}`);
     </table>
   `;
 }
+
