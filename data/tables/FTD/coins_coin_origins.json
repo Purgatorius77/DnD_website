@@ -16,19 +16,19 @@
           "Equivalent value in {@book trade goods|PHB|5|Trade Goods} (see the {@book Player's Handbook|PHB}) rather than coins"
         ],
         [
-          "2–3",
+          "2\u20133",
           "Coins from an ancient culture local to this region, ancestral to the people who live here now"
         ],
         [
-          "4–5",
+          "4\u20135",
           "Coins from an ancient culture in a distant region"
         ],
         [
-          "6–7",
+          "6\u20137",
           "Coins from a nearby contemporary culture"
         ],
         [
-          "8–9",
+          "8\u20139",
           "Coins from a local contemporary culture"
         ],
         [
@@ -48,5 +48,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Currency",
+  "tags": [
+    "Coins",
+    "Lairs and Hoards",
+    "Player's Handbook",
+    "Trade Goods",
+    "Culture"
   ]
 }
