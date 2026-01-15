@@ -21,7 +21,7 @@
         ],
         [
           "Pendulum clock",
-          "100–250 gp"
+          "100\u2013250 gp"
         ],
         [
           "Spectacles",
@@ -29,7 +29,7 @@
         ],
         [
           "Spyglass",
-          "50–100 gp"
+          "50\u2013100 gp"
         ]
       ],
       "name": "Comforts of Civilization; Cosmopolitan Conveniences",
@@ -40,5 +40,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Urban Exploration",
+  "tags": [
+    "Ravnica",
+    "Civilization",
+    "Items",
+    "Cost",
+    "Equipment"
   ]
 }

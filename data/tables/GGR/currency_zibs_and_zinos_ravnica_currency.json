@@ -18,43 +18,43 @@
         [
           "1 cp",
           "copper zib",
-          "—",
+          "\u2014",
           "copper alms-coin"
         ],
         [
           "25 cp",
           "silver 25-zib coin",
-          "—",
-          "—"
+          "\u2014",
+          "\u2014"
         ],
         [
           "1 ep",
           "electrum 50-zib coin",
-          "—",
-          "—"
+          "\u2014",
+          "\u2014"
         ],
         [
           "1 gp",
           "gold zino",
           "gold zino",
-          "—"
+          "\u2014"
         ],
         [
           "5 gp",
-          "—",
+          "\u2014",
           "gold 5-zino coin",
-          "—"
+          "\u2014"
         ],
         [
           "1 pp",
-          "—",
-          "—",
+          "\u2014",
+          "\u2014",
           "platinum 10-zino coin"
         ],
         [
           "10 pp",
-          "—",
-          "—",
+          "\u2014",
+          "\u2014",
           "platinum 100-zino coin"
         ]
       ],
@@ -66,5 +66,15 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Currency",
+  "tags": [
+    "Ravnica",
+    "Zibs",
+    "Zinos",
+    "Azorius",
+    "Boros",
+    "Orzhov"
   ]
 }
