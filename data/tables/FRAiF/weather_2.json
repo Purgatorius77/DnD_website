@@ -13,17 +13,17 @@
       ],
       "rows": [
         [
-          "1–6",
+          "1\u20136",
           "Strong",
           "Heavy snowfall or heavy rain"
         ],
         [
-          "7–12",
+          "7\u201312",
           "Light",
           "Light snowfall or light rain"
         ],
         [
-          "13–20",
+          "13\u201320",
           "None",
           "None"
         ]
@@ -39,5 +39,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Environment",
+  "tags": [
+    "Weather",
+    "Icewind Dale",
+    "Wind",
+    "Precipitation",
+    "Table"
   ]
 }

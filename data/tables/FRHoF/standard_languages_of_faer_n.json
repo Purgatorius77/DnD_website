@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Standard Languages of Faerûn",
+      "caption": "Standard Languages of Faer\u00fbn",
       "colLabels": [
         "1d100",
         "Language",
@@ -14,142 +14,142 @@
       ],
       "rows": [
         [
-          "—",
+          "\u2014",
           "{@language Common|XPHB}",
           "Sigil"
         ],
         [
-          "01–03",
+          "01\u201303",
           "{@language Aglarondan|FRHoF}",
           "Aglarond"
         ],
         [
-          "04–06",
+          "04\u201306",
           "{@language Alzhedo|FRHoF}",
           "Calimshan"
         ],
         [
-          "07–09",
+          "07\u201309",
           "{@language Bothii|FRHoF}",
           "Uthgardt nomads"
         ],
         [
-          "10–12",
+          "10\u201312",
           "{@language Chessentan|FRHoF}",
           "Chessenta"
         ],
         [
-          "13–15",
+          "13\u201315",
           "{@language Chondathan|FRHoF}",
           "Chondath"
         ],
         [
-          "16–18",
+          "16\u201318",
           "{@language Common Sign Language|XPHB}",
           "Sigil"
         ],
         [
-          "19–21",
+          "19\u201321",
           "{@language Damaran|FRHoF}",
           "Damara"
         ],
         [
-          "22–26",
+          "22\u201326",
           "{@language Draconic|XPHB}",
           "Dragons"
         ],
         [
-          "27–33",
+          "27\u201333",
           "{@language Dwarvish|XPHB}",
           "Dwarves"
         ],
         [
-          "34–40",
+          "34\u201340",
           "{@language Elvish|XPHB}",
           "Elves"
         ],
         [
-          "41–45",
+          "41\u201345",
           "{@language Giant|XPHB}",
           "Giants"
         ],
         [
-          "46–50",
+          "46\u201350",
           "{@language Gnomish|XPHB}",
           "Gnomes"
         ],
         [
-          "51–55",
+          "51\u201355",
           "{@language Goblin|XPHB}",
           "Goblinoids"
         ],
         [
-          "56–62",
+          "56\u201362",
           "{@language Halfling|XPHB}",
           "Halflings"
         ],
         [
-          "63–65",
+          "63\u201365",
           "{@language Illuskan|FRHoF}",
           "The North"
         ],
         [
-          "66–68",
+          "66\u201368",
           "{@language Lantanese|FRHoF}",
           "Lantan"
         ],
         [
-          "69–71",
+          "69\u201371",
           "{@language Midani|FRHoF}",
           "Bedine nomads"
         ],
         [
-          "72–74",
+          "72\u201374",
           "{@language Mulhorandi|FRHoF}",
           "Mulhorand"
         ],
         [
-          "75–77",
+          "75\u201377",
           "{@language Netherese|FRHoF}",
           "Netheril"
         ],
         [
-          "78–82",
+          "78\u201382",
           "{@language Orc|XPHB}",
           "Orcs"
         ],
         [
-          "83–85",
+          "83\u201385",
           "{@language Rashemi|FRHoF}",
           "Rashemen"
         ],
         [
-          "86–88",
+          "86\u201388",
           "{@language Reghedjic|FRHoF}",
           "Reghed nomads"
         ],
         [
-          "89–91",
+          "89\u201391",
           "{@language Sespech|FRHoF}",
           "Sespech"
         ],
         [
-          "92–94",
+          "92\u201394",
           "{@language Thayan|FRHoF}",
           "Thay"
         ],
         [
-          "95–97",
+          "95\u201397",
           "{@language Turmic|FRHoF}",
           "Turmish"
         ],
         [
-          "98–00",
+          "98\u201300",
           "{@language Untheric|FRHoF}",
           "Unther"
         ]
       ],
-      "name": "Standard Languages of Faerûn",
+      "name": "Standard Languages of Faer\u00fbn",
       "source": "FRHoF",
       "chapter": {
         "name": "A Guide to the Realms",
@@ -160,5 +160,14 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Languages",
+  "tags": [
+    "Faer\u00fbn",
+    "Standard Languages",
+    "Language Origin",
+    "Guide to the Realms",
+    "1d100"
   ]
 }

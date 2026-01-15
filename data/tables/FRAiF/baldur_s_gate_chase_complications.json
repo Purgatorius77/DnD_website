@@ -36,7 +36,7 @@
           "A spiky rune drawn under an eave pulses as you pass. Make a {@dc 12} Wisdom saving throw to resist its sinister influence. On a failed save, you take {@damage 4d4} Psychic damage."
         ],
         [
-          "7–12",
+          "7\u201312",
           "There is no complication."
         ]
       ],
@@ -51,5 +51,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Chase Complications",
+  "tags": [
+    "Baldur's Gate",
+    "Chase",
+    "Complications",
+    "Saving Throws",
+    "Obstacles"
   ]
 }

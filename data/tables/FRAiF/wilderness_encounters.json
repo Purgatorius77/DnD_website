@@ -56,5 +56,13 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Wilderness",
+    "Creatures",
+    "Environment",
+    "Random Encounters"
   ]
 }

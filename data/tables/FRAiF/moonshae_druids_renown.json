@@ -33,7 +33,7 @@
         ],
         [
           "30",
-          "The first time your Renown Score reaches 30, the druids offer to take you to a moonwell and cast the {@spell Commune|XPHB} spell—contacting {@area the Earthmother|32a|x}—on your behalf."
+          "The first time your Renown Score reaches 30, the druids offer to take you to a moonwell and cast the {@spell Commune|XPHB} spell\u2014contacting {@area the Earthmother|32a|x}\u2014on your behalf."
         ]
       ],
       "name": "Moonshae Druids Renown",
@@ -47,5 +47,14 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Factions & Reputation",
+  "tags": [
+    "Moonshae Druids",
+    "Renown",
+    "Rewards",
+    "Faction",
+    "Reputation"
   ]
 }

@@ -35,7 +35,7 @@
           "A {@creature Hook Horror|XMM} notices you. Make a {@dc 10} Wisdom or Charisma saving throw (your choice). On a failed save, the creature joins the chase with you as its quarry."
         ],
         [
-          "7–12",
+          "7\u201312",
           "There is no complication."
         ]
       ],
@@ -53,5 +53,15 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Challenges & Puzzles",
+  "tags": [
+    "Mine Cart",
+    "Chase",
+    "Complications",
+    "Saving Throws",
+    "Creatures",
+    "Conditions"
   ]
 }

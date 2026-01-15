@@ -25,7 +25,7 @@
         ],
         [
           "15",
-          "The first time your Renown Score reaches 15, the sultana offers you a governmental position in the city—such as district mayor—and gifts you 1,000 GP worth of coins, gemstones, and art objects."
+          "The first time your Renown Score reaches 15, the sultana offers you a governmental position in the city\u2014such as district mayor\u2014and gifts you 1,000 GP worth of coins, gemstones, and art objects."
         ],
         [
           "25+",
@@ -51,5 +51,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Factions & Reputation",
+  "tags": [
+    "Renown",
+    "Rewards",
+    "Calimshan",
+    "Sultana",
+    "Faction"
   ]
 }

@@ -18,7 +18,7 @@
         [
           "{@item Adventurer's Ring|FRHoF}",
           "Dalelands Wares",
-          "—",
+          "\u2014",
           "250 GP"
         ],
         [
@@ -36,7 +36,7 @@
         [
           "{@item Devil Mask|FRHoF}",
           "Baldur's Gate Wares",
-          "—",
+          "\u2014",
           "25 GP"
         ],
         [
@@ -66,8 +66,8 @@
         [
           "{@item Prosthetic Limb|FRHoF}",
           "Calimshan Wares",
-          "—",
-          "—"
+          "\u2014",
+          "\u2014"
         ],
         [
           "{@item Warm Fungal Clothing|FRHoF}",
@@ -78,7 +78,7 @@
         [
           "{@item Windskiff|FRAiF}",
           "Moonshae Isles Wares",
-          "—",
+          "\u2014",
           "4,000 GP"
         ],
         [
@@ -99,5 +99,13 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Adventuring Gear",
+  "tags": [
+    "Aurora's Whole Realms Catalog",
+    "Item",
+    "Cost",
+    "Weight"
   ]
 }

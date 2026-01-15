@@ -56,7 +56,7 @@
         ],
         [
           "11",
-          "The party spots a temple to a deity such as Chauntea, Ilmater, or Selûne. Long abandoned, it's protected by a {@creature Guardian Naga|XMM}."
+          "The party spots a temple to a deity such as Chauntea, Ilmater, or Sel\u00fbne. Long abandoned, it's protected by a {@creature Guardian Naga|XMM}."
         ],
         [
           "12",
@@ -72,7 +72,7 @@
         ],
         [
           "15",
-          "Scattered bones hint at a hidden treasure vault—it's home to a {@creature Sphinx of Secrets|XMM} that ambushes trespassers."
+          "Scattered bones hint at a hidden treasure vault\u2014it's home to a {@creature Sphinx of Secrets|XMM} that ambushes trespassers."
         ],
         [
           "16",
@@ -96,5 +96,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Desert",
+    "Calim",
+    "Encounter Table",
+    "Environment",
+    "Creatures"
   ]
 }

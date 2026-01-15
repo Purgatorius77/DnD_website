@@ -22,15 +22,15 @@
         [
           "Frigid Water",
           "Special*",
-          "{@dice 6d6 × 10} feet",
+          "{@dice 6d6 \u00d7 10} feet",
           "10",
           "10",
           "15"
         ],
         [
           "Hard Ice",
-          "Fast†",
-          "{@dice 6d6 × 10} feet",
+          "Fast\u2020",
+          "{@dice 6d6 \u00d7 10} feet",
           "20",
           "10",
           "10"
@@ -38,15 +38,15 @@
         [
           "Mud",
           "Slow",
-          "{@dice 6d6 × 10} feet",
+          "{@dice 6d6 \u00d7 10} feet",
           "10",
           "10",
           "15"
         ],
         [
           "Snow",
-          "Fast†",
-          "{@dice 6d6 × 10} feet",
+          "Fast\u2020",
+          "{@dice 6d6 \u00d7 10} feet",
           "20",
           "10",
           "10"
@@ -54,14 +54,14 @@
         [
           "Thin Ice",
           "Slow",
-          "{@dice 6d6 × 10} feet",
+          "{@dice 6d6 \u00d7 10} feet",
           "20",
           "15",
           "10"
         ]
       ],
       "footnotes": [
-        "*Characters' maximum pace while waterborne depends on the vehicle carrying them. †Appropriate equipment (such as a sled, skis, or snowshoes) is necessary to keep up a Fast pace in this terrain."
+        "*Characters' maximum pace while waterborne depends on the vehicle carrying them. \u2020Appropriate equipment (such as a sled, skis, or snowshoes) is necessary to keep up a Fast pace in this terrain."
       ],
       "name": "Icewind Dale Terrain; Icewind Dale Travel Terrain",
       "source": "FRAiF",
@@ -74,5 +74,15 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Travel",
+  "tags": [
+    "Icewind Dale",
+    "Terrain",
+    "Travel Pace",
+    "Encounter Distance",
+    "Foraging",
+    "Navigation"
   ]
 }

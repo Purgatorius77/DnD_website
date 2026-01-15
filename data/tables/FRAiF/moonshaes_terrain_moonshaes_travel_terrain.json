@@ -19,28 +19,28 @@
       "rows": [
         [
           "Dead Calm",
-          "{@dice 6d8 × 10} feet",
+          "{@dice 6d8 \u00d7 10} feet",
           "15",
           "10",
           "10"
         ],
         [
           "Entangling Kelp",
-          "{@dice 2d6 × 10} feet",
+          "{@dice 2d6 \u00d7 10} feet",
           "15",
           "10",
           "15"
         ],
         [
           "Reef",
-          "{@dice 4d6 × 10} feet",
+          "{@dice 4d6 \u00d7 10} feet",
           "10",
           "15",
           "15"
         ],
         [
           "Rusted Sea",
-          "{@dice 2d6 × 10} feet",
+          "{@dice 2d6 \u00d7 10} feet",
           "20",
           "10",
           "15"
@@ -57,5 +57,15 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Travel & Terrain",
+  "tags": [
+    "Moonshae Isles",
+    "Terrain",
+    "Encounter Distance",
+    "Foraging DC",
+    "Navigation DC",
+    "Search DC"
   ]
 }

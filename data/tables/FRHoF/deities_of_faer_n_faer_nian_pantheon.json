@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "caption": "Faerûnian Pantheon",
+      "caption": "Faer\u00fbnian Pantheon",
       "colLabels": [
         "Deity",
         "Home Plane",
@@ -14,220 +14,220 @@
       ],
       "rows": [
         [
-          "{@deity Amaunator|Faerûnian|FRHoF}, god of the sun",
+          "{@deity Amaunator|Faer\u00fbnian|FRHoF}, god of the sun",
           "Mechanus",
           "Farmers, lawmakers, travelers"
         ],
         [
-          "{@deity Asmodeus|Faerûnian|FRHoF}, god of indulgence",
+          "{@deity Asmodeus|Faer\u00fbnian|FRHoF}, god of indulgence",
           "The Nine Hells (Nessus)",
           "Corrupt politicians, desperate folk"
         ],
         [
-          "{@deity Auril|Faerûnian|FRHoF}, god of winter",
+          "{@deity Auril|Faer\u00fbnian|FRHoF}, god of winter",
           "Pandemonium (Pandesmos)",
           "Druids, inhabitants of cold climates"
         ],
         [
-          "{@deity Azuth|Faerûnian|FRHoF}, god of wizardry",
+          "{@deity Azuth|Faer\u00fbnian|FRHoF}, god of wizardry",
           "Arcadia (Buxenus)",
           "Arcane spellcasters"
         ],
         [
-          "{@deity Bane|Faerûnian|FRHoF}, god of tyranny",
+          "{@deity Bane|Faer\u00fbnian|FRHoF}, god of tyranny",
           "Acheron (Avalas)",
           "Conquerors, Fighters, Monks, tyrants"
         ],
         [
-          "{@deity Beshaba|Faerûnian|FRHoF}, god of misfortune",
+          "{@deity Beshaba|Faer\u00fbnian|FRHoF}, god of misfortune",
           "The Abyss",
           "Gamblers, {@area Red Wizards|3ae|x}, Rogues"
         ],
         [
-          "{@deity Bhaal|Faerûnian|FRHoF}, god of murder",
+          "{@deity Bhaal|Faer\u00fbnian|FRHoF}, god of murder",
           "Gehenna (Khalas)",
           "Assassins, murderers"
         ],
         [
-          "{@deity Chauntea|Faerûnian|FRHoF}, god of agriculture",
+          "{@deity Chauntea|Faer\u00fbnian|FRHoF}, god of agriculture",
           "Elysium (Eronia)",
           "Farmers, gardeners, homesteaders"
         ],
         [
-          "{@deity Cyric|Faerûnian|FRHoF}, god of lies",
+          "{@deity Cyric|Faer\u00fbnian|FRHoF}, god of lies",
           "Pandemonium (Cocytus)",
           "Liars, manipulators, power-hungry folk"
         ],
         [
-          "{@deity Deneir|Faerûnian|FRHoF}, god of writing",
+          "{@deity Deneir|Faer\u00fbnian|FRHoF}, god of writing",
           "Elysium (Amoria)",
           "Sages, scribes, students, teachers"
         ],
         [
-          "{@deity Eilistraee|Faerûnian|FRHoF}, god of song and moonlight",
+          "{@deity Eilistraee|Faer\u00fbnian|FRHoF}, god of song and moonlight",
           "Arborea (Arvandor)",
           "Bladesingers, elves, performing artists"
         ],
         [
-          "{@deity Eldath|Faerûnian|FRHoF}, god of peace",
+          "{@deity Eldath|Faer\u00fbnian|FRHoF}, god of peace",
           "Elysium (Eronia)",
           "Druids, pacifists, the dying"
         ],
         [
-          "{@deity Gond|Faerûnian|FRHoF}, god of craft",
+          "{@deity Gond|Faer\u00fbnian|FRHoF}, god of craft",
           "The Outlands",
           "Artificers, crafters, engineers, inventors"
         ],
         [
-          "{@deity Helm|Faerûnian|FRHoF}, god of watchfulness",
+          "{@deity Helm|Faer\u00fbnian|FRHoF}, god of watchfulness",
           "Mechanus",
           "Explorers, Fighters, guards, Paladins"
         ],
         [
-          "{@deity Ilmater|Faerûnian|FRHoF}, god of endurance",
+          "{@deity Ilmater|Faer\u00fbnian|FRHoF}, god of endurance",
           "Bytopia (Shurrock)",
           "Monks, the oppressed, the poor"
         ],
         [
-          "{@deity Kelemvor|Faerûnian|FRHoF}, god of the dead",
+          "{@deity Kelemvor|Faer\u00fbnian|FRHoF}, god of the dead",
           "Astral Plane (Fugue Plane)",
           "Funeral workers, the dying"
         ],
         [
-          "{@deity Lathander|Faerûnian|FRHoF}, god of dawn and renewal",
+          "{@deity Lathander|Faer\u00fbnian|FRHoF}, god of dawn and renewal",
           "Elysium (Eronia)",
           "Aristocrats, athletes, merchants, youths"
         ],
         [
-          "{@deity Leira|Faerûnian|FRHoF}, god of illusion",
+          "{@deity Leira|Faer\u00fbnian|FRHoF}, god of illusion",
           "Limbo",
           "Actors, con artists, Illusionists, Rogues"
         ],
         [
-          "{@deity Lliira|Faerûnian|FRHoF}, god of joy",
+          "{@deity Lliira|Faer\u00fbnian|FRHoF}, god of joy",
           "Arborea (Arvandor)",
           "Bards, dancers, poets, revelers, singers"
         ],
         [
-          "{@deity Lolth|Faerûnian|FRHoF}, god of spiders",
+          "{@deity Lolth|Faer\u00fbnian|FRHoF}, god of spiders",
           "The Abyss (Demonweb Pits)",
           "Evil drow, folk who travel the Underdark"
         ],
         [
-          "{@deity Loviatar|Faerûnian|FRHoF}, god of pain",
+          "{@deity Loviatar|Faer\u00fbnian|FRHoF}, god of pain",
           "Gehenna (Mungoth)",
           "Those suffering from pain or betrayal"
         ],
         [
-          "{@deity Malar|Faerûnian|FRHoF}, god of the hunt",
+          "{@deity Malar|Faer\u00fbnian|FRHoF}, god of the hunt",
           "Carceri (Colothys)",
           "Barbarians, hunters, lycanthropes"
         ],
         [
-          "{@deity Mask|Faerûnian|FRHoF}, god of thieves",
+          "{@deity Mask|Faer\u00fbnian|FRHoF}, god of thieves",
           "Hades (Niflheim)",
           "Assassins, Rogues, thieves, tricksters"
         ],
         [
-          "{@deity Mielikki|Faerûnian|FRHoF}, god of forests",
+          "{@deity Mielikki|Faer\u00fbnian|FRHoF}, god of forests",
           "The Beastlands (Krigala)",
           "Fey, foresters, Rangers"
         ],
         [
-          "{@deity Milil|Faerûnian|FRHoF}, god of poetry and song",
+          "{@deity Milil|Faer\u00fbnian|FRHoF}, god of poetry and song",
           "Elysium (Amoria)",
           "Bards, orators, poets, singers"
         ],
         [
-          "{@deity Myrkul|Faerûnian|FRHoF}, god of death",
+          "{@deity Myrkul|Faer\u00fbnian|FRHoF}, god of death",
           "Hades (Oinos)",
           "Necromancers, undead"
         ],
         [
-          "{@deity Mystra|Faerûnian|FRHoF}, god of magic",
+          "{@deity Mystra|Faer\u00fbnian|FRHoF}, god of magic",
           "Elysium (Eronia)",
           "Anyone who uses magic"
         ],
         [
-          "{@deity Oghma|Faerûnian|FRHoF}, god of knowledge",
+          "{@deity Oghma|Faer\u00fbnian|FRHoF}, god of knowledge",
           "The Outlands",
           "Archivists, cartographers, sages"
         ],
         [
-          "{@deity The Red Knight|Faerûnian|FRHoF}, god of strategy",
+          "{@deity The Red Knight|Faer\u00fbnian|FRHoF}, god of strategy",
           "Arcadia (Buxenus)",
           "Fighters, game players, strategists"
         ],
         [
-          "{@deity Selûne|Faerûnian|FRHoF}, god of the moon",
+          "{@deity Sel\u00fbne|Faer\u00fbnian|FRHoF}, god of the moon",
           "Ysgard (Ysgard)",
           "Lycanthropes, sailors, spellcasters"
         ],
         [
-          "{@deity Shar|Faerûnian|FRHoF}, god of darkness and loss",
+          "{@deity Shar|Faer\u00fbnian|FRHoF}, god of darkness and loss",
           "Hades (Niflheim)",
           "Anyone suffering pain or loss"
         ],
         [
-          "{@deity Shaundakul|Faerûnian|FRHoF}, god of travel",
+          "{@deity Shaundakul|Faer\u00fbnian|FRHoF}, god of travel",
           "Ysgard (Ysgard)",
           "Guides, explorers, Rangers, travelers"
         ],
         [
-          "{@deity Silvanus|Faerûnian|FRHoF}, god of wild nature",
+          "{@deity Silvanus|Faer\u00fbnian|FRHoF}, god of wild nature",
           "The Outlands",
           "Barbarians, Druids, Rangers, wood elves"
         ],
         [
-          "{@deity Sune|Faerûnian|FRHoF}, god of love and beauty",
+          "{@deity Sune|Faer\u00fbnian|FRHoF}, god of love and beauty",
           "Arborea (Arvandor)",
           "Artists, hedonists, lovers"
         ],
         [
-          "{@deity Talona|Faerûnian|FRHoF}, god of poison and disease",
+          "{@deity Talona|Faer\u00fbnian|FRHoF}, god of poison and disease",
           "Carceri (Cathrys)",
           "Those suffering from plague"
         ],
         [
-          "{@deity Talos|Faerûnian|FRHoF}, god of storms",
+          "{@deity Talos|Faer\u00fbnian|FRHoF}, god of storms",
           "Pandemonium (Pandesmos)",
           "Barbarians, Druids, raiders"
         ],
         [
-          "{@deity Tempus|Faerûnian|FRHoF}, god of war",
+          "{@deity Tempus|Faer\u00fbnian|FRHoF}, god of war",
           "Limbo",
           "Fighters, mercenaries, warriors"
         ],
         [
-          "{@deity Torm|Faerûnian|FRHoF}, god of courage and self-sacrifice",
+          "{@deity Torm|Faer\u00fbnian|FRHoF}, god of courage and self-sacrifice",
           "Mount Celestia (Mercuria)",
           "Guardians, knights, Paladins"
         ],
         [
-          "{@deity Tymora|Faerûnian|FRHoF}, god of good fortune",
+          "{@deity Tymora|Faer\u00fbnian|FRHoF}, god of good fortune",
           "Arborea (Arvandor)",
           "Gamblers, {@area Harpers|35f|x}, merchants, Rogues"
         ],
         [
-          "{@deity Tyr|Faerûnian|FRHoF}, god of justice",
+          "{@deity Tyr|Faer\u00fbnian|FRHoF}, god of justice",
           "Mount Celestia (Lunia)",
           "Judges, law enforcers, lawyers, Paladins"
         ],
         [
-          "{@deity Umberlee|Faerûnian|FRHoF}, god of the sea",
+          "{@deity Umberlee|Faer\u00fbnian|FRHoF}, god of the sea",
           "The Abyss",
           "Coastal dwellers, sailors"
         ],
         [
-          "{@deity Waukeen|Faerûnian|FRHoF}, god of trade",
+          "{@deity Waukeen|Faer\u00fbnian|FRHoF}, god of trade",
           "The Outlands",
           "Merchants, the rich, traders"
         ]
       ],
-      "name": "Deities of Faerûn; Faerûnian Pantheon",
+      "name": "Deities of Faer\u00fbn; Faer\u00fbnian Pantheon",
       "source": "FRHoF",
       "chapter": {
-        "name": "Gods of Faerûn",
+        "name": "Gods of Faer\u00fbn",
         "ordinal": {
           "type": "chapter",
           "identifier": 3
@@ -235,5 +235,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Deities",
+  "tags": [
+    "Faer\u00fbn",
+    "Pantheon",
+    "Gods",
+    "Worshipers",
+    "Home Plane"
   ]
 }

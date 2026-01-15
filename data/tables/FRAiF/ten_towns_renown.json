@@ -21,7 +21,7 @@
         ],
         [
           "10",
-          "The first time your Renown Score reaches 10, a settlement merchant gifts you 100 GP worth of adventuring gear (see the {@book Player's Handbook|XPHB} and chapter 4 of {@book Forgotten Realms: Heroes of Faerûn|FRHoF})."
+          "The first time your Renown Score reaches 10, a settlement merchant gifts you 100 GP worth of adventuring gear (see the {@book Player's Handbook|XPHB} and chapter 4 of {@book Forgotten Realms: Heroes of Faer\u00fbn|FRHoF})."
         ],
         [
           "15+",
@@ -43,5 +43,15 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Renown & Reputation",
+  "tags": [
+    "Icewind Dale",
+    "Ten-Towns",
+    "Renown Score",
+    "Rewards",
+    "Player's Handbook",
+    "Forgotten Realms: Heroes of Faer\u00fbn"
   ]
 }

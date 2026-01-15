@@ -211,7 +211,7 @@
         [
           "{@area Tears Fall|06d|x}",
           "5",
-          "Deity (Selûne)"
+          "Deity (Sel\u00fbne)"
         ],
         [
           "{@area The Temple of Transmutation|1a6|x}",
@@ -280,5 +280,15 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Campaigns",
+  "tags": [
+    "Forgotten Realms",
+    "Adventure",
+    "Running the Realms",
+    "Deity",
+    "High Magic",
+    "Location"
   ]
 }

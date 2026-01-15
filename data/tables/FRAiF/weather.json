@@ -13,19 +13,19 @@
       "rows": [
         [
           "1",
-          "{@dice 1d4 × 20} degrees Fahrenheit colder"
+          "{@dice 1d4 \u00d7 20} degrees Fahrenheit colder"
         ],
         [
-          "2–5",
-          "{@dice 1d4 × 10} degrees Fahrenheit colder"
+          "2\u20135",
+          "{@dice 1d4 \u00d7 10} degrees Fahrenheit colder"
         ],
         [
-          "6–16",
+          "6\u201316",
           "Normal for the season"
         ],
         [
-          "17–20",
-          "{@dice 1d4 × 10} degrees Fahrenheit hotter"
+          "17\u201320",
+          "{@dice 1d4 \u00d7 10} degrees Fahrenheit hotter"
         ]
       ],
       "name": "Weather",
@@ -39,5 +39,13 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Environment",
+  "tags": [
+    "Weather",
+    "Icewind Dale",
+    "Temperature",
+    "Dice roll"
   ]
 }

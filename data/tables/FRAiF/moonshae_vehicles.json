@@ -63,7 +63,7 @@
           "3 mph",
           "6",
           "1",
-          "–",
+          "\u2013",
           "13",
           "100",
           "10",
@@ -81,5 +81,15 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Vehicles",
+  "tags": [
+    "Moonshae Isles",
+    "Ships",
+    "Transportation",
+    "Travel",
+    "Cost",
+    "Stats"
   ]
 }
