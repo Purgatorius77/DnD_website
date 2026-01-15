@@ -109,7 +109,7 @@ categoryDiv.addEventListener("change", () => {
   filterTables();
 });
 
-  subcategoryDiv.addEventListener("change", filterTables);
+subcategoryDiv.addEventListener("change", filterTables);
   nameInput.addEventListener("input", filterTables);
   sourceDiv.addEventListener("change", filterTables);
   tableSelect.addEventListener("change", () => {
@@ -157,8 +157,7 @@ function buildTableSourceCheckboxes() {
 }
 
 function buildTableCategoryCheckboxes() {
-  const categories = [...new Set(tables.map(t => t.top_category).filter(Boolean))].sort();
-
+  const categories = [...new Set(tables.map(t => t.category).filter(Boolean))].sort();
 
   categoryDiv.innerHTML = "";
 
@@ -186,12 +185,12 @@ function buildTableSubcategoryCheckboxes() {
 
   const previousSelections = [...subcategoryDiv.querySelectorAll("input:checked")].map(cb => cb.value);
 
-const subcategories = [...new Set(
-  tables
-    .filter(t => selectedCategories.includes(t.top_category))
-    .map(t => t.sub_category)
-    .filter(Boolean)
-)].sort();
+  const subcategories = [...new Set(
+    tables
+      .filter(t => selectedCategories.includes(t.category))
+      .map(t => t.subcategory)
+      .filter(Boolean)
+  )].sort();
 
   subcategoryDiv.innerHTML = "";
 
@@ -245,9 +244,9 @@ function filterTables() {
 
     if (selectedSources.length && !selectedSources.includes(t.source)) return false;
 
-if (selectedCategories.length && !selectedCategories.includes(t.top_category)) return false;
+    if (selectedCategories.length && !selectedCategories.includes(t.category)) return false;
 
-if (selectedSubcategories.length && !selectedSubcategories.includes(t.sub_category)) return false;
+    if (selectedSubcategories.length && !selectedSubcategories.includes(t.subcategory)) return false;
 
     return true;
   });
