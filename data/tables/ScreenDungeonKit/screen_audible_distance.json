@@ -13,15 +13,15 @@
       "rows": [
         [
           "Trying to be quiet",
-          "{@dice 2d6 × 5} feet"
+          "{@dice 2d6 \u00d7 5} feet"
         ],
         [
           "Normal noise level",
-          "{@dice 2d6 × 10} feet"
+          "{@dice 2d6 \u00d7 10} feet"
         ],
         [
           "Very loud",
-          "{@dice 2d6 × 50} feet"
+          "{@dice 2d6 \u00d7 50} feet"
         ]
       ],
       "name": "Screen; Audible Distance",
@@ -31,5 +31,13 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "DM Tools",
+  "sub_category": "Screen",
+  "tags": [
+    "Audible Distance",
+    "Noise",
+    "Distance",
+    "Game Mechanics"
   ]
 }

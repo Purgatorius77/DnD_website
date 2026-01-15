@@ -12,203 +12,203 @@
       ],
       "rows": [
         [
-          "01–02",
+          "01\u201302",
           "Handaxe blade (used as a hand chopper)"
         ],
         [
-          "03–04",
+          "03\u201304",
           "Dented metal helm (used as a bowl)"
         ],
         [
-          "05–06",
+          "05\u201306",
           "Moldy and stinky wheel of cheese"
         ],
         [
-          "07–08",
+          "07\u201308",
           "Giant-sized shabby cloak (wool or hide)"
         ],
         [
-          "09–10",
+          "09\u201310",
           "Giant-sized bone comb"
         ],
         [
-          "11–12",
+          "11\u201312",
           "Iron cooking pot"
         ],
         [
-          "13–14",
+          "13\u201314",
           "Giant-sized drinking horn"
         ],
         [
-          "15–16",
+          "15\u201316",
           "Giant-sized skinning knife"
         ],
         [
-          "17–18",
+          "17\u201318",
           "Haunch of meat"
         ],
         [
-          "19–20",
+          "19\u201320",
           "Mangy fur pelt"
         ],
         [
-          "21–22",
+          "21\u201322",
           "Small bag of salt"
         ],
         [
-          "23–24",
+          "23\u201324",
           "Giant-sized pair of old sandals"
         ],
         [
-          "25–26",
+          "25\u201326",
           "Giant-sized waterskin (full)"
         ],
         [
-          "27–28",
+          "27\u201328",
           "Cask of ale (half empty)"
         ],
         [
-          "29–30",
+          "29\u201330",
           "Giant-sized necklace made of bones (hill), stone beads (stone), dragon fangs (frost), iron ingots (fire), feathers (cloud), or starfish (storm)"
         ],
         [
-          "31–32",
+          "31\u201332",
           "5-foot length of chain"
         ],
         [
-          "33–34",
+          "33\u201334",
           "{@dice 1d6} humanoid skulls"
         ],
         [
-          "35–36",
+          "35\u201336",
           "Bag of dried mushrooms"
         ],
         [
-          "37–38",
+          "37\u201338",
           "50-foot coil of hempen rope"
         ],
         [
-          "39–40",
+          "39\u201340",
           "3-foot-tall idol depicting Grolantor (hill), Skoraeus Stonebones (stone), Thrym (frost), Surtur (fire), Memnor (cloud), or Stronmaus (storm)"
         ],
         [
-          "41–42",
+          "41\u201342",
           "{@dice 1d6} dead trout"
         ],
         [
-          "43–44",
+          "43\u201344",
           "Dented steel shield"
         ],
         [
-          "45–46",
+          "45\u201346",
           "Wooden oar"
         ],
         [
-          "47–48",
+          "47\u201348",
           "Empty wooden barrel"
         ],
         [
-          "49–50",
+          "49\u201350",
           "30-foot-long hempen rope tied to a wooden bucket"
         ],
         [
-          "51–52",
+          "51\u201352",
           "Bundled-up tent"
         ],
         [
-          "53–54",
+          "53\u201354",
           "Riding saddle"
         ],
         [
-          "55–56",
+          "55\u201356",
           "Stuffed animal"
         ],
         [
-          "57–58",
+          "57\u201358",
           "Live animal (chicken, goat, {@creature pig|SKT}, or {@creature sheep|SKT})"
         ],
         [
-          "59–60",
+          "59\u201360",
           "{@dice 1d6} moldy loaves of bread"
         ],
         [
-          "61–62",
+          "61\u201362",
           "6-foot-long wooden fence post"
         ],
         [
-          "63–64",
+          "63\u201364",
           "Wooden door with twisted iron hinges"
         ],
         [
-          "65–66",
+          "65\u201366",
           "Empty wooden chest (unlocked)"
         ],
         [
-          "67–68",
+          "67\u201368",
           "Rocking chair"
         ],
         [
-          "69–70",
+          "69\u201370",
           "Painted rocking horse or wooden toboggan"
         ],
         [
-          "71–72",
+          "71\u201372",
           "{@dice 1d6} dragon scales"
         ],
         [
-          "73–74",
+          "73\u201374",
           "Carved stone statue of a dwarf or human"
         ],
         [
-          "75–76",
+          "75\u201376",
           "Wooden mannequin or target dummy"
         ],
         [
-          "77–78",
+          "77\u201378",
           "Coffin or small casket"
         ],
         [
-          "79–80",
+          "79\u201380",
           "Cauldron or giant-sized kettle"
         ],
         [
-          "81–82",
+          "81\u201382",
           "Giant-sized smoking pipe"
         ],
         [
-          "83–84",
+          "83\u201384",
           "Bronze gong"
         ],
         [
-          "85–86",
+          "85\u201386",
           "Iron bell (with or without its clapper)"
         ],
         [
-          "87–88",
+          "87\u201388",
           "Beehive"
         ],
         [
-          "89–90",
+          "89\u201390",
           "Giant-sized drum"
         ],
         [
-          "91–92",
+          "91\u201392",
           "Carved wooden statue of an elf or halfling"
         ],
         [
-          "93–94",
+          "93\u201394",
           "Uprooted shrub or berry bush"
         ],
         [
-          "95–96",
+          "95\u201396",
           "10-foot-long hempen rope tied to a rowboat anchor"
         ],
         [
-          "97–98",
+          "97\u201398",
           "Wagon wheel"
         ],
         [
-          "99–00",
+          "99\u201300",
           "Tombstone"
         ]
       ],
@@ -220,5 +220,13 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Monsters",
+  "sub_category": "Giant",
+  "tags": [
+    "Items",
+    "Loot",
+    "Equipment",
+    "Random Table"
   ]
 }

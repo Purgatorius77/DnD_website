@@ -21,7 +21,7 @@
         ],
         [
           "Rival",
-          "−2"
+          "\u22122"
         ]
       ],
       "name": "Relationships; Starting Relationship Points",
@@ -36,5 +36,14 @@
         "index": 3
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Character Development",
+  "tags": [
+    "Relationships",
+    "Points",
+    "Character Interaction",
+    "School Is in Session",
+    "Roleplay"
   ]
 }

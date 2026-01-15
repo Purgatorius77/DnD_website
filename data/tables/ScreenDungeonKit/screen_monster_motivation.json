@@ -12,35 +12,35 @@
       ],
       "rows": [
         [
-          "1–2",
+          "1\u20132",
           "Find a sanctuary"
         ],
         [
-          "3–5",
+          "3\u20135",
           "Conquer the dungeon"
         ],
         [
-          "6–8",
+          "6\u20138",
           "Seek an item"
         ],
         [
-          "9–11",
+          "9\u201311",
           "Slay a rival"
         ],
         [
-          "12–13",
+          "12\u201313",
           "Hide from enemies"
         ],
         [
-          "14–15",
+          "14\u201315",
           "Recover from a battle"
         ],
         [
-          "16–17",
+          "16\u201317",
           "Avoid danger"
         ],
         [
-          "18–20",
+          "18\u201320",
           "Seek wealth"
         ]
       ],
@@ -51,5 +51,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Monsters",
+  "sub_category": "Monster Behavior",
+  "tags": [
+    "Monster Motivation",
+    "DM Tools",
+    "Screen",
+    "Monster Goals",
+    "D20"
   ]
 }

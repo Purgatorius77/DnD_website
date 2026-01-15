@@ -50,5 +50,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "DM Tools",
+  "sub_category": "Dungeon Design",
+  "tags": [
+    "Dungeon Conditions",
+    "Hazards",
+    "Traps",
+    "Terrain",
+    "Stealth"
   ]
 }

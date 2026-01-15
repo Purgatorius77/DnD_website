@@ -47,5 +47,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Armor",
+  "tags": [
+    "Armor Class",
+    "Object",
+    "Screen",
+    "Substance",
+    "AC"
   ]
 }

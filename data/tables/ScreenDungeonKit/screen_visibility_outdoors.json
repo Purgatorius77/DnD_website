@@ -25,7 +25,7 @@
         ],
         [
           "From a height",
-          "× 20"
+          "\u00d7 20"
         ]
       ],
       "name": "Screen; Visibility Outdoors",
@@ -35,5 +35,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Environment",
+  "tags": [
+    "Visibility",
+    "Outdoors",
+    "Weather",
+    "Distance",
+    "Screen"
   ]
 }

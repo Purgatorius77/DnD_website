@@ -44,9 +44,9 @@
           "style": "row-indent-first",
           "row": [
             "Lowered hood",
-            "—",
+            "\u2014",
             "+ 5 ft.",
-            "—"
+            "\u2014"
           ]
         },
         [
@@ -63,5 +63,14 @@
         "index": 0
       }
     }
+  ],
+  "top_category": "Equipment",
+  "sub_category": "Light Sources",
+  "tags": [
+    "Light",
+    "Duration",
+    "Bright Light",
+    "Dim Light",
+    "Source"
   ]
 }
