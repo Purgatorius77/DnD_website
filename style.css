@@ -987,9 +987,6 @@ button {
   min-width: max-content;
 }
 
-
-
-
 .content-column {
   flex: 1;
   max-width: 1000px;
@@ -997,7 +994,7 @@ button {
   width: 100%;
   display: flex;
   flex-direction: column;
-    height: 100%;
+  height: 100%;
   overflow-y: auto;
 }
 
@@ -1136,7 +1133,6 @@ button {
   word-wrap: normal;
   overflow-wrap: normal;
 }
-
 
 .items-table-wrap td {
   padding: 10px 14px;
@@ -1451,6 +1447,7 @@ button {
   border-right: none;
 
 }
+
 /* =========================
    fluff STATBLOCK
 ========================= */
@@ -1507,4 +1504,3 @@ button {
 #fluff-statblock td:last-child {
   border-right: none;
 }
-
