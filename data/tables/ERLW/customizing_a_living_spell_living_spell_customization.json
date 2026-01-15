@@ -12,11 +12,11 @@
       ],
       "rows": [
         [
-          "1–2",
+          "1\u20132",
           "Living burning hands"
         ],
         [
-          "3–4",
+          "3\u20134",
           "Living lightning bolt"
         ],
         [
@@ -32,5 +32,14 @@
         "index": 13
       }
     }
+  ],
+  "top_category": "Monsters",
+  "sub_category": "Living Spells",
+  "tags": [
+    "Spell Level",
+    "Stat Block",
+    "Customization",
+    "Friends and Foes",
+    "Living Spell"
   ]
 }

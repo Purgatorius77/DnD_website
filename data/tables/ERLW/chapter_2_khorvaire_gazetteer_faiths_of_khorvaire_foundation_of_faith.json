@@ -17,7 +17,7 @@
         ],
         [
           "2",
-          "Someone you care about—a mentor, a friend, or a lover—introduced you to the faith."
+          "Someone you care about\u2014a mentor, a friend, or a lover\u2014introduced you to the faith."
         ],
         [
           "3",
@@ -48,5 +48,14 @@
         "index": 7
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Religion",
+  "tags": [
+    "Khorvaire",
+    "Faith",
+    "Background",
+    "Character Creation",
+    "Roleplay"
   ]
 }

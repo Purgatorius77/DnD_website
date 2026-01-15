@@ -33,7 +33,7 @@
         ],
         [
           "6",
-          "A cleric from Karrnath who aspires to learn the arts of necromancy—for the noblest aims, of course"
+          "A cleric from Karrnath who aspires to learn the arts of necromancy\u2014for the noblest aims, of course"
         ],
         [
           "7",
@@ -64,5 +64,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Race Origins",
+  "tags": [
+    "Humans",
+    "Origins",
+    "Backgrounds",
+    "Character Background",
+    "Character History"
   ]
 }

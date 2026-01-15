@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "This inn is haunted by a ghost who loves to sit by the fireplace and tell stories—but it has been accused of more sinister activities once the fire burns down to embers and the guests are in their beds."
+          "This inn is haunted by a ghost who loves to sit by the fireplace and tell stories\u2014but it has been accused of more sinister activities once the fire burns down to embers and the guests are in their beds."
         ],
         [
           "5",
@@ -33,7 +33,7 @@
         ],
         [
           "6",
-          "This inn offers \"the true Talenta experience\"—the halfling family that runs it keeps pet dinosaurs."
+          "This inn offers \"the true Talenta experience\"\u2014the halfling family that runs it keeps pet dinosaurs."
         ]
       ],
       "name": "Inn Attractions",
@@ -48,5 +48,14 @@
         "index": 10
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Locations",
+  "tags": [
+    "Inns",
+    "Eberron",
+    "Attractions",
+    "NPCs",
+    "Storytelling"
   ]
 }

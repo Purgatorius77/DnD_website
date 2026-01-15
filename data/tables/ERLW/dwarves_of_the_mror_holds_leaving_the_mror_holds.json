@@ -41,7 +41,7 @@
         ],
         [
           "8",
-          "You want to understand how the other peoples of Khorvaire—especially the goblins and orcs—have fought the daelkyr."
+          "You want to understand how the other peoples of Khorvaire\u2014especially the goblins and orcs\u2014have fought the daelkyr."
         ]
       ],
       "name": "Dwarves of the Mror Holds; Leaving the Mror Holds",
@@ -56,5 +56,14 @@
         "index": 1
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Backgrounds",
+  "tags": [
+    "Dwarves",
+    "Mror Holds",
+    "Character Background",
+    "Roleplay",
+    "Storytelling"
   ]
 }

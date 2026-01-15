@@ -29,7 +29,7 @@
         ],
         [
           "5",
-          "A street vendor is selling unusual souvenirs from the war—pieces of a warforged titan, shards of an airship, and other curiosities."
+          "A street vendor is selling unusual souvenirs from the war\u2014pieces of a warforged titan, shards of an airship, and other curiosities."
         ],
         [
           "6",
@@ -48,5 +48,14 @@
         "index": 10
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Campaigns",
+  "tags": [
+    "Eberron",
+    "The Last War",
+    "Roleplay",
+    "NPC Interaction",
+    "World Building"
   ]
 }

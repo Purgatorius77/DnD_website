@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "During a plague, a House Jorasco healer chooses which victims to cure and which to let die—and worse, which ones live to spread the plague to the house's enemies."
+          "During a plague, a House Jorasco healer chooses which victims to cure and which to let die\u2014and worse, which ones live to spread the plague to the house's enemies."
         ],
         [
           "5",
@@ -72,5 +72,14 @@
         "index": 9
       }
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "NPCs",
+  "tags": [
+    "Eberron",
+    "Dragonmarked Houses",
+    "Adventure Hooks",
+    "NPCs",
+    "Campaign Building"
   ]
 }

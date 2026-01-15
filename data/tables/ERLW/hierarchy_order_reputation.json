@@ -25,7 +25,7 @@
         ],
         [
           "4",
-          "{@b Rebels}. You flout the dictates of your hierarchy—even if it's for just reasons. Your superiors constantly try to rein you in."
+          "{@b Rebels}. You flout the dictates of your hierarchy\u2014even if it's for just reasons. Your superiors constantly try to rein you in."
         ],
         [
           "5",
@@ -48,5 +48,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Character Creation",
+  "sub_category": "Group Patrons",
+  "tags": [
+    "Hierarchy",
+    "Order Reputation",
+    "Roleplay",
+    "Character Background",
+    "Faith"
   ]
 }

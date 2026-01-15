@@ -44,7 +44,7 @@
         ],
         [
           "The Bazaar",
-          "The largest commercial district in Sharn, an excellent place to buy or sell used—and possibly stolen—goods.",
+          "The largest commercial district in Sharn, an excellent place to buy or sell used\u2014and possibly stolen\u2014goods.",
           "Middle Dura"
         ],
         [
@@ -125,5 +125,14 @@
         "index": 8
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Locations",
+  "tags": [
+    "Sharn",
+    "City of Towers",
+    "Districts",
+    "Dura Quarter",
+    "Eberron"
   ]
 }
