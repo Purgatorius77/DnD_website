@@ -40,7 +40,7 @@
         ],
         [
           "Lortmil Mountains, the",
-          "—",
+          "\u2014",
           "Natural border between the Old Keoland region and the Central Flanaess"
         ],
         [
@@ -86,5 +86,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "World Building",
+  "tags": [
+    "Keoland",
+    "Locations",
+    "Rulers",
+    "Campaign Creation",
+    "World Lore"
   ]
 }

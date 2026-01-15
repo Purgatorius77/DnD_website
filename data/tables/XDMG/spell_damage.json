@@ -76,5 +76,15 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "DM Tools",
+  "sub_category": "Game Mechanics",
+  "tags": [
+    "Spell Damage",
+    "Damage Calculation",
+    "Spell Level",
+    "DM's Toolbox",
+    "One Target",
+    "Multiple Targets"
   ]
 }

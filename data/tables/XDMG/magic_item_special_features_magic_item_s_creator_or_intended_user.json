@@ -28,7 +28,7 @@
           "Dragon. This item incorporates precious metals and gems from a dragon's hoard. It grows warm when within 120 feet of a Dragon."
         ],
         [
-          "5–6",
+          "5\u20136",
           "Dwarf. The item is durable and has Dwarvish runes worked into its design. It might be associated with a clan that would like to see it returned to their ancestral halls."
         ],
         [
@@ -48,7 +48,7 @@
           "Elemental Water. Lustrous fish scales replace leather or cloth on this item, and seashells and worked coral (as hard as any metal) replace metal portions."
         ],
         [
-          "11–12",
+          "11\u201312",
           "Elf. The item is half the normal weight. It is adorned with symbols of nature: leaves, vines, stars, and the like."
         ],
         [
@@ -68,7 +68,7 @@
           "Gnome. The item is crafted to appear ordinary and well used. It could also incorporate gears and mechanical components, even if these aren't essential to its function."
         ],
         [
-          "17–19",
+          "17\u201319",
           "Human. The item was created during the heyday of a fallen human kingdom, or it is tied to a human of legend. It might hold writing in a forgotten language or symbols whose significance is lost to the ages."
         ],
         [
@@ -88,5 +88,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Magic Items",
+  "tags": [
+    "Magic Item Features",
+    "Item Creator",
+    "Item User",
+    "Lore",
+    "Item Description"
   ]
 }

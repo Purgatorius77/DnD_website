@@ -22,7 +22,7 @@
       ],
       "rows": [
         [
-          "1–4 (tier 1)",
+          "1\u20134 (tier 1)",
           "6",
           "4",
           "1",
@@ -31,7 +31,7 @@
           "11"
         ],
         [
-          "5–10 (tier 2)",
+          "5\u201310 (tier 2)",
           "10",
           "17",
           "6",
@@ -40,7 +40,7 @@
           "34"
         ],
         [
-          "11–16 (tier 3)",
+          "11\u201316 (tier 3)",
           "3",
           "7",
           "11",
@@ -49,7 +49,7 @@
           "30"
         ],
         [
-          "17–20 (tier 4)",
+          "17\u201320 (tier 4)",
           "0",
           "0",
           "5",
@@ -79,5 +79,16 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Magic Items",
+  "tags": [
+    "Character Level",
+    "Tier of Play",
+    "Common Items",
+    "Uncommon Items",
+    "Rare Items",
+    "Very Rare Items",
+    "Legendary Items"
   ]
 }

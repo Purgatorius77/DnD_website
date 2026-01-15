@@ -16,27 +16,27 @@
           "Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on itself. Each creature in that area takes {@dice 4d10} Force damage."
         ],
         [
-          "02–08",
+          "02\u201308",
           "Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see \"{@book Poison|XDMG|2|Poison}\" in {@book chapter 3|XDMG|2})."
         ],
         [
-          "09–15",
+          "09\u201315",
           "Both potions lose their effects."
         ],
         [
-          "16–25",
+          "16\u201325",
           "One potion loses its effect."
         ],
         [
-          "26–35",
+          "26\u201335",
           "Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect."
         ],
         [
-          "36–90",
+          "36\u201390",
           "Both potions work normally."
         ],
         [
-          "91–99",
+          "91\u201399",
           "Both potions work, but the numerical effects and duration of one potion are doubled. If neither potion has anything to double in this way, they work normally."
         ],
         [
@@ -56,5 +56,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Potions",
+  "tags": [
+    "Potion Mixing",
+    "Potion Effects",
+    "Miscibility",
+    "Magic Items",
+    "DM Tools"
   ]
 }

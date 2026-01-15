@@ -15,7 +15,7 @@
       "rows": [
         [
           "Dry Steppes, the",
-          "—",
+          "\u2014",
           "Desert where the Baklunish empire once stood"
         ],
         [
@@ -35,7 +35,7 @@
         ],
         [
           "Sea of Dust, the",
-          "—",
+          "\u2014",
           "Wasteland where the Suel Imperium once stood"
         ],
         [
@@ -66,5 +66,14 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "Creating Campaigns",
+  "tags": [
+    "Locations",
+    "Flanaess",
+    "Campaign Building",
+    "World Building",
+    "Rulers"
   ]
 }

@@ -12,11 +12,11 @@
       ],
       "rows": [
         [
-          "1–6",
+          "1\u20136",
           "The item communicates by transmitting emotion to the creature carrying or wielding it."
         ],
         [
-          "7–9",
+          "7\u20139",
           "The item speaks one or more languages."
         ],
         [
@@ -36,5 +36,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Sentient Items",
+  "tags": [
+    "Communication",
+    "Special Purpose",
+    "Sentient Item",
+    "Table",
+    "Treasure"
   ]
 }

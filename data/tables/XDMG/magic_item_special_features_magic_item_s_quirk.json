@@ -29,7 +29,7 @@
         ],
         [
           "5",
-          "Loud. The item makes a loud noise—such as a clang, a shout, or a resonating gong—when used."
+          "Loud. The item makes a loud noise\u2014such as a clang, a shout, or a resonating gong\u2014when used."
         ],
         [
           "6",
@@ -56,5 +56,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Magic Items",
+  "tags": [
+    "Magic Item Features",
+    "Quirks",
+    "Item Properties",
+    "Treasure",
+    "Loot"
   ]
 }

@@ -12,47 +12,47 @@
       ],
       "rows": [
         [
-          "01–08",
+          "01\u201308",
           "{@item Armor of Invulnerability|XDMG}"
         ],
         [
-          "09–18",
+          "09\u201318",
           "{@item +3 Armor|XDMG|Armor, +3}"
         ],
         [
-          "19–27",
+          "19\u201327",
           "{@item Enspelled Staff|XDMG} (level 6, 7, or 8 spell)"
         ],
         [
-          "28–36",
+          "28\u201336",
           "{@item Holy Avenger|XDMG}"
         ],
         [
-          "37–45",
+          "37\u201345",
           "{@item Horn of Valhalla, Iron|XDMG|Horn of Valhalla (iron)}"
         ],
         [
-          "46–54",
+          "46\u201354",
           "{@item Rod of Resurrection|XDMG}"
         ],
         [
-          "55–63",
+          "55\u201363",
           "{@item Scarab of Protection|XDMG}"
         ],
         [
-          "64–72",
+          "64\u201372",
           "{@item Scroll of Titan Summoning|XDMG}"
         ],
         [
-          "73–80",
+          "73\u201380",
           "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 9)|XDMG|level 9} spell)"
         ],
         [
-          "81–90",
+          "81\u201390",
           "{@item Talisman of Pure Good|XDMG}"
         ],
         [
-          "91–00",
+          "91\u201300",
           "{@item Talisman of Ultimate Evil|XDMG}"
         ]
       ],
@@ -68,5 +68,13 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Relics",
+  "tags": [
+    "Legendary",
+    "Armor",
+    "Weapons",
+    "Magic Items"
   ]
 }

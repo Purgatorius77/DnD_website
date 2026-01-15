@@ -12,39 +12,39 @@
       ],
       "rows": [
         [
-          "01–15",
+          "01\u201315",
           "Lawful Good"
         ],
         [
-          "16–35",
+          "16\u201335",
           "Neutral Good"
         ],
         [
-          "36–50",
+          "36\u201350",
           "Chaotic Good"
         ],
         [
-          "51–63",
+          "51\u201363",
           "Lawful Neutral"
         ],
         [
-          "64–73",
+          "64\u201373",
           "Neutral"
         ],
         [
-          "74–85",
+          "74\u201385",
           "Chaotic Neutral"
         ],
         [
-          "86–89",
+          "86\u201389",
           "Lawful Evil"
         ],
         [
-          "90–96",
+          "90\u201396",
           "Neutral Evil"
         ],
         [
-          "97–00",
+          "97\u201300",
           "Chaotic Evil"
         ]
       ],
@@ -60,5 +60,13 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Sentient Items",
+  "tags": [
+    "Alignment",
+    "Special Purpose",
+    "Magic Items",
+    "Table"
   ]
 }

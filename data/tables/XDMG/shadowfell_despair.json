@@ -12,11 +12,11 @@
       ],
       "rows": [
         [
-          "1–3",
+          "1\u20133",
           "Apathy. The character has {@variantrule Disadvantage|XPHB} on {@variantrule Death Saving Throw|XPHB|Death Saving Throws} and {@variantrule Initiative|XPHB} rolls."
         ],
         [
-          "4–5",
+          "4\u20135",
           "Dread. The character has {@variantrule Disadvantage|XPHB} on all saving throws."
         ],
         [
@@ -36,5 +36,14 @@
         "index": 5
       }
     }
+  ],
+  "top_category": "Lore",
+  "sub_category": "Cosmology",
+  "tags": [
+    "Shadowfell",
+    "Despair",
+    "Effects",
+    "Saving Throws",
+    "Initiative"
   ]
 }

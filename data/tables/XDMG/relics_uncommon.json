@@ -12,71 +12,71 @@
       ],
       "rows": [
         [
-          "01–05",
+          "01\u201305",
           "{@item Enspelled Staff|XDMG} (cantrip or level 1 spell)"
         ],
         [
-          "06–10",
+          "06\u201310",
           "{@item Keoghtom's Ointment|XDMG}"
         ],
         [
-          "11–15",
+          "11\u201315",
           "{@item Mariner's Armor|XDMG}"
         ],
         [
-          "16–20",
+          "16\u201320",
           "{@item Nature's Mantle|XDMG}"
         ],
         [
-          "21–25",
+          "21\u201325",
           "{@item Pearl of Power|XDMG}"
         ],
         [
-          "26–30",
+          "26\u201330",
           "{@item Periapt of Health|XDMG}"
         ],
         [
-          "31–35",
+          "31\u201335",
           "{@item Periapt of Wound Closure|XDMG}"
         ],
         [
-          "36–40",
+          "36\u201340",
           "{@item Potion of Animal Friendship|XDMG}"
         ],
         [
-          "41–55",
+          "41\u201355",
           "{@item Potion of Greater Healing|XDMG|Potion of Healing (greater)}"
         ],
         [
-          "56–60",
+          "56\u201360",
           "{@item Potion of Resistance|XDMG}"
         ],
         [
-          "61–65",
+          "61\u201365",
           "{@item Ring of Water Walking|XDMG}"
         ],
         [
-          "66–70",
+          "66\u201370",
           "{@item Sending Stones|XDMG}"
         ],
         [
-          "71–80",
+          "71\u201380",
           "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 2)|XDMG|level 2} or {@item Spell Scroll (Level 3)|XDMG|level 3} spell)"
         ],
         [
-          "81–85",
+          "81\u201385",
           "{@item Staff of the Adder|XDMG}"
         ],
         [
-          "86–90",
+          "86\u201390",
           "{@item Staff of the Python|XDMG}"
         ],
         [
-          "91–95",
+          "91\u201395",
           "{@item Wand of Magic Detection|XDMG}"
         ],
         [
-          "96–00",
+          "96\u201300",
           "{@item +1 Wand of the War Mage|XDMG|Wand of the War Mage, +1}"
         ]
       ],
@@ -92,5 +92,14 @@
         "index": 6
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Relics",
+  "tags": [
+    "Uncommon Items",
+    "Magic Items",
+    "Loot",
+    "Treasure",
+    "Equipment"
   ]
 }

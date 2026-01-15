@@ -205,5 +205,15 @@
         "index": 7
       }
     }
+  ],
+  "top_category": "Resources",
+  "sub_category": "Bastions",
+  "tags": [
+    "Special Facilities",
+    "Arcane Study",
+    "Armory",
+    "Barrack",
+    "Garden",
+    "Library"
   ]
 }

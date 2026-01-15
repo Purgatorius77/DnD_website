@@ -25,13 +25,13 @@
         ],
         [
           "Barren Wastes, the",
-          "—",
+          "\u2014",
           "Harsh, despoiled land where dragons roam and sometimes go to die"
         ],
         [
           "Chakyik",
           "Lord Agul Krusef (human)",
-          "Land of the Tiger Nomads—horse riders with scattered trading outposts"
+          "Land of the Tiger Nomads\u2014horse riders with scattered trading outposts"
         ],
         [
           "Hunting Lands, the",
@@ -66,7 +66,7 @@
         [
           "Wegwiur",
           "Wolf-Mother Bargra Yefkos (human)",
-          "Land of the Wolf Nomads—horse riders engaged in war against Iuz"
+          "Land of the Wolf Nomads\u2014horse riders engaged in war against Iuz"
         ]
       ],
       "name": "Northern Flanaess Locations",
@@ -81,5 +81,15 @@
         "index": 4
       }
     }
+  ],
+  "top_category": "Campaigns",
+  "sub_category": "Creating Campaigns",
+  "tags": [
+    "Locations",
+    "Flanaess",
+    "Campaign Building",
+    "World Building",
+    "Rulers",
+    "Descriptions"
   ]
 }

@@ -51,5 +51,13 @@
         "index": 2
       }
     }
+  ],
+  "top_category": "Treasure & Loot",
+  "sub_category": "Magic Items",
+  "tags": [
+    "Power Level",
+    "Magic Item Rarity",
+    "Spell Level",
+    "Item Bonus"
   ]
 }
