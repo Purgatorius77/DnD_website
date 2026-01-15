@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Arctic Encounters (Levels 11—16)",
+      "name": "Arctic Encounters (Levels 11\u201416)",
       "type": "table",
       "source": "XGE",
       "page": 92,
-      "caption": "Arctic Encounters (Levels 11—16)",
+      "caption": "Arctic Encounters (Levels 11\u201416)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -81,5 +81,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Arctic",
+    "Levels 11-16",
+    "Creatures",
+    "Weather",
+    "Random Encounters"
   ]
 }

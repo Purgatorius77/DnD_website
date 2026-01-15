@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Grassland Encounters (Levels 1—5)",
+      "name": "Grassland Encounters (Levels 1\u20145)",
       "type": "table",
       "source": "XGE",
       "page": 100,
-      "caption": "Grassland Encounters (Levels 1—5)",
+      "caption": "Grassland Encounters (Levels 1\u20145)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -185,5 +185,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Grassland",
+    "Levels 1-5",
+    "Creatures",
+    "Random Encounters",
+    "D100"
   ]
 }

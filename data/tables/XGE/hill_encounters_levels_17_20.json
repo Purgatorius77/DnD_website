@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Hill Encounters (Levels 17—20)",
+      "name": "Hill Encounters (Levels 17\u201420)",
       "type": "table",
       "source": "XGE",
       "page": 101,
-      "caption": "Hill Encounters (Levels 17—20)",
+      "caption": "Hill Encounters (Levels 17\u201420)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -105,5 +105,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Hill",
+    "Levels 17-20",
+    "Creatures",
+    "Random Encounter",
+    "High Level"
   ]
 }

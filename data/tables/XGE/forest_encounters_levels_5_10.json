@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Forest Encounters (Levels 5—10)",
+      "name": "Forest Encounters (Levels 5\u201410)",
       "type": "table",
       "source": "XGE",
       "page": 97,
-      "caption": "Forest Encounters (Levels 5—10)",
+      "caption": "Forest Encounters (Levels 5\u201410)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -269,5 +269,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Forest",
+    "Levels 5-10",
+    "Creatures",
+    "Random Encounters",
+    "D100"
   ]
 }

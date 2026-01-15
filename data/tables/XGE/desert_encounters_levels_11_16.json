@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Desert Encounters (Levels 11—16)",
+      "name": "Desert Encounters (Levels 11\u201416)",
       "type": "table",
       "source": "XGE",
       "page": 95,
-      "caption": "Desert Encounters (Levels 11—16)",
+      "caption": "Desert Encounters (Levels 11\u201416)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -161,5 +161,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Desert",
+    "Levels 11-16",
+    "Creatures",
+    "Encounter Table",
+    "D100"
   ]
 }

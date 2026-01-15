@@ -129,5 +129,15 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Hill Encounters",
+    "Levels 11-16",
+    "Creatures",
+    "Random Encounters",
+    "D100",
+    "Encounter Generation"
   ]
 }

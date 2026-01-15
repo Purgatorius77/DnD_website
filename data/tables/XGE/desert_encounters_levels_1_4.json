@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Desert Encounters (Levels 1—4)",
+      "name": "Desert Encounters (Levels 1\u20144)",
       "type": "table",
       "source": "XGE",
       "page": 95,
-      "caption": "Desert Encounters (Levels 1—4)",
+      "caption": "Desert Encounters (Levels 1\u20144)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -245,5 +245,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Desert",
+    "Levels 1-4",
+    "Creatures",
+    "Random Encounters",
+    "Environment"
   ]
 }

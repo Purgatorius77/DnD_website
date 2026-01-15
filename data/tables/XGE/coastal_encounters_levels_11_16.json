@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Coastal Encounters (Levels 11—16)",
+      "name": "Coastal Encounters (Levels 11\u201416)",
       "type": "table",
       "source": "XGE",
       "page": 93,
-      "caption": "Coastal Encounters (Levels 11—16)",
+      "caption": "Coastal Encounters (Levels 11\u201416)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -113,5 +113,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Coastal",
+    "Levels 11-16",
+    "Creatures",
+    "Random Encounters",
+    "D100"
   ]
 }

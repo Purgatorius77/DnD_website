@@ -1,11 +1,11 @@
 {
   "table": [
     {
-      "name": "Forest Encounters (Levels 11—16)",
+      "name": "Forest Encounters (Levels 11\u201416)",
       "type": "table",
       "source": "XGE",
       "page": 97,
-      "caption": "Forest Encounters (Levels 11—16)",
+      "caption": "Forest Encounters (Levels 11\u201416)",
       "colLabels": [
         "{@dice d100}",
         "Encounter"
@@ -149,5 +149,14 @@
         ]
       ]
     }
+  ],
+  "top_category": "Adventuring",
+  "sub_category": "Encounters",
+  "tags": [
+    "Forest",
+    "Levels 11-16",
+    "Creatures",
+    "Random Encounters",
+    "D100"
   ]
 }
