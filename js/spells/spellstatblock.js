@@ -116,6 +116,14 @@ function renderEntry(entry) {
     return `<p>${cleanSpellText(entry)}</p>`;
   }
 
+// Named entry blocks (e.g. Prestidigitation options)
+if (entry.type === "entries") {
+  const inner = entry.entries.map(renderEntry).join("");
+  const title = entry.name ? `<strong>${entry.name}.</strong> ` : "";
+  return `<p>${title}${inner}</p>`;
+}
+
+
   // Tables
   if (entry.type === "table") {
     return renderTable(entry);
