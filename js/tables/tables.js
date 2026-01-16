@@ -5,7 +5,7 @@ import { loadJSON } from "../data/dataloader.js";
 // For github this should be /DnD_website/data/index.json
 
 export async function initTables() {
-  const tablePaths = await loadJSON("/DnD_website/data/index.json");
+  const tablePaths = await loadJSON("../data/index.json");
   const tables = [];
 
   for (const path of tablePaths) {
@@ -74,7 +74,7 @@ export function cleanText(text) {
       // @vehicle
   text = text.replace(/\{@vehicle ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
 
-  
+  text = text.replace(/\{@race ([^|}]+)(?:\|[^}]+)?\}/g, "$1");
   
   return text;
 }
@@ -106,7 +106,7 @@ export function cleanTableText(text) {
     .replace(/\{@skill\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
     .replace(/\{@condition\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
     .replace(/\{@sense\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
-    .replace(/\{@(spell|item|creature|feat|background|action|vehicle)\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$2")
+    .replace(/\{@(spell|item|creature|feat|background|action|vehicle|race)\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$2")
     .replace(/\{@table\s+([^|}]+)(?:\|[^|}]+)?(?:\|([^}]+))?\}/gi, (_, name, display) => display || name)
     .replace(/\{@book\s+([^|}]+)(?:\|[^}]*)?\}/gi, "$1")
     .replace(/\{@variantrule\s+([^|}]+)(?:\|[^}]*)?\}/gi, "<em>$1</em>")
@@ -177,4 +177,3 @@ if (table.sub_category) catSub.push(`Subcategory: ${table.sub_category}`);
     </table>
   `;
 }
-
