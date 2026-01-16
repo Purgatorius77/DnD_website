@@ -25,6 +25,8 @@ export function initSpellStatblock(spellData) {
 // =================== RENDER CORE ===================
 
 function renderSpell(spell) {
+  console.log("SPELL RENDERED:", spell);
+
   if (!spell) return;
 
   document.getElementById("spell-statblock").style.display = "block";
@@ -168,8 +170,20 @@ function renderTable(table) {
 }
 
 function cleanSpellText(text) {
+  // Handle roll cells like { type: "cell", roll: { exact: 1 } }
+  if (typeof text === "object" && text?.roll?.exact !== undefined) {
+    return text.roll.exact;
+  }
+
+  // Handle non-strings safely
+  if (typeof text !== "string") {
+    return "";
+  }
+
+  // Replace 5eTools inline tags
   return text.replace(/\{@\w+\s+([^}|]+)(?:\|[^}]*)*\}/g, (_, c) => c);
 }
+
 
 function formatSpellRange(range) {
   if (!range?.distance) return range?.type ?? "Unknown";
