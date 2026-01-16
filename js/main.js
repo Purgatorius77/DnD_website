@@ -10,7 +10,7 @@ import { initRulesStatblock } from "./rules/rules.js";
 import { initCharacterFilters } from "./filters/characterfilter.js";
 import { initCharacterStatblock } from "./characters/characters.js";
 import { initcosmicStrain } from "./characters/cosmicStrain.js";
-import { initcosmicStrain2 } from "./characters/cosmicStrain2.js";
+import { initFracture } from "./characters/fracture.js";
 import { initcosmicStrain3 } from "./characters/cosmicStrain3.js";
 import { initItemsFilters} from "./filters/itemfilters.js";
 import { initItems} from "./items/items.js";
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initCharacterFilters();
   initCharacterStatblock();
   initcosmicStrain();
-  initcosmicStrain2();
+  initFracture();
   initcosmicStrain3();  
   initItemsFilters();
   initItems();
