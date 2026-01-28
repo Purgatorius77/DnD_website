@@ -284,7 +284,7 @@ export function initFracture(containerId = "character-statblock") {
 <tr><th>d100</th><th>Effect</th></tr>
 <tr><td>41</td><td>Disadvantage on your next roll.</td></tr>
 <tr><td>42</td><td>You lose your reaction until next turn.</td></tr>
-<tr><td>43</td><td>Take 1d6 psychic damage.</td></tr>
+<tr><td>43</td><td>Take 1d3 psychic damage.</td></tr>
 <tr><td>44</td><td>Your speed is reduced by 10 ft until next turn.</td></tr>
 <tr><td>45</td><td>Disadvantage on concentration saves (1 round).</td></tr>
 <tr><td>46</td><td>No bonus action next turn.</td></tr>
@@ -313,7 +313,7 @@ export function initFracture(containerId = "character-statblock") {
 <table class="strain-table">
 <tr><th>d100</th><th>Effect</th></tr>
 <tr><td>66</td><td>Advantage on your next roll.</td></tr>
-<tr><td>67</td><td>Regain 1d6 HP.</td></tr>
+<tr><td>67</td><td>Regain 1d3 HP.</td></tr>
 <tr><td>68</td><td>Regain one 1st-level spell slot.</td></tr>
 <tr><td>69</td><td>+2 AC until next turn.</td></tr>
 <tr><td>70</td><td>Ignore resistance for one spell.</td></tr>
@@ -407,3 +407,4 @@ export function initFracture(containerId = "character-statblock") {
     `;
   }
 }
+
